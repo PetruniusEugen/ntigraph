@@ -1,0 +1,992 @@
+{
+ "classes": [
+  {
+   "code": "DataSet",
+   "name": "Набор данных",
+   "comment": "[BFO: ICE → IAO_0000100 data set] Информационная сущность, управляемая как единое целое (владение, качество, каталогизация). Не файл и не таблица: носитель — «Хранилище данных».",
+   "attributes": [
+    {
+     "code": "criticality",
+     "name": "критичность",
+     "type": "string",
+     "comment": "Уровень критичности: низкая, средняя, высокая."
+    },
+    {
+     "code": "classification",
+     "name": "класс конфиденциальности",
+     "type": "string",
+     "comment": "Публичные, внутренние, конфиденциальные, персональные данные."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DATA",
+     "name": "Данные и информационные сущности"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataElement",
+   "name": "Элемент данных",
+   "comment": "[BFO: ICE → IAO_0000027 data item] Наименьшая отдельно управляемая единица набора данных, имеющая бизнес-смысл.",
+   "attributes": [
+    {
+     "code": "dataType",
+     "name": "тип данных",
+     "type": "string",
+     "comment": "Формат значения: строка, число, дата."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DATA",
+     "name": "Данные и информационные сущности"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataCatalogEntry",
+   "name": "Запись каталога данных",
+   "comment": "[BFO: ICE → IAO_0000030] Информационная сущность с метаданными набора данных: описание, владелец, стюард, классификация.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DATA",
+     "name": "Данные и информационные сущности"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "BusinessGlossaryTerm",
+   "name": "Термин бизнес-глоссария",
+   "comment": "[BFO: ICE → IAO_0000300 textual entity] Текст, определяющий бизнес-смысл элемента данных в согласованном словаре.",
+   "attributes": [
+    {
+     "code": "definition",
+     "name": "определение",
+     "type": "string",
+     "comment": "Аристотелевское определение термина."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DATA",
+     "name": "Данные и информационные сущности"
+    },
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataStore",
+   "name": "Хранилище данных",
+   "comment": "[BFO: object aggregate, BFO_0000027] Материальный носитель данных (оборудование и ПО хранения). Качество данных присуще именно носителю.",
+   "attributes": [
+    {
+     "code": "technology",
+     "name": "технология",
+     "type": "string",
+     "comment": "СУБД, хранилище, озеро данных."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DATA",
+     "name": "Данные и информационные сущности"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "InformationSystem",
+   "name": "Информационная система",
+   "comment": "[BFO: object aggregate, BFO_0000027] Совокупность хранилищ, ПО и оборудования, поддерживающая бизнес-процесс.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DATA",
+     "name": "Данные и информационные сущности"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataQualityTool",
+   "name": "Инструмент контроля качества данных",
+   "comment": "[BFO: object aggregate ⊂ Информационная система] Система, созданная для профилирования, валидации и мониторинга данных.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Person",
+   "name": "Человек",
+   "comment": "[BFO: object, BFO_0000030] Материальный объект — человек, который может нести роли в управлении данными. «Сотрудник» — это роль, а не подкласс.",
+   "attributes": [
+    {
+     "code": "fullName",
+     "name": "ФИО",
+     "type": "string",
+     "comment": "Полное имя."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Organization",
+   "name": "Организация",
+   "comment": "[BFO: object aggregate, BFO_0000027] Объединение людей для общей цели. TODO: verify IRI — выровнять с OBI organization.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataGovernanceBody",
+   "name": "Орган управления данными",
+   "comment": "[BFO: object aggregate ⊂ Организация] Организация, уполномоченная утверждать политики данных и разрешать конфликты владения и качества (совет по данным).",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataManagementRole",
+   "name": "Роль в управлении данными",
+   "comment": "[BFO: role, BFO_0000023] Роль, присущая человеку (inheres in some Person) и реализуемая в процессах управления данными.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataOwnerRole",
+   "name": "Роль владельца данных",
+   "comment": "[BFO: role ⊂ Роль в управлении данными] Роль человека, отвечающего за набор данных, доступ к нему и целевые показатели качества.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataStewardRole",
+   "name": "Роль стюарда данных",
+   "comment": "[BFO: role ⊂ Роль в управлении данными] Роль человека, который ежедневно курирует определения, качество и метаданные набора данных.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataCustodianRole",
+   "name": "Роль хранителя данных",
+   "comment": "[BFO: role ⊂ Роль в управлении данными] Роль человека, эксплуатирующего и защищающего хранилище, на котором лежат данные.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataConsumerRole",
+   "name": "Роль потребителя данных",
+   "comment": "[BFO: role ⊂ Роль в управлении данными] Роль человека, использующего наборы данных в рабочих процессах.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ChiefDataOfficerRole",
+   "name": "Роль директора по данным",
+   "comment": "[BFO: role ⊂ Роль в управлении данными] Роль человека, отвечающего за программу Data Governance в целом.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataPolicy",
+   "name": "Политика данных",
+   "comment": "[BFO: ICE → IAO_0000033 directive information entity] Директивная сущность: принципы и обязательства по управлению данными, утверждаемые органом управления данными.",
+   "attributes": [
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Номер версии политики."
+    },
+    {
+     "code": "approvedAt",
+     "name": "дата утверждения",
+     "type": "date",
+     "comment": "Дата утверждения политики."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataStandard",
+   "name": "Стандарт данных",
+   "comment": "[BFO: ICE → IAO_0000033 directive information entity] Директивная сущность: форматы, определения или процедуры, конкретизирующие политику.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "RegulatoryRequirement",
+   "name": "Нормативное требование",
+   "comment": "[BFO: ICE → IAO_0000033 directive information entity] Требование внешнего регулятора к сбору, хранению и использованию данных.",
+   "attributes": [
+    {
+     "code": "code",
+     "name": "код требования",
+     "type": "string",
+     "comment": "Идентификатор требования в реестре."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataQualityRule",
+   "name": "Правило качества данных",
+   "comment": "[BFO: ICE → IAO_0000033 directive information entity] Проверяемое условие (с порогом) для элемента данных по измерению качества.",
+   "attributes": [
+    {
+     "code": "expression",
+     "name": "формальное выражение",
+     "type": "string",
+     "comment": "Условие в формализованном виде."
+    },
+    {
+     "code": "threshold",
+     "name": "пороговое значение",
+     "type": "string",
+     "comment": "Допустимый уровень, например 98%."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataQualityMetric",
+   "name": "Метрика качества данных",
+   "comment": "[BFO: ICE → IAO_0000104 plan specification] Спецификация количественного измерения: формула, единица, выборка. Допущение: метрика трактуется как спецификация плана измерения.",
+   "attributes": [
+    {
+     "code": "formula",
+     "name": "формула",
+     "type": "string",
+     "comment": "Как вычисляется значение."
+    },
+    {
+     "code": "unit",
+     "name": "единица измерения",
+     "type": "string",
+     "comment": "Проценты, штуки, часы."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataQualityMeasurement",
+   "name": "Результат измерения качества данных",
+   "comment": "[BFO: ICE → IAO_0000109 measurement datum] Зафиксированное значение измерения качества, полученное по метрике для набора данных в момент времени.",
+   "attributes": [
+    {
+     "code": "value",
+     "name": "значение",
+     "type": "string",
+     "comment": "Измеренное значение."
+    },
+    {
+     "code": "measuredAt",
+     "name": "дата измерения",
+     "type": "date",
+     "comment": "Дата измерения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataQuality",
+   "name": "Качество данных",
+   "comment": "[BFO: quality, BFO_0000019] Качество хранилища данных: степень соответствия данных на носителе заявленным требованиям. Измерения — подклассы. Результат измерения — отдельная ICE.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Completeness",
+   "name": "Полнота",
+   "comment": "[BFO: quality ⊂ Качество данных] Степень, в которой присутствуют все требуемые значения.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Accuracy",
+   "name": "Точность",
+   "comment": "[BFO: quality ⊂ Качество данных] Степень соответствия хранимых значений фактам реального мира.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Consistency",
+   "name": "Согласованность",
+   "comment": "[BFO: quality ⊂ Качество данных] Степень отсутствия противоречий между одинаковыми фактами в разных наборах данных.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Timeliness",
+   "name": "Своевременность",
+   "comment": "[BFO: quality ⊂ Качество данных] Степень актуальности данных для их использования.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Uniqueness",
+   "name": "Уникальность",
+   "comment": "[BFO: quality ⊂ Качество данных] Степень, в которой каждая сущность реального мира представлена один раз.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Validity",
+   "name": "Валидность",
+   "comment": "[BFO: quality ⊂ Качество данных] Степень соответствия значений требуемому формату, типу и домену.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataValidationFunction",
+   "name": "Функция валидации данных",
+   "comment": "[BFO: function, BFO_0000034] Функция, присущая инструменту по замыслу и реализуемая, когда он проверяет данные по правилам качества.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataManagementProcess",
+   "name": "Процесс управления данными",
+   "comment": "[BFO: process, BFO_0000015] Процесс, в котором люди и системы планируют, контролируют и предоставляют данные как актив организации.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    },
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataGovernanceProcess",
+   "name": "Процесс Data Governance",
+   "comment": "[BFO: process ⊂ Процесс управления данными] Процесс установления и обеспечения власти и ответственности над данными.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "PolicyDevelopmentProcess",
+   "name": "Процесс разработки политики данных",
+   "comment": "[BFO: process ⊂ Процесс Data Governance] Процесс, на выходе которого политика данных.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataStewardshipProcess",
+   "name": "Процесс стюардинга данных",
+   "comment": "[BFO: process ⊂ Процесс Data Governance] Процесс, в котором стюард поддерживает определения, метаданные и качество набора данных.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ComplianceMonitoringProcess",
+   "name": "Процесс мониторинга соответствия политикам",
+   "comment": "[BFO: process ⊂ Процесс Data Governance] Процесс проверки соответствия практик работы с данными политикам и нормативным требованиям.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Data Governance"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataQualityManagementProcess",
+   "name": "Процесс управления качеством данных",
+   "comment": "[BFO: process ⊂ Процесс управления данными] Процесс поддержания качества данных в пределах, заданных правилами качества.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataProfilingProcess",
+   "name": "Процесс профилирования данных",
+   "comment": "[BFO: process ⊂ Процесс управления качеством данных] Исследование набора данных для выявления структуры, распределений и аномалий.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataQualityAssessmentProcess",
+   "name": "Процесс оценки качества данных",
+   "comment": "[BFO: process ⊂ Процесс управления качеством данных] Применение метрик и проверка правил качества; на выходе — результаты измерений.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataQualityMonitoringProcess",
+   "name": "Процесс мониторинга качества данных",
+   "comment": "[BFO: process ⊂ Процесс управления качеством данных] Регулярное отслеживание метрик качества во времени.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataCleansingProcess",
+   "name": "Процесс очистки данных",
+   "comment": "[BFO: process ⊂ Процесс управления качеством данных] Исправление или удаление ошибочных, дублирующихся и неполных значений.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataQualityIssueResolutionProcess",
+   "name": "Процесс устранения инцидента качества данных",
+   "comment": "[BFO: process ⊂ Процесс управления качеством данных] Поиск первопричины инцидента и восстановление соответствия правилу качества.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataQualityIncident",
+   "name": "Инцидент качества данных",
+   "comment": "[BFO: process, BFO_0000015] Процесс (событие), в котором данные на носителе не удовлетворяют правилу качества. Запись об инциденте в трекере — отдельная ICE.",
+   "attributes": [
+    {
+     "code": "detectedAt",
+     "name": "дата обнаружения",
+     "type": "date",
+     "comment": "Дата обнаружения инцидента."
+    },
+    {
+     "code": "severity",
+     "name": "серьёзность",
+     "type": "string",
+     "comment": "Уровень серьёзности: низкий, средний, высокий."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "hasRole",
+   "name": "имеет роль",
+   "comment": "RO_0000087 has role: человек несёт роль в управлении данными.",
+   "fromClass": "Person",
+   "toClass": "DataManagementRole"
+  },
+  {
+   "code": "accountableFor",
+   "name": "несёт ответственность за",
+   "comment": "Роль владельца определяется ответственностью за набор данных.",
+   "fromClass": "DataOwnerRole",
+   "toClass": "DataSet"
+  },
+  {
+   "code": "stewards",
+   "name": "курирует",
+   "comment": "Роль стюарда курирует набор данных.",
+   "fromClass": "DataStewardRole",
+   "toClass": "DataSet"
+  },
+  {
+   "code": "safeguards",
+   "name": "обеспечивает хранение в",
+   "comment": "Роль хранителя обеспечивает эксплуатацию и защиту хранилища.",
+   "fromClass": "DataCustodianRole",
+   "toClass": "DataStore"
+  },
+  {
+   "code": "roleRealizedIn",
+   "name": "реализуется в",
+   "comment": "BFO_0000054 realized in: роль реализуется в процессе управления данными.",
+   "fromClass": "DataManagementRole",
+   "toClass": "DataManagementProcess"
+  },
+  {
+   "code": "participatesIn",
+   "name": "участвует в",
+   "comment": "BFO_0000056 participates in: человек участвует в процессе.",
+   "fromClass": "Person",
+   "toClass": "DataManagementProcess"
+  },
+  {
+   "code": "isMemberOf",
+   "name": "является членом",
+   "comment": "Человек входит в орган управления данными.",
+   "fromClass": "Person",
+   "toClass": "DataGovernanceBody"
+  },
+  {
+   "code": "approves",
+   "name": "утверждает",
+   "comment": "Сокращение над цепочкой: орган участвует в разработке, на выходе которой политика.",
+   "fromClass": "DataGovernanceBody",
+   "toClass": "DataPolicy"
+  },
+  {
+   "code": "storedIn",
+   "name": "хранится в",
+   "comment": "Сокращение над конкретизацией: набор данных конкретизирован на носителе.",
+   "fromClass": "DataSet",
+   "toClass": "DataStore"
+  },
+  {
+   "code": "storeOf",
+   "name": "входит в состав системы",
+   "comment": "BFO_0000050 part of: хранилище — часть информационной системы.",
+   "fromClass": "DataStore",
+   "toClass": "InformationSystem"
+  },
+  {
+   "code": "elementOf",
+   "name": "входит в набор данных",
+   "comment": "BFO_0000050 part of: элемент — часть набора данных.",
+   "fromClass": "DataElement",
+   "toClass": "DataSet"
+  },
+  {
+   "code": "governsDataSet",
+   "name": "регулирует",
+   "comment": "IAO_0000136 is about: политика относится к набору данных.",
+   "fromClass": "DataPolicy",
+   "toClass": "DataSet"
+  },
+  {
+   "code": "detailsPolicy",
+   "name": "конкретизирует политику",
+   "comment": "Стандарт детализирует политику.",
+   "fromClass": "DataStandard",
+   "toClass": "DataPolicy"
+  },
+  {
+   "code": "motivatesPolicy",
+   "name": "обосновывает политику",
+   "comment": "Нормативное требование служит основанием политики.",
+   "fromClass": "RegulatoryRequirement",
+   "toClass": "DataPolicy"
+  },
+  {
+   "code": "derivedFromPolicy",
+   "name": "выводится из политики",
+   "comment": "Правило качества следует из политики.",
+   "fromClass": "DataQualityRule",
+   "toClass": "DataPolicy"
+  },
+  {
+   "code": "appliesToElement",
+   "name": "применяется к",
+   "comment": "IAO_0000136 is about: правило проверяет элемент данных.",
+   "fromClass": "DataQualityRule",
+   "toClass": "DataElement"
+  },
+  {
+   "code": "controlsQuality",
+   "name": "контролирует измерение качества",
+   "comment": "Правило задаёт требование по измерению качества.",
+   "fromClass": "DataQualityRule",
+   "toClass": "DataQuality"
+  },
+  {
+   "code": "measuresQuality",
+   "name": "измеряет",
+   "comment": "Метрика количественно описывает измерение качества.",
+   "fromClass": "DataQualityMetric",
+   "toClass": "DataQuality"
+  },
+  {
+   "code": "describesQuality",
+   "name": "описывает качество",
+   "comment": "IAO_0000136 is about: результат измерения описывает качество.",
+   "fromClass": "DataQualityMeasurement",
+   "toClass": "DataQuality"
+  },
+  {
+   "code": "measurementOfDataSet",
+   "name": "относится к набору данных",
+   "comment": "Результат измерения относится к набору данных.",
+   "fromClass": "DataQualityMeasurement",
+   "toClass": "DataSet"
+  },
+  {
+   "code": "obtainedByMetric",
+   "name": "получен по метрике",
+   "comment": "Результат получен по метрике.",
+   "fromClass": "DataQualityMeasurement",
+   "toClass": "DataQualityMetric"
+  },
+  {
+   "code": "describesDataSet",
+   "name": "описывает набор данных",
+   "comment": "Запись каталога содержит метаданные набора данных.",
+   "fromClass": "DataCatalogEntry",
+   "toClass": "DataSet"
+  },
+  {
+   "code": "definesElement",
+   "name": "определяет",
+   "comment": "Термин глоссария определяет элемент данных.",
+   "fromClass": "BusinessGlossaryTerm",
+   "toClass": "DataElement"
+  },
+  {
+   "code": "producesPolicy",
+   "name": "порождает политику",
+   "comment": "RO_0002234 has output: на выходе процесса разработки — политика.",
+   "fromClass": "PolicyDevelopmentProcess",
+   "toClass": "DataPolicy"
+  },
+  {
+   "code": "monitorsCompliance",
+   "name": "контролирует соблюдение",
+   "comment": "RO_0002233 has input: процесс проверяет соблюдение политики.",
+   "fromClass": "ComplianceMonitoringProcess",
+   "toClass": "DataPolicy"
+  },
+  {
+   "code": "stewardshipOver",
+   "name": "поддерживает данные",
+   "comment": "RO_0002233 has input: стюардинг работает с набором данных.",
+   "fromClass": "DataStewardshipProcess",
+   "toClass": "DataSet"
+  },
+  {
+   "code": "profilesDataSet",
+   "name": "профилирует",
+   "comment": "RO_0002233 has input.",
+   "fromClass": "DataProfilingProcess",
+   "toClass": "DataSet"
+  },
+  {
+   "code": "evaluatesDataSet",
+   "name": "оценивает",
+   "comment": "RO_0002233 has input.",
+   "fromClass": "DataQualityAssessmentProcess",
+   "toClass": "DataSet"
+  },
+  {
+   "code": "checksRule",
+   "name": "проверяет правило",
+   "comment": "RO_0002233 has input: оценка проверяет правило качества.",
+   "fromClass": "DataQualityAssessmentProcess",
+   "toClass": "DataQualityRule"
+  },
+  {
+   "code": "assessmentOutput",
+   "name": "порождает результат",
+   "comment": "RO_0002234 has output.",
+   "fromClass": "DataQualityAssessmentProcess",
+   "toClass": "DataQualityMeasurement"
+  },
+  {
+   "code": "tracksMetric",
+   "name": "отслеживает метрику",
+   "comment": "RO_0002233 has input.",
+   "fromClass": "DataQualityMonitoringProcess",
+   "toClass": "DataQualityMetric"
+  },
+  {
+   "code": "cleansesDataSet",
+   "name": "очищает",
+   "comment": "RO_0002233 has input.",
+   "fromClass": "DataCleansingProcess",
+   "toClass": "DataSet"
+  },
+  {
+   "code": "violatesRule",
+   "name": "нарушает правило",
+   "comment": "Инцидент — нарушение правила качества.",
+   "fromClass": "DataQualityIncident",
+   "toClass": "DataQualityRule"
+  },
+  {
+   "code": "affectsDataSet",
+   "name": "затрагивает набор данных",
+   "comment": "Сокращение: участник процесса — носитель, набор данных — через «хранится в».",
+   "fromClass": "DataQualityIncident",
+   "toClass": "DataSet"
+  },
+  {
+   "code": "affectsStore",
+   "name": "затрагивает хранилище",
+   "comment": "BFO_0000057 has participant: хранилище участвует в инциденте.",
+   "fromClass": "DataQualityIncident",
+   "toClass": "DataStore"
+  },
+  {
+   "code": "detectedIn",
+   "name": "выявлен при",
+   "comment": "Инцидент выявлен в процессе оценки качества.",
+   "fromClass": "DataQualityIncident",
+   "toClass": "DataQualityAssessmentProcess"
+  },
+  {
+   "code": "resolvesIncident",
+   "name": "устраняет инцидент",
+   "comment": "Процесс устранения направлен на инцидент.",
+   "fromClass": "DataQualityIssueResolutionProcess",
+   "toClass": "DataQualityIncident"
+  },
+  {
+   "code": "qualityInheresIn",
+   "name": "присуще хранилищу",
+   "comment": "RO_0000052 inheres in: качество присуще носителю данных.",
+   "fromClass": "DataQuality",
+   "toClass": "DataStore"
+  },
+  {
+   "code": "toolHasFunction",
+   "name": "обладает функцией",
+   "comment": "RO_0000053 bearer of: инструмент — носитель функции.",
+   "fromClass": "DataQualityTool",
+   "toClass": "DataValidationFunction"
+  },
+  {
+   "code": "functionRealizedIn",
+   "name": "реализуется при оценке",
+   "comment": "BFO_0000054 realized in: функция валидации реализуется в процессе оценки качества.",
+   "fromClass": "DataValidationFunction",
+   "toClass": "DataQualityAssessmentProcess"
+  }
+ ],
+ "info": {
+  "description": "Онтология описывает контур управления данными: что такое данные как информационная сущность и где они лежат физически, кто несёт роли владельца, стюарда и хранителя, какие политики, стандарты, требования и правила качества их регулируют, как качество измеряется (измерения, метрики, результаты) и какие процессы Data Governance и Data Quality обеспечивают соблюдение правил. Классификация выполнена по BFO 2020: данные и документы — информационные сущности (IAO), роли — BFO role, измерения качества — BFO quality носителя, управленческие и качественные практики — процессы, инструмент валидации — носитель функции. Это позволяет отвечать на вопросы импакт-анализа («что затронет инцидент качества?») и поддержки решений («с чего начать улучшение качества?»).",
+  "scope": [
+   "Данные: наборы и элементы данных, метаданные (каталог, глоссарий), хранилища и системы",
+   "Роли и орган: владелец, стюард, хранитель, потребитель, директор по данным, совет по данным",
+   "Data Governance: политики, стандарты, нормативные требования, процессы разработки политик, стюардинга и мониторинга соответствия",
+   "Data Quality: измерения, правила, метрики, результаты измерений, профилирование, оценка, мониторинг, очистка, инциденты и их устранение",
+   "Вне области: безопасность доступа и классификация угроз, архитектура интеграции, MDM как отдельная дисциплина"
+  ],
+  "competencyQuestions": [
+   "Кто владелец, стюард и хранитель заданного набора данных?",
+   "Какие политики, стандарты и нормативные требования регулируют набор данных?",
+   "Какие правила качества выведены из политики и к каким элементам данных они применяются?",
+   "Каким измерением качества и по какой метрике контролируется правило?",
+   "Какой результат измерения получен, когда и в рамках какой оценки?",
+   "Какие инциденты качества происходили в наборе данных, какое правило они нарушили и каким процессом устранены?",
+   "Какие хранилища и информационные системы затрагивает инцидент качества?",
+   "Какие роли реализуются в процессе устранения инцидента и кто их носитель?",
+   "Какие измерения качества не покрыты правилами и метриками?",
+   "Что приоритетнее для улучшения качества при ограниченных ресурсах?"
+  ]
+ },
+ "theme": [
+  {
+   "code": "DATA",
+   "name": "Данные и информационные сущности",
+   "color": "#60a5fa"
+  },
+  {
+   "code": "GOV",
+   "name": "Data Governance",
+   "color": "#fbbf24"
+  },
+  {
+   "code": "DQ",
+   "name": "Data Quality",
+   "color": "#34d399"
+  }
+ ]
+}

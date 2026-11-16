@@ -1,0 +1,1674 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "aerofotokamera-faza-100",
+   "predicate": "имеет тип",
+   "object": "class-poleznaya-nagruzka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t002",
+   "subject": "aerofotosemka",
+   "predicate": "имеет тип",
+   "object": "class-funkciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t003",
+   "subject": "bazovyy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-dopuska-operatora",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t004",
+   "subject": "vertoletnogo-tipa",
+   "predicate": "имеет тип",
+   "object": "class-tip-konstruktivnoy-shemy",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t005",
+   "subject": "vetrovaya-nagruzka-0-10-m-s",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-primeneniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t006",
+   "subject": "vetrovaya-nagruzka-0-12-m-s",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-primeneniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t007",
+   "subject": "vetrovaya-nagruzka-0-15-m-s",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-primeneniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t008",
+   "subject": "videomonitoring",
+   "predicate": "имеет тип",
+   "object": "class-funkciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t009",
+   "subject": "vidimost-1-km",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-primeneniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t010",
+   "subject": "vidimost-2-km",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-primeneniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t011",
+   "subject": "vysota-nad-urovnem-morya-0-4500-m",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-primeneniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t012",
+   "subject": "geologorazvedka",
+   "predicate": "имеет тип",
+   "object": "class-naznachenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t013",
+   "subject": "geoskan-7",
+   "predicate": "выполняет функции",
+   "object": "aerofotosemka",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t014",
+   "subject": "geoskan-7",
+   "predicate": "выполняет функции",
+   "object": "lidarnoe-skanirovanie",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t015",
+   "subject": "geoskan-7",
+   "predicate": "выполняет функции",
+   "object": "magnitometricheskaya-semka",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t016",
+   "subject": "geoskan-7",
+   "predicate": "имеет конструктивную схему",
+   "object": "samoletnaya-shema",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t017",
+   "subject": "geoskan-7",
+   "predicate": "имеет назначения",
+   "object": "geologorazvedka",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t018",
+   "subject": "geoskan-7",
+   "predicate": "имеет назначения",
+   "object": "kartografirovanie",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t019",
+   "subject": "geoskan-7",
+   "predicate": "имеет тип",
+   "object": "class-bespilotnyy-letatelnyy-apparat-bpla-dron",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t020",
+   "subject": "geoskan-7",
+   "predicate": "несёт полезную нагрузку",
+   "object": "aerofotokamera-faza-100",
+   "sourceId": "passport",
+   "sourceName": "Паспорт полезной нагрузки",
+   "sourceType": "Паспорт",
+   "updatedAt": "2026-07-02"
+  },
+  {
+   "id": "t021",
+   "subject": "geoskan-7",
+   "predicate": "несёт полезную нагрузку",
+   "object": "lidar-vektor-360",
+   "sourceId": "passport",
+   "sourceName": "Паспорт полезной нагрузки",
+   "sourceType": "Паспорт",
+   "updatedAt": "2026-07-02"
+  },
+  {
+   "id": "t022",
+   "subject": "geoskan-7",
+   "predicate": "подчиняется ограничениям",
+   "object": "ogranichenie-po-peregruzke-g",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t023",
+   "subject": "geoskan-7",
+   "predicate": "подчиняется ограничениям",
+   "object": "sertifikacionnyy-limit-mtow",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t024",
+   "subject": "geoskan-7",
+   "predicate": "подчиняется ограничениям",
+   "object": "trebovanie-k-zapasu-topliva",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t025",
+   "subject": "geoskan-7",
+   "predicate": "проходит испытания",
+   "object": "letnoe-ispytanie-101",
+   "sourceId": "proto",
+   "sourceName": "Протоколы лётных испытаний",
+   "sourceType": "Протокол",
+   "updatedAt": "2026-08-12"
+  },
+  {
+   "id": "t026",
+   "subject": "geoskan-7",
+   "predicate": "сертифицирован",
+   "object": "st-2024-0098",
+   "sourceId": "cert",
+   "sourceName": "Сертификат типа / СЛГ",
+   "sourceType": "Сертификат",
+   "updatedAt": "2026-06-25"
+  },
+  {
+   "id": "t027",
+   "subject": "geoskan-7",
+   "predicate": "содержит подсистемы",
+   "object": "dvigatelnaya-ustanovka",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t028",
+   "subject": "geoskan-7",
+   "predicate": "содержит подсистемы",
+   "object": "navigacionnaya-sistema",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t029",
+   "subject": "geoskan-7",
+   "predicate": "содержит подсистемы",
+   "object": "parashyutnaya-sistema-spaseniya",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t030",
+   "subject": "geoskan-7",
+   "predicate": "содержит подсистемы",
+   "object": "sistema-svyazi",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t031",
+   "subject": "geoskan-7",
+   "predicate": "содержит подсистемы",
+   "object": "sistema-elektropitaniya",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t032",
+   "subject": "geoskan-7",
+   "predicate": "управляется станцией",
+   "object": "nsu-kontur-2",
+   "sourceId": "telemetry",
+   "sourceName": "Телеметрия испытаний",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t033",
+   "subject": "geoskan-7",
+   "predicate": "эксплуатируется в условиях",
+   "object": "vetrovaya-nagruzka-0-12-m-s",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t034",
+   "subject": "geoskan-7",
+   "predicate": "эксплуатируется в условиях",
+   "object": "vidimost-2-km",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t035",
+   "subject": "geoskan-7",
+   "predicate": "эксплуатируется в условиях",
+   "object": "vysota-nad-urovnem-morya-0-4500-m",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t036",
+   "subject": "geoskan-7",
+   "predicate": "эксплуатируется в условиях",
+   "object": "temperaturnyy-diapazon-30-40-c",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t037",
+   "subject": "gibridnyy-vtol",
+   "predicate": "имеет тип",
+   "object": "class-tip-konstruktivnoy-shemy",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t038",
+   "subject": "gruzovik-6",
+   "predicate": "выполняет функции",
+   "object": "dostavka-gruza",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t039",
+   "subject": "gruzovik-6",
+   "predicate": "выполняет функции",
+   "object": "sbros-gruza",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t040",
+   "subject": "gruzovik-6",
+   "predicate": "имеет конструктивную схему",
+   "object": "multirotornaya-shema",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t041",
+   "subject": "gruzovik-6",
+   "predicate": "имеет назначения",
+   "object": "logistika-posledney-mili",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t042",
+   "subject": "gruzovik-6",
+   "predicate": "имеет назначения",
+   "object": "ekstrennaya-dostavka-medikamentov",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t043",
+   "subject": "gruzovik-6",
+   "predicate": "имеет тип",
+   "object": "class-bespilotnyy-letatelnyy-apparat-bpla-dron",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t044",
+   "subject": "gruzovik-6",
+   "predicate": "несёт полезную нагрузку",
+   "object": "gruzovoy-otsek-konteyner-15",
+   "sourceId": "passport",
+   "sourceName": "Паспорт полезной нагрузки",
+   "sourceType": "Паспорт",
+   "updatedAt": "2026-07-02"
+  },
+  {
+   "id": "t045",
+   "subject": "gruzovik-6",
+   "predicate": "несёт полезную нагрузку",
+   "object": "sistema-sbrosa-drop-m",
+   "sourceId": "passport",
+   "sourceName": "Паспорт полезной нагрузки",
+   "sourceType": "Паспорт",
+   "updatedAt": "2026-07-02"
+  },
+  {
+   "id": "t046",
+   "subject": "gruzovik-6",
+   "predicate": "подчиняется ограничениям",
+   "object": "zapret-poletov-nad-skopleniyami-lyudey",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t047",
+   "subject": "gruzovik-6",
+   "predicate": "подчиняется ограничениям",
+   "object": "ogranichenie-massy-gruza",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t048",
+   "subject": "gruzovik-6",
+   "predicate": "подчиняется ограничениям",
+   "object": "ogranichenie-po-vibracii-gruza",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t049",
+   "subject": "gruzovik-6",
+   "predicate": "подчиняется ограничениям",
+   "object": "sertifikacionnyy-limit-mtow",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t050",
+   "subject": "gruzovik-6",
+   "predicate": "проходит испытания",
+   "object": "letnoe-ispytanie-201",
+   "sourceId": "proto",
+   "sourceName": "Протоколы лётных испытаний",
+   "sourceType": "Протокол",
+   "updatedAt": "2026-08-12"
+  },
+  {
+   "id": "t051",
+   "subject": "gruzovik-6",
+   "predicate": "сертифицирован",
+   "object": "st-2025-0201",
+   "sourceId": "cert",
+   "sourceName": "Сертификат типа / СЛГ",
+   "sourceType": "Сертификат",
+   "updatedAt": "2026-06-25"
+  },
+  {
+   "id": "t052",
+   "subject": "gruzovik-6",
+   "predicate": "содержит подсистемы",
+   "object": "dvigatelnaya-ustanovka",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t053",
+   "subject": "gruzovik-6",
+   "predicate": "содержит подсистемы",
+   "object": "navigacionnaya-sistema",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t054",
+   "subject": "gruzovik-6",
+   "predicate": "содержит подсистемы",
+   "object": "sistema-zahvata-i-sbrosa",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t055",
+   "subject": "gruzovik-6",
+   "predicate": "содержит подсистемы",
+   "object": "sistema-svyazi",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t056",
+   "subject": "gruzovik-6",
+   "predicate": "содержит подсистемы",
+   "object": "sistema-elektropitaniya",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t057",
+   "subject": "gruzovik-6",
+   "predicate": "управляется станцией",
+   "object": "nsu-kontur-3",
+   "sourceId": "telemetry",
+   "sourceName": "Телеметрия испытаний",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t058",
+   "subject": "gruzovik-6",
+   "predicate": "эксплуатируется в условиях",
+   "object": "vetrovaya-nagruzka-0-10-m-s",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t059",
+   "subject": "gruzovik-6",
+   "predicate": "эксплуатируется в условиях",
+   "object": "vidimost-1-km",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t060",
+   "subject": "gruzovik-6",
+   "predicate": "эксплуатируется в условиях",
+   "object": "osadki-bez-osadkov-slabyy-dozhd",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t061",
+   "subject": "gruzovik-6",
+   "predicate": "эксплуатируется в условиях",
+   "object": "temperaturnyy-diapazon-15-40-c",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t062",
+   "subject": "gruzovoy-otsek-konteyner-15",
+   "predicate": "имеет тип",
+   "object": "class-poleznaya-nagruzka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t063",
+   "subject": "dvigatelnaya-ustanovka",
+   "predicate": "имеет тип",
+   "object": "class-podsistema",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t064",
+   "subject": "dostavka-gruza",
+   "predicate": "имеет тип",
+   "object": "class-funkciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t065",
+   "subject": "zaversheno",
+   "predicate": "имеет тип",
+   "object": "class-status-letnogo-ispytaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t066",
+   "subject": "zaplanirovano",
+   "predicate": "имеет тип",
+   "object": "class-status-letnogo-ispytaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t067",
+   "subject": "zapret-poletov-v-ctr-bez-razresheniya-ovd",
+   "predicate": "имеет категорию",
+   "object": "normativnye",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t068",
+   "subject": "zapret-poletov-v-ctr-bez-razresheniya-ovd",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t069",
+   "subject": "zapret-poletov-v-ctr-bez-razresheniya-ovd",
+   "predicate": "требует наличия подсистем",
+   "object": "sistema-identifikacii-ads-b-transponder",
+   "sourceId": "toreg",
+   "sourceName": "Регламент ТО",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-30"
+  },
+  {
+   "id": "t070",
+   "subject": "zapret-poletov-v-ctr-bez-razresheniya-ovd",
+   "predicate": "требует наличия подсистем",
+   "object": "sistema-svyazi",
+   "sourceId": "toreg",
+   "sourceName": "Регламент ТО",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-30"
+  },
+  {
+   "id": "t071",
+   "subject": "zapret-poletov-nad-skopleniyami-lyudey",
+   "predicate": "имеет категорию",
+   "object": "normativnye",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t072",
+   "subject": "zapret-poletov-nad-skopleniyami-lyudey",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t073",
+   "subject": "ivanov-i-i",
+   "predicate": "имеет тип",
+   "object": "class-operator",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t074",
+   "subject": "ivanov-i-i",
+   "predicate": "имеет уровень допуска",
+   "object": "prodvinutyy",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t075",
+   "subject": "inspekciya-infrastruktury",
+   "predicate": "имеет тип",
+   "object": "class-naznachenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t076",
+   "subject": "instruktor",
+   "predicate": "имеет тип",
+   "object": "class-uroven-dopuska-operatora",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t077",
+   "subject": "kartografirovanie",
+   "predicate": "имеет тип",
+   "object": "class-naznachenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t078",
+   "subject": "konstruktivnye",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-ogranicheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t079",
+   "subject": "letnoe-ispytanie-047",
+   "predicate": "имеет тип",
+   "object": "class-letnoe-ispytanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t080",
+   "subject": "letnoe-ispytanie-052",
+   "predicate": "имеет тип",
+   "object": "class-letnoe-ispytanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t081",
+   "subject": "letnoe-ispytanie-101",
+   "predicate": "имеет тип",
+   "object": "class-letnoe-ispytanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t082",
+   "subject": "letnoe-ispytanie-201",
+   "predicate": "имеет тип",
+   "object": "class-letnoe-ispytanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t083",
+   "subject": "lidar-vektor-360",
+   "predicate": "имеет тип",
+   "object": "class-poleznaya-nagruzka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t084",
+   "subject": "lidarnoe-skanirovanie",
+   "predicate": "имеет тип",
+   "object": "class-funkciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t085",
+   "subject": "logistika-posledney-mili",
+   "predicate": "имеет тип",
+   "object": "class-naznachenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t086",
+   "subject": "magnitometricheskaya-semka",
+   "predicate": "имеет тип",
+   "object": "class-funkciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t087",
+   "subject": "monitoring-lep",
+   "predicate": "имеет тип",
+   "object": "class-naznachenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t088",
+   "subject": "multirotor",
+   "predicate": "имеет тип",
+   "object": "class-tip-konstruktivnoy-shemy",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t089",
+   "subject": "multirotornaya-shema",
+   "predicate": "имеет тип",
+   "object": "class-konstruktivnaya-shema",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t090",
+   "subject": "navigacionnaya-sistema",
+   "predicate": "имеет тип",
+   "object": "class-podsistema",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t091",
+   "subject": "na-proverke",
+   "predicate": "имеет тип",
+   "object": "class-status-letnogo-ispytaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t092",
+   "subject": "ne-proydena",
+   "predicate": "имеет тип",
+   "object": "class-status-inspekcii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t093",
+   "subject": "normativnye",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-ogranicheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t094",
+   "subject": "nsu-kontur-2",
+   "predicate": "имеет тип",
+   "object": "class-nazemnaya-stanciya-upravleniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t095",
+   "subject": "nsu-kontur-3",
+   "predicate": "имеет тип",
+   "object": "class-nazemnaya-stanciya-upravleniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t096",
+   "subject": "ogranichenie-massy-gruza",
+   "predicate": "имеет категорию",
+   "object": "ekspluatacionnye",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t097",
+   "subject": "ogranichenie-massy-gruza",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t098",
+   "subject": "ogranichenie-po-vibracii-gruza",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t099",
+   "subject": "ogranichenie-po-peregruzke-g",
+   "predicate": "имеет категорию",
+   "object": "konstruktivnye",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t100",
+   "subject": "ogranichenie-po-peregruzke-g",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t101",
+   "subject": "ozhidaet-proverki",
+   "predicate": "имеет тип",
+   "object": "class-status-inspekcii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t102",
+   "subject": "optiko-elektronnyy-modul-ok-400",
+   "predicate": "имеет тип",
+   "object": "class-poleznaya-nagruzka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t103",
+   "subject": "orlan-m",
+   "predicate": "выполняет функции",
+   "object": "aerofotosemka",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t104",
+   "subject": "orlan-m",
+   "predicate": "выполняет функции",
+   "object": "videomonitoring",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t105",
+   "subject": "orlan-m",
+   "predicate": "выполняет функции",
+   "object": "teplovizionnyy-kontrol",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t106",
+   "subject": "orlan-m",
+   "predicate": "имеет конструктивную схему",
+   "object": "multirotornaya-shema",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t107",
+   "subject": "orlan-m",
+   "predicate": "имеет назначения",
+   "object": "inspekciya-infrastruktury",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t108",
+   "subject": "orlan-m",
+   "predicate": "имеет назначения",
+   "object": "monitoring-lep",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t109",
+   "subject": "orlan-m",
+   "predicate": "имеет тип",
+   "object": "class-bespilotnyy-letatelnyy-apparat-bpla-dron",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t110",
+   "subject": "orlan-m",
+   "predicate": "несёт полезную нагрузку",
+   "object": "optiko-elektronnyy-modul-ok-400",
+   "sourceId": "passport",
+   "sourceName": "Паспорт полезной нагрузки",
+   "sourceType": "Паспорт",
+   "updatedAt": "2026-07-02"
+  },
+  {
+   "id": "t111",
+   "subject": "orlan-m",
+   "predicate": "несёт полезную нагрузку",
+   "object": "teplovizor-termo-640",
+   "sourceId": "passport",
+   "sourceName": "Паспорт полезной нагрузки",
+   "sourceType": "Паспорт",
+   "updatedAt": "2026-07-02"
+  },
+  {
+   "id": "t112",
+   "subject": "orlan-m",
+   "predicate": "подчиняется ограничениям",
+   "object": "zapret-poletov-v-ctr-bez-razresheniya-ovd",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t113",
+   "subject": "orlan-m",
+   "predicate": "подчиняется ограничениям",
+   "object": "sertifikacionnyy-limit-mtow",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t114",
+   "subject": "orlan-m",
+   "predicate": "подчиняется ограничениям",
+   "object": "shumovoe-ogranichenie",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t115",
+   "subject": "orlan-m",
+   "predicate": "проходит испытания",
+   "object": "letnoe-ispytanie-047",
+   "sourceId": "proto",
+   "sourceName": "Протоколы лётных испытаний",
+   "sourceType": "Протокол",
+   "updatedAt": "2026-08-12"
+  },
+  {
+   "id": "t116",
+   "subject": "orlan-m",
+   "predicate": "проходит испытания",
+   "object": "letnoe-ispytanie-052",
+   "sourceId": "proto",
+   "sourceName": "Протоколы лётных испытаний",
+   "sourceType": "Протокол",
+   "updatedAt": "2026-08-12"
+  },
+  {
+   "id": "t117",
+   "subject": "orlan-m",
+   "predicate": "сертифицирован",
+   "object": "st-2025-0142",
+   "sourceId": "cert",
+   "sourceName": "Сертификат типа / СЛГ",
+   "sourceType": "Сертификат",
+   "updatedAt": "2026-06-25"
+  },
+  {
+   "id": "t118",
+   "subject": "orlan-m",
+   "predicate": "содержит подсистемы",
+   "object": "dvigatelnaya-ustanovka",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t119",
+   "subject": "orlan-m",
+   "predicate": "содержит подсистемы",
+   "object": "navigacionnaya-sistema",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t120",
+   "subject": "orlan-m",
+   "predicate": "содержит подсистемы",
+   "object": "sistema-identifikacii-ads-b-transponder",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t121",
+   "subject": "orlan-m",
+   "predicate": "содержит подсистемы",
+   "object": "sistema-svyazi",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t122",
+   "subject": "orlan-m",
+   "predicate": "содержит подсистемы",
+   "object": "sistema-elektropitaniya",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t123",
+   "subject": "orlan-m",
+   "predicate": "управляется станцией",
+   "object": "nsu-kontur-2",
+   "sourceId": "telemetry",
+   "sourceName": "Телеметрия испытаний",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t124",
+   "subject": "orlan-m",
+   "predicate": "эксплуатируется в условиях",
+   "object": "vetrovaya-nagruzka-0-15-m-s",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t125",
+   "subject": "orlan-m",
+   "predicate": "эксплуатируется в условиях",
+   "object": "vidimost-1-km",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t126",
+   "subject": "orlan-m",
+   "predicate": "эксплуатируется в условиях",
+   "object": "temperaturnyy-diapazon-20-45-c",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t127",
+   "subject": "osadki-bez-osadkov-slabyy-dozhd",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-primeneniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t128",
+   "subject": "parashyutnaya-sistema-spaseniya",
+   "predicate": "имеет тип",
+   "object": "class-podsistema",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t129",
+   "subject": "prervano",
+   "predicate": "имеет тип",
+   "object": "class-status-letnogo-ispytaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t130",
+   "subject": "prodvinutyy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-dopuska-operatora",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t131",
+   "subject": "proydena",
+   "predicate": "имеет тип",
+   "object": "class-status-inspekcii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t132",
+   "subject": "prosrochena",
+   "predicate": "имеет тип",
+   "object": "class-status-inspekcii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t133",
+   "subject": "samoletnaya-shema",
+   "predicate": "имеет тип",
+   "object": "class-konstruktivnaya-shema",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t134",
+   "subject": "samoletnaya-shema",
+   "predicate": "имеет тип схемы",
+   "object": "samoletnogo-tipa",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t135",
+   "subject": "samoletnogo-tipa",
+   "predicate": "имеет тип",
+   "object": "class-tip-konstruktivnoy-shemy",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t136",
+   "subject": "sbros-gruza",
+   "predicate": "имеет тип",
+   "object": "class-funkciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t137",
+   "subject": "sertifikacionnye",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-ogranicheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t138",
+   "subject": "sertifikacionnyy-limit-mtow",
+   "predicate": "имеет категорию",
+   "object": "sertifikacionnye",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t139",
+   "subject": "sertifikacionnyy-limit-mtow",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t140",
+   "subject": "sidorov-s-s",
+   "predicate": "имеет тип",
+   "object": "class-operator",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t141",
+   "subject": "sidorov-s-s",
+   "predicate": "имеет уровень допуска",
+   "object": "bazovyy",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t142",
+   "subject": "sistema-zahvata-i-sbrosa",
+   "predicate": "имеет тип",
+   "object": "class-podsistema",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t143",
+   "subject": "sistema-identifikacii-ads-b-transponder",
+   "predicate": "имеет тип",
+   "object": "class-podsistema",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t144",
+   "subject": "sistema-sbrosa-drop-m",
+   "predicate": "имеет тип",
+   "object": "class-poleznaya-nagruzka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t145",
+   "subject": "sistema-svyazi",
+   "predicate": "имеет тип",
+   "object": "class-podsistema",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t146",
+   "subject": "sistema-elektropitaniya",
+   "predicate": "имеет тип",
+   "object": "class-podsistema",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t147",
+   "subject": "st-2024-0098",
+   "predicate": "имеет тип",
+   "object": "class-sertifikat-tipa",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t148",
+   "subject": "st-2025-0142",
+   "predicate": "имеет тип",
+   "object": "class-sertifikat-tipa",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t149",
+   "subject": "st-2025-0201",
+   "predicate": "имеет тип",
+   "object": "class-sertifikat-tipa",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t150",
+   "subject": "temperaturnyy-diapazon-15-40-c",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-primeneniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t151",
+   "subject": "temperaturnyy-diapazon-20-45-c",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-primeneniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t152",
+   "subject": "temperaturnyy-diapazon-30-40-c",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-primeneniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t153",
+   "subject": "teplovizionnyy-kontrol",
+   "predicate": "имеет тип",
+   "object": "class-funkciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t154",
+   "subject": "teplovizor-termo-640",
+   "predicate": "имеет тип",
+   "object": "class-poleznaya-nagruzka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t155",
+   "subject": "trebovanie-k-zapasu-topliva",
+   "predicate": "имеет категорию",
+   "object": "ekspluatacionnye",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t156",
+   "subject": "trebovanie-k-zapasu-topliva",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t157",
+   "subject": "shumovoe-ogranichenie",
+   "predicate": "имеет категорию",
+   "object": "ekologicheskie",
+   "sourceId": "fap",
+   "sourceName": "ФАП и Воздушный кодекс",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-08"
+  },
+  {
+   "id": "t158",
+   "subject": "shumovoe-ogranichenie",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t159",
+   "subject": "ekologicheskie",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-ogranicheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t160",
+   "subject": "ekspluatacionnye",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-ogranicheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t161",
+   "subject": "ekspluataciya-ivanov-orlan-m",
+   "predicate": "бпла",
+   "object": "orlan-m",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t162",
+   "subject": "ekspluataciya-ivanov-orlan-m",
+   "predicate": "имеет тип",
+   "object": "class-ekspluataciya-operatorom",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t163",
+   "subject": "ekspluataciya-ivanov-orlan-m",
+   "predicate": "оператор",
+   "object": "ivanov-i-i",
+   "sourceId": "proto",
+   "sourceName": "Протоколы лётных испытаний",
+   "sourceType": "Протокол",
+   "updatedAt": "2026-08-12"
+  },
+  {
+   "id": "t164",
+   "subject": "ekspluataciya-sidorov-orlan-m",
+   "predicate": "бпла",
+   "object": "geoskan-7",
+   "sourceId": "rle",
+   "sourceName": "РЛЭ «ГеоСкан-7»",
+   "sourceType": "Документация",
+   "updatedAt": "2026-05-18"
+  },
+  {
+   "id": "t165",
+   "subject": "ekspluataciya-sidorov-orlan-m",
+   "predicate": "имеет тип",
+   "object": "class-ekspluataciya-operatorom",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t166",
+   "subject": "ekspluataciya-sidorov-orlan-m",
+   "predicate": "оператор",
+   "object": "sidorov-s-s",
+   "sourceId": "proto",
+   "sourceName": "Протоколы лётных испытаний",
+   "sourceType": "Протокол",
+   "updatedAt": "2026-08-12"
+  },
+  {
+   "id": "t167",
+   "subject": "ekstrennaya-dostavka-medikamentov",
+   "predicate": "имеет тип",
+   "object": "class-naznachenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  }
+ ]
+}

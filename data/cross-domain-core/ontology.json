@@ -1,0 +1,2196 @@
+{
+ "classes": [
+  {
+   "code": "Person",
+   "name": "Физическое лицо",
+   "comment": "Человек, который может быть гражданином, сотрудником, заявителем, бенефициаром, руководителем или участником процессов.",
+   "attributes": [
+    {
+     "code": "fullName",
+     "name": "полное имя",
+     "type": "string",
+     "comment": "ФИО физического лица."
+    },
+    {
+     "code": "birthDate",
+     "name": "дата рождения",
+     "type": "date",
+     "comment": "Дата рождения физического лица."
+    },
+    {
+     "code": "age",
+     "name": "возраст",
+     "type": "number",
+     "comment": "Возраст физического лица."
+    },
+    {
+     "code": "gender",
+     "name": "пол",
+     "type": "string",
+     "comment": "Пол физического лица."
+    },
+    {
+     "code": "citizenship",
+     "name": "гражданство",
+     "type": "string",
+     "comment": "Гражданство физического лица."
+    },
+    {
+     "code": "employmentStatus",
+     "name": "статус занятости",
+     "type": "string",
+     "comment": "Статус занятости: работает, безработный, самозанятый, пенсионер и т.п."
+    },
+    {
+     "code": "skills",
+     "name": "компетенции",
+     "type": "string",
+     "comment": "Навыки, квалификации и компетенции."
+    },
+    {
+     "code": "incomeAmount",
+     "name": "доход",
+     "type": "number",
+     "comment": "Доход или уровень дохода для оценки прав на льготы и выплаты."
+    },
+    {
+     "code": "riskLevel",
+     "name": "уровень риска",
+     "type": "string",
+     "comment": "Оценка риска, связанного с физическим лицом."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Общий статус лица: активен, заблокирован, проверен и т.п."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SUBJECTS",
+     "name": "Субъекты и правоотношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Organization",
+   "name": "Организация",
+   "comment": "Юридическое лицо, государственный орган, компания, учреждение или иное организационное образование.",
+   "attributes": [
+    {
+     "code": "legalName",
+     "name": "юридическое наименование",
+     "type": "string",
+     "comment": "Полное наименование организации."
+    },
+    {
+     "code": "legalForm",
+     "name": "организационно-правовая форма",
+     "type": "string",
+     "comment": "Форма организации: ООО, АО, ведомство, учреждение и т.п."
+    },
+    {
+     "code": "jurisdiction",
+     "name": "юрисдикция",
+     "type": "string",
+     "comment": "Страна, регион или юрисдикция регистрации."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус организации: действует, ликвидирована, приостановлена и т.п."
+    },
+    {
+     "code": "ownershipType",
+     "name": "тип собственности",
+     "type": "string",
+     "comment": "Государственная, частная, смешанная собственность."
+    },
+    {
+     "code": "sanctionStatus",
+     "name": "санкционный статус",
+     "type": "string",
+     "comment": "Наличие санкций, ограничений или специальных статусов."
+    },
+    {
+     "code": "riskLevel",
+     "name": "уровень риска",
+     "type": "string",
+     "comment": "Оценка риска контрагента или организации."
+    },
+    {
+     "code": "criticality",
+     "name": "критичность",
+     "type": "string",
+     "comment": "Критичность организации для процессов и услуг."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SUBJECTS",
+     "name": "Субъекты и правоотношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "OrgUnit",
+   "name": "Организационное подразделение",
+   "comment": "Подразделение внутри организации: департамент, отдел, управление, филиал.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Наименование подразделения."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус подразделения."
+    },
+    {
+     "code": "criticality",
+     "name": "критичность",
+     "type": "string",
+     "comment": "Критичность подразделения для деятельности организации."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SUBJECTS",
+     "name": "Субъекты и правоотношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Position",
+   "name": "Должность",
+   "comment": "Должность или рабочая роль в организации, для которой могут назначаться сотрудники.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование должности",
+     "type": "string",
+     "comment": "Наименование должности."
+    },
+    {
+     "code": "requiredSkills",
+     "name": "требуемые компетенции",
+     "type": "string",
+     "comment": "Навыки и квалификации, необходимые для должности."
+    },
+    {
+     "code": "criticality",
+     "name": "критичность",
+     "type": "string",
+     "comment": "Критичность должности для процессов и услуг."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SUBJECTS",
+     "name": "Субъекты и правоотношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Household",
+   "name": "Домохозяйство",
+   "comment": "Семья или домохозяйство как группа связанных физических лиц для оценки льгот, выплат и социальных решений.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Условное наименование домохозяйства."
+    },
+    {
+     "code": "address",
+     "name": "адрес",
+     "type": "string",
+     "comment": "Адрес проживания домохозяйства."
+    },
+    {
+     "code": "riskLevel",
+     "name": "уровень риска",
+     "type": "string",
+     "comment": "Оценка риска, связанного с домохозяйством."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SUBJECTS",
+     "name": "Субъекты и правоотношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Role",
+   "name": "Роль",
+   "comment": "Роль физического лица в процессе, проекте, организации или принятии решений.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование роли",
+     "type": "string",
+     "comment": "Наименование роли."
+    },
+    {
+     "code": "roleType",
+     "name": "тип роли",
+     "type": "string",
+     "comment": "Тип роли: владелец процесса, ответственный, заявитель, эксперт и т.п."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SUBJECTS",
+     "name": "Субъекты и правоотношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Process",
+   "name": "Процесс",
+   "comment": "Бизнес-процесс, административная процедура или операционная деятельность.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование процесса",
+     "type": "string",
+     "comment": "Наименование процесса."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус процесса: активен, приостановлен, архивен."
+    },
+    {
+     "code": "criticality",
+     "name": "критичность",
+     "type": "string",
+     "comment": "Критичность процесса для деятельности организации."
+    },
+    {
+     "code": "sla",
+     "name": "SLA",
+     "type": "string",
+     "comment": "Соглашение об уровне обслуживания или сроках выполнения."
+    },
+    {
+     "code": "frequency",
+     "name": "периодичность",
+     "type": "string",
+     "comment": "Периодичность выполнения процесса."
+    },
+    {
+     "code": "personalDataFlag",
+     "name": "обрабатывает персональные данные",
+     "type": "boolean",
+     "comment": "Признак обработки персональных данных в процессе."
+    },
+    {
+     "code": "regulatoryImpact",
+     "name": "нормативная значимость",
+     "type": "boolean",
+     "comment": "Признак нормативной значимости процесса."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_ACTIVITIES",
+     "name": "Деятельность и услуги"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Service",
+   "name": "Услуга",
+   "comment": "Государственная, муниципальная, коммерческая или внутренняя услуга.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование услуги",
+     "type": "string",
+     "comment": "Наименование услуги."
+    },
+    {
+     "code": "serviceType",
+     "name": "тип услуги",
+     "type": "string",
+     "comment": "Тип услуги: государственная, муниципальная, внутренняя, коммерческая."
+    },
+    {
+     "code": "recipientType",
+     "name": "тип получателя",
+     "type": "string",
+     "comment": "Получатель услуги: гражданин, организация, сотрудник."
+    },
+    {
+     "code": "sla",
+     "name": "SLA",
+     "type": "string",
+     "comment": "Сроки и уровень обслуживания."
+    },
+    {
+     "code": "availability",
+     "name": "доступность",
+     "type": "string",
+     "comment": "Требуемая или фактическая доступность услуги."
+    },
+    {
+     "code": "criticality",
+     "name": "критичность",
+     "type": "string",
+     "comment": "Критичность услуги."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_ACTIVITIES",
+     "name": "Деятельность и услуги"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Project",
+   "name": "Проект",
+   "comment": "Проект, программа или инициатива, имеющая сроки, бюджет и ответственных.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование проекта",
+     "type": "string",
+     "comment": "Наименование проекта."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус проекта."
+    },
+    {
+     "code": "priority",
+     "name": "приоритет",
+     "type": "string",
+     "comment": "Приоритет проекта."
+    },
+    {
+     "code": "budgetAmount",
+     "name": "бюджет",
+     "type": "number",
+     "comment": "Бюджет проекта."
+    },
+    {
+     "code": "deadline",
+     "name": "срок завершения",
+     "type": "date",
+     "comment": "Плановая дата завершения проекта."
+    },
+    {
+     "code": "criticality",
+     "name": "критичность",
+     "type": "string",
+     "comment": "Критичность проекта."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_ACTIVITIES",
+     "name": "Деятельность и услуги"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Task",
+   "name": "Задача",
+   "comment": "Задача или работа, входящая в проект, процесс или кейс.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование задачи",
+     "type": "string",
+     "comment": "Наименование задачи."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус задачи."
+    },
+    {
+     "code": "priority",
+     "name": "приоритет",
+     "type": "string",
+     "comment": "Приоритет задачи."
+    },
+    {
+     "code": "dueDate",
+     "name": "срок исполнения",
+     "type": "date",
+     "comment": "Срок исполнения задачи."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_ACTIVITIES",
+     "name": "Деятельность и услуги"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DecisionCase",
+   "name": "Кейс принятия решения",
+   "comment": "Объект, описывающий ситуацию, заявление или кейс, по которому требуется принять решение.",
+   "attributes": [
+    {
+     "code": "caseType",
+     "name": "тип кейса",
+     "type": "string",
+     "comment": "Тип кейса: льгота, закупка, назначение, инцидент и т.п."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус кейса."
+    },
+    {
+     "code": "objective",
+     "name": "цель решения",
+     "type": "string",
+     "comment": "Цель или предмет решения."
+    },
+    {
+     "code": "deadline",
+     "name": "срок принятия решения",
+     "type": "date",
+     "comment": "Срок, к которому должно быть принято решение."
+    },
+    {
+     "code": "score",
+     "name": "оценка кейса",
+     "type": "number",
+     "comment": "Расчетная оценка кейса."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_ACTIVITIES",
+     "name": "Деятельность и услуги"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Asset",
+   "name": "Актив",
+   "comment": "Материальный или нематериальный актив: имущество, оборудование, транспорт, объекты инфраструктуры.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование актива",
+     "type": "string",
+     "comment": "Наименование актива."
+    },
+    {
+     "code": "assetType",
+     "name": "тип актива",
+     "type": "string",
+     "comment": "Тип актива: здание, оборудование, транспорт, помещение."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус актива."
+    },
+    {
+     "code": "criticality",
+     "name": "критичность",
+     "type": "string",
+     "comment": "Критичность актива."
+    },
+    {
+     "code": "value",
+     "name": "стоимость",
+     "type": "number",
+     "comment": "Оценочная стоимость актива."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_RESOURCES",
+     "name": "Ресурсы и активы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ITSystem",
+   "name": "ИТ-система",
+   "comment": "Информационная система, приложение, платформа или технический сервис.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование ИТ-системы",
+     "type": "string",
+     "comment": "Наименование ИТ-системы."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус ИТ-системы: активна, недоступна, выведена из эксплуатации."
+    },
+    {
+     "code": "criticality",
+     "name": "критичность",
+     "type": "string",
+     "comment": "Критичность ИТ-системы."
+    },
+    {
+     "code": "availability",
+     "name": "доступность",
+     "type": "string",
+     "comment": "Фактическая или требуемая доступность."
+    },
+    {
+     "code": "recoveryTimeObjective",
+     "name": "допустимое время восстановления",
+     "type": "string",
+     "comment": "Допустимое время восстановления после сбоя."
+    },
+    {
+     "code": "dataClasses",
+     "name": "классы данных",
+     "type": "string",
+     "comment": "Классы данных, обрабатываемые системой."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_RESOURCES",
+     "name": "Ресурсы и активы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataObject",
+   "name": "Объект данных",
+   "comment": "Данные, набор данных, реестр, класс данных или информационный объект.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование объекта данных",
+     "type": "string",
+     "comment": "Наименование объекта данных."
+    },
+    {
+     "code": "dataCategory",
+     "name": "категория данных",
+     "type": "string",
+     "comment": "Категория данных: персональные, финансовые, справочные, отчетные."
+    },
+    {
+     "code": "personalDataFlag",
+     "name": "персональные данные",
+     "type": "boolean",
+     "comment": "Признак содержания персональных данных."
+    },
+    {
+     "code": "sensitivityLevel",
+     "name": "уровень чувствительности",
+     "type": "string",
+     "comment": "Уровень чувствительности или секретности."
+    },
+    {
+     "code": "retentionPeriod",
+     "name": "срок хранения",
+     "type": "string",
+     "comment": "Требуемый срок хранения данных."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_RESOURCES",
+     "name": "Ресурсы и активы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Document",
+   "name": "Документ",
+   "comment": "Документ, подтверждающий факт, право, решение, обязательство или данные.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование документа",
+     "type": "string",
+     "comment": "Наименование документа."
+    },
+    {
+     "code": "documentType",
+     "name": "тип документа",
+     "type": "string",
+     "comment": "Тип документа: заявление, справка, договор, акт, политика."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус документа."
+    },
+    {
+     "code": "issueDate",
+     "name": "дата выдачи",
+     "type": "date",
+     "comment": "Дата выдачи или создания документа."
+    },
+    {
+     "code": "expiryDate",
+     "name": "дата окончания действия",
+     "type": "date",
+     "comment": "Дата окончания действия документа."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_RESOURCES",
+     "name": "Ресурсы и активы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "FinancialResource",
+   "name": "Финансовый ресурс",
+   "comment": "Бюджет, финансирование, доход, статья расходов или денежный ресурс.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование финансового ресурса",
+     "type": "string",
+     "comment": "Наименование финансового ресурса."
+    },
+    {
+     "code": "financialType",
+     "name": "тип финансового ресурса",
+     "type": "string",
+     "comment": "Тип: бюджет, доход, субсидия, оплата, фонд."
+    },
+    {
+     "code": "amount",
+     "name": "сумма",
+     "type": "number",
+     "comment": "Сумма финансового ресурса."
+    },
+    {
+     "code": "currency",
+     "name": "валюта",
+     "type": "string",
+     "comment": "Валюта суммы."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус финансового ресурса."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_RESOURCES",
+     "name": "Ресурсы и активы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Contract",
+   "name": "Договор",
+   "comment": "Договор, контракт, соглашение или обязательства между сторонами.",
+   "attributes": [
+    {
+     "code": "contractNumber",
+     "name": "номер договора",
+     "type": "string",
+     "comment": "Номер договора."
+    },
+    {
+     "code": "name",
+     "name": "наименование договора",
+     "type": "string",
+     "comment": "Наименование договора."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус договора: действует, расторгнут, приостановлен."
+    },
+    {
+     "code": "amount",
+     "name": "сумма договора",
+     "type": "number",
+     "comment": "Сумма договора."
+    },
+    {
+     "code": "startDate",
+     "name": "дата начала",
+     "type": "date",
+     "comment": "Дата начала действия договора."
+    },
+    {
+     "code": "endDate",
+     "name": "дата окончания",
+     "type": "date",
+     "comment": "Дата окончания действия договора."
+    },
+    {
+     "code": "riskLevel",
+     "name": "уровень риска",
+     "type": "string",
+     "comment": "Уровень риска договора."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_RESOURCES",
+     "name": "Ресурсы и активы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Product",
+   "name": "Продукт",
+   "comment": "Продукт, товар, работа или услуга, поставляемые организацией.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование продукта",
+     "type": "string",
+     "comment": "Наименование продукта."
+    },
+    {
+     "code": "productType",
+     "name": "тип продукта",
+     "type": "string",
+     "comment": "Тип продукта: товар, работа, услуга, ПО."
+    },
+    {
+     "code": "criticality",
+     "name": "критичность",
+     "type": "string",
+     "comment": "Критичность продукта для процессов."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_RESOURCES",
+     "name": "Ресурсы и активы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Location",
+   "name": "Местоположение",
+   "comment": "Географический объект, адрес, регион, город, площадка или объект размещения.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Наименование местоположения."
+    },
+    {
+     "code": "locationType",
+     "name": "тип местоположения",
+     "type": "string",
+     "comment": "Тип: страна, регион, город, адрес, площадка."
+    },
+    {
+     "code": "code",
+     "name": "код",
+     "type": "string",
+     "comment": "Код местоположения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_RESOURCES",
+     "name": "Ресурсы и активы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalAct",
+   "name": "Нормативный правовой акт",
+   "comment": "Закон, постановление, приказ или иной нормативный правовой акт.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Наименование нормативного акта."
+    },
+    {
+     "code": "number",
+     "name": "номер",
+     "type": "string",
+     "comment": "Номер нормативного акта."
+    },
+    {
+     "code": "effectiveDate",
+     "name": "дата вступления в силу",
+     "type": "date",
+     "comment": "Дата вступления в силу."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус акта: действует, изменен, отменен."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_NORMS",
+     "name": "Нормы и контроль"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Requirement",
+   "name": "Требование",
+   "comment": "Конкретное требование, обязанность, ограничение или правило, вытекающее из нормативного акта или политики.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование требования",
+     "type": "string",
+     "comment": "Наименование требования."
+    },
+    {
+     "code": "requirementType",
+     "name": "тип требования",
+     "type": "string",
+     "comment": "Тип: правовое, техническое, организационное, отчетное."
+    },
+    {
+     "code": "obligationType",
+     "name": "тип обязательства",
+     "type": "string",
+     "comment": "Обязывает, запрещает, разрешает, рекомендует."
+    },
+    {
+     "code": "effectiveDate",
+     "name": "дата начала действия",
+     "type": "date",
+     "comment": "Дата начала действия требования."
+    },
+    {
+     "code": "penalty",
+     "name": "последствия нарушения",
+     "type": "string",
+     "comment": "Санкции или последствия нарушения требования."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_NORMS",
+     "name": "Нормы и контроль"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Policy",
+   "name": "Политика",
+   "comment": "Внутренняя политика, регламент, стандарт или правило организации.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование политики",
+     "type": "string",
+     "comment": "Наименование политики."
+    },
+    {
+     "code": "policyType",
+     "name": "тип политики",
+     "type": "string",
+     "comment": "Тип: информационная безопасность, доступы, качество, закупки."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус политики."
+    },
+    {
+     "code": "effectiveDate",
+     "name": "дата начала действия",
+     "type": "date",
+     "comment": "Дата начала действия политики."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_NORMS",
+     "name": "Нормы и контроль"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Control",
+   "name": "Контроль",
+   "comment": "Контрольная мера, проверка, механизм снижения риска или обеспечения соответствия.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование контроля",
+     "type": "string",
+     "comment": "Наименование контрольной меры."
+    },
+    {
+     "code": "controlType",
+     "name": "тип контроля",
+     "type": "string",
+     "comment": "Тип: ручной, автоматический, предупреждающий, корректирующий."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус контроля."
+    },
+    {
+     "code": "frequency",
+     "name": "периодичность",
+     "type": "string",
+     "comment": "Периодичность выполнения контроля."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_NORMS",
+     "name": "Нормы и контроль"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Restriction",
+   "name": "Ограничение",
+   "comment": "Ограничение, запрет, санкция или специальное условие, применяемое к субъектам или деятельности.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование ограничения",
+     "type": "string",
+     "comment": "Наименование ограничения."
+    },
+    {
+     "code": "restrictionType",
+     "name": "тип ограничения",
+     "type": "string",
+     "comment": "Тип: санкция, запрет, лимит, условие доступа."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус ограничения."
+    },
+    {
+     "code": "effectiveDate",
+     "name": "дата начала действия",
+     "type": "date",
+     "comment": "Дата начала действия ограничения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_NORMS",
+     "name": "Нормы и контроль"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "EligibilityRule",
+   "name": "Правило назначения",
+   "comment": "Правило, критерий или условие предоставления льготы, выплаты, услуги или назначения.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование правила",
+     "type": "string",
+     "comment": "Наименование правила назначения."
+    },
+    {
+     "code": "ruleType",
+     "name": "тип правила",
+     "type": "string",
+     "comment": "Тип: льгота, выплата, доступ, назначение."
+    },
+    {
+     "code": "criteria",
+     "name": "критерии",
+     "type": "string",
+     "comment": "Описание критериев применения правила."
+    },
+    {
+     "code": "effectiveDate",
+     "name": "дата начала действия",
+     "type": "date",
+     "comment": "Дата начала действия правила."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_NORMS",
+     "name": "Нормы и контроль"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Event",
+   "name": "Событие",
+   "comment": "Событие, факт или происшествие, которое может влиять на процессы, услуги или риски.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование события",
+     "type": "string",
+     "comment": "Наименование события."
+    },
+    {
+     "code": "eventType",
+     "name": "тип события",
+     "type": "string",
+     "comment": "Тип события: изменение, сбой, проверка, публикация."
+    },
+    {
+     "code": "eventDate",
+     "name": "дата события",
+     "type": "date",
+     "comment": "Дата события."
+    },
+    {
+     "code": "severity",
+     "name": "значимость",
+     "type": "string",
+     "comment": "Значимость события."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SITUATIONS",
+     "name": "События, риски и показатели"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Incident",
+   "name": "Инцидент",
+   "comment": "Инцидент, сбой, авария или нежелательное событие, требующее реагирования.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование инцидента",
+     "type": "string",
+     "comment": "Наименование инцидента."
+    },
+    {
+     "code": "incidentType",
+     "name": "тип инцидента",
+     "type": "string",
+     "comment": "Тип: технический сбой, киберинцидент, авария, нарушение процесса."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус инцидента."
+    },
+    {
+     "code": "severity",
+     "name": "серьезность",
+     "type": "string",
+     "comment": "Серьезность инцидента."
+    },
+    {
+     "code": "occurredAt",
+     "name": "дата возникновения",
+     "type": "date",
+     "comment": "Дата и время возникновения инцидента."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SITUATIONS",
+     "name": "События, риски и показатели"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Risk",
+   "name": "Риск",
+   "comment": "Риск, угроза или потенциальная проблема, влияющая на процессы, услуги, проекты или организации.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование риска",
+     "type": "string",
+     "comment": "Наименование риска."
+    },
+    {
+     "code": "riskType",
+     "name": "тип риска",
+     "type": "string",
+     "comment": "Тип: операционный, финансовый, правовой, репутационный."
+    },
+    {
+     "code": "likelihood",
+     "name": "вероятность",
+     "type": "string",
+     "comment": "Вероятность реализации риска."
+    },
+    {
+     "code": "impact",
+     "name": "последствия",
+     "type": "string",
+     "comment": "Оценка последствий риска."
+    },
+    {
+     "code": "riskScore",
+     "name": "оценка риска",
+     "type": "number",
+     "comment": "Числовая оценка риска."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус риска."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SITUATIONS",
+     "name": "События, риски и показатели"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "KPI",
+   "name": "Показатель",
+   "comment": "Ключевой показатель эффективности или метрика для измерения состояния объекта.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование показателя",
+     "type": "string",
+     "comment": "Наименование показателя."
+    },
+    {
+     "code": "kpiType",
+     "name": "тип показателя",
+     "type": "string",
+     "comment": "Тип: финансовый, операционный, сервисный, нормативный."
+    },
+    {
+     "code": "value",
+     "name": "значение",
+     "type": "number",
+     "comment": "Значение показателя."
+    },
+    {
+     "code": "unit",
+     "name": "единица измерения",
+     "type": "string",
+     "comment": "Единица измерения показателя."
+    },
+    {
+     "code": "period",
+     "name": "период",
+     "type": "string",
+     "comment": "Период измерения показателя."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SITUATIONS",
+     "name": "События, риски и показатели"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ImpactAssessment",
+   "name": "Оценка влияния",
+   "comment": "Результат импакт-анализа, описывающий влияние изменения или события на объекты графа.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование оценки",
+     "type": "string",
+     "comment": "Наименование оценки влияния."
+    },
+    {
+     "code": "assessmentDate",
+     "name": "дата оценки",
+     "type": "date",
+     "comment": "Дата выполнения оценки."
+    },
+    {
+     "code": "impactLevel",
+     "name": "уровень влияния",
+     "type": "string",
+     "comment": "Уровень влияния: низкий, средний, высокий."
+    },
+    {
+     "code": "summary",
+     "name": "резюме",
+     "type": "string",
+     "comment": "Краткое резюме влияния."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SITUATIONS",
+     "name": "События, риски и показатели"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DecisionOption",
+   "name": "Вариант решения",
+   "comment": "Возможный вариант решения, рассматриваемый в рамках кейса.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование варианта",
+     "type": "string",
+     "comment": "Наименование варианта решения."
+    },
+    {
+     "code": "optionType",
+     "name": "тип варианта",
+     "type": "string",
+     "comment": "Тип варианта: одобрить, отклонить, запросить данные, выбрать поставщика."
+    },
+    {
+     "code": "score",
+     "name": "оценка варианта",
+     "type": "number",
+     "comment": "Расчетная оценка варианта."
+    },
+    {
+     "code": "pros",
+     "name": "преимущества",
+     "type": "string",
+     "comment": "Преимущества варианта."
+    },
+    {
+     "code": "cons",
+     "name": "недостатки",
+     "type": "string",
+     "comment": "Недостатки варианта."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SITUATIONS",
+     "name": "События, риски и показатели"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Decision",
+   "name": "Решение",
+   "comment": "Принятое решение по кейсу: назначение, одобрение, отказ, выбор варианта или мера реагирования.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование решения",
+     "type": "string",
+     "comment": "Наименование решения."
+    },
+    {
+     "code": "decisionType",
+     "name": "тип решения",
+     "type": "string",
+     "comment": "Тип решения: одобрение, отказ, назначение, приоритизация."
+    },
+    {
+     "code": "decisionDate",
+     "name": "дата решения",
+     "type": "date",
+     "comment": "Дата принятия решения."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус решения."
+    },
+    {
+     "code": "explanation",
+     "name": "обоснование",
+     "type": "string",
+     "comment": "Обоснование решения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SITUATIONS",
+     "name": "События, риски и показатели"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ChangeScenario",
+   "name": "Сценарий изменения",
+   "comment": "Сценарий изменения для импакт-анализа: изменение требования, статуса организации, ИТ-системы или процесса.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование сценария",
+     "type": "string",
+     "comment": "Наименование сценария изменения."
+    },
+    {
+     "code": "changeType",
+     "name": "тип изменения",
+     "type": "string",
+     "comment": "Тип изменения: нормативное, организационное, техническое, кадровое."
+    },
+    {
+     "code": "proposedDate",
+     "name": "дата предложения",
+     "type": "date",
+     "comment": "Дата предложения изменения."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус сценария."
+    },
+    {
+     "code": "expectedImpact",
+     "name": "ожидаемое влияние",
+     "type": "string",
+     "comment": "Ожидаемое влияние изменения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SITUATIONS",
+     "name": "События, риски и показатели"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "worksIn",
+   "name": "работает в",
+   "comment": "Связывает физическое лицо с организацией, в которой оно работает.",
+   "fromClass": "Person",
+   "toClass": "Organization"
+  },
+  {
+   "code": "holdsPosition",
+   "name": "занимает должность",
+   "comment": "Связывает физическое лицо с должностью.",
+   "fromClass": "Person",
+   "toClass": "Position"
+  },
+  {
+   "code": "hasRole",
+   "name": "имеет роль",
+   "comment": "Связывает физическое лицо с ролью в процессе, проекте или организации.",
+   "fromClass": "Person",
+   "toClass": "Role"
+  },
+  {
+   "code": "memberOfHousehold",
+   "name": "входит в домохозяйство",
+   "comment": "Связывает физическое лицо с домохозяйством.",
+   "fromClass": "Person",
+   "toClass": "Household"
+  },
+  {
+   "code": "relatedToPerson",
+   "name": "связан с физическим лицом",
+   "comment": "Связывает двух физических лиц, например семейные или родственные отношения.",
+   "fromClass": "Person",
+   "toClass": "Person"
+  },
+  {
+   "code": "beneficialOwnerOf",
+   "name": "является бенефициаром",
+   "comment": "Связывает физическое лицо с организацией, где оно является бенефициарным владельцем.",
+   "fromClass": "Person",
+   "toClass": "Organization"
+  },
+  {
+   "code": "canReplacePerson",
+   "name": "может заменить",
+   "comment": "Связывает одного сотрудника с другим сотрудником, которого он может заменить.",
+   "fromClass": "Person",
+   "toClass": "Person"
+  },
+  {
+   "code": "hasAccessToITSystem",
+   "name": "имеет доступ к ИТ-системе",
+   "comment": "Связывает физическое лицо с ИТ-системой, к которой у него есть доступ.",
+   "fromClass": "Person",
+   "toClass": "ITSystem"
+  },
+  {
+   "code": "hasAccessToDataObject",
+   "name": "имеет доступ к объекту данных",
+   "comment": "Связывает физическое лицо с объектом данных, к которому у него есть доступ.",
+   "fromClass": "Person",
+   "toClass": "DataObject"
+  },
+  {
+   "code": "personHasDocument",
+   "name": "имеет документ",
+   "comment": "Связывает физическое лицо с документом, который относится к лицу.",
+   "fromClass": "Person",
+   "toClass": "Document"
+  },
+  {
+   "code": "personHasFinancialResource",
+   "name": "имеет финансовый ресурс",
+   "comment": "Связывает физическое лицо с доходом, выплатой или иным финансовым ресурсом.",
+   "fromClass": "Person",
+   "toClass": "FinancialResource"
+  },
+  {
+   "code": "personOwnsAsset",
+   "name": "владеет активом",
+   "comment": "Связывает физическое лицо с активом, которым оно владеет.",
+   "fromClass": "Person",
+   "toClass": "Asset"
+  },
+  {
+   "code": "receivesService",
+   "name": "получает услугу",
+   "comment": "Связывает физическое лицо с услугой, получателем которой он является.",
+   "fromClass": "Person",
+   "toClass": "Service"
+  },
+  {
+   "code": "responsibleForProcess",
+   "name": "отвечает за процесс",
+   "comment": "Связывает физическое лицо с процессом, за который оно отвечает.",
+   "fromClass": "Person",
+   "toClass": "Process"
+  },
+  {
+   "code": "responsibleForProject",
+   "name": "отвечает за проект",
+   "comment": "Связывает физическое лицо с проектом, за который оно отвечает.",
+   "fromClass": "Person",
+   "toClass": "Project"
+  },
+  {
+   "code": "responsibleForTask",
+   "name": "отвечает за задачу",
+   "comment": "Связывает физическое лицо с задачей, за которую оно отвечает.",
+   "fromClass": "Person",
+   "toClass": "Task"
+  },
+  {
+   "code": "participatesInProject",
+   "name": "участвует в проекте",
+   "comment": "Связывает физическое лицо с проектом, в котором оно участвует.",
+   "fromClass": "Person",
+   "toClass": "Project"
+  },
+  {
+   "code": "personResponsibleForContract",
+   "name": "отвечает за договор",
+   "comment": "Связывает физическое лицо с договором, за который оно отвечает.",
+   "fromClass": "Person",
+   "toClass": "Contract"
+  },
+  {
+   "code": "personHasConflictOfInterestWithOrganization",
+   "name": "имеет конфликт интересов с организацией",
+   "comment": "Связывает физическое лицо с организацией, с которой возможен конфликт интересов.",
+   "fromClass": "Person",
+   "toClass": "Organization"
+  },
+  {
+   "code": "positionPartOfOrgUnit",
+   "name": "должность относится к подразделению",
+   "comment": "Связывает должность с организационным подразделением.",
+   "fromClass": "Position",
+   "toClass": "OrgUnit"
+  },
+  {
+   "code": "orgUnitPartOfOrganization",
+   "name": "подразделение входит в организацию",
+   "comment": "Связывает подразделение с организацией.",
+   "fromClass": "OrgUnit",
+   "toClass": "Organization"
+  },
+  {
+   "code": "organizationLocatedIn",
+   "name": "организация расположена в",
+   "comment": "Связывает организацию с местоположением.",
+   "fromClass": "Organization",
+   "toClass": "Location"
+  },
+  {
+   "code": "organizationAffiliatedWith",
+   "name": "организация аффилирована с",
+   "comment": "Связывает организацию с другой аффилированной организацией.",
+   "fromClass": "Organization",
+   "toClass": "Organization"
+  },
+  {
+   "code": "organizationAlternativeSupplierTo",
+   "name": "организация является альтернативным поставщиком для",
+   "comment": "Связывает организацию с другой организацией, для которой она может быть альтернативным поставщиком.",
+   "fromClass": "Organization",
+   "toClass": "Organization"
+  },
+  {
+   "code": "organizationProvidesService",
+   "name": "организация предоставляет услугу",
+   "comment": "Связывает организацию с услугой, которую она предоставляет.",
+   "fromClass": "Organization",
+   "toClass": "Service"
+  },
+  {
+   "code": "organizationExecutesProject",
+   "name": "организация выполняет проект",
+   "comment": "Связывает организацию с проектом, который она выполняет.",
+   "fromClass": "Organization",
+   "toClass": "Project"
+  },
+  {
+   "code": "organizationPerformsProcess",
+   "name": "организация выполняет процесс",
+   "comment": "Связывает организацию с процессом, который она выполняет.",
+   "fromClass": "Organization",
+   "toClass": "Process"
+  },
+  {
+   "code": "organizationHasContract",
+   "name": "организация имеет договор",
+   "comment": "Связывает организацию с договором.",
+   "fromClass": "Organization",
+   "toClass": "Contract"
+  },
+  {
+   "code": "organizationOwnsAsset",
+   "name": "организация владеет активом",
+   "comment": "Связывает организацию с активом, которым она владеет.",
+   "fromClass": "Organization",
+   "toClass": "Asset"
+  },
+  {
+   "code": "organizationUsesITSystem",
+   "name": "организация использует ИТ-систему",
+   "comment": "Связывает организацию с ИТ-системой, которую она использует.",
+   "fromClass": "Organization",
+   "toClass": "ITSystem"
+  },
+  {
+   "code": "organizationSuppliesProduct",
+   "name": "организация поставляет продукт",
+   "comment": "Связывает организацию с продуктом, который она поставляет.",
+   "fromClass": "Organization",
+   "toClass": "Product"
+  },
+  {
+   "code": "organizationSubjectToRequirement",
+   "name": "организация подчиняется требованию",
+   "comment": "Связывает организацию с требованием, которое к ней применяется.",
+   "fromClass": "Organization",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "organizationHasRisk",
+   "name": "организация имеет риск",
+   "comment": "Связывает организацию с риском.",
+   "fromClass": "Organization",
+   "toClass": "Risk"
+  },
+  {
+   "code": "organizationHasFinancialResource",
+   "name": "организация имеет финансовый ресурс",
+   "comment": "Связывает организацию с бюджетом или иным финансовым ресурсом.",
+   "fromClass": "Organization",
+   "toClass": "FinancialResource"
+  },
+  {
+   "code": "organizationMeasuredByKPI",
+   "name": "организация измеряется показателем",
+   "comment": "Связывает организацию с показателем эффективности.",
+   "fromClass": "Organization",
+   "toClass": "KPI"
+  },
+  {
+   "code": "processUsesITSystem",
+   "name": "процесс использует ИТ-систему",
+   "comment": "Связывает процесс с ИТ-системой, которая используется в процессе.",
+   "fromClass": "Process",
+   "toClass": "ITSystem"
+  },
+  {
+   "code": "processUsesDataObject",
+   "name": "процесс использует объект данных",
+   "comment": "Связывает процесс с объектом данных, который используется в процессе.",
+   "fromClass": "Process",
+   "toClass": "DataObject"
+  },
+  {
+   "code": "processUsesAsset",
+   "name": "процесс использует актив",
+   "comment": "Связывает процесс с активом, который используется в процессе.",
+   "fromClass": "Process",
+   "toClass": "Asset"
+  },
+  {
+   "code": "processUsesProduct",
+   "name": "процесс использует продукт",
+   "comment": "Связывает процесс с продуктом, который используется в процессе.",
+   "fromClass": "Process",
+   "toClass": "Product"
+  },
+  {
+   "code": "processProducesDocument",
+   "name": "процесс формирует документ",
+   "comment": "Связывает процесс с документом, который формируется в процессе.",
+   "fromClass": "Process",
+   "toClass": "Document"
+  },
+  {
+   "code": "processGovernedByRequirement",
+   "name": "процесс регулируется требованием",
+   "comment": "Связывает процесс с требованием, которое к нему применяется.",
+   "fromClass": "Process",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "processGovernedByPolicy",
+   "name": "процесс регулируется политикой",
+   "comment": "Связывает процесс с политикой, которая к нему применяется.",
+   "fromClass": "Process",
+   "toClass": "Policy"
+  },
+  {
+   "code": "processControlledByControl",
+   "name": "процесс контролируется контролем",
+   "comment": "Связывает процесс с контрольной мерой.",
+   "fromClass": "Process",
+   "toClass": "Control"
+  },
+  {
+   "code": "processProvidesService",
+   "name": "процесс обеспечивает услугу",
+   "comment": "Связывает процесс с услугой, которую он обеспечивает.",
+   "fromClass": "Process",
+   "toClass": "Service"
+  },
+  {
+   "code": "processHasRisk",
+   "name": "процесс имеет риск",
+   "comment": "Связывает процесс с риском.",
+   "fromClass": "Process",
+   "toClass": "Risk"
+  },
+  {
+   "code": "processMeasuredByKPI",
+   "name": "процесс измеряется показателем",
+   "comment": "Связывает процесс с показателем эффективности.",
+   "fromClass": "Process",
+   "toClass": "KPI"
+  },
+  {
+   "code": "processDependsOnProcess",
+   "name": "процесс зависит от процесса",
+   "comment": "Связывает процесс с другим процессом, от которого он зависит.",
+   "fromClass": "Process",
+   "toClass": "Process"
+  },
+  {
+   "code": "serviceGovernedByRequirement",
+   "name": "услуга регулируется требованием",
+   "comment": "Связывает услугу с требованием, которое к ней применяется.",
+   "fromClass": "Service",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "serviceHasRisk",
+   "name": "услуга имеет риск",
+   "comment": "Связывает услугу с риском.",
+   "fromClass": "Service",
+   "toClass": "Risk"
+  },
+  {
+   "code": "serviceDependsOnITSystem",
+   "name": "услуга зависит от ИТ-системы",
+   "comment": "Связывает услугу с ИТ-системой, от которой она зависит.",
+   "fromClass": "Service",
+   "toClass": "ITSystem"
+  },
+  {
+   "code": "serviceMeasuredByKPI",
+   "name": "услуга измеряется показателем",
+   "comment": "Связывает услугу с показателем эффективности.",
+   "fromClass": "Service",
+   "toClass": "KPI"
+  },
+  {
+   "code": "taskPartOfProject",
+   "name": "задача входит в проект",
+   "comment": "Связывает задачу с проектом.",
+   "fromClass": "Task",
+   "toClass": "Project"
+  },
+  {
+   "code": "projectHasRisk",
+   "name": "проект имеет риск",
+   "comment": "Связывает проект с риском.",
+   "fromClass": "Project",
+   "toClass": "Risk"
+  },
+  {
+   "code": "projectMeasuredByKPI",
+   "name": "проект измеряется показателем",
+   "comment": "Связывает проект с показателем эффективности.",
+   "fromClass": "Project",
+   "toClass": "KPI"
+  },
+  {
+   "code": "assetLocatedIn",
+   "name": "актив расположен в",
+   "comment": "Связывает актив с местоположением.",
+   "fromClass": "Asset",
+   "toClass": "Location"
+  },
+  {
+   "code": "itSystemProcessesDataObject",
+   "name": "ИТ-система обрабатывает объект данных",
+   "comment": "Связывает ИТ-систему с объектом данных, который она обрабатывает.",
+   "fromClass": "ITSystem",
+   "toClass": "DataObject"
+  },
+  {
+   "code": "itSystemSupportsService",
+   "name": "ИТ-система поддерживает услугу",
+   "comment": "Связывает ИТ-систему с услугой, которую она поддерживает.",
+   "fromClass": "ITSystem",
+   "toClass": "Service"
+  },
+  {
+   "code": "itSystemHasRisk",
+   "name": "ИТ-система имеет риск",
+   "comment": "Связывает ИТ-систему с риском.",
+   "fromClass": "ITSystem",
+   "toClass": "Risk"
+  },
+  {
+   "code": "itSystemSubjectToRequirement",
+   "name": "ИТ-система подчиняется требованию",
+   "comment": "Связывает ИТ-систему с требованием, которое к ней применяется.",
+   "fromClass": "ITSystem",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "dataObjectSubjectToRequirement",
+   "name": "объект данных подчиняется требованию",
+   "comment": "Связывает объект данных с требованием, которое к нему применяется.",
+   "fromClass": "DataObject",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "dataObjectOwnedByOrganization",
+   "name": "объект данных принадлежит организации",
+   "comment": "Связывает объект данных с организацией-владельцем.",
+   "fromClass": "DataObject",
+   "toClass": "Organization"
+  },
+  {
+   "code": "documentIssuedByOrganization",
+   "name": "документ выдан организацией",
+   "comment": "Связывает документ с организацией, которая его выдала.",
+   "fromClass": "Document",
+   "toClass": "Organization"
+  },
+  {
+   "code": "contractHasParty",
+   "name": "договор имеет сторону",
+   "comment": "Связывает договор с организацией, являющейся стороной договора.",
+   "fromClass": "Contract",
+   "toClass": "Organization"
+  },
+  {
+   "code": "contractUsesFinancialResource",
+   "name": "договор использует финансовый ресурс",
+   "comment": "Связывает договор с финансовым ресурсом или бюджетом.",
+   "fromClass": "Contract",
+   "toClass": "FinancialResource"
+  },
+  {
+   "code": "contractFundsProject",
+   "name": "договор финансирует проект",
+   "comment": "Связывает договор с проектом, который он финансирует или обеспечивает.",
+   "fromClass": "Contract",
+   "toClass": "Project"
+  },
+  {
+   "code": "contractGovernedByRequirement",
+   "name": "договор регулируется требованием",
+   "comment": "Связывает договор с требованием, которое к нему применяется.",
+   "fromClass": "Contract",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "contractHasRisk",
+   "name": "договор имеет риск",
+   "comment": "Связывает договор с риском.",
+   "fromClass": "Contract",
+   "toClass": "Risk"
+  },
+  {
+   "code": "legalActContainsRequirement",
+   "name": "нормативный акт содержит требование",
+   "comment": "Связывает нормативный правовой акт с требованием, которое из него вытекает.",
+   "fromClass": "LegalAct",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "policyImplementsRequirement",
+   "name": "политика реализует требование",
+   "comment": "Связывает политику с требованием, которое она реализует.",
+   "fromClass": "Policy",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "controlEnsuresRequirement",
+   "name": "контроль обеспечивает требование",
+   "comment": "Связывает контрольную меру с требованием, которое она обеспечивает.",
+   "fromClass": "Control",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "riskMitigatedByControl",
+   "name": "риск снижается контролем",
+   "comment": "Связывает риск с контрольной мерой, которая его снижает.",
+   "fromClass": "Risk",
+   "toClass": "Control"
+  },
+  {
+   "code": "restrictionAppliesToOrganization",
+   "name": "ограничение применяется к организации",
+   "comment": "Связывает ограничение с организацией, к которой оно применяется.",
+   "fromClass": "Restriction",
+   "toClass": "Organization"
+  },
+  {
+   "code": "restrictionAppliesToPerson",
+   "name": "ограничение применяется к физическому лицу",
+   "comment": "Связывает ограничение с физическим лицом, к которому оно применяется.",
+   "fromClass": "Restriction",
+   "toClass": "Person"
+  },
+  {
+   "code": "restrictionEstablishedByRequirement",
+   "name": "ограничение установлено требованием",
+   "comment": "Связывает ограничение с требованием, которое его устанавливает.",
+   "fromClass": "Restriction",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "eligibilityRuleAppliesToPerson",
+   "name": "правило назначения применяется к физическому лицу",
+   "comment": "Связывает правило назначения с физическим лицом.",
+   "fromClass": "EligibilityRule",
+   "toClass": "Person"
+  },
+  {
+   "code": "eligibilityRuleAppliesToService",
+   "name": "правило назначения применяется к услуге",
+   "comment": "Связывает правило назначения с услугой или льготой.",
+   "fromClass": "EligibilityRule",
+   "toClass": "Service"
+  },
+  {
+   "code": "incidentOccursInITSystem",
+   "name": "инцидент произошел в ИТ-системе",
+   "comment": "Связывает инцидент с ИТ-системой, в которой он произошел.",
+   "fromClass": "Incident",
+   "toClass": "ITSystem"
+  },
+  {
+   "code": "incidentAffectsProcess",
+   "name": "инцидент влияет на процесс",
+   "comment": "Связывает инцидент с процессом, на который он влияет.",
+   "fromClass": "Incident",
+   "toClass": "Process"
+  },
+  {
+   "code": "incidentAffectsService",
+   "name": "инцидент влияет на услугу",
+   "comment": "Связывает инцидент с услугой, на которую он влияет.",
+   "fromClass": "Incident",
+   "toClass": "Service"
+  },
+  {
+   "code": "incidentCreatesRisk",
+   "name": "инцидент создает риск",
+   "comment": "Связывает инцидент с риском, который возникает из-за инцидента.",
+   "fromClass": "Incident",
+   "toClass": "Risk"
+  },
+  {
+   "code": "eventAffectsService",
+   "name": "событие влияет на услугу",
+   "comment": "Связывает событие с услугой, на которую оно влияет.",
+   "fromClass": "Event",
+   "toClass": "Service"
+  },
+  {
+   "code": "eventRelatedToLocation",
+   "name": "событие связано с местоположением",
+   "comment": "Связывает событие с местоположением.",
+   "fromClass": "Event",
+   "toClass": "Location"
+  },
+  {
+   "code": "changeScenarioTargetsProcess",
+   "name": "сценарий изменения направлен на процесс",
+   "comment": "Связывает сценарий изменения с процессом, который изменяется.",
+   "fromClass": "ChangeScenario",
+   "toClass": "Process"
+  },
+  {
+   "code": "changeScenarioTargetsITSystem",
+   "name": "сценарий изменения направлен на ИТ-систему",
+   "comment": "Связывает сценарий изменения с ИТ-системой, которая изменяется.",
+   "fromClass": "ChangeScenario",
+   "toClass": "ITSystem"
+  },
+  {
+   "code": "changeScenarioTargetsRequirement",
+   "name": "сценарий изменения направлен на требование",
+   "comment": "Связывает сценарий изменения с требованием, которое изменяется.",
+   "fromClass": "ChangeScenario",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "changeScenarioTargetsOrganization",
+   "name": "сценарий изменения направлен на организацию",
+   "comment": "Связывает сценарий изменения с организацией, которая изменяется.",
+   "fromClass": "ChangeScenario",
+   "toClass": "Organization"
+  },
+  {
+   "code": "changeScenarioTargetsDataObject",
+   "name": "сценарий изменения направлен на объект данных",
+   "comment": "Связывает сценарий изменения с объектом данных, который изменяется.",
+   "fromClass": "ChangeScenario",
+   "toClass": "DataObject"
+  },
+  {
+   "code": "impactAssessmentEvaluatesChangeScenario",
+   "name": "оценка влияния оценивает сценарий изменения",
+   "comment": "Связывает оценку влияния со сценарием изменения.",
+   "fromClass": "ImpactAssessment",
+   "toClass": "ChangeScenario"
+  },
+  {
+   "code": "impactAssessmentIdentifiesRisk",
+   "name": "оценка влияния выявляет риск",
+   "comment": "Связывает оценку влияния с риском, который был выявлен.",
+   "fromClass": "ImpactAssessment",
+   "toClass": "Risk"
+  },
+  {
+   "code": "decisionCaseHasApplicant",
+   "name": "кейс имеет заявителя",
+   "comment": "Связывает кейс принятия решения с физическим лицом-заявителем.",
+   "fromClass": "DecisionCase",
+   "toClass": "Person"
+  },
+  {
+   "code": "decisionCaseEvaluatesOrganization",
+   "name": "кейс оценивает организацию",
+   "comment": "Связывает кейс принятия решения с организацией, которая оценивается.",
+   "fromClass": "DecisionCase",
+   "toClass": "Organization"
+  },
+  {
+   "code": "decisionCaseEvaluatesPerson",
+   "name": "кейс оценивает физическое лицо",
+   "comment": "Связывает кейс принятия решения с физическим лицом, которое оценивается.",
+   "fromClass": "DecisionCase",
+   "toClass": "Person"
+  },
+  {
+   "code": "decisionCaseGovernedByEligibilityRule",
+   "name": "кейс регулируется правилом назначения",
+   "comment": "Связывает кейс принятия решения с правилом назначения.",
+   "fromClass": "DecisionCase",
+   "toClass": "EligibilityRule"
+  },
+  {
+   "code": "decisionCaseHasOption",
+   "name": "кейс имеет вариант решения",
+   "comment": "Связывает кейс принятия решения с вариантом решения.",
+   "fromClass": "DecisionCase",
+   "toClass": "DecisionOption"
+  },
+  {
+   "code": "decisionCaseResultsInDecision",
+   "name": "кейс завершается решением",
+   "comment": "Связывает кейс принятия решения с итоговым решением.",
+   "fromClass": "DecisionCase",
+   "toClass": "Decision"
+  },
+  {
+   "code": "decisionCaseRelatedToIncident",
+   "name": "кейс связан с инцидентом",
+   "comment": "Связывает кейс принятия решения с инцидентом.",
+   "fromClass": "DecisionCase",
+   "toClass": "Incident"
+  },
+  {
+   "code": "decisionCaseAddressesRisk",
+   "name": "кейс адресован риску",
+   "comment": "Связывает кейс принятия решения с риском, который нужно устранить или снизить.",
+   "fromClass": "DecisionCase",
+   "toClass": "Risk"
+  },
+  {
+   "code": "decisionOptionRecommendsOrganization",
+   "name": "вариант решения рекомендует организацию",
+   "comment": "Связывает вариант решения с рекомендуемой организацией.",
+   "fromClass": "DecisionOption",
+   "toClass": "Organization"
+  },
+  {
+   "code": "decisionOptionRecommendsPerson",
+   "name": "вариант решения рекомендует физическое лицо",
+   "comment": "Связывает вариант решения с рекомендуемым физическим лицом.",
+   "fromClass": "DecisionOption",
+   "toClass": "Person"
+  },
+  {
+   "code": "decisionOptionRecommendsControl",
+   "name": "вариант решения рекомендует контроль",
+   "comment": "Связывает вариант решения с рекомендуемой контрольной мерой.",
+   "fromClass": "DecisionOption",
+   "toClass": "Control"
+  },
+  {
+   "code": "decisionApprovesContract",
+   "name": "решение одобряет договор",
+   "comment": "Связывает решение с договором, который одобряется.",
+   "fromClass": "Decision",
+   "toClass": "Contract"
+  },
+  {
+   "code": "decisionAssignsPerson",
+   "name": "решение назначает физическое лицо",
+   "comment": "Связывает решение с физическим лицом, которое назначается.",
+   "fromClass": "Decision",
+   "toClass": "Person"
+  },
+  {
+   "code": "decisionAssignsPosition",
+   "name": "решение назначает на должность",
+   "comment": "Связывает решение с должностью, на которую выполняется назначение.",
+   "fromClass": "Decision",
+   "toClass": "Position"
+  },
+  {
+   "code": "decisionGrantsService",
+   "name": "решение предоставляет услугу",
+   "comment": "Связывает решение с услугой, льготой или выплатой, которая предоставляется.",
+   "fromClass": "Decision",
+   "toClass": "Service"
+  },
+  {
+   "code": "decisionBasedOnDocument",
+   "name": "решение основано на документе",
+   "comment": "Связывает решение с документом, который является основанием.",
+   "fromClass": "Decision",
+   "toClass": "Document"
+  },
+  {
+   "code": "decisionBasedOnImpactAssessment",
+   "name": "решение основано на оценке влияния",
+   "comment": "Связывает решение с оценкой влияния, использованной при принятии решения.",
+   "fromClass": "Decision",
+   "toClass": "ImpactAssessment"
+  }
+ ],
+ "info": {
+  "description": "Кросс-доменное ядро — универсальная онтология для связки субъектов, деятельности, ресурсов, норм и рисков. Она описывает, кто действует (люди, организации, подразделения, должности, домохозяйства), что делается (процессы, услуги, проекты, задачи, кейсы решений), на чём (активы, ИТ-системы, данные, документы, финансы, договоры), по каким правилам (нормативные акты, требования, политики, контроли, ограничения, правила назначения) и с какими последствиями (события, инциденты, риски, показатели, оценки влияния, варианты и принятые решения). Онтология предназначена для импакт-анализа («что затронет изменение?») и поддержки принятия решений («кому назначить, кого выбрать, что приоритизировать?»).",
+  "scope": [
+   "Субъекты: люди, организации, подразделения, должности, роли, домохозяйства",
+   "Деятельность: процессы, услуги, проекты, задачи, кейсы принятия решений",
+   "Ресурсы: активы, ИТ-системы, данные, документы, финансы, договоры, продукты, локации",
+   "Нормы и контроль: акты, требования, политики, контроли, ограничения, правила назначения",
+   "События, риски и решения: события, инциденты, риски, KPI, оценки влияния, сценарии изменений"
+  ],
+  "competencyQuestions": [
+   "Какие сотрудники работают в заданной организации и какие должности они занимают?",
+   "Кто может заменить ключевого сотрудника на время его отсутствия?",
+   "Какие процессы обрабатывают персональные данные и какие требования их регулируют?",
+   "Какие услуги и процессы пострадают при отказе заданной ИТ-системы?",
+   "Какие организации являются бенефициарами, аффилированными лицами или альтернативными поставщиками друг друга?",
+   "Какие договоры связаны с организацией, каковы их статусы, суммы и уровни риска?",
+   "Какие требования вытекают из нормативного акта и какие организации им подчиняются?",
+   "Кто отвечает за процесс, проект или задачу и какие у них критичность и сроки?",
+   "Какие риски связаны с организацией, процессом или проектом и какие контроли их снижают?",
+   "Кому положена льгота или выплата по правилам назначения и данным о доходах и домохозяйстве?",
+   "Можно ли назначить сотрудника на должность: соответствуют ли его компетенции требованиям?",
+   "Какие объекты затронет сценарий изменения (новое требование, смена статуса, сбой системы)?",
+   "Какие решения уже приняты по кейсу и какие варианты рассматривались с их оценками?"
+  ]
+ },
+ "theme": []
+}

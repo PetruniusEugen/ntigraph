@@ -1,0 +1,768 @@
+{
+ "classes": [
+  {
+   "code": "ModalLogicSystem",
+   "name": "Система модальной логики",
+   "comment": "Язык с модальными операторами вместе со схемами аксиом и правилами вывода. Именованные системы (K, T, D, S4, S5, KD45, Kt) являются экземплярами этого класса. В BFO: информационная сущность (ICE).",
+   "attributes": [
+    {
+     "code": "systemName",
+     "name": "название системы",
+     "type": "string",
+     "comment": "Принятое обозначение системы, например S5."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LOGIC",
+     "name": "Логические системы и выводы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModalFormula",
+   "name": "Модальная формула",
+   "comment": "Правильно построенное выражение модального языка, включая атомарные формулы. В BFO: информационная сущность (ICE).",
+   "attributes": [
+    {
+     "code": "notation",
+     "name": "запись формулы",
+     "type": "string",
+     "comment": "Запись формулы в принятой нотации."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LOGIC",
+     "name": "Логические системы и выводы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "AxiomSchema",
+   "name": "Схема аксиом",
+   "comment": "Предписание о форме формул, принимаемых без доказательства. В BFO: информационная сущность (ICE).",
+   "attributes": [
+    {
+     "code": "notation",
+     "name": "запись схемы",
+     "type": "string",
+     "comment": "Запись схемы, например □φ → φ."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LOGIC",
+     "name": "Логические системы и выводы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "FrameCondition",
+   "name": "Условие на фрейм",
+   "comment": "Свойство отношения достижимости, которому соответствует схема аксиом: рефлексивность, серийность, транзитивность, евклидовость.",
+   "attributes": [
+    {
+     "code": "property",
+     "name": "свойство отношения",
+     "type": "string",
+     "comment": "Формулировка свойства отношения достижимости."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LOGIC",
+     "name": "Логические системы и выводы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "InferenceRule",
+   "name": "Правило вывода",
+   "comment": "Предписание перехода от формул-посылок к формуле-заключению.",
+   "attributes": [
+    {
+     "code": "notation",
+     "name": "запись правила",
+     "type": "string",
+     "comment": "Запись правила в виде посылки и заключения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LOGIC",
+     "name": "Логические системы и выводы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "KripkeModel",
+   "name": "Модель Крипке",
+   "comment": "Описание фрейма вместе с оценкой. Миры модели не являются мирами реальности: это элементы описания, без онтологических обязательств. В BFO: информационная сущность (ICE).",
+   "attributes": [
+    {
+     "code": "modelName",
+     "name": "обозначение модели",
+     "type": "string",
+     "comment": "Краткое обозначение модели, например M_epi."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SEM",
+     "name": "Семантика Крипке"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "KripkeFrame",
+   "name": "Фрейм Крипке",
+   "comment": "Непустое множество миров с отношением достижимости на нём.",
+   "attributes": [
+    {
+     "code": "frameName",
+     "name": "обозначение фрейма",
+     "type": "string",
+     "comment": "Краткое обозначение фрейма, например F_epi."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SEM",
+     "name": "Семантика Крипке"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModelWorld",
+   "name": "Мир модели",
+   "comment": "Элемент множества миров фрейма и точка вычисления истинности формул. В темпоральной модели мир соответствует моменту времени.",
+   "attributes": [
+    {
+     "code": "label",
+     "name": "обозначение мира",
+     "type": "string",
+     "comment": "Обозначение мира, например w1 или t1."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SEM",
+     "name": "Семантика Крипке"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "AccessibilityRelation",
+   "name": "Отношение достижимости",
+   "comment": "Бинарное отношение между мирами фрейма. Его свойства определяют, какие схемы аксиом валидны.",
+   "attributes": [
+    {
+     "code": "pairs",
+     "name": "описание пар",
+     "type": "string",
+     "comment": "Описание пар миров, связанных отношением."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SEM",
+     "name": "Семантика Крипке"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Valuation",
+   "name": "Оценка",
+   "comment": "Сопоставляет каждому пропозициональному символу множество миров модели, где он истинен.",
+   "attributes": [
+    {
+     "code": "description",
+     "name": "описание оценки",
+     "type": "string",
+     "comment": "Запись оценки, например V(p) = {w1, w2}."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SEM",
+     "name": "Семантика Крипке"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SatisfactionStatement",
+   "name": "Утверждение выполнимости",
+   "comment": "Утверждение, что формула истинна в данном мире данной модели.",
+   "attributes": [
+    {
+     "code": "record",
+     "name": "запись утверждения",
+     "type": "string",
+     "comment": "Запись вида M, w ⊨ φ."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SEM",
+     "name": "Семантика Крипке"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModalityReading",
+   "name": "Прочтение модальности",
+   "comment": "Предписание о том, как читаются модальные операторы: алетическое, эпистемическое, деонтическое или временное. Одна система может иметь несколько прочтений. В BFO: информационная сущность (ICE).",
+   "attributes": [
+    {
+     "code": "kind",
+     "name": "вид модальности",
+     "type": "string",
+     "comment": "Алетическая, эпистемическая, деонтическая или временная."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MOD",
+     "name": "Виды модальности"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "NecessityKind",
+   "name": "Вид необходимости",
+   "comment": "Сила алетической необходимости: логическая, метафизическая, номологическая. Каждая следующая слабее предыдущей.",
+   "attributes": [
+    {
+     "code": "strength",
+     "name": "основание необходимости",
+     "type": "string",
+     "comment": "Чем фиксируется истинность: логической формой, природой вещей или законами природы."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MOD",
+     "name": "Виды модальности"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModalOperator",
+   "name": "Модальный оператор",
+   "comment": "Символ, образующий из формулы новую формулу: □, ◇, K, B, O, P, F, G, P_past и другие. В BFO: информационная сущность (ICE).",
+   "attributes": [
+    {
+     "code": "symbol",
+     "name": "символ",
+     "type": "string",
+     "comment": "Обозначение оператора."
+    },
+    {
+     "code": "reading",
+     "name": "чтение",
+     "type": "string",
+     "comment": "Как оператор читается словами."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MOD",
+     "name": "Виды модальности"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Person",
+   "name": "Агент",
+   "comment": "Человек, которому приписываются знание, убеждение и обязательства. Роли субъекта знания и адресата нормы он получает контекстуально. В BFO: объект (object), а роли отдельные сущности.",
+   "attributes": [
+    {
+     "code": "fullName",
+     "name": "имя",
+     "type": "string",
+     "comment": "Имя или обозначение агента."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM",
+     "name": "Предметные сущности: агенты, нормы, время, процессы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Norm",
+   "name": "Норма",
+   "comment": "Предписание, которое обязывает, разрешает или запрещает действие определённого типа. В BFO: директивная информационная сущность.",
+   "attributes": [
+    {
+     "code": "text",
+     "name": "текст нормы",
+     "type": "string",
+     "comment": "Формулировка нормы."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM",
+     "name": "Предметные сущности: агенты, нормы, время, процессы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DeonticStatus",
+   "name": "Деонтический статус",
+   "comment": "Обязательство, разрешение или запрет, которые возлагаются на агента нормой и исполняются в процессе. В BFO: реализуемая сущность (realizable entity).",
+   "attributes": [
+    {
+     "code": "kind",
+     "name": "вид статуса",
+     "type": "string",
+     "comment": "Обязательство, разрешение или запрет."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM",
+     "name": "Предметные сущности: агенты, нормы, время, процессы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "EpistemicAttitude",
+   "name": "Эпистемическая установка",
+   "comment": "Знание или убеждение агента относительно содержания. Знание это убеждение с истинным содержанием. В BFO: диспозиция (disposition).",
+   "attributes": [
+    {
+     "code": "kind",
+     "name": "вид установки",
+     "type": "string",
+     "comment": "Знание или убеждение."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM",
+     "name": "Предметные сущности: агенты, нормы, время, процессы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalInterval",
+   "name": "Временной интервал",
+   "comment": "Протяжённая область времени. В BFO: temporal interval.",
+   "attributes": [
+    {
+     "code": "startedAt",
+     "name": "начало",
+     "type": "date",
+     "comment": "Начало интервала."
+    },
+    {
+     "code": "endedAt",
+     "name": "конец",
+     "type": "date",
+     "comment": "Конец интервала."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM",
+     "name": "Предметные сущности: агенты, нормы, время, процессы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalInstant",
+   "name": "Момент времени",
+   "comment": "Непротяжённая область времени. В BFO: temporal instant.",
+   "attributes": [
+    {
+     "code": "timestamp",
+     "name": "момент",
+     "type": "date",
+     "comment": "Дата и время момента."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM",
+     "name": "Предметные сущности: агенты, нормы, время, процессы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "MaterialEntity",
+   "name": "Материальная сущность",
+   "comment": "Вещь или вещество, носитель диспозиции. В BFO: material entity.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Наименование вещи или вещества."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM",
+     "name": "Предметные сущности: агенты, нормы, время, процессы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Disposition",
+   "name": "Диспозиция",
+   "comment": "Склонность носителя, которая реализуется в процессе при определённых условиях. Служит реальным основанием физической возможности. В BFO: disposition.",
+   "attributes": [
+    {
+     "code": "description",
+     "name": "описание диспозиции",
+     "type": "string",
+     "comment": "Что и при каких условиях реализуется."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM",
+     "name": "Предметные сущности: агенты, нормы, время, процессы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Process",
+   "name": "Процесс",
+   "comment": "То, что разворачивается во времени: исполнение обязательства, реализация диспозиции. В BFO: process.",
+   "attributes": [
+    {
+     "code": "description",
+     "name": "описание процесса",
+     "type": "string",
+     "comment": "Что происходит в процессе."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM",
+     "name": "Предметные сущности: агенты, нормы, время, процессы"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "extendsSystem",
+   "name": "расширяет",
+   "comment": "Система включает все теоремы другой системы.",
+   "fromClass": "ModalLogicSystem",
+   "toClass": "ModalLogicSystem"
+  },
+  {
+   "code": "hasAxiomSchema",
+   "name": "содержит схему аксиом",
+   "comment": "Схема аксиом, которую система добавляет от себя.",
+   "fromClass": "ModalLogicSystem",
+   "toClass": "AxiomSchema"
+  },
+  {
+   "code": "usesRule",
+   "name": "использует правило вывода",
+   "comment": "Система замкнута относительно правила вывода.",
+   "fromClass": "ModalLogicSystem",
+   "toClass": "InferenceRule"
+  },
+  {
+   "code": "correspondsToCondition",
+   "name": "соответствует условию на фрейм",
+   "comment": "Схема аксиом валидна ровно на фреймах с этим условием.",
+   "fromClass": "AxiomSchema",
+   "toClass": "FrameCondition"
+  },
+  {
+   "code": "hasReading",
+   "name": "допускает прочтение",
+   "comment": "Система применяется в данном прочтении модальности.",
+   "fromClass": "ModalLogicSystem",
+   "toClass": "ModalityReading"
+  },
+  {
+   "code": "readsOperator",
+   "name": "читает оператор",
+   "comment": "Прочтение задаёт, как читается оператор.",
+   "fromClass": "ModalityReading",
+   "toClass": "ModalOperator"
+  },
+  {
+   "code": "readingNecessityKind",
+   "name": "использует вид необходимости",
+   "comment": "Алетическое прочтение различает виды необходимости.",
+   "fromClass": "ModalityReading",
+   "toClass": "NecessityKind"
+  },
+  {
+   "code": "formulaUsesOperator",
+   "name": "содержит оператор",
+   "comment": "Формула построена с этим оператором.",
+   "fromClass": "ModalFormula",
+   "toClass": "ModalOperator"
+  },
+  {
+   "code": "formulaReading",
+   "name": "читается как",
+   "comment": "Прочтение модальности, в котором понимаются операторы формулы.",
+   "fromClass": "ModalFormula",
+   "toClass": "ModalityReading"
+  },
+  {
+   "code": "modelHasFrame",
+   "name": "имеет фрейм",
+   "comment": "Фрейм, на котором построена модель.",
+   "fromClass": "KripkeModel",
+   "toClass": "KripkeFrame"
+  },
+  {
+   "code": "modelHasValuation",
+   "name": "имеет оценку",
+   "comment": "Оценка пропозициональных символов в модели.",
+   "fromClass": "KripkeModel",
+   "toClass": "Valuation"
+  },
+  {
+   "code": "frameHasWorld",
+   "name": "содержит мир",
+   "comment": "Мир входит в множество миров фрейма.",
+   "fromClass": "KripkeFrame",
+   "toClass": "ModelWorld"
+  },
+  {
+   "code": "frameHasRelation",
+   "name": "содержит отношение достижимости",
+   "comment": "Отношение достижимости на множестве миров фрейма.",
+   "fromClass": "KripkeFrame",
+   "toClass": "AccessibilityRelation"
+  },
+  {
+   "code": "relationForSubject",
+   "name": "построено для субъекта",
+   "comment": "Эпистемическое отношение достижимости моделирует знание или убеждение данного агента.",
+   "fromClass": "AccessibilityRelation",
+   "toClass": "Person"
+  },
+  {
+   "code": "relationSatisfiesCondition",
+   "name": "удовлетворяет условию",
+   "comment": "Отношение достижимости обладает свойством.",
+   "fromClass": "AccessibilityRelation",
+   "toClass": "FrameCondition"
+  },
+  {
+   "code": "statementAboutFormula",
+   "name": "утверждает о формуле",
+   "comment": "Формула, истинность которой утверждается.",
+   "fromClass": "SatisfactionStatement",
+   "toClass": "ModalFormula"
+  },
+  {
+   "code": "statementAboutModel",
+   "name": "вычисляется в модели",
+   "comment": "Модель, в которой проверяется формула.",
+   "fromClass": "SatisfactionStatement",
+   "toClass": "KripkeModel"
+  },
+  {
+   "code": "statementAtWorld",
+   "name": "вычисляется в мире",
+   "comment": "Мир модели, в котором проверяется формула.",
+   "fromClass": "SatisfactionStatement",
+   "toClass": "ModelWorld"
+  },
+  {
+   "code": "worldAtInstant",
+   "name": "соответствует моменту",
+   "comment": "Мир темпоральной модели соответствует моменту времени.",
+   "fromClass": "ModelWorld",
+   "toClass": "TemporalInstant"
+  },
+  {
+   "code": "instantInInterval",
+   "name": "входит в интервал",
+   "comment": "Момент времени лежит внутри интервала.",
+   "fromClass": "TemporalInstant",
+   "toClass": "TemporalInterval"
+  },
+  {
+   "code": "attitudeOfPerson",
+   "name": "принадлежит агенту",
+   "comment": "Агент, которому принадлежит знание или убеждение.",
+   "fromClass": "EpistemicAttitude",
+   "toClass": "Person"
+  },
+  {
+   "code": "attitudeContent",
+   "name": "имеет содержание",
+   "comment": "Формула, выражающая содержание установки.",
+   "fromClass": "EpistemicAttitude",
+   "toClass": "ModalFormula"
+  },
+  {
+   "code": "attitudeHoldsDuring",
+   "name": "сохраняется в течение",
+   "comment": "Интервал, в течение которого установка сохраняется.",
+   "fromClass": "EpistemicAttitude",
+   "toClass": "TemporalInterval"
+  },
+  {
+   "code": "normAddressedTo",
+   "name": "адресована",
+   "comment": "Агент, которому адресована норма.",
+   "fromClass": "Norm",
+   "toClass": "Person"
+  },
+  {
+   "code": "normContent",
+   "name": "выражается формулой",
+   "comment": "Формула, выражающая содержание нормы.",
+   "fromClass": "Norm",
+   "toClass": "ModalFormula"
+  },
+  {
+   "code": "normHoldsDuring",
+   "name": "действует в течение",
+   "comment": "Интервал, в течение которого норма в силе.",
+   "fromClass": "Norm",
+   "toClass": "TemporalInterval"
+  },
+  {
+   "code": "statusGroundedInNorm",
+   "name": "основан на норме",
+   "comment": "Норма, из которой вытекает деонтический статус.",
+   "fromClass": "DeonticStatus",
+   "toClass": "Norm"
+  },
+  {
+   "code": "statusOfPerson",
+   "name": "возлагается на агента",
+   "comment": "Агент, на которого возлагается статус.",
+   "fromClass": "DeonticStatus",
+   "toClass": "Person"
+  },
+  {
+   "code": "statusHoldsDuring",
+   "name": "существует в течение",
+   "comment": "Интервал, в течение которого статус существует.",
+   "fromClass": "DeonticStatus",
+   "toClass": "TemporalInterval"
+  },
+  {
+   "code": "statusFulfilledIn",
+   "name": "исполняется в процессе",
+   "comment": "Процесс, в котором обязательство исполняется.",
+   "fromClass": "DeonticStatus",
+   "toClass": "Process"
+  },
+  {
+   "code": "personParticipates",
+   "name": "участвует в процессе",
+   "comment": "Агент участвует в процессе как действующий.",
+   "fromClass": "Person",
+   "toClass": "Process"
+  },
+  {
+   "code": "processAtInstant",
+   "name": "происходит в момент",
+   "comment": "Момент времени, в который происходит процесс.",
+   "fromClass": "Process",
+   "toClass": "TemporalInstant"
+  },
+  {
+   "code": "hasDisposition",
+   "name": "обладает диспозицией",
+   "comment": "Носитель диспозиции.",
+   "fromClass": "MaterialEntity",
+   "toClass": "Disposition"
+  },
+  {
+   "code": "dispositionRealizedIn",
+   "name": "реализуется в процессе",
+   "comment": "Процесс, в котором реализуется диспозиция.",
+   "fromClass": "Disposition",
+   "toClass": "Process"
+  },
+  {
+   "code": "dispositionGroundsPossibility",
+   "name": "обосновывает возможность",
+   "comment": "Диспозиция служит реальным основанием алетической возможности, выраженной формулой.",
+   "fromClass": "Disposition",
+   "toClass": "ModalFormula"
+  }
+ ],
+ "info": {
+  "description": "Онтология описывает модальную логику как корпус формального знания и показывает, как её системы применяются в четырёх видах модальности: алетической, эпистемической, деонтической и временной. Она связывает системы с их схемами аксиом и условиями на фрейм, формулы с операторами и прочтениями, модели Крипке с мирами и отношениями достижимости, а прочтения с предметными сущностями: агентами, нормами, обязательствами, моментами и интервалами времени, диспозициями и процессами. Миры модели рассматриваются как элементы описания, без утверждения об их существовании в реальности. Это позволяет отвечать на вопросы о том, какую систему выбрать для данной модальности, и о том, как модальные сущности связаны в конкретном сценарии.",
+  "scope": [
+   "Логика: нормальные системы (K, T, D, S4, S5, KD45, Kt), схемы аксиом, правила вывода, условия на фрейм",
+   "Семантика: модели и фреймы Крипке, миры, отношения достижимости, оценки, утверждения выполнимости",
+   "Виды модальности: алетическая (с видами необходимости), эпистемическая, деонтическая, временная и их операторы",
+   "Предметные сущности: агенты, нормы, обязательства и запреты, знание и убеждение, моменты и интервалы, диспозиции и процессы"
+  ],
+  "competencyQuestions": [
+   "Какие модальные системы существуют и какие схемы аксиом входят в каждую из них?",
+   "Какое условие на отношение достижимости соответствует каждой схеме аксиом?",
+   "Какие системы расширяют какие и что из этого следует для прочтений?",
+   "Из каких компонентов состоит модель Крипке и в каком мире вычисляется данная формула?",
+   "Какое прочтение имеют операторы □ и ◇ в каждом виде модальности?",
+   "Какие виды алетической необходимости различаются и чем они фиксируются?",
+   "Кто является субъектом знания или убеждения и какое содержание оно имеет?",
+   "Чем знание отличается от убеждения на уровне системы и условий на фрейм?",
+   "Какая норма порождает данное обязательство, кому оно адресовано и в каком процессе исполняется?",
+   "В течение какого интервала действуют норма, обязательство и установки агентов?",
+   "Какие виды модальности участвуют в данном сценарии и как они связаны через формулы?",
+   "Какая диспозиция служит реальным основанием алетической возможности?"
+  ]
+ },
+ "theme": [
+  {
+   "code": "LOGIC",
+   "name": "Логические системы и выводы",
+   "color": "#60a5fa"
+  },
+  {
+   "code": "SEM",
+   "name": "Семантика Крипке",
+   "color": "#34d399"
+  },
+  {
+   "code": "MOD",
+   "name": "Виды модальности",
+   "color": "#fbbf24"
+  },
+  {
+   "code": "DOM",
+   "name": "Предметные сущности: агенты, нормы, время, процессы",
+   "color": "#f87171"
+  }
+ ]
+}

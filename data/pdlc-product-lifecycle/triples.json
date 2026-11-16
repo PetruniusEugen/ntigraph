@@ -1,0 +1,6254 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "ideya-i-issledovanie",
+   "predicate": "имеет тип",
+   "object": "class-faza-pdlc",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "obosnovanie-koncepcii",
+   "predicate": "имеет тип",
+   "object": "class-faza-pdlc",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t003",
+   "subject": "proektirovanie",
+   "predicate": "имеет тип",
+   "object": "class-faza-pdlc",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "razrabotka",
+   "predicate": "имеет тип",
+   "object": "class-faza-pdlc",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "testirovanie-i-priemka",
+   "predicate": "имеет тип",
+   "object": "class-faza-pdlc",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "zapusk",
+   "predicate": "имеет тип",
+   "object": "class-faza-pdlc",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "rost-i-soprovozhdenie",
+   "predicate": "имеет тип",
+   "object": "class-faza-pdlc",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t008",
+   "subject": "vyvod-iz-ekspluatacii",
+   "predicate": "имеет тип",
+   "object": "class-faza-pdlc",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "obosnovanie-koncepcii",
+   "predicate": "следует за",
+   "object": "ideya-i-issledovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t010",
+   "subject": "proektirovanie",
+   "predicate": "следует за",
+   "object": "obosnovanie-koncepcii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t011",
+   "subject": "razrabotka",
+   "predicate": "следует за",
+   "object": "proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t012",
+   "subject": "testirovanie-i-priemka",
+   "predicate": "следует за",
+   "object": "razrabotka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t013",
+   "subject": "zapusk",
+   "predicate": "следует за",
+   "object": "testirovanie-i-priemka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t014",
+   "subject": "rost-i-soprovozhdenie",
+   "predicate": "следует за",
+   "object": "zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "vyvod-iz-ekspluatacii",
+   "predicate": "следует за",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "gate-1-otbor-idei",
+   "predicate": "имеет тип",
+   "object": "class-kontrolnaya-tochka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "ideya-i-issledovanie",
+   "predicate": "завершается контрольной точкой",
+   "object": "gate-1-otbor-idei",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t018",
+   "subject": "gate-1-otbor-idei",
+   "predicate": "допускает решение",
+   "object": "prodolzhit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t019",
+   "subject": "gate-1-otbor-idei",
+   "predicate": "допускает решение",
+   "object": "ostanovit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t020",
+   "subject": "gate-1-otbor-idei",
+   "predicate": "допускает решение",
+   "object": "otlozhit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "gate-1-otbor-idei",
+   "predicate": "допускает решение",
+   "object": "dorabotat",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t022",
+   "subject": "gate-2-utverzhdenie-biznes-keysa",
+   "predicate": "имеет тип",
+   "object": "class-kontrolnaya-tochka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t023",
+   "subject": "obosnovanie-koncepcii",
+   "predicate": "завершается контрольной точкой",
+   "object": "gate-2-utverzhdenie-biznes-keysa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t024",
+   "subject": "gate-2-utverzhdenie-biznes-keysa",
+   "predicate": "допускает решение",
+   "object": "prodolzhit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t025",
+   "subject": "gate-2-utverzhdenie-biznes-keysa",
+   "predicate": "допускает решение",
+   "object": "ostanovit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t026",
+   "subject": "gate-2-utverzhdenie-biznes-keysa",
+   "predicate": "допускает решение",
+   "object": "otlozhit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t027",
+   "subject": "gate-2-utverzhdenie-biznes-keysa",
+   "predicate": "допускает решение",
+   "object": "dorabotat",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t028",
+   "subject": "gate-3-gotovnost-k-razrabotke",
+   "predicate": "имеет тип",
+   "object": "class-kontrolnaya-tochka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t029",
+   "subject": "proektirovanie",
+   "predicate": "завершается контрольной точкой",
+   "object": "gate-3-gotovnost-k-razrabotke",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t030",
+   "subject": "gate-3-gotovnost-k-razrabotke",
+   "predicate": "допускает решение",
+   "object": "prodolzhit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t031",
+   "subject": "gate-3-gotovnost-k-razrabotke",
+   "predicate": "допускает решение",
+   "object": "ostanovit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t032",
+   "subject": "gate-3-gotovnost-k-razrabotke",
+   "predicate": "допускает решение",
+   "object": "otlozhit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t033",
+   "subject": "gate-3-gotovnost-k-razrabotke",
+   "predicate": "допускает решение",
+   "object": "dorabotat",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t034",
+   "subject": "gate-4-gotovnost-k-testirovaniyu",
+   "predicate": "имеет тип",
+   "object": "class-kontrolnaya-tochka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t035",
+   "subject": "razrabotka",
+   "predicate": "завершается контрольной точкой",
+   "object": "gate-4-gotovnost-k-testirovaniyu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t036",
+   "subject": "gate-4-gotovnost-k-testirovaniyu",
+   "predicate": "допускает решение",
+   "object": "prodolzhit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t037",
+   "subject": "gate-4-gotovnost-k-testirovaniyu",
+   "predicate": "допускает решение",
+   "object": "ostanovit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t038",
+   "subject": "gate-4-gotovnost-k-testirovaniyu",
+   "predicate": "допускает решение",
+   "object": "otlozhit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t039",
+   "subject": "gate-4-gotovnost-k-testirovaniyu",
+   "predicate": "допускает решение",
+   "object": "dorabotat",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t040",
+   "subject": "gate-5-reshenie-o-zapuske",
+   "predicate": "имеет тип",
+   "object": "class-kontrolnaya-tochka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t041",
+   "subject": "testirovanie-i-priemka",
+   "predicate": "завершается контрольной точкой",
+   "object": "gate-5-reshenie-o-zapuske",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t042",
+   "subject": "gate-5-reshenie-o-zapuske",
+   "predicate": "допускает решение",
+   "object": "prodolzhit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t043",
+   "subject": "gate-5-reshenie-o-zapuske",
+   "predicate": "допускает решение",
+   "object": "ostanovit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t044",
+   "subject": "gate-5-reshenie-o-zapuske",
+   "predicate": "допускает решение",
+   "object": "otlozhit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t045",
+   "subject": "gate-5-reshenie-o-zapuske",
+   "predicate": "допускает решение",
+   "object": "dorabotat",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t046",
+   "subject": "gate-6-poslezapuskovyy-obzor",
+   "predicate": "имеет тип",
+   "object": "class-kontrolnaya-tochka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t047",
+   "subject": "zapusk",
+   "predicate": "завершается контрольной точкой",
+   "object": "gate-6-poslezapuskovyy-obzor",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t048",
+   "subject": "gate-6-poslezapuskovyy-obzor",
+   "predicate": "допускает решение",
+   "object": "prodolzhit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t049",
+   "subject": "gate-6-poslezapuskovyy-obzor",
+   "predicate": "допускает решение",
+   "object": "ostanovit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t050",
+   "subject": "gate-6-poslezapuskovyy-obzor",
+   "predicate": "допускает решение",
+   "object": "dorabotat",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t051",
+   "subject": "gate-7-reshenie-o-sudbe-produkta",
+   "predicate": "имеет тип",
+   "object": "class-kontrolnaya-tochka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t052",
+   "subject": "rost-i-soprovozhdenie",
+   "predicate": "завершается контрольной точкой",
+   "object": "gate-7-reshenie-o-sudbe-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t053",
+   "subject": "gate-7-reshenie-o-sudbe-produkta",
+   "predicate": "допускает решение",
+   "object": "prodolzhit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t054",
+   "subject": "gate-7-reshenie-o-sudbe-produkta",
+   "predicate": "допускает решение",
+   "object": "ostanovit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t055",
+   "subject": "gate-7-reshenie-o-sudbe-produkta",
+   "predicate": "допускает решение",
+   "object": "dorabotat",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t056",
+   "subject": "prodolzhit",
+   "predicate": "имеет тип",
+   "object": "class-reshenie-kontrolnoy-tochki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t057",
+   "subject": "ostanovit",
+   "predicate": "имеет тип",
+   "object": "class-reshenie-kontrolnoy-tochki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t058",
+   "subject": "otlozhit",
+   "predicate": "имеет тип",
+   "object": "class-reshenie-kontrolnoy-tochki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t059",
+   "subject": "dorabotat",
+   "predicate": "имеет тип",
+   "object": "class-reshenie-kontrolnoy-tochki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t060",
+   "subject": "issledovanie-rynka",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t061",
+   "subject": "ideya-i-issledovanie",
+   "predicate": "включает работу",
+   "object": "issledovanie-rynka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t062",
+   "subject": "intervyu-s-polzovatelyami",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t063",
+   "subject": "ideya-i-issledovanie",
+   "predicate": "включает работу",
+   "object": "intervyu-s-polzovatelyami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t064",
+   "subject": "generaciya-idey",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t065",
+   "subject": "ideya-i-issledovanie",
+   "predicate": "включает работу",
+   "object": "generaciya-idey",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t066",
+   "subject": "formulirovanie-gipotez",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t067",
+   "subject": "ideya-i-issledovanie",
+   "predicate": "включает работу",
+   "object": "formulirovanie-gipotez",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t068",
+   "subject": "konkurentnyy-analiz",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t069",
+   "subject": "obosnovanie-koncepcii",
+   "predicate": "включает работу",
+   "object": "konkurentnyy-analiz",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t070",
+   "subject": "proverka-gipotez",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t071",
+   "subject": "obosnovanie-koncepcii",
+   "predicate": "включает работу",
+   "object": "proverka-gipotez",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t072",
+   "subject": "sozdanie-prototipa",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t073",
+   "subject": "obosnovanie-koncepcii",
+   "predicate": "включает работу",
+   "object": "sozdanie-prototipa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t074",
+   "subject": "ocenka-biznes-keysa",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t075",
+   "subject": "obosnovanie-koncepcii",
+   "predicate": "включает работу",
+   "object": "ocenka-biznes-keysa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t076",
+   "subject": "ocenka-riskov",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t077",
+   "subject": "obosnovanie-koncepcii",
+   "predicate": "включает работу",
+   "object": "ocenka-riskov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t078",
+   "subject": "opredelenie-trebovaniy",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t079",
+   "subject": "proektirovanie",
+   "predicate": "включает работу",
+   "object": "opredelenie-trebovaniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t080",
+   "subject": "proektirovanie-arhitektury",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t081",
+   "subject": "proektirovanie",
+   "predicate": "включает работу",
+   "object": "proektirovanie-arhitektury",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t082",
+   "subject": "ux-proektirovanie",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t083",
+   "subject": "proektirovanie",
+   "predicate": "включает работу",
+   "object": "ux-proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t084",
+   "subject": "planirovanie-reliza",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t085",
+   "subject": "proektirovanie",
+   "predicate": "включает работу",
+   "object": "planirovanie-reliza",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t086",
+   "subject": "razrabotka-funkcionalnosti",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t087",
+   "subject": "razrabotka",
+   "predicate": "включает работу",
+   "object": "razrabotka-funkcionalnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t088",
+   "subject": "vedenie-bekloga",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t089",
+   "subject": "razrabotka",
+   "predicate": "включает работу",
+   "object": "vedenie-bekloga",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t090",
+   "subject": "integraciya-i-sborka",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t091",
+   "subject": "razrabotka",
+   "predicate": "включает работу",
+   "object": "integraciya-i-sborka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t092",
+   "subject": "funkcionalnoe-testirovanie",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t093",
+   "subject": "testirovanie-i-priemka",
+   "predicate": "включает работу",
+   "object": "funkcionalnoe-testirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t094",
+   "subject": "nagruzochnoe-testirovanie",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t095",
+   "subject": "testirovanie-i-priemka",
+   "predicate": "включает работу",
+   "object": "nagruzochnoe-testirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t096",
+   "subject": "testirovanie-bezopasnosti",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t097",
+   "subject": "testirovanie-i-priemka",
+   "predicate": "включает работу",
+   "object": "testirovanie-bezopasnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t098",
+   "subject": "priemochnoe-testirovanie",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t099",
+   "subject": "testirovanie-i-priemka",
+   "predicate": "включает работу",
+   "object": "priemochnoe-testirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t100",
+   "subject": "podgotovka-zapuska",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t101",
+   "subject": "zapusk",
+   "predicate": "включает работу",
+   "object": "podgotovka-zapuska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t102",
+   "subject": "razvertyvanie-v-prodakshn",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t103",
+   "subject": "zapusk",
+   "predicate": "включает работу",
+   "object": "razvertyvanie-v-prodakshn",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t104",
+   "subject": "obuchenie-sluzhby-podderzhki",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t105",
+   "subject": "zapusk",
+   "predicate": "включает работу",
+   "object": "obuchenie-sluzhby-podderzhki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t106",
+   "subject": "monitoring-zapuska",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t107",
+   "subject": "zapusk",
+   "predicate": "включает работу",
+   "object": "monitoring-zapuska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t108",
+   "subject": "sbor-obratnoy-svyazi",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t109",
+   "subject": "rost-i-soprovozhdenie",
+   "predicate": "включает работу",
+   "object": "sbor-obratnoy-svyazi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t110",
+   "subject": "analiz-metrik-produkta",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t111",
+   "subject": "rost-i-soprovozhdenie",
+   "predicate": "включает работу",
+   "object": "analiz-metrik-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t112",
+   "subject": "vypusk-obnovleniy",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t113",
+   "subject": "rost-i-soprovozhdenie",
+   "predicate": "включает работу",
+   "object": "vypusk-obnovleniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t114",
+   "subject": "tehnicheskaya-podderzhka",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t115",
+   "subject": "rost-i-soprovozhdenie",
+   "predicate": "включает работу",
+   "object": "tehnicheskaya-podderzhka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t116",
+   "subject": "planirovanie-vyvoda-iz-ekspluatacii",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t117",
+   "subject": "vyvod-iz-ekspluatacii",
+   "predicate": "включает работу",
+   "object": "planirovanie-vyvoda-iz-ekspluatacii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t118",
+   "subject": "migraciya-polzovateley",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t119",
+   "subject": "vyvod-iz-ekspluatacii",
+   "predicate": "включает работу",
+   "object": "migraciya-polzovateley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t120",
+   "subject": "arhivirovanie-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t121",
+   "subject": "vyvod-iz-ekspluatacii",
+   "predicate": "включает работу",
+   "object": "arhivirovanie-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t122",
+   "subject": "otklyuchenie-servisa",
+   "predicate": "имеет тип",
+   "object": "class-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t123",
+   "subject": "vyvod-iz-ekspluatacii",
+   "predicate": "включает работу",
+   "object": "otklyuchenie-servisa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t124",
+   "subject": "obzor-rynka",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t125",
+   "subject": "otchet-ob-issledovanii-polzovateley",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t126",
+   "subject": "koncepciya-produkta",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t127",
+   "subject": "gipotezy-produkta",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t128",
+   "subject": "otchet-o-konkurentah",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t129",
+   "subject": "otchet-o-proverke-gipotez",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t130",
+   "subject": "prototip",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t131",
+   "subject": "biznes-keys",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t132",
+   "subject": "reestr-riskov-produkta",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t133",
+   "subject": "trebovaniya-k-produktu",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t134",
+   "subject": "arhitektura-resheniya",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t135",
+   "subject": "makety-interfeysa",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t136",
+   "subject": "plan-reliza",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t137",
+   "subject": "dorozhnaya-karta-produkta",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t138",
+   "subject": "rabochiy-inkrement-produkta",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t139",
+   "subject": "beklog-produkta",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t140",
+   "subject": "otchet-o-testirovanii",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t141",
+   "subject": "otchet-o-nagruzochnom-testirovanii",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t142",
+   "subject": "otchet-o-testirovanii-bezopasnosti",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t143",
+   "subject": "akt-priemki",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t144",
+   "subject": "plan-zapuska",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t145",
+   "subject": "reliznaya-versiya-produkta",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t146",
+   "subject": "rukovodstvo-dlya-sluzhby-podderzhki",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t147",
+   "subject": "otchet-o-zapuske",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t148",
+   "subject": "otchet-ob-obratnoy-svyazi",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t149",
+   "subject": "otchet-po-metrikam-produkta",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t150",
+   "subject": "obnovlenie-produkta",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t151",
+   "subject": "plan-vyvoda-iz-ekspluatacii",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t152",
+   "subject": "otchet-o-migracii",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t153",
+   "subject": "arhiv-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t154",
+   "subject": "issledovanie-rynka",
+   "predicate": "создаёт артефакт",
+   "object": "obzor-rynka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t155",
+   "subject": "intervyu-s-polzovatelyami",
+   "predicate": "создаёт артефакт",
+   "object": "otchet-ob-issledovanii-polzovateley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t156",
+   "subject": "generaciya-idey",
+   "predicate": "создаёт артефакт",
+   "object": "koncepciya-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t157",
+   "subject": "formulirovanie-gipotez",
+   "predicate": "создаёт артефакт",
+   "object": "gipotezy-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t158",
+   "subject": "konkurentnyy-analiz",
+   "predicate": "создаёт артефакт",
+   "object": "otchet-o-konkurentah",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t159",
+   "subject": "proverka-gipotez",
+   "predicate": "создаёт артефакт",
+   "object": "otchet-o-proverke-gipotez",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t160",
+   "subject": "sozdanie-prototipa",
+   "predicate": "создаёт артефакт",
+   "object": "prototip",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t161",
+   "subject": "ocenka-biznes-keysa",
+   "predicate": "создаёт артефакт",
+   "object": "biznes-keys",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t162",
+   "subject": "ocenka-riskov",
+   "predicate": "создаёт артефакт",
+   "object": "reestr-riskov-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t163",
+   "subject": "opredelenie-trebovaniy",
+   "predicate": "создаёт артефакт",
+   "object": "trebovaniya-k-produktu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t164",
+   "subject": "proektirovanie-arhitektury",
+   "predicate": "создаёт артефакт",
+   "object": "arhitektura-resheniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t165",
+   "subject": "ux-proektirovanie",
+   "predicate": "создаёт артефакт",
+   "object": "makety-interfeysa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t166",
+   "subject": "planirovanie-reliza",
+   "predicate": "создаёт артефакт",
+   "object": "plan-reliza",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t167",
+   "subject": "planirovanie-reliza",
+   "predicate": "создаёт артефакт",
+   "object": "dorozhnaya-karta-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t168",
+   "subject": "razrabotka-funkcionalnosti",
+   "predicate": "создаёт артефакт",
+   "object": "rabochiy-inkrement-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t169",
+   "subject": "vedenie-bekloga",
+   "predicate": "создаёт артефакт",
+   "object": "beklog-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t170",
+   "subject": "funkcionalnoe-testirovanie",
+   "predicate": "создаёт артефакт",
+   "object": "otchet-o-testirovanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t171",
+   "subject": "nagruzochnoe-testirovanie",
+   "predicate": "создаёт артефакт",
+   "object": "otchet-o-nagruzochnom-testirovanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t172",
+   "subject": "testirovanie-bezopasnosti",
+   "predicate": "создаёт артефакт",
+   "object": "otchet-o-testirovanii-bezopasnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t173",
+   "subject": "priemochnoe-testirovanie",
+   "predicate": "создаёт артефакт",
+   "object": "akt-priemki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t174",
+   "subject": "podgotovka-zapuska",
+   "predicate": "создаёт артефакт",
+   "object": "plan-zapuska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t175",
+   "subject": "razvertyvanie-v-prodakshn",
+   "predicate": "создаёт артефакт",
+   "object": "reliznaya-versiya-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t176",
+   "subject": "obuchenie-sluzhby-podderzhki",
+   "predicate": "создаёт артефакт",
+   "object": "rukovodstvo-dlya-sluzhby-podderzhki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t177",
+   "subject": "monitoring-zapuska",
+   "predicate": "создаёт артефакт",
+   "object": "otchet-o-zapuske",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t178",
+   "subject": "sbor-obratnoy-svyazi",
+   "predicate": "создаёт артефакт",
+   "object": "otchet-ob-obratnoy-svyazi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t179",
+   "subject": "analiz-metrik-produkta",
+   "predicate": "создаёт артефакт",
+   "object": "otchet-po-metrikam-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t180",
+   "subject": "vypusk-obnovleniy",
+   "predicate": "создаёт артефакт",
+   "object": "obnovlenie-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t181",
+   "subject": "planirovanie-vyvoda-iz-ekspluatacii",
+   "predicate": "создаёт артефакт",
+   "object": "plan-vyvoda-iz-ekspluatacii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t182",
+   "subject": "migraciya-polzovateley",
+   "predicate": "создаёт артефакт",
+   "object": "otchet-o-migracii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t183",
+   "subject": "arhivirovanie-dannyh",
+   "predicate": "создаёт артефакт",
+   "object": "arhiv-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t184",
+   "subject": "formulirovanie-gipotez",
+   "predicate": "использует артефакт",
+   "object": "otchet-ob-issledovanii-polzovateley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t185",
+   "subject": "formulirovanie-gipotez",
+   "predicate": "использует артефакт",
+   "object": "obzor-rynka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t186",
+   "subject": "generaciya-idey",
+   "predicate": "использует артефакт",
+   "object": "otchet-ob-issledovanii-polzovateley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t187",
+   "subject": "konkurentnyy-analiz",
+   "predicate": "использует артефакт",
+   "object": "obzor-rynka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t188",
+   "subject": "proverka-gipotez",
+   "predicate": "использует артефакт",
+   "object": "gipotezy-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t189",
+   "subject": "sozdanie-prototipa",
+   "predicate": "использует артефакт",
+   "object": "koncepciya-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t190",
+   "subject": "ocenka-biznes-keysa",
+   "predicate": "использует артефакт",
+   "object": "otchet-o-konkurentah",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t191",
+   "subject": "ocenka-biznes-keysa",
+   "predicate": "использует артефакт",
+   "object": "obzor-rynka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t192",
+   "subject": "ocenka-riskov",
+   "predicate": "использует артефакт",
+   "object": "koncepciya-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t193",
+   "subject": "opredelenie-trebovaniy",
+   "predicate": "использует артефакт",
+   "object": "biznes-keys",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t194",
+   "subject": "opredelenie-trebovaniy",
+   "predicate": "использует артефакт",
+   "object": "prototip",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t195",
+   "subject": "proektirovanie-arhitektury",
+   "predicate": "использует артефакт",
+   "object": "trebovaniya-k-produktu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t196",
+   "subject": "ux-proektirovanie",
+   "predicate": "использует артефакт",
+   "object": "trebovaniya-k-produktu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t197",
+   "subject": "ux-proektirovanie",
+   "predicate": "использует артефакт",
+   "object": "prototip",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t198",
+   "subject": "planirovanie-reliza",
+   "predicate": "использует артефакт",
+   "object": "trebovaniya-k-produktu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t199",
+   "subject": "razrabotka-funkcionalnosti",
+   "predicate": "использует артефакт",
+   "object": "arhitektura-resheniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t200",
+   "subject": "razrabotka-funkcionalnosti",
+   "predicate": "использует артефакт",
+   "object": "makety-interfeysa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t201",
+   "subject": "razrabotka-funkcionalnosti",
+   "predicate": "использует артефакт",
+   "object": "beklog-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t202",
+   "subject": "vedenie-bekloga",
+   "predicate": "использует артефакт",
+   "object": "trebovaniya-k-produktu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t203",
+   "subject": "funkcionalnoe-testirovanie",
+   "predicate": "использует артефакт",
+   "object": "rabochiy-inkrement-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t204",
+   "subject": "funkcionalnoe-testirovanie",
+   "predicate": "использует артефакт",
+   "object": "trebovaniya-k-produktu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t205",
+   "subject": "nagruzochnoe-testirovanie",
+   "predicate": "использует артефакт",
+   "object": "rabochiy-inkrement-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t206",
+   "subject": "nagruzochnoe-testirovanie",
+   "predicate": "использует артефакт",
+   "object": "arhitektura-resheniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t207",
+   "subject": "testirovanie-bezopasnosti",
+   "predicate": "использует артефакт",
+   "object": "rabochiy-inkrement-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t208",
+   "subject": "testirovanie-bezopasnosti",
+   "predicate": "использует артефакт",
+   "object": "arhitektura-resheniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t209",
+   "subject": "priemochnoe-testirovanie",
+   "predicate": "использует артефакт",
+   "object": "trebovaniya-k-produktu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t210",
+   "subject": "priemochnoe-testirovanie",
+   "predicate": "использует артефакт",
+   "object": "otchet-o-testirovanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t211",
+   "subject": "podgotovka-zapuska",
+   "predicate": "использует артефакт",
+   "object": "plan-reliza",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t212",
+   "subject": "podgotovka-zapuska",
+   "predicate": "использует артефакт",
+   "object": "biznes-keys",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t213",
+   "subject": "razvertyvanie-v-prodakshn",
+   "predicate": "использует артефакт",
+   "object": "akt-priemki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t214",
+   "subject": "monitoring-zapuska",
+   "predicate": "использует артефакт",
+   "object": "reliznaya-versiya-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t215",
+   "subject": "sbor-obratnoy-svyazi",
+   "predicate": "использует артефакт",
+   "object": "otchet-o-zapuske",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t216",
+   "subject": "analiz-metrik-produkta",
+   "predicate": "использует артефакт",
+   "object": "otchet-o-zapuske",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t217",
+   "subject": "analiz-metrik-produkta",
+   "predicate": "использует артефакт",
+   "object": "otchet-ob-obratnoy-svyazi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t218",
+   "subject": "vypusk-obnovleniy",
+   "predicate": "использует артефакт",
+   "object": "otchet-ob-obratnoy-svyazi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t219",
+   "subject": "vypusk-obnovleniy",
+   "predicate": "использует артефакт",
+   "object": "beklog-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t220",
+   "subject": "planirovanie-vyvoda-iz-ekspluatacii",
+   "predicate": "использует артефакт",
+   "object": "otchet-po-metrikam-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t221",
+   "subject": "migraciya-polzovateley",
+   "predicate": "использует артефакт",
+   "object": "plan-vyvoda-iz-ekspluatacii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t222",
+   "subject": "arhivirovanie-dannyh",
+   "predicate": "использует артефакт",
+   "object": "plan-vyvoda-iz-ekspluatacii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t223",
+   "subject": "otklyuchenie-servisa",
+   "predicate": "использует артефакт",
+   "object": "otchet-o-migracii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t224",
+   "subject": "otklyuchenie-servisa",
+   "predicate": "использует артефакт",
+   "object": "arhiv-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t225",
+   "subject": "gate-1-otbor-idei",
+   "predicate": "требует артефакт",
+   "object": "koncepciya-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t226",
+   "subject": "gate-1-otbor-idei",
+   "predicate": "требует артефакт",
+   "object": "obzor-rynka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t227",
+   "subject": "gate-2-utverzhdenie-biznes-keysa",
+   "predicate": "требует артефакт",
+   "object": "biznes-keys",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t228",
+   "subject": "gate-2-utverzhdenie-biznes-keysa",
+   "predicate": "требует артефакт",
+   "object": "otchet-o-proverke-gipotez",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t229",
+   "subject": "gate-2-utverzhdenie-biznes-keysa",
+   "predicate": "требует артефакт",
+   "object": "prototip",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t230",
+   "subject": "gate-2-utverzhdenie-biznes-keysa",
+   "predicate": "требует артефакт",
+   "object": "reestr-riskov-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t231",
+   "subject": "gate-3-gotovnost-k-razrabotke",
+   "predicate": "требует артефакт",
+   "object": "trebovaniya-k-produktu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t232",
+   "subject": "gate-3-gotovnost-k-razrabotke",
+   "predicate": "требует артефакт",
+   "object": "arhitektura-resheniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t233",
+   "subject": "gate-3-gotovnost-k-razrabotke",
+   "predicate": "требует артефакт",
+   "object": "makety-interfeysa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t234",
+   "subject": "gate-3-gotovnost-k-razrabotke",
+   "predicate": "требует артефакт",
+   "object": "plan-reliza",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t235",
+   "subject": "gate-4-gotovnost-k-testirovaniyu",
+   "predicate": "требует артефакт",
+   "object": "rabochiy-inkrement-produkta",
+   "sourceId": "src-methods",
+   "sourceName": "Обзор методологий разработки продуктов: Stage-Gate, Agile/Scrum, Lean Startup (демонстрационный источник)",
+   "sourceType": "methodology",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t236",
+   "subject": "gate-5-reshenie-o-zapuske",
+   "predicate": "требует артефакт",
+   "object": "otchet-o-testirovanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t237",
+   "subject": "gate-5-reshenie-o-zapuske",
+   "predicate": "требует артефакт",
+   "object": "otchet-o-testirovanii-bezopasnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t238",
+   "subject": "gate-5-reshenie-o-zapuske",
+   "predicate": "требует артефакт",
+   "object": "akt-priemki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t239",
+   "subject": "gate-6-poslezapuskovyy-obzor",
+   "predicate": "требует артефакт",
+   "object": "otchet-o-zapuske",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t240",
+   "subject": "gate-7-reshenie-o-sudbe-produkta",
+   "predicate": "требует артефакт",
+   "object": "otchet-po-metrikam-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t241",
+   "subject": "prodakt-menedzher",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t242",
+   "subject": "prodakt-menedzher",
+   "predicate": "отвечает за работу",
+   "object": "issledovanie-rynka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t243",
+   "subject": "prodakt-menedzher",
+   "predicate": "отвечает за работу",
+   "object": "generaciya-idey",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t244",
+   "subject": "prodakt-menedzher",
+   "predicate": "отвечает за работу",
+   "object": "formulirovanie-gipotez",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t245",
+   "subject": "prodakt-menedzher",
+   "predicate": "отвечает за работу",
+   "object": "konkurentnyy-analiz",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t246",
+   "subject": "prodakt-menedzher",
+   "predicate": "отвечает за работу",
+   "object": "ocenka-biznes-keysa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t247",
+   "subject": "prodakt-menedzher",
+   "predicate": "отвечает за работу",
+   "object": "planirovanie-vyvoda-iz-ekspluatacii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t248",
+   "subject": "dizayner-ux",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t249",
+   "subject": "dizayner-ux",
+   "predicate": "отвечает за работу",
+   "object": "intervyu-s-polzovatelyami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t250",
+   "subject": "dizayner-ux",
+   "predicate": "отвечает за работу",
+   "object": "sozdanie-prototipa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t251",
+   "subject": "dizayner-ux",
+   "predicate": "отвечает за работу",
+   "object": "ux-proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t252",
+   "subject": "biznes-analitik",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t253",
+   "subject": "biznes-analitik",
+   "predicate": "отвечает за работу",
+   "object": "opredelenie-trebovaniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t254",
+   "subject": "biznes-analitik",
+   "predicate": "отвечает за работу",
+   "object": "ocenka-riskov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t255",
+   "subject": "sistemnyy-arhitektor",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t256",
+   "subject": "sistemnyy-arhitektor",
+   "predicate": "отвечает за работу",
+   "object": "proektirovanie-arhitektury",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t257",
+   "subject": "rukovoditel-proekta",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t258",
+   "subject": "rukovoditel-proekta",
+   "predicate": "отвечает за работу",
+   "object": "planirovanie-reliza",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t259",
+   "subject": "rukovoditel-proekta",
+   "predicate": "отвечает за работу",
+   "object": "podgotovka-zapuska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t260",
+   "subject": "vladelec-produkta",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t261",
+   "subject": "vladelec-produkta",
+   "predicate": "отвечает за работу",
+   "object": "vedenie-bekloga",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t262",
+   "subject": "vladelec-produkta",
+   "predicate": "отвечает за работу",
+   "object": "proverka-gipotez",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t263",
+   "subject": "razrabotchik",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t264",
+   "subject": "razrabotchik",
+   "predicate": "отвечает за работу",
+   "object": "razrabotka-funkcionalnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t265",
+   "subject": "razrabotchik",
+   "predicate": "отвечает за работу",
+   "object": "integraciya-i-sborka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t266",
+   "subject": "razrabotchik",
+   "predicate": "отвечает за работу",
+   "object": "vypusk-obnovleniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t267",
+   "subject": "testirovschik",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t268",
+   "subject": "testirovschik",
+   "predicate": "отвечает за работу",
+   "object": "funkcionalnoe-testirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t269",
+   "subject": "testirovschik",
+   "predicate": "отвечает за работу",
+   "object": "nagruzochnoe-testirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t270",
+   "subject": "testirovschik",
+   "predicate": "отвечает за работу",
+   "object": "priemochnoe-testirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t271",
+   "subject": "inzhener-po-bezopasnosti",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t272",
+   "subject": "inzhener-po-bezopasnosti",
+   "predicate": "отвечает за работу",
+   "object": "testirovanie-bezopasnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t273",
+   "subject": "devops-inzhener",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t274",
+   "subject": "devops-inzhener",
+   "predicate": "отвечает за работу",
+   "object": "razvertyvanie-v-prodakshn",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t275",
+   "subject": "devops-inzhener",
+   "predicate": "отвечает за работу",
+   "object": "monitoring-zapuska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t276",
+   "subject": "devops-inzhener",
+   "predicate": "отвечает за работу",
+   "object": "migraciya-polzovateley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t277",
+   "subject": "devops-inzhener",
+   "predicate": "отвечает за работу",
+   "object": "arhivirovanie-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t278",
+   "subject": "devops-inzhener",
+   "predicate": "отвечает за работу",
+   "object": "otklyuchenie-servisa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t279",
+   "subject": "marketolog",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t280",
+   "subject": "marketolog",
+   "predicate": "отвечает за работу",
+   "object": "podgotovka-zapuska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t281",
+   "subject": "sluzhba-podderzhki",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t282",
+   "subject": "sluzhba-podderzhki",
+   "predicate": "отвечает за работу",
+   "object": "obuchenie-sluzhby-podderzhki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t283",
+   "subject": "sluzhba-podderzhki",
+   "predicate": "отвечает за работу",
+   "object": "sbor-obratnoy-svyazi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t284",
+   "subject": "sluzhba-podderzhki",
+   "predicate": "отвечает за работу",
+   "object": "tehnicheskaya-podderzhka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t285",
+   "subject": "analitik-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t286",
+   "subject": "analitik-dannyh",
+   "predicate": "отвечает за работу",
+   "object": "analiz-metrik-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t287",
+   "subject": "komitet-po-produktam",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t288",
+   "subject": "komitet-po-produktam",
+   "predicate": "принимает решение на контрольной точке",
+   "object": "gate-1-otbor-idei",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t289",
+   "subject": "komitet-po-produktam",
+   "predicate": "принимает решение на контрольной точке",
+   "object": "gate-2-utverzhdenie-biznes-keysa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t290",
+   "subject": "komitet-po-produktam",
+   "predicate": "принимает решение на контрольной точке",
+   "object": "gate-3-gotovnost-k-razrabotke",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t291",
+   "subject": "komitet-po-produktam",
+   "predicate": "принимает решение на контрольной точке",
+   "object": "gate-4-gotovnost-k-testirovaniyu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t292",
+   "subject": "komitet-po-produktam",
+   "predicate": "принимает решение на контрольной точке",
+   "object": "gate-5-reshenie-o-zapuske",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t293",
+   "subject": "komitet-po-produktam",
+   "predicate": "принимает решение на контрольной точке",
+   "object": "gate-6-poslezapuskovyy-obzor",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t294",
+   "subject": "komitet-po-produktam",
+   "predicate": "принимает решение на контрольной точке",
+   "object": "gate-7-reshenie-o-sudbe-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t295",
+   "subject": "sponsor-produkta",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t296",
+   "subject": "sponsor-produkta",
+   "predicate": "принимает решение на контрольной точке",
+   "object": "gate-2-utverzhdenie-biznes-keysa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t297",
+   "subject": "sponsor-produkta",
+   "predicate": "принимает решение на контрольной точке",
+   "object": "gate-5-reshenie-o-zapuske",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t298",
+   "subject": "kaskadnaya-model",
+   "predicate": "имеет тип",
+   "object": "class-metodologiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t299",
+   "subject": "kaskadnaya-model",
+   "predicate": "включает практику",
+   "object": "podrobnaya-specifikaciya-trebovaniy",
+   "sourceId": "src-methods",
+   "sourceName": "Обзор методологий разработки продуктов: Stage-Gate, Agile/Scrum, Lean Startup (демонстрационный источник)",
+   "sourceType": "methodology",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t300",
+   "subject": "kaskadnaya-model",
+   "predicate": "применима в фазе",
+   "object": "proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t301",
+   "subject": "kaskadnaya-model",
+   "predicate": "применима в фазе",
+   "object": "razrabotka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t302",
+   "subject": "kaskadnaya-model",
+   "predicate": "применима в фазе",
+   "object": "testirovanie-i-priemka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t303",
+   "subject": "kaskadnaya-model",
+   "predicate": "применима в фазе",
+   "object": "zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t304",
+   "subject": "agile",
+   "predicate": "имеет тип",
+   "object": "class-metodologiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t305",
+   "subject": "agile",
+   "predicate": "включает практику",
+   "object": "polzovatelskie-istorii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t306",
+   "subject": "agile",
+   "predicate": "включает практику",
+   "object": "retrospektiva",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t307",
+   "subject": "agile",
+   "predicate": "включает практику",
+   "object": "nepreryvnaya-integraciya-i-postavka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t308",
+   "subject": "agile",
+   "predicate": "применима в фазе",
+   "object": "razrabotka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t309",
+   "subject": "agile",
+   "predicate": "применима в фазе",
+   "object": "testirovanie-i-priemka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t310",
+   "subject": "agile",
+   "predicate": "применима в фазе",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t311",
+   "subject": "scrum",
+   "predicate": "имеет тип",
+   "object": "class-metodologiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t312",
+   "subject": "scrum",
+   "predicate": "включает практику",
+   "object": "polzovatelskie-istorii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t313",
+   "subject": "scrum",
+   "predicate": "включает практику",
+   "object": "planirovanie-sprinta",
+   "sourceId": "src-methods",
+   "sourceName": "Обзор методологий разработки продуктов: Stage-Gate, Agile/Scrum, Lean Startup (демонстрационный источник)",
+   "sourceType": "methodology",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t314",
+   "subject": "scrum",
+   "predicate": "включает практику",
+   "object": "retrospektiva",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t315",
+   "subject": "scrum",
+   "predicate": "применима в фазе",
+   "object": "razrabotka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t316",
+   "subject": "scrum",
+   "predicate": "применима в фазе",
+   "object": "testirovanie-i-priemka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t317",
+   "subject": "stage-gate",
+   "predicate": "имеет тип",
+   "object": "class-metodologiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t318",
+   "subject": "stage-gate",
+   "predicate": "включает практику",
+   "object": "reestr-riskov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t319",
+   "subject": "stage-gate",
+   "predicate": "включает практику",
+   "object": "ocenka-po-kriteriyam-kontrolnoy-tochki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t320",
+   "subject": "stage-gate",
+   "predicate": "применима в фазе",
+   "object": "ideya-i-issledovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t321",
+   "subject": "stage-gate",
+   "predicate": "применима в фазе",
+   "object": "obosnovanie-koncepcii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t322",
+   "subject": "stage-gate",
+   "predicate": "применима в фазе",
+   "object": "proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t323",
+   "subject": "stage-gate",
+   "predicate": "применима в фазе",
+   "object": "razrabotka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t324",
+   "subject": "stage-gate",
+   "predicate": "применима в фазе",
+   "object": "testirovanie-i-priemka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t325",
+   "subject": "stage-gate",
+   "predicate": "применима в фазе",
+   "object": "zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t326",
+   "subject": "stage-gate",
+   "predicate": "применима в фазе",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t327",
+   "subject": "lean-startup",
+   "predicate": "имеет тип",
+   "object": "class-metodologiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t328",
+   "subject": "lean-startup",
+   "predicate": "включает практику",
+   "object": "mvp",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t329",
+   "subject": "lean-startup",
+   "predicate": "включает практику",
+   "object": "a-b-testirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t330",
+   "subject": "lean-startup",
+   "predicate": "включает практику",
+   "object": "customer-development",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t331",
+   "subject": "lean-startup",
+   "predicate": "применима в фазе",
+   "object": "ideya-i-issledovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t332",
+   "subject": "lean-startup",
+   "predicate": "применима в фазе",
+   "object": "obosnovanie-koncepcii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t333",
+   "subject": "lean-startup",
+   "predicate": "применима в фазе",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t334",
+   "subject": "design-thinking",
+   "predicate": "имеет тип",
+   "object": "class-metodologiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t335",
+   "subject": "design-thinking",
+   "predicate": "включает практику",
+   "object": "glubinnye-intervyu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t336",
+   "subject": "design-thinking",
+   "predicate": "включает практику",
+   "object": "prototipirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t337",
+   "subject": "design-thinking",
+   "predicate": "включает практику",
+   "object": "yuzabiliti-testirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t338",
+   "subject": "design-thinking",
+   "predicate": "применима в фазе",
+   "object": "ideya-i-issledovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t339",
+   "subject": "design-thinking",
+   "predicate": "применима в фазе",
+   "object": "obosnovanie-koncepcii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t340",
+   "subject": "design-thinking",
+   "predicate": "применима в фазе",
+   "object": "proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t341",
+   "subject": "glubinnye-intervyu",
+   "predicate": "имеет тип",
+   "object": "class-praktika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t342",
+   "subject": "glubinnye-intervyu",
+   "predicate": "применяется в работе",
+   "object": "intervyu-s-polzovatelyami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t343",
+   "subject": "customer-development",
+   "predicate": "имеет тип",
+   "object": "class-praktika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t344",
+   "subject": "customer-development",
+   "predicate": "применяется в работе",
+   "object": "proverka-gipotez",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t345",
+   "subject": "prototipirovanie",
+   "predicate": "имеет тип",
+   "object": "class-praktika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t346",
+   "subject": "prototipirovanie",
+   "predicate": "применяется в работе",
+   "object": "sozdanie-prototipa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t347",
+   "subject": "prototipirovanie",
+   "predicate": "применяется в работе",
+   "object": "ux-proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t348",
+   "subject": "mvp",
+   "predicate": "имеет тип",
+   "object": "class-praktika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t349",
+   "subject": "mvp",
+   "predicate": "применяется в работе",
+   "object": "proverka-gipotez",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t350",
+   "subject": "polzovatelskie-istorii",
+   "predicate": "имеет тип",
+   "object": "class-praktika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t351",
+   "subject": "polzovatelskie-istorii",
+   "predicate": "применяется в работе",
+   "object": "opredelenie-trebovaniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t352",
+   "subject": "polzovatelskie-istorii",
+   "predicate": "применяется в работе",
+   "object": "vedenie-bekloga",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t353",
+   "subject": "planirovanie-sprinta",
+   "predicate": "имеет тип",
+   "object": "class-praktika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t354",
+   "subject": "planirovanie-sprinta",
+   "predicate": "применяется в работе",
+   "object": "vedenie-bekloga",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t355",
+   "subject": "planirovanie-sprinta",
+   "predicate": "применяется в работе",
+   "object": "razrabotka-funkcionalnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t356",
+   "subject": "retrospektiva",
+   "predicate": "имеет тип",
+   "object": "class-praktika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t357",
+   "subject": "retrospektiva",
+   "predicate": "применяется в работе",
+   "object": "razrabotka-funkcionalnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t358",
+   "subject": "nepreryvnaya-integraciya-i-postavka",
+   "predicate": "имеет тип",
+   "object": "class-praktika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t359",
+   "subject": "nepreryvnaya-integraciya-i-postavka",
+   "predicate": "применяется в работе",
+   "object": "integraciya-i-sborka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t360",
+   "subject": "nepreryvnaya-integraciya-i-postavka",
+   "predicate": "применяется в работе",
+   "object": "razvertyvanie-v-prodakshn",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t361",
+   "subject": "kod-revyu",
+   "predicate": "имеет тип",
+   "object": "class-praktika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t362",
+   "subject": "kod-revyu",
+   "predicate": "применяется в работе",
+   "object": "razrabotka-funkcionalnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t363",
+   "subject": "parnoe-programmirovanie",
+   "predicate": "имеет тип",
+   "object": "class-praktika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t364",
+   "subject": "parnoe-programmirovanie",
+   "predicate": "применяется в работе",
+   "object": "razrabotka-funkcionalnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t365",
+   "subject": "yuzabiliti-testirovanie",
+   "predicate": "имеет тип",
+   "object": "class-praktika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t366",
+   "subject": "yuzabiliti-testirovanie",
+   "predicate": "применяется в работе",
+   "object": "ux-proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t367",
+   "subject": "yuzabiliti-testirovanie",
+   "predicate": "применяется в работе",
+   "object": "priemochnoe-testirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t368",
+   "subject": "a-b-testirovanie",
+   "predicate": "имеет тип",
+   "object": "class-praktika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t369",
+   "subject": "a-b-testirovanie",
+   "predicate": "применяется в работе",
+   "object": "analiz-metrik-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t370",
+   "subject": "a-b-testirovanie",
+   "predicate": "применяется в работе",
+   "object": "vypusk-obnovleniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t371",
+   "subject": "kanareechnyy-reliz",
+   "predicate": "имеет тип",
+   "object": "class-praktika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t372",
+   "subject": "kanareechnyy-reliz",
+   "predicate": "применяется в работе",
+   "object": "razvertyvanie-v-prodakshn",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t373",
+   "subject": "podrobnaya-specifikaciya-trebovaniy",
+   "predicate": "имеет тип",
+   "object": "class-praktika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t374",
+   "subject": "podrobnaya-specifikaciya-trebovaniy",
+   "predicate": "применяется в работе",
+   "object": "opredelenie-trebovaniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t375",
+   "subject": "reestr-riskov",
+   "predicate": "имеет тип",
+   "object": "class-praktika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t376",
+   "subject": "reestr-riskov",
+   "predicate": "применяется в работе",
+   "object": "ocenka-riskov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t377",
+   "subject": "ocenka-po-kriteriyam-kontrolnoy-tochki",
+   "predicate": "имеет тип",
+   "object": "class-praktika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t378",
+   "subject": "ocenka-po-kriteriyam-kontrolnoy-tochki",
+   "predicate": "применяется в работе",
+   "object": "ocenka-biznes-keysa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t379",
+   "subject": "razmer-rynka-tam",
+   "predicate": "имеет тип",
+   "object": "class-metrika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t380",
+   "subject": "razmer-rynka-tam",
+   "predicate": "измеряет фазу",
+   "object": "ideya-i-issledovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t381",
+   "subject": "razmer-rynka-tam",
+   "predicate": "измеряет фазу",
+   "object": "obosnovanie-koncepcii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t382",
+   "subject": "okupaemost-investiciy-roi",
+   "predicate": "имеет тип",
+   "object": "class-metrika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t383",
+   "subject": "okupaemost-investiciy-roi",
+   "predicate": "измеряет фазу",
+   "object": "obosnovanie-koncepcii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t384",
+   "subject": "okupaemost-investiciy-roi",
+   "predicate": "измеряет фазу",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t385",
+   "subject": "vremya-vyvoda-na-rynok",
+   "predicate": "имеет тип",
+   "object": "class-metrika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t386",
+   "subject": "vremya-vyvoda-na-rynok",
+   "predicate": "измеряет фазу",
+   "object": "razrabotka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t387",
+   "subject": "vremya-vyvoda-na-rynok",
+   "predicate": "измеряет фазу",
+   "object": "zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t388",
+   "subject": "skorost-komandy",
+   "predicate": "имеет тип",
+   "object": "class-metrika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t389",
+   "subject": "skorost-komandy",
+   "predicate": "измеряет фазу",
+   "object": "razrabotka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t390",
+   "subject": "pokrytie-testami",
+   "predicate": "имеет тип",
+   "object": "class-metrika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t391",
+   "subject": "pokrytie-testami",
+   "predicate": "измеряет фазу",
+   "object": "testirovanie-i-priemka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t392",
+   "subject": "plotnost-defektov",
+   "predicate": "имеет тип",
+   "object": "class-metrika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t393",
+   "subject": "plotnost-defektov",
+   "predicate": "измеряет фазу",
+   "object": "testirovanie-i-priemka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t394",
+   "subject": "plotnost-defektov",
+   "predicate": "измеряет фазу",
+   "object": "zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t395",
+   "subject": "indeks-nps",
+   "predicate": "имеет тип",
+   "object": "class-metrika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t396",
+   "subject": "indeks-nps",
+   "predicate": "измеряет фазу",
+   "object": "zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t397",
+   "subject": "indeks-nps",
+   "predicate": "измеряет фазу",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t398",
+   "subject": "stoimost-privlecheniya-klienta-cac",
+   "predicate": "имеет тип",
+   "object": "class-metrika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t399",
+   "subject": "stoimost-privlecheniya-klienta-cac",
+   "predicate": "измеряет фазу",
+   "object": "zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t400",
+   "subject": "stoimost-privlecheniya-klienta-cac",
+   "predicate": "измеряет фазу",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t401",
+   "subject": "dostupnost-servisa-uptime",
+   "predicate": "имеет тип",
+   "object": "class-metrika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t402",
+   "subject": "dostupnost-servisa-uptime",
+   "predicate": "измеряет фазу",
+   "object": "zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t403",
+   "subject": "dostupnost-servisa-uptime",
+   "predicate": "измеряет фазу",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t404",
+   "subject": "uderzhanie-polzovateley",
+   "predicate": "имеет тип",
+   "object": "class-metrika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t405",
+   "subject": "uderzhanie-polzovateley",
+   "predicate": "измеряет фазу",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t406",
+   "subject": "ottok-polzovateley",
+   "predicate": "имеет тип",
+   "object": "class-metrika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t407",
+   "subject": "ottok-polzovateley",
+   "predicate": "измеряет фазу",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t408",
+   "subject": "ottok-polzovateley",
+   "predicate": "измеряет фазу",
+   "object": "vyvod-iz-ekspluatacii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t409",
+   "subject": "mesyachnaya-vyruchka-mrr",
+   "predicate": "имеет тип",
+   "object": "class-metrika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t410",
+   "subject": "mesyachnaya-vyruchka-mrr",
+   "predicate": "измеряет фазу",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t411",
+   "subject": "gate-1-otbor-idei",
+   "predicate": "оценивает метрику",
+   "object": "razmer-rynka-tam",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t412",
+   "subject": "gate-2-utverzhdenie-biznes-keysa",
+   "predicate": "оценивает метрику",
+   "object": "razmer-rynka-tam",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t413",
+   "subject": "gate-2-utverzhdenie-biznes-keysa",
+   "predicate": "оценивает метрику",
+   "object": "okupaemost-investiciy-roi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t414",
+   "subject": "gate-3-gotovnost-k-razrabotke",
+   "predicate": "оценивает метрику",
+   "object": "vremya-vyvoda-na-rynok",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t415",
+   "subject": "gate-4-gotovnost-k-testirovaniyu",
+   "predicate": "оценивает метрику",
+   "object": "skorost-komandy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t416",
+   "subject": "gate-4-gotovnost-k-testirovaniyu",
+   "predicate": "оценивает метрику",
+   "object": "pokrytie-testami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t417",
+   "subject": "gate-5-reshenie-o-zapuske",
+   "predicate": "оценивает метрику",
+   "object": "plotnost-defektov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t418",
+   "subject": "gate-5-reshenie-o-zapuske",
+   "predicate": "оценивает метрику",
+   "object": "pokrytie-testami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t419",
+   "subject": "gate-6-poslezapuskovyy-obzor",
+   "predicate": "оценивает метрику",
+   "object": "indeks-nps",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t420",
+   "subject": "gate-6-poslezapuskovyy-obzor",
+   "predicate": "оценивает метрику",
+   "object": "stoimost-privlecheniya-klienta-cac",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t421",
+   "subject": "gate-6-poslezapuskovyy-obzor",
+   "predicate": "оценивает метрику",
+   "object": "dostupnost-servisa-uptime",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t422",
+   "subject": "gate-7-reshenie-o-sudbe-produkta",
+   "predicate": "оценивает метрику",
+   "object": "uderzhanie-polzovateley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t423",
+   "subject": "gate-7-reshenie-o-sudbe-produkta",
+   "predicate": "оценивает метрику",
+   "object": "ottok-polzovateley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t424",
+   "subject": "gate-7-reshenie-o-sudbe-produkta",
+   "predicate": "оценивает метрику",
+   "object": "mesyachnaya-vyruchka-mrr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t425",
+   "subject": "gate-7-reshenie-o-sudbe-produkta",
+   "predicate": "оценивает метрику",
+   "object": "okupaemost-investiciy-roi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t426",
+   "subject": "nerelevantnost-produkta-rynku",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t427",
+   "subject": "nerelevantnost-produkta-rynku",
+   "predicate": "угрожает фазе",
+   "object": "obosnovanie-koncepcii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t428",
+   "subject": "nerelevantnost-produkta-rynku",
+   "predicate": "угрожает фазе",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t429",
+   "subject": "razduvanie-obema-scope-creep",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t430",
+   "subject": "razduvanie-obema-scope-creep",
+   "predicate": "угрожает фазе",
+   "object": "proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t431",
+   "subject": "razduvanie-obema-scope-creep",
+   "predicate": "угрожает фазе",
+   "object": "razrabotka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t432",
+   "subject": "sryv-srokov",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t433",
+   "subject": "sryv-srokov",
+   "predicate": "угрожает фазе",
+   "object": "razrabotka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t434",
+   "subject": "sryv-srokov",
+   "predicate": "угрожает фазе",
+   "object": "testirovanie-i-priemka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t435",
+   "subject": "pererashod-byudzheta",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t436",
+   "subject": "pererashod-byudzheta",
+   "predicate": "угрожает фазе",
+   "object": "razrabotka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t437",
+   "subject": "pererashod-byudzheta",
+   "predicate": "угрожает фазе",
+   "object": "zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t438",
+   "subject": "tehnicheskiy-dolg",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t439",
+   "subject": "tehnicheskiy-dolg",
+   "predicate": "угрожает фазе",
+   "object": "razrabotka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t440",
+   "subject": "tehnicheskiy-dolg",
+   "predicate": "угрожает фазе",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t441",
+   "subject": "kriticheskie-defekty-v-relize",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t442",
+   "subject": "kriticheskie-defekty-v-relize",
+   "predicate": "угрожает фазе",
+   "object": "testirovanie-i-priemka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t443",
+   "subject": "kriticheskie-defekty-v-relize",
+   "predicate": "угрожает фазе",
+   "object": "zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t444",
+   "subject": "uyazvimosti-bezopasnosti",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t445",
+   "subject": "uyazvimosti-bezopasnosti",
+   "predicate": "угрожает фазе",
+   "object": "razrabotka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t446",
+   "subject": "uyazvimosti-bezopasnosti",
+   "predicate": "угрожает фазе",
+   "object": "testirovanie-i-priemka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t447",
+   "subject": "uyazvimosti-bezopasnosti",
+   "predicate": "угрожает фазе",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t448",
+   "subject": "slabyy-zapusk",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t449",
+   "subject": "slabyy-zapusk",
+   "predicate": "угрожает фазе",
+   "object": "zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t450",
+   "subject": "zavisimost-ot-klyuchevyh-sotrudnikov",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t451",
+   "subject": "zavisimost-ot-klyuchevyh-sotrudnikov",
+   "predicate": "угрожает фазе",
+   "object": "razrabotka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t452",
+   "subject": "zavisimost-ot-klyuchevyh-sotrudnikov",
+   "predicate": "угрожает фазе",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t453",
+   "subject": "narushenie-regulyatornyh-trebovaniy",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t454",
+   "subject": "narushenie-regulyatornyh-trebovaniy",
+   "predicate": "угрожает фазе",
+   "object": "proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t455",
+   "subject": "narushenie-regulyatornyh-trebovaniy",
+   "predicate": "угрожает фазе",
+   "object": "testirovanie-i-priemka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t456",
+   "subject": "narushenie-regulyatornyh-trebovaniy",
+   "predicate": "угрожает фазе",
+   "object": "zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t457",
+   "subject": "rost-ottoka-polzovateley",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t458",
+   "subject": "rost-ottoka-polzovateley",
+   "predicate": "угрожает фазе",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t459",
+   "subject": "ustarevanie-produkta",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t460",
+   "subject": "ustarevanie-produkta",
+   "predicate": "угрожает фазе",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t461",
+   "subject": "ustarevanie-produkta",
+   "predicate": "угрожает фазе",
+   "object": "vyvod-iz-ekspluatacii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t462",
+   "subject": "customer-development",
+   "predicate": "снижает риск",
+   "object": "nerelevantnost-produkta-rynku",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t463",
+   "subject": "mvp",
+   "predicate": "снижает риск",
+   "object": "nerelevantnost-produkta-rynku",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t464",
+   "subject": "mvp",
+   "predicate": "снижает риск",
+   "object": "pererashod-byudzheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t465",
+   "subject": "prototipirovanie",
+   "predicate": "снижает риск",
+   "object": "nerelevantnost-produkta-rynku",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t466",
+   "subject": "polzovatelskie-istorii",
+   "predicate": "снижает риск",
+   "object": "razduvanie-obema-scope-creep",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t467",
+   "subject": "planirovanie-sprinta",
+   "predicate": "снижает риск",
+   "object": "sryv-srokov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t468",
+   "subject": "planirovanie-sprinta",
+   "predicate": "снижает риск",
+   "object": "razduvanie-obema-scope-creep",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t469",
+   "subject": "retrospektiva",
+   "predicate": "снижает риск",
+   "object": "tehnicheskiy-dolg",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t470",
+   "subject": "nepreryvnaya-integraciya-i-postavka",
+   "predicate": "снижает риск",
+   "object": "kriticheskie-defekty-v-relize",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t471",
+   "subject": "nepreryvnaya-integraciya-i-postavka",
+   "predicate": "снижает риск",
+   "object": "tehnicheskiy-dolg",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t472",
+   "subject": "kod-revyu",
+   "predicate": "снижает риск",
+   "object": "tehnicheskiy-dolg",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t473",
+   "subject": "kod-revyu",
+   "predicate": "снижает риск",
+   "object": "uyazvimosti-bezopasnosti",
+   "sourceId": "src-methods",
+   "sourceName": "Обзор методологий разработки продуктов: Stage-Gate, Agile/Scrum, Lean Startup (демонстрационный источник)",
+   "sourceType": "methodology",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t474",
+   "subject": "kod-revyu",
+   "predicate": "снижает риск",
+   "object": "kriticheskie-defekty-v-relize",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t475",
+   "subject": "parnoe-programmirovanie",
+   "predicate": "снижает риск",
+   "object": "zavisimost-ot-klyuchevyh-sotrudnikov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t476",
+   "subject": "yuzabiliti-testirovanie",
+   "predicate": "снижает риск",
+   "object": "slabyy-zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t477",
+   "subject": "a-b-testirovanie",
+   "predicate": "снижает риск",
+   "object": "rost-ottoka-polzovateley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t478",
+   "subject": "kanareechnyy-reliz",
+   "predicate": "снижает риск",
+   "object": "kriticheskie-defekty-v-relize",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t479",
+   "subject": "kanareechnyy-reliz",
+   "predicate": "снижает риск",
+   "object": "slabyy-zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t480",
+   "subject": "podrobnaya-specifikaciya-trebovaniy",
+   "predicate": "снижает риск",
+   "object": "razduvanie-obema-scope-creep",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t481",
+   "subject": "podrobnaya-specifikaciya-trebovaniy",
+   "predicate": "снижает риск",
+   "object": "narushenie-regulyatornyh-trebovaniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t482",
+   "subject": "reestr-riskov",
+   "predicate": "снижает риск",
+   "object": "sryv-srokov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t483",
+   "subject": "reestr-riskov",
+   "predicate": "снижает риск",
+   "object": "pererashod-byudzheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t484",
+   "subject": "ocenka-po-kriteriyam-kontrolnoy-tochki",
+   "predicate": "снижает риск",
+   "object": "nerelevantnost-produkta-rynku",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t485",
+   "subject": "ocenka-po-kriteriyam-kontrolnoy-tochki",
+   "predicate": "снижает риск",
+   "object": "pererashod-byudzheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t486",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "имеет тип",
+   "object": "class-produkt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t487",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "имеет тип",
+   "object": "class-produkt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t488",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "находится в фазе",
+   "object": "razrabotka",
+   "sourceId": "src-company",
+   "sourceName": "Реестр продуктов компании (демонстрационный источник)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-01"
+  },
+  {
+   "id": "t489",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "использует методологию",
+   "object": "scrum",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t490",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "ближайшая контрольная точка",
+   "object": "gate-4-gotovnost-k-testirovaniyu",
+   "sourceId": "src-company",
+   "sourceName": "Реестр продуктов компании (демонстрационный источник)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-01"
+  },
+  {
+   "id": "t491",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "имеет артефакт",
+   "object": "koncepciya-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t492",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "имеет артефакт",
+   "object": "obzor-rynka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t493",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "имеет артефакт",
+   "object": "biznes-keys",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t494",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "имеет артефакт",
+   "object": "otchet-o-proverke-gipotez",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t495",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "имеет артефакт",
+   "object": "prototip",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t496",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "имеет артефакт",
+   "object": "reestr-riskov-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t497",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "имеет артефакт",
+   "object": "trebovaniya-k-produktu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t498",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "имеет артефакт",
+   "object": "arhitektura-resheniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t499",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "имеет артефакт",
+   "object": "makety-interfeysa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t500",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "имеет артефакт",
+   "object": "plan-reliza",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t501",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "имеет артефакт",
+   "object": "beklog-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t502",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "подвержен риску",
+   "object": "razduvanie-obema-scope-creep",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t503",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "подвержен риску",
+   "object": "tehnicheskiy-dolg",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t504",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "подвержен риску",
+   "object": "uyazvimosti-bezopasnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t505",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "отслеживается метрикой",
+   "object": "skorost-komandy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t506",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "отслеживается метрикой",
+   "object": "pokrytie-testami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t507",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "отслеживается метрикой",
+   "object": "vremya-vyvoda-na-rynok",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t508",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "находится в фазе",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "src-company",
+   "sourceName": "Реестр продуктов компании (демонстрационный источник)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-01"
+  },
+  {
+   "id": "t509",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "использует методологию",
+   "object": "lean-startup",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t510",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "ближайшая контрольная точка",
+   "object": "gate-7-reshenie-o-sudbe-produkta",
+   "sourceId": "src-company",
+   "sourceName": "Реестр продуктов компании (демонстрационный источник)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-01"
+  },
+  {
+   "id": "t511",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "имеет артефакт",
+   "object": "koncepciya-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t512",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "имеет артефакт",
+   "object": "biznes-keys",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t513",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "имеет артефакт",
+   "object": "reliznaya-versiya-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t514",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "имеет артефакт",
+   "object": "otchet-o-zapuske",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t515",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "имеет артефакт",
+   "object": "otchet-po-metrikam-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t516",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "подвержен риску",
+   "object": "rost-ottoka-polzovateley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t517",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "подвержен риску",
+   "object": "ustarevanie-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t518",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "подвержен риску",
+   "object": "tehnicheskiy-dolg",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t519",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "отслеживается метрикой",
+   "object": "uderzhanie-polzovateley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t520",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "отслеживается метрикой",
+   "object": "ottok-polzovateley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t521",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "отслеживается метрикой",
+   "object": "mesyachnaya-vyruchka-mrr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t522",
+   "subject": "byudzhet-kopilki-na-2026-god",
+   "predicate": "имеет тип",
+   "object": "class-byudzhet-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t523",
+   "subject": "byudzhet-chitaydom-na-2026-god",
+   "predicate": "имеет тип",
+   "object": "class-byudzhet-produkta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t524",
+   "subject": "mobilnoe-prilozhenie-kopilka",
+   "predicate": "имеет бюджет",
+   "object": "byudzhet-kopilki-na-2026-god",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t525",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "имеет бюджет",
+   "object": "byudzhet-chitaydom-na-2026-god",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t526",
+   "subject": "kopilka-issledovaniya-i-obosnovanie",
+   "predicate": "имеет тип",
+   "object": "class-statya-byudzheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t527",
+   "subject": "byudzhet-kopilki-na-2026-god",
+   "predicate": "включает статью",
+   "object": "kopilka-issledovaniya-i-obosnovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t528",
+   "subject": "kopilka-issledovaniya-i-obosnovanie",
+   "predicate": "финансирует фазу",
+   "object": "ideya-i-issledovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t529",
+   "subject": "kopilka-issledovaniya-i-obosnovanie",
+   "predicate": "финансирует фазу",
+   "object": "obosnovanie-koncepcii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t530",
+   "subject": "kopilka-issledovaniya-i-obosnovanie",
+   "predicate": "оплачивается из актива",
+   "object": "denezhnye-sredstva-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t531",
+   "subject": "kopilka-issledovaniya-i-obosnovanie",
+   "predicate": "относится на расходы",
+   "object": "operacionnye-rashody-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t532",
+   "subject": "kopilka-proektirovanie",
+   "predicate": "имеет тип",
+   "object": "class-statya-byudzheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t533",
+   "subject": "byudzhet-kopilki-na-2026-god",
+   "predicate": "включает статью",
+   "object": "kopilka-proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t534",
+   "subject": "kopilka-proektirovanie",
+   "predicate": "финансирует фазу",
+   "object": "proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t535",
+   "subject": "gate-2-utverzhdenie-biznes-keysa",
+   "predicate": "высвобождает финансирование",
+   "object": "kopilka-proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t536",
+   "subject": "kopilka-proektirovanie",
+   "predicate": "оплачивается из актива",
+   "object": "denezhnye-sredstva-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t537",
+   "subject": "kopilka-proektirovanie",
+   "predicate": "относится на расходы",
+   "object": "operacionnye-rashody-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t538",
+   "subject": "kopilka-razrabotka-kapitaliziruemaya-chast",
+   "predicate": "имеет тип",
+   "object": "class-statya-byudzheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t539",
+   "subject": "byudzhet-kopilki-na-2026-god",
+   "predicate": "включает статью",
+   "object": "kopilka-razrabotka-kapitaliziruemaya-chast",
+   "sourceId": "src-finance",
+   "sourceName": "Бюджеты продуктов и управленческая отчётность (демонстрационный источник)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-05"
+  },
+  {
+   "id": "t540",
+   "subject": "kopilka-razrabotka-kapitaliziruemaya-chast",
+   "predicate": "финансирует фазу",
+   "object": "razrabotka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t541",
+   "subject": "gate-3-gotovnost-k-razrabotke",
+   "predicate": "высвобождает финансирование",
+   "object": "kopilka-razrabotka-kapitaliziruemaya-chast",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t542",
+   "subject": "kopilka-razrabotka-kapitaliziruemaya-chast",
+   "predicate": "оплачивается из актива",
+   "object": "denezhnye-sredstva-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t543",
+   "subject": "kopilka-razrabotka-kapitaliziruemaya-chast",
+   "predicate": "капитализируется в актив",
+   "object": "nematerialnyy-aktiv-kopilka-v-razrabotke",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t544",
+   "subject": "kopilka-testirovanie-i-priemka-kapitaliziruemaya-chast",
+   "predicate": "имеет тип",
+   "object": "class-statya-byudzheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t545",
+   "subject": "byudzhet-kopilki-na-2026-god",
+   "predicate": "включает статью",
+   "object": "kopilka-testirovanie-i-priemka-kapitaliziruemaya-chast",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t546",
+   "subject": "kopilka-testirovanie-i-priemka-kapitaliziruemaya-chast",
+   "predicate": "финансирует фазу",
+   "object": "testirovanie-i-priemka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t547",
+   "subject": "gate-4-gotovnost-k-testirovaniyu",
+   "predicate": "высвобождает финансирование",
+   "object": "kopilka-testirovanie-i-priemka-kapitaliziruemaya-chast",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t548",
+   "subject": "kopilka-testirovanie-i-priemka-kapitaliziruemaya-chast",
+   "predicate": "оплачивается из актива",
+   "object": "denezhnye-sredstva-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t549",
+   "subject": "kopilka-testirovanie-i-priemka-kapitaliziruemaya-chast",
+   "predicate": "капитализируется в актив",
+   "object": "nematerialnyy-aktiv-kopilka-v-razrabotke",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t550",
+   "subject": "kopilka-marketing-zapuska",
+   "predicate": "имеет тип",
+   "object": "class-statya-byudzheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t551",
+   "subject": "byudzhet-kopilki-na-2026-god",
+   "predicate": "включает статью",
+   "object": "kopilka-marketing-zapuska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t552",
+   "subject": "kopilka-marketing-zapuska",
+   "predicate": "финансирует фазу",
+   "object": "zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t553",
+   "subject": "gate-5-reshenie-o-zapuske",
+   "predicate": "высвобождает финансирование",
+   "object": "kopilka-marketing-zapuska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t554",
+   "subject": "kopilka-marketing-zapuska",
+   "predicate": "оплачивается из актива",
+   "object": "denezhnye-sredstva-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t555",
+   "subject": "kopilka-marketing-zapuska",
+   "predicate": "относится на расходы",
+   "object": "operacionnye-rashody-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t556",
+   "subject": "kopilka-infrastruktura-i-licenzii",
+   "predicate": "имеет тип",
+   "object": "class-statya-byudzheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t557",
+   "subject": "byudzhet-kopilki-na-2026-god",
+   "predicate": "включает статью",
+   "object": "kopilka-infrastruktura-i-licenzii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t558",
+   "subject": "kopilka-infrastruktura-i-licenzii",
+   "predicate": "финансирует фазу",
+   "object": "razrabotka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t559",
+   "subject": "gate-3-gotovnost-k-razrabotke",
+   "predicate": "высвобождает финансирование",
+   "object": "kopilka-infrastruktura-i-licenzii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t560",
+   "subject": "kopilka-infrastruktura-i-licenzii",
+   "predicate": "оплачивается из актива",
+   "object": "denezhnye-sredstva-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t561",
+   "subject": "kopilka-infrastruktura-i-licenzii",
+   "predicate": "капитализируется в актив",
+   "object": "osnovnye-sredstva-infrastruktura-kopilki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t562",
+   "subject": "chitaydom-soprovozhdenie-i-podderzhka",
+   "predicate": "имеет тип",
+   "object": "class-statya-byudzheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t563",
+   "subject": "byudzhet-chitaydom-na-2026-god",
+   "predicate": "включает статью",
+   "object": "chitaydom-soprovozhdenie-i-podderzhka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t564",
+   "subject": "chitaydom-soprovozhdenie-i-podderzhka",
+   "predicate": "финансирует фазу",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t565",
+   "subject": "gate-6-poslezapuskovyy-obzor",
+   "predicate": "высвобождает финансирование",
+   "object": "chitaydom-soprovozhdenie-i-podderzhka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t566",
+   "subject": "chitaydom-soprovozhdenie-i-podderzhka",
+   "predicate": "оплачивается из актива",
+   "object": "denezhnye-sredstva-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t567",
+   "subject": "chitaydom-soprovozhdenie-i-podderzhka",
+   "predicate": "относится на расходы",
+   "object": "operacionnye-rashody-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t568",
+   "subject": "chitaydom-razvitie-funkcionalnosti-kapitaliziruemaya-chast",
+   "predicate": "имеет тип",
+   "object": "class-statya-byudzheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t569",
+   "subject": "byudzhet-chitaydom-na-2026-god",
+   "predicate": "включает статью",
+   "object": "chitaydom-razvitie-funkcionalnosti-kapitaliziruemaya-chast",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t570",
+   "subject": "chitaydom-razvitie-funkcionalnosti-kapitaliziruemaya-chast",
+   "predicate": "финансирует фазу",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t571",
+   "subject": "gate-6-poslezapuskovyy-obzor",
+   "predicate": "высвобождает финансирование",
+   "object": "chitaydom-razvitie-funkcionalnosti-kapitaliziruemaya-chast",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t572",
+   "subject": "chitaydom-razvitie-funkcionalnosti-kapitaliziruemaya-chast",
+   "predicate": "оплачивается из актива",
+   "object": "denezhnye-sredstva-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t573",
+   "subject": "chitaydom-razvitie-funkcionalnosti-kapitaliziruemaya-chast",
+   "predicate": "капитализируется в актив",
+   "object": "nematerialnyy-aktiv-chitaydom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t574",
+   "subject": "chitaydom-marketing-i-privlechenie-polzovateley",
+   "predicate": "имеет тип",
+   "object": "class-statya-byudzheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t575",
+   "subject": "byudzhet-chitaydom-na-2026-god",
+   "predicate": "включает статью",
+   "object": "chitaydom-marketing-i-privlechenie-polzovateley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t576",
+   "subject": "chitaydom-marketing-i-privlechenie-polzovateley",
+   "predicate": "финансирует фазу",
+   "object": "rost-i-soprovozhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t577",
+   "subject": "gate-6-poslezapuskovyy-obzor",
+   "predicate": "высвобождает финансирование",
+   "object": "chitaydom-marketing-i-privlechenie-polzovateley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t578",
+   "subject": "chitaydom-marketing-i-privlechenie-polzovateley",
+   "predicate": "оплачивается из актива",
+   "object": "denezhnye-sredstva-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t579",
+   "subject": "chitaydom-marketing-i-privlechenie-polzovateley",
+   "predicate": "относится на расходы",
+   "object": "operacionnye-rashody-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t580",
+   "subject": "kopilka-razrabotka-kapitaliziruemaya-chast",
+   "predicate": "капитализация возможна после",
+   "object": "gate-3-gotovnost-k-razrabotke",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t581",
+   "subject": "kopilka-testirovanie-i-priemka-kapitaliziruemaya-chast",
+   "predicate": "капитализация возможна после",
+   "object": "gate-3-gotovnost-k-razrabotke",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t582",
+   "subject": "denezhnye-sredstva-kompanii",
+   "predicate": "имеет тип",
+   "object": "class-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t583",
+   "subject": "denezhnye-sredstva-kompanii",
+   "predicate": "входит в показатель",
+   "object": "sovokupnaya-stoimost-aktivov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t584",
+   "subject": "nematerialnyy-aktiv-kopilka-v-razrabotke",
+   "predicate": "имеет тип",
+   "object": "class-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t585",
+   "subject": "nematerialnyy-aktiv-kopilka-v-razrabotke",
+   "predicate": "входит в показатель",
+   "object": "sovokupnaya-stoimost-aktivov",
+   "sourceId": "src-finance",
+   "sourceName": "Бюджеты продуктов и управленческая отчётность (демонстрационный источник)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-05"
+  },
+  {
+   "id": "t586",
+   "subject": "nematerialnyy-aktiv-kopilka-v-razrabotke",
+   "predicate": "принадлежит продукту",
+   "object": "mobilnoe-prilozhenie-kopilka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t587",
+   "subject": "nematerialnyy-aktiv-kopilka-v-razrabotke",
+   "predicate": "амортизируется через",
+   "object": "amortizaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t588",
+   "subject": "nematerialnyy-aktiv-kopilka-v-razrabotke",
+   "predicate": "обесценивается через",
+   "object": "ubytok-ot-obesceneniya-aktivov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t589",
+   "subject": "osnovnye-sredstva-infrastruktura-kopilki",
+   "predicate": "имеет тип",
+   "object": "class-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t590",
+   "subject": "osnovnye-sredstva-infrastruktura-kopilki",
+   "predicate": "входит в показатель",
+   "object": "sovokupnaya-stoimost-aktivov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t591",
+   "subject": "osnovnye-sredstva-infrastruktura-kopilki",
+   "predicate": "принадлежит продукту",
+   "object": "mobilnoe-prilozhenie-kopilka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t592",
+   "subject": "osnovnye-sredstva-infrastruktura-kopilki",
+   "predicate": "амортизируется через",
+   "object": "amortizaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t593",
+   "subject": "osnovnye-sredstva-infrastruktura-kopilki",
+   "predicate": "обесценивается через",
+   "object": "ubytok-ot-obesceneniya-aktivov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t594",
+   "subject": "nematerialnyy-aktiv-chitaydom",
+   "predicate": "имеет тип",
+   "object": "class-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t595",
+   "subject": "nematerialnyy-aktiv-chitaydom",
+   "predicate": "входит в показатель",
+   "object": "sovokupnaya-stoimost-aktivov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t596",
+   "subject": "nematerialnyy-aktiv-chitaydom",
+   "predicate": "принадлежит продукту",
+   "object": "servis-podpiski-chitaydom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t597",
+   "subject": "nematerialnyy-aktiv-chitaydom",
+   "predicate": "амортизируется через",
+   "object": "amortizaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t598",
+   "subject": "nematerialnyy-aktiv-chitaydom",
+   "predicate": "обесценивается через",
+   "object": "ubytok-ot-obesceneniya-aktivov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t599",
+   "subject": "nematerialnyy-aktiv-kopilka-v-razrabotke",
+   "predicate": "начинает амортизироваться в фазе",
+   "object": "zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t600",
+   "subject": "osnovnye-sredstva-infrastruktura-kopilki",
+   "predicate": "начинает амортизироваться в фазе",
+   "object": "zapusk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t601",
+   "subject": "nematerialnyy-aktiv-kopilka-v-razrabotke",
+   "predicate": "списывается при решении",
+   "object": "ostanovit",
+   "sourceId": "src-finance",
+   "sourceName": "Бюджеты продуктов и управленческая отчётность (демонстрационный источник)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-05"
+  },
+  {
+   "id": "t602",
+   "subject": "nematerialnyy-aktiv-chitaydom",
+   "predicate": "списывается при решении",
+   "object": "ostanovit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t603",
+   "subject": "vyruchka-kompanii",
+   "predicate": "имеет тип",
+   "object": "class-finansovyy-pokazatel-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t604",
+   "subject": "operacionnye-rashody-kompanii",
+   "predicate": "имеет тип",
+   "object": "class-finansovyy-pokazatel-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t605",
+   "subject": "amortizaciya",
+   "predicate": "имеет тип",
+   "object": "class-finansovyy-pokazatel-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t606",
+   "subject": "operacionnaya-pribyl-ebit",
+   "predicate": "имеет тип",
+   "object": "class-finansovyy-pokazatel-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t607",
+   "subject": "nalog-na-pribyl",
+   "predicate": "имеет тип",
+   "object": "class-finansovyy-pokazatel-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t608",
+   "subject": "chistaya-pribyl",
+   "predicate": "имеет тип",
+   "object": "class-finansovyy-pokazatel-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t609",
+   "subject": "ubytok-ot-obesceneniya-aktivov",
+   "predicate": "имеет тип",
+   "object": "class-finansovyy-pokazatel-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t610",
+   "subject": "sovokupnaya-stoimost-aktivov",
+   "predicate": "имеет тип",
+   "object": "class-finansovyy-pokazatel-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t611",
+   "subject": "vyruchka-kompanii",
+   "predicate": "увеличивает показатель",
+   "object": "operacionnaya-pribyl-ebit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t612",
+   "subject": "operacionnye-rashody-kompanii",
+   "predicate": "уменьшает показатель",
+   "object": "operacionnaya-pribyl-ebit",
+   "sourceId": "src-finance",
+   "sourceName": "Бюджеты продуктов и управленческая отчётность (демонстрационный источник)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-05"
+  },
+  {
+   "id": "t613",
+   "subject": "amortizaciya",
+   "predicate": "уменьшает показатель",
+   "object": "operacionnaya-pribyl-ebit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t614",
+   "subject": "ubytok-ot-obesceneniya-aktivov",
+   "predicate": "уменьшает показатель",
+   "object": "operacionnaya-pribyl-ebit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t615",
+   "subject": "operacionnaya-pribyl-ebit",
+   "predicate": "увеличивает показатель",
+   "object": "nalog-na-pribyl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t616",
+   "subject": "operacionnaya-pribyl-ebit",
+   "predicate": "увеличивает показатель",
+   "object": "chistaya-pribyl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t617",
+   "subject": "nalog-na-pribyl",
+   "predicate": "уменьшает показатель",
+   "object": "chistaya-pribyl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t618",
+   "subject": "chistaya-pribyl",
+   "predicate": "увеличивает показатель",
+   "object": "sovokupnaya-stoimost-aktivov",
+   "sourceId": "src-finance",
+   "sourceName": "Бюджеты продуктов и управленческая отчётность (демонстрационный источник)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-05"
+  },
+  {
+   "id": "t619",
+   "subject": "servis-podpiski-chitaydom",
+   "predicate": "приносит выручку",
+   "object": "vyruchka-kompanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t620",
+   "subject": "sryv-srokov",
+   "predicate": "угрожает статье бюджета",
+   "object": "kopilka-razrabotka-kapitaliziruemaya-chast",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t621",
+   "subject": "sryv-srokov",
+   "predicate": "угрожает статье бюджета",
+   "object": "kopilka-testirovanie-i-priemka-kapitaliziruemaya-chast",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t622",
+   "subject": "razduvanie-obema-scope-creep",
+   "predicate": "угрожает статье бюджета",
+   "object": "kopilka-razrabotka-kapitaliziruemaya-chast",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t623",
+   "subject": "pererashod-byudzheta",
+   "predicate": "угрожает статье бюджета",
+   "object": "kopilka-razrabotka-kapitaliziruemaya-chast",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t624",
+   "subject": "pererashod-byudzheta",
+   "predicate": "угрожает статье бюджета",
+   "object": "kopilka-testirovanie-i-priemka-kapitaliziruemaya-chast",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t625",
+   "subject": "pererashod-byudzheta",
+   "predicate": "угрожает статье бюджета",
+   "object": "kopilka-marketing-zapuska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  }
+ ]
+}

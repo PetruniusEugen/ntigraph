@@ -1,0 +1,2154 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "konstituciya-rf",
+   "predicate": "имеет тип",
+   "object": "class-normativnyy-pravovoy-akt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "rossiyskaya-federaciya",
+   "predicate": "имеет тип",
+   "object": "class-yurisdikciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t003",
+   "subject": "federalnyy-zakon-obobschennyy",
+   "predicate": "имеет тип",
+   "object": "class-normativnyy-pravovoy-akt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "redakciya-konstitucii-rf-1993-g",
+   "predicate": "имеет тип",
+   "object": "class-redakciya-akta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "redakciya-federalnogo-zakona-deystvuyuschaya",
+   "predicate": "имеет тип",
+   "object": "class-redakciya-akta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "st-2-konstitucii-rf",
+   "predicate": "имеет тип",
+   "object": "class-strukturnaya-edinica-akta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "st-15-ch-3-konstitucii-rf",
+   "predicate": "имеет тип",
+   "object": "class-strukturnaya-edinica-akta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t008",
+   "subject": "st-31-konstitucii-rf",
+   "predicate": "имеет тип",
+   "object": "class-strukturnaya-edinica-akta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "st-49-ch-1-konstitucii-rf",
+   "predicate": "имеет тип",
+   "object": "class-strukturnaya-edinica-akta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t010",
+   "subject": "st-54-ch-2-konstitucii-rf",
+   "predicate": "имеет тип",
+   "object": "class-strukturnaya-edinica-akta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t011",
+   "subject": "st-55-ch-3-konstitucii-rf",
+   "predicate": "имеет тип",
+   "object": "class-strukturnaya-edinica-akta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t012",
+   "subject": "st-57-konstitucii-rf",
+   "predicate": "имеет тип",
+   "object": "class-strukturnaya-edinica-akta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t013",
+   "subject": "st-105-ch-1-konstitucii-rf",
+   "predicate": "имеет тип",
+   "object": "class-strukturnaya-edinica-akta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t014",
+   "subject": "st-125-konstitucii-rf",
+   "predicate": "имеет тип",
+   "object": "class-strukturnaya-edinica-akta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "norma-o-vysshey-cennosti-prav-i-svobod-cheloveka",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-norma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "norma-ob-obyazatelnom-opublikovanii-zakonov",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-norma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "norma-o-prave-na-mirnye-sobraniya",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-norma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t018",
+   "subject": "norma-o-prezumpcii-nevinovnosti",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-norma",
+   "sourceId": "src-konst",
+   "sourceName": "Конституция Российской Федерации (номера статей приведены по памяти и требуют сверки с официальным текстом)",
+   "sourceType": "legal",
+   "updatedAt": "2026-11-04"
+  },
+  {
+   "id": "t019",
+   "subject": "norma-o-zaprete-obratnoy-sily-zakona-ob-otvetstvennosti",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-norma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t020",
+   "subject": "norma-ob-ogranichenii-prav-federalnym-zakonom",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-norma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "norma-ob-obyazannosti-platit-nalogi",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-norma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t022",
+   "subject": "norma-o-prinyatii-federalnyh-zakonov-gosudarstvennoy-dumoy",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-norma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t023",
+   "subject": "norma-o-konstitucionnom-kontrole",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-norma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t024",
+   "subject": "norma-ugolovnogo-zakona-obobschennaya",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-norma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t025",
+   "subject": "norma-federalnogo-zakona-priznannaya-nekonstitucionnoy",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-norma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t026",
+   "subject": "gosudarstvennaya-duma",
+   "predicate": "имеет тип",
+   "object": "class-gosudarstvennyy-organ",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t027",
+   "subject": "polnomochie-prinimat-federalnye-zakony",
+   "predicate": "имеет тип",
+   "object": "class-polnomochie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t028",
+   "subject": "konstitucionnyy-sud-rf",
+   "predicate": "имеет тип",
+   "object": "class-gosudarstvennyy-organ",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t029",
+   "subject": "polnomochie-proveryat-konstitucionnost-zakonov",
+   "predicate": "имеет тип",
+   "object": "class-polnomochie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t030",
+   "subject": "sud-obschey-yurisdikcii",
+   "predicate": "имеет тип",
+   "object": "class-gosudarstvennyy-organ",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t031",
+   "subject": "gosudarstvennye-organy-rf",
+   "predicate": "имеет тип",
+   "object": "class-subekt-prava",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t032",
+   "subject": "dolzhnost-sudi-konstitucionnogo-suda-rf",
+   "predicate": "имеет тип",
+   "object": "class-gosudarstvennaya-dolzhnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t033",
+   "subject": "sudya-konstitucionnogo-suda-rf",
+   "predicate": "имеет тип",
+   "object": "class-fizicheskoe-lico",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t034",
+   "subject": "grazhdanin-rf",
+   "predicate": "имеет тип",
+   "object": "class-subekt-prava",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t035",
+   "subject": "pravo-na-mirnye-sobraniya",
+   "predicate": "имеет тип",
+   "object": "class-subektivnoe-pravo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t036",
+   "subject": "obyazannost-organov-vlasti-ne-prepyatstvovat-mirnym-sobraniyam",
+   "predicate": "имеет тип",
+   "object": "class-yuridicheskaya-obyazannost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t037",
+   "subject": "obyazannost-platit-nalogi",
+   "predicate": "имеет тип",
+   "object": "class-yuridicheskaya-obyazannost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t038",
+   "subject": "pravootnoshenie-po-realizacii-svobody-sobraniy",
+   "predicate": "имеет тип",
+   "object": "class-pravootnoshenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t039",
+   "subject": "provedenie-mirnogo-sobraniya",
+   "predicate": "имеет тип",
+   "object": "class-yuridicheskiy-fakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t040",
+   "subject": "obyazyvanie-gosudarstva-priznavat-i-zaschischat-prava-cheloveka",
+   "predicate": "имеет тип",
+   "object": "class-obyazyvanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t041",
+   "subject": "zapret-primenyat-neopublikovannye-zakony",
+   "predicate": "имеет тип",
+   "object": "class-zapret",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t042",
+   "subject": "primenenie-neopublikovannogo-zakona",
+   "predicate": "имеет тип",
+   "object": "class-yuridicheskiy-fakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t043",
+   "subject": "dozvolenie-sobiratsya-mirno-bez-oruzhiya",
+   "predicate": "имеет тип",
+   "object": "class-dozvolenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t044",
+   "subject": "obyazyvanie-platit-nalogi",
+   "predicate": "имеет тип",
+   "object": "class-obyazyvanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t045",
+   "subject": "uplata-naloga",
+   "predicate": "имеет тип",
+   "object": "class-yuridicheskiy-fakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t046",
+   "subject": "zapret-pridavat-obratnuyu-silu-zakonu-ob-otvetstvennosti",
+   "predicate": "имеет тип",
+   "object": "class-zapret",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t047",
+   "subject": "primenenie-zakona-k-deyaniyu-do-ego-vstupleniya-v-silu",
+   "predicate": "имеет тип",
+   "object": "class-yuridicheskiy-fakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t048",
+   "subject": "zapret-ustanovlennyy-ugolovnym-zakonom",
+   "predicate": "имеет тип",
+   "object": "class-zapret",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t049",
+   "subject": "lishenie-svobody",
+   "predicate": "имеет тип",
+   "object": "class-sankciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t050",
+   "subject": "prestuplenie-obobschennoe",
+   "predicate": "имеет тип",
+   "object": "class-pravonarushenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t051",
+   "subject": "lico-sovershivshee-prestuplenie",
+   "predicate": "имеет тип",
+   "object": "class-subekt-prava",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t052",
+   "subject": "ugolovnaya-otvetstvennost",
+   "predicate": "имеет тип",
+   "object": "class-yuridicheskaya-otvetstvennost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t053",
+   "subject": "nevozmozhnost-vozniknoveniya-obyazannosti-iz-neopublikovannogo-zakona",
+   "predicate": "имеет тип",
+   "object": "class-yuridicheskaya-nevozmozhnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t054",
+   "subject": "nevozmozhnost-retroaktivnogo-primeneniya-zakona-ob-otvetstvennosti",
+   "predicate": "имеет тип",
+   "object": "class-yuridicheskaya-nevozmozhnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t055",
+   "subject": "vozmozhnost-provedeniya-mirnogo-sobraniya",
+   "predicate": "имеет тип",
+   "object": "class-yuridicheskaya-vozmozhnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t056",
+   "subject": "neobhodimost-utraty-sily-normy-priznannoy-nekonstitucionnoy",
+   "predicate": "имеет тип",
+   "object": "class-yuridicheskaya-neobhodimost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t057",
+   "subject": "utrata-yuridicheskoy-sily-posle-priznaniya-nekonstitucionnoy",
+   "predicate": "имеет тип",
+   "object": "class-deystvitelnost-normy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t058",
+   "subject": "znanie-o-soderzhanii-opublikovannoy-normy",
+   "predicate": "имеет тип",
+   "object": "class-epistemicheskoe-sostoyanie-subekta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t059",
+   "subject": "osoznanie-obschestvennoy-opasnosti-deyaniya",
+   "predicate": "имеет тип",
+   "object": "class-epistemicheskoe-sostoyanie-subekta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t060",
+   "subject": "umysel",
+   "predicate": "имеет тип",
+   "object": "class-vina",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t061",
+   "subject": "oficialnoe-opublikovanie-konstitucii-rf",
+   "predicate": "имеет тип",
+   "object": "class-obnarodovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t062",
+   "subject": "prezumpciya-nevinovnosti",
+   "predicate": "имеет тип",
+   "object": "class-prezumpciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t063",
+   "subject": "nevinovnost-lica",
+   "predicate": "имеет тип",
+   "object": "class-yuridicheskiy-fakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t064",
+   "subject": "vina-dokazana-v-ustanovlennom-poryadke-i-prigovorom-suda",
+   "predicate": "имеет тип",
+   "object": "class-standart-dokazyvaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t065",
+   "subject": "ustanovlennyy-fakt-soversheniya-prestupleniya",
+   "predicate": "имеет тип",
+   "object": "class-ustanovlennyy-fakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t066",
+   "subject": "pokazaniya-svidetelya",
+   "predicate": "имеет тип",
+   "object": "class-dokazatelstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t067",
+   "subject": "zakonodatelnaya-procedura",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-procedura",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t068",
+   "subject": "vsenarodnoe-golosovanie-po-proektu-konstitucii",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-procedura",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t069",
+   "subject": "konstitucionnoe-sudoproizvodstvo",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-procedura",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t070",
+   "subject": "postanovlenie-o-priznanii-zakona-ne-sootvetstvuyuschim-konstitucii",
+   "predicate": "имеет тип",
+   "object": "class-pravoprimenitelnoe-reshenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t071",
+   "subject": "ugolovnoe-sudoproizvodstvo",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-procedura",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t072",
+   "subject": "obvinitelnyy-prigovor",
+   "predicate": "имеет тип",
+   "object": "class-pravoprimenitelnoe-reshenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t073",
+   "subject": "prava-i-svobody-cheloveka",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-cennost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t074",
+   "subject": "spravedlivost",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-cennost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t075",
+   "subject": "bezopasnost",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-cennost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t076",
+   "subject": "zhizn-i-zdorove-cheloveka",
+   "predicate": "имеет тип",
+   "object": "class-pravovaya-cennost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t077",
+   "subject": "princip-prioriteta-prav-i-svobod-cheloveka",
+   "predicate": "имеет тип",
+   "object": "class-pravovoy-princip",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t078",
+   "subject": "princip-sorazmernosti-ogranicheniy-prav",
+   "predicate": "имеет тип",
+   "object": "class-pravovoy-princip",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t079",
+   "subject": "obschestvennaya-bezopasnost",
+   "predicate": "имеет тип",
+   "object": "class-ohranyaemoe-blago",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t080",
+   "subject": "zdorove-naseleniya",
+   "predicate": "имеет тип",
+   "object": "class-ohranyaemoe-blago",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t081",
+   "subject": "svoboda-publichnogo-vyrazheniya-mneniya",
+   "predicate": "имеет тип",
+   "object": "class-ohranyaemoe-blago",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t082",
+   "subject": "ogranichenie-svobody-sobraniy-radi-obschestvennoy-bezopasnosti",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie-prava",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t083",
+   "subject": "s-25-12-1993-po-nastoyaschee-vremya",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t084",
+   "subject": "period-do-25-12-1993",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t085",
+   "subject": "kalendarnyy-den-25-12-1993",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t086",
+   "subject": "s-vstupleniya-zakona-v-silu-do-priznaniya-nekonstitucionnym",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t087",
+   "subject": "vstuplenie-konstitucii-rf-v-silu",
+   "predicate": "имеет тип",
+   "object": "class-vstuplenie-v-silu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t088",
+   "subject": "utrata-sily-zakona-priznannogo-nekonstitucionnym",
+   "predicate": "имеет тип",
+   "object": "class-utrata-sily",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t089",
+   "subject": "srok-davnosti-privlecheniya-k-ugolovnoy-otvetstvennosti",
+   "predicate": "имеет тип",
+   "object": "class-yuridicheskiy-srok",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t090",
+   "subject": "konstituciya-rf",
+   "predicate": "действует в юрисдикции",
+   "object": "rossiyskaya-federaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t091",
+   "subject": "federalnyy-zakon-obobschennyy",
+   "predicate": "имеет низшую силу, чем",
+   "object": "konstituciya-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t092",
+   "subject": "federalnyy-zakon-obobschennyy",
+   "predicate": "принят органом",
+   "object": "gosudarstvennaya-duma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t093",
+   "subject": "redakciya-konstitucii-rf-1993-g",
+   "predicate": "редакция акта",
+   "object": "konstituciya-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t094",
+   "subject": "redakciya-federalnogo-zakona-deystvuyuschaya",
+   "predicate": "редакция акта",
+   "object": "federalnyy-zakon-obobschennyy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t095",
+   "subject": "st-2-konstitucii-rf",
+   "predicate": "входит в акт",
+   "object": "konstituciya-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t096",
+   "subject": "st-2-konstitucii-rf",
+   "predicate": "выражает норму",
+   "object": "norma-o-vysshey-cennosti-prav-i-svobod-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t097",
+   "subject": "st-15-ch-3-konstitucii-rf",
+   "predicate": "входит в акт",
+   "object": "konstituciya-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t098",
+   "subject": "st-15-ch-3-konstitucii-rf",
+   "predicate": "выражает норму",
+   "object": "norma-ob-obyazatelnom-opublikovanii-zakonov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t099",
+   "subject": "st-31-konstitucii-rf",
+   "predicate": "входит в акт",
+   "object": "konstituciya-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t100",
+   "subject": "st-31-konstitucii-rf",
+   "predicate": "выражает норму",
+   "object": "norma-o-prave-na-mirnye-sobraniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t101",
+   "subject": "st-49-ch-1-konstitucii-rf",
+   "predicate": "входит в акт",
+   "object": "konstituciya-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t102",
+   "subject": "st-49-ch-1-konstitucii-rf",
+   "predicate": "выражает норму",
+   "object": "norma-o-prezumpcii-nevinovnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t103",
+   "subject": "st-54-ch-2-konstitucii-rf",
+   "predicate": "входит в акт",
+   "object": "konstituciya-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t104",
+   "subject": "st-54-ch-2-konstitucii-rf",
+   "predicate": "выражает норму",
+   "object": "norma-o-zaprete-obratnoy-sily-zakona-ob-otvetstvennosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t105",
+   "subject": "st-55-ch-3-konstitucii-rf",
+   "predicate": "входит в акт",
+   "object": "konstituciya-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t106",
+   "subject": "st-55-ch-3-konstitucii-rf",
+   "predicate": "выражает норму",
+   "object": "norma-ob-ogranichenii-prav-federalnym-zakonom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t107",
+   "subject": "st-57-konstitucii-rf",
+   "predicate": "входит в акт",
+   "object": "konstituciya-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t108",
+   "subject": "st-57-konstitucii-rf",
+   "predicate": "выражает норму",
+   "object": "norma-ob-obyazannosti-platit-nalogi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t109",
+   "subject": "st-105-ch-1-konstitucii-rf",
+   "predicate": "входит в акт",
+   "object": "konstituciya-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t110",
+   "subject": "st-105-ch-1-konstitucii-rf",
+   "predicate": "выражает норму",
+   "object": "norma-o-prinyatii-federalnyh-zakonov-gosudarstvennoy-dumoy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t111",
+   "subject": "st-125-konstitucii-rf",
+   "predicate": "входит в акт",
+   "object": "konstituciya-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t112",
+   "subject": "st-125-konstitucii-rf",
+   "predicate": "выражает норму",
+   "object": "norma-o-konstitucionnom-kontrole",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t113",
+   "subject": "gosudarstvennaya-duma",
+   "predicate": "наделён полномочием",
+   "object": "polnomochie-prinimat-federalnye-zakony",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t114",
+   "subject": "gosudarstvennaya-duma",
+   "predicate": "осуществляет власть в юрисдикции",
+   "object": "rossiyskaya-federaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t115",
+   "subject": "polnomochie-prinimat-federalnye-zakony",
+   "predicate": "полномочие установлено нормой",
+   "object": "norma-o-prinyatii-federalnyh-zakonov-gosudarstvennoy-dumoy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t116",
+   "subject": "konstitucionnyy-sud-rf",
+   "predicate": "наделён полномочием",
+   "object": "polnomochie-proveryat-konstitucionnost-zakonov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t117",
+   "subject": "konstitucionnyy-sud-rf",
+   "predicate": "осуществляет власть в юрисдикции",
+   "object": "rossiyskaya-federaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t118",
+   "subject": "polnomochie-proveryat-konstitucionnost-zakonov",
+   "predicate": "полномочие установлено нормой",
+   "object": "norma-o-konstitucionnom-kontrole",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t119",
+   "subject": "dolzhnost-sudi-konstitucionnogo-suda-rf",
+   "predicate": "учреждена в органе",
+   "object": "konstitucionnyy-sud-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t120",
+   "subject": "sudya-konstitucionnogo-suda-rf",
+   "predicate": "замещает должность",
+   "object": "dolzhnost-sudi-konstitucionnogo-suda-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t121",
+   "subject": "grazhdanin-rf",
+   "predicate": "обладает правом",
+   "object": "pravo-na-mirnye-sobraniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t122",
+   "subject": "pravo-na-mirnye-sobraniya",
+   "predicate": "право закреплено нормой",
+   "object": "norma-o-prave-na-mirnye-sobraniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t123",
+   "subject": "pravo-na-mirnye-sobraniya",
+   "predicate": "корреспондирует обязанности",
+   "object": "obyazannost-organov-vlasti-ne-prepyatstvovat-mirnym-sobraniyam",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t124",
+   "subject": "pravo-na-mirnye-sobraniya",
+   "predicate": "гарантирует благо",
+   "object": "svoboda-publichnogo-vyrazheniya-mneniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t125",
+   "subject": "obyazannost-organov-vlasti-ne-prepyatstvovat-mirnym-sobraniyam",
+   "predicate": "обязанность закреплена нормой",
+   "object": "norma-o-prave-na-mirnye-sobraniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t126",
+   "subject": "gosudarstvennye-organy-rf",
+   "predicate": "несёт обязанность",
+   "object": "obyazannost-organov-vlasti-ne-prepyatstvovat-mirnym-sobraniyam",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t127",
+   "subject": "grazhdanin-rf",
+   "predicate": "несёт обязанность",
+   "object": "obyazannost-platit-nalogi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t128",
+   "subject": "obyazannost-platit-nalogi",
+   "predicate": "обязанность закреплена нормой",
+   "object": "norma-ob-obyazannosti-platit-nalogi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t129",
+   "subject": "pravootnoshenie-po-realizacii-svobody-sobraniy",
+   "predicate": "содержит право",
+   "object": "pravo-na-mirnye-sobraniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t130",
+   "subject": "pravootnoshenie-po-realizacii-svobody-sobraniy",
+   "predicate": "содержит обязанность",
+   "object": "obyazannost-organov-vlasti-ne-prepyatstvovat-mirnym-sobraniyam",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t131",
+   "subject": "grazhdanin-rf",
+   "predicate": "участвует в правоотношении",
+   "object": "pravootnoshenie-po-realizacii-svobody-sobraniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t132",
+   "subject": "gosudarstvennye-organy-rf",
+   "predicate": "участвует в правоотношении",
+   "object": "pravootnoshenie-po-realizacii-svobody-sobraniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t133",
+   "subject": "provedenie-mirnogo-sobraniya",
+   "predicate": "порождает правоотношение",
+   "object": "pravootnoshenie-po-realizacii-svobody-sobraniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t134",
+   "subject": "provedenie-mirnogo-sobraniya",
+   "predicate": "является условием применения нормы",
+   "object": "norma-o-prave-na-mirnye-sobraniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t135",
+   "subject": "obyazyvanie-gosudarstva-priznavat-i-zaschischat-prava-cheloveka",
+   "predicate": "адресовано субъекту",
+   "object": "gosudarstvennye-organy-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t136",
+   "subject": "norma-o-vysshey-cennosti-prav-i-svobod-cheloveka",
+   "predicate": "устанавливает обязывание",
+   "object": "obyazyvanie-gosudarstva-priznavat-i-zaschischat-prava-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t137",
+   "subject": "zapret-primenyat-neopublikovannye-zakony",
+   "predicate": "адресовано субъекту",
+   "object": "gosudarstvennye-organy-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t138",
+   "subject": "zapret-primenyat-neopublikovannye-zakony",
+   "predicate": "регулирует поведение",
+   "object": "primenenie-neopublikovannogo-zakona",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t139",
+   "subject": "norma-ob-obyazatelnom-opublikovanii-zakonov",
+   "predicate": "устанавливает запрет",
+   "object": "zapret-primenyat-neopublikovannye-zakony",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t140",
+   "subject": "dozvolenie-sobiratsya-mirno-bez-oruzhiya",
+   "predicate": "адресовано субъекту",
+   "object": "grazhdanin-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t141",
+   "subject": "dozvolenie-sobiratsya-mirno-bez-oruzhiya",
+   "predicate": "регулирует поведение",
+   "object": "provedenie-mirnogo-sobraniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t142",
+   "subject": "norma-o-prave-na-mirnye-sobraniya",
+   "predicate": "устанавливает дозволение",
+   "object": "dozvolenie-sobiratsya-mirno-bez-oruzhiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t143",
+   "subject": "obyazyvanie-platit-nalogi",
+   "predicate": "адресовано субъекту",
+   "object": "grazhdanin-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t144",
+   "subject": "obyazyvanie-platit-nalogi",
+   "predicate": "регулирует поведение",
+   "object": "uplata-naloga",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t145",
+   "subject": "norma-ob-obyazannosti-platit-nalogi",
+   "predicate": "устанавливает обязывание",
+   "object": "obyazyvanie-platit-nalogi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t146",
+   "subject": "zapret-pridavat-obratnuyu-silu-zakonu-ob-otvetstvennosti",
+   "predicate": "регулирует поведение",
+   "object": "primenenie-zakona-k-deyaniyu-do-ego-vstupleniya-v-silu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t147",
+   "subject": "norma-o-zaprete-obratnoy-sily-zakona-ob-otvetstvennosti",
+   "predicate": "устанавливает запрет",
+   "object": "zapret-pridavat-obratnuyu-silu-zakonu-ob-otvetstvennosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t148",
+   "subject": "norma-ugolovnogo-zakona-obobschennaya",
+   "predicate": "устанавливает запрет",
+   "object": "zapret-ustanovlennyy-ugolovnym-zakonom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t149",
+   "subject": "norma-ugolovnogo-zakona-obobschennaya",
+   "predicate": "предусматривает санкцию",
+   "object": "lishenie-svobody",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t150",
+   "subject": "lishenie-svobody",
+   "predicate": "обеспечивает исполнение",
+   "object": "zapret-ustanovlennyy-ugolovnym-zakonom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t151",
+   "subject": "prestuplenie-obobschennoe",
+   "predicate": "нарушает",
+   "object": "zapret-ustanovlennyy-ugolovnym-zakonom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t152",
+   "subject": "prestuplenie-obobschennoe",
+   "predicate": "совершено субъектом",
+   "object": "lico-sovershivshee-prestuplenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t153",
+   "subject": "prestuplenie-obobschennoe",
+   "predicate": "совершено с виной",
+   "object": "umysel",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t154",
+   "subject": "prestuplenie-obobschennoe",
+   "predicate": "является условием применения нормы",
+   "object": "norma-ugolovnogo-zakona-obobschennaya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t155",
+   "subject": "ugolovnaya-otvetstvennost",
+   "predicate": "наступает за правонарушение",
+   "object": "prestuplenie-obobschennoe",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t156",
+   "subject": "ugolovnaya-otvetstvennost",
+   "predicate": "реализуется через санкцию",
+   "object": "lishenie-svobody",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t157",
+   "subject": "nevozmozhnost-vozniknoveniya-obyazannosti-iz-neopublikovannogo-zakona",
+   "predicate": "касается юридического факта",
+   "object": "primenenie-neopublikovannogo-zakona",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t158",
+   "subject": "norma-ob-obyazatelnom-opublikovanii-zakonov",
+   "predicate": "делает невозможным",
+   "object": "nevozmozhnost-vozniknoveniya-obyazannosti-iz-neopublikovannogo-zakona",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t159",
+   "subject": "nevozmozhnost-retroaktivnogo-primeneniya-zakona-ob-otvetstvennosti",
+   "predicate": "касается юридического факта",
+   "object": "primenenie-zakona-k-deyaniyu-do-ego-vstupleniya-v-silu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t160",
+   "subject": "norma-o-zaprete-obratnoy-sily-zakona-ob-otvetstvennosti",
+   "predicate": "делает невозможным",
+   "object": "nevozmozhnost-retroaktivnogo-primeneniya-zakona-ob-otvetstvennosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t161",
+   "subject": "vozmozhnost-provedeniya-mirnogo-sobraniya",
+   "predicate": "касается юридического факта",
+   "object": "provedenie-mirnogo-sobraniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t162",
+   "subject": "norma-o-prave-na-mirnye-sobraniya",
+   "predicate": "делает возможным",
+   "object": "vozmozhnost-provedeniya-mirnogo-sobraniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t163",
+   "subject": "neobhodimost-utraty-sily-normy-priznannoy-nekonstitucionnoy",
+   "predicate": "касается юридического факта",
+   "object": "utrata-sily-zakona-priznannogo-nekonstitucionnym",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t164",
+   "subject": "norma-o-konstitucionnom-kontrole",
+   "predicate": "делает необходимым",
+   "object": "neobhodimost-utraty-sily-normy-priznannoy-nekonstitucionnoy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t165",
+   "subject": "utrata-yuridicheskoy-sily-posle-priznaniya-nekonstitucionnoy",
+   "predicate": "обусловлена нормой более высокой силы",
+   "object": "norma-o-konstitucionnom-kontrole",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t166",
+   "subject": "znanie-o-soderzhanii-opublikovannoy-normy",
+   "predicate": "относится к норме",
+   "object": "norma-o-prave-na-mirnye-sobraniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t167",
+   "subject": "grazhdanin-rf",
+   "predicate": "находится в состоянии",
+   "object": "znanie-o-soderzhanii-opublikovannoy-normy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t168",
+   "subject": "osoznanie-obschestvennoy-opasnosti-deyaniya",
+   "predicate": "относится к факту",
+   "object": "prestuplenie-obobschennoe",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t169",
+   "subject": "lico-sovershivshee-prestuplenie",
+   "predicate": "находится в состоянии",
+   "object": "osoznanie-obschestvennoy-opasnosti-deyaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t170",
+   "subject": "umysel",
+   "predicate": "определяется состоянием",
+   "object": "osoznanie-obschestvennoy-opasnosti-deyaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t171",
+   "subject": "oficialnoe-opublikovanie-konstitucii-rf",
+   "predicate": "обнародование акта",
+   "object": "konstituciya-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t172",
+   "subject": "oficialnoe-opublikovanie-konstitucii-rf",
+   "predicate": "доводит до сведения",
+   "object": "grazhdanin-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t173",
+   "subject": "prezumpciya-nevinovnosti",
+   "predicate": "презумпция закреплена нормой",
+   "object": "norma-o-prezumpcii-nevinovnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t174",
+   "subject": "prezumpciya-nevinovnosti",
+   "predicate": "предполагает",
+   "object": "nevinovnost-lica",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t175",
+   "subject": "vina-dokazana-v-ustanovlennom-poryadke-i-prigovorom-suda",
+   "predicate": "применяется в процедуре",
+   "object": "ugolovnoe-sudoproizvodstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t176",
+   "subject": "ustanovlennyy-fakt-soversheniya-prestupleniya",
+   "predicate": "устанавливает факт",
+   "object": "prestuplenie-obobschennoe",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t177",
+   "subject": "ustanovlennyy-fakt-soversheniya-prestupleniya",
+   "predicate": "достигает стандарта",
+   "object": "vina-dokazana-v-ustanovlennom-poryadke-i-prigovorom-suda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t178",
+   "subject": "pokazaniya-svidetelya",
+   "predicate": "подтверждает",
+   "object": "ustanovlennyy-fakt-soversheniya-prestupleniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t179",
+   "subject": "zakonodatelnaya-procedura",
+   "predicate": "проводится органом",
+   "object": "gosudarstvennaya-duma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t180",
+   "subject": "zakonodatelnaya-procedura",
+   "predicate": "реализует полномочие",
+   "object": "polnomochie-prinimat-federalnye-zakony",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t181",
+   "subject": "zakonodatelnaya-procedura",
+   "predicate": "завершается принятием акта",
+   "object": "federalnyy-zakon-obobschennyy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t182",
+   "subject": "vsenarodnoe-golosovanie-po-proektu-konstitucii",
+   "predicate": "завершается принятием акта",
+   "object": "konstituciya-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t183",
+   "subject": "konstitucionnoe-sudoproizvodstvo",
+   "predicate": "проводится органом",
+   "object": "konstitucionnyy-sud-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t184",
+   "subject": "konstitucionnoe-sudoproizvodstvo",
+   "predicate": "реализует полномочие",
+   "object": "polnomochie-proveryat-konstitucionnost-zakonov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t185",
+   "subject": "konstitucionnoe-sudoproizvodstvo",
+   "predicate": "завершается решением",
+   "object": "postanovlenie-o-priznanii-zakona-ne-sootvetstvuyuschim-konstitucii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t186",
+   "subject": "postanovlenie-o-priznanii-zakona-ne-sootvetstvuyuschim-konstitucii",
+   "predicate": "принято органом",
+   "object": "konstitucionnyy-sud-rf",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t187",
+   "subject": "ugolovnoe-sudoproizvodstvo",
+   "predicate": "проводится органом",
+   "object": "sud-obschey-yurisdikcii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t188",
+   "subject": "ugolovnoe-sudoproizvodstvo",
+   "predicate": "завершается решением",
+   "object": "obvinitelnyy-prigovor",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t189",
+   "subject": "obvinitelnyy-prigovor",
+   "predicate": "принято органом",
+   "object": "sud-obschey-yurisdikcii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t190",
+   "subject": "obvinitelnyy-prigovor",
+   "predicate": "основано на установленном факте",
+   "object": "ustanovlennyy-fakt-soversheniya-prestupleniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t191",
+   "subject": "obvinitelnyy-prigovor",
+   "predicate": "возлагает ответственность",
+   "object": "ugolovnaya-otvetstvennost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t192",
+   "subject": "princip-prioriteta-prav-i-svobod-cheloveka",
+   "predicate": "выражает ценность",
+   "object": "prava-i-svobody-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t193",
+   "subject": "princip-sorazmernosti-ogranicheniy-prav",
+   "predicate": "выражает ценность",
+   "object": "spravedlivost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t194",
+   "subject": "princip-sorazmernosti-ogranicheniy-prav",
+   "predicate": "обосновывает решение",
+   "object": "postanovlenie-o-priznanii-zakona-ne-sootvetstvuyuschim-konstitucii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t195",
+   "subject": "norma-o-vysshey-cennosti-prav-i-svobod-cheloveka",
+   "predicate": "основана на принципе",
+   "object": "princip-prioriteta-prav-i-svobod-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t196",
+   "subject": "norma-ob-ogranichenii-prav-federalnym-zakonom",
+   "predicate": "основана на принципе",
+   "object": "princip-sorazmernosti-ogranicheniy-prav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t197",
+   "subject": "obschestvennaya-bezopasnost",
+   "predicate": "воплощает ценность",
+   "object": "bezopasnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t198",
+   "subject": "zdorove-naseleniya",
+   "predicate": "воплощает ценность",
+   "object": "zhizn-i-zdorove-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t199",
+   "subject": "svoboda-publichnogo-vyrazheniya-mneniya",
+   "predicate": "воплощает ценность",
+   "object": "prava-i-svobody-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t200",
+   "subject": "norma-ob-ogranichenii-prav-federalnym-zakonom",
+   "predicate": "защищает благо",
+   "object": "obschestvennaya-bezopasnost",
+   "sourceId": "src-konst",
+   "sourceName": "Конституция Российской Федерации (номера статей приведены по памяти и требуют сверки с официальным текстом)",
+   "sourceType": "legal",
+   "updatedAt": "2026-11-04"
+  },
+  {
+   "id": "t201",
+   "subject": "norma-ob-ogranichenii-prav-federalnym-zakonom",
+   "predicate": "защищает благо",
+   "object": "zdorove-naseleniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t202",
+   "subject": "ogranichenie-svobody-sobraniy-radi-obschestvennoy-bezopasnosti",
+   "predicate": "ограничивает право",
+   "object": "pravo-na-mirnye-sobraniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t203",
+   "subject": "ogranichenie-svobody-sobraniy-radi-obschestvennoy-bezopasnosti",
+   "predicate": "преследует защиту блага",
+   "object": "obschestvennaya-bezopasnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t204",
+   "subject": "ogranichenie-svobody-sobraniy-radi-obschestvennoy-bezopasnosti",
+   "predicate": "ограничение установлено нормой",
+   "object": "norma-ob-ogranichenii-prav-federalnym-zakonom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t205",
+   "subject": "period-do-25-12-1993",
+   "predicate": "предшествует",
+   "object": "s-25-12-1993-po-nastoyaschee-vremya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t206",
+   "subject": "redakciya-konstitucii-rf-1993-g",
+   "predicate": "действует в период",
+   "object": "s-25-12-1993-po-nastoyaschee-vremya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t207",
+   "subject": "redakciya-konstitucii-rf-1993-g",
+   "predicate": "распространяется на факты периода",
+   "object": "s-25-12-1993-po-nastoyaschee-vremya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t208",
+   "subject": "redakciya-federalnogo-zakona-deystvuyuschaya",
+   "predicate": "действует в период",
+   "object": "s-vstupleniya-zakona-v-silu-do-priznaniya-nekonstitucionnym",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t209",
+   "subject": "oficialnoe-opublikovanie-konstitucii-rf",
+   "predicate": "происходит в период",
+   "object": "kalendarnyy-den-25-12-1993",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t210",
+   "subject": "vstuplenie-konstitucii-rf-v-silu",
+   "predicate": "вступление в силу редакции",
+   "object": "redakciya-konstitucii-rf-1993-g",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t211",
+   "subject": "vstuplenie-konstitucii-rf-v-silu",
+   "predicate": "происходит в период",
+   "object": "kalendarnyy-den-25-12-1993",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t212",
+   "subject": "utrata-sily-zakona-priznannogo-nekonstitucionnym",
+   "predicate": "утрата силы редакции",
+   "object": "redakciya-federalnogo-zakona-deystvuyuschaya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t213",
+   "subject": "srok-davnosti-privlecheniya-k-ugolovnoy-otvetstvennosti",
+   "predicate": "срок установлен нормой",
+   "object": "norma-ugolovnogo-zakona-obobschennaya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t214",
+   "subject": "srok-davnosti-privlecheniya-k-ugolovnoy-otvetstvennosti",
+   "predicate": "ограничивает привлечение",
+   "object": "ugolovnaya-otvetstvennost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t215",
+   "subject": "norma-federalnogo-zakona-priznannaya-nekonstitucionnoy",
+   "predicate": "имеет действительность",
+   "object": "utrata-yuridicheskoy-sily-posle-priznaniya-nekonstitucionnoy",
+   "sourceId": "src-konst",
+   "sourceName": "Конституция Российской Федерации (номера статей приведены по памяти и требуют сверки с официальным текстом)",
+   "sourceType": "legal",
+   "updatedAt": "2026-11-04"
+  }
+ ]
+}

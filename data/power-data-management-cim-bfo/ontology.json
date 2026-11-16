@@ -1,0 +1,684 @@
+{
+ "classes": [
+  {
+   "code": "bfo:Entity",
+   "name": "сущность",
+   "comment": "BFO:0000001. Всё, что существует. Верхний класс онтологии BFO.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "BFO — верхняя онтология"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "bfo:Continuant",
+   "name": "континуант",
+   "comment": "BFO:0000002. Сущность, которая существует целиком в любой момент своего существования и сохраняет идентичность во времени.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "BFO — верхняя онтология"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "bfo:Occurrent",
+   "name": "оккуррент",
+   "comment": "BFO:0000003. Сущность, которая разворачивается во времени (процесс, событие).",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "BFO — верхняя онтология"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "bfo:IndependentContinuant",
+   "name": "независимый континуант",
+   "comment": "BFO:0000004. Континуант, который не зависит от другой сущности в своём существовании (например, материальный объект).",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "BFO — верхняя онтология"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "bfo:MaterialEntity",
+   "name": "материальная сущность",
+   "comment": "BFO:0000040. Независимый континуант, имеющий материальную природу (оборудование, устройство, физический актив).",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "BFO — верхняя онтология"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "bfo:SpecificallyDependentContinuant",
+   "name": "специфически зависимый континуант",
+   "comment": "BFO:0000020. Континуант, который зависит от конкретного носителя (качество, роль, диспозиция).",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "BFO — верхняя онтология"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "bfo:GenericallyDependentContinuant",
+   "name": "генерически зависимый континуант",
+   "comment": "BFO:0000031. Континуант, который зависит от некоторого носителя, но не от конкретного (например, информационное содержание).",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "BFO — верхняя онтология"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "bfo:InformationContentEntity",
+   "name": "информационная сущность",
+   "comment": "IAO:0000030 (подкласс BFO:0000031). Сущность, несущая информацию (данные, измерение, значение, документ).",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "BFO — верхняя онтология"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "bfo:Quality",
+   "name": "качество",
+   "comment": "BFO:0000019. Специфически зависимый континуант, который присущ носителю и не требует процесса для проявления (например, точность, полнота).",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "BFO — верхняя онтология"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "bfo:RealizableEntity",
+   "name": "реализуемая сущность",
+   "comment": "BFO:0000017. Специфически зависимый континуант, который реализуется в процессе (роль, диспозиция, функция).",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "BFO — верхняя онтология"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "bfo:Role",
+   "name": "роль",
+   "comment": "BFO:0000023. Реализуемая сущность, которую носитель играет в определённом контексте (например, Data Steward).",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "BFO — верхняя онтология"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "bfo:Process",
+   "name": "процесс",
+   "comment": "BFO:0000015. Оккуррент, который разворачивается во времени и имеет временные части (например, оценка качества данных).",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "BFO — верхняя онтология"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "cim:PowerSystemResource",
+   "name": "ресурс энергосистемы",
+   "comment": "CIM IEC 61970. Базовый класс для любого компонента энергосистемы (оборудование, подстанция, фидер).",
+   "attributes": [
+    {
+     "code": "mRID",
+     "name": "идентификатор",
+     "type": "string",
+     "comment": "Уникальный идентификатор объекта в CIM."
+    },
+    {
+     "code": "name",
+     "name": "имя",
+     "type": "string",
+     "comment": "Имя объекта."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CIM",
+     "name": "CIM — компоненты электроэнергетики"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "cim:Equipment",
+   "name": "оборудование",
+   "comment": "CIM IEC 61970. Подкласс PowerSystemResource: физическое оборудование, участвующее в передаче или распределении электроэнергии.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "CIM",
+     "name": "CIM — компоненты электроэнергетики"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "cim:PowerTransformer",
+   "name": "силовой трансформатор",
+   "comment": "CIM IEC 61970. Трёхфазный трансформатор, ключевой компонент подстанции.",
+   "attributes": [
+    {
+     "code": "ratedS",
+     "name": "номинальная мощность",
+     "type": "float",
+     "comment": "Номинальная полная мощность, МВА."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CIM",
+     "name": "CIM — компоненты электроэнергетики"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "cim:Breaker",
+   "name": "выключатель",
+   "comment": "CIM IEC 61970. Коммутационный аппарат, способный включать и отключать токи нагрузки и короткого замыкания.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "CIM",
+     "name": "CIM — компоненты электроэнергетики"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "cim:ACLineSegment",
+   "name": "участок линии электропередачи",
+   "comment": "CIM IEC 61970. Воздушная или кабельная линия электропередачи.",
+   "attributes": [
+    {
+     "code": "length",
+     "name": "длина",
+     "type": "float",
+     "comment": "Длина участка линии, км."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CIM",
+     "name": "CIM — компоненты электроэнергетики"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "cim:Substation",
+   "name": "подстанция",
+   "comment": "CIM IEC 61970. Электроустановка, служащая для преобразования и распределения электроэнергии.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "CIM",
+     "name": "CIM — компоненты электроэнергетики"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "cim:Measurement",
+   "name": "измерение",
+   "comment": "CIM IEC 61970 (пакет Meas). Абстрактное измерение, связанное с ресурсом энергосистемы.",
+   "attributes": [
+    {
+     "code": "measurementType",
+     "name": "тип измерения",
+     "type": "string",
+     "comment": "Тип измеряемой величины (напряжение, ток, мощность, положение)."
+    },
+    {
+     "code": "phases",
+     "name": "фазы",
+     "type": "string",
+     "comment": "Фазы, к которым относится измерение."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CIM",
+     "name": "CIM — компоненты электроэнергетики"
+    },
+    {
+     "code": "DQ",
+     "name": "Data Quality — качество данных"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "cim:Analog",
+   "name": "аналоговое измерение",
+   "comment": "CIM IEC 61970. Измерение непрерывной величины (ток, напряжение, мощность, температура).",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "CIM",
+     "name": "CIM — компоненты электроэнергетики"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "cim:Discrete",
+   "name": "дискретное измерение",
+   "comment": "CIM IEC 61970. Измерение дискретного состояния (положение выключателя, сигнализация).",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "CIM",
+     "name": "CIM — компоненты электроэнергетики"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "cim:MeasurementValue",
+   "name": "значение измерения",
+   "comment": "CIM IEC 61970. Контейнер для текущего значения измерения и его качества.",
+   "attributes": [
+    {
+     "code": "value",
+     "name": "значение",
+     "type": "float/string",
+     "comment": "Фактическое значение измерения."
+    },
+    {
+     "code": "timestamp",
+     "name": "метка времени",
+     "type": "dateTime",
+     "comment": "Момент времени, к которому относится значение."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CIM",
+     "name": "CIM — компоненты электроэнергетики"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "cim:Quality61850",
+   "name": "качество измерения (CIM)",
+   "comment": "CIM IEC 61970. Набор флагов качества, унаследованный из IEC 61850: достоверность, источник, замена оценкой и т.д.",
+   "attributes": [
+    {
+     "code": "validity",
+     "name": "достоверность",
+     "type": "string",
+     "comment": "VALID / INVALID / QUESTIONABLE."
+    },
+    {
+     "code": "source",
+     "name": "источник",
+     "type": "string",
+     "comment": "PROCESS / SUBSTITUTED / DEFAULT / TELEMETERED."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CIM",
+     "name": "CIM — компоненты электроэнергетики"
+    },
+    {
+     "code": "DQ",
+     "name": "Data Quality — качество данных"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "cim:Asset",
+   "name": "актив (CIM)",
+   "comment": "CIM IEC 61968 (пакет Assets). Физический актив с точки зрения учёта, обслуживания и жизненного цикла.",
+   "attributes": [
+    {
+     "code": "assetId",
+     "name": "идентификатор актива",
+     "type": "string",
+     "comment": "Учётный номер актива."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CIM",
+     "name": "CIM — компоненты электроэнергетики"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "dg:DataGovernancePolicy",
+   "name": "политика управления данными",
+   "comment": "Правило или стандарт, определяющий, как данные об активах и измерениях должны создаваться, храниться, использоваться и защищаться.",
+   "attributes": [
+    {
+     "code": "policyId",
+     "name": "идентификатор политики",
+     "type": "string",
+     "comment": "Уникальный код политики."
+    },
+    {
+     "code": "effectiveDate",
+     "name": "дата вступления в силу",
+     "type": "date",
+     "comment": "Дата начала действия политики."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DG",
+     "name": "Data Governance — управление данными"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "dg:DataQualityRule",
+   "name": "правило качества данных",
+   "comment": "Конкретное правило или проверка, применяемая к информационной сущности (измерению, значению, атрибуту) для оценки её качества.",
+   "attributes": [
+    {
+     "code": "ruleId",
+     "name": "идентификатор правила",
+     "type": "string",
+     "comment": "Код правила качества."
+    },
+    {
+     "code": "threshold",
+     "name": "порог",
+     "type": "string",
+     "comment": "Допустимое значение или диапазон."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DG",
+     "name": "Data Governance — управление данными"
+    },
+    {
+     "code": "DQ",
+     "name": "Data Quality — качество данных"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "dg:DataStewardRole",
+   "name": "роль Data Steward",
+   "comment": "BFO:Role. Роль сотрудника, ответственного за качество и управление определёнными данными или активами.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DG",
+     "name": "Data Governance — управление данными"
+    },
+    {
+     "code": "BFO",
+     "name": "BFO — верхняя онтология"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "dg:DataOwnerRole",
+   "name": "роль Data Owner",
+   "comment": "BFO:Role. Роль сотрудника, принимающего решения и несущего ответственность за домен данных.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DG",
+     "name": "Data Governance — управление данными"
+    },
+    {
+     "code": "BFO",
+     "name": "BFO — верхняя онтология"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "dq:DataQualityDimension",
+   "name": "измерение качества данных",
+   "comment": "BFO:Quality. Аспект качества информационной сущности: точность, полнота, согласованность, актуальность, валидность, уникальность.",
+   "attributes": [
+    {
+     "code": "dimensionCode",
+     "name": "код измерения",
+     "type": "string",
+     "comment": "accuracy / completeness / consistency / timeliness / validity / uniqueness."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality — качество данных"
+    },
+    {
+     "code": "BFO",
+     "name": "BFO — верхняя онтология"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "dq:DataQualityMeasurement",
+   "name": "оценка качества данных",
+   "comment": "BFO:Process / информационная сущность. Результат применения правила качества к информационной сущности: числовая оценка или статус.",
+   "attributes": [
+    {
+     "code": "score",
+     "name": "оценка",
+     "type": "float",
+     "comment": "Числовая оценка качества (0–100%)."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "PASS / FAIL / WARN."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DQ",
+     "name": "Data Quality — качество данных"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "bfo:hasQuality",
+   "name": "имеет качество",
+   "comment": "BFO. Носитель (contunuant) обладает качеством (quality).",
+   "fromClass": "bfo:IndependentContinuant",
+   "toClass": "bfo:Quality"
+  },
+  {
+   "code": "bfo:hasRole",
+   "name": "играет роль",
+   "comment": "BFO. Сущность (обычно лицо или организация) играет определённую роль.",
+   "fromClass": "bfo:IndependentContinuant",
+   "toClass": "bfo:Role"
+  },
+  {
+   "code": "bfo:qualityOf",
+   "name": "качество чего",
+   "comment": "BFO. Обратное к hasQuality: качество присуще носителю.",
+   "fromClass": "bfo:Quality",
+   "toClass": "bfo:IndependentContinuant"
+  },
+  {
+   "code": "cim:measurementOf",
+   "name": "измеряет",
+   "comment": "CIM. Измерение относится к ресурсу энергосистемы (оборудованию, подстанции).",
+   "fromClass": "cim:Measurement",
+   "toClass": "cim:PowerSystemResource"
+  },
+  {
+   "code": "cim:hasMeasurementValue",
+   "name": "имеет значение измерения",
+   "comment": "CIM. Измерение связано с контейнером значения.",
+   "fromClass": "cim:Measurement",
+   "toClass": "cim:MeasurementValue"
+  },
+  {
+   "code": "cim:valueHasQuality",
+   "name": "значение имеет качество",
+   "comment": "CIM. Значение измерения сопровождается набором флагов качества Quality61850.",
+   "fromClass": "cim:MeasurementValue",
+   "toClass": "cim:Quality61850"
+  },
+  {
+   "code": "cim:equipmentInSubstation",
+   "name": "оборудование на подстанции",
+   "comment": "CIM. Оборудование входит в состав подстанции.",
+   "fromClass": "cim:Equipment",
+   "toClass": "cim:Substation"
+  },
+  {
+   "code": "cim:assetOfEquipment",
+   "name": "актив оборудования",
+   "comment": "CIM 61968. Физический актив соответствует единице оборудования.",
+   "fromClass": "cim:Asset",
+   "toClass": "cim:Equipment"
+  },
+  {
+   "code": "dg:policyGovernsResource",
+   "name": "политика управляет ресурсом",
+   "comment": "Data Governance. Политика распространяется на ресурс энергосистемы (актив, измерение).",
+   "fromClass": "dg:DataGovernancePolicy",
+   "toClass": "cim:PowerSystemResource"
+  },
+  {
+   "code": "dg:policyGovernsMeasurement",
+   "name": "политика управляет измерением",
+   "comment": "Data Governance. Политика устанавливает требования к измерениям.",
+   "fromClass": "dg:DataGovernancePolicy",
+   "toClass": "cim:Measurement"
+  },
+  {
+   "code": "dg:stewardResponsibleFor",
+   "name": "Data Steward отвечает за",
+   "comment": "Data Governance. Роль Data Steward закреплена за ресурсом или доменом данных.",
+   "fromClass": "dg:DataStewardRole",
+   "toClass": "cim:PowerSystemResource"
+  },
+  {
+   "code": "dg:ruleEvaluatesMeasurement",
+   "name": "правило оценивает измерение",
+   "comment": "Data Quality. Правило качества применяется к измерению.",
+   "fromClass": "dg:DataQualityRule",
+   "toClass": "cim:Measurement"
+  },
+  {
+   "code": "dg:ruleChecksDimension",
+   "name": "правило проверяет измерение качества",
+   "comment": "Data Quality. Правило нацелено на конкретное измерение качества (точность, полноту и т.д.).",
+   "fromClass": "dg:DataQualityRule",
+   "toClass": "dq:DataQualityDimension"
+  },
+  {
+   "code": "dq:qualityMeasurementOf",
+   "name": "оценка качества относится к",
+   "comment": "Data Quality. Результат оценки качества относится к проверяемой информационной сущности.",
+   "fromClass": "dq:DataQualityMeasurement",
+   "toClass": "cim:Measurement"
+  },
+  {
+   "code": "dq:qualityMeasurementUsesRule",
+   "name": "оценка использует правило",
+   "comment": "Data Quality. Оценка получена применением конкретного правила.",
+   "fromClass": "dq:DataQualityMeasurement",
+   "toClass": "dg:DataQualityRule"
+  }
+ ],
+ "info": {
+  "description": "Онтология объединяет три слоя: верхний уровень BFO (различение континуантов и оккуррентов, качеств и ролей), доменную модель CIM (IEC 61970/61968) для компонентов электроэнергетики (трансформаторы, выключатели, линии, измерения, значения, флаги качества) и дисциплины управления данными — Data Governance (политики, роли, правила) и Data Quality (измерения качества, оценки, пороги). Это позволяет формально связать физические активы энергосистемы с их информационными представлениями, измерять качество данных об этих активах и закреплять ответственность за управление ими.",
+  "scope": [
+   "BFO: верхнеуровневые классы (Continuant, Occurrent, Quality, Role, InformationContentEntity) и отношения между ними",
+   "CIM: оборудование (PowerTransformer, Breaker, ACLineSegment), подстанции, измерения (Analog, Discrete), значения и флаги качества (Quality61850)",
+   "Data Governance: политики, роли Data Steward / Data Owner, правила качества",
+   "Data Quality: измерения качества (точность, полнота, актуальность и др.), оценки качества и их привязка к измерениям CIM"
+  ],
+  "competencyQuestions": [
+   "Какие измерения относятся к трансформатору Т-1 и каково качество их значений?",
+   "Какие политики управления данными распространяются на подстанцию «Северная» и её оборудование?",
+   "Кто отвечает за качество данных об оборудовании подстанции «Северная»?",
+   "Какие правила качества применяются к измерению напряжения Т-1 и какие оценки получены?",
+   "Как флаги качества CIM (Quality61850) соотносятся с измерениями качества данных (точность, полнота, актуальность)?",
+   "Какие информационные сущности (измерения, значения) соответствуют материальному активу (трансформатору, выключателю) согласно BFO?",
+   "Достаточно ли текущих правил качества для обеспечения достоверности данных об активах подстанции?"
+  ]
+ },
+ "theme": [
+  {
+   "code": "BFO",
+   "name": "BFO — верхняя онтология",
+   "color": "#a78bfa"
+  },
+  {
+   "code": "CIM",
+   "name": "CIM — компоненты электроэнергетики",
+   "color": "#60a5fa"
+  },
+  {
+   "code": "DG",
+   "name": "Data Governance — управление данными",
+   "color": "#34d399"
+  },
+  {
+   "code": "DQ",
+   "name": "Data Quality — качество данных",
+   "color": "#fbbf24"
+  }
+ ]
+}

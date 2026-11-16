@@ -1,0 +1,695 @@
+{
+ "entities": [
+  {
+   "id": "bezopasnost",
+   "label": "Безопасность",
+   "classCode": "LegalValue"
+  },
+  {
+   "id": "class-vina",
+   "label": "Вина",
+   "classCode": "Fault",
+   "isClass": true
+  },
+  {
+   "id": "vina-dokazana-v-ustanovlennom-poryadke-i-prigovorom-suda",
+   "label": "Вина доказана в установленном порядке и приговором суда",
+   "classCode": "ProofStandard"
+  },
+  {
+   "id": "vozmozhnost-provedeniya-mirnogo-sobraniya",
+   "label": "Возможность проведения мирного собрания",
+   "classCode": "LegalPossibility"
+  },
+  {
+   "id": "class-vremennoy-interval",
+   "label": "Временной интервал",
+   "classCode": "TimeInterval",
+   "isClass": true
+  },
+  {
+   "id": "vsenarodnoe-golosovanie-po-proektu-konstitucii",
+   "label": "Всенародное голосование по проекту Конституции",
+   "classCode": "LegalProcedure"
+  },
+  {
+   "id": "class-vstuplenie-v-silu",
+   "label": "Вступление в силу",
+   "classCode": "EntryIntoForce",
+   "isClass": true
+  },
+  {
+   "id": "vstuplenie-konstitucii-rf-v-silu",
+   "label": "Вступление Конституции РФ в силу",
+   "classCode": "EntryIntoForce"
+  },
+  {
+   "id": "class-gosudarstvennaya-dolzhnost",
+   "label": "Государственная должность",
+   "classCode": "PublicOffice",
+   "isClass": true
+  },
+  {
+   "id": "gosudarstvennaya-duma",
+   "label": "Государственная Дума",
+   "classCode": "StateBody"
+  },
+  {
+   "id": "gosudarstvennye-organy-rf",
+   "label": "Государственные органы РФ",
+   "classCode": "LegalSubject"
+  },
+  {
+   "id": "class-gosudarstvennyy-organ",
+   "label": "Государственный орган",
+   "classCode": "StateBody",
+   "isClass": true
+  },
+  {
+   "id": "grazhdanin-rf",
+   "label": "Гражданин РФ",
+   "classCode": "LegalSubject"
+  },
+  {
+   "id": "class-deystvitelnost-normy",
+   "label": "Действительность нормы",
+   "classCode": "LegalValidity",
+   "isClass": true
+  },
+  {
+   "id": "class-dozvolenie",
+   "label": "Дозволение",
+   "classCode": "Permission",
+   "isClass": true
+  },
+  {
+   "id": "dozvolenie-sobiratsya-mirno-bez-oruzhiya",
+   "label": "Дозволение собираться мирно без оружия",
+   "classCode": "Permission"
+  },
+  {
+   "id": "class-dokazatelstvo",
+   "label": "Доказательство",
+   "classCode": "Evidence",
+   "isClass": true
+  },
+  {
+   "id": "dolzhnost-sudi-konstitucionnogo-suda-rf",
+   "label": "Должность судьи Конституционного Суда РФ",
+   "classCode": "PublicOffice"
+  },
+  {
+   "id": "zhizn-i-zdorove-cheloveka",
+   "label": "Жизнь и здоровье человека",
+   "classCode": "LegalValue"
+  },
+  {
+   "id": "zakonodatelnaya-procedura",
+   "label": "Законодательная процедура",
+   "classCode": "LegalProcedure"
+  },
+  {
+   "id": "class-zapret",
+   "label": "Запрет",
+   "classCode": "Prohibition",
+   "isClass": true
+  },
+  {
+   "id": "zapret-pridavat-obratnuyu-silu-zakonu-ob-otvetstvennosti",
+   "label": "Запрет придавать обратную силу закону об ответственности",
+   "classCode": "Prohibition"
+  },
+  {
+   "id": "zapret-primenyat-neopublikovannye-zakony",
+   "label": "Запрет применять неопубликованные законы",
+   "classCode": "Prohibition"
+  },
+  {
+   "id": "zapret-ustanovlennyy-ugolovnym-zakonom",
+   "label": "Запрет, установленный уголовным законом",
+   "classCode": "Prohibition"
+  },
+  {
+   "id": "zdorove-naseleniya",
+   "label": "Здоровье населения",
+   "classCode": "ProtectedGood"
+  },
+  {
+   "id": "znanie-o-soderzhanii-opublikovannoy-normy",
+   "label": "Знание о содержании опубликованной нормы",
+   "classCode": "EpistemicState"
+  },
+  {
+   "id": "kalendarnyy-den-25-12-1993",
+   "label": "Календарный день 25.12.1993",
+   "classCode": "TimeInterval"
+  },
+  {
+   "id": "konstitucionnoe-sudoproizvodstvo",
+   "label": "Конституционное судопроизводство",
+   "classCode": "LegalProcedure"
+  },
+  {
+   "id": "konstitucionnyy-sud-rf",
+   "label": "Конституционный Суд РФ",
+   "classCode": "StateBody"
+  },
+  {
+   "id": "konstituciya-rf",
+   "label": "Конституция РФ",
+   "classCode": "NormativeAct"
+  },
+  {
+   "id": "lico-sovershivshee-prestuplenie",
+   "label": "Лицо, совершившее преступление",
+   "classCode": "LegalSubject"
+  },
+  {
+   "id": "lishenie-svobody",
+   "label": "Лишение свободы",
+   "classCode": "Sanction"
+  },
+  {
+   "id": "nevinovnost-lica",
+   "label": "Невиновность лица",
+   "classCode": "LegalFact"
+  },
+  {
+   "id": "nevozmozhnost-vozniknoveniya-obyazannosti-iz-neopublikovannogo-zakona",
+   "label": "Невозможность возникновения обязанности из неопубликованного закона",
+   "classCode": "LegalImpossibility"
+  },
+  {
+   "id": "nevozmozhnost-retroaktivnogo-primeneniya-zakona-ob-otvetstvennosti",
+   "label": "Невозможность ретроактивного применения закона об ответственности",
+   "classCode": "LegalImpossibility"
+  },
+  {
+   "id": "neobhodimost-utraty-sily-normy-priznannoy-nekonstitucionnoy",
+   "label": "Необходимость утраты силы нормы, признанной неконституционной",
+   "classCode": "LegalNecessity"
+  },
+  {
+   "id": "norma-o-vysshey-cennosti-prav-i-svobod-cheloveka",
+   "label": "Норма о высшей ценности прав и свобод человека",
+   "classCode": "LegalNorm"
+  },
+  {
+   "id": "norma-o-zaprete-obratnoy-sily-zakona-ob-otvetstvennosti",
+   "label": "Норма о запрете обратной силы закона об ответственности",
+   "classCode": "LegalNorm"
+  },
+  {
+   "id": "norma-o-konstitucionnom-kontrole",
+   "label": "Норма о конституционном контроле",
+   "classCode": "LegalNorm"
+  },
+  {
+   "id": "norma-o-prave-na-mirnye-sobraniya",
+   "label": "Норма о праве на мирные собрания",
+   "classCode": "LegalNorm"
+  },
+  {
+   "id": "norma-o-prezumpcii-nevinovnosti",
+   "label": "Норма о презумпции невиновности",
+   "classCode": "LegalNorm"
+  },
+  {
+   "id": "norma-o-prinyatii-federalnyh-zakonov-gosudarstvennoy-dumoy",
+   "label": "Норма о принятии федеральных законов Государственной Думой",
+   "classCode": "LegalNorm"
+  },
+  {
+   "id": "norma-ob-obyazannosti-platit-nalogi",
+   "label": "Норма об обязанности платить налоги",
+   "classCode": "LegalNorm"
+  },
+  {
+   "id": "norma-ob-obyazatelnom-opublikovanii-zakonov",
+   "label": "Норма об обязательном опубликовании законов",
+   "classCode": "LegalNorm"
+  },
+  {
+   "id": "norma-ob-ogranichenii-prav-federalnym-zakonom",
+   "label": "Норма об ограничении прав федеральным законом",
+   "classCode": "LegalNorm"
+  },
+  {
+   "id": "norma-ugolovnogo-zakona-obobschennaya",
+   "label": "Норма уголовного закона (обобщённая)",
+   "classCode": "LegalNorm"
+  },
+  {
+   "id": "norma-federalnogo-zakona-priznannaya-nekonstitucionnoy",
+   "label": "Норма федерального закона, признанная неконституционной",
+   "classCode": "LegalNorm"
+  },
+  {
+   "id": "class-normativnyy-pravovoy-akt",
+   "label": "Нормативный правовой акт",
+   "classCode": "NormativeAct",
+   "isClass": true
+  },
+  {
+   "id": "obvinitelnyy-prigovor",
+   "label": "Обвинительный приговор",
+   "classCode": "LegalDecision"
+  },
+  {
+   "id": "class-obnarodovanie",
+   "label": "Обнародование",
+   "classCode": "Promulgation",
+   "isClass": true
+  },
+  {
+   "id": "obschestvennaya-bezopasnost",
+   "label": "Общественная безопасность",
+   "classCode": "ProtectedGood"
+  },
+  {
+   "id": "obyazannost-organov-vlasti-ne-prepyatstvovat-mirnym-sobraniyam",
+   "label": "Обязанность органов власти не препятствовать мирным собраниям",
+   "classCode": "LegalDuty"
+  },
+  {
+   "id": "obyazannost-platit-nalogi",
+   "label": "Обязанность платить налоги",
+   "classCode": "LegalDuty"
+  },
+  {
+   "id": "class-obyazyvanie",
+   "label": "Обязывание",
+   "classCode": "Obligation",
+   "isClass": true
+  },
+  {
+   "id": "obyazyvanie-gosudarstva-priznavat-i-zaschischat-prava-cheloveka",
+   "label": "Обязывание государства признавать и защищать права человека",
+   "classCode": "Obligation"
+  },
+  {
+   "id": "obyazyvanie-platit-nalogi",
+   "label": "Обязывание платить налоги",
+   "classCode": "Obligation"
+  },
+  {
+   "id": "class-ogranichenie-prava",
+   "label": "Ограничение права",
+   "classCode": "RightRestriction",
+   "isClass": true
+  },
+  {
+   "id": "ogranichenie-svobody-sobraniy-radi-obschestvennoy-bezopasnosti",
+   "label": "Ограничение свободы собраний ради общественной безопасности",
+   "classCode": "RightRestriction"
+  },
+  {
+   "id": "osoznanie-obschestvennoy-opasnosti-deyaniya",
+   "label": "Осознание общественной опасности деяния",
+   "classCode": "EpistemicState"
+  },
+  {
+   "id": "oficialnoe-opublikovanie-konstitucii-rf",
+   "label": "Официальное опубликование Конституции РФ",
+   "classCode": "Promulgation"
+  },
+  {
+   "id": "class-ohranyaemoe-blago",
+   "label": "Охраняемое благо",
+   "classCode": "ProtectedGood",
+   "isClass": true
+  },
+  {
+   "id": "period-do-25-12-1993",
+   "label": "Период до 25.12.1993",
+   "classCode": "TimeInterval"
+  },
+  {
+   "id": "pokazaniya-svidetelya",
+   "label": "Показания свидетеля",
+   "classCode": "Evidence"
+  },
+  {
+   "id": "class-polnomochie",
+   "label": "Полномочие",
+   "classCode": "Competence",
+   "isClass": true
+  },
+  {
+   "id": "polnomochie-prinimat-federalnye-zakony",
+   "label": "Полномочие принимать федеральные законы",
+   "classCode": "Competence"
+  },
+  {
+   "id": "polnomochie-proveryat-konstitucionnost-zakonov",
+   "label": "Полномочие проверять конституционность законов",
+   "classCode": "Competence"
+  },
+  {
+   "id": "postanovlenie-o-priznanii-zakona-ne-sootvetstvuyuschim-konstitucii",
+   "label": "Постановление о признании закона не соответствующим Конституции",
+   "classCode": "LegalDecision"
+  },
+  {
+   "id": "prava-i-svobody-cheloveka",
+   "label": "Права и свободы человека",
+   "classCode": "LegalValue"
+  },
+  {
+   "id": "pravo-na-mirnye-sobraniya",
+   "label": "Право на мирные собрания",
+   "classCode": "SubjectiveRight"
+  },
+  {
+   "id": "class-pravovaya-norma",
+   "label": "Правовая норма",
+   "classCode": "LegalNorm",
+   "isClass": true
+  },
+  {
+   "id": "class-pravovaya-procedura",
+   "label": "Правовая процедура",
+   "classCode": "LegalProcedure",
+   "isClass": true
+  },
+  {
+   "id": "class-pravovaya-cennost",
+   "label": "Правовая ценность",
+   "classCode": "LegalValue",
+   "isClass": true
+  },
+  {
+   "id": "class-pravovoy-princip",
+   "label": "Правовой принцип",
+   "classCode": "LegalPrinciple",
+   "isClass": true
+  },
+  {
+   "id": "class-pravonarushenie",
+   "label": "Правонарушение",
+   "classCode": "Offence",
+   "isClass": true
+  },
+  {
+   "id": "class-pravootnoshenie",
+   "label": "Правоотношение",
+   "classCode": "LegalRelation",
+   "isClass": true
+  },
+  {
+   "id": "pravootnoshenie-po-realizacii-svobody-sobraniy",
+   "label": "Правоотношение по реализации свободы собраний",
+   "classCode": "LegalRelation"
+  },
+  {
+   "id": "class-pravoprimenitelnoe-reshenie",
+   "label": "Правоприменительное решение",
+   "classCode": "LegalDecision",
+   "isClass": true
+  },
+  {
+   "id": "class-prezumpciya",
+   "label": "Презумпция",
+   "classCode": "Presumption",
+   "isClass": true
+  },
+  {
+   "id": "prezumpciya-nevinovnosti",
+   "label": "Презумпция невиновности",
+   "classCode": "Presumption"
+  },
+  {
+   "id": "prestuplenie-obobschennoe",
+   "label": "Преступление (обобщённое)",
+   "classCode": "Offence"
+  },
+  {
+   "id": "primenenie-zakona-k-deyaniyu-do-ego-vstupleniya-v-silu",
+   "label": "Применение закона к деянию до его вступления в силу",
+   "classCode": "LegalFact"
+  },
+  {
+   "id": "primenenie-neopublikovannogo-zakona",
+   "label": "Применение неопубликованного закона",
+   "classCode": "LegalFact"
+  },
+  {
+   "id": "princip-prioriteta-prav-i-svobod-cheloveka",
+   "label": "Принцип приоритета прав и свобод человека",
+   "classCode": "LegalPrinciple"
+  },
+  {
+   "id": "princip-sorazmernosti-ogranicheniy-prav",
+   "label": "Принцип соразмерности ограничений прав",
+   "classCode": "LegalPrinciple"
+  },
+  {
+   "id": "provedenie-mirnogo-sobraniya",
+   "label": "Проведение мирного собрания",
+   "classCode": "LegalFact"
+  },
+  {
+   "id": "class-redakciya-akta",
+   "label": "Редакция акта",
+   "classCode": "ActEdition",
+   "isClass": true
+  },
+  {
+   "id": "redakciya-konstitucii-rf-1993-g",
+   "label": "Редакция Конституции РФ 1993 г.",
+   "classCode": "ActEdition"
+  },
+  {
+   "id": "redakciya-federalnogo-zakona-deystvuyuschaya",
+   "label": "Редакция федерального закона (действующая)",
+   "classCode": "ActEdition"
+  },
+  {
+   "id": "rossiyskaya-federaciya",
+   "label": "Российская Федерация",
+   "classCode": "Jurisdiction"
+  },
+  {
+   "id": "s-25-12-1993-po-nastoyaschee-vremya",
+   "label": "С 25.12.1993 по настоящее время",
+   "classCode": "TimeInterval"
+  },
+  {
+   "id": "s-vstupleniya-zakona-v-silu-do-priznaniya-nekonstitucionnym",
+   "label": "С вступления закона в силу до признания неконституционным",
+   "classCode": "TimeInterval"
+  },
+  {
+   "id": "class-sankciya",
+   "label": "Санкция",
+   "classCode": "Sanction",
+   "isClass": true
+  },
+  {
+   "id": "svoboda-publichnogo-vyrazheniya-mneniya",
+   "label": "Свобода публичного выражения мнения",
+   "classCode": "ProtectedGood"
+  },
+  {
+   "id": "spravedlivost",
+   "label": "Справедливость",
+   "classCode": "LegalValue"
+  },
+  {
+   "id": "srok-davnosti-privlecheniya-k-ugolovnoy-otvetstvennosti",
+   "label": "Срок давности привлечения к уголовной ответственности",
+   "classCode": "LegalDeadline"
+  },
+  {
+   "id": "st-105-ch-1-konstitucii-rf",
+   "label": "Ст. 105 ч. 1 Конституции РФ",
+   "classCode": "ActProvision"
+  },
+  {
+   "id": "st-125-konstitucii-rf",
+   "label": "Ст. 125 Конституции РФ",
+   "classCode": "ActProvision"
+  },
+  {
+   "id": "st-15-ch-3-konstitucii-rf",
+   "label": "Ст. 15 ч. 3 Конституции РФ",
+   "classCode": "ActProvision"
+  },
+  {
+   "id": "st-2-konstitucii-rf",
+   "label": "Ст. 2 Конституции РФ",
+   "classCode": "ActProvision"
+  },
+  {
+   "id": "st-31-konstitucii-rf",
+   "label": "Ст. 31 Конституции РФ",
+   "classCode": "ActProvision"
+  },
+  {
+   "id": "st-49-ch-1-konstitucii-rf",
+   "label": "Ст. 49 ч. 1 Конституции РФ",
+   "classCode": "ActProvision"
+  },
+  {
+   "id": "st-54-ch-2-konstitucii-rf",
+   "label": "Ст. 54 ч. 2 Конституции РФ",
+   "classCode": "ActProvision"
+  },
+  {
+   "id": "st-55-ch-3-konstitucii-rf",
+   "label": "Ст. 55 ч. 3 Конституции РФ",
+   "classCode": "ActProvision"
+  },
+  {
+   "id": "st-57-konstitucii-rf",
+   "label": "Ст. 57 Конституции РФ",
+   "classCode": "ActProvision"
+  },
+  {
+   "id": "class-standart-dokazyvaniya",
+   "label": "Стандарт доказывания",
+   "classCode": "ProofStandard",
+   "isClass": true
+  },
+  {
+   "id": "class-strukturnaya-edinica-akta",
+   "label": "Структурная единица акта",
+   "classCode": "ActProvision",
+   "isClass": true
+  },
+  {
+   "id": "class-subekt-prava",
+   "label": "Субъект права",
+   "classCode": "LegalSubject",
+   "isClass": true
+  },
+  {
+   "id": "class-subektivnoe-pravo",
+   "label": "Субъективное право",
+   "classCode": "SubjectiveRight",
+   "isClass": true
+  },
+  {
+   "id": "sud-obschey-yurisdikcii",
+   "label": "Суд общей юрисдикции",
+   "classCode": "StateBody"
+  },
+  {
+   "id": "sudya-konstitucionnogo-suda-rf",
+   "label": "Судья Конституционного Суда РФ",
+   "classCode": "NaturalPerson"
+  },
+  {
+   "id": "ugolovnaya-otvetstvennost",
+   "label": "Уголовная ответственность",
+   "classCode": "LegalLiability"
+  },
+  {
+   "id": "ugolovnoe-sudoproizvodstvo",
+   "label": "Уголовное судопроизводство",
+   "classCode": "LegalProcedure"
+  },
+  {
+   "id": "umysel",
+   "label": "Умысел",
+   "classCode": "Fault"
+  },
+  {
+   "id": "uplata-naloga",
+   "label": "Уплата налога",
+   "classCode": "LegalFact"
+  },
+  {
+   "id": "class-ustanovlennyy-fakt",
+   "label": "Установленный факт",
+   "classCode": "EstablishedFact",
+   "isClass": true
+  },
+  {
+   "id": "ustanovlennyy-fakt-soversheniya-prestupleniya",
+   "label": "Установленный факт совершения преступления",
+   "classCode": "EstablishedFact"
+  },
+  {
+   "id": "class-utrata-sily",
+   "label": "Утрата силы",
+   "classCode": "LossOfForce",
+   "isClass": true
+  },
+  {
+   "id": "utrata-sily-zakona-priznannogo-nekonstitucionnym",
+   "label": "Утрата силы закона, признанного неконституционным",
+   "classCode": "LossOfForce"
+  },
+  {
+   "id": "utrata-yuridicheskoy-sily-posle-priznaniya-nekonstitucionnoy",
+   "label": "Утрата юридической силы после признания неконституционной",
+   "classCode": "LegalValidity"
+  },
+  {
+   "id": "federalnyy-zakon-obobschennyy",
+   "label": "Федеральный закон (обобщённый)",
+   "classCode": "NormativeAct"
+  },
+  {
+   "id": "class-fizicheskoe-lico",
+   "label": "Физическое лицо",
+   "classCode": "NaturalPerson",
+   "isClass": true
+  },
+  {
+   "id": "class-epistemicheskoe-sostoyanie-subekta",
+   "label": "Эпистемическое состояние субъекта",
+   "classCode": "EpistemicState",
+   "isClass": true
+  },
+  {
+   "id": "class-yuridicheskaya-vozmozhnost",
+   "label": "Юридическая возможность",
+   "classCode": "LegalPossibility",
+   "isClass": true
+  },
+  {
+   "id": "class-yuridicheskaya-nevozmozhnost",
+   "label": "Юридическая невозможность",
+   "classCode": "LegalImpossibility",
+   "isClass": true
+  },
+  {
+   "id": "class-yuridicheskaya-neobhodimost",
+   "label": "Юридическая необходимость",
+   "classCode": "LegalNecessity",
+   "isClass": true
+  },
+  {
+   "id": "class-yuridicheskaya-obyazannost",
+   "label": "Юридическая обязанность",
+   "classCode": "LegalDuty",
+   "isClass": true
+  },
+  {
+   "id": "class-yuridicheskaya-otvetstvennost",
+   "label": "Юридическая ответственность",
+   "classCode": "LegalLiability",
+   "isClass": true
+  },
+  {
+   "id": "class-yuridicheskiy-srok",
+   "label": "Юридический срок",
+   "classCode": "LegalDeadline",
+   "isClass": true
+  },
+  {
+   "id": "class-yuridicheskiy-fakt",
+   "label": "Юридический факт",
+   "classCode": "LegalFact",
+   "isClass": true
+  },
+  {
+   "id": "class-yurisdikciya",
+   "label": "Юрисдикция",
+   "classCode": "Jurisdiction",
+   "isClass": true
+  }
+ ]
+}

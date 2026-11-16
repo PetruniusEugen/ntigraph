@@ -1,0 +1,3424 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "aviadostavka-kritichnyh-chipov",
+   "predicate": "имеет тип",
+   "object": "class-variant-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t002",
+   "subject": "aviadostavka-kritichnyh-chipov",
+   "predicate": "влияет на риск",
+   "object": "deficit-chipov-bms",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t003",
+   "subject": "aviadostavka-kritichnyh-chipov",
+   "predicate": "влияет на риск",
+   "object": "sryv-srokov-postavok",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t004",
+   "subject": "aviadostavka-kritichnyh-chipov",
+   "predicate": "влияет на компонент",
+   "object": "mikrokontrollery-bms",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t005",
+   "subject": "alyuminievyy-prokat",
+   "predicate": "имеет тип",
+   "object": "class-komponent",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t006",
+   "subject": "alyuminievyy-prokat",
+   "predicate": "входит в продукт",
+   "object": "vektor-e-7",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t007",
+   "subject": "alyuminievyy-prokat",
+   "predicate": "входит в продукт",
+   "object": "powercell-100",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t008",
+   "subject": "alyuminievyy-prokat",
+   "predicate": "добывается в регионе",
+   "object": "anatoliya",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t009",
+   "subject": "alyuminievyy-prokat",
+   "predicate": "хранится на складе",
+   "object": "sklad-valensiya",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t010",
+   "subject": "alyuminievyy-prokat",
+   "predicate": "подчиняется требованию соответствия",
+   "object": "trebovanie-uglerodnoy-otchetnosti-cbam",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t011",
+   "subject": "anatoliya",
+   "predicate": "имеет тип",
+   "object": "class-geograficheskiy-region",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t012",
+   "subject": "anatoliya-stal",
+   "predicate": "имеет тип",
+   "object": "class-kompaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t013",
+   "subject": "anatoliya-stal",
+   "predicate": "зарегистрирована в регионе",
+   "object": "anatoliya",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t014",
+   "subject": "anatoliya-stal",
+   "predicate": "поставляет компонент",
+   "object": "alyuminievyy-prokat",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t015",
+   "subject": "anatoliya-stal",
+   "predicate": "является стороной договора",
+   "object": "kontrakt-anatoliya-stal-tehnodrom",
+   "sourceId": "contract",
+   "sourceName": "Контракт «Анатолия Сталь — ТехноДром»",
+   "sourceType": "Договор",
+   "updatedAt": "2026-04-02"
+  },
+  {
+   "id": "t016",
+   "subject": "anatoliya-stal",
+   "predicate": "эксплуатирует площадку",
+   "object": "metallurgicheskiy-zavod-anatoliya",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t017",
+   "subject": "anatoliya-stal-holding",
+   "predicate": "имеет тип",
+   "object": "class-yuridicheskoe-lico",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t018",
+   "subject": "anatoliya-stal-holding",
+   "predicate": "зарегистрировано в регионе",
+   "object": "anatoliya",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t019",
+   "subject": "anatoliya-stal-holding",
+   "predicate": "владеет компанией",
+   "object": "anatoliya-stal",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t020",
+   "subject": "anna-vays",
+   "predicate": "имеет тип",
+   "object": "class-beneficiarnyy-vladelec",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t021",
+   "subject": "anna-vays",
+   "predicate": "является бенефициаром",
+   "object": "tehnodrom-gmbh",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t022",
+   "subject": "audit-uglerodnogo-sleda-postavschikov",
+   "predicate": "имеет тип",
+   "object": "class-mera-snizheniya-riska",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t023",
+   "subject": "audit-uglerodnogo-sleda-postavschikov",
+   "predicate": "снижает риск",
+   "object": "risk-nesoblyudeniya-cbam",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t024",
+   "subject": "audit-uglerodnogo-sleda-postavschikov",
+   "predicate": "обеспечивает соответствие требованию",
+   "object": "trebovanie-uglerodnoy-otchetnosti-cbam",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t025",
+   "subject": "blizhniy-vostok",
+   "predicate": "имеет тип",
+   "object": "class-geograficheskiy-region",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t026",
+   "subject": "bufernyy-zapas-yacheek-30-dney",
+   "predicate": "имеет тип",
+   "object": "class-variant-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t027",
+   "subject": "bufernyy-zapas-yacheek-30-dney",
+   "predicate": "влияет на риск",
+   "object": "deficit-yacheek-nmc",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t028",
+   "subject": "bufernyy-zapas-yacheek-30-dney",
+   "predicate": "влияет на риск",
+   "object": "sryv-srokov-postavok",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t029",
+   "subject": "bufernyy-zapas-yacheek-30-dney",
+   "predicate": "опирается на меру",
+   "object": "naraschivanie-bufernogo-zapasa",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t030",
+   "subject": "vektor-e-7",
+   "predicate": "имеет тип",
+   "object": "class-produkt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t031",
+   "subject": "vektor-e-7",
+   "predicate": "собирается на площадке",
+   "object": "zavod-berlin",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t032",
+   "subject": "vektor-e-7",
+   "predicate": "измеряется показателем",
+   "object": "oee-zavoda-berlin-91-cel-95",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t033",
+   "subject": "vektor-e-7",
+   "predicate": "подчиняется требованию соответствия",
+   "object": "trebovanie-dolzhnoy-osmotritelnosti-postavschikov",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t034",
+   "subject": "vostochnaya-aziya",
+   "predicate": "имеет тип",
+   "object": "class-geograficheskiy-region",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t035",
+   "subject": "zapadnaya-evropa",
+   "predicate": "имеет тип",
+   "object": "class-geograficheskiy-region",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t036",
+   "subject": "gidroenergetika-alp",
+   "predicate": "имеет тип",
+   "object": "class-istochnik-energii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t037",
+   "subject": "gidroenergetika-alp",
+   "predicate": "расположен в регионе",
+   "object": "zapadnaya-evropa",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t038",
+   "subject": "gidroenergetika-alp",
+   "predicate": "питает компанию",
+   "object": "grinmetall",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t039",
+   "subject": "grinmetall",
+   "predicate": "имеет тип",
+   "object": "class-kompaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t040",
+   "subject": "grinmetall",
+   "predicate": "зарегистрирована в регионе",
+   "object": "zapadnaya-evropa",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t041",
+   "subject": "grinmetall",
+   "predicate": "поставляет компонент",
+   "object": "alyuminievyy-prokat",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t042",
+   "subject": "grinmetall",
+   "predicate": "является альтернативным поставщиком для",
+   "object": "anatoliya-stal",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t043",
+   "subject": "dvoynoy-istochnik-stali-60-40",
+   "predicate": "имеет тип",
+   "object": "class-variant-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t044",
+   "subject": "dvoynoy-istochnik-stali-60-40",
+   "predicate": "влияет на риск",
+   "object": "risk-nesoblyudeniya-cbam",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t045",
+   "subject": "dvoynoy-istochnik-stali-60-40",
+   "predicate": "выбирает поставщика",
+   "object": "grinmetall",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t046",
+   "subject": "dvoynoy-istochnik-stali-60-40",
+   "predicate": "выбирает поставщика",
+   "object": "anatoliya-stal",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t047",
+   "subject": "dvoynoy-istochnik-yacheek",
+   "predicate": "имеет тип",
+   "object": "class-mera-snizheniya-riska",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t048",
+   "subject": "dvoynoy-istochnik-yacheek",
+   "predicate": "снижает риск",
+   "object": "poterya-edinstvennogo-postavschika-yacheek",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t049",
+   "subject": "dvoynoy-istochnik-yacheek",
+   "predicate": "снижает риск",
+   "object": "deficit-yacheek-nmc",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t050",
+   "subject": "delta-batteri",
+   "predicate": "имеет тип",
+   "object": "class-kompaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t051",
+   "subject": "delta-batteri",
+   "predicate": "зарегистрирована в регионе",
+   "object": "yugo-vostochnaya-aziya",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t052",
+   "subject": "delta-batteri",
+   "predicate": "поставляет компонент",
+   "object": "yacheyki-lfp",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t053",
+   "subject": "delta-batteri",
+   "predicate": "является альтернативным поставщиком для",
+   "object": "energoyachey",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t054",
+   "subject": "deficit-yacheek-nmc",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t055",
+   "subject": "deficit-yacheek-nmc",
+   "predicate": "угрожает компоненту",
+   "object": "yacheyki-nmc",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t056",
+   "subject": "deficit-yacheek-nmc",
+   "predicate": "угрожает продукту",
+   "object": "vektor-e-7",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t057",
+   "subject": "deficit-yacheek-nmc",
+   "predicate": "угрожает продукту",
+   "object": "powercell-100",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t058",
+   "subject": "deficit-yacheek-nmc",
+   "predicate": "отслеживается показателем",
+   "object": "zapas-yacheek-nmc-18-dney-normativ-30",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t059",
+   "subject": "deficit-chipov-bms",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t060",
+   "subject": "deficit-chipov-bms",
+   "predicate": "угрожает компоненту",
+   "object": "mikrokontrollery-bms",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t061",
+   "subject": "deficit-chipov-bms",
+   "predicate": "угрожает продукту",
+   "object": "vektor-e-7",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t062",
+   "subject": "deficit-chipov-bms",
+   "predicate": "угрожает продукту",
+   "object": "powercell-100",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t063",
+   "subject": "dolya-edinstvennogo-istochnika-68-limit-40",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t064",
+   "subject": "zh-d-marshrut-anatoliya-berlin",
+   "predicate": "имеет тип",
+   "object": "class-logisticheskiy-marshrut",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t065",
+   "subject": "zh-d-marshrut-anatoliya-berlin",
+   "predicate": "используется для поставки компонента",
+   "object": "alyuminievyy-prokat",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t066",
+   "subject": "zavod-berlin",
+   "predicate": "имеет тип",
+   "object": "class-proizvodstvennaya-ploschadka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t067",
+   "subject": "zavod-berlin",
+   "predicate": "расположена в регионе",
+   "object": "zapadnaya-evropa",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t068",
+   "subject": "zavod-berlin",
+   "predicate": "потребляет источник энергии",
+   "object": "smeshannaya-set-es",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t069",
+   "subject": "zavod-berlin",
+   "predicate": "измеряется показателем",
+   "object": "oee-zavoda-berlin-91-cel-95",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t070",
+   "subject": "zavod-valensiya",
+   "predicate": "имеет тип",
+   "object": "class-proizvodstvennaya-ploschadka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t071",
+   "subject": "zavod-valensiya",
+   "predicate": "расположена в регионе",
+   "object": "yuzhnaya-evropa",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t072",
+   "subject": "zavod-valensiya",
+   "predicate": "потребляет источник энергии",
+   "object": "smeshannaya-set-es",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t073",
+   "subject": "zavod-energoyachey-1",
+   "predicate": "имеет тип",
+   "object": "class-proizvodstvennaya-ploschadka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t074",
+   "subject": "zavod-energoyachey-1",
+   "predicate": "расположена в регионе",
+   "object": "vostochnaya-aziya",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t075",
+   "subject": "zavod-energoyachey-1",
+   "predicate": "выпускает компонент",
+   "object": "yacheyki-nmc",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t076",
+   "subject": "zavod-energoyachey-1",
+   "predicate": "выпускает компонент",
+   "object": "yacheyki-lfp",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t077",
+   "subject": "zapas-yacheek-nmc-18-dney-normativ-30",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t078",
+   "subject": "zakon-o-dolzhnoy-osmotritelnosti-v-cepochkah-postavok",
+   "predicate": "имеет тип",
+   "object": "class-regulyatornyy-akt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t079",
+   "subject": "zakon-o-dolzhnoy-osmotritelnosti-v-cepochkah-postavok",
+   "predicate": "вводит требование соответствия",
+   "object": "trebovanie-dolzhnoy-osmotritelnosti-postavschikov",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t080",
+   "subject": "zakon-o-dolzhnoy-osmotritelnosti-v-cepochkah-postavok",
+   "predicate": "несёт риск несоблюдения",
+   "object": "risk-narusheniya-dolzhnoy-osmotritelnosti",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t081",
+   "subject": "zasuhi-i-volny-zhary",
+   "predicate": "имеет тип",
+   "object": "class-klimaticheskaya-ugroza",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t082",
+   "subject": "zasuhi-i-volny-zhary",
+   "predicate": "угрожает региону",
+   "object": "yuzhnaya-evropa",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t083",
+   "subject": "zasuhi-i-volny-zhary",
+   "predicate": "угрожает площадке",
+   "object": "zavod-valensiya",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t084",
+   "subject": "zasuhi-i-volny-zhary",
+   "predicate": "влияет на источник энергии",
+   "object": "gidroenergetika-alp",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t085",
+   "subject": "zasuhi-i-volny-zhary",
+   "predicate": "создаёт риск",
+   "object": "rost-zatrat-na-vvod-materialov",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t086",
+   "subject": "zemletryaseniya",
+   "predicate": "имеет тип",
+   "object": "class-klimaticheskaya-ugroza",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t087",
+   "subject": "zemletryaseniya",
+   "predicate": "угрожает региону",
+   "object": "vostochnaya-aziya",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t088",
+   "subject": "zemletryaseniya",
+   "predicate": "угрожает площадке",
+   "object": "fabrika-silikon-maykros",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t089",
+   "subject": "zemletryaseniya",
+   "predicate": "угрожает площадке",
+   "object": "zavod-energoyachey-1",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t090",
+   "subject": "zemletryaseniya",
+   "predicate": "создаёт риск",
+   "object": "deficit-chipov-bms",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t091",
+   "subject": "keys-vybor-postavschika-stali-pod-cbam",
+   "predicate": "имеет тип",
+   "object": "class-keys-prinyatiya-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t092",
+   "subject": "keys-vybor-postavschika-stali-pod-cbam",
+   "predicate": "связан с риском",
+   "object": "risk-nesoblyudeniya-cbam",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t093",
+   "subject": "keys-vybor-postavschika-stali-pod-cbam",
+   "predicate": "связан с риском",
+   "object": "rost-zatrat-na-vvod-materialov",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t094",
+   "subject": "keys-vybor-postavschika-stali-pod-cbam",
+   "predicate": "рассматривает вариант",
+   "object": "ostavit-anatoliyu-stal",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t095",
+   "subject": "keys-vybor-postavschika-stali-pod-cbam",
+   "predicate": "рассматривает вариант",
+   "object": "pereklyuchitsya-na-grinmetall",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t096",
+   "subject": "keys-vybor-postavschika-stali-pod-cbam",
+   "predicate": "рассматривает вариант",
+   "object": "dvoynoy-istochnik-stali-60-40",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t097",
+   "subject": "keys-vybor-postavschika-stali-pod-cbam",
+   "predicate": "оценивается показателем",
+   "object": "uglerodnaya-intensivnost-prokata-anatolii-2-4-t-co2e-t-porog-cbam-1-8",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t098",
+   "subject": "keys-zakrytie-deficita-yacheek-nmc",
+   "predicate": "имеет тип",
+   "object": "class-keys-prinyatiya-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t099",
+   "subject": "keys-zakrytie-deficita-yacheek-nmc",
+   "predicate": "связан с риском",
+   "object": "deficit-yacheek-nmc",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t100",
+   "subject": "keys-zakrytie-deficita-yacheek-nmc",
+   "predicate": "связан с риском",
+   "object": "poterya-edinstvennogo-postavschika-yacheek",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t101",
+   "subject": "keys-zakrytie-deficita-yacheek-nmc",
+   "predicate": "рассматривает вариант",
+   "object": "bufernyy-zapas-yacheek-30-dney",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t102",
+   "subject": "keys-zakrytie-deficita-yacheek-nmc",
+   "predicate": "рассматривает вариант",
+   "object": "kvalificirovat-delta-batteri",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t103",
+   "subject": "keys-zakrytie-deficita-yacheek-nmc",
+   "predicate": "рассматривает вариант",
+   "object": "perenesti-vypusk-powercell-na-lfp",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t104",
+   "subject": "keys-zakrytie-deficita-yacheek-nmc",
+   "predicate": "оценивается показателем",
+   "object": "zapas-yacheek-nmc-18-dney-normativ-30",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t105",
+   "subject": "keys-zakrytie-deficita-yacheek-nmc",
+   "predicate": "оценивается показателем",
+   "object": "dolya-edinstvennogo-istochnika-68-limit-40",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t106",
+   "subject": "keys-obhod-krizisa-krasnogo-morya",
+   "predicate": "имеет тип",
+   "object": "class-keys-prinyatiya-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t107",
+   "subject": "keys-obhod-krizisa-krasnogo-morya",
+   "predicate": "связан с риском",
+   "object": "sryv-srokov-postavok",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t108",
+   "subject": "keys-obhod-krizisa-krasnogo-morya",
+   "predicate": "рассматривает вариант",
+   "object": "pereyti-na-mys-dobroy-nadezhdy",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t109",
+   "subject": "keys-obhod-krizisa-krasnogo-morya",
+   "predicate": "рассматривает вариант",
+   "object": "aviadostavka-kritichnyh-chipov",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t110",
+   "subject": "keys-obhod-krizisa-krasnogo-morya",
+   "predicate": "оценивается показателем",
+   "object": "tranzitnoe-vremya-aziya-es-43-dnya-plan-32",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t111",
+   "subject": "kvalificirovat-delta-batteri",
+   "predicate": "имеет тип",
+   "object": "class-variant-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t112",
+   "subject": "kvalificirovat-delta-batteri",
+   "predicate": "влияет на риск",
+   "object": "poterya-edinstvennogo-postavschika-yacheek",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t113",
+   "subject": "kvalificirovat-delta-batteri",
+   "predicate": "влияет на риск",
+   "object": "deficit-yacheek-nmc",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t114",
+   "subject": "kvalificirovat-delta-batteri",
+   "predicate": "опирается на меру",
+   "object": "dvoynoy-istochnik-yacheek",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t115",
+   "subject": "kvalificirovat-delta-batteri",
+   "predicate": "выбирает поставщика",
+   "object": "delta-batteri",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t116",
+   "subject": "kontrakt-anatoliya-stal-tehnodrom",
+   "predicate": "имеет тип",
+   "object": "class-dogovor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t117",
+   "subject": "kontrakt-anatoliya-stal-tehnodrom",
+   "predicate": "покрывает поставку компонента",
+   "object": "alyuminievyy-prokat",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t118",
+   "subject": "kontrakt-anatoliya-stal-tehnodrom",
+   "predicate": "контрагент по договору",
+   "object": "anatoliya-stal",
+   "sourceId": "contract",
+   "sourceName": "Контракт «Анатолия Сталь — ТехноДром»",
+   "sourceType": "Договор",
+   "updatedAt": "2026-04-02"
+  },
+  {
+   "id": "t119",
+   "subject": "kontrakt-anatoliya-stal-tehnodrom",
+   "predicate": "имеет юридический риск",
+   "object": "risk-narusheniya-dolzhnoy-osmotritelnosti",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t120",
+   "subject": "kontrakt-tranzit-logistik-tehnodrom",
+   "predicate": "имеет тип",
+   "object": "class-dogovor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t121",
+   "subject": "kontrakt-tranzit-logistik-tehnodrom",
+   "predicate": "покрывает поставку компонента",
+   "object": "yacheyki-nmc",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t122",
+   "subject": "kontrakt-tranzit-logistik-tehnodrom",
+   "predicate": "контрагент по договору",
+   "object": "tranzit-logistik",
+   "sourceId": "contract",
+   "sourceName": "Контракт «Анатолия Сталь — ТехноДром»",
+   "sourceType": "Договор",
+   "updatedAt": "2026-04-02"
+  },
+  {
+   "id": "t123",
+   "subject": "kontrakt-tranzit-logistik-tehnodrom",
+   "predicate": "имеет юридический риск",
+   "object": "sryv-srokov-postavok",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t124",
+   "subject": "kontrakt-silikon-maykros-tehnodrom",
+   "predicate": "имеет тип",
+   "object": "class-dogovor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t125",
+   "subject": "kontrakt-silikon-maykros-tehnodrom",
+   "predicate": "покрывает поставку компонента",
+   "object": "mikrokontrollery-bms",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t126",
+   "subject": "kontrakt-silikon-maykros-tehnodrom",
+   "predicate": "контрагент по договору",
+   "object": "silikon-maykros",
+   "sourceId": "contract",
+   "sourceName": "Контракт «Анатолия Сталь — ТехноДром»",
+   "sourceType": "Договор",
+   "updatedAt": "2026-04-02"
+  },
+  {
+   "id": "t127",
+   "subject": "kontrakt-silikon-maykros-tehnodrom",
+   "predicate": "имеет юридический риск",
+   "object": "deficit-chipov-bms",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t128",
+   "subject": "kontrakt-energoyachey-tehnodrom",
+   "predicate": "имеет тип",
+   "object": "class-dogovor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t129",
+   "subject": "kontrakt-energoyachey-tehnodrom",
+   "predicate": "покрывает поставку компонента",
+   "object": "yacheyki-nmc",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t130",
+   "subject": "kontrakt-energoyachey-tehnodrom",
+   "predicate": "покрывает поставку компонента",
+   "object": "yacheyki-lfp",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t131",
+   "subject": "kontrakt-energoyachey-tehnodrom",
+   "predicate": "контрагент по договору",
+   "object": "energoyachey",
+   "sourceId": "contract",
+   "sourceName": "Контракт «Анатолия Сталь — ТехноДром»",
+   "sourceType": "Договор",
+   "updatedAt": "2026-04-02"
+  },
+  {
+   "id": "t132",
+   "subject": "kontrakt-energoyachey-tehnodrom",
+   "predicate": "имеет юридический риск",
+   "object": "poterya-edinstvennogo-postavschika-yacheek",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t133",
+   "subject": "krizis-v-krasnom-more",
+   "predicate": "имеет тип",
+   "object": "class-geopoliticheskoe-sobytie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t134",
+   "subject": "krizis-v-krasnom-more",
+   "predicate": "влияет на регион",
+   "object": "blizhniy-vostok",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t135",
+   "subject": "krizis-v-krasnom-more",
+   "predicate": "влияет на узел",
+   "object": "sueckiy-kanal",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t136",
+   "subject": "krizis-v-krasnom-more",
+   "predicate": "создаёт риск",
+   "object": "sryv-srokov-postavok",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t137",
+   "subject": "metallurgicheskiy-zavod-anatoliya",
+   "predicate": "имеет тип",
+   "object": "class-proizvodstvennaya-ploschadka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t138",
+   "subject": "metallurgicheskiy-zavod-anatoliya",
+   "predicate": "расположена в регионе",
+   "object": "anatoliya",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t139",
+   "subject": "metallurgicheskiy-zavod-anatoliya",
+   "predicate": "выпускает компонент",
+   "object": "alyuminievyy-prokat",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t140",
+   "subject": "metallurgicheskiy-zavod-anatoliya",
+   "predicate": "потребляет источник энергии",
+   "object": "ugolnaya-energetika-anatolii",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t141",
+   "subject": "metallurgicheskiy-zavod-anatoliya",
+   "predicate": "подчиняется регуляторному акту",
+   "object": "reglament-cbam",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t142",
+   "subject": "metallurgicheskiy-zavod-anatoliya",
+   "predicate": "измеряется показателем",
+   "object": "uglerodnaya-intensivnost-prokata-anatolii-2-4-t-co2e-t-porog-cbam-1-8",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t143",
+   "subject": "mikrokontrollery-bms",
+   "predicate": "имеет тип",
+   "object": "class-komponent",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t144",
+   "subject": "mikrokontrollery-bms",
+   "predicate": "входит в продукт",
+   "object": "vektor-e-7",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t145",
+   "subject": "mikrokontrollery-bms",
+   "predicate": "входит в продукт",
+   "object": "powercell-100",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t146",
+   "subject": "mikrokontrollery-bms",
+   "predicate": "добывается в регионе",
+   "object": "vostochnaya-aziya",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t147",
+   "subject": "mikrokontrollery-bms",
+   "predicate": "хранится на складе",
+   "object": "centralnyy-sklad-gamburg",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t148",
+   "subject": "morskoy-marshrut-aziya-rotterdam-suec",
+   "predicate": "имеет тип",
+   "object": "class-logisticheskiy-marshrut",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t149",
+   "subject": "morskoy-marshrut-aziya-rotterdam-suec",
+   "predicate": "используется для поставки компонента",
+   "object": "yacheyki-nmc",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t150",
+   "subject": "morskoy-marshrut-aziya-rotterdam-suec",
+   "predicate": "используется для поставки компонента",
+   "object": "mikrokontrollery-bms",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t151",
+   "subject": "morskoy-marshrut-aziya-rotterdam-suec",
+   "predicate": "используется для поставки компонента",
+   "object": "redkozemelnye-magnity",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t152",
+   "subject": "morskoy-marshrut-aziya-rotterdam-suec",
+   "predicate": "проходит через узел",
+   "object": "port-shanhay",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t153",
+   "subject": "morskoy-marshrut-aziya-rotterdam-suec",
+   "predicate": "проходит через узел",
+   "object": "sueckiy-kanal",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t154",
+   "subject": "morskoy-marshrut-aziya-rotterdam-suec",
+   "predicate": "проходит через узел",
+   "object": "port-rotterdam",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t155",
+   "subject": "morskoy-marshrut-aziya-rotterdam-suec",
+   "predicate": "имеет резервный маршрут",
+   "object": "morskoy-marshrut-aziya-rotterdam-mys-dobroy-nadezhdy",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t156",
+   "subject": "morskoy-marshrut-aziya-rotterdam-suec",
+   "predicate": "измеряется показателем",
+   "object": "tranzitnoe-vremya-aziya-es-43-dnya-plan-32",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t157",
+   "subject": "morskoy-marshrut-aziya-rotterdam-mys-dobroy-nadezhdy",
+   "predicate": "имеет тип",
+   "object": "class-logisticheskiy-marshrut",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t158",
+   "subject": "morskoy-marshrut-aziya-rotterdam-mys-dobroy-nadezhdy",
+   "predicate": "используется для поставки компонента",
+   "object": "yacheyki-nmc",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t159",
+   "subject": "morskoy-marshrut-aziya-rotterdam-mys-dobroy-nadezhdy",
+   "predicate": "проходит через узел",
+   "object": "port-shanhay",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t160",
+   "subject": "morskoy-marshrut-aziya-rotterdam-mys-dobroy-nadezhdy",
+   "predicate": "проходит через узел",
+   "object": "mys-dobroy-nadezhdy",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t161",
+   "subject": "morskoy-marshrut-aziya-rotterdam-mys-dobroy-nadezhdy",
+   "predicate": "проходит через узел",
+   "object": "port-rotterdam",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t162",
+   "subject": "mys-dobroy-nadezhdy",
+   "predicate": "имеет тип",
+   "object": "class-transportnyy-uzel",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t163",
+   "subject": "naraschivanie-bufernogo-zapasa",
+   "predicate": "имеет тип",
+   "object": "class-mera-snizheniya-riska",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t164",
+   "subject": "naraschivanie-bufernogo-zapasa",
+   "predicate": "снижает риск",
+   "object": "deficit-yacheek-nmc",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t165",
+   "subject": "naraschivanie-bufernogo-zapasa",
+   "predicate": "снижает риск",
+   "object": "sryv-srokov-postavok",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t166",
+   "subject": "obhodnoy-morskoy-marshrut",
+   "predicate": "имеет тип",
+   "object": "class-mera-snizheniya-riska",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t167",
+   "subject": "obhodnoy-morskoy-marshrut",
+   "predicate": "снижает риск",
+   "object": "sryv-srokov-postavok",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t168",
+   "subject": "ostavit-anatoliyu-stal",
+   "predicate": "имеет тип",
+   "object": "class-variant-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t169",
+   "subject": "ostavit-anatoliyu-stal",
+   "predicate": "влияет на риск",
+   "object": "risk-nesoblyudeniya-cbam",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t170",
+   "subject": "ostavit-anatoliyu-stal",
+   "predicate": "выбирает поставщика",
+   "object": "anatoliya-stal",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t171",
+   "subject": "ogranichenie-postavok-redkozemelnyh-metallov",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t172",
+   "subject": "ogranichenie-postavok-redkozemelnyh-metallov",
+   "predicate": "угрожает компоненту",
+   "object": "redkozemelnye-magnity",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t173",
+   "subject": "ogranichenie-postavok-redkozemelnyh-metallov",
+   "predicate": "угрожает продукту",
+   "object": "vektor-e-7",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t174",
+   "subject": "ogranichenie-energii-na-zavode-valensiya-iyul-2026",
+   "predicate": "имеет тип",
+   "object": "class-incident",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t175",
+   "subject": "ogranichenie-energii-na-zavode-valensiya-iyul-2026",
+   "predicate": "затрагивает площадку",
+   "object": "zavod-valensiya",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t176",
+   "subject": "ogranichenie-energii-na-zavode-valensiya-iyul-2026",
+   "predicate": "реализует риск",
+   "object": "prostoy-sborochnoy-linii",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t177",
+   "subject": "otif-postavok-yacheek-87-cel-95",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t178",
+   "subject": "oee-zavoda-berlin-91-cel-95",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t179",
+   "subject": "powercell-100",
+   "predicate": "имеет тип",
+   "object": "class-produkt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t180",
+   "subject": "powercell-100",
+   "predicate": "собирается на площадке",
+   "object": "zavod-valensiya",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t181",
+   "subject": "powercell-100",
+   "predicate": "подчиняется требованию соответствия",
+   "object": "trebovanie-uglerodnoy-otchetnosti-cbam",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t182",
+   "subject": "perenesti-vypusk-powercell-na-lfp",
+   "predicate": "имеет тип",
+   "object": "class-variant-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t183",
+   "subject": "perenesti-vypusk-powercell-na-lfp",
+   "predicate": "влияет на риск",
+   "object": "poterya-edinstvennogo-postavschika-yacheek",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t184",
+   "subject": "perenesti-vypusk-powercell-na-lfp",
+   "predicate": "влияет на риск",
+   "object": "deficit-yacheek-nmc",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t185",
+   "subject": "perenesti-vypusk-powercell-na-lfp",
+   "predicate": "влияет на компонент",
+   "object": "yacheyki-lfp",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t186",
+   "subject": "perenesti-vypusk-powercell-na-lfp",
+   "predicate": "влияет на компонент",
+   "object": "yacheyki-nmc",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t187",
+   "subject": "pereyti-na-mys-dobroy-nadezhdy",
+   "predicate": "имеет тип",
+   "object": "class-variant-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t188",
+   "subject": "pereyti-na-mys-dobroy-nadezhdy",
+   "predicate": "влияет на риск",
+   "object": "sryv-srokov-postavok",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t189",
+   "subject": "pereyti-na-mys-dobroy-nadezhdy",
+   "predicate": "опирается на меру",
+   "object": "obhodnoy-morskoy-marshrut",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t190",
+   "subject": "pereklyuchitsya-na-grinmetall",
+   "predicate": "имеет тип",
+   "object": "class-variant-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t191",
+   "subject": "pereklyuchitsya-na-grinmetall",
+   "predicate": "влияет на риск",
+   "object": "risk-nesoblyudeniya-cbam",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t192",
+   "subject": "pereklyuchitsya-na-grinmetall",
+   "predicate": "влияет на риск",
+   "object": "rost-zatrat-na-vvod-materialov",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t193",
+   "subject": "pereklyuchitsya-na-grinmetall",
+   "predicate": "выбирает поставщика",
+   "object": "grinmetall",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t194",
+   "subject": "port-rotterdam",
+   "predicate": "имеет тип",
+   "object": "class-transportnyy-uzel",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t195",
+   "subject": "port-rotterdam",
+   "predicate": "расположен в регионе",
+   "object": "zapadnaya-evropa",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t196",
+   "subject": "port-shanhay",
+   "predicate": "имеет тип",
+   "object": "class-transportnyy-uzel",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t197",
+   "subject": "port-shanhay",
+   "predicate": "расположен в регионе",
+   "object": "vostochnaya-aziya",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t198",
+   "subject": "poterya-edinstvennogo-postavschika-yacheek",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t199",
+   "subject": "poterya-edinstvennogo-postavschika-yacheek",
+   "predicate": "угрожает компоненту",
+   "object": "yacheyki-nmc",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t200",
+   "subject": "poterya-edinstvennogo-postavschika-yacheek",
+   "predicate": "угрожает компании",
+   "object": "tehnodrom-grupp",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t201",
+   "subject": "poterya-edinstvennogo-postavschika-yacheek",
+   "predicate": "отслеживается показателем",
+   "object": "dolya-edinstvennogo-istochnika-68-limit-40",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t202",
+   "subject": "poterya-edinstvennogo-postavschika-yacheek",
+   "predicate": "отслеживается показателем",
+   "object": "zapas-yacheek-nmc-18-dney-normativ-30",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t203",
+   "subject": "pravila-eksportnogo-kontrolya-na-redkozemelnye-metally",
+   "predicate": "имеет тип",
+   "object": "class-regulyatornyy-akt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t204",
+   "subject": "pravila-eksportnogo-kontrolya-na-redkozemelnye-metally",
+   "predicate": "вводит требование соответствия",
+   "object": "trebovanie-eksportnoy-licenzii-na-redkozemelnye-metally",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t205",
+   "subject": "pravila-eksportnogo-kontrolya-na-redkozemelnye-metally",
+   "predicate": "несёт риск несоблюдения",
+   "object": "ogranichenie-postavok-redkozemelnyh-metallov",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t206",
+   "subject": "prostoy-sborochnoy-linii",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t207",
+   "subject": "prostoy-sborochnoy-linii",
+   "predicate": "угрожает продукту",
+   "object": "vektor-e-7",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t208",
+   "subject": "prostoy-sborochnoy-linii",
+   "predicate": "угрожает продукту",
+   "object": "powercell-100",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t209",
+   "subject": "prostoy-sborochnoy-linii",
+   "predicate": "угрожает площадке",
+   "object": "zavod-berlin",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t210",
+   "subject": "prostoy-sborochnoy-linii",
+   "predicate": "отслеживается показателем",
+   "object": "oee-zavoda-berlin-91-cel-95",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t211",
+   "subject": "redkozemelnye-magnity",
+   "predicate": "имеет тип",
+   "object": "class-komponent",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t212",
+   "subject": "redkozemelnye-magnity",
+   "predicate": "входит в продукт",
+   "object": "vektor-e-7",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t213",
+   "subject": "redkozemelnye-magnity",
+   "predicate": "добывается в регионе",
+   "object": "vostochnaya-aziya",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t214",
+   "subject": "redkozemelnye-magnity",
+   "predicate": "хранится на складе",
+   "object": "centralnyy-sklad-gamburg",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t215",
+   "subject": "redkozemelnye-magnity",
+   "predicate": "подчиняется требованию соответствия",
+   "object": "trebovanie-eksportnoy-licenzii-na-redkozemelnye-metally",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t216",
+   "subject": "reglament-cbam",
+   "predicate": "имеет тип",
+   "object": "class-regulyatornyy-akt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t217",
+   "subject": "reglament-cbam",
+   "predicate": "вводит требование соответствия",
+   "object": "trebovanie-uglerodnoy-otchetnosti-cbam",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t218",
+   "subject": "reglament-cbam",
+   "predicate": "несёт риск несоблюдения",
+   "object": "risk-nesoblyudeniya-cbam",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t219",
+   "subject": "risk-nesoblyudeniya-cbam",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t220",
+   "subject": "risk-nesoblyudeniya-cbam",
+   "predicate": "угрожает компании",
+   "object": "tehnodrom-grupp",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t221",
+   "subject": "risk-nesoblyudeniya-cbam",
+   "predicate": "отслеживается показателем",
+   "object": "uglerodnaya-intensivnost-prokata-anatolii-2-4-t-co2e-t-porog-cbam-1-8",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t222",
+   "subject": "risk-narusheniya-dolzhnoy-osmotritelnosti",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t223",
+   "subject": "risk-narusheniya-dolzhnoy-osmotritelnosti",
+   "predicate": "угрожает компании",
+   "object": "tehnodrom-grupp",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t224",
+   "subject": "rost-zatrat-na-vvod-materialov",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t225",
+   "subject": "rost-zatrat-na-vvod-materialov",
+   "predicate": "угрожает продукту",
+   "object": "vektor-e-7",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t226",
+   "subject": "rost-zatrat-na-vvod-materialov",
+   "predicate": "угрожает продукту",
+   "object": "powercell-100",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t227",
+   "subject": "rost-zatrat-na-vvod-materialov",
+   "predicate": "угрожает компании",
+   "object": "tehnodrom-grupp",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t228",
+   "subject": "sankcionnyy-rezhim-es",
+   "predicate": "имеет тип",
+   "object": "class-sankcionnoe-ogranichenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t229",
+   "subject": "sankcionnyy-rezhim-es",
+   "predicate": "применена к бенефициару",
+   "object": "selchuk-karadzha",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t230",
+   "subject": "sankcionnyy-rezhim-es",
+   "predicate": "создаёт риск",
+   "object": "risk-narusheniya-dolzhnoy-osmotritelnosti",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t231",
+   "subject": "selchuk-karadzha",
+   "predicate": "имеет тип",
+   "object": "class-beneficiarnyy-vladelec",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t232",
+   "subject": "selchuk-karadzha",
+   "predicate": "является бенефициаром",
+   "object": "anatoliya-stal-holding",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t233",
+   "subject": "sertifikat-audita-energoyachey",
+   "predicate": "имеет тип",
+   "object": "class-sertifikat",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t234",
+   "subject": "sertifikat-audita-energoyachey",
+   "predicate": "выдан компании",
+   "object": "energoyachey",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t235",
+   "subject": "sertifikat-uglerodnogo-sleda-grinmetall",
+   "predicate": "имеет тип",
+   "object": "class-sertifikat",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t236",
+   "subject": "sertifikat-uglerodnogo-sleda-grinmetall",
+   "predicate": "выдан компании",
+   "object": "grinmetall",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t237",
+   "subject": "silikon-maykros",
+   "predicate": "имеет тип",
+   "object": "class-kompaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t238",
+   "subject": "silikon-maykros",
+   "predicate": "зарегистрирована в регионе",
+   "object": "vostochnaya-aziya",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t239",
+   "subject": "silikon-maykros",
+   "predicate": "поставляет компонент",
+   "object": "mikrokontrollery-bms",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t240",
+   "subject": "silikon-maykros",
+   "predicate": "является стороной договора",
+   "object": "kontrakt-silikon-maykros-tehnodrom",
+   "sourceId": "contract",
+   "sourceName": "Контракт «Анатолия Сталь — ТехноДром»",
+   "sourceType": "Договор",
+   "updatedAt": "2026-04-02"
+  },
+  {
+   "id": "t241",
+   "subject": "silikon-maykros",
+   "predicate": "эксплуатирует площадку",
+   "object": "fabrika-silikon-maykros",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t242",
+   "subject": "sklad-valensiya",
+   "predicate": "имеет тип",
+   "object": "class-sklad",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t243",
+   "subject": "sklad-valensiya",
+   "predicate": "расположен в регионе",
+   "object": "yuzhnaya-evropa",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t244",
+   "subject": "sklad-valensiya",
+   "predicate": "снабжает площадку",
+   "object": "zavod-valensiya",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t245",
+   "subject": "smeshannaya-set-es",
+   "predicate": "имеет тип",
+   "object": "class-istochnik-energii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t246",
+   "subject": "smeshannaya-set-es",
+   "predicate": "расположен в регионе",
+   "object": "zapadnaya-evropa",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t247",
+   "subject": "smeshannaya-set-es",
+   "predicate": "питает компанию",
+   "object": "tehnodrom-manufakturing",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t248",
+   "subject": "sryv-srokov-postavok",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t249",
+   "subject": "sryv-srokov-postavok",
+   "predicate": "угрожает маршруту",
+   "object": "morskoy-marshrut-aziya-rotterdam-suec",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t250",
+   "subject": "sryv-srokov-postavok",
+   "predicate": "угрожает компоненту",
+   "object": "mikrokontrollery-bms",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t251",
+   "subject": "sryv-srokov-postavok",
+   "predicate": "угрожает компоненту",
+   "object": "redkozemelnye-magnity",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t252",
+   "subject": "sryv-srokov-postavok",
+   "predicate": "отслеживается показателем",
+   "object": "tranzitnoe-vremya-aziya-es-43-dnya-plan-32",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t253",
+   "subject": "sryv-srokov-postavok",
+   "predicate": "отслеживается показателем",
+   "object": "otif-postavok-yacheek-87-cel-95",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t254",
+   "subject": "strahovanie-gruzovyh-zaderzhek",
+   "predicate": "имеет тип",
+   "object": "class-mera-snizheniya-riska",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t255",
+   "subject": "strahovanie-gruzovyh-zaderzhek",
+   "predicate": "снижает риск",
+   "object": "sryv-srokov-postavok",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t256",
+   "subject": "strahovanie-gruzovyh-zaderzhek",
+   "predicate": "снижает риск",
+   "object": "prostoy-sborochnoy-linii",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t257",
+   "subject": "sueckiy-kanal",
+   "predicate": "имеет тип",
+   "object": "class-transportnyy-uzel",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t258",
+   "subject": "sueckiy-kanal",
+   "predicate": "расположен в регионе",
+   "object": "blizhniy-vostok",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t259",
+   "subject": "tayfuny",
+   "predicate": "имеет тип",
+   "object": "class-klimaticheskaya-ugroza",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t260",
+   "subject": "tayfuny",
+   "predicate": "угрожает региону",
+   "object": "vostochnaya-aziya",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t261",
+   "subject": "tayfuny",
+   "predicate": "угрожает узлу",
+   "object": "port-shanhay",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t262",
+   "subject": "tayfuny",
+   "predicate": "угрожает площадке",
+   "object": "zavod-energoyachey-1",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t263",
+   "subject": "tayfuny",
+   "predicate": "создаёт риск",
+   "object": "deficit-yacheek-nmc",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t264",
+   "subject": "tehnodrom-gmbh",
+   "predicate": "имеет тип",
+   "object": "class-yuridicheskoe-lico",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t265",
+   "subject": "tehnodrom-gmbh",
+   "predicate": "зарегистрировано в регионе",
+   "object": "zapadnaya-evropa",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t266",
+   "subject": "tehnodrom-gmbh",
+   "predicate": "подчиняется регуляторному акту",
+   "object": "zakon-o-dolzhnoy-osmotritelnosti-v-cepochkah-postavok",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t267",
+   "subject": "tehnodrom-grupp",
+   "predicate": "имеет тип",
+   "object": "class-kompaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t268",
+   "subject": "tehnodrom-grupp",
+   "predicate": "зарегистрирована в регионе",
+   "object": "zapadnaya-evropa",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t269",
+   "subject": "tehnodrom-grupp",
+   "predicate": "владеет компанией",
+   "object": "tehnodrom-manufakturing",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t270",
+   "subject": "tehnodrom-grupp",
+   "predicate": "имеет дочернее юрлицо",
+   "object": "tehnodrom-gmbh",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t271",
+   "subject": "tehnodrom-grupp",
+   "predicate": "производит продукт",
+   "object": "vektor-e-7",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t272",
+   "subject": "tehnodrom-grupp",
+   "predicate": "производит продукт",
+   "object": "powercell-100",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t273",
+   "subject": "tehnodrom-grupp",
+   "predicate": "является стороной договора",
+   "object": "kontrakt-energoyachey-tehnodrom",
+   "sourceId": "contract",
+   "sourceName": "Контракт «Анатолия Сталь — ТехноДром»",
+   "sourceType": "Договор",
+   "updatedAt": "2026-04-02"
+  },
+  {
+   "id": "t274",
+   "subject": "tehnodrom-grupp",
+   "predicate": "является стороной договора",
+   "object": "kontrakt-silikon-maykros-tehnodrom",
+   "sourceId": "contract",
+   "sourceName": "Контракт «Анатолия Сталь — ТехноДром»",
+   "sourceType": "Договор",
+   "updatedAt": "2026-04-02"
+  },
+  {
+   "id": "t275",
+   "subject": "tehnodrom-grupp",
+   "predicate": "является стороной договора",
+   "object": "kontrakt-anatoliya-stal-tehnodrom",
+   "sourceId": "contract",
+   "sourceName": "Контракт «Анатолия Сталь — ТехноДром»",
+   "sourceType": "Договор",
+   "updatedAt": "2026-04-02"
+  },
+  {
+   "id": "t276",
+   "subject": "tehnodrom-grupp",
+   "predicate": "является стороной договора",
+   "object": "kontrakt-tranzit-logistik-tehnodrom",
+   "sourceId": "contract",
+   "sourceName": "Контракт «Анатолия Сталь — ТехноДром»",
+   "sourceType": "Договор",
+   "updatedAt": "2026-04-02"
+  },
+  {
+   "id": "t277",
+   "subject": "tehnodrom-grupp",
+   "predicate": "внедряет меру",
+   "object": "dvoynoy-istochnik-yacheek",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t278",
+   "subject": "tehnodrom-grupp",
+   "predicate": "внедряет меру",
+   "object": "naraschivanie-bufernogo-zapasa",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t279",
+   "subject": "tehnodrom-grupp",
+   "predicate": "внедряет меру",
+   "object": "obhodnoy-morskoy-marshrut",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t280",
+   "subject": "tehnodrom-grupp",
+   "predicate": "внедряет меру",
+   "object": "audit-uglerodnogo-sleda-postavschikov",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t281",
+   "subject": "tehnodrom-grupp",
+   "predicate": "внедряет меру",
+   "object": "strahovanie-gruzovyh-zaderzhek",
+   "sourceId": "sust",
+   "sourceName": "Отчёт об устойчивом развитии",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t282",
+   "subject": "tehnodrom-manufakturing",
+   "predicate": "имеет тип",
+   "object": "class-kompaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t283",
+   "subject": "tehnodrom-manufakturing",
+   "predicate": "зарегистрирована в регионе",
+   "object": "zapadnaya-evropa",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t284",
+   "subject": "tehnodrom-manufakturing",
+   "predicate": "эксплуатирует площадку",
+   "object": "zavod-berlin",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t285",
+   "subject": "tehnodrom-manufakturing",
+   "predicate": "эксплуатирует площадку",
+   "object": "zavod-valensiya",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t286",
+   "subject": "trebovanie-dolzhnoy-osmotritelnosti-postavschikov",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-sootvetstviya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t287",
+   "subject": "trebovanie-dolzhnoy-osmotritelnosti-postavschikov",
+   "predicate": "распространяется на компонент",
+   "object": "yacheyki-nmc",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t288",
+   "subject": "trebovanie-dolzhnoy-osmotritelnosti-postavschikov",
+   "predicate": "создаёт риск несоблюдения",
+   "object": "risk-narusheniya-dolzhnoy-osmotritelnosti",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t289",
+   "subject": "trebovanie-dolzhnoy-osmotritelnosti-postavschikov",
+   "predicate": "подтверждается сертификатом",
+   "object": "sertifikat-audita-energoyachey",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t290",
+   "subject": "trebovanie-eksportnoy-licenzii-na-redkozemelnye-metally",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-sootvetstviya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t291",
+   "subject": "trebovanie-eksportnoy-licenzii-na-redkozemelnye-metally",
+   "predicate": "распространяется на компонент",
+   "object": "redkozemelnye-magnity",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t292",
+   "subject": "trebovanie-eksportnoy-licenzii-na-redkozemelnye-metally",
+   "predicate": "создаёт риск несоблюдения",
+   "object": "ogranichenie-postavok-redkozemelnyh-metallov",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t293",
+   "subject": "trebovanie-uglerodnoy-otchetnosti-cbam",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-sootvetstviya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t294",
+   "subject": "trebovanie-uglerodnoy-otchetnosti-cbam",
+   "predicate": "распространяется на компонент",
+   "object": "alyuminievyy-prokat",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t295",
+   "subject": "trebovanie-uglerodnoy-otchetnosti-cbam",
+   "predicate": "создаёт риск несоблюдения",
+   "object": "risk-nesoblyudeniya-cbam",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t296",
+   "subject": "trebovanie-uglerodnoy-otchetnosti-cbam",
+   "predicate": "создаёт риск несоблюдения",
+   "object": "rost-zatrat-na-vvod-materialov",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t297",
+   "subject": "trebovanie-uglerodnoy-otchetnosti-cbam",
+   "predicate": "подтверждается сертификатом",
+   "object": "sertifikat-uglerodnogo-sleda-grinmetall",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t298",
+   "subject": "tranzit-logistik",
+   "predicate": "имеет тип",
+   "object": "class-kompaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t299",
+   "subject": "tranzit-logistik",
+   "predicate": "зарегистрирована в регионе",
+   "object": "zapadnaya-evropa",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t300",
+   "subject": "tranzit-logistik",
+   "predicate": "является стороной договора",
+   "object": "kontrakt-tranzit-logistik-tehnodrom",
+   "sourceId": "contract",
+   "sourceName": "Контракт «Анатолия Сталь — ТехноДром»",
+   "sourceType": "Договор",
+   "updatedAt": "2026-04-02"
+  },
+  {
+   "id": "t301",
+   "subject": "tranzitnoe-vremya-aziya-es-43-dnya-plan-32",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t302",
+   "subject": "uglerodnaya-intensivnost-prokata-anatolii-2-4-t-co2e-t-porog-cbam-1-8",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t303",
+   "subject": "ugolnaya-energetika-anatolii",
+   "predicate": "имеет тип",
+   "object": "class-istochnik-energii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t304",
+   "subject": "ugolnaya-energetika-anatolii",
+   "predicate": "расположен в регионе",
+   "object": "anatoliya",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t305",
+   "subject": "ugolnaya-energetika-anatolii",
+   "predicate": "питает компанию",
+   "object": "anatoliya-stal",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t306",
+   "subject": "uhod-sudov-s-marshruta-suec-11-dney-tranzita",
+   "predicate": "имеет тип",
+   "object": "class-incident",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t307",
+   "subject": "uhod-sudov-s-marshruta-suec-11-dney-tranzita",
+   "predicate": "затрагивает маршрут",
+   "object": "morskoy-marshrut-aziya-rotterdam-suec",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t308",
+   "subject": "uhod-sudov-s-marshruta-suec-11-dney-tranzita",
+   "predicate": "затрагивает компанию",
+   "object": "tranzit-logistik",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t309",
+   "subject": "uhod-sudov-s-marshruta-suec-11-dney-tranzita",
+   "predicate": "реализует риск",
+   "object": "sryv-srokov-postavok",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t310",
+   "subject": "fabrika-silikon-maykros",
+   "predicate": "имеет тип",
+   "object": "class-proizvodstvennaya-ploschadka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t311",
+   "subject": "fabrika-silikon-maykros",
+   "predicate": "расположена в регионе",
+   "object": "vostochnaya-aziya",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t312",
+   "subject": "fabrika-silikon-maykros",
+   "predicate": "выпускает компонент",
+   "object": "mikrokontrollery-bms",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t313",
+   "subject": "centralnyy-sklad-gamburg",
+   "predicate": "имеет тип",
+   "object": "class-sklad",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t314",
+   "subject": "centralnyy-sklad-gamburg",
+   "predicate": "расположен в регионе",
+   "object": "zapadnaya-evropa",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t315",
+   "subject": "centralnyy-sklad-gamburg",
+   "predicate": "снабжает площадку",
+   "object": "zavod-berlin",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t316",
+   "subject": "centralnyy-sklad-gamburg",
+   "predicate": "измеряется показателем",
+   "object": "zapas-yacheek-nmc-18-dney-normativ-30",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t317",
+   "subject": "eksportnye-ogranicheniya-na-redkozemelnye-metally",
+   "predicate": "имеет тип",
+   "object": "class-geopoliticheskoe-sobytie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t318",
+   "subject": "eksportnye-ogranicheniya-na-redkozemelnye-metally",
+   "predicate": "влияет на регион",
+   "object": "vostochnaya-aziya",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t319",
+   "subject": "eksportnye-ogranicheniya-na-redkozemelnye-metally",
+   "predicate": "ограничивает компонент",
+   "object": "redkozemelnye-magnity",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t320",
+   "subject": "eksportnye-ogranicheniya-na-redkozemelnye-metally",
+   "predicate": "создаёт риск",
+   "object": "ogranichenie-postavok-redkozemelnyh-metallov",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков поставок",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-22"
+  },
+  {
+   "id": "t321",
+   "subject": "energoyachey",
+   "predicate": "имеет тип",
+   "object": "class-kompaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t322",
+   "subject": "energoyachey",
+   "predicate": "зарегистрирована в регионе",
+   "object": "vostochnaya-aziya",
+   "sourceId": "egrul",
+   "sourceName": "Реестр юрлиц и комплаенс",
+   "sourceType": "Справочник",
+   "updatedAt": "2026-07-20"
+  },
+  {
+   "id": "t323",
+   "subject": "energoyachey",
+   "predicate": "поставляет компонент",
+   "object": "yacheyki-nmc",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t324",
+   "subject": "energoyachey",
+   "predicate": "поставляет компонент",
+   "object": "yacheyki-lfp",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t325",
+   "subject": "energoyachey",
+   "predicate": "является стороной договора",
+   "object": "kontrakt-energoyachey-tehnodrom",
+   "sourceId": "contract",
+   "sourceName": "Контракт «Анатолия Сталь — ТехноДром»",
+   "sourceType": "Договор",
+   "updatedAt": "2026-04-02"
+  },
+  {
+   "id": "t326",
+   "subject": "energoyachey",
+   "predicate": "эксплуатирует площадку",
+   "object": "zavod-energoyachey-1",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t327",
+   "subject": "yugo-vostochnaya-aziya",
+   "predicate": "имеет тип",
+   "object": "class-geograficheskiy-region",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t328",
+   "subject": "yuzhnaya-evropa",
+   "predicate": "имеет тип",
+   "object": "class-geograficheskiy-region",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t329",
+   "subject": "yacheyki-lfp",
+   "predicate": "имеет тип",
+   "object": "class-komponent",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t330",
+   "subject": "yacheyki-lfp",
+   "predicate": "входит в продукт",
+   "object": "powercell-100",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t331",
+   "subject": "yacheyki-lfp",
+   "predicate": "добывается в регионе",
+   "object": "vostochnaya-aziya",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t332",
+   "subject": "yacheyki-lfp",
+   "predicate": "добывается в регионе",
+   "object": "yugo-vostochnaya-aziya",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t333",
+   "subject": "yacheyki-lfp",
+   "predicate": "хранится на складе",
+   "object": "sklad-valensiya",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t334",
+   "subject": "yacheyki-nmc",
+   "predicate": "имеет тип",
+   "object": "class-komponent",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-06"
+  },
+  {
+   "id": "t335",
+   "subject": "yacheyki-nmc",
+   "predicate": "входит в продукт",
+   "object": "vektor-e-7",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t336",
+   "subject": "yacheyki-nmc",
+   "predicate": "входит в продукт",
+   "object": "powercell-100",
+   "sourceId": "erp",
+   "sourceName": "ERP (BOM, остатки, заказы)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-29"
+  },
+  {
+   "id": "t337",
+   "subject": "yacheyki-nmc",
+   "predicate": "добывается в регионе",
+   "object": "vostochnaya-aziya",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t338",
+   "subject": "yacheyki-nmc",
+   "predicate": "хранится на складе",
+   "object": "centralnyy-sklad-gamburg",
+   "sourceId": "tms",
+   "sourceName": "TMS / AIS-трекинг поставок",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-27"
+  },
+  {
+   "id": "t339",
+   "subject": "yacheyki-nmc",
+   "predicate": "подчиняется требованию соответствия",
+   "object": "trebovanie-dolzhnoy-osmotritelnosti-postavschikov",
+   "sourceId": "cbam",
+   "sourceName": "Регламент CBAM (углеродная отчётность ЕС)",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t340",
+   "subject": "yacheyki-nmc",
+   "predicate": "измеряется показателем",
+   "object": "otif-postavok-yacheek-87-cel-95",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t341",
+   "subject": "yacheyki-nmc",
+   "predicate": "измеряется показателем",
+   "object": "zapas-yacheek-nmc-18-dney-normativ-30",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t342",
+   "subject": "yacheyki-nmc",
+   "predicate": "измеряется показателем",
+   "object": "dolya-edinstvennogo-istochnika-68-limit-40",
+   "sourceId": "iot",
+   "sourceName": "Телеметрия завода (BMS, OEE)",
+   "sourceType": "Телеметрия",
+   "updatedAt": "2026-08-30"
+  }
+ ]
+}

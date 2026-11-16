@@ -1,0 +1,613 @@
+{
+ "entities": [
+  {
+   "id": "aviadostavka-kritichnyh-chipov",
+   "label": "Авиадоставка критичных чипов",
+   "classCode": "DecisionOption"
+  },
+  {
+   "id": "alyuminievyy-prokat",
+   "label": "Алюминиевый прокат",
+   "classCode": "Component"
+  },
+  {
+   "id": "anatoliya",
+   "label": "Анатолия",
+   "classCode": "GeoRegion"
+  },
+  {
+   "id": "anatoliya-stal",
+   "label": "Анатолия Сталь",
+   "classCode": "Company"
+  },
+  {
+   "id": "anatoliya-stal-holding",
+   "label": "Анатолия Сталь Холдинг",
+   "classCode": "LegalEntity"
+  },
+  {
+   "id": "anna-vays",
+   "label": "Анна Вайс",
+   "classCode": "Beneficiary"
+  },
+  {
+   "id": "audit-uglerodnogo-sleda-postavschikov",
+   "label": "Аудит углеродного следа поставщиков",
+   "classCode": "MitigationMeasure"
+  },
+  {
+   "id": "class-beneficiarnyy-vladelec",
+   "label": "Бенефициарный владелец",
+   "classCode": "Beneficiary",
+   "isClass": true
+  },
+  {
+   "id": "blizhniy-vostok",
+   "label": "Ближний Восток",
+   "classCode": "GeoRegion"
+  },
+  {
+   "id": "bufernyy-zapas-yacheek-30-dney",
+   "label": "Буферный запас ячеек 30 дней",
+   "classCode": "DecisionOption"
+  },
+  {
+   "id": "class-variant-resheniya",
+   "label": "Вариант решения",
+   "classCode": "DecisionOption",
+   "isClass": true
+  },
+  {
+   "id": "vektor-e-7",
+   "label": "Вектор E-7",
+   "classCode": "Product"
+  },
+  {
+   "id": "vostochnaya-aziya",
+   "label": "Восточная Азия",
+   "classCode": "GeoRegion"
+  },
+  {
+   "id": "class-geograficheskiy-region",
+   "label": "Географический регион",
+   "classCode": "GeoRegion",
+   "isClass": true
+  },
+  {
+   "id": "class-geopoliticheskoe-sobytie",
+   "label": "Геополитическое событие",
+   "classCode": "GeopoliticalEvent",
+   "isClass": true
+  },
+  {
+   "id": "gidroenergetika-alp",
+   "label": "Гидроэнергетика Альп",
+   "classCode": "EnergySource"
+  },
+  {
+   "id": "grinmetall",
+   "label": "ГринМеталл",
+   "classCode": "Company"
+  },
+  {
+   "id": "dvoynoy-istochnik-stali-60-40",
+   "label": "Двойной источник стали 60/40",
+   "classCode": "DecisionOption"
+  },
+  {
+   "id": "dvoynoy-istochnik-yacheek",
+   "label": "Двойной источник ячеек",
+   "classCode": "MitigationMeasure"
+  },
+  {
+   "id": "delta-batteri",
+   "label": "Дельта Баттери",
+   "classCode": "Company"
+  },
+  {
+   "id": "deficit-chipov-bms",
+   "label": "Дефицит чипов BMS",
+   "classCode": "Risk"
+  },
+  {
+   "id": "deficit-yacheek-nmc",
+   "label": "Дефицит ячеек NMC",
+   "classCode": "Risk"
+  },
+  {
+   "id": "class-dogovor",
+   "label": "Договор",
+   "classCode": "Contract",
+   "isClass": true
+  },
+  {
+   "id": "dolya-edinstvennogo-istochnika-68-limit-40",
+   "label": "Доля единственного источника: 68% (лимит 40%)",
+   "classCode": "Metric"
+  },
+  {
+   "id": "zh-d-marshrut-anatoliya-berlin",
+   "label": "Ж/д маршрут Анатолия — Берлин",
+   "classCode": "LogisticsRoute"
+  },
+  {
+   "id": "zavod-berlin",
+   "label": "Завод Берлин",
+   "classCode": "ProductionSite"
+  },
+  {
+   "id": "zavod-valensiya",
+   "label": "Завод Валенсия",
+   "classCode": "ProductionSite"
+  },
+  {
+   "id": "zavod-energoyachey-1",
+   "label": "Завод ЭнергоЯчей-1",
+   "classCode": "ProductionSite"
+  },
+  {
+   "id": "zakon-o-dolzhnoy-osmotritelnosti-v-cepochkah-postavok",
+   "label": "Закон о должной осмотрительности в цепочках поставок",
+   "classCode": "Regulation"
+  },
+  {
+   "id": "zapadnaya-evropa",
+   "label": "Западная Европа",
+   "classCode": "GeoRegion"
+  },
+  {
+   "id": "zapas-yacheek-nmc-18-dney-normativ-30",
+   "label": "Запас ячеек NMC: 18 дней (норматив 30)",
+   "classCode": "Metric"
+  },
+  {
+   "id": "zasuhi-i-volny-zhary",
+   "label": "Засухи и волны жары",
+   "classCode": "ClimateHazard"
+  },
+  {
+   "id": "zemletryaseniya",
+   "label": "Землетрясения",
+   "classCode": "ClimateHazard"
+  },
+  {
+   "id": "class-incident",
+   "label": "Инцидент",
+   "classCode": "Incident",
+   "isClass": true
+  },
+  {
+   "id": "class-istochnik-energii",
+   "label": "Источник энергии",
+   "classCode": "EnergySource",
+   "isClass": true
+  },
+  {
+   "id": "kvalificirovat-delta-batteri",
+   "label": "Квалифицировать Дельта Баттери",
+   "classCode": "DecisionOption"
+  },
+  {
+   "id": "class-keys-prinyatiya-resheniya",
+   "label": "Кейс принятия решения",
+   "classCode": "DecisionCase",
+   "isClass": true
+  },
+  {
+   "id": "keys-vybor-postavschika-stali-pod-cbam",
+   "label": "Кейс: выбор поставщика стали под CBAM",
+   "classCode": "DecisionCase"
+  },
+  {
+   "id": "keys-zakrytie-deficita-yacheek-nmc",
+   "label": "Кейс: закрытие дефицита ячеек NMC",
+   "classCode": "DecisionCase"
+  },
+  {
+   "id": "keys-obhod-krizisa-krasnogo-morya",
+   "label": "Кейс: обход кризиса Красного моря",
+   "classCode": "DecisionCase"
+  },
+  {
+   "id": "class-klimaticheskaya-ugroza",
+   "label": "Климатическая угроза",
+   "classCode": "ClimateHazard",
+   "isClass": true
+  },
+  {
+   "id": "class-kompaniya",
+   "label": "Компания",
+   "classCode": "Company",
+   "isClass": true
+  },
+  {
+   "id": "class-komponent",
+   "label": "Компонент",
+   "classCode": "Component",
+   "isClass": true
+  },
+  {
+   "id": "kontrakt-anatoliya-stal-tehnodrom",
+   "label": "Контракт Анатолия Сталь — ТехноДром",
+   "classCode": "Contract"
+  },
+  {
+   "id": "kontrakt-silikon-maykros-tehnodrom",
+   "label": "Контракт Силикон Майкрос — ТехноДром",
+   "classCode": "Contract"
+  },
+  {
+   "id": "kontrakt-tranzit-logistik-tehnodrom",
+   "label": "Контракт Транзит Логистик — ТехноДром",
+   "classCode": "Contract"
+  },
+  {
+   "id": "kontrakt-energoyachey-tehnodrom",
+   "label": "Контракт ЭнергоЯчей — ТехноДром",
+   "classCode": "Contract"
+  },
+  {
+   "id": "krizis-v-krasnom-more",
+   "label": "Кризис в Красном море",
+   "classCode": "GeopoliticalEvent"
+  },
+  {
+   "id": "class-logisticheskiy-marshrut",
+   "label": "Логистический маршрут",
+   "classCode": "LogisticsRoute",
+   "isClass": true
+  },
+  {
+   "id": "class-mera-snizheniya-riska",
+   "label": "Мера снижения риска",
+   "classCode": "MitigationMeasure",
+   "isClass": true
+  },
+  {
+   "id": "metallurgicheskiy-zavod-anatoliya",
+   "label": "Металлургический завод Анатолия",
+   "classCode": "ProductionSite"
+  },
+  {
+   "id": "mikrokontrollery-bms",
+   "label": "Микроконтроллеры BMS",
+   "classCode": "Component"
+  },
+  {
+   "id": "morskoy-marshrut-aziya-rotterdam-mys-dobroy-nadezhdy",
+   "label": "Морской маршрут Азия — Роттердам (мыс Доброй Надежды)",
+   "classCode": "LogisticsRoute"
+  },
+  {
+   "id": "morskoy-marshrut-aziya-rotterdam-suec",
+   "label": "Морской маршрут Азия — Роттердам (Суэц)",
+   "classCode": "LogisticsRoute"
+  },
+  {
+   "id": "mys-dobroy-nadezhdy",
+   "label": "Мыс Доброй Надежды",
+   "classCode": "LogisticsHub"
+  },
+  {
+   "id": "naraschivanie-bufernogo-zapasa",
+   "label": "Наращивание буферного запаса",
+   "classCode": "MitigationMeasure"
+  },
+  {
+   "id": "obhodnoy-morskoy-marshrut",
+   "label": "Обходной морской маршрут",
+   "classCode": "MitigationMeasure"
+  },
+  {
+   "id": "ogranichenie-postavok-redkozemelnyh-metallov",
+   "label": "Ограничение поставок редкоземельных металлов",
+   "classCode": "Risk"
+  },
+  {
+   "id": "ogranichenie-energii-na-zavode-valensiya-iyul-2026",
+   "label": "Ограничение энергии на Заводе Валенсия (июль 2026)",
+   "classCode": "Incident"
+  },
+  {
+   "id": "ostavit-anatoliyu-stal",
+   "label": "Оставить Анатолию Сталь",
+   "classCode": "DecisionOption"
+  },
+  {
+   "id": "pereyti-na-mys-dobroy-nadezhdy",
+   "label": "Перейти на мыс Доброй Надежды",
+   "classCode": "DecisionOption"
+  },
+  {
+   "id": "pereklyuchitsya-na-grinmetall",
+   "label": "Переключиться на ГринМеталл",
+   "classCode": "DecisionOption"
+  },
+  {
+   "id": "perenesti-vypusk-powercell-na-lfp",
+   "label": "Перенести выпуск PowerCell на LFP",
+   "classCode": "DecisionOption"
+  },
+  {
+   "id": "class-pokazatel",
+   "label": "Показатель",
+   "classCode": "Metric",
+   "isClass": true
+  },
+  {
+   "id": "port-rotterdam",
+   "label": "Порт Роттердам",
+   "classCode": "LogisticsHub"
+  },
+  {
+   "id": "port-shanhay",
+   "label": "Порт Шанхай",
+   "classCode": "LogisticsHub"
+  },
+  {
+   "id": "poterya-edinstvennogo-postavschika-yacheek",
+   "label": "Потеря единственного поставщика ячеек",
+   "classCode": "Risk"
+  },
+  {
+   "id": "pravila-eksportnogo-kontrolya-na-redkozemelnye-metally",
+   "label": "Правила экспортного контроля на редкоземельные металлы",
+   "classCode": "Regulation"
+  },
+  {
+   "id": "class-produkt",
+   "label": "Продукт",
+   "classCode": "Product",
+   "isClass": true
+  },
+  {
+   "id": "class-proizvodstvennaya-ploschadka",
+   "label": "Производственная площадка",
+   "classCode": "ProductionSite",
+   "isClass": true
+  },
+  {
+   "id": "prostoy-sborochnoy-linii",
+   "label": "Простой сборочной линии",
+   "classCode": "Risk"
+  },
+  {
+   "id": "reglament-cbam",
+   "label": "Регламент CBAM",
+   "classCode": "Regulation"
+  },
+  {
+   "id": "class-regulyatornyy-akt",
+   "label": "Регуляторный акт",
+   "classCode": "Regulation",
+   "isClass": true
+  },
+  {
+   "id": "redkozemelnye-magnity",
+   "label": "Редкоземельные магниты",
+   "classCode": "Component"
+  },
+  {
+   "id": "class-risk",
+   "label": "Риск",
+   "classCode": "Risk",
+   "isClass": true
+  },
+  {
+   "id": "risk-narusheniya-dolzhnoy-osmotritelnosti",
+   "label": "Риск нарушения должной осмотрительности",
+   "classCode": "Risk"
+  },
+  {
+   "id": "risk-nesoblyudeniya-cbam",
+   "label": "Риск несоблюдения CBAM",
+   "classCode": "Risk"
+  },
+  {
+   "id": "rost-zatrat-na-vvod-materialov",
+   "label": "Рост затрат на ввод материалов",
+   "classCode": "Risk"
+  },
+  {
+   "id": "class-sankcionnoe-ogranichenie",
+   "label": "Санкционное ограничение",
+   "classCode": "SanctionRestriction",
+   "isClass": true
+  },
+  {
+   "id": "sankcionnyy-rezhim-es",
+   "label": "Санкционный режим ЕС",
+   "classCode": "SanctionRestriction"
+  },
+  {
+   "id": "selchuk-karadzha",
+   "label": "Селчук Караджа",
+   "classCode": "Beneficiary"
+  },
+  {
+   "id": "class-sertifikat",
+   "label": "Сертификат",
+   "classCode": "Certificate",
+   "isClass": true
+  },
+  {
+   "id": "sertifikat-audita-energoyachey",
+   "label": "Сертификат аудита ЭнергоЯчей",
+   "classCode": "Certificate"
+  },
+  {
+   "id": "sertifikat-uglerodnogo-sleda-grinmetall",
+   "label": "Сертификат углеродного следа ГринМеталл",
+   "classCode": "Certificate"
+  },
+  {
+   "id": "silikon-maykros",
+   "label": "Силикон Майкрос",
+   "classCode": "Company"
+  },
+  {
+   "id": "class-sklad",
+   "label": "Склад",
+   "classCode": "Warehouse",
+   "isClass": true
+  },
+  {
+   "id": "sklad-valensiya",
+   "label": "Склад Валенсия",
+   "classCode": "Warehouse"
+  },
+  {
+   "id": "smeshannaya-set-es",
+   "label": "Смешанная сеть ЕС",
+   "classCode": "EnergySource"
+  },
+  {
+   "id": "sryv-srokov-postavok",
+   "label": "Срыв сроков поставок",
+   "classCode": "Risk"
+  },
+  {
+   "id": "strahovanie-gruzovyh-zaderzhek",
+   "label": "Страхование грузовых задержек",
+   "classCode": "MitigationMeasure"
+  },
+  {
+   "id": "sueckiy-kanal",
+   "label": "Суэцкий канал",
+   "classCode": "LogisticsHub"
+  },
+  {
+   "id": "tayfuny",
+   "label": "Тайфуны",
+   "classCode": "ClimateHazard"
+  },
+  {
+   "id": "tehnodrom-gmbh",
+   "label": "ТехноДром ГмбХ",
+   "classCode": "LegalEntity"
+  },
+  {
+   "id": "tehnodrom-grupp",
+   "label": "ТехноДром Групп",
+   "classCode": "Company"
+  },
+  {
+   "id": "tehnodrom-manufakturing",
+   "label": "ТехноДром Мануфактуринг",
+   "classCode": "Company"
+  },
+  {
+   "id": "tranzit-logistik",
+   "label": "Транзит Логистик",
+   "classCode": "Company"
+  },
+  {
+   "id": "tranzitnoe-vremya-aziya-es-43-dnya-plan-32",
+   "label": "Транзитное время Азия — ЕС: 43 дня (план 32)",
+   "classCode": "Metric"
+  },
+  {
+   "id": "class-transportnyy-uzel",
+   "label": "Транспортный узел",
+   "classCode": "LogisticsHub",
+   "isClass": true
+  },
+  {
+   "id": "trebovanie-dolzhnoy-osmotritelnosti-postavschikov",
+   "label": "Требование должной осмотрительности поставщиков",
+   "classCode": "ComplianceRequirement"
+  },
+  {
+   "id": "class-trebovanie-sootvetstviya",
+   "label": "Требование соответствия",
+   "classCode": "ComplianceRequirement",
+   "isClass": true
+  },
+  {
+   "id": "trebovanie-uglerodnoy-otchetnosti-cbam",
+   "label": "Требование углеродной отчётности CBAM",
+   "classCode": "ComplianceRequirement"
+  },
+  {
+   "id": "trebovanie-eksportnoy-licenzii-na-redkozemelnye-metally",
+   "label": "Требование экспортной лицензии на редкоземельные металлы",
+   "classCode": "ComplianceRequirement"
+  },
+  {
+   "id": "uglerodnaya-intensivnost-prokata-anatolii-2-4-t-co2e-t-porog-cbam-1-8",
+   "label": "Углеродная интенсивность проката Анатолии: 2,4 т CO2e/т (порог CBAM 1,8)",
+   "classCode": "Metric"
+  },
+  {
+   "id": "ugolnaya-energetika-anatolii",
+   "label": "Угольная энергетика Анатолии",
+   "classCode": "EnergySource"
+  },
+  {
+   "id": "uhod-sudov-s-marshruta-suec-11-dney-tranzita",
+   "label": "Уход судов с маршрута Суэц (+11 дней транзита)",
+   "classCode": "Incident"
+  },
+  {
+   "id": "fabrika-silikon-maykros",
+   "label": "Фабрика Силикон Майкрос",
+   "classCode": "ProductionSite"
+  },
+  {
+   "id": "centralnyy-sklad-gamburg",
+   "label": "Центральный склад Гамбург",
+   "classCode": "Warehouse"
+  },
+  {
+   "id": "eksportnye-ogranicheniya-na-redkozemelnye-metally",
+   "label": "Экспортные ограничения на редкоземельные металлы",
+   "classCode": "GeopoliticalEvent"
+  },
+  {
+   "id": "energoyachey",
+   "label": "ЭнергоЯчей",
+   "classCode": "Company"
+  },
+  {
+   "id": "yugo-vostochnaya-aziya",
+   "label": "Юго-Восточная Азия",
+   "classCode": "GeoRegion"
+  },
+  {
+   "id": "yuzhnaya-evropa",
+   "label": "Южная Европа",
+   "classCode": "GeoRegion"
+  },
+  {
+   "id": "class-yuridicheskoe-lico",
+   "label": "Юридическое лицо",
+   "classCode": "LegalEntity",
+   "isClass": true
+  },
+  {
+   "id": "yacheyki-lfp",
+   "label": "Ячейки LFP",
+   "classCode": "Component"
+  },
+  {
+   "id": "yacheyki-nmc",
+   "label": "Ячейки NMC",
+   "classCode": "Component"
+  },
+  {
+   "id": "oee-zavoda-berlin-91-cel-95",
+   "label": "OEE Завода Берлин: 91% (цель 95%)",
+   "classCode": "Metric"
+  },
+  {
+   "id": "otif-postavok-yacheek-87-cel-95",
+   "label": "OTIF поставок ячеек: 87% (цель 95%)",
+   "classCode": "Metric"
+  },
+  {
+   "id": "powercell-100",
+   "label": "PowerCell-100",
+   "classCode": "Product"
+  }
+ ]
+}

@@ -1,0 +1,1763 @@
+{
+ "classes": [
+  {
+   "code": "NormativeAct",
+   "name": "Нормативный правовой акт",
+   "comment": "Официальный письменный документ, принятый уполномоченным субъектом или референдумом и содержащий правовые нормы. BFO: информационная сущность (ICE), не бумажный носитель и не процесс принятия.",
+   "attributes": [
+    {
+     "code": "title",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Официальное наименование акта."
+    },
+    {
+     "code": "legalForceLevel",
+     "name": "уровень юридической силы",
+     "type": "string",
+     "comment": "Конституция, федеральный конституционный закон, федеральный закон, подзаконный акт и т. д."
+    },
+    {
+     "code": "adoptionDate",
+     "name": "дата принятия",
+     "type": "date",
+     "comment": "Дата принятия акта."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "NORM",
+     "name": "Нормы и источники права"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ActProvision",
+   "name": "Структурная единица акта",
+   "comment": "Статья, часть, пункт или иная структурная часть нормативного правового акта. BFO: информационная сущность, часть другой информационной сущности.",
+   "attributes": [
+    {
+     "code": "reference",
+     "name": "номер ссылки",
+     "type": "string",
+     "comment": "Например: ст. 55 ч. 3."
+    },
+    {
+     "code": "text",
+     "name": "текст",
+     "type": "string",
+     "comment": "Текст положения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "NORM",
+     "name": "Нормы и источники права"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalNorm",
+   "name": "Правовая норма",
+   "comment": "Предписание общего характера, выраженное в положении акта и определяющее модальность поведения (обязывание, запрет, дозволение) при определённых условиях. BFO: прескриптивная информационная сущность; отличается от текста положения, который её выражает.",
+   "attributes": [
+    {
+     "code": "normType",
+     "name": "вид нормы",
+     "type": "string",
+     "comment": "Регулятивная, охранительная, дефинитивная, компетенционная, принцип."
+    },
+    {
+     "code": "hypothesis",
+     "name": "условие применения (гипотеза)",
+     "type": "string",
+     "comment": "Обстоятельства, при которых норма действует."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "NORM",
+     "name": "Нормы и источники права"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ActEdition",
+   "name": "Редакция акта",
+   "comment": "Версия текста нормативного правового акта, действующая в определённый период. BFO: информационная сущность (версия ICE).",
+   "attributes": [
+    {
+     "code": "editionNumber",
+     "name": "номер редакции",
+     "type": "string",
+     "comment": "Идентификатор редакции или дата изменения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "NORM",
+     "name": "Нормы и источники права"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Jurisdiction",
+   "name": "Юрисдикция",
+   "comment": "Территория и круг лиц, на которые распространяется действие норм и власть органа. BFO: фиат-часть пространства (site / fiat object part).",
+   "attributes": [
+    {
+     "code": "level",
+     "name": "уровень",
+     "type": "string",
+     "comment": "Федеральный, региональный, муниципальный, международный."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "NORM",
+     "name": "Нормы и источники права"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalSubject",
+   "name": "Субъект права",
+   "comment": "Носитель юридических прав и обязанностей. BFO: роль, которую исполняют физическое лицо или орган (объект может утратить роль, не переставая существовать). В примерах участники правоотношений типизируются как «Субъект права».",
+   "attributes": [
+    {
+     "code": "legalCapacity",
+     "name": "правосубъектность",
+     "type": "string",
+     "comment": "Правоспособность и дееспособность либо компетенция."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SUBJ",
+     "name": "Субъекты, органы и правоотношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "NaturalPerson",
+   "name": "Физическое лицо",
+   "comment": "Человек как носитель роли субъекта права. BFO: материальный объект (организм).",
+   "attributes": [
+    {
+     "code": "citizenship",
+     "name": "гражданство",
+     "type": "string",
+     "comment": "Государство гражданства."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SUBJ",
+     "name": "Субъекты, органы и правоотношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "StateBody",
+   "name": "Государственный орган",
+   "comment": "Организация, образованная в установленном порядке для осуществления государственной власти. BFO: организация как совокупность объектов (object aggregate) с фиат-границей.",
+   "attributes": [
+    {
+     "code": "branch",
+     "name": "ветвь власти",
+     "type": "string",
+     "comment": "Законодательная, исполнительная, судебная, иная."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SUBJ",
+     "name": "Субъекты, органы и правоотношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "PublicOffice",
+   "name": "Государственная должность",
+   "comment": "Установленное нормой место в государственном органе с определённым кругом полномочий. BFO: роль в организации, исполняемая физическим лицом.",
+   "attributes": [
+    {
+     "code": "appointmentProcedure",
+     "name": "порядок замещения",
+     "type": "string",
+     "comment": "Выборы, назначение, избрание иным органом."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SUBJ",
+     "name": "Субъекты, органы и правоотношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Competence",
+   "name": "Полномочие",
+   "comment": "Установленная нормой возможность органа или должностного лица совершать юридически значимые действия. BFO: реализуемая сущность (диспозиция/функция по назначению), реализуется в процессе.",
+   "attributes": [
+    {
+     "code": "competenceKind",
+     "name": "вид полномочия",
+     "type": "string",
+     "comment": "Исключительное, совместное, делегированное."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SUBJ",
+     "name": "Субъекты, органы и правоотношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SubjectiveRight",
+   "name": "Субъективное право",
+   "comment": "Обеспеченная нормой мера возможного поведения субъекта. BFO: реализуемая сущность, зависящая от носителя-субъекта.",
+   "attributes": [
+    {
+     "code": "rightGroup",
+     "name": "группа прав",
+     "type": "string",
+     "comment": "Личные, политические, социально-экономические, культурные."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SUBJ",
+     "name": "Субъекты, органы и правоотношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalDuty",
+   "name": "Юридическая обязанность",
+   "comment": "Установленная нормой мера должного поведения субъекта. BFO: реализуемая сущность, зависящая от носителя-субъекта.",
+   "attributes": [
+    {
+     "code": "dutyKind",
+     "name": "вид обязанности",
+     "type": "string",
+     "comment": "Активная (совершить действие) или пассивная (воздержаться)."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SUBJ",
+     "name": "Субъекты, органы и правоотношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalRelation",
+   "name": "Правоотношение",
+   "comment": "Связь между субъектами, возникшая из юридического факта и выраженная во взаимных правах и обязанностях. BFO: совокупность зависимых сущностей (отношение как структура), не процесс.",
+   "attributes": [
+    {
+     "code": "relationBranch",
+     "name": "отрасль",
+     "type": "string",
+     "comment": "Конституционное, административное, уголовное и т. д."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SUBJ",
+     "name": "Субъекты, органы и правоотношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DeonticModality",
+   "name": "Деонтическая модальность",
+   "comment": "Нормативный режим поведения: должно, запрещено, разрешено. BFO: информационная сущность (содержание нормы, прескрипция).",
+   "attributes": [
+    {
+     "code": "strength",
+     "name": "степень императивности",
+     "type": "string",
+     "comment": "Императивная или диспозитивная."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DEON",
+     "name": "Деонтика: обязывание, запрет, дозволение"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Obligation",
+   "name": "Обязывание",
+   "comment": "Деонтическая модальность «должно»: предписание совершить действие. Вид деонтической модальности.",
+   "attributes": [
+    {
+     "code": "performanceTerm",
+     "name": "срок исполнения",
+     "type": "string",
+     "comment": "Срок или условие исполнения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DEON",
+     "name": "Деонтика: обязывание, запрет, дозволение"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Prohibition",
+   "name": "Запрет",
+   "comment": "Деонтическая модальность «запрещено»: предписание воздержаться от действия. Вид деонтической модальности.",
+   "attributes": [
+    {
+     "code": "absolute",
+     "name": "абсолютный",
+     "type": "boolean",
+     "comment": "Допускает ли норма исключения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DEON",
+     "name": "Деонтика: обязывание, запрет, дозволение"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Permission",
+   "name": "Дозволение",
+   "comment": "Деонтическая модальность «разрешено»: возможность совершить действие по собственному выбору. Вид деонтической модальности.",
+   "attributes": [
+    {
+     "code": "conditions",
+     "name": "условия реализации",
+     "type": "string",
+     "comment": "Условия, при которых дозволение реализуется."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DEON",
+     "name": "Деонтика: обязывание, запрет, дозволение"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Sanction",
+   "name": "Санкция",
+   "comment": "Предусмотренное нормой неблагоприятное последствие нарушения деонтической модальности. BFO: информационная сущность (содержание нормы).",
+   "attributes": [
+    {
+     "code": "sanctionType",
+     "name": "вид санкции",
+     "type": "string",
+     "comment": "Штраф, лишение свободы, лишение должности и т. д."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DEON",
+     "name": "Деонтика: обязывание, запрет, дозволение"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Offence",
+   "name": "Правонарушение",
+   "comment": "Противоправное деяние, нарушающее деонтическую модальность. BFO: процесс (occurrent). Частный случай юридического факта.",
+   "attributes": [
+    {
+     "code": "offenceType",
+     "name": "вид",
+     "type": "string",
+     "comment": "Преступление, административное, дисциплинарное, конституционное."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DEON",
+     "name": "Деонтика: обязывание, запрет, дозволение"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalLiability",
+   "name": "Юридическая ответственность",
+   "comment": "Обязанность претерпеть санкцию, возникающая за правонарушение. BFO: реализуемая сущность (обязанность-последствие), реализуется в применении санкции.",
+   "attributes": [
+    {
+     "code": "liabilityKind",
+     "name": "вид ответственности",
+     "type": "string",
+     "comment": "Уголовная, административная, конституционно-правовая."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DEON",
+     "name": "Деонтика: обязывание, запрет, дозволение"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "AlethicModality",
+   "name": "Алетическая модальность",
+   "comment": "Режим юридической реализуемости: что в данном правопорядке возможно, необходимо или невозможно как юридический результат. BFO: информационная сущность об юридических фактах и их последствиях.",
+   "attributes": [
+    {
+     "code": "modalBasis",
+     "name": "основание",
+     "type": "string",
+     "comment": "Норма или факт, из которых модальность следует."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ALET",
+     "name": "Алетика: возможность и необходимость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalPossibility",
+   "name": "Юридическая возможность",
+   "comment": "Алетическая модальность «возможно»: правопорядок допускает наступление юридического результата. Вид алетической модальности.",
+   "attributes": [
+    {
+     "code": "possibilityCondition",
+     "name": "условие",
+     "type": "string",
+     "comment": "Условие наступления результата."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ALET",
+     "name": "Алетика: возможность и необходимость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalNecessity",
+   "name": "Юридическая необходимость",
+   "comment": "Алетическая модальность «необходимо»: юридический результат неизбежно наступает при данных условиях (например, утрата силы). Вид алетической модальности.",
+   "attributes": [
+    {
+     "code": "trigger",
+     "name": "условие наступления",
+     "type": "string",
+     "comment": "Юридический факт, влекущий результат."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ALET",
+     "name": "Алетика: возможность и необходимость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalImpossibility",
+   "name": "Юридическая невозможность",
+   "comment": "Алетическая модальность «невозможно»: юридический результат не может наступить (ничтожность, недействительность). Вид алетической модальности.",
+   "attributes": [
+    {
+     "code": "impossibilityReason",
+     "name": "причина",
+     "type": "string",
+     "comment": "Нарушение условия, коллизия, отсутствие обнародования."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ALET",
+     "name": "Алетика: возможность и необходимость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalValidity",
+   "name": "Действительность нормы",
+   "comment": "Состояние нормы относительно правопорядка: действует, не действует, признана недействительной. BFO: качество информационной сущности (зависит от нормы).",
+   "attributes": [
+    {
+     "code": "validityStatus",
+     "name": "статус",
+     "type": "string",
+     "comment": "Действует, утратила силу, приостановлена, не вступила в силу."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ALET",
+     "name": "Алетика: возможность и необходимость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "EpistemicState",
+   "name": "Эпистемическое состояние субъекта",
+   "comment": "Знание, убеждение или неведение субъекта о факте или норме. BFO: качество (психическое состояние) физического лица, зависит от носителя.",
+   "attributes": [
+    {
+     "code": "stateKind",
+     "name": "вид состояния",
+     "type": "string",
+     "comment": "Знание, убеждение, неведение, заблуждение."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "EPIS",
+     "name": "Эпистемика: знание и доказывание"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Fault",
+   "name": "Вина",
+   "comment": "Психическое отношение лица к деянию и последствиям, определяемое его эпистемическим состоянием. BFO: качество физического лица.",
+   "attributes": [
+    {
+     "code": "faultForm",
+     "name": "форма вины",
+     "type": "string",
+     "comment": "Умысел или неосторожность."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "EPIS",
+     "name": "Эпистемика: знание и доказывание"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Evidence",
+   "name": "Доказательство",
+   "comment": "Сведения, на основе которых устанавливаются обстоятельства дела. BFO: информационная сущность, конкретизируется в носителе.",
+   "attributes": [
+    {
+     "code": "evidenceKind",
+     "name": "вид",
+     "type": "string",
+     "comment": "Показания, документ, заключение эксперта, вещественное."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "EPIS",
+     "name": "Эпистемика: знание и доказывание"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Presumption",
+   "name": "Презумпция",
+   "comment": "Закреплённое нормой предположение о факте, действующее, пока не опровергнуто. BFO: информационная сущность (содержание нормы).",
+   "attributes": [
+    {
+     "code": "rebuttable",
+     "name": "опровержима",
+     "type": "boolean",
+     "comment": "Допускает ли опровержение."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "EPIS",
+     "name": "Эпистемика: знание и доказывание"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ProofStandard",
+   "name": "Стандарт доказывания",
+   "comment": "Требуемая степень достоверности установленного факта. BFO: информационная сущность (критерий, содержание нормы).",
+   "attributes": [
+    {
+     "code": "level",
+     "name": "уровень достоверности",
+     "type": "string",
+     "comment": "Например: вне разумных сомнений, баланс вероятностей."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "EPIS",
+     "name": "Эпистемика: знание и доказывание"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "EstablishedFact",
+   "name": "Установленный факт",
+   "comment": "Обстоятельство, признанное установленным компетентным органом. BFO: информационная сущность о юридическом факте; не сам факт.",
+   "attributes": [
+    {
+     "code": "establishedDate",
+     "name": "дата установления",
+     "type": "date",
+     "comment": "Дата вступления вывода в силу."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "EPIS",
+     "name": "Эпистемика: знание и доказывание"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalValue",
+   "name": "Правовая ценность",
+   "comment": "Высшее благо, на защиту которого ориентировано право: свобода, равенство, справедливость, безопасность, жизнь. BFO: информационная сущность (оценочное содержание); не материальный объект.",
+   "attributes": [
+    {
+     "code": "rank",
+     "name": "ранг",
+     "type": "string",
+     "comment": "Положение в иерархии ценностей, если установлено."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "AXIO",
+     "name": "Аксиология: ценности и блага"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalPrinciple",
+   "name": "Правовой принцип",
+   "comment": "Основополагающая норма, выражающая ценность и направляющая толкование других норм. BFO: информационная сущность (особый вид нормы).",
+   "attributes": [
+    {
+     "code": "principleSource",
+     "name": "источник",
+     "type": "string",
+     "comment": "Конституция, судебная практика, доктрина."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "AXIO",
+     "name": "Аксиология: ценности и блага"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ProtectedGood",
+   "name": "Охраняемое благо",
+   "comment": "Конкретный интерес или состояние, которое охраняется нормой и воплощает ценность. BFO: качество или состояние общества/лица, зависимая сущность.",
+   "attributes": [
+    {
+     "code": "goodHolder",
+     "name": "носитель блага",
+     "type": "string",
+     "comment": "Лицо, общество или государство."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "AXIO",
+     "name": "Аксиология: ценности и блага"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "RightRestriction",
+   "name": "Ограничение права",
+   "comment": "Установленное нормой сужение объёма субъективного права ради охраняемого блага; подлежит проверке на соразмерность. BFO: информационная сущность (содержание нормы).",
+   "attributes": [
+    {
+     "code": "proportionalityChecked",
+     "name": "соразмерность проверена",
+     "type": "boolean",
+     "comment": "Проводилась ли оценка соразмерности."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "AXIO",
+     "name": "Аксиология: ценности и блага"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TimeInterval",
+   "name": "Временной интервал",
+   "comment": "Отрезок времени с началом и концом (в том числе открытым). BFO: временная область (temporal region).",
+   "attributes": [
+    {
+     "code": "startDate",
+     "name": "начало",
+     "type": "date",
+     "comment": "Дата начала интервала."
+    },
+    {
+     "code": "endDate",
+     "name": "окончание",
+     "type": "date",
+     "comment": "Дата окончания интервала; пусто, если интервал открыт."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "TEMP",
+     "name": "Темпоральность: время и срок действия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalDeadline",
+   "name": "Юридический срок",
+   "comment": "Установленный нормой период или момент, с которым связано возникновение, изменение или прекращение права или ответственности (в том числе давность). BFO: информационная сущность, определяющая временную область.",
+   "attributes": [
+    {
+     "code": "deadlineKind",
+     "name": "вид срока",
+     "type": "string",
+     "comment": "Срок давности, процессуальный, материальный."
+    },
+    {
+     "code": "duration",
+     "name": "продолжительность",
+     "type": "string",
+     "comment": "Продолжительность срока."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "TEMP",
+     "name": "Темпоральность: время и срок действия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Promulgation",
+   "name": "Обнародование",
+   "comment": "Официальное опубликование акта, делающее его содержание общедоступным. BFO: процесс (граница процесса); частный случай юридического факта.",
+   "attributes": [
+    {
+     "code": "publicationSource",
+     "name": "источник опубликования",
+     "type": "string",
+     "comment": "Официальное издание или портал."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "TEMP",
+     "name": "Темпоральность: время и срок действия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "EntryIntoForce",
+   "name": "Вступление в силу",
+   "comment": "Событие, с которого редакция акта начинает действовать. BFO: граница процесса (instantaneous boundary); частный случай юридического факта.",
+   "attributes": [
+    {
+     "code": "rule",
+     "name": "правило вступления",
+     "type": "string",
+     "comment": "Со дня опубликования, с указанной даты, по истечении срока."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "TEMP",
+     "name": "Темпоральность: время и срок действия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LossOfForce",
+   "name": "Утрата силы",
+   "comment": "Событие, с которого редакция акта перестаёт действовать (отмена, истечение срока, признание неконституционным). BFO: граница процесса; частный случай юридического факта.",
+   "attributes": [
+    {
+     "code": "lossReason",
+     "name": "основание",
+     "type": "string",
+     "comment": "Отмена, замена, истечение срока, решение суда."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "TEMP",
+     "name": "Темпоральность: время и срок действия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalFact",
+   "name": "Юридический факт",
+   "comment": "Действие, событие или состояние, с которым норма связывает возникновение, изменение или прекращение правоотношений. BFO: процесс либо состояние; не информация о нём.",
+   "attributes": [
+    {
+     "code": "factKind",
+     "name": "вид факта",
+     "type": "string",
+     "comment": "Действие, событие, состояние."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROC",
+     "name": "Юридические факты и процедуры"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalProcedure",
+   "name": "Правовая процедура",
+   "comment": "Упорядоченная последовательность юридически значимых действий органов и участников (законодательная, судебная, избирательная). BFO: процесс; реализует полномочие.",
+   "attributes": [
+    {
+     "code": "procedureKind",
+     "name": "вид процедуры",
+     "type": "string",
+     "comment": "Законодательная, судебная, референдум, конституционный контроль."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROC",
+     "name": "Юридические факты и процедуры"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalDecision",
+   "name": "Правоприменительное решение",
+   "comment": "Акт применения права к конкретному случаю (приговор, постановление суда). BFO: информационная сущность; результат процедуры, а не сама процедура.",
+   "attributes": [
+    {
+     "code": "decisionDate",
+     "name": "дата решения",
+     "type": "date",
+     "comment": "Дата принятия решения."
+    },
+    {
+     "code": "inForce",
+     "name": "вступило в силу",
+     "type": "boolean",
+     "comment": "Вступило ли решение в законную силу."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROC",
+     "name": "Юридические факты и процедуры"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "provisionOfAct",
+   "name": "входит в акт",
+   "comment": "Структурная единица является частью нормативного правового акта.",
+   "fromClass": "ActProvision",
+   "toClass": "NormativeAct"
+  },
+  {
+   "code": "provisionExpressesNorm",
+   "name": "выражает норму",
+   "comment": "Положение акта выражает правовую норму.",
+   "fromClass": "ActProvision",
+   "toClass": "LegalNorm"
+  },
+  {
+   "code": "editionOfAct",
+   "name": "редакция акта",
+   "comment": "Редакция является версией нормативного правового акта.",
+   "fromClass": "ActEdition",
+   "toClass": "NormativeAct"
+  },
+  {
+   "code": "actIssuedBy",
+   "name": "принят органом",
+   "comment": "Акт принят государственным органом.",
+   "fromClass": "NormativeAct",
+   "toClass": "StateBody"
+  },
+  {
+   "code": "actLowerThan",
+   "name": "имеет низшую силу, чем",
+   "comment": "Акт подчинён акту более высокой юридической силы.",
+   "fromClass": "NormativeAct",
+   "toClass": "NormativeAct"
+  },
+  {
+   "code": "actInJurisdiction",
+   "name": "действует в юрисдикции",
+   "comment": "Акт действует на территории и в отношении лиц данной юрисдикции.",
+   "fromClass": "NormativeAct",
+   "toClass": "Jurisdiction"
+  },
+  {
+   "code": "normConflicts",
+   "name": "коллидирует с",
+   "comment": "Нормы противоречат друг другу по регулированию одного вопроса.",
+   "fromClass": "LegalNorm",
+   "toClass": "LegalNorm"
+  },
+  {
+   "code": "normPrevails",
+   "name": "имеет приоритет над",
+   "comment": "Норма имеет преимущество при коллизии (по силе, специальности или времени).",
+   "fromClass": "LegalNorm",
+   "toClass": "LegalNorm"
+  },
+  {
+   "code": "bodyHasCompetence",
+   "name": "наделён полномочием",
+   "comment": "Орган обладает полномочием.",
+   "fromClass": "StateBody",
+   "toClass": "Competence"
+  },
+  {
+   "code": "competenceFromNorm",
+   "name": "полномочие установлено нормой",
+   "comment": "Полномочие основано на норме.",
+   "fromClass": "Competence",
+   "toClass": "LegalNorm"
+  },
+  {
+   "code": "bodyInJurisdiction",
+   "name": "осуществляет власть в юрисдикции",
+   "comment": "Орган действует в пределах юрисдикции.",
+   "fromClass": "StateBody",
+   "toClass": "Jurisdiction"
+  },
+  {
+   "code": "officeInBody",
+   "name": "учреждена в органе",
+   "comment": "Должность входит в структуру государственного органа.",
+   "fromClass": "PublicOffice",
+   "toClass": "StateBody"
+  },
+  {
+   "code": "personHoldsOffice",
+   "name": "замещает должность",
+   "comment": "Физическое лицо исполняет роль должности.",
+   "fromClass": "NaturalPerson",
+   "toClass": "PublicOffice"
+  },
+  {
+   "code": "subjectHasRight",
+   "name": "обладает правом",
+   "comment": "Субъекту принадлежит субъективное право.",
+   "fromClass": "LegalSubject",
+   "toClass": "SubjectiveRight"
+  },
+  {
+   "code": "subjectHasDuty",
+   "name": "несёт обязанность",
+   "comment": "На субъекта возложена обязанность.",
+   "fromClass": "LegalSubject",
+   "toClass": "LegalDuty"
+  },
+  {
+   "code": "rightFromNorm",
+   "name": "право закреплено нормой",
+   "comment": "Право установлено нормой.",
+   "fromClass": "SubjectiveRight",
+   "toClass": "LegalNorm"
+  },
+  {
+   "code": "dutyFromNorm",
+   "name": "обязанность закреплена нормой",
+   "comment": "Обязанность установлена нормой.",
+   "fromClass": "LegalDuty",
+   "toClass": "LegalNorm"
+  },
+  {
+   "code": "rightCorrelatesDuty",
+   "name": "корреспондирует обязанности",
+   "comment": "Праву соответствует обязанность другого субъекта (по Хоэфельду).",
+   "fromClass": "SubjectiveRight",
+   "toClass": "LegalDuty"
+  },
+  {
+   "code": "subjectInRelation",
+   "name": "участвует в правоотношении",
+   "comment": "Субъект является стороной правоотношения.",
+   "fromClass": "LegalSubject",
+   "toClass": "LegalRelation"
+  },
+  {
+   "code": "relationContainsRight",
+   "name": "содержит право",
+   "comment": "Правоотношение включает субъективное право.",
+   "fromClass": "LegalRelation",
+   "toClass": "SubjectiveRight"
+  },
+  {
+   "code": "relationContainsDuty",
+   "name": "содержит обязанность",
+   "comment": "Правоотношение включает юридическую обязанность.",
+   "fromClass": "LegalRelation",
+   "toClass": "LegalDuty"
+  },
+  {
+   "code": "obligationIsModality",
+   "name": "является видом",
+   "comment": "Обязывание — вид деонтической модальности.",
+   "fromClass": "Obligation",
+   "toClass": "DeonticModality"
+  },
+  {
+   "code": "prohibitionIsModality",
+   "name": "является видом",
+   "comment": "Запрет — вид деонтической модальности.",
+   "fromClass": "Prohibition",
+   "toClass": "DeonticModality"
+  },
+  {
+   "code": "permissionIsModality",
+   "name": "является видом",
+   "comment": "Дозволение — вид деонтической модальности.",
+   "fromClass": "Permission",
+   "toClass": "DeonticModality"
+  },
+  {
+   "code": "normSetsObligation",
+   "name": "устанавливает обязывание",
+   "comment": "Норма предписывает совершить действие.",
+   "fromClass": "LegalNorm",
+   "toClass": "Obligation"
+  },
+  {
+   "code": "normSetsProhibition",
+   "name": "устанавливает запрет",
+   "comment": "Норма запрещает действие.",
+   "fromClass": "LegalNorm",
+   "toClass": "Prohibition"
+  },
+  {
+   "code": "normSetsPermission",
+   "name": "устанавливает дозволение",
+   "comment": "Норма разрешает действие.",
+   "fromClass": "LegalNorm",
+   "toClass": "Permission"
+  },
+  {
+   "code": "modalityAddressee",
+   "name": "адресовано субъекту",
+   "comment": "Деонтическая модальность обращена к субъекту.",
+   "fromClass": "DeonticModality",
+   "toClass": "LegalSubject"
+  },
+  {
+   "code": "modalityRegulates",
+   "name": "регулирует поведение",
+   "comment": "Деонтическая модальность относится к определённому действию или факту.",
+   "fromClass": "DeonticModality",
+   "toClass": "LegalFact"
+  },
+  {
+   "code": "normHasSanction",
+   "name": "предусматривает санкцию",
+   "comment": "Норма определяет санкцию за нарушение.",
+   "fromClass": "LegalNorm",
+   "toClass": "Sanction"
+  },
+  {
+   "code": "sanctionBacksModality",
+   "name": "обеспечивает исполнение",
+   "comment": "Санкция обеспечивает соблюдение деонтической модальности.",
+   "fromClass": "Sanction",
+   "toClass": "DeonticModality"
+  },
+  {
+   "code": "offenceViolates",
+   "name": "нарушает",
+   "comment": "Правонарушение нарушает деонтическую модальность.",
+   "fromClass": "Offence",
+   "toClass": "DeonticModality"
+  },
+  {
+   "code": "offenceByPerson",
+   "name": "совершено субъектом",
+   "comment": "Деяние совершено субъектом права.",
+   "fromClass": "Offence",
+   "toClass": "LegalSubject"
+  },
+  {
+   "code": "offenceHasFault",
+   "name": "совершено с виной",
+   "comment": "Деяние совершено с установленной формой вины.",
+   "fromClass": "Offence",
+   "toClass": "Fault"
+  },
+  {
+   "code": "liabilityForOffence",
+   "name": "наступает за правонарушение",
+   "comment": "Ответственность возникает вследствие правонарушения.",
+   "fromClass": "LegalLiability",
+   "toClass": "Offence"
+  },
+  {
+   "code": "liabilityViaSanction",
+   "name": "реализуется через санкцию",
+   "comment": "Ответственность осуществляется применением санкции.",
+   "fromClass": "LegalLiability",
+   "toClass": "Sanction"
+  },
+  {
+   "code": "decisionImposesLiability",
+   "name": "возлагает ответственность",
+   "comment": "Решение возлагает юридическую ответственность.",
+   "fromClass": "LegalDecision",
+   "toClass": "LegalLiability"
+  },
+  {
+   "code": "decisionByBody",
+   "name": "принято органом",
+   "comment": "Решение принял орган.",
+   "fromClass": "LegalDecision",
+   "toClass": "StateBody"
+  },
+  {
+   "code": "procedureResultsInDecision",
+   "name": "завершается решением",
+   "comment": "Результат процедуры — решение.",
+   "fromClass": "LegalProcedure",
+   "toClass": "LegalDecision"
+  },
+  {
+   "code": "procedureResultsInAct",
+   "name": "завершается принятием акта",
+   "comment": "Результат процедуры — нормативный акт.",
+   "fromClass": "LegalProcedure",
+   "toClass": "NormativeAct"
+  },
+  {
+   "code": "procedureByBody",
+   "name": "проводится органом",
+   "comment": "Процедуру проводит орган.",
+   "fromClass": "LegalProcedure",
+   "toClass": "StateBody"
+  },
+  {
+   "code": "procedureRealizesCompetence",
+   "name": "реализует полномочие",
+   "comment": "Процедура является реализацией полномочия органа.",
+   "fromClass": "LegalProcedure",
+   "toClass": "Competence"
+  },
+  {
+   "code": "factGeneratesRelation",
+   "name": "порождает правоотношение",
+   "comment": "Юридический факт является основанием возникновения правоотношения.",
+   "fromClass": "LegalFact",
+   "toClass": "LegalRelation"
+  },
+  {
+   "code": "factTriggersNorm",
+   "name": "является условием применения нормы",
+   "comment": "Факт входит в гипотезу нормы.",
+   "fromClass": "LegalFact",
+   "toClass": "LegalNorm"
+  },
+  {
+   "code": "offenceIsFact",
+   "name": "является видом юридического факта",
+   "comment": "Правонарушение — вид юридического факта.",
+   "fromClass": "Offence",
+   "toClass": "LegalFact"
+  },
+  {
+   "code": "promulgationIsFact",
+   "name": "является видом юридического факта",
+   "comment": "Обнародование — вид юридического факта.",
+   "fromClass": "Promulgation",
+   "toClass": "LegalFact"
+  },
+  {
+   "code": "entryIsFact",
+   "name": "является видом юридического факта",
+   "comment": "Вступление в силу — вид юридического факта.",
+   "fromClass": "EntryIntoForce",
+   "toClass": "LegalFact"
+  },
+  {
+   "code": "lossIsFact",
+   "name": "является видом юридического факта",
+   "comment": "Утрата силы — вид юридического факта.",
+   "fromClass": "LossOfForce",
+   "toClass": "LegalFact"
+  },
+  {
+   "code": "possibilityIsModality",
+   "name": "является видом алетической модальности",
+   "comment": "Юридическая возможность — вид алетической модальности.",
+   "fromClass": "LegalPossibility",
+   "toClass": "AlethicModality"
+  },
+  {
+   "code": "necessityIsModality",
+   "name": "является видом алетической модальности",
+   "comment": "Юридическая необходимость — вид алетической модальности.",
+   "fromClass": "LegalNecessity",
+   "toClass": "AlethicModality"
+  },
+  {
+   "code": "impossibilityIsModality",
+   "name": "является видом алетической модальности",
+   "comment": "Юридическая невозможность — вид алетической модальности.",
+   "fromClass": "LegalImpossibility",
+   "toClass": "AlethicModality"
+  },
+  {
+   "code": "normMakesPossible",
+   "name": "делает возможным",
+   "comment": "Норма допускает юридический результат.",
+   "fromClass": "LegalNorm",
+   "toClass": "LegalPossibility"
+  },
+  {
+   "code": "normMakesNecessary",
+   "name": "делает необходимым",
+   "comment": "Норма определяет неизбежное юридическое последствие.",
+   "fromClass": "LegalNorm",
+   "toClass": "LegalNecessity"
+  },
+  {
+   "code": "normMakesImpossible",
+   "name": "делает невозможным",
+   "comment": "Норма исключает юридический результат.",
+   "fromClass": "LegalNorm",
+   "toClass": "LegalImpossibility"
+  },
+  {
+   "code": "alethicConcernsFact",
+   "name": "касается юридического факта",
+   "comment": "Алетическая модальность относится к факту или его результату.",
+   "fromClass": "AlethicModality",
+   "toClass": "LegalFact"
+  },
+  {
+   "code": "normHasValidity",
+   "name": "имеет действительность",
+   "comment": "Норма находится в определённом статусе действительности.",
+   "fromClass": "LegalNorm",
+   "toClass": "LegalValidity"
+  },
+  {
+   "code": "validityGroundedInNorm",
+   "name": "обусловлена нормой более высокой силы",
+   "comment": "Статус действительности определяется вышестоящей нормой или решением.",
+   "fromClass": "LegalValidity",
+   "toClass": "LegalNorm"
+  },
+  {
+   "code": "subjectEpistemicState",
+   "name": "находится в состоянии",
+   "comment": "Субъект пребывает в эпистемическом состоянии.",
+   "fromClass": "LegalSubject",
+   "toClass": "EpistemicState"
+  },
+  {
+   "code": "epistemicAboutFact",
+   "name": "относится к факту",
+   "comment": "Знание или убеждение о юридическом факте.",
+   "fromClass": "EpistemicState",
+   "toClass": "LegalFact"
+  },
+  {
+   "code": "epistemicAboutNorm",
+   "name": "относится к норме",
+   "comment": "Знание или незнание нормы.",
+   "fromClass": "EpistemicState",
+   "toClass": "LegalNorm"
+  },
+  {
+   "code": "faultFromEpistemic",
+   "name": "определяется состоянием",
+   "comment": "Форма вины определяется знанием и предвидением лица.",
+   "fromClass": "Fault",
+   "toClass": "EpistemicState"
+  },
+  {
+   "code": "promulgationInforms",
+   "name": "доводит до сведения",
+   "comment": "Обнародование делает акт известным субъектам.",
+   "fromClass": "Promulgation",
+   "toClass": "LegalSubject"
+  },
+  {
+   "code": "promulgationOfAct",
+   "name": "обнародование акта",
+   "comment": "Обнародование относится к конкретному акту.",
+   "fromClass": "Promulgation",
+   "toClass": "NormativeAct"
+  },
+  {
+   "code": "evidenceSupportsFact",
+   "name": "подтверждает",
+   "comment": "Доказательство подтверждает установленный факт.",
+   "fromClass": "Evidence",
+   "toClass": "EstablishedFact"
+  },
+  {
+   "code": "establishedFactAbout",
+   "name": "устанавливает факт",
+   "comment": "Вывод относится к юридическому факту.",
+   "fromClass": "EstablishedFact",
+   "toClass": "LegalFact"
+  },
+  {
+   "code": "establishedMeetsStandard",
+   "name": "достигает стандарта",
+   "comment": "Установленный факт удовлетворяет стандарту доказывания.",
+   "fromClass": "EstablishedFact",
+   "toClass": "ProofStandard"
+  },
+  {
+   "code": "standardInProcedure",
+   "name": "применяется в процедуре",
+   "comment": "Стандарт действует в процедуре.",
+   "fromClass": "ProofStandard",
+   "toClass": "LegalProcedure"
+  },
+  {
+   "code": "decisionBasedOnFact",
+   "name": "основано на установленном факте",
+   "comment": "Решение опирается на установленный факт.",
+   "fromClass": "LegalDecision",
+   "toClass": "EstablishedFact"
+  },
+  {
+   "code": "presumptionAssumes",
+   "name": "предполагает",
+   "comment": "Презумпция предполагает факт до опровержения.",
+   "fromClass": "Presumption",
+   "toClass": "LegalFact"
+  },
+  {
+   "code": "presumptionFromNorm",
+   "name": "презумпция закреплена нормой",
+   "comment": "Презумпция установлена нормой.",
+   "fromClass": "Presumption",
+   "toClass": "LegalNorm"
+  },
+  {
+   "code": "normProtectsGood",
+   "name": "защищает благо",
+   "comment": "Норма охраняет благо.",
+   "fromClass": "LegalNorm",
+   "toClass": "ProtectedGood"
+  },
+  {
+   "code": "goodEmbodiesValue",
+   "name": "воплощает ценность",
+   "comment": "Благо является конкретизацией ценности.",
+   "fromClass": "ProtectedGood",
+   "toClass": "LegalValue"
+  },
+  {
+   "code": "rightGuaranteesGood",
+   "name": "гарантирует благо",
+   "comment": "Субъективное право обеспечивает благо.",
+   "fromClass": "SubjectiveRight",
+   "toClass": "ProtectedGood"
+  },
+  {
+   "code": "principleExpressesValue",
+   "name": "выражает ценность",
+   "comment": "Принцип выражает ценность.",
+   "fromClass": "LegalPrinciple",
+   "toClass": "LegalValue"
+  },
+  {
+   "code": "normBasedOnPrinciple",
+   "name": "основана на принципе",
+   "comment": "Норма следует из принципа.",
+   "fromClass": "LegalNorm",
+   "toClass": "LegalPrinciple"
+  },
+  {
+   "code": "principleGroundsDecision",
+   "name": "обосновывает решение",
+   "comment": "Принцип использован как основание решения.",
+   "fromClass": "LegalPrinciple",
+   "toClass": "LegalDecision"
+  },
+  {
+   "code": "valueOutweighs",
+   "name": "преобладает над",
+   "comment": "Ценность имеет приоритет при коллизии в данном контексте.",
+   "fromClass": "LegalValue",
+   "toClass": "LegalValue"
+  },
+  {
+   "code": "restrictionLimitsRight",
+   "name": "ограничивает право",
+   "comment": "Ограничение сужает объём права.",
+   "fromClass": "RightRestriction",
+   "toClass": "SubjectiveRight"
+  },
+  {
+   "code": "restrictionPursuesGood",
+   "name": "преследует защиту блага",
+   "comment": "Цель ограничения — охрана блага.",
+   "fromClass": "RightRestriction",
+   "toClass": "ProtectedGood"
+  },
+  {
+   "code": "restrictionFromNorm",
+   "name": "ограничение установлено нормой",
+   "comment": "Ограничение допускается нормой.",
+   "fromClass": "RightRestriction",
+   "toClass": "LegalNorm"
+  },
+  {
+   "code": "editionInForceDuring",
+   "name": "действует в период",
+   "comment": "Редакция действует в интервале времени.",
+   "fromClass": "ActEdition",
+   "toClass": "TimeInterval"
+  },
+  {
+   "code": "editionCoversFacts",
+   "name": "распространяется на факты периода",
+   "comment": "Редакция применяется к фактам, относящимся к интервалу (вопрос обратной силы).",
+   "fromClass": "ActEdition",
+   "toClass": "TimeInterval"
+  },
+  {
+   "code": "editionSupersedes",
+   "name": "заменяет редакцию",
+   "comment": "Новая редакция заменяет предыдущую.",
+   "fromClass": "ActEdition",
+   "toClass": "ActEdition"
+  },
+  {
+   "code": "entryOfEdition",
+   "name": "вступление в силу редакции",
+   "comment": "Событие, с которого редакция начинает действовать.",
+   "fromClass": "EntryIntoForce",
+   "toClass": "ActEdition"
+  },
+  {
+   "code": "lossOfEdition",
+   "name": "утрата силы редакции",
+   "comment": "Событие, с которого редакция перестаёт действовать.",
+   "fromClass": "LossOfForce",
+   "toClass": "ActEdition"
+  },
+  {
+   "code": "factInInterval",
+   "name": "происходит в период",
+   "comment": "Юридический факт происходит в интервале времени.",
+   "fromClass": "LegalFact",
+   "toClass": "TimeInterval"
+  },
+  {
+   "code": "intervalBefore",
+   "name": "предшествует",
+   "comment": "Один интервал целиком предшествует другому.",
+   "fromClass": "TimeInterval",
+   "toClass": "TimeInterval"
+  },
+  {
+   "code": "deadlineFromNorm",
+   "name": "срок установлен нормой",
+   "comment": "Срок определён нормой.",
+   "fromClass": "LegalDeadline",
+   "toClass": "LegalNorm"
+  },
+  {
+   "code": "deadlineLimitsLiability",
+   "name": "ограничивает привлечение",
+   "comment": "Срок давности ограничивает время привлечения к ответственности.",
+   "fromClass": "LegalDeadline",
+   "toClass": "LegalLiability"
+  },
+  {
+   "code": "deadlineLimitsRight",
+   "name": "ограничивает осуществление",
+   "comment": "Срок ограничивает время осуществления права.",
+   "fromClass": "LegalDeadline",
+   "toClass": "SubjectiveRight"
+  },
+  {
+   "code": "ObligationAddressee",
+   "name": "адресовано субъекту",
+   "comment": "Деонтическая модальность обращена к субъекту.",
+   "fromClass": "Obligation",
+   "toClass": "LegalSubject"
+  },
+  {
+   "code": "ObligationRegulates",
+   "name": "регулирует поведение",
+   "comment": "Деонтическая модальность относится к определённому действию или факту.",
+   "fromClass": "Obligation",
+   "toClass": "LegalFact"
+  },
+  {
+   "code": "sanctionBacksObligation",
+   "name": "обеспечивает исполнение",
+   "comment": "Санкция обеспечивает соблюдение модальности.",
+   "fromClass": "Sanction",
+   "toClass": "Obligation"
+  },
+  {
+   "code": "offenceViolatesObligation",
+   "name": "нарушает",
+   "comment": "Правонарушение нарушает деонтическую модальность.",
+   "fromClass": "Offence",
+   "toClass": "Obligation"
+  },
+  {
+   "code": "ProhibitionAddressee",
+   "name": "адресовано субъекту",
+   "comment": "Деонтическая модальность обращена к субъекту.",
+   "fromClass": "Prohibition",
+   "toClass": "LegalSubject"
+  },
+  {
+   "code": "ProhibitionRegulates",
+   "name": "регулирует поведение",
+   "comment": "Деонтическая модальность относится к определённому действию или факту.",
+   "fromClass": "Prohibition",
+   "toClass": "LegalFact"
+  },
+  {
+   "code": "sanctionBacksProhibition",
+   "name": "обеспечивает исполнение",
+   "comment": "Санкция обеспечивает соблюдение модальности.",
+   "fromClass": "Sanction",
+   "toClass": "Prohibition"
+  },
+  {
+   "code": "offenceViolatesProhibition",
+   "name": "нарушает",
+   "comment": "Правонарушение нарушает деонтическую модальность.",
+   "fromClass": "Offence",
+   "toClass": "Prohibition"
+  },
+  {
+   "code": "PermissionAddressee",
+   "name": "адресовано субъекту",
+   "comment": "Деонтическая модальность обращена к субъекту.",
+   "fromClass": "Permission",
+   "toClass": "LegalSubject"
+  },
+  {
+   "code": "PermissionRegulates",
+   "name": "регулирует поведение",
+   "comment": "Деонтическая модальность относится к определённому действию или факту.",
+   "fromClass": "Permission",
+   "toClass": "LegalFact"
+  },
+  {
+   "code": "sanctionBacksPermission",
+   "name": "обеспечивает исполнение",
+   "comment": "Санкция обеспечивает соблюдение модальности.",
+   "fromClass": "Sanction",
+   "toClass": "Permission"
+  },
+  {
+   "code": "offenceViolatesPermission",
+   "name": "нарушает",
+   "comment": "Правонарушение нарушает деонтическую модальность.",
+   "fromClass": "Offence",
+   "toClass": "Permission"
+  },
+  {
+   "code": "LegalPossibilityConcernsFact",
+   "name": "касается юридического факта",
+   "comment": "Алетическая модальность относится к факту или его результату.",
+   "fromClass": "LegalPossibility",
+   "toClass": "LegalFact"
+  },
+  {
+   "code": "LegalNecessityConcernsFact",
+   "name": "касается юридического факта",
+   "comment": "Алетическая модальность относится к факту или его результату.",
+   "fromClass": "LegalNecessity",
+   "toClass": "LegalFact"
+  },
+  {
+   "code": "LegalImpossibilityConcernsFact",
+   "name": "касается юридического факта",
+   "comment": "Алетическая модальность относится к факту или его результату.",
+   "fromClass": "LegalImpossibility",
+   "toClass": "LegalFact"
+  },
+  {
+   "code": "LegalNecessityConcernsLoss",
+   "name": "касается юридического факта",
+   "comment": "Необходимость относится к событию утраты силы.",
+   "fromClass": "LegalNecessity",
+   "toClass": "LossOfForce"
+  },
+  {
+   "code": "epistemicAboutOffence",
+   "name": "относится к факту",
+   "comment": "Знание или убеждение о правонарушении.",
+   "fromClass": "EpistemicState",
+   "toClass": "Offence"
+  },
+  {
+   "code": "establishedFactAboutOffence",
+   "name": "устанавливает факт",
+   "comment": "Вывод относится к правонарушению.",
+   "fromClass": "EstablishedFact",
+   "toClass": "Offence"
+  },
+  {
+   "code": "offenceTriggersNorm",
+   "name": "является условием применения нормы",
+   "comment": "Правонарушение входит в гипотезу нормы.",
+   "fromClass": "Offence",
+   "toClass": "LegalNorm"
+  },
+  {
+   "code": "promulgationInInterval",
+   "name": "происходит в период",
+   "comment": "Обнародование происходит в интервале времени.",
+   "fromClass": "Promulgation",
+   "toClass": "TimeInterval"
+  },
+  {
+   "code": "entryInInterval",
+   "name": "происходит в период",
+   "comment": "Вступление в силу происходит в интервале времени.",
+   "fromClass": "EntryIntoForce",
+   "toClass": "TimeInterval"
+  }
+ ],
+ "info": {
+  "description": "Онтология описывает контур государственного (конституционного) права как систему норм, субъектов и процедур и показывает, как поверх базового слоя работают пять модальностей. Деонтический слой отвечает на вопрос «что должно, запрещено, разрешено и какова санкция». Алетический слой — «что в правопорядке возможно, необходимо или невозможно» (обнародование, ничтожность, утрата силы). Эпистемический слой — «кто что знает, чем доказано и какова вина». Аксиологический слой — «какие ценности и блага защищает норма и допустимо ли ограничение права». Темпоральный слой — «когда норма действует и к каким фактам применима». Базовые классы выровнены с BFO 2020 (информационные сущности, роли, реализуемые сущности, процессы, временные области); формальная проверка рассуждателем и сверка статей с официальным текстом Конституции ещё не проведены.",
+  "scope": [
+   "Источники права: нормативные акты, их структурные единицы, редакции, юридическая сила, юрисдикция",
+   "Нормы и модальности: деонтические (обязывание, запрет, дозволение, санкция) и алетические (возможность, необходимость, невозможность, действительность)",
+   "Субъекты: физические лица, государственные органы, должности, полномочия, права, обязанности, правоотношения",
+   "Эпистемика: знание субъектов, вина, доказательства, презумпции, стандарты доказывания, установленные факты",
+   "Аксиология: ценности, принципы, охраняемые блага, ограничения прав и соразмерность",
+   "Темпоральность: вступление в силу, утрата силы, периоды действия, сроки и давность, обратная сила",
+   "Вне области: отраслевое право (гражданское, налоговое и др.) за пределами примеров, международное право, судебная практика как источник решений по отдельным делам"
+  ],
+  "competencyQuestions": [
+   "[Нормы] Какие положения акта выражают данную норму и какова юридическая сила акта, в котором они содержатся?",
+   "[Нормы] Какая из двух коллидирующих норм имеет приоритет и по какому основанию (сила, специальность, время)?",
+   "[Субъекты] Какими полномочиями наделён данный государственный орган и какой нормой они установлены?",
+   "[Субъекты] Какие права и какие корреспондирующие им обязанности входят в данное правоотношение и кто его участники?",
+   "[Деонтика] Что обязан, что вправе и чего не вправе делать субъект согласно данной норме?",
+   "[Деонтика] Какая санкция обеспечивает данный запрет или обязывание и какая ответственность за их нарушение наступает?",
+   "[Деонтика] Какое правонарушение нарушает данную деонтическую модальность и кем оно совершено?",
+   "[Алетика] Какие юридические результаты невозможны в силу нормы (например, обязанность из неопубликованного закона)?",
+   "[Алетика] Что необходимо наступает при признании нормы неконституционной и какая норма это определяет?",
+   "[Алетика] В каком статусе действительности находится норма и какая вышестоящая норма или решение его определяет?",
+   "[Эпистемика] Что знал субъект о факте и норме в момент деяния и как это определяет форму вины?",
+   "[Эпистемика] Какие доказательства подтверждают установленный факт и достигнут ли требуемый стандарт доказывания?",
+   "[Эпистемика] Какая презумпция действует в процедуре и какой факт она предполагает до опровержения?",
+   "[Эпистемика] Когда и где акт был обнародован и какие субъекты тем самым считаются осведомлёнными о норме?",
+   "[Аксиология] Какие ценности воплощает охраняемое благо, которое защищает данная норма?",
+   "[Аксиология] Какой принцип лежит в основе нормы и какие решения им обосновываются?",
+   "[Аксиология] Какое право ограничено, ради какого блага и соразмерно ли ограничение при столкновении ценностей?",
+   "[Темпоральность] Какая редакция акта действовала в заданную дату и когда она вступила в силу или утратила её?",
+   "[Темпоральность] Распространяется ли норма на факты, совершённые до её вступления в силу, и нет ли запрета обратной силы?",
+   "[Темпоральность] Какие сроки (в том числе давность) ограничивают право или привлечение к ответственности?",
+   "[Сквозной] Какие последствия на всех модальных слоях вызывает признание нормы неконституционной?",
+   "[Сквозной] Достаточно ли оснований (норма, знание, доказательства, срок, ценность), чтобы возложить ответственность на лицо?"
+  ]
+ },
+ "theme": [
+  {
+   "code": "NORM",
+   "name": "Нормы и источники права",
+   "color": "#60a5fa"
+  },
+  {
+   "code": "SUBJ",
+   "name": "Субъекты, органы и правоотношения",
+   "color": "#34d399"
+  },
+  {
+   "code": "DEON",
+   "name": "Деонтика: обязывание, запрет, дозволение",
+   "color": "#f87171"
+  },
+  {
+   "code": "ALET",
+   "name": "Алетика: возможность и необходимость",
+   "color": "#a78bfa"
+  },
+  {
+   "code": "EPIS",
+   "name": "Эпистемика: знание и доказывание",
+   "color": "#fbbf24"
+  },
+  {
+   "code": "AXIO",
+   "name": "Аксиология: ценности и блага",
+   "color": "#f472b6"
+  },
+  {
+   "code": "TEMP",
+   "name": "Темпоральность: время и срок действия",
+   "color": "#22d3ee"
+  },
+  {
+   "code": "PROC",
+   "name": "Юридические факты и процедуры",
+   "color": "#fb923c"
+  }
+ ]
+}

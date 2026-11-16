@@ -1,0 +1,214 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "turbina-gt-100",
+   "predicate": "имеет тип",
+   "object": "class-fizicheskiy-obekt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "turbina-gt-100",
+   "predicate": "имеет датчик",
+   "object": "datchik-v-01",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t003",
+   "subject": "turbina-gt-100",
+   "predicate": "имеет датчик",
+   "object": "datchik-t-12",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "datchik-v-01",
+   "predicate": "имеет тип",
+   "object": "class-datchik",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "datchik-t-12",
+   "predicate": "имеет тип",
+   "object": "class-datchik",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "cifrovoy-dvoynik-turbiny",
+   "predicate": "имеет тип",
+   "object": "class-cifrovoy-dvoynik",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "cifrovoy-dvoynik-turbiny",
+   "predicate": "является двойником",
+   "object": "turbina-gt-100",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t008",
+   "subject": "cifrovoy-dvoynik-turbiny",
+   "predicate": "реализует",
+   "object": "3d-model-turbiny",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "3d-model-turbiny",
+   "predicate": "имеет тип",
+   "object": "class-cifrovoe-predstavlenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t010",
+   "subject": "3d-model-turbiny",
+   "predicate": "представляет",
+   "object": "turbina-gt-100",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t011",
+   "subject": "model-cfd-teploobmena",
+   "predicate": "имеет тип",
+   "object": "class-model-simulyacii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t012",
+   "subject": "model-cfd-teploobmena",
+   "predicate": "симулирует",
+   "object": "turbina-gt-100",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t013",
+   "subject": "progon-cfd-002",
+   "predicate": "имеет тип",
+   "object": "class-progon-simulyacii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t014",
+   "subject": "scenariy-avariynogo-ohlazhdeniya",
+   "predicate": "имеет тип",
+   "object": "class-scenariy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "scenariy-avariynogo-ohlazhdeniya",
+   "predicate": "использует модель",
+   "object": "model-cfd-teploobmena",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "sobytie-prevyshenie-vibracii",
+   "predicate": "имеет тип",
+   "object": "class-sobytie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "ivanov-p-s",
+   "predicate": "имеет тип",
+   "object": "class-zainteresovannoe-lico",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t018",
+   "subject": "trebovanie-iso-23247-2",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t019",
+   "subject": "ogranichenie-t-95c",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t020",
+   "subject": "validaciya-2026-11-01",
+   "predicate": "имеет тип",
+   "object": "class-rezultat-validacii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "validaciya-2026-11-01",
+   "predicate": "проверяет",
+   "object": "trebovanie-iso-23247-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  }
+ ]
+}

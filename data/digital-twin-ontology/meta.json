@@ -1,0 +1,21 @@
+{
+ "graph": {
+  "id": "digital-twin-ontology",
+  "name": "Онтология Цифровой Двойник",
+  "description": "Онтология на фундаменте BFO 2020, ISO 23247, ISO/IEC 30173, ГОСТ Р 57700.25-2020 и модальной логики",
+  "domain": "Промышленность",
+  "version": "1.1",
+  "status": "проект",
+  "updatedAt": "2026-11-14",
+  "builtIn": false,
+  "counts": {
+   "classes": 19,
+   "relations": 18,
+   "entities": 25,
+   "triples": 21,
+   "taxonomicRelations": 0,
+   "nonTaxonomicRelations": 18,
+   "relationshipRichness": 1
+  }
+ }
+}

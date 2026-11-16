@@ -1,0 +1,4314 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "sreda-kontur",
+   "predicate": "имеет тип",
+   "object": "class-integrirovannaya-sreda-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "metod-upravlenie-federaciey-modeley",
+   "predicate": "имеет тип",
+   "object": "class-metod-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t003",
+   "subject": "metod-enterprise-architecture",
+   "predicate": "имеет тип",
+   "object": "class-metod-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "metod-bpmn",
+   "predicate": "имеет тип",
+   "object": "class-metod-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "metod-cad",
+   "predicate": "имеет тип",
+   "object": "class-metod-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "metod-cae",
+   "predicate": "имеет тип",
+   "object": "class-metod-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "metod-konechnye-avtomaty",
+   "predicate": "имеет тип",
+   "object": "class-metod-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t008",
+   "subject": "metod-elektricheskie-shemy",
+   "predicate": "имеет тип",
+   "object": "class-metod-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "yazyk-archimate",
+   "predicate": "имеет тип",
+   "object": "class-yazyk-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t010",
+   "subject": "yazyk-bpmn-2-0",
+   "predicate": "имеет тип",
+   "object": "class-yazyk-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t011",
+   "subject": "yazyk-step-ap242",
+   "predicate": "имеет тип",
+   "object": "class-yazyk-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t012",
+   "subject": "yazyk-konechnye-avtomaty-tablica-perehodov",
+   "predicate": "имеет тип",
+   "object": "class-yazyk-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t013",
+   "subject": "yazyk-iec-60617",
+   "predicate": "имеет тип",
+   "object": "class-yazyk-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t014",
+   "subject": "metamodel-archimate-3-2",
+   "predicate": "имеет тип",
+   "object": "class-metamodel",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "metamodel-bpmn-2-0",
+   "predicate": "имеет тип",
+   "object": "class-metamodel",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "metamodel-step-ap242",
+   "predicate": "имеет тип",
+   "object": "class-metamodel",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "metamodel-konechnye-avtomaty",
+   "predicate": "имеет тип",
+   "object": "class-metamodel",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t018",
+   "subject": "metamodel-elektricheskie-shemy",
+   "predicate": "имеет тип",
+   "object": "class-metamodel",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t019",
+   "subject": "tip-biznes-funkciya",
+   "predicate": "имеет тип",
+   "object": "class-tip-elementa-metamodeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t020",
+   "subject": "tip-zadacha",
+   "predicate": "имеет тип",
+   "object": "class-tip-elementa-metamodeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "tip-detal",
+   "predicate": "имеет тип",
+   "object": "class-tip-elementa-metamodeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t022",
+   "subject": "tip-raschetnaya-model",
+   "predicate": "имеет тип",
+   "object": "class-tip-elementa-metamodeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t023",
+   "subject": "tip-sostoyanie",
+   "predicate": "имеет тип",
+   "object": "class-tip-elementa-metamodeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t024",
+   "subject": "tip-perehod",
+   "predicate": "имеет тип",
+   "object": "class-tip-elementa-metamodeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t025",
+   "subject": "tip-komponent-shemy",
+   "predicate": "имеет тип",
+   "object": "class-tip-elementa-metamodeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t026",
+   "subject": "tip-soedinenie",
+   "predicate": "имеет тип",
+   "object": "class-tip-elementa-metamodeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t027",
+   "subject": "tip-trebovanie",
+   "predicate": "имеет тип",
+   "object": "class-tip-elementa-metamodeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t028",
+   "subject": "instrument-kontur-ea",
+   "predicate": "имеет тип",
+   "object": "class-instrument-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t029",
+   "subject": "instrument-kontur-bpmn",
+   "predicate": "имеет тип",
+   "object": "class-instrument-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t030",
+   "subject": "instrument-kontur-cad",
+   "predicate": "имеет тип",
+   "object": "class-instrument-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t031",
+   "subject": "instrument-kontur-cae",
+   "predicate": "имеет тип",
+   "object": "class-instrument-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t032",
+   "subject": "instrument-kontur-fsm",
+   "predicate": "имеет тип",
+   "object": "class-instrument-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t033",
+   "subject": "instrument-kontur-elektro",
+   "predicate": "имеет тип",
+   "object": "class-instrument-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t034",
+   "subject": "interfeys-rest-api",
+   "predicate": "имеет тип",
+   "object": "class-specializirovannyy-interfeys",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t035",
+   "subject": "interfeys-obmen-step-faylami",
+   "predicate": "имеет тип",
+   "object": "class-specializirovannyy-interfeys",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t036",
+   "subject": "interfeys-import-reqif",
+   "predicate": "имеет тип",
+   "object": "class-specializirovannyy-interfeys",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t037",
+   "subject": "interfeys-plagin-raschetnogo-reshatelya",
+   "predicate": "имеет тип",
+   "object": "class-specializirovannyy-interfeys",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t038",
+   "subject": "interfeys-sobytiynaya-shina",
+   "predicate": "имеет тип",
+   "object": "class-specializirovannyy-interfeys",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t039",
+   "subject": "format-xmi",
+   "predicate": "имеет тип",
+   "object": "class-format-obmena-dannymi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t040",
+   "subject": "format-reqif",
+   "predicate": "имеет тип",
+   "object": "class-format-obmena-dannymi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t041",
+   "subject": "format-step-ap242",
+   "predicate": "имеет тип",
+   "object": "class-format-obmena-dannymi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t042",
+   "subject": "format-json",
+   "predicate": "имеет тип",
+   "object": "class-format-obmena-dannymi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t043",
+   "subject": "hranilische-repozitoriy-kontura",
+   "predicate": "имеет тип",
+   "object": "class-hranilische-modeley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t044",
+   "subject": "hranilische-arhiv-bazovyh-konfiguraciy",
+   "predicate": "имеет тип",
+   "object": "class-hranilische-modeley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t045",
+   "subject": "sistema-nasosnaya-stanciya",
+   "predicate": "имеет тип",
+   "object": "class-modeliruemaya-sistema",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t046",
+   "subject": "aktiv-nasosnyy-agregat-na-1",
+   "predicate": "имеет тип",
+   "object": "class-fizicheskiy-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t047",
+   "subject": "aktiv-dvigatel-m1",
+   "predicate": "имеет тип",
+   "object": "class-fizicheskiy-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t048",
+   "subject": "aktiv-shkaf-upravleniya",
+   "predicate": "имеет тип",
+   "object": "class-fizicheskiy-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t049",
+   "subject": "aktiv-val-nasosa",
+   "predicate": "имеет тип",
+   "object": "class-fizicheskiy-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t050",
+   "subject": "aktiv-vyklyuchatel-qf1",
+   "predicate": "имеет тип",
+   "object": "class-fizicheskiy-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t051",
+   "subject": "model-ea-nasosnaya-stanciya",
+   "predicate": "имеет тип",
+   "object": "class-model",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t052",
+   "subject": "model-bpmn-obsluzhivanie-nasosnoy-stancii",
+   "predicate": "имеет тип",
+   "object": "class-model",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t053",
+   "subject": "model-cad-sborka-nasosnogo-agregata",
+   "predicate": "имеет тип",
+   "object": "class-model",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t054",
+   "subject": "model-cae-raschety-nasosnogo-agregata",
+   "predicate": "имеет тип",
+   "object": "class-model",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t055",
+   "subject": "model-fsm-rezhimy-nasosnoy-stancii",
+   "predicate": "имеет тип",
+   "object": "class-model",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t056",
+   "subject": "model-elektricheskaya-shema-shkaf-upravleniya",
+   "predicate": "имеет тип",
+   "object": "class-model",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t057",
+   "subject": "model-trebovaniya-nasosnaya-stanciya",
+   "predicate": "имеет тип",
+   "object": "class-model",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t058",
+   "subject": "model-graf-dostizhimosti-sostoyaniy",
+   "predicate": "имеет тип",
+   "object": "class-model",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t059",
+   "subject": "funkciya-ekspluataciya-nasosnoy-stancii",
+   "predicate": "имеет тип",
+   "object": "class-element-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t060",
+   "subject": "zadacha-osmotret-nasos",
+   "predicate": "имеет тип",
+   "object": "class-element-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t061",
+   "subject": "detal-val",
+   "predicate": "имеет тип",
+   "object": "class-element-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t062",
+   "subject": "raschet-prochnost-vala",
+   "predicate": "имеет тип",
+   "object": "class-element-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t063",
+   "subject": "raschet-vibraciya-nasosnogo-agregata",
+   "predicate": "имеет тип",
+   "object": "class-element-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t064",
+   "subject": "sostoyanie-rabota",
+   "predicate": "имеет тип",
+   "object": "class-element-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t065",
+   "subject": "sostoyanie-avariya",
+   "predicate": "имеет тип",
+   "object": "class-element-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t066",
+   "subject": "sostoyanie-bezopasnaya-ostanovka",
+   "predicate": "имеет тип",
+   "object": "class-element-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t067",
+   "subject": "perehod-rabota-avariya",
+   "predicate": "имеет тип",
+   "object": "class-element-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t068",
+   "subject": "perehod-rabota-bezopasnaya-ostanovka",
+   "predicate": "имеет тип",
+   "object": "class-element-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t069",
+   "subject": "komponent-qf1",
+   "predicate": "имеет тип",
+   "object": "class-element-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t070",
+   "subject": "soedinenie-qf1-m1",
+   "predicate": "имеет тип",
+   "object": "class-element-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t071",
+   "subject": "dvigatel-m1",
+   "predicate": "имеет тип",
+   "object": "class-element-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t072",
+   "subject": "trebovanie-bezopasnaya-ostanovka",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t073",
+   "subject": "model-trebovaniya-nasosnaya-stanciya",
+   "predicate": "содержит требование",
+   "object": "trebovanie-bezopasnaya-ostanovka",
+   "sourceId": "src-case",
+   "sourceName": "Пример описания кейса «Насосная станция»",
+   "sourceType": "example",
+   "updatedAt": "2026-10-01"
+  },
+  {
+   "id": "t074",
+   "subject": "trebovanie-planovyy-osmotr-vala",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t075",
+   "subject": "ogranichenie-vibraciya-ne-bolee-4-5-mm-s",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t076",
+   "subject": "svyaz-raschet-prochnosti-val",
+   "predicate": "имеет тип",
+   "object": "class-svyaz-proslezhivaemosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t077",
+   "subject": "svyaz-avariya-qf1",
+   "predicate": "имеет тип",
+   "object": "class-svyaz-proslezhivaemosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t078",
+   "subject": "svyaz-osmotr-val",
+   "predicate": "имеет тип",
+   "object": "class-svyaz-proslezhivaemosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t079",
+   "subject": "sootvetstvie-bpmn-zadacha-ea-funkciya",
+   "predicate": "имеет тип",
+   "object": "class-semanticheskoe-sootvetstvie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t080",
+   "subject": "sootvetstvie-cad-detal-cae-raschet",
+   "predicate": "имеет тип",
+   "object": "class-semanticheskoe-sootvetstvie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t081",
+   "subject": "sootvetstvie-elektricheskoe-soedinenie-cad-dvigatel",
+   "predicate": "имеет тип",
+   "object": "class-semanticheskoe-sootvetstvie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t082",
+   "subject": "fragment-mehanicheskaya-podsistema",
+   "predicate": "имеет тип",
+   "object": "class-fragment-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t083",
+   "subject": "fragment-sistema-upravleniya",
+   "predicate": "имеет тип",
+   "object": "class-fragment-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t084",
+   "subject": "vid-shema-obsluzhivaniya",
+   "predicate": "имеет тип",
+   "object": "class-predstavlenie-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t085",
+   "subject": "vid-3d-sborka-nasosnogo-agregata",
+   "predicate": "имеет тип",
+   "object": "class-predstavlenie-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t086",
+   "subject": "vid-shema-sostoyaniy",
+   "predicate": "имеет тип",
+   "object": "class-predstavlenie-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t087",
+   "subject": "tochka-zreniya-ekspluataciya",
+   "predicate": "имеет тип",
+   "object": "class-tochka-zreniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t088",
+   "subject": "tochka-zreniya-proektirovanie",
+   "predicate": "имеет тип",
+   "object": "class-tochka-zreniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t089",
+   "subject": "steykholder-sluzhba-ekspluatacii",
+   "predicate": "имеет тип",
+   "object": "class-zainteresovannaya-storona",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t090",
+   "subject": "steykholder-proektnyy-ofis",
+   "predicate": "имеет тип",
+   "object": "class-zainteresovannaya-storona",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t091",
+   "subject": "parametr-moschnost-dvigatelya",
+   "predicate": "имеет тип",
+   "object": "class-parametr-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t092",
+   "subject": "parametr-diametr-vala",
+   "predicate": "имеет тип",
+   "object": "class-parametr-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t093",
+   "subject": "parametr-vibroskorost",
+   "predicate": "имеет тип",
+   "object": "class-parametr-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t094",
+   "subject": "edinica-kvt",
+   "predicate": "имеет тип",
+   "object": "class-edinica-izmereniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t095",
+   "subject": "edinica-mm",
+   "predicate": "имеет тип",
+   "object": "class-edinica-izmereniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t096",
+   "subject": "edinica-mm-s",
+   "predicate": "имеет тип",
+   "object": "class-edinica-izmereniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t097",
+   "subject": "rezultat-prochnost-vala-progon-1",
+   "predicate": "имеет тип",
+   "object": "class-rezultat-rascheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t098",
+   "subject": "rezultat-vibraciya-progon-1",
+   "predicate": "имеет тип",
+   "object": "class-rezultat-rascheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t099",
+   "subject": "rezultat-proverka-dostizhimosti-bezopasnogo-sostoyaniya",
+   "predicate": "имеет тип",
+   "object": "class-rezultat-rascheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t100",
+   "subject": "preobrazovanie-bpmn-ea",
+   "predicate": "имеет тип",
+   "object": "class-preobrazovanie-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t101",
+   "subject": "preobrazovanie-cad-cae",
+   "predicate": "имеет тип",
+   "object": "class-preobrazovanie-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t102",
+   "subject": "preobrazovanie-elektricheskaya-shema-cad",
+   "predicate": "имеет тип",
+   "object": "class-preobrazovanie-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t103",
+   "subject": "preobrazovanie-fsm-graf-dostizhimosti",
+   "predicate": "имеет тип",
+   "object": "class-preobrazovanie-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t104",
+   "subject": "pravilo-kazhdoe-sostoyanie-imeet-put-v-bezopasnoe-sostoyanie",
+   "predicate": "имеет тип",
+   "object": "class-pravilo-proverki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t105",
+   "subject": "pravilo-komponent-shemy-prisutstvuet-v-cad-sborke",
+   "predicate": "имеет тип",
+   "object": "class-pravilo-proverki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t106",
+   "subject": "pravilo-trebovanie-imeet-proslezhivaemost",
+   "predicate": "имеет тип",
+   "object": "class-pravilo-proverki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t107",
+   "subject": "nahodka-iz-avarii-net-perehoda-v-bezopasnoe-sostoyanie",
+   "predicate": "имеет тип",
+   "object": "class-nahodka-proverki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t108",
+   "subject": "nahodka-qf1-otsutstvuet-v-cad-sborke",
+   "predicate": "имеет тип",
+   "object": "class-nahodka-proverki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t109",
+   "subject": "versiya-ea-1-4",
+   "predicate": "имеет тип",
+   "object": "class-versiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t110",
+   "subject": "versiya-cad-2-1",
+   "predicate": "имеет тип",
+   "object": "class-versiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t111",
+   "subject": "versiya-cad-2-2",
+   "predicate": "имеет тип",
+   "object": "class-versiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t112",
+   "subject": "versiya-fsm-1-0",
+   "predicate": "имеет тип",
+   "object": "class-versiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t113",
+   "subject": "bazovaya-konfiguraciya-nasosnaya-stanciya-reviziya-b",
+   "predicate": "имеет тип",
+   "object": "class-bazovaya-konfiguraciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t114",
+   "subject": "zapros-dobavit-datchik-vibracii",
+   "predicate": "имеет тип",
+   "object": "class-zapros-na-izmenenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t115",
+   "subject": "zapros-dobavit-qf1-v-cad-sborku",
+   "predicate": "имеет тип",
+   "object": "class-zapros-na-izmenenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t116",
+   "subject": "faza-proektirovanie",
+   "predicate": "имеет тип",
+   "object": "class-faza-zhiznennogo-cikla",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t117",
+   "subject": "faza-validaciya",
+   "predicate": "имеет тип",
+   "object": "class-faza-zhiznennogo-cikla",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t118",
+   "subject": "faza-ekspluataciya",
+   "predicate": "имеет тип",
+   "object": "class-faza-zhiznennogo-cikla",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t119",
+   "subject": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "predicate": "имеет тип",
+   "object": "class-cifrovaya-nit",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t120",
+   "subject": "dvoynik-cifrovoy-dvoynik-nasosnogo-agregata-na-1",
+   "predicate": "имеет тип",
+   "object": "class-cifrovoy-dvoynik",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t121",
+   "subject": "vopros-kakie-modeli-predstavlyayut-sistemu",
+   "predicate": "имеет тип",
+   "object": "class-vopros-kompetencii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t122",
+   "subject": "sreda-kontur",
+   "predicate": "интегрирует метод",
+   "object": "metod-upravlenie-federaciey-modeley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t123",
+   "subject": "sreda-kontur",
+   "predicate": "интегрирует метод",
+   "object": "metod-enterprise-architecture",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t124",
+   "subject": "sreda-kontur",
+   "predicate": "интегрирует метод",
+   "object": "metod-bpmn",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t125",
+   "subject": "sreda-kontur",
+   "predicate": "интегрирует метод",
+   "object": "metod-cad",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t126",
+   "subject": "sreda-kontur",
+   "predicate": "интегрирует метод",
+   "object": "metod-cae",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t127",
+   "subject": "sreda-kontur",
+   "predicate": "интегрирует метод",
+   "object": "metod-konechnye-avtomaty",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t128",
+   "subject": "sreda-kontur",
+   "predicate": "интегрирует метод",
+   "object": "metod-elektricheskie-shemy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t129",
+   "subject": "sreda-kontur",
+   "predicate": "включает интерфейс",
+   "object": "interfeys-rest-api",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t130",
+   "subject": "sreda-kontur",
+   "predicate": "включает интерфейс",
+   "object": "interfeys-obmen-step-faylami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t131",
+   "subject": "sreda-kontur",
+   "predicate": "включает интерфейс",
+   "object": "interfeys-import-reqif",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t132",
+   "subject": "sreda-kontur",
+   "predicate": "включает интерфейс",
+   "object": "interfeys-plagin-raschetnogo-reshatelya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t133",
+   "subject": "sreda-kontur",
+   "predicate": "включает интерфейс",
+   "object": "interfeys-sobytiynaya-shina",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t134",
+   "subject": "sreda-kontur",
+   "predicate": "опирается на хранилище",
+   "object": "hranilische-repozitoriy-kontura",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t135",
+   "subject": "sreda-kontur",
+   "predicate": "опирается на хранилище",
+   "object": "hranilische-arhiv-bazovyh-konfiguraciy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t136",
+   "subject": "metod-enterprise-architecture",
+   "predicate": "использует язык",
+   "object": "yazyk-archimate",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t137",
+   "subject": "metod-bpmn",
+   "predicate": "использует язык",
+   "object": "yazyk-bpmn-2-0",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t138",
+   "subject": "metod-cad",
+   "predicate": "использует язык",
+   "object": "yazyk-step-ap242",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t139",
+   "subject": "metod-cae",
+   "predicate": "использует язык",
+   "object": "yazyk-step-ap242",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t140",
+   "subject": "metod-konechnye-avtomaty",
+   "predicate": "использует язык",
+   "object": "yazyk-konechnye-avtomaty-tablica-perehodov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t141",
+   "subject": "metod-elektricheskie-shemy",
+   "predicate": "использует язык",
+   "object": "yazyk-iec-60617",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t142",
+   "subject": "metod-upravlenie-federaciey-modeley",
+   "predicate": "применяется к системе",
+   "object": "sistema-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t143",
+   "subject": "metod-enterprise-architecture",
+   "predicate": "применяется к системе",
+   "object": "sistema-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t144",
+   "subject": "metod-bpmn",
+   "predicate": "применяется к системе",
+   "object": "sistema-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t145",
+   "subject": "metod-cad",
+   "predicate": "применяется к системе",
+   "object": "sistema-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t146",
+   "subject": "metod-cae",
+   "predicate": "применяется к системе",
+   "object": "sistema-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t147",
+   "subject": "metod-konechnye-avtomaty",
+   "predicate": "применяется к системе",
+   "object": "sistema-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t148",
+   "subject": "metod-elektricheskie-shemy",
+   "predicate": "применяется к системе",
+   "object": "sistema-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t149",
+   "subject": "yazyk-archimate",
+   "predicate": "определяется метамоделью",
+   "object": "metamodel-archimate-3-2",
+   "sourceId": "src-archimate",
+   "sourceName": "ArchiMate 3.2 Specification (The Open Group)",
+   "sourceType": "standard",
+   "updatedAt": "2022-01-01"
+  },
+  {
+   "id": "t150",
+   "subject": "yazyk-bpmn-2-0",
+   "predicate": "определяется метамоделью",
+   "object": "metamodel-bpmn-2-0",
+   "sourceId": "src-bpmn",
+   "sourceName": "OMG BPMN 2.0.2 — Business Process Model and Notation",
+   "sourceType": "standard",
+   "updatedAt": "2014-01-01"
+  },
+  {
+   "id": "t151",
+   "subject": "yazyk-step-ap242",
+   "predicate": "определяется метамоделью",
+   "object": "metamodel-step-ap242",
+   "sourceId": "src-step",
+   "sourceName": "ISO 10303-242 (STEP AP242) — Managed model based 3D engineering",
+   "sourceType": "standard",
+   "updatedAt": "2022-01-01"
+  },
+  {
+   "id": "t152",
+   "subject": "yazyk-konechnye-avtomaty-tablica-perehodov",
+   "predicate": "определяется метамоделью",
+   "object": "metamodel-konechnye-avtomaty",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t153",
+   "subject": "yazyk-iec-60617",
+   "predicate": "определяется метамоделью",
+   "object": "metamodel-elektricheskie-shemy",
+   "sourceId": "src-iec",
+   "sourceName": "IEC 60617 — Graphical symbols for diagrams (актуальная база, дата обращения)",
+   "sourceType": "standard",
+   "updatedAt": "2026-11-10"
+  },
+  {
+   "id": "t154",
+   "subject": "metamodel-archimate-3-2",
+   "predicate": "содержит тип элемента",
+   "object": "tip-biznes-funkciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t155",
+   "subject": "metamodel-archimate-3-2",
+   "predicate": "содержит тип элемента",
+   "object": "tip-trebovanie",
+   "sourceId": "src-archimate",
+   "sourceName": "ArchiMate 3.2 Specification (The Open Group)",
+   "sourceType": "standard",
+   "updatedAt": "2022-01-01"
+  },
+  {
+   "id": "t156",
+   "subject": "metamodel-bpmn-2-0",
+   "predicate": "содержит тип элемента",
+   "object": "tip-zadacha",
+   "sourceId": "src-bpmn",
+   "sourceName": "OMG BPMN 2.0.2 — Business Process Model and Notation",
+   "sourceType": "standard",
+   "updatedAt": "2014-01-01"
+  },
+  {
+   "id": "t157",
+   "subject": "metamodel-step-ap242",
+   "predicate": "содержит тип элемента",
+   "object": "tip-detal",
+   "sourceId": "src-step",
+   "sourceName": "ISO 10303-242 (STEP AP242) — Managed model based 3D engineering",
+   "sourceType": "standard",
+   "updatedAt": "2022-01-01"
+  },
+  {
+   "id": "t158",
+   "subject": "metamodel-step-ap242",
+   "predicate": "содержит тип элемента",
+   "object": "tip-raschetnaya-model",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t159",
+   "subject": "metamodel-konechnye-avtomaty",
+   "predicate": "содержит тип элемента",
+   "object": "tip-sostoyanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t160",
+   "subject": "metamodel-konechnye-avtomaty",
+   "predicate": "содержит тип элемента",
+   "object": "tip-perehod",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t161",
+   "subject": "metamodel-elektricheskie-shemy",
+   "predicate": "содержит тип элемента",
+   "object": "tip-komponent-shemy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t162",
+   "subject": "metamodel-elektricheskie-shemy",
+   "predicate": "содержит тип элемента",
+   "object": "tip-soedinenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t163",
+   "subject": "instrument-kontur-ea",
+   "predicate": "реализует метод",
+   "object": "metod-enterprise-architecture",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t164",
+   "subject": "instrument-kontur-bpmn",
+   "predicate": "реализует метод",
+   "object": "metod-bpmn",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t165",
+   "subject": "instrument-kontur-cad",
+   "predicate": "реализует метод",
+   "object": "metod-cad",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t166",
+   "subject": "instrument-kontur-cae",
+   "predicate": "реализует метод",
+   "object": "metod-cae",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t167",
+   "subject": "instrument-kontur-fsm",
+   "predicate": "реализует метод",
+   "object": "metod-konechnye-avtomaty",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t168",
+   "subject": "instrument-kontur-elektro",
+   "predicate": "реализует метод",
+   "object": "metod-elektricheskie-shemy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t169",
+   "subject": "instrument-kontur-ea",
+   "predicate": "предоставляет интерфейс",
+   "object": "interfeys-rest-api",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t170",
+   "subject": "instrument-kontur-ea",
+   "predicate": "предоставляет интерфейс",
+   "object": "interfeys-import-reqif",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t171",
+   "subject": "instrument-kontur-cad",
+   "predicate": "предоставляет интерфейс",
+   "object": "interfeys-obmen-step-faylami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t172",
+   "subject": "instrument-kontur-cae",
+   "predicate": "предоставляет интерфейс",
+   "object": "interfeys-plagin-raschetnogo-reshatelya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t173",
+   "subject": "instrument-kontur-fsm",
+   "predicate": "предоставляет интерфейс",
+   "object": "interfeys-sobytiynaya-shina",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t174",
+   "subject": "instrument-kontur-elektro",
+   "predicate": "предоставляет интерфейс",
+   "object": "interfeys-sobytiynaya-shina",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t175",
+   "subject": "instrument-kontur-cad",
+   "predicate": "читает формат",
+   "object": "format-step-ap242",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t176",
+   "subject": "instrument-kontur-cae",
+   "predicate": "читает формат",
+   "object": "format-step-ap242",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t177",
+   "subject": "instrument-kontur-ea",
+   "predicate": "читает формат",
+   "object": "format-reqif",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t178",
+   "subject": "instrument-kontur-bpmn",
+   "predicate": "читает формат",
+   "object": "format-xmi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t179",
+   "subject": "instrument-kontur-fsm",
+   "predicate": "читает формат",
+   "object": "format-json",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t180",
+   "subject": "instrument-kontur-elektro",
+   "predicate": "читает формат",
+   "object": "format-json",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t181",
+   "subject": "instrument-kontur-cad",
+   "predicate": "записывает формат",
+   "object": "format-step-ap242",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t182",
+   "subject": "instrument-kontur-ea",
+   "predicate": "записывает формат",
+   "object": "format-xmi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t183",
+   "subject": "instrument-kontur-bpmn",
+   "predicate": "записывает формат",
+   "object": "format-xmi",
+   "sourceId": "src-xmi",
+   "sourceName": "OMG XMI 2.5.1 — XML Metadata Interchange",
+   "sourceType": "standard",
+   "updatedAt": "2015-01-01"
+  },
+  {
+   "id": "t184",
+   "subject": "instrument-kontur-fsm",
+   "predicate": "записывает формат",
+   "object": "format-json",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t185",
+   "subject": "interfeys-rest-api",
+   "predicate": "передаёт формат",
+   "object": "format-json",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t186",
+   "subject": "interfeys-obmen-step-faylami",
+   "predicate": "передаёт формат",
+   "object": "format-step-ap242",
+   "sourceId": "src-step",
+   "sourceName": "ISO 10303-242 (STEP AP242) — Managed model based 3D engineering",
+   "sourceType": "standard",
+   "updatedAt": "2022-01-01"
+  },
+  {
+   "id": "t187",
+   "subject": "interfeys-import-reqif",
+   "predicate": "передаёт формат",
+   "object": "format-reqif",
+   "sourceId": "src-reqif",
+   "sourceName": "OMG ReqIF 1.2 — Requirements Interchange Format",
+   "sourceType": "standard",
+   "updatedAt": "2016-01-01"
+  },
+  {
+   "id": "t188",
+   "subject": "interfeys-plagin-raschetnogo-reshatelya",
+   "predicate": "передаёт формат",
+   "object": "format-json",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t189",
+   "subject": "interfeys-sobytiynaya-shina",
+   "predicate": "передаёт формат",
+   "object": "format-json",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t190",
+   "subject": "interfeys-rest-api",
+   "predicate": "связывает инструмент",
+   "object": "instrument-kontur-ea",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t191",
+   "subject": "interfeys-rest-api",
+   "predicate": "связывает инструмент",
+   "object": "instrument-kontur-bpmn",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t192",
+   "subject": "interfeys-obmen-step-faylami",
+   "predicate": "связывает инструмент",
+   "object": "instrument-kontur-cad",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t193",
+   "subject": "interfeys-obmen-step-faylami",
+   "predicate": "связывает инструмент",
+   "object": "instrument-kontur-cae",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t194",
+   "subject": "interfeys-import-reqif",
+   "predicate": "связывает инструмент",
+   "object": "instrument-kontur-ea",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t195",
+   "subject": "interfeys-plagin-raschetnogo-reshatelya",
+   "predicate": "связывает инструмент",
+   "object": "instrument-kontur-cae",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t196",
+   "subject": "interfeys-sobytiynaya-shina",
+   "predicate": "связывает инструмент",
+   "object": "instrument-kontur-fsm",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t197",
+   "subject": "interfeys-sobytiynaya-shina",
+   "predicate": "связывает инструмент",
+   "object": "instrument-kontur-elektro",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t198",
+   "subject": "instrument-kontur-ea",
+   "predicate": "размещает в хранилище",
+   "object": "hranilische-repozitoriy-kontura",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t199",
+   "subject": "instrument-kontur-cad",
+   "predicate": "размещает в хранилище",
+   "object": "hranilische-repozitoriy-kontura",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t200",
+   "subject": "instrument-kontur-cae",
+   "predicate": "размещает в хранилище",
+   "object": "hranilische-repozitoriy-kontura",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t201",
+   "subject": "model-ea-nasosnaya-stanciya",
+   "predicate": "соответствует метамодели",
+   "object": "metamodel-archimate-3-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t202",
+   "subject": "model-bpmn-obsluzhivanie-nasosnoy-stancii",
+   "predicate": "соответствует метамодели",
+   "object": "metamodel-bpmn-2-0",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t203",
+   "subject": "model-cad-sborka-nasosnogo-agregata",
+   "predicate": "соответствует метамодели",
+   "object": "metamodel-step-ap242",
+   "sourceId": "src-step",
+   "sourceName": "ISO 10303-242 (STEP AP242) — Managed model based 3D engineering",
+   "sourceType": "standard",
+   "updatedAt": "2022-01-01"
+  },
+  {
+   "id": "t204",
+   "subject": "model-cae-raschety-nasosnogo-agregata",
+   "predicate": "соответствует метамодели",
+   "object": "metamodel-step-ap242",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t205",
+   "subject": "model-fsm-rezhimy-nasosnoy-stancii",
+   "predicate": "соответствует метамодели",
+   "object": "metamodel-konechnye-avtomaty",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t206",
+   "subject": "model-elektricheskaya-shema-shkaf-upravleniya",
+   "predicate": "соответствует метамодели",
+   "object": "metamodel-elektricheskie-shemy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t207",
+   "subject": "model-trebovaniya-nasosnaya-stanciya",
+   "predicate": "соответствует метамодели",
+   "object": "metamodel-archimate-3-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t208",
+   "subject": "model-graf-dostizhimosti-sostoyaniy",
+   "predicate": "соответствует метамодели",
+   "object": "metamodel-konechnye-avtomaty",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t209",
+   "subject": "model-ea-nasosnaya-stanciya",
+   "predicate": "выражена на языке",
+   "object": "yazyk-archimate",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t210",
+   "subject": "model-bpmn-obsluzhivanie-nasosnoy-stancii",
+   "predicate": "выражена на языке",
+   "object": "yazyk-bpmn-2-0",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t211",
+   "subject": "model-cad-sborka-nasosnogo-agregata",
+   "predicate": "выражена на языке",
+   "object": "yazyk-step-ap242",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t212",
+   "subject": "model-cae-raschety-nasosnogo-agregata",
+   "predicate": "выражена на языке",
+   "object": "yazyk-step-ap242",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t213",
+   "subject": "model-fsm-rezhimy-nasosnoy-stancii",
+   "predicate": "выражена на языке",
+   "object": "yazyk-konechnye-avtomaty-tablica-perehodov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t214",
+   "subject": "model-elektricheskaya-shema-shkaf-upravleniya",
+   "predicate": "выражена на языке",
+   "object": "yazyk-iec-60617",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t215",
+   "subject": "model-trebovaniya-nasosnaya-stanciya",
+   "predicate": "выражена на языке",
+   "object": "yazyk-archimate",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t216",
+   "subject": "model-ea-nasosnaya-stanciya",
+   "predicate": "содержит элемент",
+   "object": "funkciya-ekspluataciya-nasosnoy-stancii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t217",
+   "subject": "model-bpmn-obsluzhivanie-nasosnoy-stancii",
+   "predicate": "содержит элемент",
+   "object": "zadacha-osmotret-nasos",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t218",
+   "subject": "model-cad-sborka-nasosnogo-agregata",
+   "predicate": "содержит элемент",
+   "object": "detal-val",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t219",
+   "subject": "model-cad-sborka-nasosnogo-agregata",
+   "predicate": "содержит элемент",
+   "object": "dvigatel-m1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t220",
+   "subject": "model-cae-raschety-nasosnogo-agregata",
+   "predicate": "содержит элемент",
+   "object": "raschet-prochnost-vala",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t221",
+   "subject": "model-cae-raschety-nasosnogo-agregata",
+   "predicate": "содержит элемент",
+   "object": "raschet-vibraciya-nasosnogo-agregata",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t222",
+   "subject": "model-fsm-rezhimy-nasosnoy-stancii",
+   "predicate": "содержит элемент",
+   "object": "sostoyanie-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t223",
+   "subject": "model-fsm-rezhimy-nasosnoy-stancii",
+   "predicate": "содержит элемент",
+   "object": "sostoyanie-avariya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t224",
+   "subject": "model-fsm-rezhimy-nasosnoy-stancii",
+   "predicate": "содержит элемент",
+   "object": "sostoyanie-bezopasnaya-ostanovka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t225",
+   "subject": "model-fsm-rezhimy-nasosnoy-stancii",
+   "predicate": "содержит элемент",
+   "object": "perehod-rabota-avariya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t226",
+   "subject": "model-fsm-rezhimy-nasosnoy-stancii",
+   "predicate": "содержит элемент",
+   "object": "perehod-rabota-bezopasnaya-ostanovka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t227",
+   "subject": "model-elektricheskaya-shema-shkaf-upravleniya",
+   "predicate": "содержит элемент",
+   "object": "komponent-qf1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t228",
+   "subject": "model-elektricheskaya-shema-shkaf-upravleniya",
+   "predicate": "содержит элемент",
+   "object": "soedinenie-qf1-m1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t229",
+   "subject": "model-cad-sborka-nasosnogo-agregata",
+   "predicate": "включает фрагмент",
+   "object": "fragment-mehanicheskaya-podsistema",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t230",
+   "subject": "model-elektricheskaya-shema-shkaf-upravleniya",
+   "predicate": "включает фрагмент",
+   "object": "fragment-sistema-upravleniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t231",
+   "subject": "model-ea-nasosnaya-stanciya",
+   "predicate": "включает фрагмент",
+   "object": "fragment-sistema-upravleniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t232",
+   "subject": "model-bpmn-obsluzhivanie-nasosnoy-stancii",
+   "predicate": "представлена видом",
+   "object": "vid-shema-obsluzhivaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t233",
+   "subject": "model-cad-sborka-nasosnogo-agregata",
+   "predicate": "представлена видом",
+   "object": "vid-3d-sborka-nasosnogo-agregata",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t234",
+   "subject": "model-fsm-rezhimy-nasosnoy-stancii",
+   "predicate": "представлена видом",
+   "object": "vid-shema-sostoyaniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t235",
+   "subject": "vid-shema-obsluzhivaniya",
+   "predicate": "соответствует точке зрения",
+   "object": "tochka-zreniya-ekspluataciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t236",
+   "subject": "vid-3d-sborka-nasosnogo-agregata",
+   "predicate": "соответствует точке зрения",
+   "object": "tochka-zreniya-proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t237",
+   "subject": "vid-shema-sostoyaniy",
+   "predicate": "соответствует точке зрения",
+   "object": "tochka-zreniya-ekspluataciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t238",
+   "subject": "tochka-zreniya-ekspluataciya",
+   "predicate": "учитывает интересы",
+   "object": "steykholder-sluzhba-ekspluatacii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t239",
+   "subject": "tochka-zreniya-proektirovanie",
+   "predicate": "учитывает интересы",
+   "object": "steykholder-proektnyy-ofis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t240",
+   "subject": "model-ea-nasosnaya-stanciya",
+   "predicate": "представляет систему",
+   "object": "sistema-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t241",
+   "subject": "model-bpmn-obsluzhivanie-nasosnoy-stancii",
+   "predicate": "представляет систему",
+   "object": "sistema-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t242",
+   "subject": "model-cad-sborka-nasosnogo-agregata",
+   "predicate": "представляет систему",
+   "object": "sistema-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t243",
+   "subject": "model-cae-raschety-nasosnogo-agregata",
+   "predicate": "представляет систему",
+   "object": "sistema-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t244",
+   "subject": "model-fsm-rezhimy-nasosnoy-stancii",
+   "predicate": "представляет систему",
+   "object": "sistema-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t245",
+   "subject": "model-elektricheskaya-shema-shkaf-upravleniya",
+   "predicate": "представляет систему",
+   "object": "sistema-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t246",
+   "subject": "model-trebovaniya-nasosnaya-stanciya",
+   "predicate": "представляет систему",
+   "object": "sistema-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t247",
+   "subject": "detal-val",
+   "predicate": "представляет актив",
+   "object": "aktiv-val-nasosa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t248",
+   "subject": "dvigatel-m1",
+   "predicate": "представляет актив",
+   "object": "aktiv-dvigatel-m1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t249",
+   "subject": "komponent-qf1",
+   "predicate": "представляет актив",
+   "object": "aktiv-vyklyuchatel-qf1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t250",
+   "subject": "funkciya-ekspluataciya-nasosnoy-stancii",
+   "predicate": "конкретизирует тип",
+   "object": "tip-biznes-funkciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t251",
+   "subject": "zadacha-osmotret-nasos",
+   "predicate": "конкретизирует тип",
+   "object": "tip-zadacha",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t252",
+   "subject": "detal-val",
+   "predicate": "конкретизирует тип",
+   "object": "tip-detal",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t253",
+   "subject": "dvigatel-m1",
+   "predicate": "конкретизирует тип",
+   "object": "tip-detal",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t254",
+   "subject": "raschet-prochnost-vala",
+   "predicate": "конкретизирует тип",
+   "object": "tip-raschetnaya-model",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t255",
+   "subject": "raschet-vibraciya-nasosnogo-agregata",
+   "predicate": "конкретизирует тип",
+   "object": "tip-raschetnaya-model",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t256",
+   "subject": "sostoyanie-rabota",
+   "predicate": "конкретизирует тип",
+   "object": "tip-sostoyanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t257",
+   "subject": "sostoyanie-avariya",
+   "predicate": "конкретизирует тип",
+   "object": "tip-sostoyanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t258",
+   "subject": "sostoyanie-bezopasnaya-ostanovka",
+   "predicate": "конкретизирует тип",
+   "object": "tip-sostoyanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t259",
+   "subject": "perehod-rabota-avariya",
+   "predicate": "конкретизирует тип",
+   "object": "tip-perehod",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t260",
+   "subject": "perehod-rabota-bezopasnaya-ostanovka",
+   "predicate": "конкретизирует тип",
+   "object": "tip-perehod",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t261",
+   "subject": "komponent-qf1",
+   "predicate": "конкретизирует тип",
+   "object": "tip-komponent-shemy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t262",
+   "subject": "soedinenie-qf1-m1",
+   "predicate": "конкретизирует тип",
+   "object": "tip-soedinenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t263",
+   "subject": "fragment-mehanicheskaya-podsistema",
+   "predicate": "объединяет элемент",
+   "object": "detal-val",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t264",
+   "subject": "fragment-mehanicheskaya-podsistema",
+   "predicate": "объединяет элемент",
+   "object": "dvigatel-m1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t265",
+   "subject": "fragment-sistema-upravleniya",
+   "predicate": "объединяет элемент",
+   "object": "komponent-qf1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t266",
+   "subject": "fragment-sistema-upravleniya",
+   "predicate": "объединяет элемент",
+   "object": "soedinenie-qf1-m1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t267",
+   "subject": "fragment-sistema-upravleniya",
+   "predicate": "объединяет элемент",
+   "object": "funkciya-ekspluataciya-nasosnoy-stancii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t268",
+   "subject": "dvigatel-m1",
+   "predicate": "задаёт параметр",
+   "object": "parametr-moschnost-dvigatelya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t269",
+   "subject": "detal-val",
+   "predicate": "задаёт параметр",
+   "object": "parametr-diametr-vala",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t270",
+   "subject": "raschet-prochnost-vala",
+   "predicate": "задаёт параметр",
+   "object": "parametr-diametr-vala",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t271",
+   "subject": "raschet-vibraciya-nasosnogo-agregata",
+   "predicate": "задаёт параметр",
+   "object": "parametr-vibroskorost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t272",
+   "subject": "parametr-moschnost-dvigatelya",
+   "predicate": "измеряется в",
+   "object": "edinica-kvt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t273",
+   "subject": "parametr-diametr-vala",
+   "predicate": "измеряется в",
+   "object": "edinica-mm",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t274",
+   "subject": "parametr-vibroskorost",
+   "predicate": "измеряется в",
+   "object": "edinica-mm-s",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t275",
+   "subject": "model-ea-nasosnaya-stanciya",
+   "predicate": "хранится в",
+   "object": "hranilische-repozitoriy-kontura",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t276",
+   "subject": "model-bpmn-obsluzhivanie-nasosnoy-stancii",
+   "predicate": "хранится в",
+   "object": "hranilische-repozitoriy-kontura",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t277",
+   "subject": "model-cad-sborka-nasosnogo-agregata",
+   "predicate": "хранится в",
+   "object": "hranilische-repozitoriy-kontura",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t278",
+   "subject": "model-cae-raschety-nasosnogo-agregata",
+   "predicate": "хранится в",
+   "object": "hranilische-repozitoriy-kontura",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t279",
+   "subject": "model-fsm-rezhimy-nasosnoy-stancii",
+   "predicate": "хранится в",
+   "object": "hranilische-repozitoriy-kontura",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t280",
+   "subject": "model-elektricheskaya-shema-shkaf-upravleniya",
+   "predicate": "хранится в",
+   "object": "hranilische-repozitoriy-kontura",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t281",
+   "subject": "model-trebovaniya-nasosnaya-stanciya",
+   "predicate": "хранится в",
+   "object": "hranilische-repozitoriy-kontura",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t282",
+   "subject": "svyaz-raschet-prochnosti-val",
+   "predicate": "исходит из элемента",
+   "object": "raschet-prochnost-vala",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t283",
+   "subject": "svyaz-avariya-qf1",
+   "predicate": "исходит из элемента",
+   "object": "sostoyanie-avariya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t284",
+   "subject": "svyaz-osmotr-val",
+   "predicate": "исходит из элемента",
+   "object": "zadacha-osmotret-nasos",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t285",
+   "subject": "svyaz-raschet-prochnosti-val",
+   "predicate": "ведёт к элементу",
+   "object": "detal-val",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t286",
+   "subject": "svyaz-avariya-qf1",
+   "predicate": "ведёт к элементу",
+   "object": "komponent-qf1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t287",
+   "subject": "svyaz-osmotr-val",
+   "predicate": "ведёт к элементу",
+   "object": "detal-val",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t288",
+   "subject": "svyaz-raschet-prochnosti-val",
+   "predicate": "прослеживает требование",
+   "object": "trebovanie-bezopasnaya-ostanovka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t289",
+   "subject": "svyaz-avariya-qf1",
+   "predicate": "прослеживает требование",
+   "object": "trebovanie-bezopasnaya-ostanovka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t290",
+   "subject": "svyaz-osmotr-val",
+   "predicate": "прослеживает требование",
+   "object": "trebovanie-planovyy-osmotr-vala",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t291",
+   "subject": "svyaz-raschet-prochnosti-val",
+   "predicate": "ведёт к результату",
+   "object": "rezultat-prochnost-vala-progon-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t292",
+   "subject": "trebovanie-bezopasnaya-ostanovka",
+   "predicate": "предъявляется к активу",
+   "object": "aktiv-nasosnyy-agregat-na-1",
+   "sourceId": "src-case",
+   "sourceName": "Пример описания кейса «Насосная станция»",
+   "sourceType": "example",
+   "updatedAt": "2026-10-01"
+  },
+  {
+   "id": "t293",
+   "subject": "trebovanie-bezopasnaya-ostanovka",
+   "predicate": "предъявляется к активу",
+   "object": "aktiv-shkaf-upravleniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t294",
+   "subject": "trebovanie-planovyy-osmotr-vala",
+   "predicate": "предъявляется к активу",
+   "object": "aktiv-val-nasosa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t295",
+   "subject": "trebovanie-bezopasnaya-ostanovka",
+   "predicate": "подтверждается результатом",
+   "object": "rezultat-proverka-dostizhimosti-bezopasnogo-sostoyaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t296",
+   "subject": "ogranichenie-vibraciya-ne-bolee-4-5-mm-s",
+   "predicate": "ограничивает параметр",
+   "object": "parametr-vibroskorost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t297",
+   "subject": "ogranichenie-vibraciya-ne-bolee-4-5-mm-s",
+   "predicate": "уточняет требование",
+   "object": "trebovanie-bezopasnaya-ostanovka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t298",
+   "subject": "sootvetstvie-bpmn-zadacha-ea-funkciya",
+   "predicate": "сопоставляет источник",
+   "object": "zadacha-osmotret-nasos",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t299",
+   "subject": "sootvetstvie-cad-detal-cae-raschet",
+   "predicate": "сопоставляет источник",
+   "object": "detal-val",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t300",
+   "subject": "sootvetstvie-elektricheskoe-soedinenie-cad-dvigatel",
+   "predicate": "сопоставляет источник",
+   "object": "soedinenie-qf1-m1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t301",
+   "subject": "sootvetstvie-bpmn-zadacha-ea-funkciya",
+   "predicate": "сопоставляет цель",
+   "object": "funkciya-ekspluataciya-nasosnoy-stancii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t302",
+   "subject": "sootvetstvie-cad-detal-cae-raschet",
+   "predicate": "сопоставляет цель",
+   "object": "raschet-prochnost-vala",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t303",
+   "subject": "sootvetstvie-elektricheskoe-soedinenie-cad-dvigatel",
+   "predicate": "сопоставляет цель",
+   "object": "dvigatel-m1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t304",
+   "subject": "sootvetstvie-cad-detal-cae-raschet",
+   "predicate": "обосновывает связь",
+   "object": "svyaz-raschet-prochnosti-val",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t305",
+   "subject": "sootvetstvie-bpmn-zadacha-ea-funkciya",
+   "predicate": "обосновывает связь",
+   "object": "svyaz-osmotr-val",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t306",
+   "subject": "preobrazovanie-bpmn-ea",
+   "predicate": "принимает модель",
+   "object": "model-bpmn-obsluzhivanie-nasosnoy-stancii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t307",
+   "subject": "preobrazovanie-cad-cae",
+   "predicate": "принимает модель",
+   "object": "model-cad-sborka-nasosnogo-agregata",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t308",
+   "subject": "preobrazovanie-elektricheskaya-shema-cad",
+   "predicate": "принимает модель",
+   "object": "model-elektricheskaya-shema-shkaf-upravleniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t309",
+   "subject": "preobrazovanie-fsm-graf-dostizhimosti",
+   "predicate": "принимает модель",
+   "object": "model-fsm-rezhimy-nasosnoy-stancii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t310",
+   "subject": "preobrazovanie-bpmn-ea",
+   "predicate": "порождает модель",
+   "object": "model-ea-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t311",
+   "subject": "preobrazovanie-cad-cae",
+   "predicate": "порождает модель",
+   "object": "model-cae-raschety-nasosnogo-agregata",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t312",
+   "subject": "preobrazovanie-elektricheskaya-shema-cad",
+   "predicate": "порождает модель",
+   "object": "model-cad-sborka-nasosnogo-agregata",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t313",
+   "subject": "preobrazovanie-fsm-graf-dostizhimosti",
+   "predicate": "порождает модель",
+   "object": "model-graf-dostizhimosti-sostoyaniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t314",
+   "subject": "preobrazovanie-bpmn-ea",
+   "predicate": "реализует соответствие",
+   "object": "sootvetstvie-bpmn-zadacha-ea-funkciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t315",
+   "subject": "preobrazovanie-cad-cae",
+   "predicate": "реализует соответствие",
+   "object": "sootvetstvie-cad-detal-cae-raschet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t316",
+   "subject": "preobrazovanie-elektricheskaya-shema-cad",
+   "predicate": "реализует соответствие",
+   "object": "sootvetstvie-elektricheskoe-soedinenie-cad-dvigatel",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t317",
+   "subject": "rezultat-prochnost-vala-progon-1",
+   "predicate": "получен преобразованием",
+   "object": "preobrazovanie-cad-cae",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t318",
+   "subject": "rezultat-vibraciya-progon-1",
+   "predicate": "получен преобразованием",
+   "object": "preobrazovanie-cad-cae",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t319",
+   "subject": "rezultat-proverka-dostizhimosti-bezopasnogo-sostoyaniya",
+   "predicate": "получен преобразованием",
+   "object": "preobrazovanie-fsm-graf-dostizhimosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t320",
+   "subject": "pravilo-kazhdoe-sostoyanie-imeet-put-v-bezopasnoe-sostoyanie",
+   "predicate": "проверяет модель",
+   "object": "model-fsm-rezhimy-nasosnoy-stancii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t321",
+   "subject": "pravilo-komponent-shemy-prisutstvuet-v-cad-sborke",
+   "predicate": "проверяет модель",
+   "object": "model-cad-sborka-nasosnogo-agregata",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t322",
+   "subject": "pravilo-komponent-shemy-prisutstvuet-v-cad-sborke",
+   "predicate": "проверяет модель",
+   "object": "model-elektricheskaya-shema-shkaf-upravleniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t323",
+   "subject": "pravilo-trebovanie-imeet-proslezhivaemost",
+   "predicate": "проверяет модель",
+   "object": "model-trebovaniya-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t324",
+   "subject": "pravilo-kazhdoe-sostoyanie-imeet-put-v-bezopasnoe-sostoyanie",
+   "predicate": "проверяет тип элемента",
+   "object": "tip-sostoyanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t325",
+   "subject": "pravilo-komponent-shemy-prisutstvuet-v-cad-sborke",
+   "predicate": "проверяет тип элемента",
+   "object": "tip-komponent-shemy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t326",
+   "subject": "pravilo-trebovanie-imeet-proslezhivaemost",
+   "predicate": "проверяет тип элемента",
+   "object": "tip-trebovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t327",
+   "subject": "pravilo-kazhdoe-sostoyanie-imeet-put-v-bezopasnoe-sostoyanie",
+   "predicate": "порождает находку",
+   "object": "nahodka-iz-avarii-net-perehoda-v-bezopasnoe-sostoyanie",
+   "sourceId": "src-rules",
+   "sourceName": "Пример набора правил проверки федерации моделей",
+   "sourceType": "example",
+   "updatedAt": "2026-10-05"
+  },
+  {
+   "id": "t328",
+   "subject": "pravilo-komponent-shemy-prisutstvuet-v-cad-sborke",
+   "predicate": "порождает находку",
+   "object": "nahodka-qf1-otsutstvuet-v-cad-sborke",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t329",
+   "subject": "nahodka-iz-avarii-net-perehoda-v-bezopasnoe-sostoyanie",
+   "predicate": "нарушает правило",
+   "object": "pravilo-kazhdoe-sostoyanie-imeet-put-v-bezopasnoe-sostoyanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t330",
+   "subject": "nahodka-qf1-otsutstvuet-v-cad-sborke",
+   "predicate": "нарушает правило",
+   "object": "pravilo-komponent-shemy-prisutstvuet-v-cad-sborke",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t331",
+   "subject": "nahodka-iz-avarii-net-perehoda-v-bezopasnoe-sostoyanie",
+   "predicate": "затрагивает элемент",
+   "object": "sostoyanie-avariya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t332",
+   "subject": "nahodka-qf1-otsutstvuet-v-cad-sborke",
+   "predicate": "затрагивает элемент",
+   "object": "komponent-qf1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t333",
+   "subject": "nahodka-iz-avarii-net-perehoda-v-bezopasnoe-sostoyanie",
+   "predicate": "блокирует конфигурацию",
+   "object": "bazovaya-konfiguraciya-nasosnaya-stanciya-reviziya-b",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t334",
+   "subject": "nahodka-qf1-otsutstvuet-v-cad-sborke",
+   "predicate": "блокирует конфигурацию",
+   "object": "bazovaya-konfiguraciya-nasosnaya-stanciya-reviziya-b",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t335",
+   "subject": "model-ea-nasosnaya-stanciya",
+   "predicate": "имеет версию",
+   "object": "versiya-ea-1-4",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t336",
+   "subject": "model-cad-sborka-nasosnogo-agregata",
+   "predicate": "имеет версию",
+   "object": "versiya-cad-2-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t337",
+   "subject": "model-fsm-rezhimy-nasosnoy-stancii",
+   "predicate": "имеет версию",
+   "object": "versiya-fsm-1-0",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t338",
+   "subject": "versiya-ea-1-4",
+   "predicate": "входит в базовую конфигурацию",
+   "object": "bazovaya-konfiguraciya-nasosnaya-stanciya-reviziya-b",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t339",
+   "subject": "versiya-cad-2-1",
+   "predicate": "входит в базовую конфигурацию",
+   "object": "bazovaya-konfiguraciya-nasosnaya-stanciya-reviziya-b",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t340",
+   "subject": "versiya-fsm-1-0",
+   "predicate": "входит в базовую конфигурацию",
+   "object": "bazovaya-konfiguraciya-nasosnaya-stanciya-reviziya-b",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t341",
+   "subject": "bazovaya-konfiguraciya-nasosnaya-stanciya-reviziya-b",
+   "predicate": "фиксирует модель",
+   "object": "model-ea-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t342",
+   "subject": "bazovaya-konfiguraciya-nasosnaya-stanciya-reviziya-b",
+   "predicate": "фиксирует модель",
+   "object": "model-cad-sborka-nasosnogo-agregata",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t343",
+   "subject": "bazovaya-konfiguraciya-nasosnaya-stanciya-reviziya-b",
+   "predicate": "фиксирует модель",
+   "object": "model-fsm-rezhimy-nasosnoy-stancii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t344",
+   "subject": "zapros-dobavit-datchik-vibracii",
+   "predicate": "затрагивает модель",
+   "object": "model-cad-sborka-nasosnogo-agregata",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t345",
+   "subject": "zapros-dobavit-datchik-vibracii",
+   "predicate": "затрагивает модель",
+   "object": "model-cae-raschety-nasosnogo-agregata",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t346",
+   "subject": "zapros-dobavit-qf1-v-cad-sborku",
+   "predicate": "затрагивает модель",
+   "object": "model-cad-sborka-nasosnogo-agregata",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t347",
+   "subject": "zapros-dobavit-qf1-v-cad-sborku",
+   "predicate": "порождает версию",
+   "object": "versiya-cad-2-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t348",
+   "subject": "zapros-dobavit-qf1-v-cad-sborku",
+   "predicate": "устраняет находку",
+   "object": "nahodka-qf1-otsutstvuet-v-cad-sborke",
+   "sourceId": "src-cr",
+   "sourceName": "Пример запроса на изменение «Добавить QF1 в CAD-сборку»",
+   "sourceType": "example",
+   "updatedAt": "2026-10-12"
+  },
+  {
+   "id": "t349",
+   "subject": "model-ea-nasosnaya-stanciya",
+   "predicate": "находится в фазе",
+   "object": "faza-proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t350",
+   "subject": "model-bpmn-obsluzhivanie-nasosnoy-stancii",
+   "predicate": "находится в фазе",
+   "object": "faza-proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t351",
+   "subject": "model-cad-sborka-nasosnogo-agregata",
+   "predicate": "находится в фазе",
+   "object": "faza-validaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t352",
+   "subject": "model-cae-raschety-nasosnogo-agregata",
+   "predicate": "находится в фазе",
+   "object": "faza-validaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t353",
+   "subject": "model-fsm-rezhimy-nasosnoy-stancii",
+   "predicate": "находится в фазе",
+   "object": "faza-validaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t354",
+   "subject": "model-elektricheskaya-shema-shkaf-upravleniya",
+   "predicate": "находится в фазе",
+   "object": "faza-proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t355",
+   "subject": "model-trebovaniya-nasosnaya-stanciya",
+   "predicate": "находится в фазе",
+   "object": "faza-proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t356",
+   "subject": "faza-validaciya",
+   "predicate": "следует за фазой",
+   "object": "faza-proektirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t357",
+   "subject": "faza-ekspluataciya",
+   "predicate": "следует за фазой",
+   "object": "faza-validaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t358",
+   "subject": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "predicate": "связывает модель",
+   "object": "model-ea-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t359",
+   "subject": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "predicate": "связывает модель",
+   "object": "model-cad-sborka-nasosnogo-agregata",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t360",
+   "subject": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "predicate": "связывает модель",
+   "object": "model-cae-raschety-nasosnogo-agregata",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t361",
+   "subject": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "predicate": "связывает модель",
+   "object": "model-fsm-rezhimy-nasosnoy-stancii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t362",
+   "subject": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "predicate": "связывает модель",
+   "object": "model-elektricheskaya-shema-shkaf-upravleniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t363",
+   "subject": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "predicate": "связывает требование",
+   "object": "trebovanie-bezopasnaya-ostanovka",
+   "sourceId": "src-case",
+   "sourceName": "Пример описания кейса «Насосная станция»",
+   "sourceType": "example",
+   "updatedAt": "2026-10-01"
+  },
+  {
+   "id": "t364",
+   "subject": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "predicate": "связывает требование",
+   "object": "trebovanie-planovyy-osmotr-vala",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t365",
+   "subject": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "predicate": "связывает актив",
+   "object": "aktiv-nasosnyy-agregat-na-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t366",
+   "subject": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "predicate": "связывает актив",
+   "object": "aktiv-dvigatel-m1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t367",
+   "subject": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "predicate": "связывает актив",
+   "object": "aktiv-val-nasosa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t368",
+   "subject": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "predicate": "связывает актив",
+   "object": "aktiv-vyklyuchatel-qf1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t369",
+   "subject": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "predicate": "связывает результат",
+   "object": "rezultat-prochnost-vala-progon-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t370",
+   "subject": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "predicate": "связывает результат",
+   "object": "rezultat-vibraciya-progon-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t371",
+   "subject": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "predicate": "связывает результат",
+   "object": "rezultat-proverka-dostizhimosti-bezopasnogo-sostoyaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t372",
+   "subject": "dvoynik-cifrovoy-dvoynik-nasosnogo-agregata-na-1",
+   "predicate": "представляет экземпляр актива",
+   "object": "aktiv-nasosnyy-agregat-na-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t373",
+   "subject": "dvoynik-cifrovoy-dvoynik-nasosnogo-agregata-na-1",
+   "predicate": "синхронизируется с моделью",
+   "object": "model-cad-sborka-nasosnogo-agregata",
+   "sourceId": "src-twin",
+   "sourceName": "Пример паспорта цифрового двойника насосного агрегата",
+   "sourceType": "example",
+   "updatedAt": "2026-10-20"
+  },
+  {
+   "id": "t374",
+   "subject": "dvoynik-cifrovoy-dvoynik-nasosnogo-agregata-na-1",
+   "predicate": "синхронизируется с моделью",
+   "object": "model-cae-raschety-nasosnogo-agregata",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t375",
+   "subject": "dvoynik-cifrovoy-dvoynik-nasosnogo-agregata-na-1",
+   "predicate": "использует результат",
+   "object": "rezultat-vibraciya-progon-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t376",
+   "subject": "vopros-kakie-modeli-predstavlyayut-sistemu",
+   "predicate": "задаёт границы модели",
+   "object": "model-ea-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t377",
+   "subject": "vopros-kakie-modeli-predstavlyayut-sistemu",
+   "predicate": "задаёт границы модели",
+   "object": "model-cad-sborka-nasosnogo-agregata",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t378",
+   "subject": "steykholder-sluzhba-ekspluatacii",
+   "predicate": "владеет требованием",
+   "object": "trebovanie-bezopasnaya-ostanovka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t379",
+   "subject": "steykholder-proektnyy-ofis",
+   "predicate": "владеет требованием",
+   "object": "trebovanie-planovyy-osmotr-vala",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t380",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "имеет тип",
+   "object": "class-federaciya-modeley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t381",
+   "subject": "aleticheskiy-rezhim",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t382",
+   "subject": "deonticheskiy-rezhim",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t383",
+   "subject": "epistemicheskiy-rezhim",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t384",
+   "subject": "aksiologicheskiy-rezhim",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t385",
+   "subject": "temporalnyy-rezhim",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t386",
+   "subject": "utverzhdenie-bezopasnaya-ostanovka-obyazatelna",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t387",
+   "subject": "utverzhdenie-bez-puti-v-bezopasnoe-sostoyanie-avariya-nedopustima",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t388",
+   "subject": "utverzhdenie-qf1-dolzhen-byt-v-cad-sborke",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t389",
+   "subject": "utverzhdenie-sootvetstvie-bpmn-ea-podtverzhdeno",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t390",
+   "subject": "utverzhdenie-federaciya-cenna-dlya-ekspluatacii",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t391",
+   "subject": "utverzhdenie-rabochaya-federaciya-deystvuet-do-revizii-c",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t392",
+   "subject": "sreda-kontur",
+   "predicate": "размещает федерацию",
+   "object": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t393",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "включает модель",
+   "object": "model-ea-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t394",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "включает модель",
+   "object": "model-bpmn-obsluzhivanie-nasosnoy-stancii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t395",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "включает модель",
+   "object": "model-cad-sborka-nasosnogo-agregata",
+   "sourceId": "src-case",
+   "sourceName": "Пример описания кейса «Насосная станция»",
+   "sourceType": "example",
+   "updatedAt": "2026-10-01"
+  },
+  {
+   "id": "t396",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "включает модель",
+   "object": "model-cae-raschety-nasosnogo-agregata",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t397",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "включает модель",
+   "object": "model-fsm-rezhimy-nasosnoy-stancii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t398",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "включает модель",
+   "object": "model-elektricheskaya-shema-shkaf-upravleniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t399",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "включает модель",
+   "object": "model-trebovaniya-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t400",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "описывает систему",
+   "object": "sistema-nasosnaya-stanciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t401",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "управляется методом",
+   "object": "metod-enterprise-architecture",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t402",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "управляется методом",
+   "object": "metod-bpmn",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t403",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "управляется методом",
+   "object": "metod-cad",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t404",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "управляется методом",
+   "object": "metod-cae",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t405",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "управляется методом",
+   "object": "metod-konechnye-avtomaty",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t406",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "управляется методом",
+   "object": "metod-elektricheskie-shemy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t407",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "управляется методом",
+   "object": "metod-upravlenie-federaciey-modeley",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t408",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "фиксируется конфигурацией",
+   "object": "bazovaya-konfiguraciya-nasosnaya-stanciya-reviziya-b",
+   "sourceId": "src-case",
+   "sourceName": "Пример описания кейса «Насосная станция»",
+   "sourceType": "example",
+   "updatedAt": "2026-10-01"
+  },
+  {
+   "id": "t409",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "прослеживается нитью",
+   "object": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t410",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "содержит соответствие",
+   "object": "sootvetstvie-bpmn-zadacha-ea-funkciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t411",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "содержит соответствие",
+   "object": "sootvetstvie-cad-detal-cae-raschet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t412",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "содержит соответствие",
+   "object": "sootvetstvie-elektricheskoe-soedinenie-cad-dvigatel",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t413",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "содержит находку",
+   "object": "nahodka-iz-avarii-net-perehoda-v-bezopasnoe-sostoyanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t414",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "содержит находку",
+   "object": "nahodka-qf1-otsutstvuet-v-cad-sborke",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t415",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "проверяется правилом",
+   "object": "pravilo-kazhdoe-sostoyanie-imeet-put-v-bezopasnoe-sostoyanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t416",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "проверяется правилом",
+   "object": "pravilo-komponent-shemy-prisutstvuet-v-cad-sborke",
+   "sourceId": "src-rules",
+   "sourceName": "Пример набора правил проверки федерации моделей",
+   "sourceType": "example",
+   "updatedAt": "2026-10-05"
+  },
+  {
+   "id": "t417",
+   "subject": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "predicate": "проверяется правилом",
+   "object": "pravilo-trebovanie-imeet-proslezhivaemost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t418",
+   "subject": "trebovanie-bezopasnaya-ostanovka",
+   "predicate": "предъявляется к федерации",
+   "object": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "sourceId": "src-case",
+   "sourceName": "Пример описания кейса «Насосная станция»",
+   "sourceType": "example",
+   "updatedAt": "2026-10-01"
+  },
+  {
+   "id": "t419",
+   "subject": "vopros-kakie-modeli-predstavlyayut-sistemu",
+   "predicate": "задаёт границы федерации",
+   "object": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t420",
+   "subject": "utverzhdenie-bezopasnaya-ostanovka-obyazatelna",
+   "predicate": "имеет режим",
+   "object": "deonticheskiy-rezhim",
+   "sourceId": "src-modal",
+   "sourceName": "Пример реестра модальных утверждений федерации моделей",
+   "sourceType": "example",
+   "updatedAt": "2026-10-25"
+  },
+  {
+   "id": "t421",
+   "subject": "utverzhdenie-bez-puti-v-bezopasnoe-sostoyanie-avariya-nedopustima",
+   "predicate": "имеет режим",
+   "object": "aleticheskiy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t422",
+   "subject": "utverzhdenie-qf1-dolzhen-byt-v-cad-sborke",
+   "predicate": "имеет режим",
+   "object": "deonticheskiy-rezhim",
+   "sourceId": "src-modal",
+   "sourceName": "Пример реестра модальных утверждений федерации моделей",
+   "sourceType": "example",
+   "updatedAt": "2026-10-25"
+  },
+  {
+   "id": "t423",
+   "subject": "utverzhdenie-sootvetstvie-bpmn-ea-podtverzhdeno",
+   "predicate": "имеет режим",
+   "object": "epistemicheskiy-rezhim",
+   "sourceId": "src-modal",
+   "sourceName": "Пример реестра модальных утверждений федерации моделей",
+   "sourceType": "example",
+   "updatedAt": "2026-10-25"
+  },
+  {
+   "id": "t424",
+   "subject": "utverzhdenie-federaciya-cenna-dlya-ekspluatacii",
+   "predicate": "имеет режим",
+   "object": "aksiologicheskiy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t425",
+   "subject": "utverzhdenie-rabochaya-federaciya-deystvuet-do-revizii-c",
+   "predicate": "имеет режим",
+   "object": "temporalnyy-rezhim",
+   "sourceId": "src-modal",
+   "sourceName": "Пример реестра модальных утверждений федерации моделей",
+   "sourceType": "example",
+   "updatedAt": "2026-10-25"
+  },
+  {
+   "id": "t426",
+   "subject": "utverzhdenie-bezopasnaya-ostanovka-obyazatelna",
+   "predicate": "квалифицирует требование",
+   "object": "trebovanie-bezopasnaya-ostanovka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t427",
+   "subject": "utverzhdenie-bez-puti-v-bezopasnoe-sostoyanie-avariya-nedopustima",
+   "predicate": "квалифицирует находку",
+   "object": "nahodka-iz-avarii-net-perehoda-v-bezopasnoe-sostoyanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t428",
+   "subject": "utverzhdenie-qf1-dolzhen-byt-v-cad-sborke",
+   "predicate": "квалифицирует находку",
+   "object": "nahodka-qf1-otsutstvuet-v-cad-sborke",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t429",
+   "subject": "utverzhdenie-sootvetstvie-bpmn-ea-podtverzhdeno",
+   "predicate": "квалифицирует соответствие",
+   "object": "sootvetstvie-bpmn-zadacha-ea-funkciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t430",
+   "subject": "utverzhdenie-federaciya-cenna-dlya-ekspluatacii",
+   "predicate": "квалифицирует федерацию",
+   "object": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t431",
+   "subject": "utverzhdenie-rabochaya-federaciya-deystvuet-do-revizii-c",
+   "predicate": "квалифицирует федерацию",
+   "object": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  }
+ ]
+}

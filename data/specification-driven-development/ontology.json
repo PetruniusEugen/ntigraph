@@ -1,0 +1,769 @@
+{
+ "classes": [
+  {
+   "code": "Specification",
+   "name": "Спецификация",
+   "comment": "Формальное описание того, что должна делать система: набор требований, критериев приёмки и контрактов, из которого порождаются тесты и код.",
+   "attributes": [
+    {
+     "code": "specId",
+     "name": "идентификатор",
+     "type": "string",
+     "comment": "Идентификатор спецификации в репозитории."
+    },
+    {
+     "code": "format",
+     "name": "формат",
+     "type": "string",
+     "comment": "Формат описания: OpenAPI, AsyncAPI, Gherkin, Markdown и т. п."
+    },
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Версия спецификации."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SPEC",
+     "name": "Спецификации и требования"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Requirement",
+   "name": "Требование",
+   "comment": "Функциональное или нефункциональное требование к системе, которое должно быть отражено в спецификации и проверено тестами.",
+   "attributes": [
+    {
+     "code": "reqId",
+     "name": "идентификатор",
+     "type": "string",
+     "comment": "Идентификатор требования в реестре."
+    },
+    {
+     "code": "priority",
+     "name": "приоритет",
+     "type": "string",
+     "comment": "Приоритет: низкий, средний, высокий."
+    },
+    {
+     "code": "reqType",
+     "name": "тип",
+     "type": "string",
+     "comment": "Тип требования: функциональное, нефункциональное, ограничение."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SPEC",
+     "name": "Спецификации и требования"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "EarsStatement",
+   "name": "EARS-формулировка",
+   "comment": "Требование, записанное по синтаксису EARS: с явным паттерном, триггером, предусловием, опциональной функцией и откликом системы.",
+   "attributes": [
+    {
+     "code": "statementId",
+     "name": "идентификатор",
+     "type": "string",
+     "comment": "Идентификатор формулировки, например EARS-001."
+    },
+    {
+     "code": "text",
+     "name": "текст",
+     "type": "string",
+     "comment": "Текст формулировки по одному из паттернов EARS."
+    },
+    {
+     "code": "patternType",
+     "name": "тип паттерна",
+     "type": "string",
+     "comment": "Ubiquitous, Event-driven, State-driven, Unwanted, Optional, Complex."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "EARS",
+     "name": "EARS-формулировки требований"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "EarsPattern",
+   "name": "Паттерн EARS",
+   "comment": "Один из канонических паттернов EARS: вездесущее, событийно-управляемое, состояние-управляемое, нежелательное поведение, опциональная функция, комплексное.",
+   "attributes": [
+    {
+     "code": "patternCode",
+     "name": "код паттерна",
+     "type": "string",
+     "comment": "UBIQ, EVENT, STATE, UNWANTED, OPTION, COMPLEX."
+    },
+    {
+     "code": "template",
+     "name": "шаблон",
+     "type": "string",
+     "comment": "Шаблон формулировки с плейсхолдерами."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "EARS",
+     "name": "EARS-формулировки требований"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Trigger",
+   "name": "Триггер",
+   "comment": "Событие или внешнее воздействие, при наступлении которого система должна отреагировать (часть паттерна Event-driven).",
+   "attributes": [
+    {
+     "code": "triggerType",
+     "name": "тип триггера",
+     "type": "string",
+     "comment": "Тип: запрос, сообщение, таймер, изменение данных."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "EARS",
+     "name": "EARS-формулировки требований"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Precondition",
+   "name": "Предусловие",
+   "comment": "Состояние или условие, которое должно быть истинно для применения отклика (части паттернов State-driven, Unwanted, Optional).",
+   "attributes": [
+    {
+     "code": "condition",
+     "name": "условие",
+     "type": "string",
+     "comment": "Формальное описание условия."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "EARS",
+     "name": "EARS-формулировки требований"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SystemResponse",
+   "name": "Отклик системы",
+   "comment": "Действие, которое система обязана выполнить в ответ на триггер или при выполнении предусловия.",
+   "attributes": [
+    {
+     "code": "responseText",
+     "name": "описание отклика",
+     "type": "string",
+     "comment": "Что именно должна сделать система."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "EARS",
+     "name": "EARS-формулировки требований"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "FeatureCondition",
+   "name": "Опциональная функция",
+   "comment": "Признак функции или конфигурации, при наличии которого требование применяется (часть паттерна Optional).",
+   "attributes": [
+    {
+     "code": "featureName",
+     "name": "название функции",
+     "type": "string",
+     "comment": "Имя фичи или конфигурационного флага."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "EARS",
+     "name": "EARS-формулировки требований"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "UserStory",
+   "name": "Пользовательская история",
+   "comment": "Краткое описание потребности пользователя, которое декомпозируется в одно или несколько требований.",
+   "attributes": [
+    {
+     "code": "storyId",
+     "name": "идентификатор",
+     "type": "string",
+     "comment": "Идентификатор истории."
+    },
+    {
+     "code": "role",
+     "name": "роль",
+     "type": "string",
+     "comment": "Роль пользователя в истории."
+    },
+    {
+     "code": "goal",
+     "name": "цель",
+     "type": "string",
+     "comment": "Цель пользователя в истории."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SPEC",
+     "name": "Спецификации и требования"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "AcceptanceCriterion",
+   "name": "Критерий приёмки",
+   "comment": "Проверяемое условие, при выполнении которого требование считается реализованным.",
+   "attributes": [
+    {
+     "code": "text",
+     "name": "текст",
+     "type": "string",
+     "comment": "Формулировка критерия приёмки."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус: черновик, утверждён, устарел."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SPEC",
+     "name": "Спецификации и требования"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ApiContract",
+   "name": "API-контракт",
+   "comment": "Машиночитаемое описание интерфейса (OpenAPI, AsyncAPI, gRPC), порождаемое спецификацией.",
+   "attributes": [
+    {
+     "code": "endpoint",
+     "name": "эндпоинт",
+     "type": "string",
+     "comment": "Основной эндпоинт контракта."
+    },
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Версия контракта."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SPEC",
+     "name": "Спецификации и требования"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ChangeRequest",
+   "name": "Запрос на изменение",
+   "comment": "Предложение изменить спецификацию или требование; запускает цикл согласования и влияет на код, тесты и релиз.",
+   "attributes": [
+    {
+     "code": "crId",
+     "name": "идентификатор",
+     "type": "string",
+     "comment": "Идентификатор запроса на изменение."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус: предложен, согласован, отклонён, внедрён."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SPEC",
+     "name": "Спецификации и требования"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Test",
+   "name": "Тест",
+   "comment": "Автоматическая или ручная проверка, верифицирующая требование, критерий приёмки или EARS-формулировку.",
+   "attributes": [
+    {
+     "code": "testType",
+     "name": "тип теста",
+     "type": "string",
+     "comment": "Тип: модульный, интеграционный, e2e, контрактный."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус: проходит, падает, пропущен."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "VERIF",
+     "name": "Верификация и тестирование"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Defect",
+   "name": "Дефект",
+   "comment": "Обнаруженное несоответствие поведения системы требованию или спецификации.",
+   "attributes": [
+    {
+     "code": "severity",
+     "name": "серьёзность",
+     "type": "string",
+     "comment": "Серьёзность: низкая, средняя, высокая, блокирующая."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус: открыт, в работе, исправлен, закрыт."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "VERIF",
+     "name": "Верификация и тестирование"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CodeModule",
+   "name": "Модуль кода",
+   "comment": "Единица исходного кода, реализующая спецификацию и удовлетворяющая требованиям.",
+   "attributes": [
+    {
+     "code": "language",
+     "name": "язык",
+     "type": "string",
+     "comment": "Язык программирования."
+    },
+    {
+     "code": "repoPath",
+     "name": "путь в репозитории",
+     "type": "string",
+     "comment": "Путь к модулю в репозитории."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "IMPL",
+     "name": "Реализация и код"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "PullRequest",
+   "name": "Pull Request",
+   "comment": "Предложение изменить код, проходящее ревью и автоматические проверки.",
+   "attributes": [
+    {
+     "code": "prNumber",
+     "name": "номер",
+     "type": "string",
+     "comment": "Номер pull request'а."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус: открыт, смёржен, закрыт."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "IMPL",
+     "name": "Реализация и код"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Developer",
+   "name": "Разработчик",
+   "comment": "Участник процесса разработки: автор изменений, ревьюер, автор запроса на изменение.",
+   "attributes": [
+    {
+     "code": "fullName",
+     "name": "ФИО",
+     "type": "string",
+     "comment": "Полное имя."
+    },
+    {
+     "code": "role",
+     "name": "роль",
+     "type": "string",
+     "comment": "Роль: разработчик, ревьюер, техлид."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "IMPL",
+     "name": "Реализация и код"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Build",
+   "name": "Сборка",
+   "comment": "Запуск CI-пайплайна, который собирает код, прогоняет тесты и создаёт артефакт.",
+   "attributes": [
+    {
+     "code": "buildId",
+     "name": "идентификатор",
+     "type": "string",
+     "comment": "Идентификатор сборки."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус: успешно, падает, отменено."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DELIV",
+     "name": "Поставка и релизы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Artifact",
+   "name": "Артефакт",
+   "comment": "Собранный и версионированный результат сборки, пригодный для развёртывания.",
+   "attributes": [
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Версия артефакта."
+    },
+    {
+     "code": "digest",
+     "name": "digest",
+     "type": "string",
+     "comment": "Контрольная сумма артефакта."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DELIV",
+     "name": "Поставка и релизы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Release",
+   "name": "Релиз",
+   "comment": "Поставка одного или нескольких артефактов в целевые окружения под общим номером версии.",
+   "attributes": [
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Версия релиза."
+    },
+    {
+     "code": "date",
+     "name": "дата",
+     "type": "date",
+     "comment": "Дата релиза."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DELIV",
+     "name": "Поставка и релизы"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "specifies",
+   "name": "специфицирует",
+   "comment": "Спецификация формализует требование.",
+   "fromClass": "Specification",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "decomposesTo",
+   "name": "декомпозируется в",
+   "comment": "Пользовательская история раскрывается через требование.",
+   "fromClass": "UserStory",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "hasAcceptanceCriterion",
+   "name": "имеет критерий приёмки",
+   "comment": "Спецификация содержит критерий приёмки.",
+   "fromClass": "Specification",
+   "toClass": "AcceptanceCriterion"
+  },
+  {
+   "code": "definesApi",
+   "name": "определяет API",
+   "comment": "Спецификация порождает API-контракт.",
+   "fromClass": "Specification",
+   "toClass": "ApiContract"
+  },
+  {
+   "code": "modifiesSpecification",
+   "name": "изменяет спецификацию",
+   "comment": "Запрос на изменение предлагает правку спецификации.",
+   "fromClass": "ChangeRequest",
+   "toClass": "Specification"
+  },
+  {
+   "code": "requestedBy",
+   "name": "запрошен",
+   "comment": "Запрос на изменение подан разработчиком.",
+   "fromClass": "ChangeRequest",
+   "toClass": "Developer"
+  },
+  {
+   "code": "formalizes",
+   "name": "формализует",
+   "comment": "EARS-формулировка формализует требование в терминах паттерна, триггера и отклика.",
+   "fromClass": "EarsStatement",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "followsPattern",
+   "name": "следует паттерну",
+   "comment": "EARS-формулировка построена по одному из канонических паттернов EARS.",
+   "fromClass": "EarsStatement",
+   "toClass": "EarsPattern"
+  },
+  {
+   "code": "hasTrigger",
+   "name": "имеет триггер",
+   "comment": "EARS-формулировка срабатывает по указанному триггеру (паттерн Event-driven).",
+   "fromClass": "EarsStatement",
+   "toClass": "Trigger"
+  },
+  {
+   "code": "hasPrecondition",
+   "name": "имеет предусловие",
+   "comment": "EARS-формулировка применяется при выполнении предусловия (State-driven, Unwanted).",
+   "fromClass": "EarsStatement",
+   "toClass": "Precondition"
+  },
+  {
+   "code": "hasFeatureCondition",
+   "name": "имеет условие функции",
+   "comment": "EARS-формулировка применяется при наличии опциональной функции (паттерн Optional).",
+   "fromClass": "EarsStatement",
+   "toClass": "FeatureCondition"
+  },
+  {
+   "code": "hasResponse",
+   "name": "имеет отклик",
+   "comment": "EARS-формулировка задаёт обязательный отклик системы.",
+   "fromClass": "EarsStatement",
+   "toClass": "SystemResponse"
+  },
+  {
+   "code": "verifiesEars",
+   "name": "верифицирует EARS",
+   "comment": "Тест проверяет выполнение EARS-формулировки.",
+   "fromClass": "Test",
+   "toClass": "EarsStatement"
+  },
+  {
+   "code": "specGapIn",
+   "name": "пробел в EARS",
+   "comment": "Дефект вызван пробелом или неоднозначностью в EARS-формулировке.",
+   "fromClass": "Defect",
+   "toClass": "EarsStatement"
+  },
+  {
+   "code": "verifies",
+   "name": "верифицирует",
+   "comment": "Тест проверяет выполнение требования.",
+   "fromClass": "Test",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "checksCriterion",
+   "name": "проверяет критерий",
+   "comment": "Тест проверяет критерий приёмки.",
+   "fromClass": "Test",
+   "toClass": "AcceptanceCriterion"
+  },
+  {
+   "code": "violatesRequirement",
+   "name": "нарушает требование",
+   "comment": "Дефект нарушает требование.",
+   "fromClass": "Defect",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "foundInCode",
+   "name": "найден в коде",
+   "comment": "Дефект локализован в модуле кода.",
+   "fromClass": "Defect",
+   "toClass": "CodeModule"
+  },
+  {
+   "code": "causedBySpecGap",
+   "name": "вызван пробелом в спецификации",
+   "comment": "Корневая причина дефекта — неполнота спецификации.",
+   "fromClass": "Defect",
+   "toClass": "Specification"
+  },
+  {
+   "code": "implementsSpecification",
+   "name": "реализует спецификацию",
+   "comment": "Модуль кода реализует спецификацию.",
+   "fromClass": "CodeModule",
+   "toClass": "Specification"
+  },
+  {
+   "code": "satisfiesRequirement",
+   "name": "удовлетворяет требованию",
+   "comment": "Модуль кода обеспечивает выполнение требования.",
+   "fromClass": "CodeModule",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "changesCode",
+   "name": "изменяет код",
+   "comment": "Pull request изменяет модуль кода.",
+   "fromClass": "PullRequest",
+   "toClass": "CodeModule"
+  },
+  {
+   "code": "authoredBy",
+   "name": "автор",
+   "comment": "Автор pull request'а.",
+   "fromClass": "PullRequest",
+   "toClass": "Developer"
+  },
+  {
+   "code": "approvedBy",
+   "name": "согласовал",
+   "comment": "Ревьюер, согласовавший pull request.",
+   "fromClass": "PullRequest",
+   "toClass": "Developer"
+  },
+  {
+   "code": "triggersBuild",
+   "name": "запускает сборку",
+   "comment": "Pull request запускает CI-сборку.",
+   "fromClass": "PullRequest",
+   "toClass": "Build"
+  },
+  {
+   "code": "runsTest",
+   "name": "запускает тест",
+   "comment": "Сборка прогоняет тест.",
+   "fromClass": "Build",
+   "toClass": "Test"
+  },
+  {
+   "code": "producesArtifact",
+   "name": "создаёт артефакт",
+   "comment": "Сборка порождает артефакт.",
+   "fromClass": "Build",
+   "toClass": "Artifact"
+  },
+  {
+   "code": "partOfRelease",
+   "name": "входит в релиз",
+   "comment": "Артефакт включён в релиз.",
+   "fromClass": "Artifact",
+   "toClass": "Release"
+  }
+ ],
+ "info": {
+  "description": "Онтология описывает контур Specification-Driven Development с формализацией требований по синтаксису EARS. Спецификация — источник истины; каждое требование формализуется одной или несколькими EARS-формулировками, каждая из которых следует одному из канонических паттернов (вездесущее, событийно-управляемое, состояние-управляемое, нежелательное поведение, опциональная функция, комплексное) и раскрывается через триггер, предусловие, условие функции и отклик системы. EARS-формулировки верифицируются тестами, реализуются модулями кода, попадают в сборки, артефакты и релизы. Граф позволяет трассировать путь «спецификация → EARS → требование → тест → код → артефакт → релиз», выявлять пробелы в формулировках, ставшие причиной дефектов, и обосновывать выбор паттерна EARS для спорных требований.",
+  "scope": [
+   "Спецификации: спецификации, требования, пользовательские истории, критерии приёмки и API-контракты",
+   "EARS: паттерны EARS, EARS-формулировки, триггеры, предусловия, опциональные функции и отклики системы",
+   "Верификация: тесты, дефекты, их связь с требованиями, EARS-формулировками и корневыми пробелами в спецификации",
+   "Реализация: модули кода, pull request'ы, разработчики и ревьюеры",
+   "Поставка: сборки, артефакты и релизы, в которые попадают изменения"
+  ],
+  "competencyQuestions": [
+   "Какие EARS-формулировки формализуют заданное требование и по какому паттерну они построены?",
+   "Какие требования покрыты спецификацией и какие тесты их верифицируют?",
+   "Какие EARS-формулировки верифицируются заданным тестом?",
+   "Какие дефекты вызваны пробелами в EARS-формулировках?",
+   "Какие модули кода реализуют заданную спецификацию и удовлетворяют её требованиям?",
+   "Какие артефакты входят в релиз и какие тесты были прогнаны в их сборке?",
+   "Какой паттерн EARS выбрать для требования: событийно-управляемый, состояние-управляемый или нежелательное поведение?",
+   "Что произойдёт с релизом, если дефект не будет исправлен, и какие EARS-формулировки придётся пересмотреть?"
+  ]
+ },
+ "theme": [
+  {
+   "code": "SPEC",
+   "name": "Спецификации и требования",
+   "color": "#60a5fa"
+  },
+  {
+   "code": "EARS",
+   "name": "EARS-формулировки требований",
+   "color": "#f472b6"
+  },
+  {
+   "code": "VERIF",
+   "name": "Верификация и тестирование",
+   "color": "#34d399"
+  },
+  {
+   "code": "IMPL",
+   "name": "Реализация и код",
+   "color": "#fbbf24"
+  },
+  {
+   "code": "DELIV",
+   "name": "Поставка и релизы",
+   "color": "#a78bfa"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "entities": [
+  {
+   "id": "1s-buhgalteriya",
+   "label": "1С:Бухгалтерия",
+   "classCode": "ProblemObject"
+  },
+  {
+   "id": "vvod-rezervnogo-servera-bd",
+   "label": "Ввод резервного сервера БД",
+   "classCode": "Solution"
+  },
+  {
+   "id": "dolya-braka-za-smenu",
+   "label": "Доля брака за смену",
+   "classCode": "Indicator"
+  },
+  {
+   "id": "dolya-braka-ne-bolee-1-5",
+   "label": "Доля брака не более 1,5%",
+   "classCode": "Requirement"
+  },
+  {
+   "id": "dostupnost-1s-za-mesyac",
+   "label": "Доступность 1С за месяц",
+   "classCode": "Indicator"
+  },
+  {
+   "id": "ezhednevnoe-rezervnoe-kopirovanie",
+   "label": "Ежедневное резервное копирование",
+   "classCode": "Solution"
+  },
+  {
+   "id": "zamena-press-formy",
+   "label": "Замена пресс-формы",
+   "classCode": "Solution"
+  },
+  {
+   "id": "ivanov-i-i",
+   "label": "Иванов И.И.",
+   "classCode": "Actor"
+  },
+  {
+   "id": "iznos-press-formy",
+   "label": "Износ пресс-формы",
+   "classCode": "Cause"
+  },
+  {
+   "id": "class-indikator",
+   "label": "Индикатор",
+   "classCode": "Indicator",
+   "isClass": true
+  },
+  {
+   "id": "class-incident",
+   "label": "Инцидент",
+   "classCode": "Incident",
+   "isClass": true
+  },
+  {
+   "id": "incident-nedostupnost-1s-2-chasa",
+   "label": "Инцидент: недоступность 1С 2 часа",
+   "classCode": "Incident"
+  },
+  {
+   "id": "class-obekt-problemy",
+   "label": "Объект проблемы",
+   "classCode": "ProblemObject",
+   "isClass": true
+  },
+  {
+   "id": "ostanovka-ucheta-i-otchetnosti",
+   "label": "Остановка учёта и отчётности",
+   "classCode": "Consequence"
+  },
+  {
+   "id": "otkaz-diska-servera-bd-01",
+   "label": "Отказ диска Сервера БД-01",
+   "classCode": "Cause"
+  },
+  {
+   "id": "otsutstvie-rezervnogo-servera-bd",
+   "label": "Отсутствие резервного сервера БД",
+   "classCode": "Cause"
+  },
+  {
+   "id": "class-posledstvie",
+   "label": "Последствие",
+   "classCode": "Consequence",
+   "isClass": true
+  },
+  {
+   "id": "class-prichina",
+   "label": "Причина",
+   "classCode": "Cause",
+   "isClass": true
+  },
+  {
+   "id": "class-problema",
+   "label": "Проблема",
+   "classCode": "Problem",
+   "isClass": true
+  },
+  {
+   "id": "proizvodstvennaya-liniya-2",
+   "label": "Производственная линия №2",
+   "classCode": "ProblemObject"
+  },
+  {
+   "id": "prostoy-1s-iz-za-otkaza-servera-bd-01",
+   "label": "Простой 1С из-за отказа Сервера БД-01",
+   "classCode": "Problem"
+  },
+  {
+   "id": "class-reshenie",
+   "label": "Решение",
+   "classCode": "Solution",
+   "isClass": true
+  },
+  {
+   "id": "class-risk",
+   "label": "Риск",
+   "classCode": "Risk",
+   "isClass": true
+  },
+  {
+   "id": "risk-prostoya-buhgalterii",
+   "label": "Риск простоя бухгалтерии",
+   "classCode": "Risk"
+  },
+  {
+   "id": "rost-braka-na-linii-2",
+   "label": "Рост брака на линии №2",
+   "classCode": "Problem"
+  },
+  {
+   "id": "sidorov-p-p",
+   "label": "Сидоров П.П.",
+   "classCode": "Actor"
+  },
+  {
+   "id": "sryv-otgruzki-zakaza",
+   "label": "Срыв отгрузки заказа",
+   "classCode": "Consequence"
+  },
+  {
+   "id": "class-trebovanie",
+   "label": "Требование",
+   "classCode": "Requirement",
+   "isClass": true
+  },
+  {
+   "id": "class-uchastnik",
+   "label": "Участник",
+   "classCode": "Actor",
+   "isClass": true
+  },
+  {
+   "id": "celevaya-dostupnost-1s-ne-nizhe-99-5",
+   "label": "Целевая доступность 1С не ниже 99,5%",
+   "classCode": "Requirement"
+  }
+ ]
+}

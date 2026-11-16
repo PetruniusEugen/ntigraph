@@ -1,0 +1,3264 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "lms-moodle",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t002",
+   "subject": "lms-moodle",
+   "predicate": "имеет тип артефакта",
+   "object": "cifrovoy",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t003",
+   "subject": "lms-moodle",
+   "predicate": "имеет уровень доступности",
+   "object": "vseobschiy",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t004",
+   "subject": "avtovladelec",
+   "predicate": "имеет габитус",
+   "object": "zavisimost-ot-avtomobilya",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t005",
+   "subject": "avtovladelec",
+   "predicate": "имеет тип",
+   "object": "class-aktor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t006",
+   "subject": "avtovladelec",
+   "predicate": "имеет тип актора",
+   "object": "gruppa",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t007",
+   "subject": "avtovladelec",
+   "predicate": "принадлежит общности",
+   "object": "avtolyubiteli",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t008",
+   "subject": "avtovladelec",
+   "predicate": "принадлежит общности",
+   "object": "gorodskoy-zhitel",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t009",
+   "subject": "avtolyubiteli",
+   "predicate": "имеет тип",
+   "object": "class-obschnost",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t010",
+   "subject": "algoritmicheskoe-zakreplenie-rekomendatelnye-sistemy-avtoplatezhi-push-uvedomleniya",
+   "predicate": "имеет тип",
+   "object": "class-mehanizm-vosproizvodstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t011",
+   "subject": "bazovyy-navyk-sortirovki",
+   "predicate": "имеет тип",
+   "object": "class-kompetencii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t012",
+   "subject": "biblioteka",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t013",
+   "subject": "biblioteka",
+   "predicate": "имеет тип артефакта",
+   "object": "fizicheskiy",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t014",
+   "subject": "vnedrit-novyy-diskursivnyy-freym",
+   "predicate": "имеет тип",
+   "object": "class-mehanizm-vmeshatelstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t015",
+   "subject": "vozhdenie-avtomobilya",
+   "predicate": "имеет тип",
+   "object": "class-kompetencii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t016",
+   "subject": "vseobschiy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-dostupnosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t017",
+   "subject": "vyrazhenie-identichnosti",
+   "predicate": "имеет тип мотивации",
+   "object": "socialnaya-identichnostnaya-motivaciya-prinadlezhnost-status",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t018",
+   "subject": "vyrazhenie-identichnosti",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t019",
+   "subject": "vysokiy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-agentnosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t020",
+   "subject": "vysokiy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-ustoychivosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t021",
+   "subject": "vysshee-obrazovanie",
+   "predicate": "встроена в поле",
+   "object": "pole-vysshego-obrazovaniya",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t022",
+   "subject": "vysshee-obrazovanie",
+   "predicate": "имеет временной паттерн",
+   "object": "semestrovyy-cikl",
+   "sourceId": "reg-edu",
+   "sourceName": "Регламент образовательной программы",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-10"
+  },
+  {
+   "id": "t023",
+   "subject": "vysshee-obrazovanie",
+   "predicate": "имеет дискурсивное измерение",
+   "object": "vysshee-obrazovanie-kak-investiciya-v-buduschee",
+   "sourceId": "interview",
+   "sourceName": "Интервью с преподавателями",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-05-30"
+  },
+  {
+   "id": "t024",
+   "subject": "vysshee-obrazovanie",
+   "predicate": "имеет дискурсивное измерение",
+   "object": "dostupnost-vysshego-obrazovaniya-dlya-vseh",
+   "sourceId": "interview",
+   "sourceName": "Интервью с преподавателями",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-05-30"
+  },
+  {
+   "id": "t025",
+   "subject": "vysshee-obrazovanie",
+   "predicate": "имеет материальную инфраструктуру",
+   "object": "lms-moodle",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t026",
+   "subject": "vysshee-obrazovanie",
+   "predicate": "имеет материальную инфраструктуру",
+   "object": "biblioteka",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t027",
+   "subject": "vysshee-obrazovanie",
+   "predicate": "имеет материальную инфраструктуру",
+   "object": "uchebnyy-korpus",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t028",
+   "subject": "vysshee-obrazovanie",
+   "predicate": "имеет механизм воспроизводства",
+   "object": "institucionalnoe-regulirovanie-standarty-zakony-tehnicheskie-reglamenty",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t029",
+   "subject": "vysshee-obrazovanie",
+   "predicate": "имеет механизм воспроизводства",
+   "object": "neformalnaya-socializaciya-nablyudenie-imitaciya-korrekciya",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t030",
+   "subject": "vysshee-obrazovanie",
+   "predicate": "имеет механизм воспроизводства",
+   "object": "formalnoe-obuchenie-v-obrazovatelnyh-uchrezhdeniyah-shkoly-vuzy-kursy",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t031",
+   "subject": "vysshee-obrazovanie",
+   "predicate": "имеет нормативную конвенцию",
+   "object": "diplom",
+   "sourceId": "fgos",
+   "sourceName": "ФГОС ВО и нормативка вуза",
+   "sourceType": "НПА",
+   "updatedAt": "2026-03-20"
+  },
+  {
+   "id": "t032",
+   "subject": "vysshee-obrazovanie",
+   "predicate": "имеет нормативную конвенцию",
+   "object": "znanie",
+   "sourceId": "fgos",
+   "sourceName": "ФГОС ВО и нормативка вуза",
+   "sourceType": "НПА",
+   "updatedAt": "2026-03-20"
+  },
+  {
+   "id": "t033",
+   "subject": "vysshee-obrazovanie",
+   "predicate": "имеет нормативную конвенцию",
+   "object": "prestizh",
+   "sourceId": "fgos",
+   "sourceName": "ФГОС ВО и нормативка вуза",
+   "sourceType": "НПА",
+   "updatedAt": "2026-03-20"
+  },
+  {
+   "id": "t034",
+   "subject": "vysshee-obrazovanie",
+   "predicate": "имеет тип",
+   "object": "class-socialnaya-praktika",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t035",
+   "subject": "vysshee-obrazovanie",
+   "predicate": "имеет уровень устойчивости",
+   "object": "vysokiy",
+   "sourceId": "reg-edu",
+   "sourceName": "Регламент образовательной программы",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-10"
+  },
+  {
+   "id": "t036",
+   "subject": "vysshee-obrazovanie-kak-investiciya-v-buduschee",
+   "predicate": "имеет тип",
+   "object": "class-diskursivnaya-formaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t037",
+   "subject": "vysshee-obrazovanie",
+   "predicate": "конкурирует с практикой",
+   "object": "srednee-professionalnoe-obrazovanie",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t038",
+   "subject": "gibridnyy",
+   "predicate": "имеет тип",
+   "object": "class-tip-artefakta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t039",
+   "subject": "gorodskaya-mobilnost",
+   "predicate": "имеет тип",
+   "object": "class-socialnoe-pole",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t040",
+   "subject": "gorodskaya-programma",
+   "predicate": "имеет тип",
+   "object": "class-vmeshatelstvo",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t041",
+   "subject": "gorodskaya-programma",
+   "predicate": "использует механизм",
+   "object": "vnedrit-novyy-diskursivnyy-freym",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t042",
+   "subject": "gorodskaya-programma",
+   "predicate": "использует механизм",
+   "object": "izmenit-materialnuyu-infrastrukturu",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t043",
+   "subject": "gorodskaya-programma",
+   "predicate": "использует механизм",
+   "object": "predostavit-stimuly",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t044",
+   "subject": "gorodskaya-programma",
+   "predicate": "направлено на",
+   "object": "sposobstvovat-perehodu",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t045",
+   "subject": "gorodskoy-zhitel",
+   "predicate": "имеет тип",
+   "object": "class-obschnost",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t046",
+   "subject": "gotovye-zavtraki-eto-sovremennoe-reshenie-dlya-zanyatyh-lyudey",
+   "predicate": "имеет тип",
+   "object": "class-diskursivnaya-formaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t047",
+   "subject": "gotovye-zavtraki-eto-ekonomiya-vremeni-i-sil",
+   "predicate": "имеет тип",
+   "object": "class-diskursivnaya-formaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t048",
+   "subject": "gruppa",
+   "predicate": "имеет тип",
+   "object": "class-tip-aktora",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t049",
+   "subject": "destabilizaciya",
+   "predicate": "имеет тип",
+   "object": "class-faza-transformacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t050",
+   "subject": "destabilizirovat-praktiku",
+   "predicate": "имеет тип",
+   "object": "class-cel-vmeshatelstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t051",
+   "subject": "diplom",
+   "predicate": "имеет тип",
+   "object": "class-normativnaya-konvenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t052",
+   "subject": "diffuziya",
+   "predicate": "имеет тип",
+   "object": "class-faza-transformacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t053",
+   "subject": "dostupnost-vysshego-obrazovaniya-dlya-vseh",
+   "predicate": "имеет тип",
+   "object": "class-diskursivnaya-formaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t054",
+   "subject": "ezhednevno-07-00-07-30",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-pattern",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t055",
+   "subject": "ezhednevnoe-prigotovlenie-zavtraka",
+   "predicate": "имеет дискурсивное измерение",
+   "object": "zavtrak-eto-osnovnoy-priem-pischi",
+   "sourceId": "interview",
+   "sourceName": "Интервью с преподавателями",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-05-30"
+  },
+  {
+   "id": "t056",
+   "subject": "ezhednevnoe-prigotovlenie-zavtraka",
+   "predicate": "имеет дискурсивное измерение",
+   "object": "zdorovyy-zavtrak-vazhen",
+   "sourceId": "interview",
+   "sourceName": "Интервью с преподавателями",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-05-30"
+  },
+  {
+   "id": "t057",
+   "subject": "ezhednevnoe-prigotovlenie-zavtraka",
+   "predicate": "имеет материальную инфраструктуру",
+   "object": "kofemashina",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t058",
+   "subject": "ezhednevnoe-prigotovlenie-zavtraka",
+   "predicate": "имеет материальную инфраструктуру",
+   "object": "plita",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t059",
+   "subject": "ezhednevnoe-prigotovlenie-zavtraka",
+   "predicate": "имеет материальную инфраструктуру",
+   "object": "produkty",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t060",
+   "subject": "ezhednevnoe-prigotovlenie-zavtraka",
+   "predicate": "имеет материальную инфраструктуру",
+   "object": "holodilnik",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t061",
+   "subject": "ezhednevnoe-prigotovlenie-zavtraka",
+   "predicate": "имеет нормативную конвенцию",
+   "object": "komfort",
+   "sourceId": "fgos",
+   "sourceName": "ФГОС ВО и нормативка вуза",
+   "sourceType": "НПА",
+   "updatedAt": "2026-03-20"
+  },
+  {
+   "id": "t062",
+   "subject": "ezhednevnoe-prigotovlenie-zavtraka",
+   "predicate": "имеет нормативную конвенцию",
+   "object": "udobstvo",
+   "sourceId": "fgos",
+   "sourceName": "ФГОС ВО и нормативка вуза",
+   "sourceType": "НПА",
+   "updatedAt": "2026-03-20"
+  },
+  {
+   "id": "t063",
+   "subject": "ezhednevnoe-prigotovlenie-zavtraka",
+   "predicate": "имеет тип",
+   "object": "class-socialnaya-praktika",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t064",
+   "subject": "ezhednevno",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-pattern",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t065",
+   "subject": "zabota-o-seme",
+   "predicate": "имеет тип мотивации",
+   "object": "cennostnaya-normativnaya-motivaciya-sootvetstvie-ubezhdeniyam",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t066",
+   "subject": "zabota-o-seme",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t067",
+   "subject": "zavisimost-ot-avtomobilya",
+   "predicate": "имеет тип",
+   "object": "class-gabitus",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t068",
+   "subject": "zavisimost-ot-avtomobilya",
+   "predicate": "совместим с практикой",
+   "object": "lichnyy-avtomobil",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t069",
+   "subject": "zavtrak-eto-osnovnoy-priem-pischi",
+   "predicate": "имеет тип",
+   "object": "class-diskursivnaya-formaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t070",
+   "subject": "zapusk-marketingovoy-kampanii-po-populyarizacii-gotovyh-zavtrakov",
+   "predicate": "имеет тип",
+   "object": "class-vmeshatelstvo",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t071",
+   "subject": "zapusk-marketingovoy-kampanii-po-populyarizacii-gotovyh-zavtrakov",
+   "predicate": "использует механизм",
+   "object": "vnedrit-novyy-diskursivnyy-freym",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t072",
+   "subject": "zapusk-marketingovoy-kampanii-po-populyarizacii-gotovyh-zavtrakov",
+   "predicate": "использует механизм",
+   "object": "izmenit-materialnuyu-infrastrukturu",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t073",
+   "subject": "zapusk-marketingovoy-kampanii-po-populyarizacii-gotovyh-zavtrakov",
+   "predicate": "направлено на",
+   "object": "sposobstvovat-perehodu",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t074",
+   "subject": "zdorovyy-zavtrak-vazhen",
+   "predicate": "имеет тип",
+   "object": "class-diskursivnaya-formaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t075",
+   "subject": "znanie",
+   "predicate": "имеет тип",
+   "object": "class-normativnaya-konvenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t076",
+   "subject": "izbezhanie-sankciy",
+   "predicate": "имеет тип мотивации",
+   "object": "instrumentalnaya-motivaciya-dostizhenie-konkretnogo-rezultata",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t077",
+   "subject": "izbezhanie-sankciy",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t078",
+   "subject": "izmenit-materialnuyu-infrastrukturu",
+   "predicate": "имеет тип",
+   "object": "class-mehanizm-vmeshatelstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t079",
+   "subject": "izmenit-pravila",
+   "predicate": "имеет тип",
+   "object": "class-mehanizm-vmeshatelstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t080",
+   "subject": "izobretenie",
+   "predicate": "имеет тип",
+   "object": "class-faza-transformacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t081",
+   "subject": "individ",
+   "predicate": "имеет тип",
+   "object": "class-tip-aktora",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t082",
+   "subject": "institucionalnoe-regulirovanie-standarty-zakony-tehnicheskie-reglamenty",
+   "predicate": "имеет тип",
+   "object": "class-mehanizm-vosproizvodstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t083",
+   "subject": "instrumentalnaya-motivaciya-dostizhenie-konkretnogo-rezultata",
+   "predicate": "имеет тип",
+   "object": "class-tip-motivacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t084",
+   "subject": "komfort",
+   "predicate": "имеет тип",
+   "object": "class-normativnaya-konvenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t085",
+   "subject": "korporativnyy-onboarding-i-mentorstvo",
+   "predicate": "имеет тип",
+   "object": "class-mehanizm-vosproizvodstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t086",
+   "subject": "kofemashina",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t087",
+   "subject": "kulturnyy-kapital",
+   "predicate": "имеет тип",
+   "object": "class-tip-kapitala",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t088",
+   "subject": "lichnyy-avtomobil",
+   "predicate": "встроена в поле",
+   "object": "gorodskaya-mobilnost",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t089",
+   "subject": "lichnyy-avtomobil",
+   "predicate": "имеет дискурсивное измерение",
+   "object": "lichnyy-avtomobil-eto-simvol-svobody-i-nezavisimosti-znak-uspeha-i-socialnogo-statusa",
+   "sourceId": "interview",
+   "sourceName": "Интервью с преподавателями",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-05-30"
+  },
+  {
+   "id": "t090",
+   "subject": "lichnyy-avtomobil",
+   "predicate": "имеет материальную инфраструктуру",
+   "object": "lichnyy-avtomobil-2",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t091",
+   "subject": "lichnyy-avtomobil",
+   "predicate": "имеет материальную инфраструктуру",
+   "object": "parkovochnoe-mesto",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t092",
+   "subject": "lichnyy-avtomobil",
+   "predicate": "имеет механизм воспроизводства",
+   "object": "povtoryayuschayasya-povsednevnaya-rutina-zakreplyayuschayasya-na-urovne-neyronnyh-patternov-privykanie",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t093",
+   "subject": "lichnyy-avtomobil",
+   "predicate": "имеет нормативную конвенцию",
+   "object": "komfort",
+   "sourceId": "fgos",
+   "sourceName": "ФГОС ВО и нормативка вуза",
+   "sourceType": "НПА",
+   "updatedAt": "2026-03-20"
+  },
+  {
+   "id": "t094",
+   "subject": "lichnyy-avtomobil",
+   "predicate": "имеет нормативную конвенцию",
+   "object": "status",
+   "sourceId": "fgos",
+   "sourceName": "ФГОС ВО и нормативка вуза",
+   "sourceType": "НПА",
+   "updatedAt": "2026-03-20"
+  },
+  {
+   "id": "t095",
+   "subject": "lichnyy-avtomobil",
+   "predicate": "имеет нормативную конвенцию",
+   "object": "udobstvo",
+   "sourceId": "fgos",
+   "sourceName": "ФГОС ВО и нормативка вуза",
+   "sourceType": "НПА",
+   "updatedAt": "2026-03-20"
+  },
+  {
+   "id": "t096",
+   "subject": "lichnyy-avtomobil-2",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t097",
+   "subject": "lichnyy-avtomobil-2",
+   "predicate": "имеет тип артефакта",
+   "object": "fizicheskiy",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t098",
+   "subject": "lichnyy-avtomobil",
+   "predicate": "имеет тип",
+   "object": "class-socialnaya-praktika",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t099",
+   "subject": "lichnyy-avtomobil-2",
+   "predicate": "имеет уровень доступности",
+   "object": "ogranichennyy",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t100",
+   "subject": "lichnyy-avtomobil",
+   "predicate": "имеет уровень устойчивости",
+   "object": "vysokiy",
+   "sourceId": "reg-edu",
+   "sourceName": "Регламент образовательной программы",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-10"
+  },
+  {
+   "id": "t101",
+   "subject": "lichnyy-avtomobil",
+   "predicate": "конкурирует с практикой",
+   "object": "obschestvennyy-transport",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t102",
+   "subject": "lichnyy-avtomobil-eto-simvol-svobody-i-nezavisimosti-znak-uspeha-i-socialnogo-statusa",
+   "predicate": "имеет тип",
+   "object": "class-diskursivnaya-formaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t103",
+   "subject": "lyubopytstvo",
+   "predicate": "имеет тип мотивации",
+   "object": "emocionalnaya-gedonisticheskaya-motivaciya-udovolstvie-komfort",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t104",
+   "subject": "lyubopytstvo",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t105",
+   "subject": "magazin",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t106",
+   "subject": "masshtabirovat-innovaciyu",
+   "predicate": "имеет тип",
+   "object": "class-cel-vmeshatelstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t107",
+   "subject": "multimodalnost",
+   "predicate": "имеет тип",
+   "object": "class-gabitus",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t108",
+   "subject": "multimodalnost",
+   "predicate": "совместим с практикой",
+   "object": "obschestvennyy-transport",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t109",
+   "subject": "navigaciya-v-obschestvennyh-mestah",
+   "predicate": "имеет тип",
+   "object": "class-kompetencii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t110",
+   "subject": "navigaciya-na-dorogah",
+   "predicate": "имеет тип",
+   "object": "class-kompetencii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t111",
+   "subject": "neformalnaya-socializaciya-nablyudenie-imitaciya-korrekciya",
+   "predicate": "имеет тип",
+   "object": "class-mehanizm-vosproizvodstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t112",
+   "subject": "nizkiy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-agentnosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t113",
+   "subject": "nizkiy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-ustoychivosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t114",
+   "subject": "normalizaciya",
+   "predicate": "имеет тип",
+   "object": "class-faza-transformacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t115",
+   "subject": "normalizaciya-praktiki-potrebleniya-gotovyh-zavtrakov",
+   "predicate": "имеет тип",
+   "object": "class-process-transformacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t116",
+   "subject": "normalizaciya-praktiki-potrebleniya-gotovyh-zavtrakov",
+   "predicate": "имеет фазу",
+   "object": "normalizaciya",
+   "sourceId": "reg-edu",
+   "sourceName": "Регламент образовательной программы",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-10"
+  },
+  {
+   "id": "t117",
+   "subject": "normalizaciya-praktiki-potrebleniya-gotovyh-zavtrakov",
+   "predicate": "инициирован",
+   "object": "zapusk-marketingovoy-kampanii-po-populyarizacii-gotovyh-zavtrakov",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t118",
+   "subject": "normalizaciya-praktiki-potrebleniya-gotovyh-zavtrakov",
+   "predicate": "исходная практика",
+   "object": "ezhednevnoe-prigotovlenie-zavtraka",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t119",
+   "subject": "normalizaciya-praktiki-potrebleniya-gotovyh-zavtrakov",
+   "predicate": "целевая практика",
+   "object": "potreblenie-gotovyh-zavtrakov",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t120",
+   "subject": "oblegchit-obuchenie",
+   "predicate": "имеет тип",
+   "object": "class-mehanizm-vmeshatelstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t121",
+   "subject": "obuchayuschiysya",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t122",
+   "subject": "obschestvennyy-transport",
+   "predicate": "встроена в поле",
+   "object": "gorodskaya-mobilnost",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t123",
+   "subject": "obschestvennyy-transport",
+   "predicate": "имеет дискурсивное измерение",
+   "object": "razvityy-obschestvennyy-transport-eto-sovremennyy-standart-ekologicheskoy-otvetstvennosti-racionalnogo-ispolzovaniya-vremeni-i-sredstv",
+   "sourceId": "interview",
+   "sourceName": "Интервью с преподавателями",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-05-30"
+  },
+  {
+   "id": "t124",
+   "subject": "obschestvennyy-transport",
+   "predicate": "имеет материальную инфраструктуру",
+   "object": "obschestvennyy-transport-2",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t125",
+   "subject": "obschestvennyy-transport",
+   "predicate": "имеет материальную инфраструктуру",
+   "object": "transportnaya-karta",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t126",
+   "subject": "obschestvennyy-transport",
+   "predicate": "имеет механизм воспроизводства",
+   "object": "neformalnaya-socializaciya-nablyudenie-imitaciya-korrekciya",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t127",
+   "subject": "obschestvennyy-transport",
+   "predicate": "имеет нормативную конвенцию",
+   "object": "ekologichnost",
+   "sourceId": "fgos",
+   "sourceName": "ФГОС ВО и нормативка вуза",
+   "sourceType": "НПА",
+   "updatedAt": "2026-03-20"
+  },
+  {
+   "id": "t128",
+   "subject": "obschestvennyy-transport",
+   "predicate": "имеет нормативную конвенцию",
+   "object": "ekonomiya-byudzheta",
+   "sourceId": "fgos",
+   "sourceName": "ФГОС ВО и нормативка вуза",
+   "sourceType": "НПА",
+   "updatedAt": "2026-03-20"
+  },
+  {
+   "id": "t129",
+   "subject": "obschestvennyy-transport-2",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t130",
+   "subject": "obschestvennyy-transport-2",
+   "predicate": "имеет тип артефакта",
+   "object": "gibridnyy",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t131",
+   "subject": "obschestvennyy-transport",
+   "predicate": "имеет тип",
+   "object": "class-socialnaya-praktika",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t132",
+   "subject": "obschestvennyy-transport-2",
+   "predicate": "имеет уровень доступности",
+   "object": "vseobschiy",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t133",
+   "subject": "obschestvennyy-transport",
+   "predicate": "имеет уровень устойчивости",
+   "object": "sredniy",
+   "sourceId": "reg-edu",
+   "sourceName": "Регламент образовательной программы",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-10"
+  },
+  {
+   "id": "t134",
+   "subject": "ogranichennyy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-dostupnosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t135",
+   "subject": "onlayn-servis-dostavki",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t136",
+   "subject": "organizaciya",
+   "predicate": "имеет тип",
+   "object": "class-tip-aktora",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t137",
+   "subject": "organizovannyy-roditel",
+   "predicate": "имеет тип",
+   "object": "class-gabitus",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t138",
+   "subject": "osnovnoy-voditel",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t139",
+   "subject": "osnovnoy-gotovyaschiy",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t140",
+   "subject": "ochen-vysokiy-zakostenelyy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-ustoychivosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t141",
+   "subject": "ochen-vysokiy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-agentnosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t142",
+   "subject": "ochen-nizkiy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-agentnosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t143",
+   "subject": "ochen-nizkiy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-ustoychivosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t144",
+   "subject": "pandemiya-covid-19",
+   "predicate": "имеет тип шока",
+   "object": "epidemiologicheskiy",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t145",
+   "subject": "pandemiya-covid-19",
+   "predicate": "имеет тип",
+   "object": "class-ekzogennyy-shok",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t146",
+   "subject": "parkovochnoe-mesto",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t147",
+   "subject": "parkovochnoe-mesto",
+   "predicate": "имеет тип артефакта",
+   "object": "fizicheskiy",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t148",
+   "subject": "parkovochnoe-mesto",
+   "predicate": "имеет уровень доступности",
+   "object": "ogranichennyy",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t149",
+   "subject": "passazhir",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t150",
+   "subject": "pereizobretenie",
+   "predicate": "имеет тип",
+   "object": "class-faza-transformacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t151",
+   "subject": "perehod",
+   "predicate": "имеет тип",
+   "object": "class-faza-transformacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t152",
+   "subject": "perehod-k-praktike-udalennaya-rabota",
+   "predicate": "имеет тип",
+   "object": "class-process-transformacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t153",
+   "subject": "perehod-k-praktike-udalennaya-rabota",
+   "predicate": "имеет фазу",
+   "object": "stabilizaciya",
+   "sourceId": "reg-edu",
+   "sourceName": "Регламент образовательной программы",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-10"
+  },
+  {
+   "id": "t154",
+   "subject": "perehod-k-praktike-udalennaya-rabota",
+   "predicate": "инициирован",
+   "object": "pandemiya-covid-19",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t155",
+   "subject": "perehod-k-praktike-udalennaya-rabota",
+   "predicate": "исходная практика",
+   "object": "udalennaya-rabota",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t156",
+   "subject": "perehod-k-praktike-udalennaya-rabota",
+   "predicate": "целевая практика",
+   "object": "udalennaya-rabota",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t157",
+   "subject": "peshehod",
+   "predicate": "имеет габитус",
+   "object": "multimodalnost",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t158",
+   "subject": "peshehod",
+   "predicate": "имеет тип",
+   "object": "class-aktor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t159",
+   "subject": "peshehod",
+   "predicate": "имеет тип актора",
+   "object": "gruppa",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t160",
+   "subject": "peshehod",
+   "predicate": "принадлежит общности",
+   "object": "gorodskoy-zhitel",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t161",
+   "subject": "planirovschik-menyu",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t162",
+   "subject": "plita",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t163",
+   "subject": "povtoryayuschayasya-povsednevnaya-rutina-zakreplyayuschayasya-na-urovne-neyronnyh-patternov-privykanie",
+   "predicate": "имеет тип",
+   "object": "class-mehanizm-vosproizvodstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t164",
+   "subject": "povysit-ustoychivost",
+   "predicate": "имеет тип",
+   "object": "class-cel-vmeshatelstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t165",
+   "subject": "pole-vysshego-obrazovaniya",
+   "predicate": "имеет тип",
+   "object": "class-socialnoe-pole",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t166",
+   "subject": "politicheskiy",
+   "predicate": "имеет тип",
+   "object": "class-tip-shoka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t167",
+   "subject": "poluchenie-diploma",
+   "predicate": "имеет тип мотивации",
+   "object": "instrumentalnaya-motivaciya-dostizhenie-konkretnogo-rezultata",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t168",
+   "subject": "poluchenie-diploma",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t169",
+   "subject": "poluchenie-znaniy",
+   "predicate": "имеет тип мотивации",
+   "object": "cennostnaya-normativnaya-motivaciya-sootvetstvie-ubezhdeniyam",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t170",
+   "subject": "poluchenie-znaniy",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t171",
+   "subject": "poluchenie-udovolstviya",
+   "predicate": "имеет тип мотивации",
+   "object": "emocionalnaya-gedonisticheskaya-motivaciya-udovolstvie-komfort",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t172",
+   "subject": "poluchenie-udovolstviya",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t173",
+   "subject": "pomoschnik",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t174",
+   "subject": "potrebitel",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t175",
+   "subject": "potreblenie-gotovyh-zavtrakov",
+   "predicate": "имеет дискурсивное измерение",
+   "object": "gotovye-zavtraki-eto-sovremennoe-reshenie-dlya-zanyatyh-lyudey",
+   "sourceId": "interview",
+   "sourceName": "Интервью с преподавателями",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-05-30"
+  },
+  {
+   "id": "t176",
+   "subject": "potreblenie-gotovyh-zavtrakov",
+   "predicate": "имеет дискурсивное измерение",
+   "object": "gotovye-zavtraki-eto-ekonomiya-vremeni-i-sil",
+   "sourceId": "interview",
+   "sourceName": "Интервью с преподавателями",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-05-30"
+  },
+  {
+   "id": "t177",
+   "subject": "potreblenie-gotovyh-zavtrakov",
+   "predicate": "имеет материальную инфраструктуру",
+   "object": "magazin",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t178",
+   "subject": "potreblenie-gotovyh-zavtrakov",
+   "predicate": "имеет материальную инфраструктуру",
+   "object": "onlayn-servis-dostavki",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t179",
+   "subject": "potreblenie-gotovyh-zavtrakov",
+   "predicate": "имеет нормативную конвенцию",
+   "object": "udobstvo",
+   "sourceId": "fgos",
+   "sourceName": "ФГОС ВО и нормативка вуза",
+   "sourceType": "НПА",
+   "updatedAt": "2026-03-20"
+  },
+  {
+   "id": "t180",
+   "subject": "potreblenie-gotovyh-zavtrakov",
+   "predicate": "имеет нормативную конвенцию",
+   "object": "ekonomiya-vremeni",
+   "sourceId": "fgos",
+   "sourceName": "ФГОС ВО и нормативка вуза",
+   "sourceType": "НПА",
+   "updatedAt": "2026-03-20"
+  },
+  {
+   "id": "t181",
+   "subject": "potreblenie-gotovyh-zavtrakov",
+   "predicate": "имеет тип",
+   "object": "class-socialnaya-praktika",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t182",
+   "subject": "predostavit-stimuly",
+   "predicate": "имеет тип",
+   "object": "class-mehanizm-vmeshatelstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t183",
+   "subject": "prepodavatel",
+   "predicate": "имеет габитус",
+   "object": "privychka-kontrolirovat-poseschaemost-trebovat-akademicheskuyu-strogost",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t184",
+   "subject": "prepodavatel",
+   "predicate": "имеет тип",
+   "object": "class-aktor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t185",
+   "subject": "prepodavatel",
+   "predicate": "имеет тип актора",
+   "object": "individ",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t186",
+   "subject": "prepodavatel",
+   "predicate": "принадлежит общности",
+   "object": "prepodavatelskaya-associaciya",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t187",
+   "subject": "prepodavatelskaya-associaciya",
+   "predicate": "имеет тип",
+   "object": "class-obschnost",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t188",
+   "subject": "prepodayuschiy",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t189",
+   "subject": "prestizh",
+   "predicate": "имеет тип",
+   "object": "class-normativnaya-konvenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t190",
+   "subject": "privychka-kontrolirovat-poseschaemost-trebovat-akademicheskuyu-strogost",
+   "predicate": "имеет тип",
+   "object": "class-gabitus",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t191",
+   "subject": "prigotovlenie-pischi",
+   "predicate": "имеет тип",
+   "object": "class-kompetencii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t192",
+   "subject": "priznanie-sverstnikov",
+   "predicate": "имеет тип мотивации",
+   "object": "socialnaya-identichnostnaya-motivaciya-prinadlezhnost-status",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t193",
+   "subject": "priznanie-sverstnikov",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t194",
+   "subject": "prinadlezhnost-k-gruppe",
+   "predicate": "имеет тип мотивации",
+   "object": "socialnaya-identichnostnaya-motivaciya-prinadlezhnost-status",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t195",
+   "subject": "prinadlezhnost-k-gruppe",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t196",
+   "subject": "produkty",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t197",
+   "subject": "professionalnaya-etika",
+   "predicate": "имеет тип мотивации",
+   "object": "cennostnaya-normativnaya-motivaciya-sootvetstvie-ubezhdeniyam",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t198",
+   "subject": "professionalnaya-etika",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t199",
+   "subject": "rabotayuschiy-roditel",
+   "predicate": "имеет габитус",
+   "object": "organizovannyy-roditel",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t200",
+   "subject": "rabotayuschiy-roditel",
+   "predicate": "имеет габитус",
+   "object": "cenit-organizovannost-utra-stremitsya-obespechit-seme-zdorovuyu-edu-ogranichen-vo-vremeni",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t201",
+   "subject": "rabotayuschiy-roditel",
+   "predicate": "имеет тип",
+   "object": "class-aktor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t202",
+   "subject": "rabotayuschiy-roditel",
+   "predicate": "имеет тип актора",
+   "object": "individ",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t203",
+   "subject": "rabotayuschiy-roditel",
+   "predicate": "принадлежит общности",
+   "object": "roditelskiy-chat-shkoly",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t204",
+   "subject": "razvityy-obschestvennyy-transport-eto-sovremennyy-standart-ekologicheskoy-otvetstvennosti-racionalnogo-ispolzovaniya-vremeni-i-sredstv",
+   "predicate": "имеет тип",
+   "object": "class-diskursivnaya-formaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t205",
+   "subject": "razvityy-obschestvennyy-transport-eto-sovremennyy-standart-ekologicheskoy-otvetstvennosti-racionalnogo-ispolzovaniya-vremeni-i-sredstv",
+   "predicate": "конкурирует с дискурсом",
+   "object": "lichnyy-avtomobil-eto-simvol-svobody-i-nezavisimosti-znak-uspeha-i-socialnogo-statusa",
+   "sourceId": "interview",
+   "sourceName": "Интервью с преподавателями",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-05-30"
+  },
+  {
+   "id": "t206",
+   "subject": "roditelskiy-chat-shkoly",
+   "predicate": "имеет тип",
+   "object": "class-obschnost",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t207",
+   "subject": "semestrovyy-cikl",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-pattern",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t208",
+   "subject": "set",
+   "predicate": "имеет тип",
+   "object": "class-tip-aktora",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t209",
+   "subject": "signalizaciya-statusa",
+   "predicate": "имеет тип мотивации",
+   "object": "socialnaya-identichnostnaya-motivaciya-prinadlezhnost-status",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t210",
+   "subject": "signalizaciya-statusa",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t211",
+   "subject": "simvolicheskiy",
+   "predicate": "имеет тип",
+   "object": "class-tip-artefakta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t212",
+   "subject": "simvolicheskiy-kapital",
+   "predicate": "имеет тип",
+   "object": "class-tip-kapitala",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t213",
+   "subject": "sklonnost-k-konspektirovaniyu-zubrezhke-pered-sessiey",
+   "predicate": "имеет тип",
+   "object": "class-gabitus",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t214",
+   "subject": "snizhenie-rashodov",
+   "predicate": "имеет тип мотивации",
+   "object": "instrumentalnaya-motivaciya-dostizhenie-konkretnogo-rezultata",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t215",
+   "subject": "snizhenie-rashodov",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t216",
+   "subject": "snizhenie-stressa",
+   "predicate": "имеет тип мотивации",
+   "object": "emocionalnaya-gedonisticheskaya-motivaciya-udovolstvie-komfort",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t217",
+   "subject": "snizhenie-stressa",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t218",
+   "subject": "sozdat-novuyu-obschnost",
+   "predicate": "имеет тип",
+   "object": "class-mehanizm-vmeshatelstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t219",
+   "subject": "sortirovka-othodov",
+   "predicate": "имеет временной паттерн",
+   "object": "ezhednevno",
+   "sourceId": "reg-edu",
+   "sourceName": "Регламент образовательной программы",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-10"
+  },
+  {
+   "id": "t220",
+   "subject": "sortirovka-othodov",
+   "predicate": "имеет тип",
+   "object": "class-socialnaya-praktika",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t221",
+   "subject": "sortirovschik",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t222",
+   "subject": "socialnaya-identichnostnaya-motivaciya-prinadlezhnost-status",
+   "predicate": "имеет тип",
+   "object": "class-tip-motivacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t223",
+   "subject": "socialnaya-spravedlivost",
+   "predicate": "имеет тип мотивации",
+   "object": "cennostnaya-normativnaya-motivaciya-sootvetstvie-ubezhdeniyam",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t224",
+   "subject": "socialnaya-spravedlivost",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t225",
+   "subject": "socialnyy-kapital",
+   "predicate": "имеет тип",
+   "object": "class-tip-kapitala",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t226",
+   "subject": "sposobstvovat-perehodu",
+   "predicate": "имеет тип",
+   "object": "class-cel-vmeshatelstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t227",
+   "subject": "srednee-professionalnoe-obrazovanie",
+   "predicate": "имеет тип",
+   "object": "class-socialnaya-praktika",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t228",
+   "subject": "sredniy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-agentnosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t229",
+   "subject": "sredniy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-ustoychivosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t230",
+   "subject": "stabilizaciya",
+   "predicate": "имеет тип",
+   "object": "class-faza-transformacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t231",
+   "subject": "status",
+   "predicate": "имеет тип",
+   "object": "class-normativnaya-konvenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t232",
+   "subject": "stremlenie-k-komfortu",
+   "predicate": "имеет тип мотивации",
+   "object": "emocionalnaya-gedonisticheskaya-motivaciya-udovolstvie-komfort",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t233",
+   "subject": "stremlenie-k-komfortu",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t234",
+   "subject": "student",
+   "predicate": "имеет габитус",
+   "object": "sklonnost-k-konspektirovaniyu-zubrezhke-pered-sessiey",
+   "sourceId": "literature",
+   "sourceName": "Теории социальных практик (Бурдьё, Гидденс, Шатцки)",
+   "sourceType": "Публикация",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t235",
+   "subject": "student",
+   "predicate": "имеет тип",
+   "object": "class-aktor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t236",
+   "subject": "student",
+   "predicate": "имеет тип актора",
+   "object": "individ",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t237",
+   "subject": "student",
+   "predicate": "принадлежит общности",
+   "object": "studencheskoe-soobschestvo",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t238",
+   "subject": "studencheskoe-soobschestvo",
+   "predicate": "имеет тип",
+   "object": "class-obschnost",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t239",
+   "subject": "tehnologicheskiy",
+   "predicate": "имеет тип",
+   "object": "class-tip-shoka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t240",
+   "subject": "transportnaya-karta",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t241",
+   "subject": "transformaciya-mobilnosti",
+   "predicate": "имеет тип",
+   "object": "class-process-transformacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t242",
+   "subject": "transformaciya-mobilnosti",
+   "predicate": "имеет фазу",
+   "object": "diffuziya",
+   "sourceId": "reg-edu",
+   "sourceName": "Регламент образовательной программы",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-10"
+  },
+  {
+   "id": "t243",
+   "subject": "transformaciya-mobilnosti",
+   "predicate": "инициирован",
+   "object": "gorodskaya-programma",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t244",
+   "subject": "transformaciya-mobilnosti",
+   "predicate": "исходная практика",
+   "object": "lichnyy-avtomobil",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t245",
+   "subject": "transformaciya-mobilnosti",
+   "predicate": "целевая практика",
+   "object": "obschestvennyy-transport",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t246",
+   "subject": "udalennaya-rabota",
+   "predicate": "имеет тип",
+   "object": "class-socialnaya-praktika",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t247",
+   "subject": "udobstvo",
+   "predicate": "имеет тип",
+   "object": "class-normativnaya-konvenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t248",
+   "subject": "ukrepit-praktiku",
+   "predicate": "имеет тип",
+   "object": "class-cel-vmeshatelstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t249",
+   "subject": "uluchshenie-zdorovya",
+   "predicate": "имеет тип мотивации",
+   "object": "instrumentalnaya-motivaciya-dostizhenie-konkretnogo-rezultata",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t250",
+   "subject": "uluchshenie-zdorovya",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t251",
+   "subject": "umenie-uchitsya",
+   "predicate": "имеет тип",
+   "object": "class-kompetencii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t252",
+   "subject": "umerennyy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-dostupnosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t253",
+   "subject": "ustarevanie",
+   "predicate": "имеет тип",
+   "object": "class-faza-transformacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t254",
+   "subject": "uchastie-avtovladelec-avto",
+   "predicate": "доминирующая мотивация",
+   "object": "signalizaciya-statusa",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t255",
+   "subject": "uchastie-avtovladelec-avto",
+   "predicate": "доминирующая мотивация",
+   "object": "stremlenie-k-komfortu",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t256",
+   "subject": "uchastie-avtovladelec-avto",
+   "predicate": "задействованный капитал",
+   "object": "ekonomicheskiy-kapital",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t257",
+   "subject": "uchastie-avtovladelec-avto",
+   "predicate": "имеет тип",
+   "object": "class-uchastie-v-praktike",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t258",
+   "subject": "uchastie-avtovladelec-avto",
+   "predicate": "компетенции в практике",
+   "object": "vozhdenie-avtomobilya",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t259",
+   "subject": "uchastie-avtovladelec-avto",
+   "predicate": "компетенции в практике",
+   "object": "navigaciya-na-dorogah",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t260",
+   "subject": "uchastie-avtovladelec-avto",
+   "predicate": "контекстная практика",
+   "object": "lichnyy-avtomobil",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t261",
+   "subject": "uchastie-avtovladelec-avto",
+   "predicate": "контекстный уровень агентности",
+   "object": "vysokiy",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t262",
+   "subject": "uchastie-avtovladelec-avto",
+   "predicate": "принятые роли",
+   "object": "osnovnoy-voditel",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t263",
+   "subject": "uchastie-avtovladelec-avto",
+   "predicate": "участник",
+   "object": "avtovladelec",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t264",
+   "subject": "uchastie-anna-sortirovkaothodov",
+   "predicate": "доминирующая мотивация",
+   "object": "ekologicheskaya-otvetstvennost",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t265",
+   "subject": "uchastie-anna-sortirovkaothodov",
+   "predicate": "задействованный капитал",
+   "object": "socialnyy-kapital",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t266",
+   "subject": "uchastie-anna-sortirovkaothodov",
+   "predicate": "имеет тип",
+   "object": "class-uchastie-v-praktike",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t267",
+   "subject": "uchastie-anna-sortirovkaothodov",
+   "predicate": "компетенции в практике",
+   "object": "bazovyy-navyk-sortirovki",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t268",
+   "subject": "uchastie-anna-sortirovkaothodov",
+   "predicate": "контекстная практика",
+   "object": "sortirovka-othodov",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t269",
+   "subject": "uchastie-anna-sortirovkaothodov",
+   "predicate": "контекстный уровень агентности",
+   "object": "nizkiy",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t270",
+   "subject": "uchastie-anna-sortirovkaothodov",
+   "predicate": "принятые роли",
+   "object": "sortirovschik",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t271",
+   "subject": "uchastie-anna-sortirovkaothodov",
+   "predicate": "участник",
+   "object": "rabotayuschiy-roditel",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t272",
+   "subject": "uchastie-peshehod-ot",
+   "predicate": "доминирующая мотивация",
+   "object": "snizhenie-rashodov",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t273",
+   "subject": "uchastie-peshehod-ot",
+   "predicate": "доминирующая мотивация",
+   "object": "ekologicheskaya-otvetstvennost",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t274",
+   "subject": "uchastie-peshehod-ot",
+   "predicate": "доминирующая мотивация",
+   "object": "ekonomiya-vremeni",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t275",
+   "subject": "uchastie-peshehod-ot",
+   "predicate": "задействованный капитал",
+   "object": "socialnyy-kapital",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t276",
+   "subject": "uchastie-peshehod-ot",
+   "predicate": "имеет тип",
+   "object": "class-uchastie-v-praktike",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t277",
+   "subject": "uchastie-peshehod-ot",
+   "predicate": "компетенции в практике",
+   "object": "navigaciya-v-obschestvennyh-mestah",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t278",
+   "subject": "uchastie-peshehod-ot",
+   "predicate": "контекстная практика",
+   "object": "obschestvennyy-transport",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t279",
+   "subject": "uchastie-peshehod-ot",
+   "predicate": "контекстный уровень агентности",
+   "object": "nizkiy",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t280",
+   "subject": "uchastie-peshehod-ot",
+   "predicate": "принятые роли",
+   "object": "passazhir",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t281",
+   "subject": "uchastie-peshehod-ot",
+   "predicate": "участник",
+   "object": "peshehod",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t282",
+   "subject": "uchastie-prepodavatelya-v-vysshem-obrazovanii",
+   "predicate": "имеет тип",
+   "object": "class-uchastie-v-praktike",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t283",
+   "subject": "uchastie-prepodavatelya-v-vysshem-obrazovanii",
+   "predicate": "контекстная практика",
+   "object": "vysshee-obrazovanie",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t284",
+   "subject": "uchastie-prepodavatelya-v-vysshem-obrazovanii",
+   "predicate": "контекстный уровень агентности",
+   "object": "vysokiy",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t285",
+   "subject": "uchastie-prepodavatelya-v-vysshem-obrazovanii",
+   "predicate": "принятые роли",
+   "object": "prepodayuschiy",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t286",
+   "subject": "uchastie-prepodavatelya-v-vysshem-obrazovanii",
+   "predicate": "участник",
+   "object": "prepodavatel",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t287",
+   "subject": "uchastie-rabotayuschiyroditel-zavtrak",
+   "predicate": "доминирующая мотивация",
+   "object": "zabota-o-seme",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t288",
+   "subject": "uchastie-rabotayuschiyroditel-zavtrak",
+   "predicate": "доминирующая мотивация",
+   "object": "ekonomiya-vremeni",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t289",
+   "subject": "uchastie-rabotayuschiyroditel-zavtrak",
+   "predicate": "задействованный капитал",
+   "object": "kulturnyy-kapital",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t290",
+   "subject": "uchastie-rabotayuschiyroditel-zavtrak",
+   "predicate": "имеет тип",
+   "object": "class-uchastie-v-praktike",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t291",
+   "subject": "uchastie-rabotayuschiyroditel-zavtrak",
+   "predicate": "компетенции в практике",
+   "object": "prigotovlenie-pischi",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t292",
+   "subject": "uchastie-rabotayuschiyroditel-zavtrak",
+   "predicate": "контекстная практика",
+   "object": "ezhednevnoe-prigotovlenie-zavtraka",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t293",
+   "subject": "uchastie-rabotayuschiyroditel-zavtrak",
+   "predicate": "контекстный уровень агентности",
+   "object": "vysokiy",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t294",
+   "subject": "uchastie-rabotayuschiyroditel-zavtrak",
+   "predicate": "принятые роли",
+   "object": "osnovnoy-gotovyaschiy",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t295",
+   "subject": "uchastie-rabotayuschiyroditel-zavtrak",
+   "predicate": "принятые роли",
+   "object": "planirovschik-menyu",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t296",
+   "subject": "uchastie-rabotayuschiyroditel-zavtrak",
+   "predicate": "участник",
+   "object": "rabotayuschiy-roditel",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t297",
+   "subject": "uchastie-studenta-v-vysshem-obrazovanii",
+   "predicate": "доминирующая мотивация",
+   "object": "poluchenie-diploma",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t298",
+   "subject": "uchastie-studenta-v-vysshem-obrazovanii",
+   "predicate": "доминирующая мотивация",
+   "object": "poluchenie-znaniy",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t299",
+   "subject": "uchastie-studenta-v-vysshem-obrazovanii",
+   "predicate": "задействованный капитал",
+   "object": "kulturnyy-kapital",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t300",
+   "subject": "uchastie-studenta-v-vysshem-obrazovanii",
+   "predicate": "имеет тип",
+   "object": "class-uchastie-v-praktike",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t301",
+   "subject": "uchastie-studenta-v-vysshem-obrazovanii",
+   "predicate": "компетенции в практике",
+   "object": "umenie-uchitsya",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t302",
+   "subject": "uchastie-studenta-v-vysshem-obrazovanii",
+   "predicate": "контекстная практика",
+   "object": "vysshee-obrazovanie",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t303",
+   "subject": "uchastie-studenta-v-vysshem-obrazovanii",
+   "predicate": "контекстный уровень агентности",
+   "object": "sredniy",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t304",
+   "subject": "uchastie-studenta-v-vysshem-obrazovanii",
+   "predicate": "принятые роли",
+   "object": "obuchayuschiysya",
+   "sourceId": "survey",
+   "sourceName": "Опрос студентов, весна 2026",
+   "sourceType": "Опрос",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t305",
+   "subject": "uchastie-studenta-v-vysshem-obrazovanii",
+   "predicate": "участник",
+   "object": "student",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t306",
+   "subject": "uchebnyy-korpus",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t307",
+   "subject": "uchebnyy-korpus",
+   "predicate": "имеет тип артефакта",
+   "object": "fizicheskiy",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t308",
+   "subject": "uchebnyy-korpus",
+   "predicate": "имеет уровень доступности",
+   "object": "ogranichennyy",
+   "sourceId": "lms",
+   "sourceName": "LMS Moodle (логи активности)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t309",
+   "subject": "fizicheskiy",
+   "predicate": "имеет тип",
+   "object": "class-tip-artefakta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t310",
+   "subject": "formalnoe-obuchenie-v-obrazovatelnyh-uchrezhdeniyah-shkoly-vuzy-kursy",
+   "predicate": "имеет тип",
+   "object": "class-mehanizm-vosproizvodstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t311",
+   "subject": "holodilnik",
+   "predicate": "имеет тип",
+   "object": "class-artefakt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t312",
+   "subject": "cenit-organizovannost-utra-stremitsya-obespechit-seme-zdorovuyu-edu-ogranichen-vo-vremeni",
+   "predicate": "имеет тип",
+   "object": "class-gabitus",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t313",
+   "subject": "cennostnaya-normativnaya-motivaciya-sootvetstvie-ubezhdeniyam",
+   "predicate": "имеет тип",
+   "object": "class-tip-motivacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t314",
+   "subject": "cifrovoy",
+   "predicate": "имеет тип",
+   "object": "class-tip-artefakta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t315",
+   "subject": "ekologicheskaya-otvetstvennost",
+   "predicate": "имеет тип мотивации",
+   "object": "cennostnaya-normativnaya-motivaciya-sootvetstvie-ubezhdeniyam",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t316",
+   "subject": "ekologicheskaya-otvetstvennost",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t317",
+   "subject": "ekologicheskiy",
+   "predicate": "имеет тип",
+   "object": "class-tip-shoka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t318",
+   "subject": "ekologichnost",
+   "predicate": "имеет тип",
+   "object": "class-normativnaya-konvenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t319",
+   "subject": "ekonomicheskiy",
+   "predicate": "имеет тип",
+   "object": "class-tip-shoka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t320",
+   "subject": "ekonomicheskiy-kapital",
+   "predicate": "имеет тип",
+   "object": "class-tip-kapitala",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t321",
+   "subject": "ekonomiya-byudzheta",
+   "predicate": "имеет тип",
+   "object": "class-normativnaya-konvenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t322",
+   "subject": "ekonomiya-vremeni",
+   "predicate": "имеет тип мотивации",
+   "object": "instrumentalnaya-motivaciya-dostizhenie-konkretnogo-rezultata",
+   "sourceId": "expert",
+   "sourceName": "Экспертная разметка графа",
+   "sourceType": "Экспертиза",
+   "updatedAt": "2026-08-05"
+  },
+  {
+   "id": "t323",
+   "subject": "ekonomiya-vremeni",
+   "predicate": "имеет тип",
+   "object": "class-motivaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t324",
+   "subject": "ekonomiya-vremeni",
+   "predicate": "имеет тип",
+   "object": "class-normativnaya-konvenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t325",
+   "subject": "emocionalnaya-gedonisticheskaya-motivaciya-udovolstvie-komfort",
+   "predicate": "имеет тип",
+   "object": "class-tip-motivacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  },
+  {
+   "id": "t326",
+   "subject": "epidemiologicheskiy",
+   "predicate": "имеет тип",
+   "object": "class-tip-shoka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-02"
+  }
+ ]
+}

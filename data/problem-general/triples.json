@@ -1,0 +1,494 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "prostoy-1s-iz-za-otkaza-servera-bd-01",
+   "predicate": "имеет тип",
+   "object": "class-problema",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "prostoy-1s-iz-za-otkaza-servera-bd-01",
+   "predicate": "затрагивает объект",
+   "object": "1s-buhgalteriya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t003",
+   "subject": "prostoy-1s-iz-za-otkaza-servera-bd-01",
+   "predicate": "нарушает требование",
+   "object": "celevaya-dostupnost-1s-ne-nizhe-99-5",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "prostoy-1s-iz-za-otkaza-servera-bd-01",
+   "predicate": "обнаруживается по индикатору",
+   "object": "dostupnost-1s-za-mesyac",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "prostoy-1s-iz-za-otkaza-servera-bd-01",
+   "predicate": "приводит к последствию",
+   "object": "ostanovka-ucheta-i-otchetnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "1s-buhgalteriya",
+   "predicate": "имеет тип",
+   "object": "class-obekt-problemy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "1s-buhgalteriya",
+   "predicate": "подвержен риску",
+   "object": "risk-prostoya-buhgalterii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t008",
+   "subject": "celevaya-dostupnost-1s-ne-nizhe-99-5",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "celevaya-dostupnost-1s-ne-nizhe-99-5",
+   "predicate": "предъявляется к объекту",
+   "object": "1s-buhgalteriya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t010",
+   "subject": "dostupnost-1s-za-mesyac",
+   "predicate": "имеет тип",
+   "object": "class-indikator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t011",
+   "subject": "ostanovka-ucheta-i-otchetnosti",
+   "predicate": "имеет тип",
+   "object": "class-posledstvie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t012",
+   "subject": "otkaz-diska-servera-bd-01",
+   "predicate": "имеет тип",
+   "object": "class-prichina",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t013",
+   "subject": "otkaz-diska-servera-bd-01",
+   "predicate": "порождает проблему",
+   "object": "prostoy-1s-iz-za-otkaza-servera-bd-01",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t014",
+   "subject": "otsutstvie-rezervnogo-servera-bd",
+   "predicate": "имеет тип",
+   "object": "class-prichina",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "otsutstvie-rezervnogo-servera-bd",
+   "predicate": "порождает проблему",
+   "object": "prostoy-1s-iz-za-otkaza-servera-bd-01",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "risk-prostoya-buhgalterii",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "risk-prostoya-buhgalterii",
+   "predicate": "может перейти в проблему",
+   "object": "prostoy-1s-iz-za-otkaza-servera-bd-01",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t018",
+   "subject": "incident-nedostupnost-1s-2-chasa",
+   "predicate": "имеет тип",
+   "object": "class-incident",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t019",
+   "subject": "incident-nedostupnost-1s-2-chasa",
+   "predicate": "проявляет проблему",
+   "object": "prostoy-1s-iz-za-otkaza-servera-bd-01",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t020",
+   "subject": "incident-nedostupnost-1s-2-chasa",
+   "predicate": "инцидент с объектом",
+   "object": "1s-buhgalteriya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "incident-nedostupnost-1s-2-chasa",
+   "predicate": "реализует риск",
+   "object": "risk-prostoya-buhgalterii",
+   "sourceId": "src-it-graph",
+   "sourceName": "Граф «Управление ИТ-активами и доступами» (graph-package-example)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-12"
+  },
+  {
+   "id": "t022",
+   "subject": "vvod-rezervnogo-servera-bd",
+   "predicate": "имеет тип",
+   "object": "class-reshenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t023",
+   "subject": "vvod-rezervnogo-servera-bd",
+   "predicate": "устраняет причину",
+   "object": "otsutstvie-rezervnogo-servera-bd",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t024",
+   "subject": "vvod-rezervnogo-servera-bd",
+   "predicate": "решает проблему",
+   "object": "prostoy-1s-iz-za-otkaza-servera-bd-01",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t025",
+   "subject": "ezhednevnoe-rezervnoe-kopirovanie",
+   "predicate": "имеет тип",
+   "object": "class-reshenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t026",
+   "subject": "ezhednevnoe-rezervnoe-kopirovanie",
+   "predicate": "снижает риск",
+   "object": "risk-prostoya-buhgalterii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t027",
+   "subject": "ivanov-i-i",
+   "predicate": "имеет тип",
+   "object": "class-uchastnik",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t028",
+   "subject": "ivanov-i-i",
+   "predicate": "отвечает за проблему",
+   "object": "prostoy-1s-iz-za-otkaza-servera-bd-01",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t029",
+   "subject": "ivanov-i-i",
+   "predicate": "выполняет решение",
+   "object": "vvod-rezervnogo-servera-bd",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t030",
+   "subject": "ivanov-i-i",
+   "predicate": "владеет объектом",
+   "object": "1s-buhgalteriya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t031",
+   "subject": "rost-braka-na-linii-2",
+   "predicate": "имеет тип",
+   "object": "class-problema",
+   "sourceId": "src-illustrative",
+   "sourceName": "Иллюстративный пример: производственная линия (условные данные)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-25"
+  },
+  {
+   "id": "t032",
+   "subject": "rost-braka-na-linii-2",
+   "predicate": "затрагивает объект",
+   "object": "proizvodstvennaya-liniya-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t033",
+   "subject": "rost-braka-na-linii-2",
+   "predicate": "нарушает требование",
+   "object": "dolya-braka-ne-bolee-1-5",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t034",
+   "subject": "rost-braka-na-linii-2",
+   "predicate": "обнаруживается по индикатору",
+   "object": "dolya-braka-za-smenu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t035",
+   "subject": "rost-braka-na-linii-2",
+   "predicate": "приводит к последствию",
+   "object": "sryv-otgruzki-zakaza",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t036",
+   "subject": "proizvodstvennaya-liniya-2",
+   "predicate": "имеет тип",
+   "object": "class-obekt-problemy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t037",
+   "subject": "dolya-braka-ne-bolee-1-5",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t038",
+   "subject": "dolya-braka-ne-bolee-1-5",
+   "predicate": "предъявляется к объекту",
+   "object": "proizvodstvennaya-liniya-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t039",
+   "subject": "dolya-braka-za-smenu",
+   "predicate": "имеет тип",
+   "object": "class-indikator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t040",
+   "subject": "sryv-otgruzki-zakaza",
+   "predicate": "имеет тип",
+   "object": "class-posledstvie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t041",
+   "subject": "iznos-press-formy",
+   "predicate": "имеет тип",
+   "object": "class-prichina",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t042",
+   "subject": "iznos-press-formy",
+   "predicate": "порождает проблему",
+   "object": "rost-braka-na-linii-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t043",
+   "subject": "zamena-press-formy",
+   "predicate": "имеет тип",
+   "object": "class-reshenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t044",
+   "subject": "zamena-press-formy",
+   "predicate": "устраняет причину",
+   "object": "iznos-press-formy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t045",
+   "subject": "zamena-press-formy",
+   "predicate": "решает проблему",
+   "object": "rost-braka-na-linii-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t046",
+   "subject": "sidorov-p-p",
+   "predicate": "имеет тип",
+   "object": "class-uchastnik",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t047",
+   "subject": "sidorov-p-p",
+   "predicate": "отвечает за проблему",
+   "object": "rost-braka-na-linii-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t048",
+   "subject": "sidorov-p-p",
+   "predicate": "выполняет решение",
+   "object": "zamena-press-formy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t049",
+   "subject": "sidorov-p-p",
+   "predicate": "владеет объектом",
+   "object": "proizvodstvennaya-liniya-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  }
+ ]
+}

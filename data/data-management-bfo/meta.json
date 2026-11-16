@@ -1,0 +1,21 @@
+{
+ "graph": {
+  "id": "data-management-bfo",
+  "name": "Управление данными: Data Governance и Data Quality (BFO)",
+  "description": "Онтология управления данными, выровненная с BFO 2020 / IAO / RO: наборы данных и их носители, роли владельца, стюарда и хранителя, политики, стандарты и правила качества, измерения качества, процессы Data Governance и Data Quality, инциденты качества. Демонстрационный сценарий: падение полноты e-mail в справочнике клиентов.",
+  "domain": "Управление данными — Data Governance, Data Quality, метаданные",
+  "version": "1.0",
+  "status": "пользовательский",
+  "updatedAt": "2026-10-26",
+  "builtIn": false,
+  "counts": {
+   "classes": 42,
+   "relations": 40,
+   "entities": 60,
+   "triples": 73,
+   "taxonomicRelations": 0,
+   "nonTaxonomicRelations": 40,
+   "relationshipRichness": 1
+  }
+ }
+}

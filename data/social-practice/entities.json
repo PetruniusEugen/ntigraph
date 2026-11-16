@@ -1,0 +1,962 @@
+{
+ "entities": [
+  {
+   "id": "obschestvennyy-transport",
+   "label": "🚌 Общественный транспорт",
+   "classCode": "SocialPractice"
+  },
+  {
+   "id": "lichnyy-avtomobil",
+   "label": "🚗 Личный автомобиль",
+   "classCode": "SocialPractice"
+  },
+  {
+   "id": "avtovladelec",
+   "label": "Автовладелец",
+   "classCode": "Actor"
+  },
+  {
+   "id": "avtolyubiteli",
+   "label": "Автолюбители",
+   "classCode": "Community"
+  },
+  {
+   "id": "class-aktor",
+   "label": "Актор",
+   "classCode": "Actor",
+   "isClass": true
+  },
+  {
+   "id": "algoritmicheskoe-zakreplenie-rekomendatelnye-sistemy-avtoplatezhi-push-uvedomleniya",
+   "label": "Алгоритмическое закрепление (рекомендательные системы, автоплатежи, push-уведомления)",
+   "classCode": "ReproductionMechanismType"
+  },
+  {
+   "id": "class-artefakt",
+   "label": "Артефакт",
+   "classCode": "Artifact",
+   "isClass": true
+  },
+  {
+   "id": "bazovyy-navyk-sortirovki",
+   "label": "Базовый навык сортировки",
+   "classCode": "Competence"
+  },
+  {
+   "id": "biblioteka",
+   "label": "Библиотека",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "class-vmeshatelstvo",
+   "label": "Вмешательство",
+   "classCode": "Intervention",
+   "isClass": true
+  },
+  {
+   "id": "vnedrit-novyy-diskursivnyy-freym",
+   "label": "Внедрить новый дискурсивный фрейм",
+   "classCode": "InterventionMechanism"
+  },
+  {
+   "id": "vozhdenie-avtomobilya",
+   "label": "Вождение автомобиля",
+   "classCode": "Competence"
+  },
+  {
+   "id": "class-vremennoy-pattern",
+   "label": "Временной паттерн",
+   "classCode": "TemporalPattern",
+   "isClass": true
+  },
+  {
+   "id": "vseobschiy",
+   "label": "Всеобщий",
+   "classCode": "AccessibilityLevel"
+  },
+  {
+   "id": "vyrazhenie-identichnosti",
+   "label": "Выражение идентичности",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "vysokiy",
+   "label": "Высокий",
+   "classCode": "StabilityLevel"
+  },
+  {
+   "id": "vysshee-obrazovanie",
+   "label": "Высшее образование",
+   "classCode": "SocialPractice"
+  },
+  {
+   "id": "vysshee-obrazovanie-kak-investiciya-v-buduschee",
+   "label": "Высшее образование как инвестиция в будущее",
+   "classCode": "DiscursiveFormation"
+  },
+  {
+   "id": "class-gabitus",
+   "label": "Габитус",
+   "classCode": "Habitus",
+   "isClass": true
+  },
+  {
+   "id": "gibridnyy",
+   "label": "Гибридный",
+   "classCode": "ArtifactType"
+  },
+  {
+   "id": "gorodskaya-mobilnost",
+   "label": "Городская мобильность",
+   "classCode": "SocialField"
+  },
+  {
+   "id": "gorodskaya-programma",
+   "label": "Городская программа",
+   "classCode": "Intervention"
+  },
+  {
+   "id": "gorodskoy-zhitel",
+   "label": "Городской житель",
+   "classCode": "Community"
+  },
+  {
+   "id": "gotovye-zavtraki-eto-sovremennoe-reshenie-dlya-zanyatyh-lyudey",
+   "label": "Готовые завтраки - это современное решение для занятых людей",
+   "classCode": "DiscursiveFormation"
+  },
+  {
+   "id": "gotovye-zavtraki-eto-ekonomiya-vremeni-i-sil",
+   "label": "Готовые завтраки - это экономия времени и сил",
+   "classCode": "DiscursiveFormation"
+  },
+  {
+   "id": "gruppa",
+   "label": "Группа",
+   "classCode": "ActorType"
+  },
+  {
+   "id": "destabilizaciya",
+   "label": "Дестабилизация",
+   "classCode": "TransformationPhase"
+  },
+  {
+   "id": "destabilizirovat-praktiku",
+   "label": "Дестабилизировать практику",
+   "classCode": "InterventionGoal"
+  },
+  {
+   "id": "diplom",
+   "label": "Диплом",
+   "classCode": "NormativeConvention"
+  },
+  {
+   "id": "class-diskursivnaya-formaciya",
+   "label": "Дискурсивная формация",
+   "classCode": "DiscursiveFormation",
+   "isClass": true
+  },
+  {
+   "id": "diffuziya",
+   "label": "Диффузия",
+   "classCode": "TransformationPhase"
+  },
+  {
+   "id": "dostupnost-vysshego-obrazovaniya-dlya-vseh",
+   "label": "Доступность высшего образования для всех",
+   "classCode": "DiscursiveFormation"
+  },
+  {
+   "id": "ezhednevno",
+   "label": "Ежедневно",
+   "classCode": "TemporalPattern"
+  },
+  {
+   "id": "ezhednevno-07-00-07-30",
+   "label": "Ежедневно, 07:00-07:30",
+   "classCode": "TemporalPattern"
+  },
+  {
+   "id": "ezhednevnoe-prigotovlenie-zavtraka",
+   "label": "Ежедневное приготовление завтрака",
+   "classCode": "SocialPractice"
+  },
+  {
+   "id": "zabota-o-seme",
+   "label": "Забота о семье",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "zavisimost-ot-avtomobilya",
+   "label": "Зависимость от автомобиля",
+   "classCode": "Habitus"
+  },
+  {
+   "id": "zavtrak-eto-osnovnoy-priem-pischi",
+   "label": "Завтрак - это основной прием пищи",
+   "classCode": "DiscursiveFormation"
+  },
+  {
+   "id": "zapusk-marketingovoy-kampanii-po-populyarizacii-gotovyh-zavtrakov",
+   "label": "Запуск маркетинговой кампании по популяризации готовых завтраков",
+   "classCode": "Intervention"
+  },
+  {
+   "id": "zdorovyy-zavtrak-vazhen",
+   "label": "Здоровый завтрак важен",
+   "classCode": "DiscursiveFormation"
+  },
+  {
+   "id": "znanie",
+   "label": "Знание",
+   "classCode": "NormativeConvention"
+  },
+  {
+   "id": "izbezhanie-sankciy",
+   "label": "Избежание санкций",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "izmenit-materialnuyu-infrastrukturu",
+   "label": "Изменить материальную инфраструктуру",
+   "classCode": "InterventionMechanism"
+  },
+  {
+   "id": "izmenit-pravila",
+   "label": "Изменить правила",
+   "classCode": "InterventionMechanism"
+  },
+  {
+   "id": "izobretenie",
+   "label": "Изобретение",
+   "classCode": "TransformationPhase"
+  },
+  {
+   "id": "individ",
+   "label": "Индивид",
+   "classCode": "ActorType"
+  },
+  {
+   "id": "institucionalnoe-regulirovanie-standarty-zakony-tehnicheskie-reglamenty",
+   "label": "Институциональное регулирование (стандарты, законы, технические регламенты)",
+   "classCode": "ReproductionMechanismType"
+  },
+  {
+   "id": "instrumentalnaya-motivaciya-dostizhenie-konkretnogo-rezultata",
+   "label": "Инструментальная мотивация (достижение конкретного результата)",
+   "classCode": "MotivationType"
+  },
+  {
+   "id": "class-kompetencii",
+   "label": "Компетенции",
+   "classCode": "Competence",
+   "isClass": true
+  },
+  {
+   "id": "komfort",
+   "label": "Комфорт",
+   "classCode": "NormativeConvention"
+  },
+  {
+   "id": "korporativnyy-onboarding-i-mentorstvo",
+   "label": "Корпоративный onboarding и менторство",
+   "classCode": "ReproductionMechanismType"
+  },
+  {
+   "id": "kofemashina",
+   "label": "Кофемашина",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "kulturnyy-kapital",
+   "label": "Культурный капитал",
+   "classCode": "CapitalType"
+  },
+  {
+   "id": "lichnyy-avtomobil-2",
+   "label": "Личный автомобиль",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "lichnyy-avtomobil-eto-simvol-svobody-i-nezavisimosti-znak-uspeha-i-socialnogo-statusa",
+   "label": "Личный автомобиль — это символ свободы и независимости, знак успеха и социального статуса",
+   "classCode": "DiscursiveFormation"
+  },
+  {
+   "id": "lyubopytstvo",
+   "label": "Любопытство",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "magazin",
+   "label": "Магазин",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "masshtabirovat-innovaciyu",
+   "label": "Масштабировать инновацию",
+   "classCode": "InterventionGoal"
+  },
+  {
+   "id": "class-mehanizm-vmeshatelstva",
+   "label": "Механизм вмешательства",
+   "classCode": "InterventionMechanism",
+   "isClass": true
+  },
+  {
+   "id": "class-mehanizm-vosproizvodstva",
+   "label": "Механизм воспроизводства",
+   "classCode": "ReproductionMechanismType",
+   "isClass": true
+  },
+  {
+   "id": "class-motivaciya",
+   "label": "Мотивация",
+   "classCode": "Motivation",
+   "isClass": true
+  },
+  {
+   "id": "multimodalnost",
+   "label": "Мультимодальность",
+   "classCode": "Habitus"
+  },
+  {
+   "id": "navigaciya-v-obschestvennyh-mestah",
+   "label": "Навигация в общественных местах",
+   "classCode": "Competence"
+  },
+  {
+   "id": "navigaciya-na-dorogah",
+   "label": "Навигация на дорогах",
+   "classCode": "Competence"
+  },
+  {
+   "id": "neformalnaya-socializaciya-nablyudenie-imitaciya-korrekciya",
+   "label": "Неформальная социализация (наблюдение, имитация, коррекция)",
+   "classCode": "ReproductionMechanismType"
+  },
+  {
+   "id": "nizkiy",
+   "label": "Низкий",
+   "classCode": "StabilityLevel"
+  },
+  {
+   "id": "normalizaciya",
+   "label": "Нормализация",
+   "classCode": "TransformationPhase"
+  },
+  {
+   "id": "normalizaciya-praktiki-potrebleniya-gotovyh-zavtrakov",
+   "label": "Нормализация практики потребления готовых завтраков",
+   "classCode": "TransformationProcess"
+  },
+  {
+   "id": "class-normativnaya-konvenciya",
+   "label": "Нормативная конвенция",
+   "classCode": "NormativeConvention",
+   "isClass": true
+  },
+  {
+   "id": "oblegchit-obuchenie",
+   "label": "Облегчить обучение",
+   "classCode": "InterventionMechanism"
+  },
+  {
+   "id": "obuchayuschiysya",
+   "label": "Обучающийся",
+   "classCode": "RoleType"
+  },
+  {
+   "id": "obschestvennyy-transport-2",
+   "label": "Общественный транспорт",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "class-obschnost",
+   "label": "Общность",
+   "classCode": "Community",
+   "isClass": true
+  },
+  {
+   "id": "ogranichennyy",
+   "label": "Ограниченный",
+   "classCode": "AccessibilityLevel"
+  },
+  {
+   "id": "onlayn-servis-dostavki",
+   "label": "Онлайн-сервис доставки",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "organizaciya",
+   "label": "Организация",
+   "classCode": "ActorType"
+  },
+  {
+   "id": "organizovannyy-roditel",
+   "label": "Организованный родитель",
+   "classCode": "Habitus"
+  },
+  {
+   "id": "osnovnoy-voditel",
+   "label": "Основной водитель",
+   "classCode": "RoleType"
+  },
+  {
+   "id": "osnovnoy-gotovyaschiy",
+   "label": "Основной готовящий",
+   "classCode": "RoleType"
+  },
+  {
+   "id": "ochen-vysokiy",
+   "label": "Очень высокий",
+   "classCode": "AgencyLevel"
+  },
+  {
+   "id": "ochen-vysokiy-zakostenelyy",
+   "label": "Очень высокий (закостенелый)",
+   "classCode": "StabilityLevel"
+  },
+  {
+   "id": "ochen-nizkiy",
+   "label": "Очень низкий",
+   "classCode": "StabilityLevel"
+  },
+  {
+   "id": "pandemiya-covid-19",
+   "label": "Пандемия COVID-19",
+   "classCode": "ExogenousShock"
+  },
+  {
+   "id": "parkovochnoe-mesto",
+   "label": "Парковочное место",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "passazhir",
+   "label": "Пассажир",
+   "classCode": "RoleType"
+  },
+  {
+   "id": "pereizobretenie",
+   "label": "Переизобретение",
+   "classCode": "TransformationPhase"
+  },
+  {
+   "id": "perehod",
+   "label": "Переход",
+   "classCode": "TransformationPhase"
+  },
+  {
+   "id": "perehod-k-praktike-udalennaya-rabota",
+   "label": "Переход к практике \"удаленная работа\"",
+   "classCode": "TransformationProcess"
+  },
+  {
+   "id": "peshehod",
+   "label": "Пешеход",
+   "classCode": "Actor"
+  },
+  {
+   "id": "planirovschik-menyu",
+   "label": "Планировщик меню",
+   "classCode": "RoleType"
+  },
+  {
+   "id": "plita",
+   "label": "Плита",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "povtoryayuschayasya-povsednevnaya-rutina-zakreplyayuschayasya-na-urovne-neyronnyh-patternov-privykanie",
+   "label": "Повторяющаяся повседневная рутина, закрепляющаяся на уровне нейронных паттернов (привыкание)",
+   "classCode": "ReproductionMechanismType"
+  },
+  {
+   "id": "povysit-ustoychivost",
+   "label": "Повысить устойчивость",
+   "classCode": "InterventionGoal"
+  },
+  {
+   "id": "pole-vysshego-obrazovaniya",
+   "label": "Поле высшего образования",
+   "classCode": "SocialField"
+  },
+  {
+   "id": "politicheskiy",
+   "label": "Политический",
+   "classCode": "ShockType"
+  },
+  {
+   "id": "poluchenie-diploma",
+   "label": "Получение диплома",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "poluchenie-znaniy",
+   "label": "Получение знаний",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "poluchenie-udovolstviya",
+   "label": "Получение удовольствия",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "pomoschnik",
+   "label": "Помощник",
+   "classCode": "RoleType"
+  },
+  {
+   "id": "potrebitel",
+   "label": "Потребитель",
+   "classCode": "RoleType"
+  },
+  {
+   "id": "potreblenie-gotovyh-zavtrakov",
+   "label": "Потребление готовых завтраков",
+   "classCode": "SocialPractice"
+  },
+  {
+   "id": "predostavit-stimuly",
+   "label": "Предоставить стимулы",
+   "classCode": "InterventionMechanism"
+  },
+  {
+   "id": "prepodavatel",
+   "label": "Преподаватель",
+   "classCode": "Actor"
+  },
+  {
+   "id": "prepodavatelskaya-associaciya",
+   "label": "Преподавательская ассоциация",
+   "classCode": "Community"
+  },
+  {
+   "id": "prepodayuschiy",
+   "label": "Преподающий",
+   "classCode": "RoleType"
+  },
+  {
+   "id": "prestizh",
+   "label": "Престиж",
+   "classCode": "NormativeConvention"
+  },
+  {
+   "id": "privychka-kontrolirovat-poseschaemost-trebovat-akademicheskuyu-strogost",
+   "label": "Привычка контролировать посещаемость, требовать академическую строгость",
+   "classCode": "Habitus"
+  },
+  {
+   "id": "prigotovlenie-pischi",
+   "label": "Приготовление пищи",
+   "classCode": "Competence"
+  },
+  {
+   "id": "priznanie-sverstnikov",
+   "label": "Признание сверстников",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "prinadlezhnost-k-gruppe",
+   "label": "Принадлежность к группе",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "produkty",
+   "label": "Продукты",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "professionalnaya-etika",
+   "label": "Профессиональная этика",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "class-process-transformacii",
+   "label": "Процесс трансформации",
+   "classCode": "TransformationProcess",
+   "isClass": true
+  },
+  {
+   "id": "rabotayuschiy-roditel",
+   "label": "Работающий родитель",
+   "classCode": "Actor"
+  },
+  {
+   "id": "razvityy-obschestvennyy-transport-eto-sovremennyy-standart-ekologicheskoy-otvetstvennosti-racionalnogo-ispolzovaniya-vremeni-i-sredstv",
+   "label": "Развитый общественный транспорт — это современный стандарт экологической ответственности, рационального использования времени и средств.",
+   "classCode": "DiscursiveFormation"
+  },
+  {
+   "id": "roditelskiy-chat-shkoly",
+   "label": "Родительский чат школы",
+   "classCode": "Community"
+  },
+  {
+   "id": "class-rol",
+   "label": "Роль",
+   "classCode": "RoleType",
+   "isClass": true
+  },
+  {
+   "id": "semestrovyy-cikl",
+   "label": "Семестровый цикл",
+   "classCode": "TemporalPattern"
+  },
+  {
+   "id": "set",
+   "label": "Сеть",
+   "classCode": "ActorType"
+  },
+  {
+   "id": "signalizaciya-statusa",
+   "label": "Сигнализация статуса",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "simvolicheskiy",
+   "label": "Символический",
+   "classCode": "ArtifactType"
+  },
+  {
+   "id": "simvolicheskiy-kapital",
+   "label": "Символический капитал",
+   "classCode": "CapitalType"
+  },
+  {
+   "id": "sklonnost-k-konspektirovaniyu-zubrezhke-pered-sessiey",
+   "label": "Склонность к конспектированию, зубрежке перед сессией",
+   "classCode": "Habitus"
+  },
+  {
+   "id": "snizhenie-rashodov",
+   "label": "Снижение расходов",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "snizhenie-stressa",
+   "label": "Снижение стресса",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "sozdat-novuyu-obschnost",
+   "label": "Создать новую общность",
+   "classCode": "InterventionMechanism"
+  },
+  {
+   "id": "sortirovka-othodov",
+   "label": "Сортировка отходов",
+   "classCode": "SocialPractice"
+  },
+  {
+   "id": "sortirovschik",
+   "label": "Сортировщик",
+   "classCode": "RoleType"
+  },
+  {
+   "id": "socialnaya-identichnostnaya-motivaciya-prinadlezhnost-status",
+   "label": "Социальная / Идентичностная мотивация (принадлежность, статус)",
+   "classCode": "MotivationType"
+  },
+  {
+   "id": "class-socialnaya-praktika",
+   "label": "Социальная практика",
+   "classCode": "SocialPractice",
+   "isClass": true
+  },
+  {
+   "id": "socialnaya-spravedlivost",
+   "label": "Социальная справедливость",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "class-socialnoe-pole",
+   "label": "Социальное поле",
+   "classCode": "SocialField",
+   "isClass": true
+  },
+  {
+   "id": "socialnyy-kapital",
+   "label": "Социальный капитал",
+   "classCode": "CapitalType"
+  },
+  {
+   "id": "sposobstvovat-perehodu",
+   "label": "Способствовать переходу",
+   "classCode": "InterventionGoal"
+  },
+  {
+   "id": "srednee-professionalnoe-obrazovanie",
+   "label": "Среднее профессиональное образование",
+   "classCode": "SocialPractice"
+  },
+  {
+   "id": "sredniy",
+   "label": "Средний",
+   "classCode": "StabilityLevel"
+  },
+  {
+   "id": "stabilizaciya",
+   "label": "Стабилизация",
+   "classCode": "TransformationPhase"
+  },
+  {
+   "id": "status",
+   "label": "Статус",
+   "classCode": "NormativeConvention"
+  },
+  {
+   "id": "stremlenie-k-komfortu",
+   "label": "Стремление к комфорту",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "student",
+   "label": "Студент",
+   "classCode": "Actor"
+  },
+  {
+   "id": "studencheskoe-soobschestvo",
+   "label": "Студенческое сообщество",
+   "classCode": "Community"
+  },
+  {
+   "id": "tehnologicheskiy",
+   "label": "Технологический",
+   "classCode": "ShockType"
+  },
+  {
+   "id": "class-tip-aktora",
+   "label": "Тип актора",
+   "classCode": "ActorType",
+   "isClass": true
+  },
+  {
+   "id": "class-tip-artefakta",
+   "label": "Тип артефакта",
+   "classCode": "ArtifactType",
+   "isClass": true
+  },
+  {
+   "id": "class-tip-kapitala",
+   "label": "Тип капитала",
+   "classCode": "CapitalType",
+   "isClass": true
+  },
+  {
+   "id": "class-tip-motivacii",
+   "label": "Тип мотивации",
+   "classCode": "MotivationType",
+   "isClass": true
+  },
+  {
+   "id": "class-tip-shoka",
+   "label": "Тип шока",
+   "classCode": "ShockType",
+   "isClass": true
+  },
+  {
+   "id": "transportnaya-karta",
+   "label": "Транспортная карта",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "transformaciya-mobilnosti",
+   "label": "Трансформация мобильности",
+   "classCode": "TransformationProcess"
+  },
+  {
+   "id": "udalennaya-rabota",
+   "label": "Удаленная работа",
+   "classCode": "SocialPractice"
+  },
+  {
+   "id": "udobstvo",
+   "label": "Удобство",
+   "classCode": "NormativeConvention"
+  },
+  {
+   "id": "ukrepit-praktiku",
+   "label": "Укрепить практику",
+   "classCode": "InterventionGoal"
+  },
+  {
+   "id": "uluchshenie-zdorovya",
+   "label": "Улучшение здоровья",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "umenie-uchitsya",
+   "label": "Умение учиться",
+   "classCode": "Competence"
+  },
+  {
+   "id": "umerennyy",
+   "label": "Умеренный",
+   "classCode": "AccessibilityLevel"
+  },
+  {
+   "id": "class-uroven-agentnosti",
+   "label": "Уровень агентности",
+   "classCode": "AgencyLevel",
+   "isClass": true
+  },
+  {
+   "id": "class-uroven-dostupnosti",
+   "label": "Уровень доступности",
+   "classCode": "AccessibilityLevel",
+   "isClass": true
+  },
+  {
+   "id": "class-uroven-ustoychivosti",
+   "label": "Уровень устойчивости",
+   "classCode": "StabilityLevel",
+   "isClass": true
+  },
+  {
+   "id": "ustarevanie",
+   "label": "Устаревание",
+   "classCode": "TransformationPhase"
+  },
+  {
+   "id": "class-uchastie-v-praktike",
+   "label": "Участие в практике",
+   "classCode": "PracticeParticipation",
+   "isClass": true
+  },
+  {
+   "id": "uchastie-prepodavatelya-v-vysshem-obrazovanii",
+   "label": "Участие преподавателя в высшем образовании",
+   "classCode": "PracticeParticipation"
+  },
+  {
+   "id": "uchastie-studenta-v-vysshem-obrazovanii",
+   "label": "Участие студента в высшем образовании",
+   "classCode": "PracticeParticipation"
+  },
+  {
+   "id": "uchastie-avtovladelec-avto",
+   "label": "Участие_Автовладелец_Авто",
+   "classCode": "PracticeParticipation"
+  },
+  {
+   "id": "uchastie-anna-sortirovkaothodov",
+   "label": "Участие_Анна_СортировкаОтходов",
+   "classCode": "PracticeParticipation"
+  },
+  {
+   "id": "uchastie-peshehod-ot",
+   "label": "Участие_Пешеход_ОТ",
+   "classCode": "PracticeParticipation"
+  },
+  {
+   "id": "uchastie-rabotayuschiyroditel-zavtrak",
+   "label": "Участие_РаботающийРодитель_Завтрак",
+   "classCode": "PracticeParticipation"
+  },
+  {
+   "id": "uchebnyy-korpus",
+   "label": "Учебный корпус",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "class-faza-transformacii",
+   "label": "Фаза трансформации",
+   "classCode": "TransformationPhase",
+   "isClass": true
+  },
+  {
+   "id": "fizicheskiy",
+   "label": "Физический",
+   "classCode": "ArtifactType"
+  },
+  {
+   "id": "formalnoe-obuchenie-v-obrazovatelnyh-uchrezhdeniyah-shkoly-vuzy-kursy",
+   "label": "Формальное обучение в образовательных учреждениях (школы, вузы, курсы)",
+   "classCode": "ReproductionMechanismType"
+  },
+  {
+   "id": "holodilnik",
+   "label": "Холодильник",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "class-cel-vmeshatelstva",
+   "label": "Цель вмешательства",
+   "classCode": "InterventionGoal",
+   "isClass": true
+  },
+  {
+   "id": "cenit-organizovannost-utra-stremitsya-obespechit-seme-zdorovuyu-edu-ogranichen-vo-vremeni",
+   "label": "Ценит организованность утра, стремится обеспечить семье здоровую еду, ограничен во времени",
+   "classCode": "Habitus"
+  },
+  {
+   "id": "cennostnaya-normativnaya-motivaciya-sootvetstvie-ubezhdeniyam",
+   "label": "Ценностная / Нормативная мотивация (соответствие убеждениям)",
+   "classCode": "MotivationType"
+  },
+  {
+   "id": "cifrovoy",
+   "label": "Цифровой",
+   "classCode": "ArtifactType"
+  },
+  {
+   "id": "class-ekzogennyy-shok",
+   "label": "Экзогенный шок",
+   "classCode": "ExogenousShock",
+   "isClass": true
+  },
+  {
+   "id": "ekologicheskaya-otvetstvennost",
+   "label": "Экологическая ответственность",
+   "classCode": "Motivation"
+  },
+  {
+   "id": "ekologicheskiy",
+   "label": "Экологический",
+   "classCode": "ShockType"
+  },
+  {
+   "id": "ekologichnost",
+   "label": "Экологичность",
+   "classCode": "NormativeConvention"
+  },
+  {
+   "id": "ekonomicheskiy",
+   "label": "Экономический",
+   "classCode": "ShockType"
+  },
+  {
+   "id": "ekonomicheskiy-kapital",
+   "label": "Экономический капитал",
+   "classCode": "CapitalType"
+  },
+  {
+   "id": "ekonomiya-byudzheta",
+   "label": "Экономия бюджета",
+   "classCode": "NormativeConvention"
+  },
+  {
+   "id": "ekonomiya-vremeni",
+   "label": "Экономия времени",
+   "classCode": "NormativeConvention"
+  },
+  {
+   "id": "emocionalnaya-gedonisticheskaya-motivaciya-udovolstvie-komfort",
+   "label": "Эмоциональная / Гедонистическая мотивация (удовольствие, комфорт)",
+   "classCode": "MotivationType"
+  },
+  {
+   "id": "epidemiologicheskiy",
+   "label": "Эпидемиологический",
+   "classCode": "ShockType"
+  },
+  {
+   "id": "lms-moodle",
+   "label": "LMS Moodle",
+   "classCode": "Artifact"
+  }
+ ]
+}

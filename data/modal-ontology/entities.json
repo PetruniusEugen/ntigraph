@@ -1,0 +1,339 @@
+{
+ "entities": [
+  {
+   "id": "2026-01-01-2026-10-25",
+   "label": "2026-01-01..2026-10-25",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "2026-01-01-2026-12-31",
+   "label": "2026-01-01..2026-12-31",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "2026-01-2026-09",
+   "label": "2026-01..2026-09",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "2026-01-2026-12",
+   "label": "2026-01..2026-12",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "2026-10-23",
+   "label": "2026-10-23",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "2026-10-23-2026-10-24",
+   "label": "2026-10-23..2026-10-24",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "2026-10-23-2026-12-31",
+   "label": "2026-10-23..2026-12-31",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "2026-10-25",
+   "label": "2026-10-25",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "2026-12-31",
+   "label": "2026-12-31",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "2026-q1-2026-q4",
+   "label": "2026-Q1..2026-Q4",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "2026-q3-2027-q2",
+   "label": "2026-Q3..2027-Q2",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "avtomaticheskaya-smena-parolya",
+   "label": "Автоматическая смена пароля",
+   "classCode": "ActionType"
+  },
+  {
+   "id": "class-aleticheskiy-status",
+   "label": "Алетический статус",
+   "classCode": "AlethicStatus",
+   "isClass": true
+  },
+  {
+   "id": "vechnyy-interval-2-2-4",
+   "label": "Вечный интервал (2+2=4)",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "vozmozhnost-avtomaticheskaya-smena-parolya",
+   "label": "Возможность «автоматическая смена пароля»",
+   "classCode": "AlethicStatus"
+  },
+  {
+   "id": "class-vremennoy-interval",
+   "label": "Временной интервал",
+   "classCode": "TemporalInterval",
+   "isClass": true
+  },
+  {
+   "id": "class-deystvie",
+   "label": "Действие",
+   "classCode": "ActionProcess",
+   "isClass": true
+  },
+  {
+   "id": "delegirovanie-dostupa",
+   "label": "Делегирование доступа",
+   "classCode": "ActionType"
+  },
+  {
+   "id": "class-zapret",
+   "label": "Запрет",
+   "classCode": "Prohibition",
+   "isClass": true
+  },
+  {
+   "id": "zapret-na-avtomatizaciyu-smeny-parolya",
+   "label": "Запрет на автоматизацию смены пароля",
+   "classCode": "Prohibition"
+  },
+  {
+   "id": "zapret-peredavat-parol-tretim-licam",
+   "label": "Запрет передавать пароль третьим лицам",
+   "classCode": "Prohibition"
+  },
+  {
+   "id": "class-znanie",
+   "label": "Знание",
+   "classCode": "Knowledge",
+   "isClass": true
+  },
+  {
+   "id": "znanie-zapret-peredavat-parol",
+   "label": "Знание «запрет передавать пароль»",
+   "classCode": "Knowledge"
+  },
+  {
+   "id": "znanie-parolya-bd",
+   "label": "Знание пароля БД",
+   "classCode": "Knowledge"
+  },
+  {
+   "id": "ivanov-i-i",
+   "label": "Иванов И.И.",
+   "classCode": "Person"
+  },
+  {
+   "id": "incident-utechki-parolya-2026-05-12",
+   "label": "Инцидент утечки пароля 2026-05-12",
+   "classCode": null
+  },
+  {
+   "id": "klassicheskaya-arifmetika",
+   "label": "Классическая арифметика",
+   "classCode": "Model"
+  },
+  {
+   "id": "class-model",
+   "label": "Модель",
+   "classCode": "Model",
+   "isClass": true
+  },
+  {
+   "id": "model-it-reglament-2026",
+   "label": "Модель ИТ-регламент 2026",
+   "classCode": "Model"
+  },
+  {
+   "id": "model-pogody-moskva-2026-10-24",
+   "label": "Модель погоды Москва 2026-10-24",
+   "classCode": "Model"
+  },
+  {
+   "id": "na-peresmotre",
+   "label": "На пересмотре",
+   "classCode": "RevisionStatus"
+  },
+  {
+   "id": "nevozmozhnost-ruchnaya-smena-raz-v-90-dney",
+   "label": "Невозможность «ручная смена раз в 90 дней»",
+   "classCode": "AlethicStatus"
+  },
+  {
+   "id": "class-neznanie",
+   "label": "Незнание",
+   "classCode": "Ignorance",
+   "isClass": true
+  },
+  {
+   "id": "neznanie-zapret-peredavat-parol",
+   "label": "Незнание «запрет передавать пароль»",
+   "classCode": "Ignorance"
+  },
+  {
+   "id": "neobhodimost-2-2-4",
+   "label": "Необходимость «2+2=4»",
+   "classCode": "AlethicStatus"
+  },
+  {
+   "id": "class-obyazannost",
+   "label": "Обязанность",
+   "classCode": "Obligation",
+   "isClass": true
+  },
+  {
+   "id": "obyazannost-delegirovat-dostup-assistentu",
+   "label": "Обязанность делегировать доступ ассистенту",
+   "classCode": "Obligation"
+  },
+  {
+   "id": "obyazannost-menyat-parol-raz-v-90-dney",
+   "label": "Обязанность менять пароль раз в 90 дней",
+   "classCode": "Obligation"
+  },
+  {
+   "id": "obyazannost-oznakomitsya-s-zapretom-peredavat-parol",
+   "label": "Обязанность ознакомиться с запретом передавать пароль",
+   "classCode": "Obligation"
+  },
+  {
+   "id": "oznakomlenie-s-zapretom-peredavat-parol-2026-10-25",
+   "label": "Ознакомление с запретом передавать пароль 2026-10-25",
+   "classCode": "ComplianceProcess"
+  },
+  {
+   "id": "oznakomlenie-s-normoy",
+   "label": "Ознакомление с нормой",
+   "classCode": "ActionType"
+  },
+  {
+   "id": "peredacha-vremennoy-ssylki",
+   "label": "Передача временной ссылки",
+   "classCode": "ActionType"
+  },
+  {
+   "id": "peredacha-parolya",
+   "label": "Передача пароля",
+   "classCode": "ActionType"
+  },
+  {
+   "id": "class-propoziciya",
+   "label": "Пропозиция",
+   "classCode": "Proposition",
+   "isClass": true
+  },
+  {
+   "id": "propoziciya-2-2-4",
+   "label": "Пропозиция «2+2=4»",
+   "classCode": "Proposition"
+  },
+  {
+   "id": "propoziciya-avtomaticheskaya-smena-parolya-vozmozhna",
+   "label": "Пропозиция «автоматическая смена пароля возможна»",
+   "classCode": "Proposition"
+  },
+  {
+   "id": "propoziciya-zavtra-poydet-dozhd",
+   "label": "Пропозиция «Завтра пойдёт дождь»",
+   "classCode": "Proposition"
+  },
+  {
+   "id": "propoziciya-ivanov-i-i-smenit-parol-do-2026-12-31",
+   "label": "Пропозиция «Иванов И.И. сменит пароль до 2026-12-31»",
+   "classCode": "Proposition"
+  },
+  {
+   "id": "propoziciya-peredacha-parolya-zapreschena",
+   "label": "Пропозиция «передача пароля запрещена»",
+   "classCode": "Proposition"
+  },
+  {
+   "id": "propoziciya-ruchnaya-smena-parolya-raz-v-90-dney-nevozmozhna",
+   "label": "Пропозиция «ручная смена пароля раз в 90 дней невозможна»",
+   "classCode": "Proposition"
+  },
+  {
+   "id": "class-razreshenie",
+   "label": "Разрешение",
+   "classCode": "Permission",
+   "isClass": true
+  },
+  {
+   "id": "razreshenie-ispolzovat-korporativnyy-messendzher-dlya-vremennyh-ssylok",
+   "label": "Разрешение использовать корпоративный мессенджер для временных ссылок",
+   "classCode": "Permission"
+  },
+  {
+   "id": "s-2026-10-25-bessrochno",
+   "label": "С 2026-10-25 (бессрочно)",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "sluchaynost-zavtra-poydet-dozhd",
+   "label": "Случайность «Завтра пойдёт дождь»",
+   "classCode": "AlethicStatus"
+  },
+  {
+   "id": "sluchaynost-ivanov-i-i-smenit-parol-do-2026-12-31",
+   "label": "Случайность «Иванов И.И. сменит пароль до 2026-12-31»",
+   "classCode": "AlethicStatus"
+  },
+  {
+   "id": "smena-parolya",
+   "label": "Смена пароля",
+   "classCode": "ActionType"
+  },
+  {
+   "id": "class-soblyudenie",
+   "label": "Соблюдение",
+   "classCode": "ComplianceProcess",
+   "isClass": true
+  },
+  {
+   "id": "soderzhanie-zapret-na-peredachu-parolya",
+   "label": "Содержание «запрет на передачу пароля»",
+   "classCode": "EpistemicContent"
+  },
+  {
+   "id": "soderzhanie-parol-x",
+   "label": "Содержание «пароль = X»",
+   "classCode": null
+  },
+  {
+   "id": "class-status-peresmotra",
+   "label": "Статус пересмотра",
+   "classCode": "RevisionStatus",
+   "isClass": true
+  },
+  {
+   "id": "class-tip-deystviya",
+   "label": "Тип действия",
+   "classCode": "ActionType",
+   "isClass": true
+  },
+  {
+   "id": "fakticheskaya-smena-parolya-2026-11-15",
+   "label": "Фактическая смена пароля 2026-11-15",
+   "classCode": "ActionProcess"
+  },
+  {
+   "id": "class-chelovek",
+   "label": "Человек",
+   "classCode": "Person",
+   "isClass": true
+  },
+  {
+   "id": "class-epistemicheskoe-soderzhanie",
+   "label": "Эпистемическое содержание",
+   "classCode": "EpistemicContent",
+   "isClass": true
+  }
+ ]
+}

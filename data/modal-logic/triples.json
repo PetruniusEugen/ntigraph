@@ -1,0 +1,1714 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "sistema-k",
+   "predicate": "имеет тип",
+   "object": "class-sistema-modalnoy-logiki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "sistema-t",
+   "predicate": "имеет тип",
+   "object": "class-sistema-modalnoy-logiki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t003",
+   "subject": "sistema-d",
+   "predicate": "имеет тип",
+   "object": "class-sistema-modalnoy-logiki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "sistema-s4",
+   "predicate": "имеет тип",
+   "object": "class-sistema-modalnoy-logiki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "sistema-s5",
+   "predicate": "имеет тип",
+   "object": "class-sistema-modalnoy-logiki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "sistema-kd45",
+   "predicate": "имеет тип",
+   "object": "class-sistema-modalnoy-logiki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "sistema-kt",
+   "predicate": "имеет тип",
+   "object": "class-sistema-modalnoy-logiki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t008",
+   "subject": "shema-k",
+   "predicate": "имеет тип",
+   "object": "class-shema-aksiom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "shema-t",
+   "predicate": "имеет тип",
+   "object": "class-shema-aksiom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t010",
+   "subject": "shema-d",
+   "predicate": "имеет тип",
+   "object": "class-shema-aksiom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t011",
+   "subject": "shema-4",
+   "predicate": "имеет тип",
+   "object": "class-shema-aksiom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t012",
+   "subject": "shema-5",
+   "predicate": "имеет тип",
+   "object": "class-shema-aksiom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t013",
+   "subject": "refleksivnost",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-na-freym",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t014",
+   "subject": "seriynost",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-na-freym",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "tranzitivnost",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-na-freym",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "evklidovost",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-na-freym",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "modus-ponens",
+   "predicate": "имеет тип",
+   "object": "class-pravilo-vyvoda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t018",
+   "subject": "pravilo-neobhodimosti",
+   "predicate": "имеет тип",
+   "object": "class-pravilo-vyvoda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t019",
+   "subject": "neobhodimost",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t020",
+   "subject": "vozmozhnost",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "k-znanie",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t022",
+   "subject": "b-ubezhdenie",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t023",
+   "subject": "o-obyazatelno",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t024",
+   "subject": "p-razresheno",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t025",
+   "subject": "f-zaprescheno",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t026",
+   "subject": "g-vsegda-v-buduschem",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t027",
+   "subject": "p-past-kogda-to-v-proshlom",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t028",
+   "subject": "aleticheskoe-prochtenie",
+   "predicate": "имеет тип",
+   "object": "class-prochtenie-modalnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t029",
+   "subject": "epistemicheskoe-prochtenie-znanie",
+   "predicate": "имеет тип",
+   "object": "class-prochtenie-modalnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t030",
+   "subject": "epistemicheskoe-prochtenie-ubezhdenie",
+   "predicate": "имеет тип",
+   "object": "class-prochtenie-modalnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t031",
+   "subject": "deonticheskoe-prochtenie",
+   "predicate": "имеет тип",
+   "object": "class-prochtenie-modalnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t032",
+   "subject": "vremennoe-prochtenie",
+   "predicate": "имеет тип",
+   "object": "class-prochtenie-modalnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t033",
+   "subject": "logicheskaya-neobhodimost",
+   "predicate": "имеет тип",
+   "object": "class-vid-neobhodimosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t034",
+   "subject": "metafizicheskaya-neobhodimost",
+   "predicate": "имеет тип",
+   "object": "class-vid-neobhodimosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t035",
+   "subject": "nomologicheskaya-neobhodimost",
+   "predicate": "имеет тип",
+   "object": "class-vid-neobhodimosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t036",
+   "subject": "anna-farmacevt",
+   "predicate": "имеет тип",
+   "object": "class-agent",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t037",
+   "subject": "boris-stazher",
+   "predicate": "имеет тип",
+   "object": "class-agent",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t038",
+   "subject": "smena-26-10-2026-08-00-20-00",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t039",
+   "subject": "moment-09-00",
+   "predicate": "имеет тип",
+   "object": "class-moment-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t040",
+   "subject": "moment-09-10",
+   "predicate": "имеет тип",
+   "object": "class-moment-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t041",
+   "subject": "norma-proverka-allergiy-pered-vydachey",
+   "predicate": "имеет тип",
+   "object": "class-norma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t042",
+   "subject": "obyazatelstvo-anny-proverit-allergii",
+   "predicate": "имеет тип",
+   "object": "class-deonticheskiy-status",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t043",
+   "subject": "zapret-borisu-vydacha-bez-proverki",
+   "predicate": "имеет тип",
+   "object": "class-deonticheskiy-status",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t044",
+   "subject": "znanie-anny-pacient-allergik",
+   "predicate": "имеет тип",
+   "object": "class-epistemicheskaya-ustanovka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t045",
+   "subject": "ubezhdenie-borisa-pacient-ne-allergik",
+   "predicate": "имеет тип",
+   "object": "class-epistemicheskaya-ustanovka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t046",
+   "subject": "peredozirovka-toksichnost",
+   "predicate": "имеет тип",
+   "object": "class-modalnaya-formula",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t047",
+   "subject": "toksichnost-preparat-x",
+   "predicate": "имеет тип",
+   "object": "class-modalnaya-formula",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t048",
+   "subject": "allergic-pacient-2",
+   "predicate": "имеет тип",
+   "object": "class-modalnaya-formula",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t049",
+   "subject": "allergic-pacient",
+   "predicate": "имеет тип",
+   "object": "class-modalnaya-formula",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t050",
+   "subject": "k-anna-allergic-pacient",
+   "predicate": "имеет тип",
+   "object": "class-modalnaya-formula",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t051",
+   "subject": "b-boris-allergic-pacient",
+   "predicate": "имеет тип",
+   "object": "class-modalnaya-formula",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t052",
+   "subject": "o-verify-allergii",
+   "predicate": "имеет тип",
+   "object": "class-modalnaya-formula",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t053",
+   "subject": "g-dispense-p-past-verify",
+   "predicate": "имеет тип",
+   "object": "class-modalnaya-formula",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t054",
+   "subject": "k-anna-o-verify-allergii",
+   "predicate": "имеет тип",
+   "object": "class-modalnaya-formula",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t055",
+   "subject": "model-m-epi",
+   "predicate": "имеет тип",
+   "object": "class-model-kripke",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t056",
+   "subject": "freym-f-epi",
+   "predicate": "имеет тип",
+   "object": "class-freym-kripke",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t057",
+   "subject": "mir-w1",
+   "predicate": "имеет тип",
+   "object": "class-mir-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t058",
+   "subject": "mir-w2",
+   "predicate": "имеет тип",
+   "object": "class-mir-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t059",
+   "subject": "otnoshenie-r-anna",
+   "predicate": "имеет тип",
+   "object": "class-otnoshenie-dostizhimosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t060",
+   "subject": "ocenka-v-epi",
+   "predicate": "имеет тип",
+   "object": "class-ocenka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t061",
+   "subject": "m-epi-w1-k-anna-allergic-pacient",
+   "predicate": "имеет тип",
+   "object": "class-utverzhdenie-vypolnimosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t062",
+   "subject": "model-m-temp",
+   "predicate": "имеет тип",
+   "object": "class-model-kripke",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t063",
+   "subject": "freym-f-temp",
+   "predicate": "имеет тип",
+   "object": "class-freym-kripke",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t064",
+   "subject": "mir-t1",
+   "predicate": "имеет тип",
+   "object": "class-mir-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t065",
+   "subject": "mir-t2",
+   "predicate": "имеет тип",
+   "object": "class-mir-modeli",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t066",
+   "subject": "otnoshenie-vremya",
+   "predicate": "имеет тип",
+   "object": "class-otnoshenie-dostizhimosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t067",
+   "subject": "ocenka-v-temp",
+   "predicate": "имеет тип",
+   "object": "class-ocenka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t068",
+   "subject": "m-temp-t1-g-dispense-p-past-verify",
+   "predicate": "имеет тип",
+   "object": "class-utverzhdenie-vypolnimosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t069",
+   "subject": "preparat-x",
+   "predicate": "имеет тип",
+   "object": "class-materialnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t070",
+   "subject": "toksichnost-preparata-x-pri-peredozirovke",
+   "predicate": "имеет тип",
+   "object": "class-dispoziciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t071",
+   "subject": "proverka-allergiy-v-09-00",
+   "predicate": "имеет тип",
+   "object": "class-process",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t072",
+   "subject": "toksicheskoe-deystvie-preparata-x-pri-peredozirovke",
+   "predicate": "имеет тип",
+   "object": "class-process",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t073",
+   "subject": "sistema-t",
+   "predicate": "расширяет",
+   "object": "sistema-k",
+   "sourceId": "src-textbook",
+   "sourceName": "Общепринятые определения модальной логики и семантики Крипке (учебная литература)",
+   "sourceType": "reference",
+   "updatedAt": "2026-10-25"
+  },
+  {
+   "id": "t074",
+   "subject": "sistema-d",
+   "predicate": "расширяет",
+   "object": "sistema-k",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t075",
+   "subject": "sistema-s4",
+   "predicate": "расширяет",
+   "object": "sistema-t",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t076",
+   "subject": "sistema-s5",
+   "predicate": "расширяет",
+   "object": "sistema-s4",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t077",
+   "subject": "sistema-kd45",
+   "predicate": "расширяет",
+   "object": "sistema-d",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t078",
+   "subject": "sistema-kt",
+   "predicate": "расширяет",
+   "object": "sistema-k",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t079",
+   "subject": "sistema-k",
+   "predicate": "содержит схему аксиом",
+   "object": "shema-k",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t080",
+   "subject": "sistema-t",
+   "predicate": "содержит схему аксиом",
+   "object": "shema-t",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t081",
+   "subject": "sistema-d",
+   "predicate": "содержит схему аксиом",
+   "object": "shema-d",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t082",
+   "subject": "sistema-s4",
+   "predicate": "содержит схему аксиом",
+   "object": "shema-4",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t083",
+   "subject": "sistema-s5",
+   "predicate": "содержит схему аксиом",
+   "object": "shema-5",
+   "sourceId": "src-textbook",
+   "sourceName": "Общепринятые определения модальной логики и семантики Крипке (учебная литература)",
+   "sourceType": "reference",
+   "updatedAt": "2026-10-25"
+  },
+  {
+   "id": "t084",
+   "subject": "sistema-kd45",
+   "predicate": "содержит схему аксиом",
+   "object": "shema-4",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t085",
+   "subject": "sistema-kd45",
+   "predicate": "содержит схему аксиом",
+   "object": "shema-5",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t086",
+   "subject": "sistema-k",
+   "predicate": "использует правило вывода",
+   "object": "modus-ponens",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t087",
+   "subject": "sistema-k",
+   "predicate": "использует правило вывода",
+   "object": "pravilo-neobhodimosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t088",
+   "subject": "shema-t",
+   "predicate": "соответствует условию на фрейм",
+   "object": "refleksivnost",
+   "sourceId": "src-textbook",
+   "sourceName": "Общепринятые определения модальной логики и семантики Крипке (учебная литература)",
+   "sourceType": "reference",
+   "updatedAt": "2026-10-25"
+  },
+  {
+   "id": "t089",
+   "subject": "shema-d",
+   "predicate": "соответствует условию на фрейм",
+   "object": "seriynost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t090",
+   "subject": "shema-4",
+   "predicate": "соответствует условию на фрейм",
+   "object": "tranzitivnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t091",
+   "subject": "shema-5",
+   "predicate": "соответствует условию на фрейм",
+   "object": "evklidovost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t092",
+   "subject": "sistema-s5",
+   "predicate": "допускает прочтение",
+   "object": "aleticheskoe-prochtenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t093",
+   "subject": "sistema-s5",
+   "predicate": "допускает прочтение",
+   "object": "epistemicheskoe-prochtenie-znanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t094",
+   "subject": "sistema-kd45",
+   "predicate": "допускает прочтение",
+   "object": "epistemicheskoe-prochtenie-ubezhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t095",
+   "subject": "sistema-d",
+   "predicate": "допускает прочтение",
+   "object": "deonticheskoe-prochtenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t096",
+   "subject": "sistema-kt",
+   "predicate": "допускает прочтение",
+   "object": "vremennoe-prochtenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t097",
+   "subject": "aleticheskoe-prochtenie",
+   "predicate": "читает оператор",
+   "object": "neobhodimost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t098",
+   "subject": "aleticheskoe-prochtenie",
+   "predicate": "читает оператор",
+   "object": "vozmozhnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t099",
+   "subject": "epistemicheskoe-prochtenie-znanie",
+   "predicate": "читает оператор",
+   "object": "k-znanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t100",
+   "subject": "epistemicheskoe-prochtenie-ubezhdenie",
+   "predicate": "читает оператор",
+   "object": "b-ubezhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t101",
+   "subject": "deonticheskoe-prochtenie",
+   "predicate": "читает оператор",
+   "object": "o-obyazatelno",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t102",
+   "subject": "deonticheskoe-prochtenie",
+   "predicate": "читает оператор",
+   "object": "p-razresheno",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t103",
+   "subject": "deonticheskoe-prochtenie",
+   "predicate": "читает оператор",
+   "object": "f-zaprescheno",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t104",
+   "subject": "vremennoe-prochtenie",
+   "predicate": "читает оператор",
+   "object": "g-vsegda-v-buduschem",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t105",
+   "subject": "vremennoe-prochtenie",
+   "predicate": "читает оператор",
+   "object": "p-past-kogda-to-v-proshlom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t106",
+   "subject": "aleticheskoe-prochtenie",
+   "predicate": "использует вид необходимости",
+   "object": "logicheskaya-neobhodimost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t107",
+   "subject": "aleticheskoe-prochtenie",
+   "predicate": "использует вид необходимости",
+   "object": "metafizicheskaya-neobhodimost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t108",
+   "subject": "aleticheskoe-prochtenie",
+   "predicate": "использует вид необходимости",
+   "object": "nomologicheskaya-neobhodimost",
+   "sourceId": "src-bfo-v02",
+   "sourceName": "Онтология модальной логики по BFO, версия 0.2 (modal-logic-bfo.ttl)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-25"
+  },
+  {
+   "id": "t109",
+   "subject": "peredozirovka-toksichnost",
+   "predicate": "содержит оператор",
+   "object": "neobhodimost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t110",
+   "subject": "toksichnost-preparat-x",
+   "predicate": "содержит оператор",
+   "object": "vozmozhnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t111",
+   "subject": "k-anna-allergic-pacient",
+   "predicate": "содержит оператор",
+   "object": "k-znanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t112",
+   "subject": "b-boris-allergic-pacient",
+   "predicate": "содержит оператор",
+   "object": "b-ubezhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t113",
+   "subject": "o-verify-allergii",
+   "predicate": "содержит оператор",
+   "object": "o-obyazatelno",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t114",
+   "subject": "g-dispense-p-past-verify",
+   "predicate": "содержит оператор",
+   "object": "g-vsegda-v-buduschem",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t115",
+   "subject": "g-dispense-p-past-verify",
+   "predicate": "содержит оператор",
+   "object": "p-past-kogda-to-v-proshlom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t116",
+   "subject": "k-anna-o-verify-allergii",
+   "predicate": "содержит оператор",
+   "object": "k-znanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t117",
+   "subject": "k-anna-o-verify-allergii",
+   "predicate": "содержит оператор",
+   "object": "o-obyazatelno",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t118",
+   "subject": "peredozirovka-toksichnost",
+   "predicate": "читается как",
+   "object": "aleticheskoe-prochtenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t119",
+   "subject": "toksichnost-preparat-x",
+   "predicate": "читается как",
+   "object": "aleticheskoe-prochtenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t120",
+   "subject": "k-anna-allergic-pacient",
+   "predicate": "читается как",
+   "object": "epistemicheskoe-prochtenie-znanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t121",
+   "subject": "b-boris-allergic-pacient",
+   "predicate": "читается как",
+   "object": "epistemicheskoe-prochtenie-ubezhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t122",
+   "subject": "o-verify-allergii",
+   "predicate": "читается как",
+   "object": "deonticheskoe-prochtenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t123",
+   "subject": "g-dispense-p-past-verify",
+   "predicate": "читается как",
+   "object": "vremennoe-prochtenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t124",
+   "subject": "k-anna-o-verify-allergii",
+   "predicate": "читается как",
+   "object": "epistemicheskoe-prochtenie-znanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t125",
+   "subject": "k-anna-o-verify-allergii",
+   "predicate": "читается как",
+   "object": "deonticheskoe-prochtenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t126",
+   "subject": "model-m-epi",
+   "predicate": "имеет фрейм",
+   "object": "freym-f-epi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t127",
+   "subject": "model-m-epi",
+   "predicate": "имеет оценку",
+   "object": "ocenka-v-epi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t128",
+   "subject": "model-m-temp",
+   "predicate": "имеет фрейм",
+   "object": "freym-f-temp",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t129",
+   "subject": "model-m-temp",
+   "predicate": "имеет оценку",
+   "object": "ocenka-v-temp",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t130",
+   "subject": "freym-f-epi",
+   "predicate": "содержит мир",
+   "object": "mir-w1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t131",
+   "subject": "freym-f-epi",
+   "predicate": "содержит мир",
+   "object": "mir-w2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t132",
+   "subject": "freym-f-epi",
+   "predicate": "содержит отношение достижимости",
+   "object": "otnoshenie-r-anna",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t133",
+   "subject": "freym-f-temp",
+   "predicate": "содержит мир",
+   "object": "mir-t1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t134",
+   "subject": "freym-f-temp",
+   "predicate": "содержит мир",
+   "object": "mir-t2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t135",
+   "subject": "freym-f-temp",
+   "predicate": "содержит отношение достижимости",
+   "object": "otnoshenie-vremya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t136",
+   "subject": "otnoshenie-r-anna",
+   "predicate": "построено для субъекта",
+   "object": "anna-farmacevt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t137",
+   "subject": "otnoshenie-r-anna",
+   "predicate": "удовлетворяет условию",
+   "object": "refleksivnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t138",
+   "subject": "otnoshenie-r-anna",
+   "predicate": "удовлетворяет условию",
+   "object": "tranzitivnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t139",
+   "subject": "otnoshenie-r-anna",
+   "predicate": "удовлетворяет условию",
+   "object": "evklidovost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t140",
+   "subject": "m-epi-w1-k-anna-allergic-pacient",
+   "predicate": "утверждает о формуле",
+   "object": "k-anna-allergic-pacient",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t141",
+   "subject": "m-epi-w1-k-anna-allergic-pacient",
+   "predicate": "вычисляется в модели",
+   "object": "model-m-epi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t142",
+   "subject": "m-epi-w1-k-anna-allergic-pacient",
+   "predicate": "вычисляется в мире",
+   "object": "mir-w1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t143",
+   "subject": "m-temp-t1-g-dispense-p-past-verify",
+   "predicate": "утверждает о формуле",
+   "object": "g-dispense-p-past-verify",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t144",
+   "subject": "m-temp-t1-g-dispense-p-past-verify",
+   "predicate": "вычисляется в модели",
+   "object": "model-m-temp",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t145",
+   "subject": "m-temp-t1-g-dispense-p-past-verify",
+   "predicate": "вычисляется в мире",
+   "object": "mir-t1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t146",
+   "subject": "mir-t1",
+   "predicate": "соответствует моменту",
+   "object": "moment-09-00",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t147",
+   "subject": "mir-t2",
+   "predicate": "соответствует моменту",
+   "object": "moment-09-10",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t148",
+   "subject": "moment-09-00",
+   "predicate": "входит в интервал",
+   "object": "smena-26-10-2026-08-00-20-00",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t149",
+   "subject": "moment-09-10",
+   "predicate": "входит в интервал",
+   "object": "smena-26-10-2026-08-00-20-00",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t150",
+   "subject": "znanie-anny-pacient-allergik",
+   "predicate": "принадлежит агенту",
+   "object": "anna-farmacevt",
+   "sourceId": "src-example",
+   "sourceName": "Пример: проверка аллергий перед выдачей лекарства (modal-logic-example.ttl)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-25"
+  },
+  {
+   "id": "t151",
+   "subject": "ubezhdenie-borisa-pacient-ne-allergik",
+   "predicate": "принадлежит агенту",
+   "object": "boris-stazher",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t152",
+   "subject": "znanie-anny-pacient-allergik",
+   "predicate": "имеет содержание",
+   "object": "allergic-pacient-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t153",
+   "subject": "ubezhdenie-borisa-pacient-ne-allergik",
+   "predicate": "имеет содержание",
+   "object": "allergic-pacient",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t154",
+   "subject": "znanie-anny-pacient-allergik",
+   "predicate": "сохраняется в течение",
+   "object": "smena-26-10-2026-08-00-20-00",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t155",
+   "subject": "ubezhdenie-borisa-pacient-ne-allergik",
+   "predicate": "сохраняется в течение",
+   "object": "smena-26-10-2026-08-00-20-00",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t156",
+   "subject": "norma-proverka-allergiy-pered-vydachey",
+   "predicate": "адресована",
+   "object": "anna-farmacevt",
+   "sourceId": "src-example",
+   "sourceName": "Пример: проверка аллергий перед выдачей лекарства (modal-logic-example.ttl)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-25"
+  },
+  {
+   "id": "t157",
+   "subject": "norma-proverka-allergiy-pered-vydachey",
+   "predicate": "адресована",
+   "object": "boris-stazher",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t158",
+   "subject": "norma-proverka-allergiy-pered-vydachey",
+   "predicate": "выражается формулой",
+   "object": "o-verify-allergii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t159",
+   "subject": "norma-proverka-allergiy-pered-vydachey",
+   "predicate": "действует в течение",
+   "object": "smena-26-10-2026-08-00-20-00",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t160",
+   "subject": "obyazatelstvo-anny-proverit-allergii",
+   "predicate": "основан на норме",
+   "object": "norma-proverka-allergiy-pered-vydachey",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t161",
+   "subject": "zapret-borisu-vydacha-bez-proverki",
+   "predicate": "основан на норме",
+   "object": "norma-proverka-allergiy-pered-vydachey",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t162",
+   "subject": "obyazatelstvo-anny-proverit-allergii",
+   "predicate": "возлагается на агента",
+   "object": "anna-farmacevt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t163",
+   "subject": "zapret-borisu-vydacha-bez-proverki",
+   "predicate": "возлагается на агента",
+   "object": "boris-stazher",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t164",
+   "subject": "obyazatelstvo-anny-proverit-allergii",
+   "predicate": "существует в течение",
+   "object": "smena-26-10-2026-08-00-20-00",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t165",
+   "subject": "zapret-borisu-vydacha-bez-proverki",
+   "predicate": "существует в течение",
+   "object": "smena-26-10-2026-08-00-20-00",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t166",
+   "subject": "obyazatelstvo-anny-proverit-allergii",
+   "predicate": "исполняется в процессе",
+   "object": "proverka-allergiy-v-09-00",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t167",
+   "subject": "anna-farmacevt",
+   "predicate": "участвует в процессе",
+   "object": "proverka-allergiy-v-09-00",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t168",
+   "subject": "proverka-allergiy-v-09-00",
+   "predicate": "происходит в момент",
+   "object": "moment-09-00",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t169",
+   "subject": "preparat-x",
+   "predicate": "обладает диспозицией",
+   "object": "toksichnost-preparata-x-pri-peredozirovke",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t170",
+   "subject": "toksichnost-preparata-x-pri-peredozirovke",
+   "predicate": "реализуется в процессе",
+   "object": "toksicheskoe-deystvie-preparata-x-pri-peredozirovke",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t171",
+   "subject": "toksichnost-preparata-x-pri-peredozirovke",
+   "predicate": "обосновывает возможность",
+   "object": "toksichnost-preparat-x",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  }
+ ]
+}

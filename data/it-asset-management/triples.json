@@ -1,0 +1,664 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "server-bd-01",
+   "predicate": "имеет тип",
+   "object": "class-it-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "server-bd-01",
+   "predicate": "входит в состав системы",
+   "object": "1s-buhgalteriya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t003",
+   "subject": "noutbuk-dell-latitude",
+   "predicate": "имеет тип",
+   "object": "class-it-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "ivanov-i-i",
+   "predicate": "использует",
+   "object": "noutbuk-dell-latitude",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "1s-buhgalteriya",
+   "predicate": "имеет тип",
+   "object": "class-it-sistema",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "1s-buhgalteriya",
+   "predicate": "система имеет риск",
+   "object": "risk-prostoya-buhgalterii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "1s-buhgalteriya",
+   "predicate": "система имеет риск",
+   "object": "risk-utechki-dannyh-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t008",
+   "subject": "korporativnyy-portal",
+   "predicate": "имеет тип",
+   "object": "class-it-sistema",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "korporativnyy-portal",
+   "predicate": "система имеет риск",
+   "object": "risk-utechki-dannyh-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t010",
+   "subject": "ivanov-i-i",
+   "predicate": "имеет тип",
+   "object": "class-sotrudnik",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t011",
+   "subject": "ivanov-i-i",
+   "predicate": "имеет право доступа",
+   "object": "pravo-administrator-bd",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t012",
+   "subject": "pravo-administrator-bd",
+   "predicate": "имеет тип",
+   "object": "class-pravo-dostupa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t013",
+   "subject": "pravo-administrator-bd",
+   "predicate": "выдаётся на систему",
+   "object": "1s-buhgalteriya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t014",
+   "subject": "petrova-a-a",
+   "predicate": "имеет тип",
+   "object": "class-sotrudnik",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "petrova-a-a",
+   "predicate": "использует",
+   "object": "noutbuk-dell-latitude",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "petrova-a-a",
+   "predicate": "имеет право доступа",
+   "object": "pravo-chtenie-otchetnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "pravo-chtenie-otchetnosti",
+   "predicate": "имеет тип",
+   "object": "class-pravo-dostupa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t018",
+   "subject": "pravo-chtenie-otchetnosti",
+   "predicate": "выдаётся на систему",
+   "object": "korporativnyy-portal",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t019",
+   "subject": "trebovanie-rezervnogo-kopirovaniya",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t020",
+   "subject": "trebovanie-rezervnogo-kopirovaniya",
+   "predicate": "требование регулирует систему",
+   "object": "1s-buhgalteriya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "trebovanie-mfa-dlya-udalennogo-dostupa",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t022",
+   "subject": "trebovanie-mfa-dlya-udalennogo-dostupa",
+   "predicate": "требование регулирует систему",
+   "object": "korporativnyy-portal",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t023",
+   "subject": "ezhednevnoe-rezervnoe-kopirovanie",
+   "predicate": "имеет тип",
+   "object": "class-mera-zaschity",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t024",
+   "subject": "ezhednevnoe-rezervnoe-kopirovanie",
+   "predicate": "мера снижает риск",
+   "object": "risk-prostoya-buhgalterii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t025",
+   "subject": "vnedrenie-mfa",
+   "predicate": "имеет тип",
+   "object": "class-mera-zaschity",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t026",
+   "subject": "vnedrenie-mfa",
+   "predicate": "мера снижает риск",
+   "object": "risk-utechki-dannyh-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t027",
+   "subject": "risk-utechki-dannyh-klientov",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t028",
+   "subject": "risk-prostoya-buhgalterii",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t029",
+   "subject": "incident-nedostupnost-1s-2-chasa",
+   "predicate": "имеет тип",
+   "object": "class-incident",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t030",
+   "subject": "incident-nedostupnost-1s-2-chasa",
+   "predicate": "инцидент в системе",
+   "object": "1s-buhgalteriya",
+   "sourceId": "src-audit",
+   "sourceName": "Отчёт внутреннего аудита ИТ, 2026",
+   "sourceType": "audit",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t031",
+   "subject": "incident-nedostupnost-1s-2-chasa",
+   "predicate": "реализует риск",
+   "object": "risk-prostoya-buhgalterii",
+   "sourceId": "src-audit",
+   "sourceName": "Отчёт внутреннего аудита ИТ, 2026",
+   "sourceType": "audit",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t032",
+   "subject": "deystvie-administrirovanie-1s",
+   "predicate": "имеет тип",
+   "object": "class-deystvie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t033",
+   "subject": "deystvie-formirovanie-otchetnosti-v-1s",
+   "predicate": "имеет тип",
+   "object": "class-deystvie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t034",
+   "subject": "deystvie-chtenie-otchetnosti-portala",
+   "predicate": "имеет тип",
+   "object": "class-deystvie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t035",
+   "subject": "pravo-administrator-bd",
+   "predicate": "предоставляет право",
+   "object": "deystvie-administrirovanie-1s",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t036",
+   "subject": "pravo-administrator-bd",
+   "predicate": "предоставляет право",
+   "object": "deystvie-formirovanie-otchetnosti-v-1s",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t037",
+   "subject": "pravo-chtenie-otchetnosti",
+   "predicate": "предоставляет право",
+   "object": "deystvie-chtenie-otchetnosti-portala",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t038",
+   "subject": "utverzhdenie-server-bd-01-neobhodim-dlya-1s",
+   "predicate": "имеет тип",
+   "object": "class-aleticheskoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t039",
+   "subject": "utverzhdenie-server-bd-01-neobhodim-dlya-1s",
+   "predicate": "алетически характеризует актив",
+   "object": "server-bd-01",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t040",
+   "subject": "utverzhdenie-server-bd-01-neobhodim-dlya-1s",
+   "predicate": "алетически характеризует систему",
+   "object": "1s-buhgalteriya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t041",
+   "subject": "utverzhdenie-administrirovanie-1s-nevozmozhno-bez-prava-administrator-bd",
+   "predicate": "имеет тип",
+   "object": "class-aleticheskoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t042",
+   "subject": "utverzhdenie-administrirovanie-1s-nevozmozhno-bez-prava-administrator-bd",
+   "predicate": "алетически характеризует действие",
+   "object": "deystvie-administrirovanie-1s",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t043",
+   "subject": "utverzhdenie-rezervnoe-kopirovanie-vozmozhno-dlya-snizheniya-prostoya",
+   "predicate": "имеет тип",
+   "object": "class-aleticheskoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t044",
+   "subject": "utverzhdenie-rezervnoe-kopirovanie-vozmozhno-dlya-snizheniya-prostoya",
+   "predicate": "алетически характеризует систему",
+   "object": "1s-buhgalteriya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t045",
+   "subject": "norma-administrirovanie-1s-razresheno",
+   "predicate": "имеет тип",
+   "object": "class-deonticheskoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t046",
+   "subject": "norma-administrirovanie-1s-razresheno",
+   "predicate": "разрешает",
+   "object": "deystvie-administrirovanie-1s",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t047",
+   "subject": "norma-administrirovanie-1s-razresheno",
+   "predicate": "применяется к системе",
+   "object": "1s-buhgalteriya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t048",
+   "subject": "norma-rezervnoe-kopirovanie-obyazatelno",
+   "predicate": "имеет тип",
+   "object": "class-deonticheskoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t049",
+   "subject": "norma-rezervnoe-kopirovanie-obyazatelno",
+   "predicate": "обязывает",
+   "object": "deystvie-formirovanie-otchetnosti-v-1s",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t050",
+   "subject": "norma-rezervnoe-kopirovanie-obyazatelno",
+   "predicate": "выведено из",
+   "object": "trebovanie-rezervnogo-kopirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t051",
+   "subject": "norma-mfa-obyazatelno-dlya-udalennogo-dostupa",
+   "predicate": "имеет тип",
+   "object": "class-deonticheskoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t052",
+   "subject": "norma-mfa-obyazatelno-dlya-udalennogo-dostupa",
+   "predicate": "обязывает",
+   "object": "deystvie-chtenie-otchetnosti-portala",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t053",
+   "subject": "norma-mfa-obyazatelno-dlya-udalennogo-dostupa",
+   "predicate": "выведено из",
+   "object": "trebovanie-mfa-dlya-udalennogo-dostupa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t054",
+   "subject": "vnedrenie-mfa",
+   "predicate": "обеспечивает",
+   "object": "norma-mfa-obyazatelno-dlya-udalennogo-dostupa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t055",
+   "subject": "utverzhdenie-ivanov-imeet-pravo-administrator-bd",
+   "predicate": "имеет тип",
+   "object": "class-epistemicheskoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t056",
+   "subject": "utverzhdenie-ivanov-imeet-pravo-administrator-bd",
+   "predicate": "касается права",
+   "object": "pravo-administrator-bd",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t057",
+   "subject": "utverzhdenie-ivanov-imeet-pravo-administrator-bd",
+   "predicate": "имеет источник",
+   "object": "vnutrenniy-reglament-upravleniya-it-aktivami",
+   "sourceId": "src-reglament",
+   "sourceName": "Внутренний регламент управления ИТ-активами",
+   "sourceType": "internal",
+   "updatedAt": "2026-09-30"
+  },
+  {
+   "id": "t058",
+   "subject": "utverzhdenie-incident-1s-realizoval-risk-prostoya",
+   "predicate": "имеет тип",
+   "object": "class-epistemicheskoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t059",
+   "subject": "utverzhdenie-incident-1s-realizoval-risk-prostoya",
+   "predicate": "имеет источник",
+   "object": "otchet-vnutrennego-audita-it-2026",
+   "sourceId": "src-audit",
+   "sourceName": "Отчёт внутреннего аудита ИТ, 2026",
+   "sourceType": "audit",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t060",
+   "subject": "vnutrenniy-reglament-upravleniya-it-aktivami",
+   "predicate": "имеет тип",
+   "object": "class-istochnik",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t061",
+   "subject": "otchet-vnutrennego-audita-it-2026",
+   "predicate": "имеет тип",
+   "object": "class-istochnik",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t062",
+   "subject": "interval-prava-administrator-bd",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t063",
+   "subject": "pravo-administrator-bd",
+   "predicate": "действует в течение",
+   "object": "interval-prava-administrator-bd",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t064",
+   "subject": "pravo-administrator-bd",
+   "predicate": "актуально на дату",
+   "object": "interval-prava-administrator-bd",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t065",
+   "subject": "interval-prava-chtenie-otchetnosti",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t066",
+   "subject": "pravo-chtenie-otchetnosti",
+   "predicate": "действует в течение",
+   "object": "interval-prava-chtenie-otchetnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  }
+ ]
+}

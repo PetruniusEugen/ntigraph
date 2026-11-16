@@ -1,0 +1,141 @@
+{
+ "entities": [
+  {
+   "id": "3d-model-turbiny",
+   "label": "3D-модель турбины",
+   "classCode": "DigitalRepresentation"
+  },
+  {
+   "id": "validaciya-2026-11-01",
+   "label": "Валидация 2026-11-01",
+   "classCode": "ValidationResult"
+  },
+  {
+   "id": "class-datchik",
+   "label": "Датчик",
+   "classCode": "Sensor",
+   "isClass": true
+  },
+  {
+   "id": "datchik-t-12",
+   "label": "Датчик T-12",
+   "classCode": "Sensor"
+  },
+  {
+   "id": "datchik-v-01",
+   "label": "Датчик V-01",
+   "classCode": "Sensor"
+  },
+  {
+   "id": "class-zainteresovannoe-lico",
+   "label": "Заинтересованное лицо",
+   "classCode": "Stakeholder",
+   "isClass": true
+  },
+  {
+   "id": "ivanov-p-s",
+   "label": "Иванов П.С.",
+   "classCode": "Stakeholder"
+  },
+  {
+   "id": "class-model-simulyacii",
+   "label": "Модель симуляции",
+   "classCode": "SimulationModel",
+   "isClass": true
+  },
+  {
+   "id": "model-cfd-teploobmena",
+   "label": "Модель CFD-теплообмена",
+   "classCode": "SimulationModel"
+  },
+  {
+   "id": "class-ogranichenie",
+   "label": "Ограничение",
+   "classCode": "Constraint",
+   "isClass": true
+  },
+  {
+   "id": "ogranichenie-t-95c",
+   "label": "Ограничение: t°>95C",
+   "classCode": "Constraint"
+  },
+  {
+   "id": "class-progon-simulyacii",
+   "label": "Прогон симуляции",
+   "classCode": "SimulationRun",
+   "isClass": true
+  },
+  {
+   "id": "progon-cfd-002",
+   "label": "Прогон CFD-002",
+   "classCode": "SimulationRun"
+  },
+  {
+   "id": "class-rezultat-validacii",
+   "label": "Результат валидации",
+   "classCode": "ValidationResult",
+   "isClass": true
+  },
+  {
+   "id": "class-sobytie",
+   "label": "Событие",
+   "classCode": "Event",
+   "isClass": true
+  },
+  {
+   "id": "sobytie-prevyshenie-vibracii",
+   "label": "Событие: превышение вибрации",
+   "classCode": "Event"
+  },
+  {
+   "id": "class-scenariy",
+   "label": "Сценарий",
+   "classCode": "Scenario",
+   "isClass": true
+  },
+  {
+   "id": "scenariy-avariynogo-ohlazhdeniya",
+   "label": "Сценарий аварийного охлаждения",
+   "classCode": "Scenario"
+  },
+  {
+   "id": "class-trebovanie",
+   "label": "Требование",
+   "classCode": "Requirement",
+   "isClass": true
+  },
+  {
+   "id": "trebovanie-iso-23247-2",
+   "label": "Требование ISO 23247-2",
+   "classCode": "Requirement"
+  },
+  {
+   "id": "turbina-gt-100",
+   "label": "Турбина ГТ-100",
+   "classCode": "PhysicalObject"
+  },
+  {
+   "id": "class-fizicheskiy-obekt",
+   "label": "Физический объект",
+   "classCode": "PhysicalObject",
+   "isClass": true
+  },
+  {
+   "id": "class-cifrovoe-predstavlenie",
+   "label": "Цифровое представление",
+   "classCode": "DigitalRepresentation",
+   "isClass": true
+  },
+  {
+   "id": "class-cifrovoy-dvoynik",
+   "label": "Цифровой двойник",
+   "classCode": "DigitalTwin",
+   "isClass": true
+  },
+  {
+   "id": "cifrovoy-dvoynik-turbiny",
+   "label": "Цифровой двойник турбины",
+   "classCode": "DigitalTwin"
+  }
+ ]
+}

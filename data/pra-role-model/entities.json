@@ -1,0 +1,1801 @@
+{
+ "entities": [
+  {
+   "id": "aksiologicheskiy-rezhim",
+   "label": "Аксиологический режим",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "aleticheskiy-rezhim",
+   "label": "Алетический режим",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "analitik",
+   "label": "Аналитик",
+   "classCode": "Position"
+  },
+  {
+   "id": "analitik-po-razresheniyu-problem-pa",
+   "label": "Аналитик по разрешению проблем (PA)",
+   "classCode": "Role"
+  },
+  {
+   "id": "class-artefakt",
+   "label": "Артефакт",
+   "classCode": "Artifact",
+   "isClass": true
+  },
+  {
+   "id": "arhitektura-it",
+   "label": "Архитектура ИТ",
+   "classCode": "Competence"
+  },
+  {
+   "id": "audit",
+   "label": "Аудит",
+   "classCode": "Competence"
+  },
+  {
+   "id": "auditor",
+   "label": "Аудитор",
+   "classCode": "Position"
+  },
+  {
+   "id": "baza-znaniy-pra",
+   "label": "База знаний ПРА",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "bezopasnost-i-komplaens",
+   "label": "Безопасность и комплаенс",
+   "classCode": "Competence"
+  },
+  {
+   "id": "class-vid-obespecheniya",
+   "label": "Вид обеспечения",
+   "classCode": "SupportArea",
+   "isClass": true
+  },
+  {
+   "id": "vid-obespecheniya-informacionnoe-obespechenie",
+   "label": "Вид обеспечения: Информационное обеспечение",
+   "classCode": "SupportArea"
+  },
+  {
+   "id": "vid-obespecheniya-kadrovoe-obespechenie",
+   "label": "Вид обеспечения: Кадровое обеспечение",
+   "classCode": "SupportArea"
+  },
+  {
+   "id": "vid-obespecheniya-matematicheskoe-obespechenie",
+   "label": "Вид обеспечения: Математическое обеспечение",
+   "classCode": "SupportArea"
+  },
+  {
+   "id": "vid-obespecheniya-metodologicheskoe-obespechenie",
+   "label": "Вид обеспечения: Методологическое обеспечение",
+   "classCode": "SupportArea"
+  },
+  {
+   "id": "vid-obespecheniya-normativno-pravovoe-obespechenie",
+   "label": "Вид обеспечения: Нормативно-правовое обеспечение",
+   "classCode": "SupportArea"
+  },
+  {
+   "id": "vid-obespecheniya-obespechenie-bezopasnosti-i-konfidencialnosti",
+   "label": "Вид обеспечения: Обеспечение безопасности и конфиденциальности",
+   "classCode": "SupportArea"
+  },
+  {
+   "id": "vid-obespecheniya-obespechenie-kontrolya-i-audita",
+   "label": "Вид обеспечения: Обеспечение контроля и аудита",
+   "classCode": "SupportArea"
+  },
+  {
+   "id": "vid-obespecheniya-organizacionnoe-obespechenie",
+   "label": "Вид обеспечения: Организационное обеспечение",
+   "classCode": "SupportArea"
+  },
+  {
+   "id": "vid-obespecheniya-programmnoe-obespechenie",
+   "label": "Вид обеспечения: Программное обеспечение",
+   "classCode": "SupportArea"
+  },
+  {
+   "id": "vid-obespecheniya-tehnicheskoe-obespechenie",
+   "label": "Вид обеспечения: Техническое обеспечение",
+   "classCode": "SupportArea"
+  },
+  {
+   "id": "vid-obespecheniya-uchebno-metodicheskoe-obespechenie",
+   "label": "Вид обеспечения: Учебно-методическое обеспечение",
+   "classCode": "SupportArea"
+  },
+  {
+   "id": "vid-obespecheniya-finansovoe-obespechenie",
+   "label": "Вид обеспечения: Финансовое обеспечение",
+   "classCode": "SupportArea"
+  },
+  {
+   "id": "vladelec-problemy-po",
+   "label": "Владелец проблемы (PO)",
+   "classCode": "Role"
+  },
+  {
+   "id": "vladelec-processa",
+   "label": "Владелец процесса",
+   "classCode": "Position"
+  },
+  {
+   "id": "glavnyy-analitik-cao",
+   "label": "Главный аналитик (CAO)",
+   "classCode": "Role"
+  },
+  {
+   "id": "class-delegirovanie",
+   "label": "Делегирование",
+   "classCode": "Delegation",
+   "isClass": true
+  },
+  {
+   "id": "delegirovanie-cao-pa-na-etape-6",
+   "label": "Делегирование: CAO → PA на этапе 6",
+   "classCode": "Delegation"
+  },
+  {
+   "id": "delegirovanie-cao-pm-na-etape-13",
+   "label": "Делегирование: CAO → PM на этапе 13",
+   "classCode": "Delegation"
+  },
+  {
+   "id": "deonticheskiy-rezhim-zapret",
+   "label": "Деонтический режим: запрет",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "deonticheskiy-rezhim-obyazannost",
+   "label": "Деонтический режим: обязанность",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "deonticheskiy-rezhim-razreshenie",
+   "label": "Деонтический режим: разрешение",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "diagnostika-kornevyh-prichin",
+   "label": "Диагностика корневых причин",
+   "classCode": "Competence"
+  },
+  {
+   "id": "diagnosticheskaya-model",
+   "label": "Диагностическая модель",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "direktor-po-bezopasnosti-cso",
+   "label": "Директор по безопасности (CSO)",
+   "classCode": "Role"
+  },
+  {
+   "id": "direktor-po-dannym-cdo",
+   "label": "Директор по данным (CDO)",
+   "classCode": "Role"
+  },
+  {
+   "id": "direktor-po-personalu-chro",
+   "label": "Директор по персоналу (CHRO)",
+   "classCode": "Role"
+  },
+  {
+   "id": "class-dolzhnost",
+   "label": "Должность",
+   "classCode": "Position",
+   "isClass": true
+  },
+  {
+   "id": "dose-problemy",
+   "label": "Досье проблемы",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "class-zameschenie",
+   "label": "Замещение",
+   "classCode": "Substitution",
+   "isClass": true
+  },
+  {
+   "id": "zameschenie-boris-b-ispolnyaet-rol-cao-na-etape-1-demo",
+   "label": "Замещение: Борис Б. исполняет роль CAO на этапе 1 (демо)",
+   "classCode": "Substitution"
+  },
+  {
+   "id": "znanie-problemnoy-oblasti",
+   "label": "Знание проблемной области",
+   "classCode": "Competence"
+  },
+  {
+   "id": "class-ii-agent",
+   "label": "ИИ-агент",
+   "classCode": "AIAgent",
+   "isClass": true
+  },
+  {
+   "id": "ii-agent-klassifikator",
+   "label": "ИИ-агент «Классификатор»",
+   "classCode": "AIAgent"
+  },
+  {
+   "id": "ii-agent-so-diagnost",
+   "label": "ИИ-агент «Со-диагност»",
+   "classCode": "AIAgent"
+  },
+  {
+   "id": "ii-issledovaniya",
+   "label": "ИИ-исследования",
+   "classCode": "Competence"
+  },
+  {
+   "id": "inzhener-razrabotchik-eng",
+   "label": "Инженер-разработчик (Eng)",
+   "classCode": "Role"
+  },
+  {
+   "id": "inzheneriya-dannyh-i-ii",
+   "label": "Инженерия данных и ИИ",
+   "classCode": "Competence"
+  },
+  {
+   "id": "inzheneriya-resheniy",
+   "label": "Инженерия решений",
+   "classCode": "Competence"
+  },
+  {
+   "id": "it-direktor-cio",
+   "label": "ИТ-директор (CIO)",
+   "classCode": "Role"
+  },
+  {
+   "id": "kartochka-ucheta-problemy",
+   "label": "Карточка учёта проблемы",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "class-kompetenciya",
+   "label": "Компетенция",
+   "classCode": "Competence",
+   "isClass": true
+  },
+  {
+   "id": "komplaens-direktor-cco",
+   "label": "Комплаенс-директор (CCO)",
+   "classCode": "Role"
+  },
+  {
+   "id": "class-konflikt-interesov",
+   "label": "Конфликт интересов",
+   "classCode": "ConflictOfInterest",
+   "isClass": true
+  },
+  {
+   "id": "konflikt-interesov-cae-i-pm-u-odnogo-aktora",
+   "label": "Конфликт интересов: CAE и PM у одного актора",
+   "classCode": "ConflictOfInterest"
+  },
+  {
+   "id": "konflikt-interesov-pa-i-cae-u-odnogo-aktora",
+   "label": "Конфликт интересов: PA и CAE у одного актора",
+   "classCode": "ConflictOfInterest"
+  },
+  {
+   "id": "koncepciya-razresheniya-problemy",
+   "label": "Концепция разрешения проблемы",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "lico-prinimayuschee-resheniya-lpr",
+   "label": "Лицо, принимающее решения (ЛПР)",
+   "classCode": "Role"
+  },
+  {
+   "id": "menedzher-proekta-pm",
+   "label": "Менеджер проекта (PM)",
+   "classCode": "Role"
+  },
+  {
+   "id": "class-modalnoe-utverzhdenie",
+   "label": "Модальное утверждение",
+   "classCode": "ModalStatement",
+   "isClass": true
+  },
+  {
+   "id": "class-modalnyy-rezhim",
+   "label": "Модальный режим",
+   "classCode": "ModalMode",
+   "isClass": true
+  },
+  {
+   "id": "class-naznachenie-na-rol",
+   "label": "Назначение на роль",
+   "classCode": "RoleAssignment",
+   "isClass": true
+  },
+  {
+   "id": "naznachenie-ii-agent-klassifikator-cao-etap-5",
+   "label": "Назначение: ИИ-агент «Классификатор» — CAO, этап 5",
+   "classCode": "RoleAssignment"
+  },
+  {
+   "id": "naznachenie-ii-agent-so-diagnost-pa-etap-6",
+   "label": "Назначение: ИИ-агент «Со-диагност» — PA, этап 6",
+   "classCode": "RoleAssignment"
+  },
+  {
+   "id": "naznachenie-sotrudnik-anna-a-demo-cao-etap-1",
+   "label": "Назначение: Сотрудник «Анна А.» (демо) — CAO, этап 1",
+   "classCode": "RoleAssignment"
+  },
+  {
+   "id": "naznachenie-sotrudnik-anna-a-demo-cao-etap-13",
+   "label": "Назначение: Сотрудник «Анна А.» (демо) — CAO, этап 13",
+   "classCode": "RoleAssignment"
+  },
+  {
+   "id": "naznachenie-sotrudnik-anna-a-demo-cao-etap-5",
+   "label": "Назначение: Сотрудник «Анна А.» (демо) — CAO, этап 5",
+   "classCode": "RoleAssignment"
+  },
+  {
+   "id": "naznachenie-sotrudnik-anna-a-demo-cao-etap-6",
+   "label": "Назначение: Сотрудник «Анна А.» (демо) — CAO, этап 6",
+   "classCode": "RoleAssignment"
+  },
+  {
+   "id": "naznachenie-sotrudnik-boris-b-demo-pa-etap-1",
+   "label": "Назначение: Сотрудник «Борис Б.» (демо) — PA, этап 1",
+   "classCode": "RoleAssignment"
+  },
+  {
+   "id": "naznachenie-sotrudnik-boris-b-demo-pa-etap-13",
+   "label": "Назначение: Сотрудник «Борис Б.» (демо) — PA, этап 13",
+   "classCode": "RoleAssignment"
+  },
+  {
+   "id": "naznachenie-sotrudnik-boris-b-demo-pa-etap-6",
+   "label": "Назначение: Сотрудник «Борис Б.» (демо) — PA, этап 6",
+   "classCode": "RoleAssignment"
+  },
+  {
+   "id": "naznachenie-sotrudnik-vera-v-demo-po-etap-1",
+   "label": "Назначение: Сотрудник «Вера В.» (демо) — PO, этап 1",
+   "classCode": "RoleAssignment"
+  },
+  {
+   "id": "naznachenie-sotrudnik-vera-v-demo-po-etap-6",
+   "label": "Назначение: Сотрудник «Вера В.» (демо) — PO, этап 6",
+   "classCode": "RoleAssignment"
+  },
+  {
+   "id": "naznachenie-sotrudnik-gleb-g-demo-cae-etap-16",
+   "label": "Назначение: Сотрудник «Глеб Г.» (демо) — CAE, этап 16",
+   "classCode": "RoleAssignment"
+  },
+  {
+   "id": "naznachenie-sotrudnik-gleb-g-demo-pa-etap-16",
+   "label": "Назначение: Сотрудник «Глеб Г.» (демо) — PA, этап 16",
+   "classCode": "RoleAssignment"
+  },
+  {
+   "id": "naznachenie-sotrudnik-gleb-g-demo-pm-etap-13",
+   "label": "Назначение: Сотрудник «Глеб Г.» (демо) — PM, этап 13",
+   "classCode": "RoleAssignment"
+  },
+  {
+   "id": "class-nahodka-proverki",
+   "label": "Находка проверки",
+   "classCode": "Finding",
+   "isClass": true
+  },
+  {
+   "id": "nahodka-dva-accountable-na-etape-6",
+   "label": "Находка: два Accountable на этапе 6",
+   "classCode": "Finding"
+  },
+  {
+   "id": "nahodka-ii-agent-naznachen-accountable-na-etape-5",
+   "label": "Находка: ИИ-агент назначен Accountable на этапе 5",
+   "classCode": "Finding"
+  },
+  {
+   "id": "nahodka-naznachenie-bez-polnogo-nabora-kompetenciy",
+   "label": "Находка: назначение без полного набора компетенций",
+   "classCode": "Finding"
+  },
+  {
+   "id": "nahodka-pa-ukazan-ispolnitelem-na-etape-13",
+   "label": "Находка: PA указан исполнителем на этапе 13",
+   "classCode": "Finding"
+  },
+  {
+   "id": "obuchenie-i-metodicheskaya-rabota",
+   "label": "Обучение и методическая работа",
+   "classCode": "Competence"
+  },
+  {
+   "id": "otchet-o-dostizhenii-celey",
+   "label": "Отчёт о достижении целей",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "otchet-o-posledstviyah",
+   "label": "Отчёт о последствиях",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "otchet-o-soprovozhdenii",
+   "label": "Отчёт о сопровождении",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "otchet-ob-obsledovanii",
+   "label": "Отчёт об обследовании",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "otchet-ob-urovne-zrelosti",
+   "label": "Отчёт об уровне зрелости",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "otchet-ob-effektivnosti",
+   "label": "Отчёт об эффективности",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "class-ocenka-zrelosti",
+   "label": "Оценка зрелости",
+   "classCode": "Assessment",
+   "isClass": true
+  },
+  {
+   "id": "ocenka-zrelosti-rolevoy-modeli-i-kvartal-2026-demo",
+   "label": "Оценка зрелости ролевой модели, I квартал 2026 (демо)",
+   "classCode": "Assessment"
+  },
+  {
+   "id": "ocenka-zrelosti-rolevoy-modeli-iii-kvartal-2026-demo",
+   "label": "Оценка зрелости ролевой модели, III квартал 2026 (демо)",
+   "classCode": "Assessment"
+  },
+  {
+   "id": "ocenka-problemy",
+   "label": "Оценка проблемы",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "paket-predpisaniy",
+   "label": "Пакет предписаний",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "plan-soprovozhdeniya-proekta",
+   "label": "План сопровождения проекта",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "class-pokazatel",
+   "label": "Показатель",
+   "classCode": "KPI",
+   "isClass": true
+  },
+  {
+   "id": "pokazatel-vremya-ot-signala-do-registracii",
+   "label": "Показатель: Время от сигнала до регистрации",
+   "classCode": "KPI"
+  },
+  {
+   "id": "pokazatel-dolya-naznacheniy-s-podtverzhdennoy-kompetenciey",
+   "label": "Показатель: Доля назначений с подтверждённой компетенцией",
+   "classCode": "KPI"
+  },
+  {
+   "id": "pokazatel-dolya-roley-s-aktualnym-portretom",
+   "label": "Показатель: Доля ролей с актуальным портретом",
+   "classCode": "KPI"
+  },
+  {
+   "id": "pokazatel-dolya-urokov-perenesennyh-v-bazu-znaniy",
+   "label": "Показатель: Доля уроков, перенесённых в базу знаний",
+   "classCode": "KPI"
+  },
+  {
+   "id": "pokazatel-dolya-etapov-s-podtverzhdennym-accountable",
+   "label": "Показатель: Доля этапов с подтверждённым Accountable",
+   "classCode": "KPI"
+  },
+  {
+   "id": "pokazatel-indeks-zrelosti-rolevoy-modeli",
+   "label": "Показатель: Индекс зрелости ролевой модели",
+   "classCode": "KPI"
+  },
+  {
+   "id": "class-polnomochie",
+   "label": "Полномочие",
+   "classCode": "Authority",
+   "isClass": true
+  },
+  {
+   "id": "polnomochie-lpr-prinimat-reshenie-o-zapuske-proekta",
+   "label": "Полномочие ЛПР принимать решение о запуске проекта",
+   "classCode": "Authority"
+  },
+  {
+   "id": "polnomochie-cae-provodit-nezavisimuyu-proverku",
+   "label": "Полномочие CAE проводить независимую проверку",
+   "classCode": "Authority"
+  },
+  {
+   "id": "polnomochie-cao-utverzhdat-rezultat-etapa",
+   "label": "Полномочие CAO утверждать результат этапа",
+   "classCode": "Authority"
+  },
+  {
+   "id": "polnomochie-cco-ostanavlivat-narushayuschuyu-rabotu",
+   "label": "Полномочие CCO останавливать нарушающую работу",
+   "classCode": "Authority"
+  },
+  {
+   "id": "polnomochie-clo-podpisyvat-normativnoe-zaklyuchenie",
+   "label": "Полномочие CLO подписывать нормативное заключение",
+   "classCode": "Authority"
+  },
+  {
+   "id": "polnomochie-pa-gotovit-rekomendacii",
+   "label": "Полномочие PA готовить рекомендации",
+   "classCode": "Authority"
+  },
+  {
+   "id": "polnomochie-pm-raspredelyat-zadachi-proekta",
+   "label": "Полномочие PM распределять задачи проекта",
+   "classCode": "Authority"
+  },
+  {
+   "id": "polnomochie-po-prinimat-rezultat",
+   "label": "Полномочие PO принимать результат",
+   "classCode": "Authority"
+  },
+  {
+   "id": "class-portret-roli",
+   "label": "Портрет роли",
+   "classCode": "RoleProfile",
+   "isClass": true
+  },
+  {
+   "id": "portret-roli-cae",
+   "label": "Портрет роли: CAE",
+   "classCode": "RoleProfile"
+  },
+  {
+   "id": "portret-roli-cao",
+   "label": "Портрет роли: CAO",
+   "classCode": "RoleProfile"
+  },
+  {
+   "id": "portret-roli-km",
+   "label": "Портрет роли: KM",
+   "classCode": "RoleProfile"
+  },
+  {
+   "id": "portret-roli-pa",
+   "label": "Портрет роли: PA",
+   "classCode": "RoleProfile"
+  },
+  {
+   "id": "portret-roli-pm",
+   "label": "Портрет роли: PM",
+   "classCode": "RoleProfile"
+  },
+  {
+   "id": "portret-roli-po",
+   "label": "Портрет роли: PO",
+   "classCode": "RoleProfile"
+  },
+  {
+   "id": "pravilo-versionirovaniya-rolevoy-modeli",
+   "label": "Правило версионирования ролевой модели",
+   "classCode": "GovernanceRule"
+  },
+  {
+   "id": "pravilo-granic-roley-na-etapah-13-15",
+   "label": "Правило границ ролей на этапах 13–15",
+   "classCode": "GovernanceRule"
+  },
+  {
+   "id": "pravilo-delegirovaniya-bez-peredachi-podotchetnosti",
+   "label": "Правило делегирования без передачи подотчётности",
+   "classCode": "GovernanceRule"
+  },
+  {
+   "id": "pravilo-edinstvennogo-accountable",
+   "label": "Правило единственного Accountable",
+   "classCode": "GovernanceRule"
+  },
+  {
+   "id": "pravilo-edinstvennosti-podotchetnogo",
+   "label": "Правило единственности подотчётного",
+   "classCode": "SeparationRule"
+  },
+  {
+   "id": "pravilo-naznacheniya-na-rol",
+   "label": "Правило назначения на роль",
+   "classCode": "GovernanceRule"
+  },
+  {
+   "id": "pravilo-nezavisimosti-audita",
+   "label": "Правило независимости аудита",
+   "classCode": "GovernanceRule"
+  },
+  {
+   "id": "pravilo-nezavisimosti-audita-proekta",
+   "label": "Правило независимости аудита проекта",
+   "classCode": "SeparationRule"
+  },
+  {
+   "id": "pravilo-peredachi-znaniy",
+   "label": "Правило передачи знаний",
+   "classCode": "GovernanceRule"
+  },
+  {
+   "id": "pravilo-peresmotra-portreta-roli",
+   "label": "Правило пересмотра портрета роли",
+   "classCode": "GovernanceRule"
+  },
+  {
+   "id": "pravilo-podtverzhdennoy-kompetencii",
+   "label": "Правило подтверждённой компетенции",
+   "classCode": "GovernanceRule"
+  },
+  {
+   "id": "class-pravilo-razdeleniya",
+   "label": "Правило разделения",
+   "classCode": "SeparationRule",
+   "isClass": true
+  },
+  {
+   "id": "pravilo-razdeleniya-ispolnitelya-i-auditora",
+   "label": "Правило разделения исполнителя и аудитора",
+   "classCode": "SeparationRule"
+  },
+  {
+   "id": "class-pravilo-upravleniya",
+   "label": "Правило управления",
+   "classCode": "GovernanceRule",
+   "isClass": true
+  },
+  {
+   "id": "pravilo-chelovecheskoy-podotchetnosti",
+   "label": "Правило человеческой подотчётности",
+   "classCode": "GovernanceRule"
+  },
+  {
+   "id": "pravo",
+   "label": "Право",
+   "classCode": "Competence"
+  },
+  {
+   "id": "pravo-lpr-na-zapusk-proekta",
+   "label": "Право ЛПР на запуск проекта",
+   "classCode": "DecisionRight"
+  },
+  {
+   "id": "class-pravo-resheniya",
+   "label": "Право решения",
+   "classCode": "DecisionRight",
+   "isClass": true
+  },
+  {
+   "id": "pravo-cae-na-nezavisimuyu-proverku",
+   "label": "Право CAE на независимую проверку",
+   "classCode": "DecisionRight"
+  },
+  {
+   "id": "pravo-cao-na-utverzhdenie-etapa",
+   "label": "Право CAO на утверждение этапа",
+   "classCode": "DecisionRight"
+  },
+  {
+   "id": "pravo-cco-na-blokirovku-narusheniya",
+   "label": "Право CCO на блокировку нарушения",
+   "classCode": "DecisionRight"
+  },
+  {
+   "id": "pravo-pm-na-planirovanie-proekta",
+   "label": "Право PM на планирование проекта",
+   "classCode": "DecisionRight"
+  },
+  {
+   "id": "pravo-po-na-priemku-rezultata",
+   "label": "Право PO на приёмку результата",
+   "classCode": "DecisionRight"
+  },
+  {
+   "id": "predmetnyy-ekspert-sme",
+   "label": "Предметный эксперт (SME)",
+   "classCode": "Role"
+  },
+  {
+   "id": "class-princip",
+   "label": "Принцип",
+   "classCode": "Principle",
+   "isClass": true
+  },
+  {
+   "id": "princip-1-primat-konteksta",
+   "label": "Принцип 1. Примат контекста",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-11-masshtabiruemost-i-gibkost",
+   "label": "Принцип 11. Масштабируемость и гибкость",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-13-celostnost-dannyh",
+   "label": "Принцип 13. Целостность данных",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-15-razdelenie-otvetstvennosti-raci",
+   "label": "Принцип 15. Разделение ответственности (RACI)",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-16-otkrytost-i-standartizaciya",
+   "label": "Принцип 16. Открытость и стандартизация",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-19-so-sozdanie-i-sovmestnoe-vladenie",
+   "label": "Принцип 19. Со-создание и совместное владение",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-2-princip-dostatochnoy-tochnosti-satisficing",
+   "label": "Принцип 2. Принцип достаточной точности (Satisficing)",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-20-fasilitator-kak-ravnopravnyy-partner",
+   "label": "Принцип 20. Фасилитатор как равноправный партнёр",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-22-ii-kak-so-analitik-chelovek-kak-arbitr",
+   "label": "Принцип 22. ИИ как со-аналитик, человек как арбитр",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-23-sistematicheskoe-izvlechenie-urokov",
+   "label": "Принцип 23. Систематическое извлечение уроков",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-24-realizuemost-actionability",
+   "label": "Принцип 24. Реализуемость (Actionability)",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-25-razdelenie-rezultativnosti-i-effektivnosti",
+   "label": "Принцип 25. Разделение результативности и эффективности",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-27-dokazatelnost-s-pervogo-shaga",
+   "label": "Принцип 27. Доказательность с первого шага",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-3-prikladnaya-cennost",
+   "label": "Принцип 3. Прикладная ценность",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-34-otkaz-ot-intuitivnogo-prognozirovaniya",
+   "label": "Принцип 34. Отказ от интуитивного прогнозирования",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-37-absolyutnaya-trassiruemost",
+   "label": "Принцип 37. Абсолютная трассируемость",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-4-eticheskiy-imperativ",
+   "label": "Принцип 4. Этический императив",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-47-strogaya-kauzaciya",
+   "label": "Принцип 47. Строгая каузация",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-5-metodologicheskiy-plyuralizm-i-ciklichnost",
+   "label": "Принцип 5. Методологический плюрализм и цикличность",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-6-upravlenie-neopredelennostyu-i-znaniem",
+   "label": "Принцип 6. Управление неопределённостью и знанием",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-7-ssot",
+   "label": "Принцип 7. SSOT",
+   "classCode": "Principle"
+  },
+  {
+   "id": "princip-8-skvoznaya-proslezhivaemost",
+   "label": "Принцип 8. Сквозная прослеживаемость",
+   "classCode": "Principle"
+  },
+  {
+   "id": "prognoz-i-scenarii",
+   "label": "Прогноз и сценарии",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "protokol-validacii-i-sign-off",
+   "label": "Протокол валидации и sign-off",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "protokol-ontologicheskoy-kvalifikacii",
+   "label": "Протокол онтологической квалификации",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "protokol-resheniya-lpr",
+   "label": "Протокол решения ЛПР",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "class-raspredelenie-otvetstvennosti",
+   "label": "Распределение ответственности",
+   "classCode": "ResponsibilityAssignment",
+   "isClass": true
+  },
+  {
+   "id": "reestr-izvlekaemyh-urokov",
+   "label": "Реестр извлекаемых уроков",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "reestr-preventivnyh-mer",
+   "label": "Реестр превентивных мер",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "reestr-problem",
+   "label": "Реестр проблем",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "reestr-chastnyh-problem",
+   "label": "Реестр частных проблем",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "rezultat-resheniya-zadach",
+   "label": "Результат решения задач",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "rekomendacii-dlya-lpr",
+   "label": "Рекомендации для ЛПР",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "class-reshenie",
+   "label": "Решение",
+   "classCode": "Decision",
+   "isClass": true
+  },
+  {
+   "id": "reshenie-lpr-o-zapuske-proekta",
+   "label": "Решение ЛПР о запуске проекта",
+   "classCode": "Decision"
+  },
+  {
+   "id": "reshenie-o-zakrytii-etapa-1",
+   "label": "Решение о закрытии этапа 1",
+   "classCode": "Decision"
+  },
+  {
+   "id": "reshenie-o-perehode-k-etapu-6",
+   "label": "Решение о переходе к этапу 6",
+   "classCode": "Decision"
+  },
+  {
+   "id": "reshenie-o-priemke-rezultata-etapa-16",
+   "label": "Решение о приёмке результата этапа 16",
+   "classCode": "Decision"
+  },
+  {
+   "id": "reshenie-vernut-ispolnenie-etapa-13-roli-pm",
+   "label": "Решение: вернуть исполнение этапа 13 роли PM",
+   "classCode": "Decision"
+  },
+  {
+   "id": "reshenie-ostavit-edinstvennogo-accountable-na-etape-6",
+   "label": "Решение: оставить единственного Accountable на этапе 6",
+   "classCode": "Decision"
+  },
+  {
+   "id": "reshenie-perenaznachit-podotchetnost-etapa-5-cheloveku",
+   "label": "Решение: переназначить подотчётность этапа 5 человеку",
+   "classCode": "Decision"
+  },
+  {
+   "id": "reshenie-priostanovit-naznachenie-ii-do-attestacii",
+   "label": "Решение: приостановить назначение ИИ до аттестации",
+   "classCode": "Decision"
+  },
+  {
+   "id": "class-risk",
+   "label": "Риск",
+   "classCode": "Risk",
+   "isClass": true
+  },
+  {
+   "id": "risk-delegirovanie-bez-granic",
+   "label": "Риск: Делегирование без границ",
+   "classCode": "Risk"
+  },
+  {
+   "id": "risk-naznachenie-bez-kompetencii",
+   "label": "Риск: Назначение без компетенции",
+   "classCode": "Risk"
+  },
+  {
+   "id": "risk-razmyvanie-otvetstvennosti",
+   "label": "Риск: Размывание ответственности",
+   "classCode": "Risk"
+  },
+  {
+   "id": "risk-sovmeschenie-nesovmestimyh-roley",
+   "label": "Риск: Совмещение несовместимых ролей",
+   "classCode": "Risk"
+  },
+  {
+   "id": "risk-ustarevanie-portreta-roli",
+   "label": "Риск: Устаревание портрета роли",
+   "classCode": "Risk"
+  },
+  {
+   "id": "class-rolevaya-model",
+   "label": "Ролевая модель",
+   "classCode": "RoleModel",
+   "isClass": true
+  },
+  {
+   "id": "rolevaya-model-pra-demo-kontur",
+   "label": "Ролевая модель ПРА (демо-контур)",
+   "classCode": "RoleModel"
+  },
+  {
+   "id": "class-rol",
+   "label": "Роль",
+   "classCode": "Role",
+   "isClass": true
+  },
+  {
+   "id": "rukovoditel-analiticheskogo-podrazdeleniya",
+   "label": "Руководитель аналитического подразделения",
+   "classCode": "Position"
+  },
+  {
+   "id": "rukovoditel-audita-cae",
+   "label": "Руководитель аудита (CAE)",
+   "classCode": "Role"
+  },
+  {
+   "id": "rukovoditel-ii-issledovaniy-caio",
+   "label": "Руководитель ИИ-исследований (CAIO)",
+   "classCode": "Role"
+  },
+  {
+   "id": "rukovoditel-uchebno-metodicheskogo-podrazdeleniya-caco",
+   "label": "Руководитель учебно-методического подразделения (CAcO)",
+   "classCode": "Role"
+  },
+  {
+   "id": "class-sotrudnik",
+   "label": "Сотрудник",
+   "classCode": "HumanActor",
+   "isClass": true
+  },
+  {
+   "id": "sotrudnik-anna-a-demo",
+   "label": "Сотрудник «Анна А.» (демо)",
+   "classCode": "HumanActor"
+  },
+  {
+   "id": "sotrudnik-boris-b-demo",
+   "label": "Сотрудник «Борис Б.» (демо)",
+   "classCode": "HumanActor"
+  },
+  {
+   "id": "sotrudnik-vera-v-demo",
+   "label": "Сотрудник «Вера В.» (демо)",
+   "classCode": "HumanActor"
+  },
+  {
+   "id": "sotrudnik-gleb-g-demo",
+   "label": "Сотрудник «Глеб Г.» (демо)",
+   "classCode": "HumanActor"
+  },
+  {
+   "id": "specialist-po-bazam-znaniy-km",
+   "label": "Специалист по базам знаний (KM)",
+   "classCode": "Role"
+  },
+  {
+   "id": "specialist-po-dannym-i-ii-de",
+   "label": "Специалист по данным и ИИ (DE)",
+   "classCode": "Role"
+  },
+  {
+   "id": "class-stadiya",
+   "label": "Стадия",
+   "classCode": "Phase",
+   "isClass": true
+  },
+  {
+   "id": "stadiya-1-predvaritelnaya-stadiya",
+   "label": "Стадия 1. Предварительная стадия",
+   "classCode": "Phase"
+  },
+  {
+   "id": "stadiya-2-generativnoe-konceptualnoe-proektirovanie",
+   "label": "Стадия 2. Генеративное концептуальное проектирование",
+   "classCode": "Phase"
+  },
+  {
+   "id": "stadiya-3-soprovozhdenie-proekta",
+   "label": "Стадия 3. Сопровождение проекта",
+   "classCode": "Phase"
+  },
+  {
+   "id": "stadiya-4-zavershayuschaya-stadiya",
+   "label": "Стадия 4. Завершающая стадия",
+   "classCode": "Phase"
+  },
+  {
+   "id": "strategicheskiy-analiz",
+   "label": "Стратегический анализ",
+   "classCode": "Competence"
+  },
+  {
+   "id": "temporalnyy-rezhim",
+   "label": "Темпоральный режим",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "tehnicheskiy-direktor-cto",
+   "label": "Технический директор (CTO)",
+   "classCode": "Role"
+  },
+  {
+   "id": "tehnicheskoe-zadanie",
+   "label": "Техническое задание",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "class-tip-otvetstvennosti-raci",
+   "label": "Тип ответственности RACI",
+   "classCode": "RaciType",
+   "isClass": true
+  },
+  {
+   "id": "class-trebovanie-k-kompetencii",
+   "label": "Требование к компетенции",
+   "classCode": "CompetenceRequirement",
+   "isClass": true
+  },
+  {
+   "id": "trebovanie-lpr-strategicheskiy-analiz",
+   "label": "Требование: ЛПР — Стратегический анализ",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-caco-obuchenie-i-metodicheskaya-rabota",
+   "label": "Требование: CAcO — Обучение и методическая работа",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-cae-audit",
+   "label": "Требование: CAE — Аудит",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-caio-ii-issledovaniya",
+   "label": "Требование: CAIO — ИИ-исследования",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-cao-strategicheskiy-analiz",
+   "label": "Требование: CAO — Стратегический анализ",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-cco-bezopasnost-i-komplaens",
+   "label": "Требование: CCO — Безопасность и комплаенс",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-cdo-inzheneriya-dannyh-i-ii",
+   "label": "Требование: CDO — Инженерия данных и ИИ",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-cfo-finansovaya-ocenka",
+   "label": "Требование: CFO — Финансовая оценка",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-chro-upravlenie-personalom",
+   "label": "Требование: CHRO — Управление персоналом",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-cio-arhitektura-it",
+   "label": "Требование: CIO — Архитектура ИТ",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-clo-pravo",
+   "label": "Требование: CLO — Право",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-cso-bezopasnost-i-komplaens",
+   "label": "Требование: CSO — Безопасность и комплаенс",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-cto-arhitektura-it",
+   "label": "Требование: CTO — Архитектура ИТ",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-de-inzheneriya-dannyh-i-ii",
+   "label": "Требование: DE — Инженерия данных и ИИ",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-eng-inzheneriya-resheniy",
+   "label": "Требование: Eng — Инженерия решений",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-fac-fasilitaciya",
+   "label": "Требование: Fac — Фасилитация",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-km-upravlenie-znaniyami",
+   "label": "Требование: KM — Управление знаниями",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-pa-diagnostika-kornevyh-prichin",
+   "label": "Требование: PA — Диагностика корневых причин",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-pa-upravlenie-trebovaniyami",
+   "label": "Требование: PA — Управление требованиями",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-pm-upravlenie-proektami",
+   "label": "Требование: PM — Управление проектами",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-po-znanie-problemnoy-oblasti",
+   "label": "Требование: PO — Знание проблемной области",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-sme-znanie-problemnoy-oblasti",
+   "label": "Требование: SME — Знание проблемной области",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trebovanie-tr-obuchenie-i-metodicheskaya-rabota",
+   "label": "Требование: Tr — Обучение и методическая работа",
+   "classCode": "CompetenceRequirement"
+  },
+  {
+   "id": "trener-metodist-tr",
+   "label": "Тренер-методист (Tr)",
+   "classCode": "Role"
+  },
+  {
+   "id": "class-trudovaya-funkciya",
+   "label": "Трудовая функция",
+   "classCode": "LaborFunction",
+   "isClass": true
+  },
+  {
+   "id": "trudovaya-funkciya-lpr",
+   "label": "Трудовая функция: ЛПР",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-caco",
+   "label": "Трудовая функция: CAcO",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-cae",
+   "label": "Трудовая функция: CAE",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-caio",
+   "label": "Трудовая функция: CAIO",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-cao",
+   "label": "Трудовая функция: CAO",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-cco",
+   "label": "Трудовая функция: CCO",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-cdo",
+   "label": "Трудовая функция: CDO",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-cfo",
+   "label": "Трудовая функция: CFO",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-chro",
+   "label": "Трудовая функция: CHRO",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-cio",
+   "label": "Трудовая функция: CIO",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-clo",
+   "label": "Трудовая функция: CLO",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-cso",
+   "label": "Трудовая функция: CSO",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-cto",
+   "label": "Трудовая функция: CTO",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-de",
+   "label": "Трудовая функция: DE",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-eng",
+   "label": "Трудовая функция: Eng",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-fac",
+   "label": "Трудовая функция: Fac",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-km",
+   "label": "Трудовая функция: KM",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-pa",
+   "label": "Трудовая функция: PA",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-pm",
+   "label": "Трудовая функция: PM",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-po",
+   "label": "Трудовая функция: PO",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-sme",
+   "label": "Трудовая функция: SME",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-tr",
+   "label": "Трудовая функция: Tr",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "upravlenie-znaniyami",
+   "label": "Управление знаниями",
+   "classCode": "Competence"
+  },
+  {
+   "id": "upravlenie-personalom",
+   "label": "Управление персоналом",
+   "classCode": "Competence"
+  },
+  {
+   "id": "upravlenie-proektami",
+   "label": "Управление проектами",
+   "classCode": "Competence"
+  },
+  {
+   "id": "upravlenie-trebovaniyami",
+   "label": "Управление требованиями",
+   "classCode": "Competence"
+  },
+  {
+   "id": "uroven-1-reaktivnyy-haos",
+   "label": "Уровень 1. Реактивный (Хаос)",
+   "classCode": "MaturityLevel"
+  },
+  {
+   "id": "uroven-2-opisatelnyy-dannye-est-sistemy-net",
+   "label": "Уровень 2. Описательный (Данные есть, системы нет)",
+   "classCode": "MaturityLevel"
+  },
+  {
+   "id": "uroven-3-processnyy-standartizaciya",
+   "label": "Уровень 3. Процессный (Стандартизация)",
+   "classCode": "MaturityLevel"
+  },
+  {
+   "id": "uroven-4-prediktivnyy-integraciya",
+   "label": "Уровень 4. Предиктивный (Интеграция)",
+   "classCode": "MaturityLevel"
+  },
+  {
+   "id": "uroven-5-samoobuchayuschiysya-pragmaticheskiy",
+   "label": "Уровень 5. Самообучающийся (Прагматический)",
+   "classCode": "MaturityLevel"
+  },
+  {
+   "id": "class-uroven-zrelosti",
+   "label": "Уровень зрелости",
+   "classCode": "MaturityLevel",
+   "isClass": true
+  },
+  {
+   "id": "utverzhdenie-delegirovanie-ne-peredaet-podotchetnost",
+   "label": "Утверждение: делегирование не передаёт подотчётность",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-zameschenie-ogranicheno-dvumya-nedelyami",
+   "label": "Утверждение: замещение ограничено двумя неделями",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-zaprescheno-sovmeschat-r-i-a-u-odnogo-aktora",
+   "label": "Утверждение: запрещено совмещать R и A у одного актора",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-zapusk-proekta-ocenivaetsya-po-cennosti",
+   "label": "Утверждение: запуск проекта оценивается по ценности",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-ii-agentu-zaprescheno-byt-accountable",
+   "label": "Утверждение: ИИ-агенту запрещено быть Accountable",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-kazhdyy-etap-imeet-edinstvennogo-accountable",
+   "label": "Утверждение: каждый этап имеет единственного Accountable",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-kompetenciya-ii-agenta-ne-podtverzhdena",
+   "label": "Утверждение: компетенция ИИ-агента не подтверждена",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-konflikt-pa-i-cae-dostoverno-ustanovlen",
+   "label": "Утверждение: конфликт PA и CAE достоверно установлен",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-lpr-prinimaet-reshenie-o-zapuske",
+   "label": "Утверждение: ЛПР принимает решение о запуске",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-naznachenie-pa-na-etape-6-deystvuet-do-konca-goda",
+   "label": "Утверждение: назначение PA на этапе 6 действует до конца года",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-nezavisimost-audita-vyshe-srokov",
+   "label": "Утверждение: независимость аудита выше сроков",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-portret-cao-peresmatrivaetsya-ezhegodno",
+   "label": "Утверждение: портрет CAO пересматривается ежегодно",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-razdelenie-otvetstvennosti-cennost",
+   "label": "Утверждение: разделение ответственности — ценность",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-rol-ne-tozhdestvenna-dolzhnosti",
+   "label": "Утверждение: роль не тождественна должности",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-cae-ne-vprave-audirovat-svoy-proekt",
+   "label": "Утверждение: CAE не вправе аудировать свой проект",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-cae-obyazan-proveryat-nezavisimo",
+   "label": "Утверждение: CAE обязан проверять независимо",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-caio-vprave-privlekat-ii-agentov",
+   "label": "Утверждение: CAIO вправе привлекать ИИ-агентов",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-cao-obladaet-polnotoy-konteksta",
+   "label": "Утверждение: CAO обладает полнотой контекста",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-cao-obyazan-utverzhdat-rezultat-etapa",
+   "label": "Утверждение: CAO обязан утверждать результат этапа",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-cco-obyazan-ostanovit-narushayuschuyu-rabotu",
+   "label": "Утверждение: CCO обязан остановить нарушающую работу",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-de-obyazan-fiksirovat-proishozhdenie-dannyh",
+   "label": "Утверждение: DE обязан фиксировать происхождение данных",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-fac-vprave-vesti-vstrechu",
+   "label": "Утверждение: Fac вправе вести встречу",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-km-obyazan-vesti-bazu-znaniy",
+   "label": "Утверждение: KM обязан вести базу знаний",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-pa-ne-vprave-ispolnyat-etapy-13-15",
+   "label": "Утверждение: PA не вправе исполнять этапы 13–15",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-pa-obyazan-gotovit-rekomendacii-dlya-lpr",
+   "label": "Утверждение: PA обязан готовить рекомендации для ЛПР",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-pm-vprave-raspredelyat-zadachi-proekta",
+   "label": "Утверждение: PM вправе распределять задачи проекта",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-po-vprave-prinyat-rezultat",
+   "label": "Утверждение: PO вправе принять результат",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-sme-vprave-davat-ekspertnye-zaklyucheniya",
+   "label": "Утверждение: SME вправе давать экспертные заключения",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "fasilitator-fac",
+   "label": "Фасилитатор (Fac)",
+   "classCode": "Role"
+  },
+  {
+   "id": "fasilitaciya",
+   "label": "Фасилитация",
+   "classCode": "Competence"
+  },
+  {
+   "id": "finansovaya-ocenka",
+   "label": "Финансовая оценка",
+   "classCode": "Competence"
+  },
+  {
+   "id": "finansovyy-direktor-cfo",
+   "label": "Финансовый директор (CFO)",
+   "classCode": "Role"
+  },
+  {
+   "id": "hartiya-kommunikaciy",
+   "label": "Хартия коммуникаций",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "epistemicheskiy-rezhim",
+   "label": "Эпистемический режим",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "class-etap",
+   "label": "Этап",
+   "classCode": "Stage",
+   "isClass": true
+  },
+  {
+   "id": "etap-1-uchet-opredelenie-i-opisanie-problem",
+   "label": "Этап 1. Учёт, определение и описание проблем",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-10-prognozirovanie-i-ocenivanie-scenariev",
+   "label": "Этап 10. Прогнозирование и оценивание сценариев",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-11-formirovanie-rekomendaciy-dlya-lpr",
+   "label": "Этап 11. Формирование рекомендаций для ЛПР",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-12-intellektualnaya-podderzhka-prinyatiya-resheniya",
+   "label": "Этап 12. Интеллектуальная поддержка принятия решения",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-13-uchastie-v-razrabotke-analiticheskogo-proekta",
+   "label": "Этап 13. Участие в разработке аналитического проекта",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-14-informacionno-analiticheskoe-soprovozhdenie",
+   "label": "Этап 14. Информационно-аналитическое сопровождение",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-15-razreshenie-chastnyh-problem-proekta",
+   "label": "Этап 15. Разрешение частных проблем проекта",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-16-ocenivanie-dostizheniya-celey",
+   "label": "Этап 16. Оценивание достижения целей",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-17-ocenivanie-effektivnosti-processov",
+   "label": "Этап 17. Оценивание эффективности процессов",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-18-ocenivanie-posledstviy",
+   "label": "Этап 18. Оценивание последствий",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-19-proaktivnye-rekomendacii-i-preventivnye-mery",
+   "label": "Этап 19. Проактивные рекомендации и превентивные меры",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-2-ustanovlenie-kommunikacii-i-opisanie-ozhidaniy",
+   "label": "Этап 2. Установление коммуникации и описание ожиданий",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-20-itogovoe-dokumentirovanie-i-baza-znaniy",
+   "label": "Этап 20. Итоговое документирование и база знаний",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-3-obsledovanie-problem",
+   "label": "Этап 3. Обследование проблем",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-4-ocenivanie-problem",
+   "label": "Этап 4. Оценивание проблем",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-5-diagnostika-i-dekompoziciya-problem",
+   "label": "Этап 5. Диагностика и декомпозиция проблем",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-6-formirovanie-i-vybor-koncepcii",
+   "label": "Этап 6. Формирование и выбор концепции",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-7-razrabotka-i-validaciya-tehnicheskogo-zadaniya",
+   "label": "Этап 7. Разработка и валидация технического задания",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-8-postanovka-zadach-i-podgotovka-k-resheniyu",
+   "label": "Этап 8. Постановка задач и подготовка к решению",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-9-reshenie-zadach",
+   "label": "Этап 9. Решение задач",
+   "classCode": "Stage"
+  },
+  {
+   "id": "yuridicheskiy-direktor-clo",
+   "label": "Юридический директор (CLO)",
+   "classCode": "Role"
+  },
+  {
+   "id": "yacheyka-raci-cae-etap-16",
+   "label": "Ячейка RACI: CAE × этап 16",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-caio-etap-6",
+   "label": "Ячейка RACI: CAIO × этап 6",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-cao-etap-1",
+   "label": "Ячейка RACI: CAO × этап 1",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-cao-etap-13",
+   "label": "Ячейка RACI: CAO × этап 13",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-cao-etap-16",
+   "label": "Ячейка RACI: CAO × этап 16",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-cao-etap-20",
+   "label": "Ячейка RACI: CAO × этап 20",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-cao-etap-5",
+   "label": "Ячейка RACI: CAO × этап 5",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-cao-etap-6",
+   "label": "Ячейка RACI: CAO × этап 6",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-de-etap-6",
+   "label": "Ячейка RACI: DE × этап 6",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-km-etap-20",
+   "label": "Ячейка RACI: KM × этап 20",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-pa-etap-1",
+   "label": "Ячейка RACI: PA × этап 1",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-pa-etap-13",
+   "label": "Ячейка RACI: PA × этап 13",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-pa-etap-13-narushenie",
+   "label": "Ячейка RACI: PA × этап 13 (нарушение)",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-pa-etap-16",
+   "label": "Ячейка RACI: PA × этап 16",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-pa-etap-20",
+   "label": "Ячейка RACI: PA × этап 20",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-pa-etap-6",
+   "label": "Ячейка RACI: PA × этап 6",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-pm-etap-13",
+   "label": "Ячейка RACI: PM × этап 13",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-po-etap-1",
+   "label": "Ячейка RACI: PO × этап 1",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-po-etap-6-narushenie",
+   "label": "Ячейка RACI: PO × этап 6 (нарушение)",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-sme-etap-1",
+   "label": "Ячейка RACI: SME × этап 1",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "yacheyka-raci-tr-etap-20",
+   "label": "Ячейка RACI: Tr × этап 20",
+   "classCode": "ResponsibilityAssignment"
+  },
+  {
+   "id": "a-accountable",
+   "label": "A — Accountable",
+   "classCode": "RaciType"
+  },
+  {
+   "id": "c-consulted",
+   "label": "C — Consulted",
+   "classCode": "RaciType"
+  },
+  {
+   "id": "i-informed",
+   "label": "I — Informed",
+   "classCode": "RaciType"
+  },
+  {
+   "id": "r-responsible",
+   "label": "R — Responsible",
+   "classCode": "RaciType"
+  }
+ ]
+}

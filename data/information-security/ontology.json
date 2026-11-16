@@ -1,0 +1,1731 @@
+{
+ "classes": [
+  {
+   "code": "SecurityPolicy",
+   "name": "Политика ИБ",
+   "comment": "Документ верхнего уровня, определяющий требования, принципы и границы обеспечения информационной безопасности организации.",
+   "attributes": [
+    {
+     "code": "approvalDate",
+     "name": "дата утверждения",
+     "type": "date",
+     "comment": "Дата утверждения политики"
+    },
+    {
+     "code": "reviewDate",
+     "name": "дата пересмотра",
+     "type": "date",
+     "comment": "Плановая дата актуализации политики"
+    },
+    {
+     "code": "owner",
+     "name": "владелец",
+     "type": "string",
+     "comment": "Ответственное подразделение или роль"
+    },
+    {
+     "code": "scope",
+     "name": "область действия",
+     "type": "string",
+     "comment": "Границы применения политики"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_GOVERNANCE",
+     "name": "Управление ИБ и субъекты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SecurityRole",
+   "name": "Роль в ИБ",
+   "comment": "Субъект (сотрудник или подразделение), наделённый полномочиями и ответственностью в системе управления информационной безопасностью.",
+   "attributes": [
+    {
+     "code": "position",
+     "name": "должность",
+     "type": "string",
+     "comment": "Наименование должности или роли"
+    },
+    {
+     "code": "responsibility",
+     "name": "зона ответственности",
+     "type": "string",
+     "comment": "Круг задач и объектов ответственности"
+    },
+    {
+     "code": "authorityLevel",
+     "name": "уровень полномочий",
+     "type": "string",
+     "comment": "Право принятия решений по рискам и мерам"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_GOVERNANCE",
+     "name": "Управление ИБ и субъекты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SecurityProcess",
+   "name": "Процесс ИБ",
+   "comment": "Регулярная деятельность по управлению информационной безопасностью: управление рисками, уязвимостями, инцидентами, доступами, непрерывностью.",
+   "attributes": [
+    {
+     "code": "processOwner",
+     "name": "владелец процесса",
+     "type": "string",
+     "comment": "Роль, отвечающая за процесс"
+    },
+    {
+     "code": "frequency",
+     "name": "периодичность",
+     "type": "string",
+     "comment": "Периодичность выполнения процесса"
+    },
+    {
+     "code": "maturityLevel",
+     "name": "уровень зрелости",
+     "type": "string",
+     "comment": "Оценка зрелости процесса"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_GOVERNANCE",
+     "name": "Управление ИБ и субъекты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SecurityMetric",
+   "name": "Показатель ИБ",
+   "comment": "Измеримый показатель результативности процессов и мер информационной безопасности.",
+   "attributes": [
+    {
+     "code": "targetValue",
+     "name": "целевое значение",
+     "type": "number",
+     "comment": "Плановое значение показателя"
+    },
+    {
+     "code": "actualValue",
+     "name": "фактическое значение",
+     "type": "number",
+     "comment": "Текущее значение показателя"
+    },
+    {
+     "code": "unit",
+     "name": "единица измерения",
+     "type": "string",
+     "comment": "Единица измерения показателя"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_GOVERNANCE",
+     "name": "Управление ИБ и субъекты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Asset",
+   "name": "Актив",
+   "comment": "Всё, что имеет ценность и нуждается в защите: информационные системы, данные, сегменты сети, облачные сервисы, АСУ ТП, конечные устройства.",
+   "attributes": [
+    {
+     "code": "inventoryNumber",
+     "name": "инвентарный номер",
+     "type": "string",
+     "comment": "Учётный номер актива"
+    },
+    {
+     "code": "commissioningDate",
+     "name": "дата ввода в эксплуатацию",
+     "type": "date",
+     "comment": "Дата начала эксплуатации"
+    },
+    {
+     "code": "lifecycleStage",
+     "name": "стадия жизненного цикла",
+     "type": "string",
+     "comment": "Стадия: внедрение, эксплуатация, вывод"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_ASSETS",
+     "name": "Активы, данные, доступ"
+    }
+   ],
+   "subclasses": [
+    {
+     "code": "InformationSystem",
+     "name": "Информационная система"
+    },
+    {
+     "code": "DataAsset",
+     "name": "Информационный ресурс (данные)"
+    },
+    {
+     "code": "IndustrialControlSystem",
+     "name": "АСУ ТП / ОТ-актив"
+    },
+    {
+     "code": "CloudService",
+     "name": "Облачный сервис"
+    },
+    {
+     "code": "NetworkSegment",
+     "name": "Сегмент сети"
+    },
+    {
+     "code": "Endpoint",
+     "name": "Конечное устройство"
+    }
+   ]
+  },
+  {
+   "code": "InformationSystem",
+   "name": "Информационная система",
+   "comment": "Прикладная или инфраструктурная ИС, обрабатывающая данные организации (CRM, ERP, файловые серверы).",
+   "attributes": [
+    {
+     "code": "environment",
+     "name": "среда размещения",
+     "type": "string",
+     "comment": "Локальная или облачная инфраструктура"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_ASSETS",
+     "name": "Активы, данные, доступ"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataAsset",
+   "name": "Информационный ресурс (данные)",
+   "comment": "Упорядоченная совокупность данных, имеющая самостоятельную ценность и правовой режим (базы данных, хранилища).",
+   "attributes": [
+    {
+     "code": "dataVolume",
+     "name": "объём данных",
+     "type": "number",
+     "comment": "Оценка объёма данных"
+    },
+    {
+     "code": "retentionPeriod",
+     "name": "срок хранения",
+     "type": "string",
+     "comment": "Установленный срок хранения"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_ASSETS",
+     "name": "Активы, данные, доступ"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "IndustrialControlSystem",
+   "name": "АСУ ТП / ОТ-актив",
+   "comment": "Автоматизированная система управления технологическим процессом и другие операционные активы, связанные с физическим производством.",
+   "attributes": [
+    {
+     "code": "processLine",
+     "name": "технологическая линия",
+     "type": "string",
+     "comment": "Управляемая линия или участок"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_ASSETS",
+     "name": "Активы, данные, доступ"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CloudService",
+   "name": "Облачный сервис",
+   "comment": "Внешняя облачная инфраструктура или платформа, на которой размещаются активы организации.",
+   "attributes": [
+    {
+     "code": "provider",
+     "name": "провайдер",
+     "type": "string",
+     "comment": "Наименование облачного провайдера"
+    },
+    {
+     "code": "tenancyModel",
+     "name": "модель аренды",
+     "type": "string",
+     "comment": "Публичное, частное или гибридное облако"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_ASSETS",
+     "name": "Активы, данные, доступ"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "NetworkSegment",
+   "name": "Сегмент сети",
+   "comment": "Логически обособленная часть сети с собственными правилами доступа и уровнем доверия.",
+   "attributes": [
+    {
+     "code": "trustLevel",
+     "name": "уровень доверия",
+     "type": "string",
+     "comment": "Доверенный, демилитаризованный, недоверенный"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_ASSETS",
+     "name": "Активы, данные, доступ"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Endpoint",
+   "name": "Конечное устройство",
+   "comment": "Рабочая станция, ноутбук, АРМ или иное оконечное устройство пользователя или оператора.",
+   "attributes": [
+    {
+     "code": "deviceType",
+     "name": "тип устройства",
+     "type": "string",
+     "comment": "АРМ, ноутбук, сервер, мобильное устройство"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_ASSETS",
+     "name": "Активы, данные, доступ"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "BusinessProcess",
+   "name": "Бизнес-процесс",
+   "comment": "Процесс деятельности организации, зависящий от активов и критичный для её непрерывности.",
+   "attributes": [
+    {
+     "code": "processOwner",
+     "name": "владелец процесса",
+     "type": "string",
+     "comment": "Роль, отвечающая за процесс"
+    },
+    {
+     "code": "continuityRequirement",
+     "name": "требование непрерывности",
+     "type": "string",
+     "comment": "Допустимое время простоя (RTO)"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_ASSETS",
+     "name": "Активы, данные, доступ"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataCategory",
+   "name": "Категория информации",
+   "comment": "Классификация защищаемой информации по юридическому режиму и чувствительности: персональные данные, коммерческая тайна, промышленная тайна.",
+   "attributes": [
+    {
+     "code": "sensitivityLevel",
+     "name": "уровень чувствительности",
+     "type": "string",
+     "comment": "Степень конфиденциальности категории"
+    },
+    {
+     "code": "legalBasis",
+     "name": "правовое основание",
+     "type": "string",
+     "comment": "НПА, устанавливающий режим"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_ASSETS",
+     "name": "Активы, данные, доступ"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Account",
+   "name": "Учётная запись",
+   "comment": "Идентификатор доступа в информационную систему, обладающий привилегиями и привязанный к роли.",
+   "attributes": [
+    {
+     "code": "login",
+     "name": "логин",
+     "type": "string",
+     "comment": "Имя учётной записи"
+    },
+    {
+     "code": "privilegeLevel",
+     "name": "уровень привилегий",
+     "type": "string",
+     "comment": "Обычная, привилегированная, сервисная"
+    },
+    {
+     "code": "mfaEnabled",
+     "name": "включена MFA",
+     "type": "boolean",
+     "comment": "Признак многофакторной аутентификации"
+    },
+    {
+     "code": "lastReviewDate",
+     "name": "дата последнего пересмотра",
+     "type": "date",
+     "comment": "Дата ревизии прав доступа"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_ASSETS",
+     "name": "Активы, данные, доступ"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Threat",
+   "name": "Угроза",
+   "comment": "Потенциальное событие или воздействие, способное нарушить конфиденциальность, целостность или доступность активов.",
+   "attributes": [
+    {
+     "code": "threatType",
+     "name": "тип угрозы",
+     "type": "string",
+     "comment": "Классификация угрозы"
+    },
+    {
+     "code": "likelihood",
+     "name": "вероятность",
+     "type": "string",
+     "comment": "Оценка вероятности реализации"
+    },
+    {
+     "code": "relevance",
+     "name": "актуальность",
+     "type": "string",
+     "comment": "Актуальность угрозы для организации"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_THREATS",
+     "name": "Угрозы и уязвимости"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ThreatActor",
+   "name": "Источник угрозы",
+   "comment": "Субъект, реализующий угрозу: APT-группировка, инсайдер, хактивист, недобросовестный подрядчик.",
+   "attributes": [
+    {
+     "code": "actorType",
+     "name": "тип источника",
+     "type": "string",
+     "comment": "Внешний, внутренний, гибридный"
+    },
+    {
+     "code": "motivation",
+     "name": "мотивация",
+     "type": "string",
+     "comment": "Финансовая, политическая, шпионаж, месть"
+    },
+    {
+     "code": "capability",
+     "name": "уровень возможностей",
+     "type": "string",
+     "comment": "Низкий, средний, высокий"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_THREATS",
+     "name": "Угрозы и уязвимости"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "AttackTechnique",
+   "name": "Техника атаки",
+   "comment": "Тактика или техника реализации угрозы (в т.ч. в терминах MITRE ATT&CK): фишинг, эксплуатация приложения, боковое перемещение.",
+   "attributes": [
+    {
+     "code": "tactic",
+     "name": "тактика",
+     "type": "string",
+     "comment": "Этап атаки по MITRE ATT&CK"
+    },
+    {
+     "code": "techniqueId",
+     "name": "идентификатор техники",
+     "type": "string",
+     "comment": "Идентификатор вида T1566"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_THREATS",
+     "name": "Угрозы и уязвимости"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Vulnerability",
+   "name": "Уязвимость",
+   "comment": "Слабость актива или конфигурации, которая может быть использована угрозой: отсутствие MFA, непропатченная ОС, слабая сегментация.",
+   "attributes": [
+    {
+     "code": "severityScore",
+     "name": "оценка критичности",
+     "type": "number",
+     "comment": "Балл по CVSS или внутренней шкале"
+    },
+    {
+     "code": "source",
+     "name": "источник выявления",
+     "type": "string",
+     "comment": "Сканер, пентест, аудит"
+    },
+    {
+     "code": "discoveryDate",
+     "name": "дата выявления",
+     "type": "date",
+     "comment": "Дата обнаружения уязвимости"
+    },
+    {
+     "code": "exploitAvailability",
+     "name": "наличие эксплойта",
+     "type": "boolean",
+     "comment": "Доступен ли публичный эксплойт"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_THREATS",
+     "name": "Угрозы и уязвимости"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Risk",
+   "name": "Риск ИБ",
+   "comment": "Сочетание вероятности реализации угрозы и тяжести последствий для актива или бизнес-процесса.",
+   "attributes": [
+    {
+     "code": "likelihood",
+     "name": "вероятность",
+     "type": "string",
+     "comment": "Оценка вероятности реализации"
+    },
+    {
+     "code": "impactLevel",
+     "name": "уровень воздействия",
+     "type": "string",
+     "comment": "Тяжесть последствий"
+    },
+    {
+     "code": "riskLevel",
+     "name": "уровень риска",
+     "type": "string",
+     "comment": "Итоговая оценка риска"
+    },
+    {
+     "code": "treatmentStrategy",
+     "name": "стратегия обработки",
+     "type": "string",
+     "comment": "Снижение, принятие, передача, избегание"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_RISKS",
+     "name": "Риски, события, инциденты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "RiskCategory",
+   "name": "Категория риска",
+   "comment": "Классификация рисков по характеру воздействия: утечка данных, нарушение доступности, целостности, несоответствие, риск третьей стороны.",
+   "attributes": [
+    {
+     "code": "description",
+     "name": "описание",
+     "type": "string",
+     "comment": "Пояснение категории"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_RISKS",
+     "name": "Риски, события, инциденты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Incident",
+   "name": "Инцидент ИБ",
+   "comment": "Реализовавшееся событие информационной безопасности, требующее реагирования и, возможно, уведомления регулятора.",
+   "attributes": [
+    {
+     "code": "detectedAt",
+     "name": "дата обнаружения",
+     "type": "date",
+     "comment": "Когда инцидент был выявлен"
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Обнаружен, локализован, устранён"
+    },
+    {
+     "code": "responseStage",
+     "name": "этап реагирования",
+     "type": "string",
+     "comment": "Текущая фаза обработки"
+    },
+    {
+     "code": "regulatorNotificationRequired",
+     "name": "требуется уведомление регулятора",
+     "type": "boolean",
+     "comment": "Признак обязательного уведомления"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_RISKS",
+     "name": "Риски, события, инциденты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Consequence",
+   "name": "Последствие",
+   "comment": "Ущерб или эффект от реализации риска либо инцидента: простой, финансовые потери, штраф, репутационный ущерб, утрата данных.",
+   "attributes": [
+    {
+     "code": "consequenceType",
+     "name": "тип последствия",
+     "type": "string",
+     "comment": "Финансовое, операционное, правовое, репутационное"
+    },
+    {
+     "code": "estimatedLoss",
+     "name": "оценка потерь",
+     "type": "number",
+     "comment": "Оценка ущерба в денежном выражении"
+    },
+    {
+     "code": "unit",
+     "name": "единица измерения",
+     "type": "string",
+     "comment": "Единица измерения потерь"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_RISKS",
+     "name": "Риски, события, инциденты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Severity",
+   "name": "Уровень критичности",
+   "comment": "Справочная шкала оценки критичности активов, рисков и инцидентов.",
+   "attributes": [
+    {
+     "code": "level",
+     "name": "уровень",
+     "type": "number",
+     "comment": "Числовой ранг уровня"
+    },
+    {
+     "code": "description",
+     "name": "описание",
+     "type": "string",
+     "comment": "Пояснение уровня"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_RISKS",
+     "name": "Риски, события, инциденты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Control",
+   "name": "Мера защиты",
+   "comment": "Техническая, организационная или физическая мера, снижающая риск и реализующая требования безопасности.",
+   "attributes": [
+    {
+     "code": "implementationStatus",
+     "name": "статус внедрения",
+     "type": "string",
+     "comment": "Внедрена, в процессе, запланирована"
+    },
+    {
+     "code": "effectiveness",
+     "name": "результативность",
+     "type": "string",
+     "comment": "Оценка результативности меры"
+    },
+    {
+     "code": "lastTestDate",
+     "name": "дата последней проверки",
+     "type": "date",
+     "comment": "Дата тестирования или аудита меры"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_CONTROLS",
+     "name": "Меры и средства защиты"
+    }
+   ],
+   "subclasses": [
+    {
+     "code": "TechnicalControl",
+     "name": "Техническая мера"
+    },
+    {
+     "code": "OrganizationalControl",
+     "name": "Организационная мера"
+    },
+    {
+     "code": "PhysicalControl",
+     "name": "Физическая мера"
+    }
+   ]
+  },
+  {
+   "code": "TechnicalControl",
+   "name": "Техническая мера",
+   "comment": "Мера защиты, реализуемая программными, аппаратными или криптографическими средствами (SIEM, EDR, DLP, MFA).",
+   "attributes": [
+    {
+     "code": "technology",
+     "name": "технология",
+     "type": "string",
+     "comment": "Класс технологии защиты"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_CONTROLS",
+     "name": "Меры и средства защиты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "OrganizationalControl",
+   "name": "Организационная мера",
+   "comment": "Мера защиты, реализуемая регламентами, процессами и обучением персонала.",
+   "attributes": [
+    {
+     "code": "documentBasis",
+     "name": "документальное основание",
+     "type": "string",
+     "comment": "Регламент, приказ или политика"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_CONTROLS",
+     "name": "Меры и средства защиты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "PhysicalControl",
+   "name": "Физическая мера",
+   "comment": "Мера защиты, ограничивающая физический доступ к активам (контроль доступа в помещения, охрана).",
+   "attributes": [
+    {
+     "code": "protectedZone",
+     "name": "защищаемая зона",
+     "type": "string",
+     "comment": "Помещение, зона или периметр"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_CONTROLS",
+     "name": "Меры и средства защиты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ControlCategory",
+   "name": "Категория меры",
+   "comment": "Группа средств защиты по назначению: мониторинг, управление доступом, защита данных, восстановление, сетевая защита, управление уязвимостями, обучение.",
+   "attributes": [
+    {
+     "code": "family",
+     "name": "семейство",
+     "type": "string",
+     "comment": "Семейство мер по классификации"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_CONTROLS",
+     "name": "Меры и средства защиты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ResponsePlaybook",
+   "name": "План реагирования",
+   "comment": "Утверждённая последовательность действий по обработке определённого типа инцидентов.",
+   "attributes": [
+    {
+     "code": "approvalDate",
+     "name": "дата утверждения",
+     "type": "date",
+     "comment": "Дата утверждения плана"
+    },
+    {
+     "code": "owner",
+     "name": "владелец",
+     "type": "string",
+     "comment": "Ответственная роль"
+    },
+    {
+     "code": "triggerCondition",
+     "name": "условие запуска",
+     "type": "string",
+     "comment": "Событие, активирующее план"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_CONTROLS",
+     "name": "Меры и средства защиты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ResponseAction",
+   "name": "Действие по реагированию",
+   "comment": "Конкретный шаг при обработке инцидента: изоляция узла, отключение учётной записи, уведомление регулятора, восстановление.",
+   "attributes": [
+    {
+     "code": "actionType",
+     "name": "тип действия",
+     "type": "string",
+     "comment": "Локализация, устранение, восстановление, уведомление"
+    },
+    {
+     "code": "sequence",
+     "name": "порядковый номер",
+     "type": "number",
+     "comment": "Порядок выполнения"
+    },
+    {
+     "code": "deadlineHours",
+     "name": "срок, ч",
+     "type": "number",
+     "comment": "Предельный срок выполнения"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_CONTROLS",
+     "name": "Меры и средства защиты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Requirement",
+   "name": "Требование",
+   "comment": "Нормативное или договорное требование по защите информации, которому должны соответствовать активы, процессы и меры.",
+   "attributes": [
+    {
+     "code": "requirementId",
+     "name": "идентификатор требования",
+     "type": "string",
+     "comment": "Уникальный код требования"
+    },
+    {
+     "code": "requirementLevel",
+     "name": "уровень требования",
+     "type": "string",
+     "comment": "Обязательное, рекомендательное"
+    },
+    {
+     "code": "textReference",
+     "name": "ссылка на текст",
+     "type": "string",
+     "comment": "Пункт нормативного документа"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_COMPLIANCE",
+     "name": "Регуляторика и соответствие"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Regulation",
+   "name": "Нормативный акт",
+   "comment": "Закон или подзаконный акт, устанавливающий обязательные требования: 152-ФЗ, 187-ФЗ, приказы ФСТЭК.",
+   "attributes": [
+    {
+     "code": "documentNumber",
+     "name": "номер документа",
+     "type": "string",
+     "comment": "Номер и дата документа"
+    },
+    {
+     "code": "effectiveDate",
+     "name": "дата вступления в силу",
+     "type": "date",
+     "comment": "Дата начала действия"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_COMPLIANCE",
+     "name": "Регуляторика и соответствие"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Standard",
+   "name": "Стандарт",
+   "comment": "Национальный или международный стандарт, задающий методику и требования безопасности: ГОСТ Р 57580, ГОСТ Р ИСО/МЭК 27001.",
+   "attributes": [
+    {
+     "code": "standardNumber",
+     "name": "обозначение стандарта",
+     "type": "string",
+     "comment": "Номер стандарта"
+    },
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Редакция стандарта"
+    },
+    {
+     "code": "issuer",
+     "name": "разработчик",
+     "type": "string",
+     "comment": "Организация-разработчик"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_COMPLIANCE",
+     "name": "Регуляторика и соответствие"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Regulator",
+   "name": "Регулятор",
+   "comment": "Орган, устанавливающий требования и контролирующий их исполнение: ФСТЭК, ФСБ, Роскомнадзор.",
+   "attributes": [
+    {
+     "code": "scope",
+     "name": "сфера надзора",
+     "type": "string",
+     "comment": "Область регулирования"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_COMPLIANCE",
+     "name": "Регуляторика и соответствие"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ComplianceAssessment",
+   "name": "Оценка соответствия",
+   "comment": "Аттестация, аудит или оценка соответствия актива и мер требованиям безопасности.",
+   "attributes": [
+    {
+     "code": "assessmentDate",
+     "name": "дата оценки",
+     "type": "date",
+     "comment": "Дата проведения оценки"
+    },
+    {
+     "code": "result",
+     "name": "результат",
+     "type": "string",
+     "comment": "Соответствует, частично, не соответствует"
+    },
+    {
+     "code": "assessor",
+     "name": "оценщик",
+     "type": "string",
+     "comment": "Организация или роль"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_COMPLIANCE",
+     "name": "Регуляторика и соответствие"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Competence",
+   "name": "Компетенция",
+   "comment": "Знания и навыки, необходимые роли для выполнения задач информационной безопасности.",
+   "attributes": [
+    {
+     "code": "level",
+     "name": "уровень",
+     "type": "string",
+     "comment": "Базовый, продвинутый, экспертный"
+    },
+    {
+     "code": "area",
+     "name": "область",
+     "type": "string",
+     "comment": "Предметная область компетенции"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_PEOPLE",
+     "name": "Люди, обучение, осведомлённость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Training",
+   "name": "Обучение по ИБ",
+   "comment": "Программа обучения, тренинга или повышения осведомлённости сотрудников в области информационной безопасности.",
+   "attributes": [
+    {
+     "code": "trainingType",
+     "name": "тип обучения",
+     "type": "string",
+     "comment": "Курс, тренинг, инструктаж"
+    },
+    {
+     "code": "dueDate",
+     "name": "срок проведения",
+     "type": "date",
+     "comment": "Плановая дата"
+    },
+    {
+     "code": "completionRate",
+     "name": "доля прошедших",
+     "type": "number",
+     "comment": "Процент сотрудников, завершивших обучение"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_PEOPLE",
+     "name": "Люди, обучение, осведомлённость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Vendor",
+   "name": "Поставщик",
+   "comment": "Внешняя организация, поставляющая ПО, услуги или инфраструктуру и влияющая на риски организации.",
+   "attributes": [
+    {
+     "code": "vendorType",
+     "name": "тип поставщика",
+     "type": "string",
+     "comment": "ПО, облако, аутсорс, подрядчик"
+    },
+    {
+     "code": "criticality",
+     "name": "критичность",
+     "type": "string",
+     "comment": "Степень влияния на деятельность"
+    },
+    {
+     "code": "country",
+     "name": "страна",
+     "type": "string",
+     "comment": "Юрисдикция поставщика"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_THIRDPARTY",
+     "name": "Внешние стороны и цепочка поставок"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Contract",
+   "name": "Договор",
+   "comment": "Договор с поставщиком, содержащий требования безопасности, условия доступа и ответственность сторон.",
+   "attributes": [
+    {
+     "code": "contractNumber",
+     "name": "номер договора",
+     "type": "string",
+     "comment": "Номер договора"
+    },
+    {
+     "code": "expiryDate",
+     "name": "дата окончания",
+     "type": "date",
+     "comment": "Срок действия договора"
+    },
+    {
+     "code": "securityClause",
+     "name": "пункт о безопасности",
+     "type": "string",
+     "comment": "Наличие требований ИБ в договоре"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_THIRDPARTY",
+     "name": "Внешние стороны и цепочка поставок"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Service",
+   "name": "Услуга",
+   "comment": "Внешняя услуга, поддерживающая бизнес-процессы: облачный сервис, техническая поддержка, мониторинг SOC.",
+   "attributes": [
+    {
+     "code": "serviceType",
+     "name": "тип услуги",
+     "type": "string",
+     "comment": "Облако, поддержка, мониторинг"
+    },
+    {
+     "code": "criticality",
+     "name": "критичность",
+     "type": "string",
+     "comment": "Степень влияния на деятельность"
+    },
+    {
+     "code": "slaLevel",
+     "name": "уровень SLA",
+     "type": "string",
+     "comment": "Согласованный уровень сервиса"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_THIRDPARTY",
+     "name": "Внешние стороны и цепочка поставок"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SupplyChainRisk",
+   "name": "Риск цепочки поставок",
+   "comment": "Риск, возникающий из-за зависимости от внешних поставщиков, подрядчиков и обновлений ПО.",
+   "attributes": [
+    {
+     "code": "likelihood",
+     "name": "вероятность",
+     "type": "string",
+     "comment": "Оценка вероятности"
+    },
+    {
+     "code": "impactLevel",
+     "name": "уровень воздействия",
+     "type": "string",
+     "comment": "Тяжесть последствий"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SEC_THIRDPARTY",
+     "name": "Внешние стороны и цепочка поставок"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "policyRegulatesProcess",
+   "name": "регулирует процессы",
+   "comment": "Связывает политику ИБ с процессами, которые она регламентирует",
+   "fromClass": "SecurityPolicy",
+   "toClass": "SecurityProcess"
+  },
+  {
+   "code": "policyGovernsAsset",
+   "name": "распространяется на активы",
+   "comment": "Определяет активы, на которые распространяется политика",
+   "fromClass": "SecurityPolicy",
+   "toClass": "Asset"
+  },
+  {
+   "code": "processManagedBy",
+   "name": "управляется ролью",
+   "comment": "Роль, отвечающая за выполнение процесса ИБ",
+   "fromClass": "SecurityProcess",
+   "toClass": "SecurityRole"
+  },
+  {
+   "code": "processUsesControl",
+   "name": "использует меры",
+   "comment": "Меры защиты, задействованные в процессе ИБ",
+   "fromClass": "SecurityProcess",
+   "toClass": "Control"
+  },
+  {
+   "code": "processAddressesRisk",
+   "name": "направлен на риск",
+   "comment": "Риски, на управление которыми нацелен процесс",
+   "fromClass": "SecurityProcess",
+   "toClass": "Risk"
+  },
+  {
+   "code": "processMeasuredByMetric",
+   "name": "измеряется показателем",
+   "comment": "Показатели результативности процесса",
+   "fromClass": "SecurityProcess",
+   "toClass": "SecurityMetric"
+  },
+  {
+   "code": "roleOwnsAsset",
+   "name": "владеет активом",
+   "comment": "Роль, отвечающая за актив",
+   "fromClass": "SecurityRole",
+   "toClass": "Asset"
+  },
+  {
+   "code": "roleResponsibleForRequirement",
+   "name": "отвечает за требование",
+   "comment": "Роль, обеспечивающая выполнение требования",
+   "fromClass": "SecurityRole",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "roleHasCompetence",
+   "name": "обладает компетенцией",
+   "comment": "Компетенции, которыми обладает роль",
+   "fromClass": "SecurityRole",
+   "toClass": "Competence"
+  },
+  {
+   "code": "assetSupportsProcess",
+   "name": "поддерживает процесс",
+   "comment": "Бизнес-процессы, которые обеспечивает актив",
+   "fromClass": "Asset",
+   "toClass": "BusinessProcess"
+  },
+  {
+   "code": "assetProcessesData",
+   "name": "обрабатывает данные категории",
+   "comment": "Категории информации, обрабатываемые активом",
+   "fromClass": "Asset",
+   "toClass": "DataCategory"
+  },
+  {
+   "code": "assetHasCriticality",
+   "name": "имеет уровень критичности",
+   "comment": "Уровень критичности актива",
+   "fromClass": "Asset",
+   "toClass": "Severity"
+  },
+  {
+   "code": "assetInSegment",
+   "name": "входит в сегмент",
+   "comment": "Сетевой сегмент, в котором размещён актив",
+   "fromClass": "Asset",
+   "toClass": "Asset"
+  },
+  {
+   "code": "assetHostedOnCloud",
+   "name": "размещён в облаке",
+   "comment": "Облачный сервис, на котором размещён актив",
+   "fromClass": "Asset",
+   "toClass": "Asset"
+  },
+  {
+   "code": "accountGrantsAccess",
+   "name": "предоставляет доступ к активу",
+   "comment": "Активы, доступные через учётную запись",
+   "fromClass": "Account",
+   "toClass": "Asset"
+  },
+  {
+   "code": "accountBelongsToRole",
+   "name": "принадлежит роли",
+   "comment": "Роль, которой принадлежит учётная запись",
+   "fromClass": "Account",
+   "toClass": "SecurityRole"
+  },
+  {
+   "code": "processDependsOnAsset",
+   "name": "зависит от актива",
+   "comment": "Активы, от которых зависит бизнес-процесс",
+   "fromClass": "BusinessProcess",
+   "toClass": "Asset"
+  },
+  {
+   "code": "dataCategoryRegulatedByRequirement",
+   "name": "регулируется требованием",
+   "comment": "Требования, устанавливающие режим для категории информации",
+   "fromClass": "DataCategory",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "threatTargetsAsset",
+   "name": "направлена на актив",
+   "comment": "Активы, на которые направлена угроза",
+   "fromClass": "Threat",
+   "toClass": "Asset"
+  },
+  {
+   "code": "threatExploitsVulnerability",
+   "name": "эксплуатирует уязвимость",
+   "comment": "Уязвимости, используемые угрозой",
+   "fromClass": "Threat",
+   "toClass": "Vulnerability"
+  },
+  {
+   "code": "threatRealizedByActor",
+   "name": "реализуется источником",
+   "comment": "Источники, реализующие угрозу",
+   "fromClass": "Threat",
+   "toClass": "ThreatActor"
+  },
+  {
+   "code": "actorUsesTechnique",
+   "name": "использует технику",
+   "comment": "Техники атаки, применяемые источником угрозы",
+   "fromClass": "ThreatActor",
+   "toClass": "AttackTechnique"
+  },
+  {
+   "code": "vulnerabilityInherentToAsset",
+   "name": "свойственна активу",
+   "comment": "Активы, которым свойственна уязвимость",
+   "fromClass": "Vulnerability",
+   "toClass": "Asset"
+  },
+  {
+   "code": "vulnerabilityMitigatedByControl",
+   "name": "устраняется мерой",
+   "comment": "Меры, устраняющие уязвимость",
+   "fromClass": "Vulnerability",
+   "toClass": "Control"
+  },
+  {
+   "code": "techniqueExploitsVulnerability",
+   "name": "использует уязвимость",
+   "comment": "Уязвимости, задействованные в технике атаки",
+   "fromClass": "AttackTechnique",
+   "toClass": "Vulnerability"
+  },
+  {
+   "code": "threatCreatesRisk",
+   "name": "создаёт риск",
+   "comment": "Риски, порождаемые угрозой",
+   "fromClass": "Threat",
+   "toClass": "Risk"
+  },
+  {
+   "code": "vulnerabilityRaisesRisk",
+   "name": "повышает риск",
+   "comment": "Риски, вероятность которых повышает уязвимость",
+   "fromClass": "Vulnerability",
+   "toClass": "Risk"
+  },
+  {
+   "code": "riskAffectsAsset",
+   "name": "затрагивает актив",
+   "comment": "Активы, подверженные риску",
+   "fromClass": "Risk",
+   "toClass": "Asset"
+  },
+  {
+   "code": "riskHasCategory",
+   "name": "относится к категории",
+   "comment": "Категория риска",
+   "fromClass": "Risk",
+   "toClass": "RiskCategory"
+  },
+  {
+   "code": "riskHasSeverity",
+   "name": "оценивается уровнем",
+   "comment": "Уровень критичности риска",
+   "fromClass": "Risk",
+   "toClass": "Severity"
+  },
+  {
+   "code": "riskLeadsToConsequence",
+   "name": "приводит к последствию",
+   "comment": "Последствия реализации риска",
+   "fromClass": "Risk",
+   "toClass": "Consequence"
+  },
+  {
+   "code": "riskMitigatedByControl",
+   "name": "снижается мерой",
+   "comment": "Меры, снижающие риск",
+   "fromClass": "Risk",
+   "toClass": "Control"
+  },
+  {
+   "code": "riskOwnedByRole",
+   "name": "принимается ролью",
+   "comment": "Роль-владелец риска",
+   "fromClass": "Risk",
+   "toClass": "SecurityRole"
+  },
+  {
+   "code": "incidentRealizesRisk",
+   "name": "реализует риск",
+   "comment": "Риск, реализовавшийся в инциденте",
+   "fromClass": "Incident",
+   "toClass": "Risk"
+  },
+  {
+   "code": "incidentAffectsAsset",
+   "name": "затрагивает актив",
+   "comment": "Активы, пострадавшие в инциденте",
+   "fromClass": "Incident",
+   "toClass": "Asset"
+  },
+  {
+   "code": "incidentDetectedByControl",
+   "name": "обнаружен мерой",
+   "comment": "Мера, выявившая инцидент",
+   "fromClass": "Incident",
+   "toClass": "Control"
+  },
+  {
+   "code": "incidentHandledByRole",
+   "name": "обрабатывается ролью",
+   "comment": "Роль, обрабатывающая инцидент",
+   "fromClass": "Incident",
+   "toClass": "SecurityRole"
+  },
+  {
+   "code": "incidentHasSeverity",
+   "name": "имеет уровень критичности",
+   "comment": "Уровень критичности инцидента",
+   "fromClass": "Incident",
+   "toClass": "Severity"
+  },
+  {
+   "code": "incidentCreatesConsequence",
+   "name": "приводит к последствию",
+   "comment": "Последствия инцидента",
+   "fromClass": "Incident",
+   "toClass": "Consequence"
+  },
+  {
+   "code": "incidentRequiresAction",
+   "name": "требует действия",
+   "comment": "Действия, необходимые при инциденте",
+   "fromClass": "Incident",
+   "toClass": "ResponseAction"
+  },
+  {
+   "code": "incidentNotifiesRegulator",
+   "name": "уведомляет регулятора",
+   "comment": "Регулятор, уведомляемый об инциденте",
+   "fromClass": "Incident",
+   "toClass": "Regulator"
+  },
+  {
+   "code": "incidentFollowsPlaybook",
+   "name": "реагируется по плану",
+   "comment": "План реагирования, применяемый к инциденту",
+   "fromClass": "Incident",
+   "toClass": "ResponsePlaybook"
+  },
+  {
+   "code": "consequenceAffectsProcess",
+   "name": "влияет на процесс",
+   "comment": "Бизнес-процессы, страдающие от последствия",
+   "fromClass": "Consequence",
+   "toClass": "BusinessProcess"
+  },
+  {
+   "code": "controlProtectsAsset",
+   "name": "защищает актив",
+   "comment": "Активы, защищаемые мерой",
+   "fromClass": "Control",
+   "toClass": "Asset"
+  },
+  {
+   "code": "controlMitigatesRisk",
+   "name": "снижает риск",
+   "comment": "Риски, снижаемые мерой",
+   "fromClass": "Control",
+   "toClass": "Risk"
+  },
+  {
+   "code": "controlImplementsRequirement",
+   "name": "реализует требование",
+   "comment": "Требования, реализуемые мерой",
+   "fromClass": "Control",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "controlHasCategory",
+   "name": "относится к категории",
+   "comment": "Категория меры",
+   "fromClass": "Control",
+   "toClass": "ControlCategory"
+  },
+  {
+   "code": "controlOperatedByRole",
+   "name": "управляется ролью",
+   "comment": "Роль, эксплуатирующая меру",
+   "fromClass": "Control",
+   "toClass": "SecurityRole"
+  },
+  {
+   "code": "playbookContainsAction",
+   "name": "содержит действие",
+   "comment": "Действия, входящие в план реагирования",
+   "fromClass": "ResponsePlaybook",
+   "toClass": "ResponseAction"
+  },
+  {
+   "code": "regulationIssuedByRegulator",
+   "name": "издан регулятором",
+   "comment": "Регулятор, издавший нормативный акт",
+   "fromClass": "Regulation",
+   "toClass": "Regulator"
+  },
+  {
+   "code": "regulationContainsRequirement",
+   "name": "содержит требование",
+   "comment": "Требования, установленные нормативным актом",
+   "fromClass": "Regulation",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "standardContainsRequirement",
+   "name": "содержит требование",
+   "comment": "Требования, установленные стандартом",
+   "fromClass": "Standard",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "requirementAppliesToAsset",
+   "name": "применяется к активу",
+   "comment": "Активы, на которые распространяется требование",
+   "fromClass": "Requirement",
+   "toClass": "Asset"
+  },
+  {
+   "code": "requirementRequiresControl",
+   "name": "требует меры",
+   "comment": "Меры, необходимые для выполнения требования",
+   "fromClass": "Requirement",
+   "toClass": "Control"
+  },
+  {
+   "code": "requirementAppliesToProcess",
+   "name": "применяется к процессу",
+   "comment": "Бизнес-процессы, на которые распространяется требование",
+   "fromClass": "Requirement",
+   "toClass": "BusinessProcess"
+  },
+  {
+   "code": "requirementPrescribesConsequence",
+   "name": "предусматривает последствие",
+   "comment": "Последствия невыполнения требования",
+   "fromClass": "Requirement",
+   "toClass": "Consequence"
+  },
+  {
+   "code": "assessmentChecksRequirement",
+   "name": "проверяет требование",
+   "comment": "Требования, проверяемые в ходе оценки",
+   "fromClass": "ComplianceAssessment",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "assessmentChecksControl",
+   "name": "проверяет меру",
+   "comment": "Меры, проверяемые в ходе оценки",
+   "fromClass": "ComplianceAssessment",
+   "toClass": "Control"
+  },
+  {
+   "code": "assessmentCoversAsset",
+   "name": "оценивает актив",
+   "comment": "Активы, охваченные оценкой соответствия",
+   "fromClass": "ComplianceAssessment",
+   "toClass": "Asset"
+  },
+  {
+   "code": "trainingDevelopsCompetence",
+   "name": "развивает компетенцию",
+   "comment": "Компетенции, формируемые обучением",
+   "fromClass": "Training",
+   "toClass": "Competence"
+  },
+  {
+   "code": "trainingCoversThreat",
+   "name": "повышает осведомлённость об угрозе",
+   "comment": "Угрозы, освещаемые в обучении",
+   "fromClass": "Training",
+   "toClass": "Threat"
+  },
+  {
+   "code": "roleTakesTraining",
+   "name": "проходит обучение",
+   "comment": "Обучение, назначенное роли",
+   "fromClass": "SecurityRole",
+   "toClass": "Training"
+  },
+  {
+   "code": "vendorProvidesService",
+   "name": "предоставляет услугу",
+   "comment": "Услуги, предоставляемые поставщиком",
+   "fromClass": "Vendor",
+   "toClass": "Service"
+  },
+  {
+   "code": "vendorHasAccessToAsset",
+   "name": "имеет доступ к активу",
+   "comment": "Активы, к которым имеет доступ поставщик",
+   "fromClass": "Vendor",
+   "toClass": "Asset"
+  },
+  {
+   "code": "contractBindsVendor",
+   "name": "связывает поставщика",
+   "comment": "Поставщик, с которым заключён договор",
+   "fromClass": "Contract",
+   "toClass": "Vendor"
+  },
+  {
+   "code": "contractContainsRequirement",
+   "name": "содержит требование",
+   "comment": "Требования безопасности, включённые в договор",
+   "fromClass": "Contract",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "vendorIntroducesSupplyChainRisk",
+   "name": "вносит риск цепочки поставок",
+   "comment": "Риски цепочки поставок, вносимые поставщиком",
+   "fromClass": "Vendor",
+   "toClass": "SupplyChainRisk"
+  },
+  {
+   "code": "supplyChainRiskIsRisk",
+   "name": "является риском",
+   "comment": "Связь риска цепочки поставок с общим риском",
+   "fromClass": "SupplyChainRisk",
+   "toClass": "Risk"
+  },
+  {
+   "code": "serviceSupportsProcess",
+   "name": "поддерживает процесс",
+   "comment": "Бизнес-процессы, поддерживаемые услугой",
+   "fromClass": "Service",
+   "toClass": "BusinessProcess"
+  },
+  {
+   "code": "contractCoversService",
+   "name": "оплачивает услугу",
+   "comment": "Услуга, оплачиваемая по договору",
+   "fromClass": "Contract",
+   "toClass": "Service"
+  }
+ ],
+ "info": {
+  "description": "Онтология информационной безопасности — модель защищённости организации. Она связывает активы и данные (информационные системы, АСУ ТП, облака, сегменты сети, учётные записи, категории информации), угрозы и их источники, техники атак и уязвимости, риски, инциденты и их последствия, меры защиты и планы реагирования, требования 152-ФЗ, 187-ФЗ и приказов ФСТЭК, роли и компетенции, а также поставщиков и риски цепочки поставок. Онтология отвечает на вопросы «что находится под угрозой?», «через что атакуют и что этому противостоит?», «какие требования и последствия возникают?» и «какие меры приоритизировать?».",
+  "scope": [
+   "Активы и доступ: ИС, АСУ ТП, облака, сегменты сети, конечные устройства, учётные записи, категории информации",
+   "Угрозы и уязвимости: угрозы, источники угроз, техники атак (MITRE ATT&CK), уязвимости",
+   "Риски и инциденты: риски, категории рисков, инциденты, последствия, уровни критичности",
+   "Меры и реагирование: меры защиты, их категории, планы и действия по реагированию",
+   "Соответствие: требования, нормативные акты и стандарты, регуляторы, оценка соответствия",
+   "Люди и внешние стороны: роли и компетенции, обучение, поставщики, договоры, услуги, риски цепочки поставок"
+  ],
+  "competencyQuestions": [
+   "Какие активы обрабатывают персональные данные и какие требования их регулируют?",
+   "Какие угрозы направлены на заданный актив и какие уязвимости они эксплуатируют?",
+   "Какой источник угрозы стоит за угрозой и какие техники атаки он использует?",
+   "Какие риски создаёт заданная угроза и какие последствия она может вызвать?",
+   "Какие меры снижают заданный риск и какое требование они реализуют?",
+   "Какие активы и бизнес-процессы затронет заданный инцидент?",
+   "Какой план реагирования и какие действия применяются при заданном типе инцидента?",
+   "Какому регулятору и по какому требованию должен быть заявлен инцидент?",
+   "Какие требования вытекают из заданного нормативного акта и какие меры их реализуют?",
+   "Какие последствия предусмотрены за невыполнение заданного требования?",
+   "Какие роли владеют активами и принимают риски и какими компетенциями они обладают?",
+   "Какие меры защищают заданный актив и какая роль их эксплуатирует?",
+   "Какие поставщики имеют доступ к активу и какие риски цепочки поставок они вносят?",
+   "Какое обучение развивает заданную компетенцию и о каких угрозах оно повышает осведомлённость?",
+   "Какие риски критичны или высоки и какие меры закрывают их в первую очередь?"
+  ]
+ },
+ "theme": []
+}

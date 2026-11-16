@@ -1,0 +1,21 @@
+{
+ "graph": {
+  "id": "cross-domain-core",
+  "name": "Кросс-доменное ядро: Субъекты, Деятельность, Ресурсы, Нормы, Риски",
+  "description": "Универсальный демонстрационный граф знаний для импакт-анализа и поддержки принятия решений",
+  "domain": "Универсальный — субъекты, деятельность, ресурсы, нормы, события и риски",
+  "version": "1.1",
+  "status": "демо",
+  "updatedAt": "2026-09-01",
+  "builtIn": true,
+  "counts": {
+   "classes": 33,
+   "relations": 106,
+   "entities": 75,
+   "triples": 146,
+   "taxonomicRelations": 0,
+   "nonTaxonomicRelations": 106,
+   "relationshipRichness": 1
+  }
+ }
+}

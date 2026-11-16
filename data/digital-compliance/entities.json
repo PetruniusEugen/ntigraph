@@ -1,0 +1,1032 @@
+{
+ "entities": [
+  {
+   "id": "152-fz-o-personalnyh-dannyh",
+   "label": "152-ФЗ «О персональных данных»",
+   "classCode": "Regulation"
+  },
+  {
+   "id": "384-fz-tehnicheskiy-reglament-o-bezopasnosti-zdaniy-i-sooruzheniy",
+   "label": "384-ФЗ «Технический регламент о безопасности зданий и сооружений»",
+   "classCode": "Regulation"
+  },
+  {
+   "id": "44-fz-o-kontraktnoy-sisteme",
+   "label": "44-ФЗ «О контрактной системе»",
+   "classCode": "Regulation"
+  },
+  {
+   "id": "class-avariya-ili-neschastnyy-sluchay",
+   "label": "Авария или несчастный случай",
+   "classCode": "Accident",
+   "isClass": true
+  },
+  {
+   "id": "avariya-na-obekte",
+   "label": "Авария на объекте",
+   "classCode": "Accident"
+  },
+  {
+   "id": "class-avtomaticheskaya-proverka",
+   "label": "Автоматическая проверка",
+   "classCode": "AutomatedCheck",
+   "isClass": true
+  },
+  {
+   "id": "avtoproverka-komplektnosti-id",
+   "label": "Автопроверка комплектности ИД",
+   "classCode": "AutomatedCheck"
+  },
+  {
+   "id": "avtoproverka-rekvizitov-aosr",
+   "label": "Автопроверка реквизитов АОСР",
+   "classCode": "AutomatedCheck"
+  },
+  {
+   "id": "akt-vhodnogo-kontrolya-materialov",
+   "label": "Акт входного контроля материалов",
+   "classCode": "Evidence"
+  },
+  {
+   "id": "akt-proverki-gosstroynadzora-gsn-04",
+   "label": "Акт проверки Госстройнадзора №ГСН-04",
+   "classCode": "Report"
+  },
+  {
+   "id": "ao-stroysertifikaciya",
+   "label": "АО «СтройСертификация»",
+   "classCode": "Organization"
+  },
+  {
+   "id": "aosr-114",
+   "label": "АОСР-114",
+   "classCode": "ExecutiveDocumentation"
+  },
+  {
+   "id": "class-versiya-dokumenta",
+   "label": "Версия документа",
+   "classCode": "DocumentVersion",
+   "isClass": true
+  },
+  {
+   "id": "class-vneshnee-trebovanie",
+   "label": "Внешнее требование",
+   "classCode": "ExternalRequirement",
+   "isClass": true
+  },
+  {
+   "id": "class-vnutrennee-trebovanie",
+   "label": "Внутреннее требование",
+   "classCode": "InternalRequirement",
+   "isClass": true
+  },
+  {
+   "id": "vnutrenniy-audit-ispolnitelnoy-dokumentacii",
+   "label": "Внутренний аудит исполнительной документации",
+   "classCode": "ComplianceAssessment"
+  },
+  {
+   "id": "class-vnutrenniy-reglament",
+   "label": "Внутренний регламент",
+   "classCode": "InternalPolicy",
+   "isClass": true
+  },
+  {
+   "id": "vhodnoy-kontrol-materialov",
+   "label": "Входной контроль материалов",
+   "classCode": "DocumentLifecycleProcess"
+  },
+  {
+   "id": "vypiska-iz-reestra-sro",
+   "label": "Выписка из реестра СРО",
+   "classCode": "Evidence"
+  },
+  {
+   "id": "gip",
+   "label": "ГИП",
+   "classCode": "Role"
+  },
+  {
+   "id": "gku-uks-stolica",
+   "label": "ГКУ «УКС-Столица»",
+   "classCode": "Organization"
+  },
+  {
+   "id": "gosstroynadzor",
+   "label": "Госстройнадзор",
+   "classCode": "Regulator"
+  },
+  {
+   "id": "gost-31937-pravila-obsledovaniya-zdaniy",
+   "label": "ГОСТ 31937 «Правила обследования зданий»",
+   "classCode": "Standard"
+  },
+  {
+   "id": "gost-r-21-101-osnovnye-trebovaniya-k-proektnoy-dokumentacii",
+   "label": "ГОСТ Р 21.101 «Основные требования к проектной документации»",
+   "classCode": "Standard"
+  },
+  {
+   "id": "gosudarstvennaya-ekspertiza-pd",
+   "label": "Государственная экспертиза ПД",
+   "classCode": "ExpertReview"
+  },
+  {
+   "id": "gradostroitelnyy-kodeks-rf",
+   "label": "Градостроительный кодекс РФ",
+   "classCode": "Regulation"
+  },
+  {
+   "id": "gradostroitelnyy-plan-zemelnogo-uchastka",
+   "label": "Градостроительный план земельного участка",
+   "classCode": "Permit"
+  },
+  {
+   "id": "class-dogovor",
+   "label": "Договор",
+   "classCode": "Contract",
+   "isClass": true
+  },
+  {
+   "id": "dogovor-genpodryada-gp-14",
+   "label": "Договор генподряда №ГП-14",
+   "classCode": "Contract"
+  },
+  {
+   "id": "dogovor-podryada-sp-07",
+   "label": "Договор подряда №СП-07",
+   "classCode": "Contract"
+  },
+  {
+   "id": "dogovor-postavki-p-22",
+   "label": "Договор поставки №П-22",
+   "classCode": "Contract"
+  },
+  {
+   "id": "class-dogovornoe-trebovanie",
+   "label": "Договорное требование",
+   "classCode": "ContractRequirement",
+   "isClass": true
+  },
+  {
+   "id": "class-dokazatelstvo",
+   "label": "Доказательство",
+   "classCode": "Evidence",
+   "isClass": true
+  },
+  {
+   "id": "dorabotat-razdel-pozharnoy-bezopasnosti",
+   "label": "Доработать раздел пожарной безопасности",
+   "classCode": "CorrectiveAction"
+  },
+  {
+   "id": "zhk-severnyy-park",
+   "label": "ЖК «Северный парк»",
+   "classCode": "ConstructionProject"
+  },
+  {
+   "id": "zhurnal-vhodnogo-kontrolya",
+   "label": "Журнал входного контроля",
+   "classCode": "Evidence"
+  },
+  {
+   "id": "zaklyuchenie-stroitelnogo-kontrolya",
+   "label": "Заключение строительного контроля",
+   "classCode": "Report"
+  },
+  {
+   "id": "zamenit-sertifikat-betona",
+   "label": "Заменить сертификат бетона",
+   "classCode": "CorrectiveAction"
+  },
+  {
+   "id": "class-zamechanie",
+   "label": "Замечание",
+   "classCode": "Observation",
+   "isClass": true
+  },
+  {
+   "id": "zamechanie-normokontrolya-po-rekvizitam",
+   "label": "Замечание нормоконтроля по реквизитам",
+   "classCode": "Observation"
+  },
+  {
+   "id": "zamechanie-ekspertizy-po-ognezaschite",
+   "label": "Замечание экспертизы по огнезащите",
+   "classCode": "Observation"
+  },
+  {
+   "id": "class-zapros-na-izmenenie",
+   "label": "Запрос на изменение",
+   "classCode": "ChangeRequest",
+   "isClass": true
+  },
+  {
+   "id": "zapros-na-izmenenie-izm-3",
+   "label": "Запрос на изменение №ИЗМ-3",
+   "classCode": "ChangeRequest"
+  },
+  {
+   "id": "zapros-na-izmenenie-izm-4",
+   "label": "Запрос на изменение №ИЗМ-4",
+   "classCode": "ChangeRequest"
+  },
+  {
+   "id": "znanie-pozharnyh-norm",
+   "label": "Знание пожарных норм",
+   "classCode": "Competence"
+  },
+  {
+   "id": "ivanov-sergey-gip",
+   "label": "Иванов Сергей, ГИП",
+   "classCode": "Person"
+  },
+  {
+   "id": "class-izmenenie-normativki",
+   "label": "Изменение нормативки",
+   "classCode": "RegulatoryChange",
+   "isClass": true
+  },
+  {
+   "id": "izmenenie-sp-112-13330-2026",
+   "label": "Изменение СП 112.13330 (2026)",
+   "classCode": "RegulatoryChange"
+  },
+  {
+   "id": "inzhener-tehnadzora",
+   "label": "Инженер технадзора",
+   "classCode": "Role"
+  },
+  {
+   "id": "class-incident",
+   "label": "Инцидент",
+   "classCode": "Incident",
+   "isClass": true
+  },
+  {
+   "id": "incident-zamechanie-ekspertizy",
+   "label": "Инцидент «Замечание экспертизы»",
+   "classCode": "Incident"
+  },
+  {
+   "id": "incident-prosrochennyy-sertifikat-betona",
+   "label": "Инцидент «Просроченный сертификат бетона»",
+   "classCode": "Incident"
+  },
+  {
+   "id": "class-ispolnitelnaya-dokumentaciya",
+   "label": "Исполнительная документация",
+   "classCode": "ExecutiveDocumentation",
+   "isClass": true
+  },
+  {
+   "id": "ispolnitelnaya-shema-armirovaniya",
+   "label": "Исполнительная схема армирования",
+   "classCode": "ExecutiveDocumentation"
+  },
+  {
+   "id": "class-kompetenciya",
+   "label": "Компетенция",
+   "classCode": "Competence",
+   "isClass": true
+  },
+  {
+   "id": "class-kontrol",
+   "label": "Контроль",
+   "classCode": "Control",
+   "isClass": true
+  },
+  {
+   "id": "korpus-1-zhk-severnyy-park",
+   "label": "Корпус 1 ЖК «Северный парк»",
+   "classCode": "ConstructionObject"
+  },
+  {
+   "id": "class-korrektiruyuschee-deystvie",
+   "label": "Корректирующее действие",
+   "classCode": "CorrectiveAction",
+   "isClass": true
+  },
+  {
+   "id": "krovlya-korpusa-1",
+   "label": "Кровля корпуса 1",
+   "classCode": "ConstructionObject"
+  },
+  {
+   "id": "kuznecova-anna-normokontroler",
+   "label": "Кузнецова Анна, нормоконтролёр",
+   "classCode": "Person"
+  },
+  {
+   "id": "lokalnaya-smeta-na-fundament",
+   "label": "Локальная смета на фундамент",
+   "classCode": "EstimateDocumentation"
+  },
+  {
+   "id": "class-mashinochitaemoe-pravilo",
+   "label": "Машиночитаемое правило",
+   "classCode": "Rule",
+   "isClass": true
+  },
+  {
+   "id": "minstroy-rossii",
+   "label": "Минстрой России",
+   "classCode": "Regulator"
+  },
+  {
+   "id": "class-nadzornaya-proverka",
+   "label": "Надзорная проверка",
+   "classCode": "Inspection",
+   "isClass": true
+  },
+  {
+   "id": "class-narushenie",
+   "label": "Нарушение",
+   "classCode": "Violation",
+   "isClass": true
+  },
+  {
+   "id": "narushenie-sostava-razdelov-pd",
+   "label": "Нарушение состава разделов ПД",
+   "classCode": "Violation"
+  },
+  {
+   "id": "narushenie-sroka-peredachi-id",
+   "label": "Нарушение срока передачи ИД",
+   "classCode": "Violation"
+  },
+  {
+   "id": "narushenie-trebovaniya-pozharnoy-bezopasnosti",
+   "label": "Нарушение требования пожарной безопасности",
+   "classCode": "Violation"
+  },
+  {
+   "id": "class-nesootvetstvie",
+   "label": "Несоответствие",
+   "classCode": "NonConformity",
+   "isClass": true
+  },
+  {
+   "id": "nesootvetstvie-v-aosr-114",
+   "label": "Несоответствие в АОСР-114",
+   "classCode": "NonConformity"
+  },
+  {
+   "id": "nesootvetstvie-razdela-pd-po-pb",
+   "label": "Несоответствие раздела ПД по ПБ",
+   "classCode": "NonConformity"
+  },
+  {
+   "id": "novoe-trebovanie-k-mashinochitaemomu-formatu-aosr",
+   "label": "Новое требование к машиночитаемому формату АОСР",
+   "classCode": "RegulatoryChange"
+  },
+  {
+   "id": "class-normativnyy-akt",
+   "label": "Нормативный акт",
+   "classCode": "Regulation",
+   "isClass": true
+  },
+  {
+   "id": "normokontroler",
+   "label": "Нормоконтролёр",
+   "classCode": "Role"
+  },
+  {
+   "id": "class-normokontrol",
+   "label": "Нормоконтроль",
+   "classCode": "ManualReview",
+   "isClass": true
+  },
+  {
+   "id": "normokontrol-aosr",
+   "label": "Нормоконтроль АОСР",
+   "classCode": "ManualReview"
+  },
+  {
+   "id": "normokontrol-dokumentacii",
+   "label": "Нормоконтроль документации",
+   "classCode": "DocumentLifecycleProcess"
+  },
+  {
+   "id": "normokontrol-pd",
+   "label": "Нормоконтроль ПД",
+   "classCode": "ManualReview"
+  },
+  {
+   "id": "normokontrol-proektnoy-dokumentacii",
+   "label": "Нормоконтроль проектной документации",
+   "classCode": "Competence"
+  },
+  {
+   "id": "obnovit-rekvizity-aosr-114",
+   "label": "Обновить реквизиты АОСР-114",
+   "classCode": "CorrectiveAction"
+  },
+  {
+   "id": "obschiy-zhurnal-rabot",
+   "label": "Общий журнал работ",
+   "classCode": "ExecutiveDocumentation"
+  },
+  {
+   "id": "class-obekt-kapitalnogo-stroitelstva",
+   "label": "Объект капитального строительства",
+   "classCode": "ConstructionObject",
+   "isClass": true
+  },
+  {
+   "id": "ooo-geoproekt",
+   "label": "ООО «ГеоПроект»",
+   "classCode": "Organization"
+  },
+  {
+   "id": "ooo-metalltorg",
+   "label": "ООО «МеталлТорг»",
+   "classCode": "Organization"
+  },
+  {
+   "id": "ooo-stroyvektor",
+   "label": "ООО «СтройВектор»",
+   "classCode": "Organization"
+  },
+  {
+   "id": "ooo-fundamentstroy",
+   "label": "ООО «ФундаментСтрой»",
+   "classCode": "Organization"
+  },
+  {
+   "id": "class-organizaciya",
+   "label": "Организация",
+   "classCode": "Organization",
+   "isClass": true
+  },
+  {
+   "id": "orlova-mariya-specialist-po-pdn",
+   "label": "Орлова Мария, специалист по ПДн",
+   "classCode": "Person"
+  },
+  {
+   "id": "osvidetelstvovanie-skrytyh-rabot",
+   "label": "Освидетельствование скрытых работ",
+   "classCode": "DocumentLifecycleProcess"
+  },
+  {
+   "id": "otstuplenie-po-ognezaschite",
+   "label": "Отступление по огнезащите",
+   "classCode": "Waiver"
+  },
+  {
+   "id": "otchet-o-normokontrole",
+   "label": "Отчёт о нормоконтроле",
+   "classCode": "Report"
+  },
+  {
+   "id": "class-otchetnyy-dokument",
+   "label": "Отчётный документ",
+   "classCode": "Report",
+   "isClass": true
+  },
+  {
+   "id": "class-ocenka-vliyaniya",
+   "label": "Оценка влияния",
+   "classCode": "ImpactAssessment",
+   "isClass": true
+  },
+  {
+   "id": "ocenka-vliyaniya-izmeneniya-sp-112",
+   "label": "Оценка влияния изменения СП 112",
+   "classCode": "ImpactAssessment"
+  },
+  {
+   "id": "ocenka-vliyaniya-otzyva-sertifikata",
+   "label": "Оценка влияния отзыва сертификата",
+   "classCode": "ImpactAssessment"
+  },
+  {
+   "id": "class-ocenka-sootvetstviya",
+   "label": "Оценка соответствия",
+   "classCode": "ComplianceAssessment",
+   "isClass": true
+  },
+  {
+   "id": "ocenka-sootvetstviya-pd-pered-ekspertizoy",
+   "label": "Оценка соответствия ПД перед экспертизой",
+   "classCode": "ComplianceAssessment"
+  },
+  {
+   "id": "pd-severnyy-park-korpus-1",
+   "label": "ПД «Северный парк, корпус 1»",
+   "classCode": "DesignDocumentation"
+  },
+  {
+   "id": "peredacha-dokumentacii-zakazchiku",
+   "label": "Передача документации заказчику",
+   "classCode": "DocumentLifecycleProcess"
+  },
+  {
+   "id": "petrov-dmitriy-inzhener-tehnadzora",
+   "label": "Петров Дмитрий, инженер технадзора",
+   "classCode": "Person"
+  },
+  {
+   "id": "plan-dorabotki-pd",
+   "label": "План доработки ПД",
+   "classCode": "RemediationPlan"
+  },
+  {
+   "id": "class-plan-ustraneniya",
+   "label": "План устранения",
+   "classCode": "RemediationPlan",
+   "isClass": true
+  },
+  {
+   "id": "plan-ustraneniya-zamechaniy-gosstroynadzora",
+   "label": "План устранения замечаний Госстройнадзора",
+   "classCode": "RemediationPlan"
+  },
+  {
+   "id": "politika-upravleniya-stroitelnymi-riskami",
+   "label": "Политика управления строительными рисками",
+   "classCode": "InternalPolicy"
+  },
+  {
+   "id": "polozhitelnoe-zaklyuchenie-ekspertizy",
+   "label": "Положительное заключение экспертизы",
+   "classCode": "Report"
+  },
+  {
+   "id": "postanovlenie-pravitelstva-rf-87",
+   "label": "Постановление Правительства РФ № 87",
+   "classCode": "Regulation"
+  },
+  {
+   "id": "pravilo-obyazatelnyh-rekvizitov-aosr",
+   "label": "Правило обязательных реквизитов АОСР",
+   "classCode": "Rule"
+  },
+  {
+   "id": "pravilo-polnoty-razdelov-pd",
+   "label": "Правило полноты разделов ПД",
+   "classCode": "Rule"
+  },
+  {
+   "id": "pravilo-sroka-deystviya-sertifikata",
+   "label": "Правило срока действия сертификата",
+   "classCode": "Rule"
+  },
+  {
+   "id": "class-priostanovka-razresheniya",
+   "label": "Приостановка разрешения",
+   "classCode": "LicenseSuspension",
+   "isClass": true
+  },
+  {
+   "id": "priostanovka-razresheniya-na-stroitelstvo",
+   "label": "Приостановка разрешения на строительство",
+   "classCode": "LicenseSuspension"
+  },
+  {
+   "id": "proverka-gosstroynadzora-gsn-2026-04",
+   "label": "Проверка Госстройнадзора №ГСН-2026-04",
+   "classCode": "Inspection"
+  },
+  {
+   "id": "proverka-rostehnadzora-rtn-11",
+   "label": "Проверка Ростехнадзора №РТН-11",
+   "classCode": "Inspection"
+  },
+  {
+   "id": "proverka-sertifikatov-materialov",
+   "label": "Проверка сертификатов материалов",
+   "classCode": "Control"
+  },
+  {
+   "id": "class-proektnaya-dokumentaciya",
+   "label": "Проектная документация",
+   "classCode": "DesignDocumentation",
+   "isClass": true
+  },
+  {
+   "id": "prosrochennyy-sertifikat-betona",
+   "label": "Просроченный сертификат бетона",
+   "classCode": "NonConformity"
+  },
+  {
+   "id": "protokol-ispytaniy-betona",
+   "label": "Протокол испытаний бетона",
+   "classCode": "Evidence"
+  },
+  {
+   "id": "prohozhdenie-gosekspertizy",
+   "label": "Прохождение госэкспертизы",
+   "classCode": "DocumentLifecycleProcess"
+  },
+  {
+   "id": "class-process-zhiznennogo-cikla-dokumenta",
+   "label": "Процесс жизненного цикла документа",
+   "classCode": "DocumentLifecycleProcess",
+   "isClass": true
+  },
+  {
+   "id": "rabota-v-sed",
+   "label": "Работа в СЭД",
+   "classCode": "Competence"
+  },
+  {
+   "id": "razdel-konstruktivnye-resheniya",
+   "label": "Раздел «Конструктивные решения»",
+   "classCode": "DocumentSection"
+  },
+  {
+   "id": "razdel-pozharnaya-bezopasnost",
+   "label": "Раздел «Пожарная безопасность»",
+   "classCode": "DocumentSection"
+  },
+  {
+   "id": "razdel-smeta",
+   "label": "Раздел «Смета»",
+   "classCode": "DocumentSection"
+  },
+  {
+   "id": "class-razdel-dokumenta",
+   "label": "Раздел документа",
+   "classCode": "DocumentSection",
+   "isClass": true
+  },
+  {
+   "id": "razdel-pd-arhitekturnye-resheniya",
+   "label": "Раздел ПД «Архитектурные решения»",
+   "classCode": "DesignDocumentation"
+  },
+  {
+   "id": "razdel-pd-konstruktivnye-resheniya",
+   "label": "Раздел ПД «Конструктивные решения»",
+   "classCode": "DesignDocumentation"
+  },
+  {
+   "id": "razdel-pd-pozharnaya-bezopasnost",
+   "label": "Раздел ПД «Пожарная безопасность»",
+   "classCode": "DesignDocumentation"
+  },
+  {
+   "id": "razrabotka-proektnoy-dokumentacii",
+   "label": "Разработка проектной документации",
+   "classCode": "DocumentLifecycleProcess"
+  },
+  {
+   "id": "class-razreshenie",
+   "label": "Разрешение",
+   "classCode": "Permit",
+   "isClass": true
+  },
+  {
+   "id": "razreshenie-na-stroitelstvo-77-i-2026",
+   "label": "Разрешение на строительство №77-И-2026",
+   "classCode": "Permit"
+  },
+  {
+   "id": "reglament-vhodnogo-kontrolya-materialov",
+   "label": "Регламент входного контроля материалов",
+   "classCode": "InternalPolicy"
+  },
+  {
+   "id": "reglament-elektronnogo-dokumentooborota",
+   "label": "Регламент электронного документооборота",
+   "classCode": "InternalPolicy"
+  },
+  {
+   "id": "class-regulyator",
+   "label": "Регулятор",
+   "classCode": "Regulator",
+   "isClass": true
+  },
+  {
+   "id": "redakciya-1-pd",
+   "label": "Редакция 1 ПД",
+   "classCode": "DocumentVersion"
+  },
+  {
+   "id": "redakciya-2-pd",
+   "label": "Редакция 2 ПД",
+   "classCode": "DocumentVersion"
+  },
+  {
+   "id": "reestr-ispolnitelnoy-dokumentacii",
+   "label": "Реестр исполнительной документации",
+   "classCode": "ExecutiveDocumentation"
+  },
+  {
+   "id": "reshenie-o-dorabotke-razdela-pb",
+   "label": "Решение о доработке раздела ПБ",
+   "classCode": "ComplianceDecision"
+  },
+  {
+   "id": "reshenie-o-zamene-postavschika",
+   "label": "Решение о замене поставщика",
+   "classCode": "ComplianceDecision"
+  },
+  {
+   "id": "class-reshenie-po-sootvetstviyu",
+   "label": "Решение по соответствию",
+   "classCode": "ComplianceDecision",
+   "isClass": true
+  },
+  {
+   "id": "reshenie-prinyat-risk-po-otstupleniyu",
+   "label": "Решение принять риск по отступлению",
+   "classCode": "ComplianceDecision"
+  },
+  {
+   "id": "class-risk",
+   "label": "Риск",
+   "classCode": "Risk",
+   "isClass": true
+  },
+  {
+   "id": "risk-ostanovki-rabot-predpisaniem",
+   "label": "Риск остановки работ предписанием",
+   "classCode": "Risk"
+  },
+  {
+   "id": "risk-otkaza-vo-vvode-obekta",
+   "label": "Риск отказа во вводе объекта",
+   "classCode": "Risk"
+  },
+  {
+   "id": "risk-primeneniya-nesertificirovannogo-materiala",
+   "label": "Риск применения несертифицированного материала",
+   "classCode": "Risk"
+  },
+  {
+   "id": "risk-utechki-personalnyh-dannyh",
+   "label": "Риск утечки персональных данных",
+   "classCode": "Risk"
+  },
+  {
+   "id": "risk-shtrafa-za-narushenie-pozharnoy-bezopasnosti",
+   "label": "Риск штрафа за нарушение пожарной безопасности",
+   "classCode": "Risk"
+  },
+  {
+   "id": "class-rol",
+   "label": "Роль",
+   "classCode": "Role",
+   "isClass": true
+  },
+  {
+   "id": "rostehnadzor",
+   "label": "Ростехнадзор",
+   "classCode": "Regulator"
+  },
+  {
+   "id": "rukovoditel-stroitelnogo-kontrolya",
+   "label": "Руководитель строительного контроля",
+   "classCode": "Role"
+  },
+  {
+   "id": "svodnyy-smetnyy-raschet",
+   "label": "Сводный сметный расчёт",
+   "classCode": "EstimateDocumentation"
+  },
+  {
+   "id": "sertifikat-na-armaturu-a500s",
+   "label": "Сертификат на арматуру А500С",
+   "classCode": "Certificate"
+  },
+  {
+   "id": "sertifikat-na-beton-b25",
+   "label": "Сертификат на бетон B25",
+   "classCode": "Certificate"
+  },
+  {
+   "id": "class-sertifikat-sootvetstviya",
+   "label": "Сертификат соответствия",
+   "classCode": "Certificate",
+   "isClass": true
+  },
+  {
+   "id": "class-smetnaya-dokumentaciya",
+   "label": "Сметная документация",
+   "classCode": "EstimateDocumentation",
+   "isClass": true
+  },
+  {
+   "id": "smirnov-aleksey-rukovoditel-sk",
+   "label": "Смирнов Алексей, руководитель СК",
+   "classCode": "Person"
+  },
+  {
+   "id": "class-soglasovanie",
+   "label": "Согласование",
+   "classCode": "Approval",
+   "isClass": true
+  },
+  {
+   "id": "soglasovanie-izmeneniya-izm-3",
+   "label": "Согласование изменения №ИЗМ-3",
+   "classCode": "Approval"
+  },
+  {
+   "id": "soglasovanie-pd-s-zakazchikom",
+   "label": "Согласование ПД с заказчиком",
+   "classCode": "Approval"
+  },
+  {
+   "id": "soglasovanie-s-zakazchikom",
+   "label": "Согласование с заказчиком",
+   "classCode": "DocumentLifecycleProcess"
+  },
+  {
+   "id": "class-soglasovannoe-otstuplenie",
+   "label": "Согласованное отступление",
+   "classCode": "Waiver",
+   "isClass": true
+  },
+  {
+   "id": "soglasovannoe-otstuplenie-po-armirovaniyu",
+   "label": "Согласованное отступление по армированию",
+   "classCode": "Waiver"
+  },
+  {
+   "id": "class-sotrudnik",
+   "label": "Сотрудник",
+   "classCode": "Person",
+   "isClass": true
+  },
+  {
+   "id": "sp-112-13330-pozharnaya-bezopasnost-zdaniy",
+   "label": "СП 112.13330 «Пожарная безопасность зданий»",
+   "classCode": "Standard"
+  },
+  {
+   "id": "sp-20-13330-nagruzki-i-vozdeystviya",
+   "label": "СП 20.13330 «Нагрузки и воздействия»",
+   "classCode": "Standard"
+  },
+  {
+   "id": "sp-48-13330-organizaciya-stroitelstva",
+   "label": "СП 48.13330 «Организация строительства»",
+   "classCode": "Standard"
+  },
+  {
+   "id": "specialist-po-pdn",
+   "label": "Специалист по ПДн",
+   "classCode": "Role"
+  },
+  {
+   "id": "sro-stroyalyans",
+   "label": "СРО «СтройАльянс»",
+   "classCode": "Organization"
+  },
+  {
+   "id": "sto-normokontrol-dokumentacii",
+   "label": "СТО «Нормоконтроль документации»",
+   "classCode": "InternalPolicy"
+  },
+  {
+   "id": "stroitelnyy-kontrol",
+   "label": "Строительный контроль",
+   "classCode": "Control"
+  },
+  {
+   "id": "class-stroitelnyy-proekt",
+   "label": "Строительный проект",
+   "classCode": "ConstructionProject",
+   "isClass": true
+  },
+  {
+   "id": "class-tehnicheskiy-standart",
+   "label": "Технический стандарт",
+   "classCode": "Standard",
+   "isClass": true
+  },
+  {
+   "id": "trebovanie-vhodnogo-kontrolya-materialov",
+   "label": "Требование входного контроля материалов",
+   "classCode": "InternalRequirement"
+  },
+  {
+   "id": "trebovanie-k-nesuschim-konstrukciyam",
+   "label": "Требование к несущим конструкциям",
+   "classCode": "ExternalRequirement"
+  },
+  {
+   "id": "trebovanie-k-oformleniyu-dokumentacii",
+   "label": "Требование к оформлению документации",
+   "classCode": "ExternalRequirement"
+  },
+  {
+   "id": "trebovanie-k-sostavu-razdelov-pd",
+   "label": "Требование к составу разделов ПД",
+   "classCode": "ExternalRequirement"
+  },
+  {
+   "id": "trebovanie-normokontrolya-do-vypuska",
+   "label": "Требование нормоконтроля до выпуска",
+   "classCode": "InternalRequirement"
+  },
+  {
+   "id": "trebovanie-peredachi-ispolnitelnoy-dokumentacii",
+   "label": "Требование передачи исполнительной документации",
+   "classCode": "ContractRequirement"
+  },
+  {
+   "id": "trebovanie-po-zaschite-pdn",
+   "label": "Требование по защите ПДн",
+   "classCode": "ExternalRequirement"
+  },
+  {
+   "id": "trebovanie-po-raskrytiyu-informacii",
+   "label": "Требование по раскрытию информации",
+   "classCode": "ExternalRequirement"
+  },
+  {
+   "id": "trebovanie-pozharnoy-bezopasnosti",
+   "label": "Требование пожарной безопасности",
+   "classCode": "ExternalRequirement"
+  },
+  {
+   "id": "trebovanie-primeneniya-sertificirovannyh-materialov",
+   "label": "Требование применения сертифицированных материалов",
+   "classCode": "ContractRequirement"
+  },
+  {
+   "id": "trebovanie-soglasovaniya-izmeneniy",
+   "label": "Требование согласования изменений",
+   "classCode": "InternalRequirement"
+  },
+  {
+   "id": "trebovanie-utverzhdeniya-gip",
+   "label": "Требование утверждения ГИП",
+   "classCode": "InternalRequirement"
+  },
+  {
+   "id": "trebovanie-chlenstva-v-sro",
+   "label": "Требование членства в СРО",
+   "classCode": "ExternalRequirement"
+  },
+  {
+   "id": "upravlenie-stroitelnymi-riskami",
+   "label": "Управление строительными рисками",
+   "classCode": "Competence"
+  },
+  {
+   "id": "fotofiksaciya-skrytyh-rabot",
+   "label": "Фотофиксация скрытых работ",
+   "classCode": "Evidence"
+  },
+  {
+   "id": "fundamentnaya-plita-korpusa-1",
+   "label": "Фундаментная плита корпуса 1",
+   "classCode": "ConstructionObject"
+  },
+  {
+   "id": "hranenie-i-arhivirovanie-dokumentacii",
+   "label": "Хранение и архивирование документации",
+   "classCode": "DocumentLifecycleProcess"
+  },
+  {
+   "id": "class-shtraf",
+   "label": "Штраф",
+   "classCode": "Penalty",
+   "isClass": true
+  },
+  {
+   "id": "shtraf-po-koap-500-tys",
+   "label": "Штраф по КоАП 500 тыс. ₽",
+   "classCode": "Penalty"
+  },
+  {
+   "id": "class-ekspertiza",
+   "label": "Экспертиза",
+   "classCode": "ExpertReview",
+   "isClass": true
+  },
+  {
+   "id": "ekspertiza-promyshlennoy-bezopasnosti",
+   "label": "Экспертиза промышленной безопасности",
+   "classCode": "ExpertReview"
+  },
+  {
+   "id": "etap-vvoda-v-ekspluataciyu",
+   "label": "Этап ввода в эксплуатацию",
+   "classCode": "LifecycleStage"
+  },
+  {
+   "id": "class-etap-zhiznennogo-cikla",
+   "label": "Этап жизненного цикла",
+   "classCode": "LifecycleStage",
+   "isClass": true
+  },
+  {
+   "id": "etap-proektirovaniya",
+   "label": "Этап проектирования",
+   "classCode": "LifecycleStage"
+  },
+  {
+   "id": "etap-stroitelno-montazhnyh-rabot",
+   "label": "Этап строительно-монтажных работ",
+   "classCode": "LifecycleStage"
+  }
+ ]
+}

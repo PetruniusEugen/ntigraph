@@ -1,0 +1,522 @@
+{
+ "entities": [
+  {
+   "id": "aerofotokamera-faza-100",
+   "label": "Аэрофотокамера \"Фаза-100\"",
+   "classCode": "Payload"
+  },
+  {
+   "id": "aerofotosemka",
+   "label": "Аэрофотосъёмка",
+   "classCode": "Function"
+  },
+  {
+   "id": "bazovyy",
+   "label": "Базовый",
+   "classCode": "OperatorCertLevel"
+  },
+  {
+   "id": "class-bespilotnyy-letatelnyy-apparat-bpla-dron",
+   "label": "Беспилотный летательный аппарат (БПЛА, дрон)",
+   "classCode": "UAV",
+   "isClass": true
+  },
+  {
+   "id": "vertoletnogo-tipa",
+   "label": "Вертолётного типа",
+   "classCode": "AirframeKind"
+  },
+  {
+   "id": "vetrovaya-nagruzka-0-10-m-s",
+   "label": "Ветровая нагрузка (0–10 м/с)",
+   "classCode": "OperatingCondition"
+  },
+  {
+   "id": "vetrovaya-nagruzka-0-12-m-s",
+   "label": "Ветровая нагрузка (0–12 м/с)",
+   "classCode": "OperatingCondition"
+  },
+  {
+   "id": "vetrovaya-nagruzka-0-15-m-s",
+   "label": "Ветровая нагрузка (0–15 м/с)",
+   "classCode": "OperatingCondition"
+  },
+  {
+   "id": "videomonitoring",
+   "label": "Видеомониторинг",
+   "classCode": "Function"
+  },
+  {
+   "id": "vidimost-1-km",
+   "label": "Видимость (≥ 1 км)",
+   "classCode": "OperatingCondition"
+  },
+  {
+   "id": "vidimost-2-km",
+   "label": "Видимость (≥ 2 км)",
+   "classCode": "OperatingCondition"
+  },
+  {
+   "id": "vysota-nad-urovnem-morya-0-4500-m",
+   "label": "Высота над уровнем моря (0–4500 м)",
+   "classCode": "OperatingCondition"
+  },
+  {
+   "id": "geologorazvedka",
+   "label": "Геологоразведка",
+   "classCode": "Purpose"
+  },
+  {
+   "id": "geoskan-7",
+   "label": "ГеоСкан-7",
+   "classCode": "UAV"
+  },
+  {
+   "id": "gibridnyy-vtol",
+   "label": "Гибридный (VTOL)",
+   "classCode": "AirframeKind"
+  },
+  {
+   "id": "gruzovik-6",
+   "label": "Грузовик-6",
+   "classCode": "UAV"
+  },
+  {
+   "id": "gruzovoy-otsek-konteyner-15",
+   "label": "Грузовой отсек \"Контейнер-15\"",
+   "classCode": "Payload"
+  },
+  {
+   "id": "dvigatelnaya-ustanovka",
+   "label": "Двигательная установка",
+   "classCode": "Subsystem"
+  },
+  {
+   "id": "dostavka-gruza",
+   "label": "Доставка груза",
+   "classCode": "Function"
+  },
+  {
+   "id": "zaversheno",
+   "label": "Завершено",
+   "classCode": "FlightTestStatus"
+  },
+  {
+   "id": "zaplanirovano",
+   "label": "Запланировано",
+   "classCode": "FlightTestStatus"
+  },
+  {
+   "id": "zapret-poletov-v-ctr-bez-razresheniya-ovd",
+   "label": "Запрет полётов в CTR без разрешения ОВД",
+   "classCode": "Constraint"
+  },
+  {
+   "id": "zapret-poletov-nad-skopleniyami-lyudey",
+   "label": "Запрет полётов над скоплениями людей",
+   "classCode": "Constraint"
+  },
+  {
+   "id": "ivanov-i-i",
+   "label": "Иванов И.И.",
+   "classCode": "Operator"
+  },
+  {
+   "id": "inspekciya-infrastruktury",
+   "label": "Инспекция инфраструктуры",
+   "classCode": "Purpose"
+  },
+  {
+   "id": "instruktor",
+   "label": "Инструктор",
+   "classCode": "OperatorCertLevel"
+  },
+  {
+   "id": "kartografirovanie",
+   "label": "Картографирование",
+   "classCode": "Purpose"
+  },
+  {
+   "id": "class-kategoriya-ogranicheniya",
+   "label": "Категория ограничения",
+   "classCode": "ConstraintCategory",
+   "isClass": true
+  },
+  {
+   "id": "class-konstruktivnaya-shema",
+   "label": "Конструктивная схема",
+   "classCode": "AirframeType",
+   "isClass": true
+  },
+  {
+   "id": "konstruktivnye",
+   "label": "Конструктивные",
+   "classCode": "ConstraintCategory"
+  },
+  {
+   "id": "class-letnoe-ispytanie",
+   "label": "Лётное испытание",
+   "classCode": "FlightTest",
+   "isClass": true
+  },
+  {
+   "id": "letnoe-ispytanie-047",
+   "label": "Лётное испытание № 047",
+   "classCode": "FlightTest"
+  },
+  {
+   "id": "letnoe-ispytanie-052",
+   "label": "Лётное испытание № 052",
+   "classCode": "FlightTest"
+  },
+  {
+   "id": "letnoe-ispytanie-101",
+   "label": "Лётное испытание № 101",
+   "classCode": "FlightTest"
+  },
+  {
+   "id": "letnoe-ispytanie-201",
+   "label": "Лётное испытание № 201",
+   "classCode": "FlightTest"
+  },
+  {
+   "id": "lidar-vektor-360",
+   "label": "Лидар \"Вектор-360\"",
+   "classCode": "Payload"
+  },
+  {
+   "id": "lidarnoe-skanirovanie",
+   "label": "Лидарное сканирование",
+   "classCode": "Function"
+  },
+  {
+   "id": "logistika-posledney-mili",
+   "label": "Логистика последней мили",
+   "classCode": "Purpose"
+  },
+  {
+   "id": "magnitometricheskaya-semka",
+   "label": "Магнитометрическая съёмка",
+   "classCode": "Function"
+  },
+  {
+   "id": "monitoring-lep",
+   "label": "Мониторинг ЛЭП",
+   "classCode": "Purpose"
+  },
+  {
+   "id": "multirotor",
+   "label": "Мультиротор",
+   "classCode": "AirframeKind"
+  },
+  {
+   "id": "multirotornaya-shema",
+   "label": "Мультироторная схема",
+   "classCode": "AirframeType"
+  },
+  {
+   "id": "na-proverke",
+   "label": "На проверке",
+   "classCode": "FlightTestStatus"
+  },
+  {
+   "id": "navigacionnaya-sistema",
+   "label": "Навигационная система",
+   "classCode": "Subsystem"
+  },
+  {
+   "id": "class-nazemnaya-stanciya-upravleniya",
+   "label": "Наземная станция управления",
+   "classCode": "GroundControlStation",
+   "isClass": true
+  },
+  {
+   "id": "class-naznachenie",
+   "label": "Назначение",
+   "classCode": "Purpose",
+   "isClass": true
+  },
+  {
+   "id": "ne-proydena",
+   "label": "Не пройдена",
+   "classCode": "InspectionStatus"
+  },
+  {
+   "id": "normativnye",
+   "label": "Нормативные",
+   "classCode": "ConstraintCategory"
+  },
+  {
+   "id": "nsu-kontur-2",
+   "label": "НСУ \"Контур-2\"",
+   "classCode": "GroundControlStation"
+  },
+  {
+   "id": "nsu-kontur-3",
+   "label": "НСУ \"Контур-3\"",
+   "classCode": "GroundControlStation"
+  },
+  {
+   "id": "class-ogranichenie",
+   "label": "Ограничение",
+   "classCode": "Constraint",
+   "isClass": true
+  },
+  {
+   "id": "ogranichenie-massy-gruza",
+   "label": "Ограничение массы груза",
+   "classCode": "Constraint"
+  },
+  {
+   "id": "ogranichenie-po-vibracii-gruza",
+   "label": "Ограничение по вибрации груза",
+   "classCode": "Constraint"
+  },
+  {
+   "id": "ogranichenie-po-peregruzke-g",
+   "label": "Ограничение по перегрузке, g",
+   "classCode": "Constraint"
+  },
+  {
+   "id": "ozhidaet-proverki",
+   "label": "Ожидает проверки",
+   "classCode": "InspectionStatus"
+  },
+  {
+   "id": "class-operator",
+   "label": "Оператор",
+   "classCode": "Operator",
+   "isClass": true
+  },
+  {
+   "id": "optiko-elektronnyy-modul-ok-400",
+   "label": "Оптико-электронный модуль \"ОК-400\"",
+   "classCode": "Payload"
+  },
+  {
+   "id": "orlan-m",
+   "label": "Орлан-М",
+   "classCode": "UAV"
+  },
+  {
+   "id": "osadki-bez-osadkov-slabyy-dozhd",
+   "label": "Осадки (без осадков / слабый дождь)",
+   "classCode": "OperatingCondition"
+  },
+  {
+   "id": "parashyutnaya-sistema-spaseniya",
+   "label": "Парашютная система спасения",
+   "classCode": "Subsystem"
+  },
+  {
+   "id": "class-podsistema",
+   "label": "Подсистема",
+   "classCode": "Subsystem",
+   "isClass": true
+  },
+  {
+   "id": "class-poleznaya-nagruzka",
+   "label": "Полезная нагрузка",
+   "classCode": "Payload",
+   "isClass": true
+  },
+  {
+   "id": "prervano",
+   "label": "Прервано",
+   "classCode": "FlightTestStatus"
+  },
+  {
+   "id": "prodvinutyy",
+   "label": "Продвинутый",
+   "classCode": "OperatorCertLevel"
+  },
+  {
+   "id": "proydena",
+   "label": "Пройдена",
+   "classCode": "InspectionStatus"
+  },
+  {
+   "id": "prosrochena",
+   "label": "Просрочена",
+   "classCode": "InspectionStatus"
+  },
+  {
+   "id": "samoletnaya-shema",
+   "label": "Самолётная схема",
+   "classCode": "AirframeType"
+  },
+  {
+   "id": "samoletnogo-tipa",
+   "label": "Самолётного типа",
+   "classCode": "AirframeKind"
+  },
+  {
+   "id": "sbros-gruza",
+   "label": "Сброс груза",
+   "classCode": "Function"
+  },
+  {
+   "id": "class-sertifikat-tipa",
+   "label": "Сертификат типа",
+   "classCode": "TypeCertificate",
+   "isClass": true
+  },
+  {
+   "id": "sertifikacionnye",
+   "label": "Сертификационные",
+   "classCode": "ConstraintCategory"
+  },
+  {
+   "id": "sertifikacionnyy-limit-mtow",
+   "label": "Сертификационный лимит MTOW",
+   "classCode": "Constraint"
+  },
+  {
+   "id": "sidorov-s-s",
+   "label": "Сидоров С.С.",
+   "classCode": "Operator"
+  },
+  {
+   "id": "sistema-zahvata-i-sbrosa",
+   "label": "Система захвата и сброса",
+   "classCode": "Subsystem"
+  },
+  {
+   "id": "sistema-identifikacii-ads-b-transponder",
+   "label": "Система идентификации (ADS-B / транспондер)",
+   "classCode": "Subsystem"
+  },
+  {
+   "id": "sistema-sbrosa-drop-m",
+   "label": "Система сброса \"Дроп-М\"",
+   "classCode": "Payload"
+  },
+  {
+   "id": "sistema-svyazi",
+   "label": "Система связи",
+   "classCode": "Subsystem"
+  },
+  {
+   "id": "sistema-elektropitaniya",
+   "label": "Система электропитания",
+   "classCode": "Subsystem"
+  },
+  {
+   "id": "st-2024-0098",
+   "label": "СТ-2024-0098",
+   "classCode": "TypeCertificate"
+  },
+  {
+   "id": "st-2025-0142",
+   "label": "СТ-2025-0142",
+   "classCode": "TypeCertificate"
+  },
+  {
+   "id": "st-2025-0201",
+   "label": "СТ-2025-0201",
+   "classCode": "TypeCertificate"
+  },
+  {
+   "id": "class-status-inspekcii",
+   "label": "Статус инспекции",
+   "classCode": "InspectionStatus",
+   "isClass": true
+  },
+  {
+   "id": "class-status-letnogo-ispytaniya",
+   "label": "Статус лётного испытания",
+   "classCode": "FlightTestStatus",
+   "isClass": true
+  },
+  {
+   "id": "temperaturnyy-diapazon-15-40-c",
+   "label": "Температурный диапазон (−15…+40 °C)",
+   "classCode": "OperatingCondition"
+  },
+  {
+   "id": "temperaturnyy-diapazon-20-45-c",
+   "label": "Температурный диапазон (−20…+45 °C)",
+   "classCode": "OperatingCondition"
+  },
+  {
+   "id": "temperaturnyy-diapazon-30-40-c",
+   "label": "Температурный диапазон (−30…+40 °C)",
+   "classCode": "OperatingCondition"
+  },
+  {
+   "id": "teplovizionnyy-kontrol",
+   "label": "Тепловизионный контроль",
+   "classCode": "Function"
+  },
+  {
+   "id": "teplovizor-termo-640",
+   "label": "Тепловизор \"Термо-640\"",
+   "classCode": "Payload"
+  },
+  {
+   "id": "class-tip-konstruktivnoy-shemy",
+   "label": "Тип конструктивной схемы",
+   "classCode": "AirframeKind",
+   "isClass": true
+  },
+  {
+   "id": "trebovanie-k-zapasu-topliva",
+   "label": "Требование к запасу топлива, %",
+   "classCode": "Constraint"
+  },
+  {
+   "id": "class-uroven-dopuska-operatora",
+   "label": "Уровень допуска оператора",
+   "classCode": "OperatorCertLevel",
+   "isClass": true
+  },
+  {
+   "id": "class-uslovie-primeneniya",
+   "label": "Условие применения",
+   "classCode": "OperatingCondition",
+   "isClass": true
+  },
+  {
+   "id": "class-funkciya",
+   "label": "Функция",
+   "classCode": "Function",
+   "isClass": true
+  },
+  {
+   "id": "shumovoe-ogranichenie",
+   "label": "Шумовое ограничение",
+   "classCode": "Constraint"
+  },
+  {
+   "id": "ekologicheskie",
+   "label": "Экологические",
+   "classCode": "ConstraintCategory"
+  },
+  {
+   "id": "ekspluatacionnye",
+   "label": "Эксплуатационные",
+   "classCode": "ConstraintCategory"
+  },
+  {
+   "id": "class-ekspluataciya-operatorom",
+   "label": "Эксплуатация оператором",
+   "classCode": "UAVOperation",
+   "isClass": true
+  },
+  {
+   "id": "ekspluataciya-ivanov-orlan-m",
+   "label": "Эксплуатация_Иванов_Орлан-М",
+   "classCode": "UAVOperation"
+  },
+  {
+   "id": "ekspluataciya-sidorov-orlan-m",
+   "label": "Эксплуатация_Сидоров_Орлан-М",
+   "classCode": "UAVOperation"
+  },
+  {
+   "id": "ekstrennaya-dostavka-medikamentov",
+   "label": "Экстренная доставка медикаментов",
+   "classCode": "Purpose"
+  }
+ ]
+}

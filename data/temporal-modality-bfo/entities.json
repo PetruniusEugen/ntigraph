@@ -1,0 +1,981 @@
+{
+ "entities": [
+  {
+   "id": "aksioma-f-g",
+   "label": "Аксиома «Fφ ↔ ¬G¬φ»",
+   "classCode": "TemporalAxiom"
+  },
+  {
+   "id": "aksioma-g-gg",
+   "label": "Аксиома «Gφ → GGφ»",
+   "classCode": "TemporalAxiom"
+  },
+  {
+   "id": "aksioma-g",
+   "label": "Аксиома «Gφ → φ»",
+   "classCode": "TemporalAxiom"
+  },
+  {
+   "id": "aksioma-p-h",
+   "label": "Аксиома «Pφ ↔ ¬H¬φ»",
+   "classCode": "TemporalAxiom"
+  },
+  {
+   "id": "aksioma-u-x-u",
+   "label": "Аксиома «φ U ψ ↔ ψ ∨ (φ ∧ X(φ U ψ))»",
+   "classCode": "TemporalAxiom"
+  },
+  {
+   "id": "vremennaya-situaciya",
+   "label": "Временная ситуация",
+   "classCode": null
+  },
+  {
+   "id": "vremennoy-region",
+   "label": "Временной регион",
+   "classCode": null
+  },
+  {
+   "id": "genericheski-zavisimyy-kontinuant",
+   "label": "Генерически зависимый континуант",
+   "classCode": null
+  },
+  {
+   "id": "granica-processa",
+   "label": "Граница процесса",
+   "classCode": null
+  },
+  {
+   "id": "dispoziciya",
+   "label": "Диспозиция",
+   "classCode": null
+  },
+  {
+   "id": "class-dispoziciya",
+   "label": "Диспозиция",
+   "classCode": "Disposition",
+   "isClass": true
+  },
+  {
+   "id": "dispoziciya-gotovnost-sklada-k-otgruzke",
+   "label": "Диспозиция «Готовность склада к отгрузке»",
+   "classCode": "Disposition"
+  },
+  {
+   "id": "dispoziciya-zaderzhka-transporta-na-marshrute",
+   "label": "Диспозиция «Задержка транспорта на маршруте»",
+   "classCode": "Disposition"
+  },
+  {
+   "id": "dogovor-postavka-2026-14",
+   "label": "Договор «Поставка-2026/14»",
+   "classCode": "InformationContentEntity"
+  },
+  {
+   "id": "dokazatelstvo-akt-14",
+   "label": "Доказательство «Акт № 14»",
+   "classCode": "TemporalEvidence"
+  },
+  {
+   "id": "dokazatelstvo-vypiska-iz-zhurnala-na-15-03-2026",
+   "label": "Доказательство «Выписка из журнала на 15.03.2026»",
+   "classCode": "TemporalEvidence"
+  },
+  {
+   "id": "dokazatelstvo-vypiska-po-schetu-10-04-2026",
+   "label": "Доказательство «Выписка по счёту 10.04.2026»",
+   "classCode": "TemporalEvidence"
+  },
+  {
+   "id": "dokazatelstvo-nakladnaya-031",
+   "label": "Доказательство «Накладная № 031»",
+   "classCode": "TemporalEvidence"
+  },
+  {
+   "id": "dostizhimost-buduschee",
+   "label": "Достижимость «будущее»",
+   "classCode": "TemporalAccessibility"
+  },
+  {
+   "id": "dostizhimost-proshloe",
+   "label": "Достижимость «прошлое»",
+   "classCode": "TemporalAccessibility"
+  },
+  {
+   "id": "edinica-kalendarnyy-den",
+   "label": "Единица «календарный день»",
+   "classCode": "TemporalUnit"
+  },
+  {
+   "id": "edinica-rabochiy-den",
+   "label": "Единица «рабочий день»",
+   "classCode": "TemporalUnit"
+  },
+  {
+   "id": "edinica-vremeni",
+   "label": "Единица времени",
+   "classCode": null
+  },
+  {
+   "id": "class-edinica-vremeni",
+   "label": "Единица времени",
+   "classCode": "TemporalUnit",
+   "isClass": true
+  },
+  {
+   "id": "zapis-akt-priemki-23-03-2026",
+   "label": "Запись «Акт приёмки 23.03.2026»",
+   "classCode": "TemporalRecord"
+  },
+  {
+   "id": "zapis-zhurnal-dogovora-15-03-2026",
+   "label": "Запись «Журнал договора 15.03.2026»",
+   "classCode": "TemporalRecord"
+  },
+  {
+   "id": "zapis-platezhnoe-poruchenie-10-04-2026",
+   "label": "Запись «Платёжное поручение 10.04.2026»",
+   "classCode": "TemporalRecord"
+  },
+  {
+   "id": "zapis-tovarnaya-nakladnaya-20-03-2026",
+   "label": "Запись «Товарная накладная 20.03.2026»",
+   "classCode": "TemporalRecord"
+  },
+  {
+   "id": "invariant-konfidencialnost-na-vsem-sroke-deystviya",
+   "label": "Инвариант «Конфиденциальность на всём сроке действия»",
+   "classCode": "TemporalInvariant"
+  },
+  {
+   "id": "invariant-oplata-ne-ranshe-postavki",
+   "label": "Инвариант «Оплата не раньше поставки»",
+   "classCode": "TemporalInvariant"
+  },
+  {
+   "id": "interval-okno-oplaty-20-03-2026-19-04-2026",
+   "label": "Интервал «Окно оплаты 20.03.2026 — 19.04.2026»",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "interval-okno-postavki-12-01-2026-15-03-2026",
+   "label": "Интервал «Окно поставки 12.01.2026 — 15.03.2026»",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "interval-period-prosrochki-16-03-2026-19-03-2026",
+   "label": "Интервал «Период просрочки 16.03.2026 — 19.03.2026»",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "interval-srok-deystviya-dogovora-12-01-2026-31-12-2026",
+   "label": "Интервал «Срок действия договора 12.01.2026 — 31.12.2026»",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "interval-vremeni",
+   "label": "Интервал времени",
+   "classCode": null
+  },
+  {
+   "id": "class-interval-vremeni",
+   "label": "Интервал времени",
+   "classCode": "TemporalInterval",
+   "isClass": true
+  },
+  {
+   "id": "intervalnaya-situaciya",
+   "label": "Интервальная ситуация",
+   "classCode": null
+  },
+  {
+   "id": "class-intervalnaya-situaciya",
+   "label": "Интервальная ситуация",
+   "classCode": "IntervalSituation",
+   "isClass": true
+  },
+  {
+   "id": "informacionnaya-suschnost",
+   "label": "Информационная сущность",
+   "classCode": null
+  },
+  {
+   "id": "class-informacionnaya-suschnost",
+   "label": "Информационная сущность",
+   "classCode": "InformationContentEntity",
+   "isClass": true
+  },
+  {
+   "id": "istoriya",
+   "label": "История",
+   "classCode": null
+  },
+  {
+   "id": "kalendar-iso-8601",
+   "label": "Календарь «ISO 8601»",
+   "classCode": "TemporalReferenceSystem"
+  },
+  {
+   "id": "kontinuant",
+   "label": "Континуант",
+   "classCode": null
+  },
+  {
+   "id": "liniya-ispolnenie-dogovora-postavka-2026-14",
+   "label": "Линия «Исполнение договора Поставка-2026/14»",
+   "classCode": "ActualTimeline"
+  },
+  {
+   "id": "materialnaya-suschnost",
+   "label": "Материальная сущность",
+   "classCode": null
+  },
+  {
+   "id": "class-materialnaya-suschnost",
+   "label": "Материальная сущность",
+   "classCode": "MaterialEntity",
+   "isClass": true
+  },
+  {
+   "id": "metka-2026-01-12t10-00z",
+   "label": "Метка «2026-01-12T10:00Z»",
+   "classCode": "Timestamp"
+  },
+  {
+   "id": "metka-2026-03-15t23-59z",
+   "label": "Метка «2026-03-15T23:59Z»",
+   "classCode": "Timestamp"
+  },
+  {
+   "id": "metka-2026-03-20t14-20z",
+   "label": "Метка «2026-03-20T14:20Z»",
+   "classCode": "Timestamp"
+  },
+  {
+   "id": "metka-2026-03-23t11-00z",
+   "label": "Метка «2026-03-23T11:00Z»",
+   "classCode": "Timestamp"
+  },
+  {
+   "id": "metka-2026-04-10t09-30z",
+   "label": "Метка «2026-04-10T09:30Z»",
+   "classCode": "Timestamp"
+  },
+  {
+   "id": "metka-vremeni",
+   "label": "Метка времени",
+   "classCode": null
+  },
+  {
+   "id": "class-metka-vremeni",
+   "label": "Метка времени",
+   "classCode": "Timestamp",
+   "isClass": true
+  },
+  {
+   "id": "modalnaya-sistema",
+   "label": "Модальная система",
+   "classCode": null
+  },
+  {
+   "id": "class-modalnaya-sistema",
+   "label": "Модальная система",
+   "classCode": "ModalSystem",
+   "isClass": true
+  },
+  {
+   "id": "modalnoe-utverzhdenie",
+   "label": "Модальное утверждение",
+   "classCode": null
+  },
+  {
+   "id": "modalnyy-operator",
+   "label": "Модальный оператор",
+   "classCode": null
+  },
+  {
+   "id": "class-modalnyy-operator",
+   "label": "Модальный оператор",
+   "classCode": "ModalOperator",
+   "isClass": true
+  },
+  {
+   "id": "moment-10-04-2026",
+   "label": "Момент «10.04.2026»",
+   "classCode": "TemporalInstant"
+  },
+  {
+   "id": "moment-12-01-2026",
+   "label": "Момент «12.01.2026»",
+   "classCode": "TemporalInstant"
+  },
+  {
+   "id": "moment-15-03-2026",
+   "label": "Момент «15.03.2026»",
+   "classCode": "TemporalInstant"
+  },
+  {
+   "id": "moment-16-03-2026",
+   "label": "Момент «16.03.2026»",
+   "classCode": "TemporalInstant"
+  },
+  {
+   "id": "moment-19-03-2026",
+   "label": "Момент «19.03.2026»",
+   "classCode": "TemporalInstant"
+  },
+  {
+   "id": "moment-19-04-2026",
+   "label": "Момент «19.04.2026»",
+   "classCode": "TemporalInstant"
+  },
+  {
+   "id": "moment-20-03-2026",
+   "label": "Момент «20.03.2026»",
+   "classCode": "TemporalInstant"
+  },
+  {
+   "id": "moment-23-03-2026",
+   "label": "Момент «23.03.2026»",
+   "classCode": "TemporalInstant"
+  },
+  {
+   "id": "moment-31-12-2026",
+   "label": "Момент «31.12.2026»",
+   "classCode": "TemporalInstant"
+  },
+  {
+   "id": "moment-vremeni",
+   "label": "Момент времени",
+   "classCode": null
+  },
+  {
+   "id": "class-moment-vremeni",
+   "label": "Момент времени",
+   "classCode": "TemporalInstant",
+   "isClass": true
+  },
+  {
+   "id": "nezavisimyy-kontinuant",
+   "label": "Независимый континуант",
+   "classCode": null
+  },
+  {
+   "id": "ogranichenie-oplata-v-techenie-30-dney",
+   "label": "Ограничение «Оплата в течение 30 дней»",
+   "classCode": "DurationConstraint"
+  },
+  {
+   "id": "ogranichenie-postavka-ne-pozdnee-15-03-2026",
+   "label": "Ограничение «Поставка не позднее 15.03.2026»",
+   "classCode": "WindowConstraint"
+  },
+  {
+   "id": "ogranichenie-priemka-posle-postavki",
+   "label": "Ограничение «Приёмка после поставки»",
+   "classCode": "OrderingConstraint"
+  },
+  {
+   "id": "ogranichenie-dlitelnosti",
+   "label": "Ограничение длительности",
+   "classCode": null
+  },
+  {
+   "id": "class-ogranichenie-dlitelnosti",
+   "label": "Ограничение длительности",
+   "classCode": "DurationConstraint",
+   "isClass": true
+  },
+  {
+   "id": "ogranichenie-okna",
+   "label": "Ограничение окна",
+   "classCode": null
+  },
+  {
+   "id": "class-ogranichenie-okna",
+   "label": "Ограничение окна",
+   "classCode": "WindowConstraint",
+   "isClass": true
+  },
+  {
+   "id": "ogranichenie-poryadka",
+   "label": "Ограничение порядка",
+   "classCode": null
+  },
+  {
+   "id": "class-ogranichenie-poryadka",
+   "label": "Ограничение порядка",
+   "classCode": "OrderingConstraint",
+   "isClass": true
+  },
+  {
+   "id": "okkurrent",
+   "label": "Оккуррент",
+   "classCode": null
+  },
+  {
+   "id": "operator-neobhodimo",
+   "label": "Оператор «□ — необходимо»",
+   "classCode": "ModalOperator"
+  },
+  {
+   "id": "operator-vozmozhno",
+   "label": "Оператор «◇ — возможно»",
+   "classCode": "ModalOperator"
+  },
+  {
+   "id": "operator-f-kogda-nibud-v-buduschem",
+   "label": "Оператор «F — когда-нибудь в будущем»",
+   "classCode": "TemporalOperator"
+  },
+  {
+   "id": "operator-g-vsegda-v-buduschem",
+   "label": "Оператор «G — всегда в будущем»",
+   "classCode": "TemporalOperator"
+  },
+  {
+   "id": "operator-h-vsegda-v-proshlom",
+   "label": "Оператор «H — всегда в прошлом»",
+   "classCode": "TemporalOperator"
+  },
+  {
+   "id": "operator-k-izvestno",
+   "label": "Оператор «K — известно»",
+   "classCode": "ModalOperator"
+  },
+  {
+   "id": "operator-o-obyazatelno",
+   "label": "Оператор «O — обязательно»",
+   "classCode": "ModalOperator"
+  },
+  {
+   "id": "operator-p-kogda-to-v-proshlom",
+   "label": "Оператор «P — когда-то в прошлом»",
+   "classCode": "TemporalOperator"
+  },
+  {
+   "id": "operator-s-s-teh-por-kak",
+   "label": "Оператор «S — с тех пор, как»",
+   "classCode": "TemporalOperator"
+  },
+  {
+   "id": "operator-u-do-teh-por-poka",
+   "label": "Оператор «U — до тех пор, пока»",
+   "classCode": "TemporalOperator"
+  },
+  {
+   "id": "operator-x-sleduyuschiy",
+   "label": "Оператор «X — следующий»",
+   "classCode": "TemporalOperator"
+  },
+  {
+   "id": "operator-y-predyduschiy",
+   "label": "Оператор «Y — предыдущий»",
+   "classCode": "TemporalOperator"
+  },
+  {
+   "id": "organizaciya-zakazchik",
+   "label": "Организация «Заказчик»",
+   "classCode": "MaterialEntity"
+  },
+  {
+   "id": "organizaciya-postavschik",
+   "label": "Организация «Поставщик»",
+   "classCode": "MaterialEntity"
+  },
+  {
+   "id": "otnoshenie-dostizhimosti",
+   "label": "Отношение достижимости",
+   "classCode": null
+  },
+  {
+   "id": "partiya-tovara-14",
+   "label": "Партия товара № 14",
+   "classCode": "MaterialEntity"
+  },
+  {
+   "id": "proekciya-postavka-v-srok",
+   "label": "Проекция «Поставка в срок»",
+   "classCode": "TemporalProjection"
+  },
+  {
+   "id": "proekciya-prosrochka-na-4-dnya",
+   "label": "Проекция «Просрочка на 4 дня»",
+   "classCode": "TemporalProjection"
+  },
+  {
+   "id": "process",
+   "label": "Процесс",
+   "classCode": null
+  },
+  {
+   "id": "ramka-vetvyascheesya-vremya",
+   "label": "Рамка «ветвящееся время»",
+   "classCode": "TemporalFrame"
+  },
+  {
+   "id": "ramka-lineynoe-diskretnoe-vremya",
+   "label": "Рамка «линейное дискретное время»",
+   "classCode": "TemporalFrame"
+  },
+  {
+   "id": "ramka-refleksivnoe-tranzitivnoe-vremya",
+   "label": "Рамка «рефлексивное транзитивное время»",
+   "classCode": "TemporalFrame"
+  },
+  {
+   "id": "rekonstrukciya-sostoyanie-ispolneniya-na-15-03-2026",
+   "label": "Реконструкция «Состояние исполнения на 15.03.2026»",
+   "classCode": "TemporalReconstruction"
+  },
+  {
+   "id": "rol",
+   "label": "Роль",
+   "classCode": null
+  },
+  {
+   "id": "svoystvo-vetvlenie",
+   "label": "Свойство «ветвление»",
+   "classCode": "FrameProperty"
+  },
+  {
+   "id": "svoystvo-diskretnost",
+   "label": "Свойство «дискретность»",
+   "classCode": "FrameProperty"
+  },
+  {
+   "id": "svoystvo-lineynost",
+   "label": "Свойство «линейность»",
+   "classCode": "FrameProperty"
+  },
+  {
+   "id": "svoystvo-plotnost",
+   "label": "Свойство «плотность»",
+   "classCode": "FrameProperty"
+  },
+  {
+   "id": "svoystvo-refleksivnost",
+   "label": "Свойство «рефлексивность»",
+   "classCode": "FrameProperty"
+  },
+  {
+   "id": "svoystvo-tranzitivnost",
+   "label": "Свойство «транзитивность»",
+   "classCode": "FrameProperty"
+  },
+  {
+   "id": "svoystvo-ramki",
+   "label": "Свойство рамки",
+   "classCode": null
+  },
+  {
+   "id": "class-svoystvo-ramki",
+   "label": "Свойство рамки",
+   "classCode": "FrameProperty",
+   "isClass": true
+  },
+  {
+   "id": "semeystvo-aleticheskaya-modalnost",
+   "label": "Семейство «алетическая модальность»",
+   "classCode": "ModalFamily"
+  },
+  {
+   "id": "semeystvo-deonticheskaya-modalnost",
+   "label": "Семейство «деонтическая модальность»",
+   "classCode": "ModalFamily"
+  },
+  {
+   "id": "semeystvo-temporalnaya-modalnost",
+   "label": "Семейство «темпоральная модальность»",
+   "classCode": "ModalFamily"
+  },
+  {
+   "id": "semeystvo-epistemicheskaya-modalnost",
+   "label": "Семейство «эпистемическая модальность»",
+   "classCode": "ModalFamily"
+  },
+  {
+   "id": "semeystvo-modalnosti",
+   "label": "Семейство модальности",
+   "classCode": null
+  },
+  {
+   "id": "class-semeystvo-modalnosti",
+   "label": "Семейство модальности",
+   "classCode": "ModalFamily",
+   "isClass": true
+  },
+  {
+   "id": "sistema-ctl-vetvyaschayasya",
+   "label": "Система «CTL — ветвящаяся»",
+   "classCode": "ModalSystem"
+  },
+  {
+   "id": "sistema-kt-minimalnaya-temporalnaya",
+   "label": "Система «Kt — минимальная темпоральная»",
+   "classCode": "ModalSystem"
+  },
+  {
+   "id": "sistema-pltl-lineynaya-diskretnaya",
+   "label": "Система «PLTL — линейная дискретная»",
+   "classCode": "ModalSystem"
+  },
+  {
+   "id": "sistema-s4t-refleksivnaya-i-tranzitivnaya",
+   "label": "Система «S4t — рефлексивная и транзитивная»",
+   "classCode": "ModalSystem"
+  },
+  {
+   "id": "sistema-otscheta-proizvodstvennyy-kalendar-2026",
+   "label": "Система отсчёта «производственный календарь 2026»",
+   "classCode": "TemporalReferenceSystem"
+  },
+  {
+   "id": "sistema-otscheta-utc",
+   "label": "Система отсчёта «UTC»",
+   "classCode": "TemporalReferenceSystem"
+  },
+  {
+   "id": "sistema-otscheta-vremeni",
+   "label": "Система отсчёта времени",
+   "classCode": null
+  },
+  {
+   "id": "class-sistema-otscheta-vremeni",
+   "label": "Система отсчёта времени",
+   "classCode": "TemporalReferenceSystem",
+   "isClass": true
+  },
+  {
+   "id": "situaciya-istechenie-sroka-postavki-15-03-2026",
+   "label": "Ситуация «Истечение срока поставки, 15.03.2026»",
+   "classCode": "InstantSituation"
+  },
+  {
+   "id": "situaciya-podpisanie-12-01-2026",
+   "label": "Ситуация «Подписание, 12.01.2026»",
+   "classCode": "InstantSituation"
+  },
+  {
+   "id": "situaciya-postavka-20-03-2026",
+   "label": "Ситуация «Поставка, 20.03.2026»",
+   "classCode": "InstantSituation"
+  },
+  {
+   "id": "situaciya-priemka-23-03-2026",
+   "label": "Ситуация «Приёмка, 23.03.2026»",
+   "classCode": "InstantSituation"
+  },
+  {
+   "id": "situaciya-srok-deystviya-dogovora",
+   "label": "Ситуация «Срок действия договора»",
+   "classCode": "IntervalSituation"
+  },
+  {
+   "id": "sobytie",
+   "label": "Событие",
+   "classCode": null
+  },
+  {
+   "id": "class-sobytie",
+   "label": "Событие",
+   "classCode": "Event",
+   "isClass": true
+  },
+  {
+   "id": "sobytie-istechenie-sroka-postavki",
+   "label": "Событие «Истечение срока поставки»",
+   "classCode": "Event"
+  },
+  {
+   "id": "sobytie-oplata-scheta",
+   "label": "Событие «Оплата счёта»",
+   "classCode": "Event"
+  },
+  {
+   "id": "sobytie-podpisanie-dogovora",
+   "label": "Событие «Подписание договора»",
+   "classCode": "Event"
+  },
+  {
+   "id": "sobytie-postavka-partii",
+   "label": "Событие «Поставка партии»",
+   "classCode": "Event"
+  },
+  {
+   "id": "sobytie-priemka-partii",
+   "label": "Событие «Приёмка партии»",
+   "classCode": "Event"
+  },
+  {
+   "id": "sostavnoe-modalnoe-utverzhdenie",
+   "label": "Составное модальное утверждение",
+   "classCode": null
+  },
+  {
+   "id": "class-sostavnoe-modalnoe-utverzhdenie",
+   "label": "Составное модальное утверждение",
+   "classCode": "CompoundModalStatement",
+   "isClass": true
+  },
+  {
+   "id": "specificheski-zavisimyy-kontinuant",
+   "label": "Специфически зависимый континуант",
+   "classCode": null
+  },
+  {
+   "id": "temporalnaya-aksioma",
+   "label": "Темпоральная аксиома",
+   "classCode": null
+  },
+  {
+   "id": "class-temporalnaya-aksioma",
+   "label": "Темпоральная аксиома",
+   "classCode": "TemporalAxiom",
+   "isClass": true
+  },
+  {
+   "id": "temporalnaya-dostizhimost",
+   "label": "Темпоральная достижимость",
+   "classCode": null
+  },
+  {
+   "id": "class-temporalnaya-dostizhimost",
+   "label": "Темпоральная достижимость",
+   "classCode": "TemporalAccessibility",
+   "isClass": true
+  },
+  {
+   "id": "temporalnaya-zapis",
+   "label": "Темпоральная запись",
+   "classCode": null
+  },
+  {
+   "id": "class-temporalnaya-zapis",
+   "label": "Темпоральная запись",
+   "classCode": "TemporalRecord",
+   "isClass": true
+  },
+  {
+   "id": "temporalnaya-proekciya",
+   "label": "Темпоральная проекция",
+   "classCode": null
+  },
+  {
+   "id": "class-temporalnaya-proekciya",
+   "label": "Темпоральная проекция",
+   "classCode": "TemporalProjection",
+   "isClass": true
+  },
+  {
+   "id": "temporalnaya-ramka",
+   "label": "Темпоральная рамка",
+   "classCode": null
+  },
+  {
+   "id": "class-temporalnaya-ramka",
+   "label": "Темпоральная рамка",
+   "classCode": "TemporalFrame",
+   "isClass": true
+  },
+  {
+   "id": "temporalnaya-rekonstrukciya",
+   "label": "Темпоральная реконструкция",
+   "classCode": null
+  },
+  {
+   "id": "class-temporalnaya-rekonstrukciya",
+   "label": "Темпоральная реконструкция",
+   "classCode": "TemporalReconstruction",
+   "isClass": true
+  },
+  {
+   "id": "temporalnoe-dokazatelstvo",
+   "label": "Темпоральное доказательство",
+   "classCode": null
+  },
+  {
+   "id": "class-temporalnoe-dokazatelstvo",
+   "label": "Темпоральное доказательство",
+   "classCode": "TemporalEvidence",
+   "isClass": true
+  },
+  {
+   "id": "temporalnoe-ogranichenie",
+   "label": "Темпоральное ограничение",
+   "classCode": null
+  },
+  {
+   "id": "temporalnoe-utverzhdenie",
+   "label": "Темпоральное утверждение",
+   "classCode": null
+  },
+  {
+   "id": "class-temporalnoe-utverzhdenie",
+   "label": "Темпоральное утверждение",
+   "classCode": "TemporalModalStatement",
+   "isClass": true
+  },
+  {
+   "id": "temporalnyy-invariant",
+   "label": "Темпоральный инвариант",
+   "classCode": null
+  },
+  {
+   "id": "class-temporalnyy-invariant",
+   "label": "Темпоральный инвариант",
+   "classCode": "TemporalInvariant",
+   "isClass": true
+  },
+  {
+   "id": "temporalnyy-operator",
+   "label": "Темпоральный оператор",
+   "classCode": null
+  },
+  {
+   "id": "class-temporalnyy-operator",
+   "label": "Темпоральный оператор",
+   "classCode": "TemporalOperator",
+   "isClass": true
+  },
+  {
+   "id": "tochechnaya-situaciya",
+   "label": "Точечная ситуация",
+   "classCode": null
+  },
+  {
+   "id": "class-tochechnaya-situaciya",
+   "label": "Точечная ситуация",
+   "classCode": "InstantSituation",
+   "isClass": true
+  },
+  {
+   "id": "uslovie",
+   "label": "Условие",
+   "classCode": null
+  },
+  {
+   "id": "uslovie-nachislyaetsya-neustoyka",
+   "label": "Условие «Начисляется неустойка»",
+   "classCode": "StateCondition"
+  },
+  {
+   "id": "uslovie-obyazatelstvo-po-postavke-prekrascheno",
+   "label": "Условие «Обязательство по поставке прекращено»",
+   "classCode": "StateCondition"
+  },
+  {
+   "id": "uslovie-partiya-postavlena",
+   "label": "Условие «Партия поставлена»",
+   "classCode": "OccurrenceCondition"
+  },
+  {
+   "id": "uslovie-partiya-prinyata",
+   "label": "Условие «Партия принята»",
+   "classCode": "StateCondition"
+  },
+  {
+   "id": "uslovie-postavka-v-srok",
+   "label": "Условие «Поставка в срок»",
+   "classCode": "StateCondition"
+  },
+  {
+   "id": "uslovie-soblyudaetsya-konfidencialnost",
+   "label": "Условие «Соблюдается конфиденциальность»",
+   "classCode": "StateCondition"
+  },
+  {
+   "id": "uslovie-schet-oplachen",
+   "label": "Условие «Счёт оплачен»",
+   "classCode": "StateCondition"
+  },
+  {
+   "id": "uslovie-proisshestvie",
+   "label": "Условие-происшествие",
+   "classCode": null
+  },
+  {
+   "id": "class-uslovie-proisshestvie",
+   "label": "Условие-происшествие",
+   "classCode": "OccurrenceCondition",
+   "isClass": true
+  },
+  {
+   "id": "uslovie-sostoyanie",
+   "label": "Условие-состояние",
+   "classCode": null
+  },
+  {
+   "id": "class-uslovie-sostoyanie",
+   "label": "Условие-состояние",
+   "classCode": "StateCondition",
+   "isClass": true
+  },
+  {
+   "id": "utverzhdenie-k-15-03-2026-postavka-ne-sostoyalas",
+   "label": "Утверждение «к 15.03.2026 поставка не состоялась»",
+   "classCode": "TemporalModalStatement"
+  },
+  {
+   "id": "utverzhdenie-na-protyazhenii-sroka-deystviya-dogovora-soblyudaetsya-konfidencialnost",
+   "label": "Утверждение «на протяжении срока действия договора соблюдается конфиденциальность»",
+   "classCode": "TemporalModalStatement"
+  },
+  {
+   "id": "utverzhdenie-neustoyka-nachislyaetsya-do-momenta-postavki",
+   "label": "Утверждение «неустойка начисляется до момента поставки»",
+   "classCode": "TemporalModalStatement"
+  },
+  {
+   "id": "utverzhdenie-neustoyka-nachislyalas-17-03-2026",
+   "label": "Утверждение «неустойка начислялась 17.03.2026»",
+   "classCode": "TemporalModalStatement"
+  },
+  {
+   "id": "utverzhdenie-oplata-budet-proizvedena-v-okne-20-03-19-04-2026",
+   "label": "Утверждение «оплата будет произведена в окне 20.03–19.04.2026»",
+   "classCode": "TemporalModalStatement"
+  },
+  {
+   "id": "utverzhdenie-oplata-obyazatelna-v-techenie-30-dney-posle-postavki",
+   "label": "Утверждение «оплата обязательна в течение 30 дней после поставки»",
+   "classCode": "CompoundModalStatement"
+  },
+  {
+   "id": "utverzhdenie-posle-priemki-obyazatelstvo-po-postavke-prekrascheno",
+   "label": "Утверждение «после приёмки обязательство по поставке прекращено»",
+   "classCode": "TemporalModalStatement"
+  },
+  {
+   "id": "utverzhdenie-postavka-mogla-sostoyatsya-k-15-03-2026",
+   "label": "Утверждение «поставка могла состояться к 15.03.2026»",
+   "classCode": "CompoundModalStatement"
+  },
+  {
+   "id": "utverzhdenie-postavka-sostoitsya-ne-pozdnee-15-03-2026",
+   "label": "Утверждение «поставка состоится не позднее 15.03.2026»",
+   "classCode": "TemporalModalStatement"
+  },
+  {
+   "id": "utverzhdenie-postavka-sostoyalas-20-03-2026",
+   "label": "Утверждение «поставка состоялась 20.03.2026»",
+   "classCode": "TemporalModalStatement"
+  },
+  {
+   "id": "utverzhdenie-sleduyuschim-sobytiem-posle-postavki-budet-priemka",
+   "label": "Утверждение «следующим событием после поставки будет приёмка»",
+   "classCode": "TemporalModalStatement"
+  },
+  {
+   "id": "fakticheskaya-liniya",
+   "label": "Фактическая линия",
+   "classCode": null
+  },
+  {
+   "id": "class-fakticheskaya-liniya",
+   "label": "Фактическая линия",
+   "classCode": "ActualTimeline",
+   "isClass": true
+  }
+ ]
+}

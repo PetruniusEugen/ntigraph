@@ -1,0 +1,1376 @@
+{
+ "entities": [
+  {
+   "id": "class-akt-priemki",
+   "label": "Акт приёмки",
+   "classCode": "ActOfAcceptance",
+   "isClass": true
+  },
+  {
+   "id": "akt-priemki-12",
+   "label": "Акт приёмки № 12",
+   "classCode": "ActOfAcceptance"
+  },
+  {
+   "id": "ao-vniim",
+   "label": "АО «ВНИИМ»",
+   "classCode": "Organization"
+  },
+  {
+   "id": "ao-niitfa",
+   "label": "АО «НИИТФА»",
+   "classCode": "Organization"
+  },
+  {
+   "id": "balans-2026-denezhnye-sredstva",
+   "label": "Баланс 2026: денежные средства",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "balans-2026-neraspredelennaya-pribyl",
+   "label": "Баланс 2026: нераспределённая прибыль",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "balans-2027-denezhnye-sredstva",
+   "label": "Баланс 2027: денежные средства",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "balans-2027-neraspredelennaya-pribyl",
+   "label": "Баланс 2027: нераспределённая прибыль",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "balans-ispolnitelya-na-31-12-2026",
+   "label": "Баланс исполнителя на 31.12.2026",
+   "classCode": "FinancialStatement"
+  },
+  {
+   "id": "balans-ispolnitelya-na-31-12-2027",
+   "label": "Баланс исполнителя на 31.12.2027",
+   "classCode": "FinancialStatement"
+  },
+  {
+   "id": "bdr-2026-vyruchka",
+   "label": "БДР 2026: выручка",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "bdr-2026-pribyl",
+   "label": "БДР 2026: прибыль",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "bdr-2026-sebestoimost",
+   "label": "БДР 2026: себестоимость",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "bdr-2027-vyruchka",
+   "label": "БДР 2027: выручка",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "bdr-2027-pribyl",
+   "label": "БДР 2027: прибыль",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "bdr-2027-sebestoimost",
+   "label": "БДР 2027: себестоимость",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "bdr-ispolnitelya-za-2026",
+   "label": "БДР исполнителя за 2026",
+   "classCode": "FinancialStatement"
+  },
+  {
+   "id": "bdr-ispolnitelya-za-2027",
+   "label": "БДР исполнителя за 2027",
+   "classCode": "FinancialStatement"
+  },
+  {
+   "id": "class-buhgalterskaya-zapis",
+   "label": "Бухгалтерская запись",
+   "classCode": "AccountingEntry",
+   "isClass": true
+  },
+  {
+   "id": "vakuumnaya-pech-vp-40",
+   "label": "Вакуумная печь ВП-40",
+   "classCode": "Equipment"
+  },
+  {
+   "id": "class-veha",
+   "label": "Веха",
+   "classCode": "Milestone",
+   "isClass": true
+  },
+  {
+   "id": "veha-maket-izgotovlen",
+   "label": "Веха «Макет изготовлен»",
+   "classCode": "Milestone"
+  },
+  {
+   "id": "class-vozmozhnyy-mir",
+   "label": "Возможный мир",
+   "classCode": "PossibleWorld",
+   "isClass": true
+  },
+  {
+   "id": "goskorporaciya-rosatom",
+   "label": "Госкорпорация «Росатом»",
+   "classCode": "Organization"
+  },
+  {
+   "id": "gost-15-101-2022",
+   "label": "ГОСТ 15.101-2022",
+   "classCode": "NormativeDocument"
+  },
+  {
+   "id": "class-gruppa-kontraktnyh-trebovaniy",
+   "label": "Группа контрактных требований",
+   "classCode": "ContractRequirementGroup",
+   "isClass": true
+  },
+  {
+   "id": "dannye-stendovyh-ispytaniy-2025",
+   "label": "Данные стендовых испытаний 2025",
+   "classCode": "SourceInformation"
+  },
+  {
+   "id": "dds-2026-materialy",
+   "label": "ДДС 2026: материалы",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "dds-2026-nakladnye-rashody",
+   "label": "ДДС 2026: накладные расходы",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "dds-2026-oplata-truda",
+   "label": "ДДС 2026: оплата труда",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "dds-2026-ostatok-na-konec",
+   "label": "ДДС 2026: остаток на конец",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "dds-2026-postupleniya-ot-zakazchika",
+   "label": "ДДС 2026: поступления от заказчика",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "dds-2026-strahovye-vznosy",
+   "label": "ДДС 2026: страховые взносы",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "dds-2026-chistyy-denezhnyy-potok",
+   "label": "ДДС 2026: чистый денежный поток",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "dds-2027-materialy",
+   "label": "ДДС 2027: материалы",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "dds-2027-nakladnye-rashody",
+   "label": "ДДС 2027: накладные расходы",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "dds-2027-oplata-truda",
+   "label": "ДДС 2027: оплата труда",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "dds-2027-ostatok-na-konec",
+   "label": "ДДС 2027: остаток на конец",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "dds-2027-postupleniya-ot-zakazchika",
+   "label": "ДДС 2027: поступления от заказчика",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "dds-2027-raboty-subpodryadchika",
+   "label": "ДДС 2027: работы субподрядчика",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "dds-2027-strahovye-vznosy",
+   "label": "ДДС 2027: страховые взносы",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "dds-2027-chistyy-denezhnyy-potok",
+   "label": "ДДС 2027: чистый денежный поток",
+   "classCode": "FinancialLine"
+  },
+  {
+   "id": "dds-ispolnitelya-za-2026",
+   "label": "ДДС исполнителя за 2026",
+   "classCode": "FinancialStatement"
+  },
+  {
+   "id": "dds-ispolnitelya-za-2027",
+   "label": "ДДС исполнителя за 2027",
+   "classCode": "FinancialStatement"
+  },
+  {
+   "id": "class-dopolnitelnoe-soglashenie",
+   "label": "Дополнительное соглашение",
+   "classCode": "SupplementaryAgreement",
+   "isClass": true
+  },
+  {
+   "id": "dopolnitelnoe-soglashenie-1",
+   "label": "Дополнительное соглашение № 1",
+   "classCode": "SupplementaryAgreement"
+  },
+  {
+   "id": "zharoprochnaya-stal-12h18n10t",
+   "label": "Жаропрочная сталь 12Х18Н10Т",
+   "classCode": "SourceMaterial"
+  },
+  {
+   "id": "class-zadacha",
+   "label": "Задача",
+   "classCode": "Task",
+   "isClass": true
+  },
+  {
+   "id": "zadacha-raschet-korpusa",
+   "label": "Задача «Расчёт корпуса»",
+   "classCode": "Task"
+  },
+  {
+   "id": "class-zadel",
+   "label": "Задел",
+   "classCode": "PriorResult",
+   "isClass": true
+  },
+  {
+   "id": "class-zakupaemye-materialy-i-komplektuyuschie",
+   "label": "Закупаемые материалы и комплектующие",
+   "classCode": "PurchasedItem",
+   "isClass": true
+  },
+  {
+   "id": "zamechanie-o-metodike-izmereniy",
+   "label": "Замечание о методике измерений",
+   "classCode": "ExpertOpinion"
+  },
+  {
+   "id": "class-zamechanie-ekspertizy",
+   "label": "Замечание экспертизы",
+   "classCode": "ExpertOpinion",
+   "isClass": true
+  },
+  {
+   "id": "zapis-dt-04-kt-08-08-po-nir",
+   "label": "Запись: Дт 04 Кт 08.08 по НИР",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-04-kt-08-08-po-okr",
+   "label": "Запись: Дт 04 Кт 08.08 по ОКР",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-08-08-kt-60-po-nir",
+   "label": "Запись: Дт 08.08 Кт 60 по НИР",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-08-08-kt-60-po-okr",
+   "label": "Запись: Дт 08.08 Кт 60 по ОКР",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-20-kt-10-po-etapu-1",
+   "label": "Запись: Дт 20 Кт 10 по этапу 1",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-20-kt-10-po-etapu-2",
+   "label": "Запись: Дт 20 Кт 10 по этапу 2",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-20-kt-25-po-etapu-1",
+   "label": "Запись: Дт 20 Кт 25 по этапу 1",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-20-kt-25-po-etapu-2",
+   "label": "Запись: Дт 20 Кт 25 по этапу 2",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-20-kt-60-po-etapu-2",
+   "label": "Запись: Дт 20 Кт 60 по этапу 2",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-20-kt-69-po-etapu-1",
+   "label": "Запись: Дт 20 Кт 69 по этапу 1",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-20-kt-69-po-etapu-2",
+   "label": "Запись: Дт 20 Кт 69 по этапу 2",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-20-kt-70-po-etapu-1",
+   "label": "Запись: Дт 20 Кт 70 по этапу 1",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-20-kt-70-po-etapu-2",
+   "label": "Запись: Дт 20 Кт 70 по этапу 2",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-51-kt-62-po-etapu-1",
+   "label": "Запись: Дт 51 Кт 62 по этапу 1",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-51-kt-62-po-etapu-2",
+   "label": "Запись: Дт 51 Кт 62 по этапу 2",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-60-kt-51-po-etapu-1",
+   "label": "Запись: Дт 60 Кт 51 по этапу 1",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-60-kt-51-po-etapu-2",
+   "label": "Запись: Дт 60 Кт 51 по этапу 2",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-62-kt-90-01-po-etapu-1",
+   "label": "Запись: Дт 62 Кт 90.01 по этапу 1",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-62-kt-90-01-po-etapu-2",
+   "label": "Запись: Дт 62 Кт 90.01 по этапу 2",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-90-02-kt-20-po-etapu-1",
+   "label": "Запись: Дт 90.02 Кт 20 по этапу 1",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "zapis-dt-90-02-kt-20-po-etapu-2",
+   "label": "Запись: Дт 90.02 Кт 20 по этапу 2",
+   "classCode": "AccountingEntry"
+  },
+  {
+   "id": "izgotovlenie-vtorogo-maketa",
+   "label": "Изготовление второго макета",
+   "classCode": "Control"
+  },
+  {
+   "id": "class-ispolnenie-obyazatelstva",
+   "label": "Исполнение обязательства",
+   "classCode": "ContractExecution",
+   "isClass": true
+  },
+  {
+   "id": "ispolnenie-obyazatelstva-etap-2",
+   "label": "Исполнение обязательства: этап 2",
+   "classCode": "ContractExecution"
+  },
+  {
+   "id": "class-ishodnaya-informaciya",
+   "label": "Исходная информация",
+   "classCode": "SourceInformation",
+   "isClass": true
+  },
+  {
+   "id": "class-ishodnyy-material",
+   "label": "Исходный материал",
+   "classCode": "SourceMaterial",
+   "isClass": true
+  },
+  {
+   "id": "class-kadrovaya-zapis",
+   "label": "Кадровая запись",
+   "classCode": "PersonnelRecord",
+   "isClass": true
+  },
+  {
+   "id": "kadrovaya-zapis-orlov-d-s",
+   "label": "Кадровая запись: Орлов Д.С.",
+   "classCode": "PersonnelRecord"
+  },
+  {
+   "id": "class-kalendarnyy-plan",
+   "label": "Календарный план",
+   "classCode": "WorkSchedule",
+   "isClass": true
+  },
+  {
+   "id": "kalendarnyy-plan-2026",
+   "label": "Календарный план 2026",
+   "classCode": "WorkSchedule"
+  },
+  {
+   "id": "kovaleva-e-p",
+   "label": "Ковалёва Е.П.",
+   "classCode": "Person"
+  },
+  {
+   "id": "kompleksnyy-proekt-datchiki-2026",
+   "label": "Комплексный проект «Датчики-2026»",
+   "classCode": "CombinedRDProject"
+  },
+  {
+   "id": "class-kompleksnyy-proekt-niokr",
+   "label": "Комплексный проект НИОКР",
+   "classCode": "CombinedRDProject",
+   "isClass": true
+  },
+  {
+   "id": "class-kontrakt",
+   "label": "Контракт",
+   "classCode": "Contract",
+   "isClass": true
+  },
+  {
+   "id": "kontrakt-26-niokr-17",
+   "label": "Контракт № 26/НИОКР-17",
+   "classCode": "Contract"
+  },
+  {
+   "id": "class-laboratoriya",
+   "label": "Лаборатория",
+   "classCode": "LaboratorySite",
+   "isClass": true
+  },
+  {
+   "id": "laboratoriya-materialovedeniya",
+   "label": "Лаборатория материаловедения",
+   "classCode": "LaboratorySite"
+  },
+  {
+   "id": "laboratornyy-obrazec-datchika",
+   "label": "Лабораторный образец датчика",
+   "classCode": "ResearchResult"
+  },
+  {
+   "id": "mak-01-maket-datchika-cennost-dlya-zakazchika",
+   "label": "МАК-01. Макет датчика — ценность для заказчика",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mak-02-patent-2812345-cennost-dlya-ispolnitelya",
+   "label": "МАК-02. Патент № 2812345 — ценность для исполнителя",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mak-03-prosrochka-postavki-anticennost",
+   "label": "МАК-03. Просрочка поставки — антиценность",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mak-04-vtoroy-maket-neytralnaya-mera",
+   "label": "МАК-04. Второй макет — нейтральная мера",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mak-05-rezervirovanie-vtorogo-postavschika-cennost",
+   "label": "МАК-05. Резервирование второго поставщика — ценность",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mak-06-patentnoe-issledovanie-cennee-vtorogo-maketa",
+   "label": "МАК-06. Патентное исследование ценнее второго макета",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "maket-datchika",
+   "label": "Макет датчика",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "mal-01-sryv-sroka-okr-vozmozhen",
+   "label": "МАЛ-01. Срыв срока ОКР возможен",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mal-02-bez-rezervnoy-pechi-etap-2-nevozmozhen",
+   "label": "МАЛ-02. Без резервной печи этап 2 невозможен",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mal-03-prosrochka-postavki-neobhodimo-vlechet-sryv-sroka",
+   "label": "МАЛ-03. Просрочка поставки необходимо влечёт срыв срока",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mal-04-dostizhenie-ugt-5-vozmozhno-posle-ustraneniya-zamechaniya",
+   "label": "МАЛ-04. Достижение УГТ 5 возможно после устранения замечания",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mal-05-patentnaya-chistota-novogo-resheniya-sluchayna",
+   "label": "МАЛ-05. Патентная чистота нового решения случайна",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mde-01-peredacha-maketa-obyazatelna",
+   "label": "МДЕ-01. Передача макета обязательна",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mde-02-oplata-etapa-1-obyazatelna-i-ispolnena",
+   "label": "МДЕ-02. Оплата этапа 1 обязательна и исполнена",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mde-03-razglashenie-otcheta-dsp-zaprescheno",
+   "label": "МДЕ-03. Разглашение отчёта ДСП запрещено",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mde-04-zakazchik-vprave-ne-prinimat-otchet-s-zamechaniem",
+   "label": "МДЕ-04. Заказчик вправе не принимать отчёт с замечанием",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mde-05-publikaciya-rezultatov-niokr-obyazatelna",
+   "label": "МДЕ-05. Публикация результатов НИОКР обязательна",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mde-06-konflikt-publikacii-i-konfidencialnosti",
+   "label": "МДЕ-06. Конфликт публикации и конфиденциальности",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "class-mera-reagirovaniya",
+   "label": "Мера реагирования",
+   "classCode": "Control",
+   "isClass": true
+  },
+  {
+   "id": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "label": "Мир W0. Фактическое состояние на 08.11.2026",
+   "classCode": "PossibleWorld"
+  },
+  {
+   "id": "mir-w1-sryv-sroka-okr",
+   "label": "Мир W1. Срыв срока ОКР",
+   "classCode": "PossibleWorld"
+  },
+  {
+   "id": "mir-w2-vypolnenie-po-planu",
+   "label": "Мир W2. Выполнение по плану",
+   "classCode": "PossibleWorld"
+  },
+  {
+   "id": "mir-w3-deonticheski-idealnoe-ispolnenie",
+   "label": "Мир W3. Деонтически идеальное исполнение",
+   "classCode": "PossibleWorld"
+  },
+  {
+   "id": "class-modalnoe-utverzhdenie",
+   "label": "Модальное утверждение",
+   "classCode": "ModalStatement",
+   "isClass": true
+  },
+  {
+   "id": "mte-01-etap-1-zavershen-v-proshlom",
+   "label": "МТЕ-01. Этап 1 завершён в прошлом",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mte-02-etap-2-nastupit-v-buduschem",
+   "label": "МТЕ-02. Этап 2 наступит в будущем",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mte-03-zamechanie-ne-ustraneno-v-nastoyaschem",
+   "label": "МТЕ-03. Замечание не устранено в настоящем",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mte-04-sryv-sroka-vsegda-sleduet-za-prosrochkoy-postavki",
+   "label": "МТЕ-04. Срыв срока всегда следует за просрочкой поставки",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mte-05-oplata-etapa-2-inogda-zaderzhivaetsya-do-priemki",
+   "label": "МТЕ-05. Оплата этапа 2 иногда задерживается до приёмки",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mep-01-ispolnitel-znaet-o-prosrochke-postavki",
+   "label": "МЭП-01. Исполнитель знает о просрочке поставки",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mep-02-zakazchik-predpolagaet-ustranenie-zamechaniya-k-priemke",
+   "label": "МЭП-02. Заказчик предполагает устранение замечания к приёмке",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mep-03-veroyatnost-sryva-sroka-ekspertnaya-ocenka",
+   "label": "МЭП-03. Вероятность срыва срока — экспертная оценка",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mep-04-patentnaya-chistota-novogo-resheniya-neizvestna",
+   "label": "МЭП-04. Патентная чистота нового решения неизвестна",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "mep-05-oplata-etapa-1-podtverzhdena-vypiskoy",
+   "label": "МЭП-05. Оплата этапа 1 подтверждена выпиской",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "nakladnye-rashody",
+   "label": "Накладные расходы",
+   "classCode": "CostItem"
+  },
+  {
+   "id": "narushenie-sroka-etapa-2",
+   "label": "Нарушение срока этапа 2",
+   "classCode": "ContractBreach"
+  },
+  {
+   "id": "class-narushenie-usloviy-kontrakta",
+   "label": "Нарушение условий контракта",
+   "classCode": "ContractBreach",
+   "isClass": true
+  },
+  {
+   "id": "class-nauchno-tehnicheskiy-rezultat",
+   "label": "Научно-технический результат",
+   "classCode": "ResearchResult",
+   "isClass": true
+  },
+  {
+   "id": "nir-materialy-2026",
+   "label": "НИР «Материалы-2026»",
+   "classCode": "RDProject"
+  },
+  {
+   "id": "class-normativnyy-dokument",
+   "label": "Нормативный документ",
+   "classCode": "NormativeDocument",
+   "isClass": true
+  },
+  {
+   "id": "class-oborudovanie",
+   "label": "Оборудование",
+   "classCode": "Equipment",
+   "isClass": true
+  },
+  {
+   "id": "class-obrazec",
+   "label": "Образец",
+   "classCode": "Specimen",
+   "isClass": true
+  },
+  {
+   "id": "obrazec-3-26",
+   "label": "Образец № 3-26",
+   "classCode": "Specimen"
+  },
+  {
+   "id": "class-obyazatelstvo-konfidencialnosti",
+   "label": "Обязательство конфиденциальности",
+   "classCode": "ConfidentialityObligation",
+   "isClass": true
+  },
+  {
+   "id": "obyazatelstvo-konfidencialnosti-dsp",
+   "label": "Обязательство конфиденциальности ДСП",
+   "classCode": "ConfidentialityObligation"
+  },
+  {
+   "id": "class-obyazatelstvo-po-kontraktu",
+   "label": "Обязательство по контракту",
+   "classCode": "ContractualObligation",
+   "isClass": true
+  },
+  {
+   "id": "class-obyazatelstvo-po-oplate",
+   "label": "Обязательство по оплате",
+   "classCode": "PaymentObligation",
+   "isClass": true
+  },
+  {
+   "id": "class-obyazatelstvo-po-peredache",
+   "label": "Обязательство по передаче",
+   "classCode": "DeliveryObligation",
+   "isClass": true
+  },
+  {
+   "id": "obyazatelstvo-po-peredache-maketa",
+   "label": "Обязательство по передаче макета",
+   "classCode": "DeliveryObligation"
+  },
+  {
+   "id": "obyazatelstvo-vypolnit-etap-2",
+   "label": "Обязательство: выполнить этап 2",
+   "classCode": "ContractualObligation"
+  },
+  {
+   "id": "okr-datchik-2026",
+   "label": "ОКР «Датчик-2026»",
+   "classCode": "RDProject"
+  },
+  {
+   "id": "ooo-sensor-teh",
+   "label": "ООО «Сенсор-Тех»",
+   "classCode": "Organization"
+  },
+  {
+   "id": "operaciya-kapitalizirovany-zatraty-na-nir",
+   "label": "Операция: капитализированы затраты на НИР",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-kapitalizirovany-zatraty-na-okr",
+   "label": "Операция: капитализированы затраты на ОКР",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-nachislena-vyruchka-po-etapu-1",
+   "label": "Операция: начислена выручка по этапу 1",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-nachislena-vyruchka-po-etapu-2",
+   "label": "Операция: начислена выручка по этапу 2",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-nachislena-oplata-truda-po-etapu-1",
+   "label": "Операция: начислена оплата труда по этапу 1",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-nachislena-oplata-truda-po-etapu-2",
+   "label": "Операция: начислена оплата труда по этапу 2",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-nachisleny-strahovye-vznosy-po-etapu-1",
+   "label": "Операция: начислены страховые взносы по этапу 1",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-nachisleny-strahovye-vznosy-po-etapu-2",
+   "label": "Операция: начислены страховые взносы по этапу 2",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-poluchena-oplata-etapa-1",
+   "label": "Операция: получена оплата этапа 1",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-poluchena-oplata-etapa-2",
+   "label": "Операция: получена оплата этапа 2",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-prinyat-rezultat-nir-k-uchetu",
+   "label": "Операция: принят результат НИР к учёту",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-prinyat-rezultat-okr-k-uchetu",
+   "label": "Операция: принят результат ОКР к учёту",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-prinyaty-raboty-subpodryadchika-po-etapu-2",
+   "label": "Операция: приняты работы субподрядчика по этапу 2",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-raspredeleny-nakladnye-rashody-etapa-1",
+   "label": "Операция: распределены накладные расходы этапа 1",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-raspredeleny-nakladnye-rashody-etapa-2",
+   "label": "Операция: распределены накладные расходы этапа 2",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-spisany-materialy-etapa-1",
+   "label": "Операция: списаны материалы этапа 1",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-spisany-materialy-etapa-2",
+   "label": "Операция: списаны материалы этапа 2",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-sformirovana-sebestoimost-etapa-1",
+   "label": "Операция: сформирована себестоимость этапа 1",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "operaciya-sformirovana-sebestoimost-etapa-2",
+   "label": "Операция: сформирована себестоимость этапа 2",
+   "classCode": "BusinessTransaction"
+  },
+  {
+   "id": "oplata-etapa-1",
+   "label": "Оплата этапа 1",
+   "classCode": "PaymentObligation"
+  },
+  {
+   "id": "oplata-etapa-2",
+   "label": "Оплата этапа 2",
+   "classCode": "PaymentObligation"
+  },
+  {
+   "id": "class-organizaciya",
+   "label": "Организация",
+   "classCode": "Organization",
+   "isClass": true
+  },
+  {
+   "id": "orlov-d-s",
+   "label": "Орлов Д.С.",
+   "classCode": "Person"
+  },
+  {
+   "id": "class-otklonenie",
+   "label": "Отклонение",
+   "classCode": "Deviation",
+   "isClass": true
+  },
+  {
+   "id": "class-otchet",
+   "label": "Отчёт",
+   "classCode": "Report",
+   "isClass": true
+  },
+  {
+   "id": "otchet-po-nir",
+   "label": "Отчёт по НИР",
+   "classCode": "Report"
+  },
+  {
+   "id": "otchet-po-nir-2024-datchiki-temperatury",
+   "label": "Отчёт по НИР 2024 «Датчики температуры»",
+   "classCode": "PriorResult"
+  },
+  {
+   "id": "otchet-po-okr",
+   "label": "Отчёт по ОКР",
+   "classCode": "Report"
+  },
+  {
+   "id": "class-paket-rabot",
+   "label": "Пакет работ",
+   "classCode": "WorkPackage",
+   "isClass": true
+  },
+  {
+   "id": "paket-rabot-izgotovlenie-maketa",
+   "label": "Пакет работ «Изготовление макета»",
+   "classCode": "WorkPackage"
+  },
+  {
+   "id": "class-patent",
+   "label": "Патент",
+   "classCode": "Patent",
+   "isClass": true
+  },
+  {
+   "id": "patent-2812345",
+   "label": "Патент № 2812345",
+   "classCode": "Patent"
+  },
+  {
+   "id": "class-patentnoe-issledovanie",
+   "label": "Патентное исследование",
+   "classCode": "PatentResearch",
+   "isClass": true
+  },
+  {
+   "id": "patentnoe-issledovanie-datchiki-temperatury",
+   "label": "Патентное исследование «Датчики температуры»",
+   "classCode": "PatentResearch"
+  },
+  {
+   "id": "petrov-s-n",
+   "label": "Петров С.Н.",
+   "classCode": "Person"
+  },
+  {
+   "id": "class-plan-vypolneniya",
+   "label": "План выполнения",
+   "classCode": "ProjectPlan",
+   "isClass": true
+  },
+  {
+   "id": "plan-vypolneniya-v2",
+   "label": "План выполнения v2",
+   "classCode": "ProjectPlan"
+  },
+  {
+   "id": "pravo-na-poleznuyu-model",
+   "label": "Право на полезную модель",
+   "classCode": "IntellectualPropertyRight"
+  },
+  {
+   "id": "class-pravo-na-rezultat",
+   "label": "Право на результат",
+   "classCode": "IntellectualPropertyRight",
+   "isClass": true
+  },
+  {
+   "id": "class-pretenzionno-iskovaya-rabota",
+   "label": "Претензионно-исковая работа",
+   "classCode": "ClaimWork",
+   "isClass": true
+  },
+  {
+   "id": "pretenziya-po-sroku-etapa-2",
+   "label": "Претензия по сроку этапа 2",
+   "classCode": "ClaimWork"
+  },
+  {
+   "id": "pribyl-ispolnitelya",
+   "label": "Прибыль исполнителя",
+   "classCode": "CostItem"
+  },
+  {
+   "id": "class-priemka",
+   "label": "Приёмка",
+   "classCode": "Acceptance",
+   "isClass": true
+  },
+  {
+   "id": "priemka-etapa-1",
+   "label": "Приёмка этапа 1",
+   "classCode": "Acceptance"
+  },
+  {
+   "id": "priemka-etapa-2",
+   "label": "Приёмка этапа 2",
+   "classCode": "Acceptance"
+  },
+  {
+   "id": "class-prilozhenie-k-kontraktu",
+   "label": "Приложение к контракту",
+   "classCode": "Appendix",
+   "isClass": true
+  },
+  {
+   "id": "prilozhenie-kalendarnyy-plan",
+   "label": "Приложение: календарный план",
+   "classCode": "Appendix"
+  },
+  {
+   "id": "class-proekt-nir-niokr",
+   "label": "Проект НИР/НИОКР",
+   "classCode": "RDProject",
+   "isClass": true
+  },
+  {
+   "id": "prosrochka-postavki-pezokeramiki",
+   "label": "Просрочка поставки пьезокерамики",
+   "classCode": "Deviation"
+  },
+  {
+   "id": "protokol-ispytaniy",
+   "label": "Протокол испытаний",
+   "classCode": "Report"
+  },
+  {
+   "id": "pryamye-zatraty",
+   "label": "Прямые затраты",
+   "classCode": "CostItem"
+  },
+  {
+   "id": "pezokeramika-cts-19",
+   "label": "Пьезокерамика ЦТС-19",
+   "classCode": "SourceMaterial"
+  },
+  {
+   "id": "pezokeramika-cts-19-partiya-12",
+   "label": "Пьезокерамика ЦТС-19, партия 12",
+   "classCode": "PurchasedItem"
+  },
+  {
+   "id": "rezervirovanie-vtorogo-postavschika-keramiki",
+   "label": "Резервирование второго поставщика керамики",
+   "classCode": "Control"
+  },
+  {
+   "id": "class-rezultat-k-peredache",
+   "label": "Результат к передаче",
+   "classCode": "Deliverable",
+   "isClass": true
+  },
+  {
+   "id": "class-risk",
+   "label": "Риск",
+   "classCode": "Risk",
+   "isClass": true
+  },
+  {
+   "id": "risk-sryva-sroka-okr",
+   "label": "Риск срыва срока ОКР",
+   "classCode": "Risk"
+  },
+  {
+   "id": "rol-glavnyy-konstruktor",
+   "label": "Роль «Главный конструктор»",
+   "classCode": "ProjectRole"
+  },
+  {
+   "id": "rol-golovnoy-ispolnitel",
+   "label": "Роль «Головной исполнитель»",
+   "classCode": "PartyRole"
+  },
+  {
+   "id": "rol-zakazchik",
+   "label": "Роль «Заказчик»",
+   "classCode": "PartyRole"
+  },
+  {
+   "id": "rol-nauchnyy-rukovoditel",
+   "label": "Роль «Научный руководитель»",
+   "classCode": "ProjectRole"
+  },
+  {
+   "id": "rol-obekt-ispytaniya",
+   "label": "Роль «Объект испытания»",
+   "classCode": "TestObjectRole"
+  },
+  {
+   "id": "rol-pravoobladatel",
+   "label": "Роль «Правообладатель»",
+   "classCode": "ProjectRole"
+  },
+  {
+   "id": "rol-rukovoditel-proekta",
+   "label": "Роль «Руководитель проекта»",
+   "classCode": "ProjectRole"
+  },
+  {
+   "id": "rol-soispolnitel",
+   "label": "Роль «Соисполнитель»",
+   "classCode": "ProjectRole"
+  },
+  {
+   "id": "rol-subpodryadchik",
+   "label": "Роль «Субподрядчик»",
+   "classCode": "ProjectRole"
+  },
+  {
+   "id": "rol-chlen-priemochnoy-komissii",
+   "label": "Роль «Член приёмочной комиссии»",
+   "classCode": "ProjectRole"
+  },
+  {
+   "id": "class-rol-v-proekte",
+   "label": "Роль в проекте",
+   "classCode": "ProjectRole",
+   "isClass": true
+  },
+  {
+   "id": "class-rol-obrazca-v-ispytanii",
+   "label": "Роль образца в испытании",
+   "classCode": "TestObjectRole",
+   "isClass": true
+  },
+  {
+   "id": "class-rol-storony",
+   "label": "Роль стороны",
+   "classCode": "PartyRole",
+   "isClass": true
+  },
+  {
+   "id": "smeta-kontrakta",
+   "label": "Смета контракта",
+   "classCode": "Appendix"
+  },
+  {
+   "id": "smirnov-a-v",
+   "label": "Смирнов А.В.",
+   "classCode": "Person"
+  },
+  {
+   "id": "spekanie-pezokeramiki",
+   "label": "Спекание пьезокерамики",
+   "classCode": "MaterialTransformation"
+  },
+  {
+   "id": "srok-2026-2028",
+   "label": "Срок 2026–2028",
+   "classCode": "ContractTerm"
+  },
+  {
+   "id": "class-srok-deystviya-kontrakta",
+   "label": "Срок действия контракта",
+   "classCode": "ContractTerm",
+   "isClass": true
+  },
+  {
+   "id": "class-statya-zatrat",
+   "label": "Статья затрат",
+   "classCode": "CostItem",
+   "isClass": true
+  },
+  {
+   "id": "class-stroka-otcheta",
+   "label": "Строка отчёта",
+   "classCode": "FinancialLine",
+   "isClass": true
+  },
+  {
+   "id": "class-subkontrakt",
+   "label": "Субконтракт",
+   "classCode": "Subcontract",
+   "isClass": true
+  },
+  {
+   "id": "subkontrakt-26-s-04",
+   "label": "Субконтракт № 26/С-04",
+   "classCode": "Subcontract"
+  },
+  {
+   "id": "schet-04-nematerialnye-aktivy",
+   "label": "Счёт 04 «Нематериальные активы»",
+   "classCode": "Account"
+  },
+  {
+   "id": "schet-08-08-vypolnenie-niokr",
+   "label": "Счёт 08.08 «Выполнение НИОКР»",
+   "classCode": "Account"
+  },
+  {
+   "id": "schet-10-materialy",
+   "label": "Счёт 10 «Материалы»",
+   "classCode": "Account"
+  },
+  {
+   "id": "schet-20-osnovnoe-proizvodstvo",
+   "label": "Счёт 20 «Основное производство»",
+   "classCode": "Account"
+  },
+  {
+   "id": "schet-25-obscheproizvodstvennye-rashody",
+   "label": "Счёт 25 «Общепроизводственные расходы»",
+   "classCode": "Account"
+  },
+  {
+   "id": "schet-51-raschetnye-scheta",
+   "label": "Счёт 51 «Расчётные счета»",
+   "classCode": "Account"
+  },
+  {
+   "id": "schet-60-raschety-s-postavschikami-i-podryadchikami",
+   "label": "Счёт 60 «Расчёты с поставщиками и подрядчиками»",
+   "classCode": "Account"
+  },
+  {
+   "id": "schet-62-raschety-s-pokupatelyami-i-zakazchikami",
+   "label": "Счёт 62 «Расчёты с покупателями и заказчиками»",
+   "classCode": "Account"
+  },
+  {
+   "id": "schet-69-raschety-po-socialnomu-strahovaniyu",
+   "label": "Счёт 69 «Расчёты по социальному страхованию»",
+   "classCode": "Account"
+  },
+  {
+   "id": "schet-70-raschety-s-personalom-po-oplate-truda",
+   "label": "Счёт 70 «Расчёты с персоналом по оплате труда»",
+   "classCode": "Account"
+  },
+  {
+   "id": "schet-84-neraspredelennaya-pribyl",
+   "label": "Счёт 84 «Нераспределённая прибыль»",
+   "classCode": "Account"
+  },
+  {
+   "id": "schet-90-01-vyruchka",
+   "label": "Счёт 90.01 «Выручка»",
+   "classCode": "Account"
+  },
+  {
+   "id": "schet-90-02-sebestoimost-prodazh",
+   "label": "Счёт 90.02 «Себестоимость продаж»",
+   "classCode": "Account"
+  },
+  {
+   "id": "class-schet-buhgalterskogo-ucheta",
+   "label": "Счёт бухгалтерского учёта",
+   "classCode": "Account",
+   "isClass": true
+  },
+  {
+   "id": "tz-na-niokr",
+   "label": "ТЗ на НИОКР",
+   "classCode": "Appendix"
+  },
+  {
+   "id": "class-transformaciya-materialov",
+   "label": "Трансформация материалов",
+   "classCode": "MaterialTransformation",
+   "isClass": true
+  },
+  {
+   "id": "trebovanie-egisu-nioktr",
+   "label": "Требование ЕГИСУ НИОКТР",
+   "classCode": "LegalRequirement"
+  },
+  {
+   "id": "class-trebovanie-zakonodatelstva",
+   "label": "Требование законодательства",
+   "classCode": "LegalRequirement",
+   "isClass": true
+  },
+  {
+   "id": "trebovanie-o-privlechenii-soispolniteley",
+   "label": "Требование о привлечении соисполнителей",
+   "classCode": "LegalRequirement"
+  },
+  {
+   "id": "trebovaniya-44-fz",
+   "label": "Требования 44-ФЗ",
+   "classCode": "ContractRequirementGroup"
+  },
+  {
+   "id": "trebovaniya-byudzhetnogo-kodeksa-rf",
+   "label": "Требования Бюджетного кодекса РФ",
+   "classCode": "ContractRequirementGroup"
+  },
+  {
+   "id": "trebovaniya-tipovogo-kontrakta-minobrnauki",
+   "label": "Требования типового контракта Минобрнауки",
+   "classCode": "ContractRequirementGroup"
+  },
+  {
+   "id": "ugt-4",
+   "label": "УГТ 4",
+   "classCode": "TechnologyReadinessLevel"
+  },
+  {
+   "id": "ugt-5",
+   "label": "УГТ 5",
+   "classCode": "TechnologyReadinessLevel"
+  },
+  {
+   "id": "class-uroven-gotovnosti-tehnologii",
+   "label": "Уровень готовности технологии",
+   "classCode": "TechnologyReadinessLevel",
+   "isClass": true
+  },
+  {
+   "id": "faza-okr",
+   "label": "Фаза «ОКР»",
+   "classCode": "LifecyclePhase"
+  },
+  {
+   "id": "class-faza-zhiznennogo-cikla",
+   "label": "Фаза жизненного цикла",
+   "classCode": "LifecyclePhase",
+   "isClass": true
+  },
+  {
+   "id": "class-fizicheskoe-lico",
+   "label": "Физическое лицо",
+   "classCode": "Person",
+   "isClass": true
+  },
+  {
+   "id": "class-finansirovanie",
+   "label": "Финансирование",
+   "classCode": "Funding",
+   "isClass": true
+  },
+  {
+   "id": "finansirovanie-2026",
+   "label": "Финансирование 2026",
+   "classCode": "Funding"
+  },
+  {
+   "id": "class-finansovyy-otchet",
+   "label": "Финансовый отчёт",
+   "classCode": "FinancialStatement",
+   "isClass": true
+  },
+  {
+   "id": "class-hozyaystvennaya-operaciya",
+   "label": "Хозяйственная операция",
+   "classCode": "BusinessTransaction",
+   "isClass": true
+  },
+  {
+   "id": "class-eksperiment",
+   "label": "Эксперимент",
+   "classCode": "Experiment",
+   "isClass": true
+  },
+  {
+   "id": "eksperiment-otzhig-obrazcov",
+   "label": "Эксперимент «Отжиг образцов»",
+   "classCode": "Experiment"
+  },
+  {
+   "id": "class-ekspertiza",
+   "label": "Экспертиза",
+   "classCode": "ExpertReview",
+   "isClass": true
+  },
+  {
+   "id": "ekspertiza-etapa-2",
+   "label": "Экспертиза этапа 2",
+   "classCode": "ExpertReview"
+  },
+  {
+   "id": "etap-1-nir",
+   "label": "Этап 1. НИР",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-2-okr",
+   "label": "Этап 2. ОКР",
+   "classCode": "Stage"
+  },
+  {
+   "id": "etap-3-ispytaniya",
+   "label": "Этап 3. Испытания",
+   "classCode": "Stage"
+  },
+  {
+   "id": "class-etap-proekta",
+   "label": "Этап проекта",
+   "classCode": "Stage",
+   "isClass": true
+  }
+ ]
+}

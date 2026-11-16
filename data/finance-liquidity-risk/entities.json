@@ -1,0 +1,477 @@
+{
+ "entities": [
+  {
+   "id": "class-aktiv",
+   "label": "Актив",
+   "classCode": "Asset",
+   "isClass": true
+  },
+  {
+   "id": "amortizaciya-30-nedenezhnyy",
+   "label": "Амортизация 30 (неденежный)",
+   "classCode": "Expense"
+  },
+  {
+   "id": "amortizaciya-osnovnyh-sredstv-iii-kv",
+   "label": "Амортизация основных средств III кв.",
+   "classCode": "Operation"
+  },
+  {
+   "id": "class-balans",
+   "label": "Баланс",
+   "classCode": "BalanceSheet",
+   "isClass": true
+  },
+  {
+   "id": "balans-na-30-06-2026",
+   "label": "Баланс на 30.06.2026",
+   "classCode": "BalanceSheet"
+  },
+  {
+   "id": "balans-na-30-09-2026",
+   "label": "Баланс на 30.09.2026",
+   "classCode": "BalanceSheet"
+  },
+  {
+   "id": "bank-omega",
+   "label": "Банк «Омега»",
+   "classCode": "Counterparty"
+  },
+  {
+   "id": "valyutnyy-risk",
+   "label": "Валютный риск",
+   "classCode": "Risk"
+  },
+  {
+   "id": "valyutnyy-shok",
+   "label": "Валютный шок",
+   "classCode": "Threat"
+  },
+  {
+   "id": "vtoraya-kreditnaya-liniya-v-drugom-banke",
+   "label": "Вторая кредитная линия в другом банке",
+   "classCode": "Control"
+  },
+  {
+   "id": "vyruchka-500",
+   "label": "Выручка 500",
+   "classCode": "Income"
+  },
+  {
+   "id": "debitorskaya-zadolzhennost-200-30-06",
+   "label": "Дебиторская задолженность 200 (30.06)",
+   "classCode": "Asset"
+  },
+  {
+   "id": "debitorskaya-zadolzhennost-280-30-09",
+   "label": "Дебиторская задолженность 280 (30.09)",
+   "classCode": "Asset"
+  },
+  {
+   "id": "denezhnye-sredstva-100-30-06",
+   "label": "Денежные средства 100 (30.06)",
+   "classCode": "Asset"
+  },
+  {
+   "id": "denezhnye-sredstva-5-30-09",
+   "label": "Денежные средства 5 (30.09)",
+   "classCode": "Asset"
+  },
+  {
+   "id": "class-denezhnyy-potok",
+   "label": "Денежный поток",
+   "classCode": "CashFlow",
+   "isClass": true
+  },
+  {
+   "id": "diversifikaciya-pokupateley",
+   "label": "Диверсификация покупателей",
+   "classCode": "Control"
+  },
+  {
+   "id": "class-dohod",
+   "label": "Доход",
+   "classCode": "Income",
+   "isClass": true
+  },
+  {
+   "id": "zaderzhka-platezha-pokupatelya-b",
+   "label": "Задержка платежа Покупателя B",
+   "classCode": "Threat"
+  },
+  {
+   "id": "zaemnye-sredstva-260-30-09",
+   "label": "Заёмные средства 260 (30.09)",
+   "classCode": "Liability"
+  },
+  {
+   "id": "zaemnye-sredstva-300-30-06",
+   "label": "Заёмные средства 300 (30.06)",
+   "classCode": "Liability"
+  },
+  {
+   "id": "zakupki-i-operacionnye-platezhi-iii-kv",
+   "label": "Закупки и операционные платежи III кв.",
+   "classCode": "Operation"
+  },
+  {
+   "id": "class-zapas-likvidnosti",
+   "label": "Запас ликвидности",
+   "classCode": "LiquidityBuffer",
+   "isClass": true
+  },
+  {
+   "id": "zapas-likvidnosti-125-dengi-5-liniya-120",
+   "label": "Запас ликвидности 125 (деньги 5 + линия 120)",
+   "classCode": "LiquidityBuffer"
+  },
+  {
+   "id": "zapasy-150-30-06",
+   "label": "Запасы 150 (30.06)",
+   "classCode": "Asset"
+  },
+  {
+   "id": "zapasy-200-30-09",
+   "label": "Запасы 200 (30.09)",
+   "classCode": "Asset"
+  },
+  {
+   "id": "investicionnyy-potok-50",
+   "label": "Инвестиционный поток −50",
+   "classCode": "CashFlow"
+  },
+  {
+   "id": "class-kapital",
+   "label": "Капитал",
+   "classCode": "Equity",
+   "isClass": true
+  },
+  {
+   "id": "kapital-430-30-06",
+   "label": "Капитал 430 (30.06)",
+   "classCode": "Equity"
+  },
+  {
+   "id": "kapital-505-30-09",
+   "label": "Капитал 505 (30.09)",
+   "classCode": "Equity"
+  },
+  {
+   "id": "kapitalnye-vlozheniya-iii-kv",
+   "label": "Капитальные вложения III кв.",
+   "classCode": "Operation"
+  },
+  {
+   "id": "kiberataka-na-bank-klient",
+   "label": "Кибератака на банк-клиент",
+   "classCode": "Threat"
+  },
+  {
+   "id": "class-kontragent",
+   "label": "Контрагент",
+   "classCode": "Counterparty",
+   "isClass": true
+  },
+  {
+   "id": "class-kreditnaya-liniya",
+   "label": "Кредитная линия",
+   "classCode": "CreditFacility",
+   "isClass": true
+  },
+  {
+   "id": "kreditnaya-liniya-omega-svobodno-120",
+   "label": "Кредитная линия «Омега», свободно 120",
+   "classCode": "CreditFacility"
+  },
+  {
+   "id": "kreditnyy-risk",
+   "label": "Кредитный риск",
+   "classCode": "Risk"
+  },
+  {
+   "id": "kreditorskaya-zadolzhennost-120-30-06",
+   "label": "Кредиторская задолженность 120 (30.06)",
+   "classCode": "Liability"
+  },
+  {
+   "id": "kreditorskaya-zadolzhennost-140-30-09",
+   "label": "Кредиторская задолженность 140 (30.09)",
+   "classCode": "Liability"
+  },
+  {
+   "id": "class-limit-likvidnosti",
+   "label": "Лимит ликвидности",
+   "classCode": "LiquidityLimit",
+   "isClass": true
+  },
+  {
+   "id": "limit-ne-nizhe-1-10",
+   "label": "Лимит: не ниже 1,10",
+   "classCode": "LiquidityLimit"
+  },
+  {
+   "id": "class-mera-snizheniya-riska",
+   "label": "Мера снижения риска",
+   "classCode": "Control",
+   "isClass": true
+  },
+  {
+   "id": "obsluzhivanie-dolga-iii-kv",
+   "label": "Обслуживание долга III кв.",
+   "classCode": "Operation"
+  },
+  {
+   "id": "class-obyazatelstvo",
+   "label": "Обязательство",
+   "classCode": "Liability",
+   "isClass": true
+  },
+  {
+   "id": "ogranichenie-platezhey-po-sankciyam",
+   "label": "Ограничение платежей по санкциям",
+   "classCode": "Threat"
+  },
+  {
+   "id": "odds-za-iii-kvartal-2026",
+   "label": "ОДДС за III квартал 2026",
+   "classCode": "CashFlowStatement"
+  },
+  {
+   "id": "ozhidaemye-vyplaty-180",
+   "label": "Ожидаемые выплаты 180",
+   "classCode": "CashFlow"
+  },
+  {
+   "id": "ozhidaemye-postupleniya-100-b-60-c-40",
+   "label": "Ожидаемые поступления 100 (B 60, C 40)",
+   "classCode": "CashFlow"
+  },
+  {
+   "id": "ooo-alfa",
+   "label": "ООО «Альфа»",
+   "classCode": "Organization"
+  },
+  {
+   "id": "operacionnye-rashody-80",
+   "label": "Операционные расходы 80",
+   "classCode": "Expense"
+  },
+  {
+   "id": "operacionnyy-potok-5",
+   "label": "Операционный поток −5",
+   "classCode": "CashFlow"
+  },
+  {
+   "id": "opiu-za-iii-kvartal-2026",
+   "label": "ОПиУ за III квартал 2026",
+   "classCode": "ProfitLossStatement"
+  },
+  {
+   "id": "class-organizaciya",
+   "label": "Организация",
+   "classCode": "Organization",
+   "isClass": true
+  },
+  {
+   "id": "osnovnye-sredstva-400-30-06",
+   "label": "Основные средства 400 (30.06)",
+   "classCode": "Asset"
+  },
+  {
+   "id": "osnovnye-sredstva-420-30-09",
+   "label": "Основные средства 420 (30.09)",
+   "classCode": "Asset"
+  },
+  {
+   "id": "otzyv-kreditnoy-linii-bankom",
+   "label": "Отзыв кредитной линии банком",
+   "classCode": "Threat"
+  },
+  {
+   "id": "class-otchet-o-dvizhenii-denezhnyh-sredstv",
+   "label": "Отчёт о движении денежных средств",
+   "classCode": "CashFlowStatement",
+   "isClass": true
+  },
+  {
+   "id": "class-otchet-o-pribylyah-i-ubytkah",
+   "label": "Отчёт о прибылях и убытках",
+   "classCode": "ProfitLossStatement",
+   "isClass": true
+  },
+  {
+   "id": "class-otchetnyy-period",
+   "label": "Отчётный период",
+   "classCode": "ReportingPeriod",
+   "isClass": true
+  },
+  {
+   "id": "plan-avariynogo-privlecheniya-likvidnosti",
+   "label": "План аварийного привлечения ликвидности",
+   "classCode": "Control"
+  },
+  {
+   "id": "pogashenie-zayma-iii-kv",
+   "label": "Погашение займа III кв.",
+   "classCode": "Operation"
+  },
+  {
+   "id": "class-pokazatel-likvidnosti",
+   "label": "Показатель ликвидности",
+   "classCode": "LiquidityIndicator",
+   "isClass": true
+  },
+  {
+   "id": "pokrytie-likvidnosti-na-30-dney-1-25",
+   "label": "Покрытие ликвидности на 30 дней = 1,25",
+   "classCode": "LiquidityIndicator"
+  },
+  {
+   "id": "pokupatel-a",
+   "label": "Покупатель A",
+   "classCode": "Counterparty"
+  },
+  {
+   "id": "pokupatel-b",
+   "label": "Покупатель B",
+   "classCode": "Counterparty"
+  },
+  {
+   "id": "pokupatel-c",
+   "label": "Покупатель C",
+   "classCode": "Counterparty"
+  },
+  {
+   "id": "postavschik-x",
+   "label": "Поставщик X",
+   "classCode": "Counterparty"
+  },
+  {
+   "id": "class-prognoz-denezhnyh-potokov",
+   "label": "Прогноз денежных потоков",
+   "classCode": "CashForecast",
+   "isClass": true
+  },
+  {
+   "id": "prognoz-denezhnyh-potokov-na-30-dney",
+   "label": "Прогноз денежных потоков на 30 дней",
+   "classCode": "CashForecast"
+  },
+  {
+   "id": "prodazhi-iii-kv",
+   "label": "Продажи III кв.",
+   "classCode": "Operation"
+  },
+  {
+   "id": "procentnye-rashody-15",
+   "label": "Процентные расходы 15",
+   "classCode": "Expense"
+  },
+  {
+   "id": "class-rashod",
+   "label": "Расход",
+   "classCode": "Expense",
+   "isClass": true
+  },
+  {
+   "id": "raschetnye-scheta-v-neskolkih-bankah",
+   "label": "Расчётные счета в нескольких банках",
+   "classCode": "Control"
+  },
+  {
+   "id": "class-risk",
+   "label": "Риск",
+   "classCode": "Risk",
+   "isClass": true
+  },
+  {
+   "id": "risk-koncentracii-debitorov-a-53-6",
+   "label": "Риск концентрации дебиторов (A — 53,6 %)",
+   "classCode": "Risk"
+  },
+  {
+   "id": "risk-likvidnosti",
+   "label": "Риск ликвидности",
+   "classCode": "Risk"
+  },
+  {
+   "id": "risk-refinansirovaniya",
+   "label": "Риск рефинансирования",
+   "classCode": "Risk"
+  },
+  {
+   "id": "sankcionnyy-risk",
+   "label": "Санкционный риск",
+   "classCode": "Risk"
+  },
+  {
+   "id": "sebestoimost-prodazh-300",
+   "label": "Себестоимость продаж 300",
+   "classCode": "Expense"
+  },
+  {
+   "id": "class-stress-scenariy",
+   "label": "Стресс-сценарий",
+   "classCode": "StressScenario",
+   "isClass": true
+  },
+  {
+   "id": "scenariy-bank-otzyvaet-liniyu-pokrytie-0-58",
+   "label": "Сценарий: банк отзывает линию (покрытие 0,58)",
+   "classCode": "StressScenario"
+  },
+  {
+   "id": "scenariy-zaderzhka-b-i-otzyv-linii-pokrytie-0-25",
+   "label": "Сценарий: задержка B и отзыв линии (покрытие 0,25)",
+   "classCode": "StressScenario"
+  },
+  {
+   "id": "scenariy-pokupatel-b-zaderzhivaet-platezh-pokrytie-0-92",
+   "label": "Сценарий: Покупатель B задерживает платёж (покрытие 0,92)",
+   "classCode": "StressScenario"
+  },
+  {
+   "id": "class-ugroza",
+   "label": "Угроза",
+   "classCode": "Threat",
+   "isClass": true
+  },
+  {
+   "id": "uskorenie-vzyskaniya-debitorskoy-zadolzhennosti",
+   "label": "Ускорение взыскания дебиторской задолженности",
+   "classCode": "Control"
+  },
+  {
+   "id": "finansovyy-potok-40",
+   "label": "Финансовый поток −40",
+   "classCode": "CashFlow"
+  },
+  {
+   "id": "hedzhirovanie-valyutnoy-pozicii",
+   "label": "Хеджирование валютной позиции",
+   "classCode": "Control"
+  },
+  {
+   "id": "class-hozyaystvennaya-operaciya",
+   "label": "Хозяйственная операция",
+   "classCode": "Operation",
+   "isClass": true
+  },
+  {
+   "id": "class-chistaya-pribyl",
+   "label": "Чистая прибыль",
+   "classCode": "NetIncome",
+   "isClass": true
+  },
+  {
+   "id": "chistaya-pribyl-75",
+   "label": "Чистая прибыль 75",
+   "classCode": "NetIncome"
+  },
+  {
+   "id": "iii-kvartal-2026",
+   "label": "III квартал 2026",
+   "classCode": "ReportingPeriod"
+  }
+ ]
+}

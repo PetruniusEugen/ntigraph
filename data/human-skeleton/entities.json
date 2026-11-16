@@ -1,0 +1,1082 @@
+{
+ "entities": [
+  {
+   "id": "artroz-golenostopnogo-sustava",
+   "label": "Артроз голеностопного сустава",
+   "classCode": "Injury"
+  },
+  {
+   "id": "artroz-kolennogo-sustava",
+   "label": "Артроз коленного сустава",
+   "classCode": "Injury"
+  },
+  {
+   "id": "bedrennaya-kost",
+   "label": "Бедренная кость",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "bezymyannyy-palec",
+   "label": "Безымянный палец",
+   "classCode": "Finger"
+  },
+  {
+   "id": "bolshebercovaya-kost",
+   "label": "Большеберцовая кость",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "bolshoy-palec",
+   "label": "Большой палец",
+   "classCode": "Finger"
+  },
+  {
+   "id": "bolshoy-palec-stopy",
+   "label": "Большой палец стопы",
+   "classCode": "Toe"
+  },
+  {
+   "id": "valgusnaya-deformaciya-pervogo-palca-stopy",
+   "label": "Вальгусная деформация первого пальца стопы",
+   "classCode": "Injury"
+  },
+  {
+   "id": "vlagalische-suhozhiliy-dlinnogo-razgibatelya-palcev-stopy",
+   "label": "Влагалище сухожилий длинного разгибателя пальцев стопы",
+   "classCode": "TendonSheath"
+  },
+  {
+   "id": "vlagalische-suhozhiliy-dlinnogo-sgibatelya-palcev-stopy",
+   "label": "Влагалище сухожилий длинного сгибателя пальцев стопы",
+   "classCode": "TendonSheath"
+  },
+  {
+   "id": "vlagalische-suhozhiliya-dlinnogo-razgibatelya-bolshogo-palca-stopy",
+   "label": "Влагалище сухожилия длинного разгибателя большого пальца стопы",
+   "classCode": "TendonSheath"
+  },
+  {
+   "id": "vlagalische-suhozhiliya-dlinnogo-sgibatelya-bolshogo-palca-stopy",
+   "label": "Влагалище сухожилия длинного сгибателя большого пальца стопы",
+   "classCode": "TendonSheath"
+  },
+  {
+   "id": "vlagalische-suhozhiliya-zadney-bolshebercovoy-myshcy",
+   "label": "Влагалище сухожилия задней большеберцовой мышцы",
+   "classCode": "TendonSheath"
+  },
+  {
+   "id": "vlagalische-suhozhiliya-peredney-bolshebercovoy-myshcy",
+   "label": "Влагалище сухожилия передней большеберцовой мышцы",
+   "classCode": "TendonSheath"
+  },
+  {
+   "id": "vtoroy-palec-stopy",
+   "label": "Второй палец стопы",
+   "classCode": "Toe"
+  },
+  {
+   "id": "vyvih-plecha",
+   "label": "Вывих плеча",
+   "classCode": "Injury"
+  },
+  {
+   "id": "glubokiy-sgibatel-palcev",
+   "label": "Глубокий сгибатель пальцев",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "golenostopnyy-sustav",
+   "label": "Голеностопный сустав",
+   "classCode": "Joint"
+  },
+  {
+   "id": "golovnoy-mozg",
+   "label": "Головной мозг",
+   "classCode": "Organ"
+  },
+  {
+   "id": "grudnaya-kletka",
+   "label": "Грудная клетка",
+   "classCode": "AxialBone"
+  },
+  {
+   "id": "dvizhenie",
+   "label": "Движение",
+   "classCode": "Function"
+  },
+  {
+   "id": "dvuglavaya-myshca-plecha",
+   "label": "Двуглавая мышца плеча",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "deltovidnaya-myshca",
+   "label": "Дельтовидная мышца",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "deltovidnaya-svyazka",
+   "label": "Дельтовидная связка",
+   "classCode": "Ligament"
+  },
+  {
+   "id": "depo-mineralov",
+   "label": "Депо минералов",
+   "classCode": "Function"
+  },
+  {
+   "id": "distalnaya-falanga-bezymyannogo-palca",
+   "label": "Дистальная фаланга безымянного пальца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "distalnaya-falanga-bolshogo-palca",
+   "label": "Дистальная фаланга большого пальца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "distalnaya-falanga-bolshogo-palca-stopy",
+   "label": "Дистальная фаланга большого пальца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "distalnaya-falanga-vtorogo-palca-stopy",
+   "label": "Дистальная фаланга второго пальца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "distalnaya-falanga-mizinca",
+   "label": "Дистальная фаланга мизинца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "distalnaya-falanga-mizinca-stopy",
+   "label": "Дистальная фаланга мизинца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "distalnaya-falanga-srednego-palca",
+   "label": "Дистальная фаланга среднего пальца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "distalnaya-falanga-tretego-palca-stopy",
+   "label": "Дистальная фаланга третьего пальца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "distalnaya-falanga-ukazatelnogo-palca",
+   "label": "Дистальная фаланга указательного пальца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "distalnaya-falanga-chetvertogo-palca-stopy",
+   "label": "Дистальная фаланга четвёртого пальца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "distalnyy-mezhbercovyy-sindesmoz",
+   "label": "Дистальный межберцовый синдесмоз",
+   "classCode": "Joint"
+  },
+  {
+   "id": "distalnyy-mezhfalangovyy-sustav-bezymyannogo-palca",
+   "label": "Дистальный межфаланговый сустав безымянного пальца",
+   "classCode": "Joint"
+  },
+  {
+   "id": "distalnyy-mezhfalangovyy-sustav-vtorogo-palca-stopy",
+   "label": "Дистальный межфаланговый сустав второго пальца стопы",
+   "classCode": "Joint"
+  },
+  {
+   "id": "distalnyy-mezhfalangovyy-sustav-mizinca",
+   "label": "Дистальный межфаланговый сустав мизинца",
+   "classCode": "Joint"
+  },
+  {
+   "id": "distalnyy-mezhfalangovyy-sustav-mizinca-stopy",
+   "label": "Дистальный межфаланговый сустав мизинца стопы",
+   "classCode": "Joint"
+  },
+  {
+   "id": "distalnyy-mezhfalangovyy-sustav-srednego-palca",
+   "label": "Дистальный межфаланговый сустав среднего пальца",
+   "classCode": "Joint"
+  },
+  {
+   "id": "distalnyy-mezhfalangovyy-sustav-tretego-palca-stopy",
+   "label": "Дистальный межфаланговый сустав третьего пальца стопы",
+   "classCode": "Joint"
+  },
+  {
+   "id": "distalnyy-mezhfalangovyy-sustav-ukazatelnogo-palca",
+   "label": "Дистальный межфаланговый сустав указательного пальца",
+   "classCode": "Joint"
+  },
+  {
+   "id": "distalnyy-mezhfalangovyy-sustav-chetvertogo-palca-stopy",
+   "label": "Дистальный межфаланговый сустав четвёртого пальца стопы",
+   "classCode": "Joint"
+  },
+  {
+   "id": "disfunkciya-suhozhiliya-zadney-bolshebercovoy-myshcy",
+   "label": "Дисфункция сухожилия задней большеберцовой мышцы",
+   "classCode": "Injury"
+  },
+  {
+   "id": "dlinnaya-malobercovaya-myshca",
+   "label": "Длинная малоберцовая мышца",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "dlinnaya-podoshvennaya-svyazka",
+   "label": "Длинная подошвенная связка",
+   "classCode": "Ligament"
+  },
+  {
+   "id": "dlinnyy-razgibatel-bolshogo-palca-stopy",
+   "label": "Длинный разгибатель большого пальца стопы",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "dlinnyy-razgibatel-palcev-stopy",
+   "label": "Длинный разгибатель пальцев стопы",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "dlinnyy-sgibatel-bolshogo-palca",
+   "label": "Длинный сгибатель большого пальца",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "dlinnyy-sgibatel-bolshogo-palca-stopy",
+   "label": "Длинный сгибатель большого пальца стопы",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "dlinnyy-sgibatel-palcev-stopy",
+   "label": "Длинный сгибатель пальцев стопы",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "dobavochnyy-skelet",
+   "label": "Добавочный скелет",
+   "classCode": "Division"
+  },
+  {
+   "id": "zadnyaya-bolshebercovaya-myshca",
+   "label": "Задняя большеберцовая мышца",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "zadnyaya-taranno-malobercovaya-svyazka",
+   "label": "Задняя таранно-малоберцовая связка",
+   "classCode": "Ligament"
+  },
+  {
+   "id": "zapyastno-pyastnyy-sustav-bolshogo-palca",
+   "label": "Запястно-пястный сустав большого пальца",
+   "classCode": "Joint"
+  },
+  {
+   "id": "zaschita-organov",
+   "label": "Защита органов",
+   "classCode": "Function"
+  },
+  {
+   "id": "kvadratnaya-myshca-podoshvy",
+   "label": "Квадратная мышца подошвы",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "klinovidno-ladevidnyy-sustav",
+   "label": "Клиновидно-ладьевидный сустав",
+   "classCode": "Joint"
+  },
+  {
+   "id": "kolennyy-sustav",
+   "label": "Коленный сустав",
+   "classCode": "Joint"
+  },
+  {
+   "id": "korotkaya-malobercovaya-myshca",
+   "label": "Короткая малоберцовая мышца",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "korotkiy-razgibatel-bolshogo-palca-stopy",
+   "label": "Короткий разгибатель большого пальца стопы",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "korotkiy-razgibatel-palcev-stopy",
+   "label": "Короткий разгибатель пальцев стопы",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "korotkiy-sgibatel-bolshogo-palca-stopy",
+   "label": "Короткий сгибатель большого пальца стопы",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "korotkiy-sgibatel-mizinca-stopy",
+   "label": "Короткий сгибатель мизинца стопы",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "korotkiy-sgibatel-palcev-stopy",
+   "label": "Короткий сгибатель пальцев стопы",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "kosti-zapyastya",
+   "label": "Кости запястья",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "class-kost-dobavochnogo-skeleta",
+   "label": "Кость добавочного скелета",
+   "classCode": "LimbBone",
+   "isClass": true
+  },
+  {
+   "id": "class-kost-osevogo-skeleta",
+   "label": "Кость осевого скелета",
+   "classCode": "AxialBone",
+   "isClass": true
+  },
+  {
+   "id": "krovetvorenie",
+   "label": "Кроветворение",
+   "classCode": "Function"
+  },
+  {
+   "id": "kubovidnaya-kost-stopy",
+   "label": "Кубовидная кость стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "ladevidnaya-kost-stopy",
+   "label": "Ладьевидная кость стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "lateralnaya-klinovidnaya-kost",
+   "label": "Латеральная клиновидная кость",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "legkie",
+   "label": "Лёгкие",
+   "classCode": "Organ"
+  },
+  {
+   "id": "loktevaya-kost",
+   "label": "Локтевая кость",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "loktevoy-sustav",
+   "label": "Локтевой сустав",
+   "classCode": "Joint"
+  },
+  {
+   "id": "lopatka",
+   "label": "Лопатка",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "luchevaya-kost",
+   "label": "Лучевая кость",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "luchezapyastnyy-sustav",
+   "label": "Лучезапястный сустав",
+   "classCode": "Joint"
+  },
+  {
+   "id": "malobercovaya-kost",
+   "label": "Малоберцовая кость",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "medialnaya-klinovidnaya-kost",
+   "label": "Медиальная клиновидная кость",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "mezhklinovidnye-sustavy",
+   "label": "Межклиновидные суставы",
+   "classCode": "Joint"
+  },
+  {
+   "id": "mezhfalangovyy-sustav-bolshogo-palca",
+   "label": "Межфаланговый сустав большого пальца",
+   "classCode": "Joint"
+  },
+  {
+   "id": "mezhfalangovyy-sustav-bolshogo-palca-stopy",
+   "label": "Межфаланговый сустав большого пальца стопы",
+   "classCode": "Joint"
+  },
+  {
+   "id": "mizinec",
+   "label": "Мизинец",
+   "classCode": "Finger"
+  },
+  {
+   "id": "mizinec-stopy",
+   "label": "Мизинец стопы",
+   "classCode": "Toe"
+  },
+  {
+   "id": "class-myshca",
+   "label": "Мышца",
+   "classCode": "Muscle",
+   "isClass": true
+  },
+  {
+   "id": "obschee-vlagalische-suhozhiliy-malobercovyh-myshc",
+   "label": "Общее влагалище сухожилий малоберцовых мышц",
+   "classCode": "TendonSheath"
+  },
+  {
+   "id": "opora",
+   "label": "Опора",
+   "classCode": "Function"
+  },
+  {
+   "id": "class-organ",
+   "label": "Орган",
+   "classCode": "Organ",
+   "isClass": true
+  },
+  {
+   "id": "osevoy-skelet",
+   "label": "Осевой скелет",
+   "classCode": "Division"
+  },
+  {
+   "id": "osteoporoz",
+   "label": "Остеопороз",
+   "classCode": "Injury"
+  },
+  {
+   "id": "otvodyaschaya-myshca-bolshogo-palca-stopy",
+   "label": "Отводящая мышца большого пальца стопы",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "otvodyaschaya-myshca-mizinca-stopy",
+   "label": "Отводящая мышца мизинца стопы",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "class-otdel-skeleta",
+   "label": "Отдел скелета",
+   "classCode": "Division",
+   "isClass": true
+  },
+  {
+   "id": "class-palec-kisti",
+   "label": "Палец кисти",
+   "classCode": "Finger",
+   "isClass": true
+  },
+  {
+   "id": "class-palec-stopy",
+   "label": "Палец стопы",
+   "classCode": "Toe",
+   "isClass": true
+  },
+  {
+   "id": "palcevye-sinovialnye-vlagalischa-sgibateley-palcev-stopy",
+   "label": "Пальцевые синовиальные влагалища сгибателей пальцев стопы",
+   "classCode": "TendonSheath"
+  },
+  {
+   "id": "perednyaya-bolshebercovaya-myshca",
+   "label": "Передняя большеберцовая мышца",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "perednyaya-taranno-malobercovaya-svyazka",
+   "label": "Передняя таранно-малоберцовая связка",
+   "classCode": "Ligament"
+  },
+  {
+   "id": "perelom-lodyzhek",
+   "label": "Перелом лодыжек",
+   "classCode": "Injury"
+  },
+  {
+   "id": "perelom-luchevoy-kosti",
+   "label": "Перелом лучевой кости",
+   "classCode": "Injury"
+  },
+  {
+   "id": "perelom-proksimalnoy-falangi-ukazatelnogo-palca",
+   "label": "Перелом проксимальной фаланги указательного пальца",
+   "classCode": "Injury"
+  },
+  {
+   "id": "perelom-pyatoy-plyusnevoy-kosti",
+   "label": "Перелом пятой плюсневой кости",
+   "classCode": "Injury"
+  },
+  {
+   "id": "perelom-pyatochnoy-kosti",
+   "label": "Перелом пяточной кости",
+   "classCode": "Injury"
+  },
+  {
+   "id": "perelom-tarannoy-kosti",
+   "label": "Перелом таранной кости",
+   "classCode": "Injury"
+  },
+  {
+   "id": "perelom-sheyki-bedra",
+   "label": "Перелом шейки бедра",
+   "classCode": "Injury"
+  },
+  {
+   "id": "plechevaya-kost",
+   "label": "Плечевая кость",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "plechevoy-sustav",
+   "label": "Плечевой сустав",
+   "classCode": "Joint"
+  },
+  {
+   "id": "ploskostopie",
+   "label": "Плоскостопие",
+   "classCode": "Injury"
+  },
+  {
+   "id": "plyusnevaya-kost-bolshogo-palca-stopy",
+   "label": "Плюсневая кость большого пальца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "plyusnevaya-kost-vtorogo-palca-stopy",
+   "label": "Плюсневая кость второго пальца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "plyusnevaya-kost-mizinca-stopy",
+   "label": "Плюсневая кость мизинца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "plyusnevaya-kost-tretego-palca-stopy",
+   "label": "Плюсневая кость третьего пальца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "plyusnevaya-kost-chetvertogo-palca-stopy",
+   "label": "Плюсневая кость четвёртого пальца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "plyusnefalangovyy-sustav-bolshogo-palca-stopy",
+   "label": "Плюснефаланговый сустав большого пальца стопы",
+   "classCode": "Joint"
+  },
+  {
+   "id": "plyusnefalangovyy-sustav-vtorogo-palca-stopy",
+   "label": "Плюснефаланговый сустав второго пальца стопы",
+   "classCode": "Joint"
+  },
+  {
+   "id": "plyusnefalangovyy-sustav-mizinca-stopy",
+   "label": "Плюснефаланговый сустав мизинца стопы",
+   "classCode": "Joint"
+  },
+  {
+   "id": "plyusnefalangovyy-sustav-tretego-palca-stopy",
+   "label": "Плюснефаланговый сустав третьего пальца стопы",
+   "classCode": "Joint"
+  },
+  {
+   "id": "plyusnefalangovyy-sustav-chetvertogo-palca-stopy",
+   "label": "Плюснефаланговый сустав четвёртого пальца стопы",
+   "classCode": "Joint"
+  },
+  {
+   "id": "poverhnostnyy-sgibatel-palcev",
+   "label": "Поверхностный сгибатель пальцев",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "class-povrezhdenie-ili-zabolevanie",
+   "label": "Повреждение или заболевание",
+   "classCode": "Injury",
+   "isClass": true
+  },
+  {
+   "id": "povrezhdenie-sustava-lisfranka",
+   "label": "Повреждение сустава Лисфранка",
+   "classCode": "Injury"
+  },
+  {
+   "id": "podagricheskiy-artrit-pervogo-plyusnefalangovogo-sustava",
+   "label": "Подагрический артрит первого плюснефалангового сустава",
+   "classCode": "Injury"
+  },
+  {
+   "id": "podoshvennaya-pyatochno-ladevidnaya-svyazka",
+   "label": "Подошвенная пяточно-ладьевидная связка",
+   "classCode": "Ligament"
+  },
+  {
+   "id": "podoshvennoe-vlagalische-suhozhiliya-dlinnoy-malobercovoy-myshcy",
+   "label": "Подошвенное влагалище сухожилия длинной малоберцовой мышцы",
+   "classCode": "TendonSheath"
+  },
+  {
+   "id": "podoshvennye-mezhkostnye-myshcy",
+   "label": "Подошвенные межкостные мышцы",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "podoshvennyy-aponevroz",
+   "label": "Подошвенный апоневроз",
+   "classCode": "Ligament"
+  },
+  {
+   "id": "podoshvennyy-fasciit",
+   "label": "Подошвенный фасциит",
+   "classCode": "Injury"
+  },
+  {
+   "id": "podtarannyy-sustav",
+   "label": "Подтаранный сустав",
+   "classCode": "Joint"
+  },
+  {
+   "id": "pozvonochnik",
+   "label": "Позвоночник",
+   "classCode": "AxialBone"
+  },
+  {
+   "id": "poperechnyy-svod-stopy",
+   "label": "Поперечный свод стопы",
+   "classCode": "FootArch"
+  },
+  {
+   "id": "poperechnyy-sustav-predplyusny-shopara",
+   "label": "Поперечный сустав предплюсны (Шопара)",
+   "classCode": "Joint"
+  },
+  {
+   "id": "predplyusne-plyusnevyy-sustav-i-lucha",
+   "label": "Предплюсне-плюсневый сустав I луча",
+   "classCode": "Joint"
+  },
+  {
+   "id": "predplyusne-plyusnevyy-sustav-ii-lucha",
+   "label": "Предплюсне-плюсневый сустав II луча",
+   "classCode": "Joint"
+  },
+  {
+   "id": "predplyusne-plyusnevyy-sustav-iii-lucha",
+   "label": "Предплюсне-плюсневый сустав III луча",
+   "classCode": "Joint"
+  },
+  {
+   "id": "predplyusne-plyusnevyy-sustav-iv-lucha",
+   "label": "Предплюсне-плюсневый сустав IV луча",
+   "classCode": "Joint"
+  },
+  {
+   "id": "predplyusne-plyusnevyy-sustav-v-lucha",
+   "label": "Предплюсне-плюсневый сустав V луча",
+   "classCode": "Joint"
+  },
+  {
+   "id": "privodyaschaya-myshca-bolshogo-palca-stopy",
+   "label": "Приводящая мышца большого пальца стопы",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "prodolnyy-lateralnyy-svod",
+   "label": "Продольный латеральный свод",
+   "classCode": "FootArch"
+  },
+  {
+   "id": "prodolnyy-medialnyy-svod",
+   "label": "Продольный медиальный свод",
+   "classCode": "FootArch"
+  },
+  {
+   "id": "proksimalnaya-falanga-bezymyannogo-palca",
+   "label": "Проксимальная фаланга безымянного пальца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "proksimalnaya-falanga-bolshogo-palca",
+   "label": "Проксимальная фаланга большого пальца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "proksimalnaya-falanga-bolshogo-palca-stopy",
+   "label": "Проксимальная фаланга большого пальца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "proksimalnaya-falanga-vtorogo-palca-stopy",
+   "label": "Проксимальная фаланга второго пальца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "proksimalnaya-falanga-mizinca",
+   "label": "Проксимальная фаланга мизинца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "proksimalnaya-falanga-mizinca-stopy",
+   "label": "Проксимальная фаланга мизинца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "proksimalnaya-falanga-srednego-palca",
+   "label": "Проксимальная фаланга среднего пальца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "proksimalnaya-falanga-tretego-palca-stopy",
+   "label": "Проксимальная фаланга третьего пальца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "proksimalnaya-falanga-ukazatelnogo-palca",
+   "label": "Проксимальная фаланга указательного пальца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "proksimalnaya-falanga-chetvertogo-palca-stopy",
+   "label": "Проксимальная фаланга четвёртого пальца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "proksimalnyy-mezhfalangovyy-sustav-bezymyannogo-palca",
+   "label": "Проксимальный межфаланговый сустав безымянного пальца",
+   "classCode": "Joint"
+  },
+  {
+   "id": "proksimalnyy-mezhfalangovyy-sustav-vtorogo-palca-stopy",
+   "label": "Проксимальный межфаланговый сустав второго пальца стопы",
+   "classCode": "Joint"
+  },
+  {
+   "id": "proksimalnyy-mezhfalangovyy-sustav-mizinca",
+   "label": "Проксимальный межфаланговый сустав мизинца",
+   "classCode": "Joint"
+  },
+  {
+   "id": "proksimalnyy-mezhfalangovyy-sustav-mizinca-stopy",
+   "label": "Проксимальный межфаланговый сустав мизинца стопы",
+   "classCode": "Joint"
+  },
+  {
+   "id": "proksimalnyy-mezhfalangovyy-sustav-srednego-palca",
+   "label": "Проксимальный межфаланговый сустав среднего пальца",
+   "classCode": "Joint"
+  },
+  {
+   "id": "proksimalnyy-mezhfalangovyy-sustav-tretego-palca-stopy",
+   "label": "Проксимальный межфаланговый сустав третьего пальца стопы",
+   "classCode": "Joint"
+  },
+  {
+   "id": "proksimalnyy-mezhfalangovyy-sustav-ukazatelnogo-palca",
+   "label": "Проксимальный межфаланговый сустав указательного пальца",
+   "classCode": "Joint"
+  },
+  {
+   "id": "proksimalnyy-mezhfalangovyy-sustav-chetvertogo-palca-stopy",
+   "label": "Проксимальный межфаланговый сустав четвёртого пальца стопы",
+   "classCode": "Joint"
+  },
+  {
+   "id": "promezhutochnaya-klinovidnaya-kost",
+   "label": "Промежуточная клиновидная кость",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "pyastnaya-kost-bezymyannogo-palca",
+   "label": "Пястная кость безымянного пальца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "pyastnaya-kost-bolshogo-palca",
+   "label": "Пястная кость большого пальца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "pyastnaya-kost-mizinca",
+   "label": "Пястная кость мизинца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "pyastnaya-kost-srednego-palca",
+   "label": "Пястная кость среднего пальца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "pyastnaya-kost-ukazatelnogo-palca",
+   "label": "Пястная кость указательного пальца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "pyastno-falangovyy-sustav-bezymyannogo-palca",
+   "label": "Пястно-фаланговый сустав безымянного пальца",
+   "classCode": "Joint"
+  },
+  {
+   "id": "pyastno-falangovyy-sustav-bolshogo-palca",
+   "label": "Пястно-фаланговый сустав большого пальца",
+   "classCode": "Joint"
+  },
+  {
+   "id": "pyastno-falangovyy-sustav-mizinca",
+   "label": "Пястно-фаланговый сустав мизинца",
+   "classCode": "Joint"
+  },
+  {
+   "id": "pyastno-falangovyy-sustav-srednego-palca",
+   "label": "Пястно-фаланговый сустав среднего пальца",
+   "classCode": "Joint"
+  },
+  {
+   "id": "pyastno-falangovyy-sustav-ukazatelnogo-palca",
+   "label": "Пястно-фаланговый сустав указательного пальца",
+   "classCode": "Joint"
+  },
+  {
+   "id": "pyatochnaya-kost",
+   "label": "Пяточная кость",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "pyatochno-kubovidnyy-sustav",
+   "label": "Пяточно-кубовидный сустав",
+   "classCode": "Joint"
+  },
+  {
+   "id": "pyatochno-malobercovaya-svyazka",
+   "label": "Пяточно-малоберцовая связка",
+   "classCode": "Ligament"
+  },
+  {
+   "id": "razgibatel-palcev",
+   "label": "Разгибатель пальцев",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "razryv-ahillova-suhozhiliya",
+   "label": "Разрыв ахиллова сухожилия",
+   "classCode": "Injury"
+  },
+  {
+   "id": "rastyazhenie-svyazok-golenostopnogo-sustava",
+   "label": "Растяжение связок голеностопного сустава",
+   "classCode": "Injury"
+  },
+  {
+   "id": "revmatoidnyy-artrit-kisti",
+   "label": "Ревматоидный артрит кисти",
+   "classCode": "Injury"
+  },
+  {
+   "id": "rizartroz",
+   "label": "Ризартроз",
+   "classCode": "Injury"
+  },
+  {
+   "id": "class-svod-stopy",
+   "label": "Свод стопы",
+   "classCode": "FootArch",
+   "isClass": true
+  },
+  {
+   "id": "class-svyazka",
+   "label": "Связка",
+   "classCode": "Ligament",
+   "isClass": true
+  },
+  {
+   "id": "svyazka-lisfranka",
+   "label": "Связка Лисфранка",
+   "classCode": "Ligament"
+  },
+  {
+   "id": "svyazki-distalnogo-mezhbercovogo-sindesmoza",
+   "label": "Связки дистального межберцового синдесмоза",
+   "classCode": "Ligament"
+  },
+  {
+   "id": "serdce",
+   "label": "Сердце",
+   "classCode": "Organ"
+  },
+  {
+   "id": "sesamovidnye-kosti-bolshogo-palca-stopy",
+   "label": "Сесамовидные кости большого пальца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "spinnoy-mozg",
+   "label": "Спинной мозг",
+   "classCode": "Organ"
+  },
+  {
+   "id": "sredniy-palec",
+   "label": "Средний палец",
+   "classCode": "Finger"
+  },
+  {
+   "id": "srednyaya-falanga-bezymyannogo-palca",
+   "label": "Средняя фаланга безымянного пальца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "srednyaya-falanga-vtorogo-palca-stopy",
+   "label": "Средняя фаланга второго пальца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "srednyaya-falanga-mizinca",
+   "label": "Средняя фаланга мизинца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "srednyaya-falanga-mizinca-stopy",
+   "label": "Средняя фаланга мизинца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "srednyaya-falanga-srednego-palca",
+   "label": "Средняя фаланга среднего пальца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "srednyaya-falanga-tretego-palca-stopy",
+   "label": "Средняя фаланга третьего пальца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "srednyaya-falanga-ukazatelnogo-palca",
+   "label": "Средняя фаланга указательного пальца",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "srednyaya-falanga-chetvertogo-palca-stopy",
+   "label": "Средняя фаланга четвёртого пальца стопы",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "stenoziruyuschiy-tenosinovit-sgibatelya-bolshogo-palca-stopy",
+   "label": "Стенозирующий теносиновит сгибателя большого пальца стопы",
+   "classCode": "Injury"
+  },
+  {
+   "id": "class-sustav",
+   "label": "Сустав",
+   "classCode": "Joint",
+   "isClass": true
+  },
+  {
+   "id": "class-suhozhilnoe-vlagalische",
+   "label": "Сухожильное влагалище",
+   "classCode": "TendonSheath",
+   "isClass": true
+  },
+  {
+   "id": "tazobedrennyy-sustav",
+   "label": "Тазобедренный сустав",
+   "classCode": "Joint"
+  },
+  {
+   "id": "tazovaya-kost",
+   "label": "Тазовая кость",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "tarannaya-kost",
+   "label": "Таранная кость",
+   "classCode": "LimbBone"
+  },
+  {
+   "id": "taranno-pyatochno-ladevidnyy-sustav",
+   "label": "Таранно-пяточно-ладьевидный сустав",
+   "classCode": "Joint"
+  },
+  {
+   "id": "tendinopatiya-ahillova-suhozhiliya",
+   "label": "Тендинопатия ахиллова сухожилия",
+   "classCode": "Injury"
+  },
+  {
+   "id": "tenosinovit-suhozhiliy-malobercovyh-myshc",
+   "label": "Теносиновит сухожилий малоберцовых мышц",
+   "classCode": "Injury"
+  },
+  {
+   "id": "tretiy-palec-stopy",
+   "label": "Третий палец стопы",
+   "classCode": "Toe"
+  },
+  {
+   "id": "tretya-malobercovaya-myshca",
+   "label": "Третья малоберцовая мышца",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "trehglavaya-myshca-goleni",
+   "label": "Трёхглавая мышца голени",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "tylnye-mezhkostnye-myshcy-stopy",
+   "label": "Тыльные межкостные мышцы стопы",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "ukazatelnyy-palec",
+   "label": "Указательный палец",
+   "classCode": "Finger"
+  },
+  {
+   "id": "class-funkciya-skeleta",
+   "label": "Функция скелета",
+   "classCode": "Function",
+   "isClass": true
+  },
+  {
+   "id": "cherveobraznye-myshcy-stopy",
+   "label": "Червеобразные мышцы стопы",
+   "classCode": "Muscle"
+  },
+  {
+   "id": "cherep",
+   "label": "Череп",
+   "classCode": "AxialBone"
+  },
+  {
+   "id": "chetvertyy-palec-stopy",
+   "label": "Четвёртый палец стопы",
+   "classCode": "Toe"
+  },
+  {
+   "id": "chetyrehglavaya-myshca-bedra",
+   "label": "Четырёхглавая мышца бедра",
+   "classCode": "Muscle"
+  }
+ ]
+}

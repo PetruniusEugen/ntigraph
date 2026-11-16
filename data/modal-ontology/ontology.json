@@ -1,0 +1,900 @@
+{
+ "classes": [
+  {
+   "code": "CognitiveAgent",
+   "name": "Когнитивный агент",
+   "comment": "Материальный объект, способный иметь эпистемические состояния и быть адресатом норм.",
+   "attributes": [
+    {
+     "code": "agentId",
+     "name": "идентификатор",
+     "type": "string",
+     "comment": "Уникальный ID."
+    },
+    {
+     "code": "agentKind",
+     "name": "вид агента",
+     "type": "string",
+     "comment": "person | organization | software."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "EPI",
+     "name": "Эпистемические состояния"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Person",
+   "name": "Человек",
+   "comment": "Когнитивный агент — человеческий индивид.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "EPI",
+     "name": "Эпистемические состояния"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Organization",
+   "name": "Организация",
+   "comment": "Когнитивный агент — организационная единица.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "EPI",
+     "name": "Эпистемические состояния"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SoftwareAgent",
+   "name": "Программный агент",
+   "comment": "Когнитивный агент — программная система.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "EPI",
+     "name": "Эпистемические состояния"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Proposition",
+   "name": "Пропозиция",
+   "comment": "Содержание высказывания с истинностным значением.",
+   "attributes": [
+    {
+     "code": "naturalLanguage",
+     "name": "формулировка",
+     "type": "string",
+     "comment": "Текст пропозиции."
+    },
+    {
+     "code": "truthValue",
+     "name": "истинностное значение",
+     "type": "string",
+     "comment": "true | false | undefined."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ALE",
+     "name": "Алетическая модальность"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Situation",
+   "name": "Ситуация",
+   "comment": "Пропозиция особого рода — описание положения дел.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "ALE",
+     "name": "Алетическая модальность"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Model",
+   "name": "Модель",
+   "comment": "Интерпретация (набор возможных миров + отношение достижимости).",
+   "attributes": [
+    {
+     "code": "modelName",
+     "name": "название модели",
+     "type": "string",
+     "comment": "S5 | K | T | S4 | кастомная."
+    },
+    {
+     "code": "revisionStatus",
+     "name": "статус пересмотра",
+     "type": "string",
+     "comment": "черновик | на пересмотре | утверждён | отклонён."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ALE",
+     "name": "Алетическая модальность"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "AlethicStatus",
+   "name": "Алетический статус",
+   "comment": "Качество пропозиции, приписывающее ей модальный статус относительно модели.",
+   "attributes": [
+    {
+     "code": "modalityKind",
+     "name": "вид модальности",
+     "type": "string",
+     "comment": "necessity | possibility | impossibility | contingency."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ALE",
+     "name": "Алетическая модальность"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Necessity",
+   "name": "Необходимость",
+   "comment": "Истинно во всех мирах модели.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "ALE",
+     "name": "Алетическая модальность"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Possibility",
+   "name": "Возможность",
+   "comment": "Истинно хотя бы в одном мире модели.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "ALE",
+     "name": "Алетическая модальность"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Impossibility",
+   "name": "Невозможность",
+   "comment": "Не истинно ни в одном мире модели.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "ALE",
+     "name": "Алетическая модальность"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Contingency",
+   "name": "Случайность",
+   "comment": "Истинно в части миров модели.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "ALE",
+     "name": "Алетическая модальность"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "RevisionStatus",
+   "name": "Статус пересмотра",
+   "comment": "ICE, обозначающая стадию пересмотра нормы или модели.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DEO",
+     "name": "Деонтические нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "EpistemicState",
+   "name": "Эпистемическое состояние",
+   "comment": "Диспозиция агента, реализуемая в когнитивных процессах.",
+   "attributes": [
+    {
+     "code": "confidenceLevel",
+     "name": "уверенность",
+     "type": "float",
+     "comment": "0..1."
+    },
+    {
+     "code": "since",
+     "name": "с какого момента",
+     "type": "date",
+     "comment": "Начало."
+    },
+    {
+     "code": "until",
+     "name": "по какой момент",
+     "type": "date",
+     "comment": "Окончание (пусто = бессрочно)."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "EPI",
+     "name": "Эпистемические состояния"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Knowledge",
+   "name": "Знание",
+   "comment": "JTB-совместимое эпистемическое состояние. Disjoint с Ignorance.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "EPI",
+     "name": "Эпистемические состояния"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Ignorance",
+   "name": "Незнание",
+   "comment": "Эпистемическое состояние — отсутствие знания о содержании P у агента, моделируемое как явный позитивный инстанс (а не через отсутствие Knowledge). Введено для устранения argumentum ex silentio. Disjoint с Knowledge. Альтернатива — вывод из отсутствия Knowledge — отвергнута.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "EPI",
+     "name": "Эпистемические состояния"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Belief",
+   "name": "Убеждение",
+   "comment": "Принятие пропозиции без требования истинности.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "EPI",
+     "name": "Эпистемические состояния"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Supposition",
+   "name": "Допущение",
+   "comment": "Рассмотрение пропозиции как возможной.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "EPI",
+     "name": "Эпистемические состояния"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Doubt",
+   "name": "Сомнение",
+   "comment": "Неуверенность относительно истинности.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "EPI",
+     "name": "Эпистемические состояния"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "EpistemicContent",
+   "name": "Эпистемическое содержание",
+   "comment": "ICE — пропозициональное содержание установки.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "EPI",
+     "name": "Эпистемические состояния"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CognitiveProcess",
+   "name": "Когнитивный процесс",
+   "comment": "Процесс реализации эпистемической установки.",
+   "attributes": [
+    {
+     "code": "startTime",
+     "name": "начало",
+     "type": "date",
+     "comment": "Начало."
+    },
+    {
+     "code": "endTime",
+     "name": "окончание",
+     "type": "date",
+     "comment": "Окончание."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "EPI",
+     "name": "Эпистемические состояния"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Norm",
+   "name": "Норма",
+   "comment": "ICE, предписывающая, разрешающая или запрещающая действие.",
+   "attributes": [
+    {
+     "code": "effectiveFrom",
+     "name": "действует с",
+     "type": "date",
+     "comment": "Начало."
+    },
+    {
+     "code": "effectiveUntil",
+     "name": "действует до",
+     "type": "date",
+     "comment": "Окончание."
+    },
+    {
+     "code": "normId",
+     "name": "идентификатор",
+     "type": "string",
+     "comment": "Код."
+    },
+    {
+     "code": "revisionStatus",
+     "name": "статус пересмотра",
+     "type": "string",
+     "comment": "черновик | на пересмотре | утверждён | отклонён."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DEO",
+     "name": "Деонтические нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Obligation",
+   "name": "Обязанность",
+   "comment": "Требует выполнения действия.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DEO",
+     "name": "Деонтические нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Permission",
+   "name": "Разрешение",
+   "comment": "Допускает выполнение действия.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DEO",
+     "name": "Деонтические нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Prohibition",
+   "name": "Запрет",
+   "comment": "Требует невыполнения действия.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DEO",
+     "name": "Деонтические нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Right",
+   "name": "Право-притязание",
+   "comment": "Hohfeld: право требовать исполнения коррелятивной обязанности.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DEO",
+     "name": "Деонтические нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Power",
+   "name": "Полномочие",
+   "comment": "Hohfeld: способность изменять нормы/статусы.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DEO",
+     "name": "Деонтические нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Immunity",
+   "name": "Изъятие",
+   "comment": "Hohfeld: выведение из-под действия другой нормы.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DEO",
+     "name": "Деонтические нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ActionType",
+   "name": "Тип действия",
+   "comment": "ICE — спецификация вида действия.",
+   "attributes": [
+    {
+     "code": "actionKind",
+     "name": "вид действия",
+     "type": "string",
+     "comment": "чтение | запись | администрирование | ознакомление."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DEO",
+     "name": "Деонтические нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ActionProcess",
+   "name": "Действие",
+   "comment": "Конкретный процесс выполнения действия.",
+   "attributes": [
+    {
+     "code": "performedAt",
+     "name": "выполнено",
+     "type": "date",
+     "comment": "Момент."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DEO",
+     "name": "Деонтические нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ComplianceProcess",
+   "name": "Соблюдение",
+   "comment": "Действие, соответствующее норме.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DEO",
+     "name": "Деонтические нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ViolationProcess",
+   "name": "Нарушение",
+   "comment": "Действие, нарушающее норму.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "DEO",
+     "name": "Деонтические нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalInterval",
+   "name": "Временной интервал",
+   "comment": "Одномерная временная область.",
+   "attributes": [
+    {
+     "code": "startInstant",
+     "name": "начало",
+     "type": "date",
+     "comment": "Начало."
+    },
+    {
+     "code": "endInstant",
+     "name": "окончание",
+     "type": "date",
+     "comment": "Окончание."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "TMP",
+     "name": "Время"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "inheresIn",
+   "name": "присуще",
+   "comment": "BFO inheresIn: AlethicStatus → Proposition.",
+   "fromClass": "AlethicStatus",
+   "toClass": "Proposition"
+  },
+  {
+   "code": "relatesToProposition",
+   "name": "относится к",
+   "comment": "Семантическая связь модальности с её содержанием.",
+   "fromClass": "AlethicStatus",
+   "toClass": "Proposition"
+  },
+  {
+   "code": "hasModalityKind",
+   "name": "категория модальности",
+   "comment": "Явная связь экземпляра статуса с категорией.",
+   "fromClass": "AlethicStatus",
+   "toClass": "AlethicStatus"
+  },
+  {
+   "code": "validDuring",
+   "name": "действителен в интервале",
+   "comment": "Временной интервал действия алетического статуса.",
+   "fromClass": "AlethicStatus",
+   "toClass": "TemporalInterval"
+  },
+  {
+   "code": "scopedTo",
+   "name": "ограничена областью",
+   "comment": "Сужает область действия алетического статуса.",
+   "fromClass": "AlethicStatus",
+   "toClass": "ActionType"
+  },
+  {
+   "code": "confirmedBy",
+   "name": "подтверждается",
+   "comment": "Снижает неопределённость Contingency.",
+   "fromClass": "AlethicStatus",
+   "toClass": "ActionProcess"
+  },
+  {
+   "code": "controlDate",
+   "name": "контрольная дата",
+   "comment": "Дата проверки случайного события.",
+   "fromClass": "AlethicStatus",
+   "toClass": "TemporalInterval"
+  },
+  {
+   "code": "inheresInAgent",
+   "name": "присуще агенту",
+   "comment": "BFO для эпистемических состояний.",
+   "fromClass": "EpistemicState",
+   "toClass": "CognitiveAgent"
+  },
+  {
+   "code": "heldDuring",
+   "name": "удерживается в интервале",
+   "comment": "Временной интервал, в течение которого эпистемическое состояние имеет место. Аналог validDuring для алетических статусов и isInForceDuring для норм.",
+   "fromClass": "EpistemicState",
+   "toClass": "TemporalInterval"
+  },
+  {
+   "code": "bearerOf",
+   "name": "носитель",
+   "comment": "Обратное к inheresIn.",
+   "fromClass": "Proposition",
+   "toClass": "AlethicStatus"
+  },
+  {
+   "code": "realizes",
+   "name": "реализует",
+   "comment": "Установка реализуется в процессе.",
+   "fromClass": "EpistemicState",
+   "toClass": "CognitiveProcess"
+  },
+  {
+   "code": "realizedIn",
+   "name": "реализуется в",
+   "comment": "Обратное к realizes.",
+   "fromClass": "CognitiveProcess",
+   "toClass": "EpistemicState"
+  },
+  {
+   "code": "isAbout",
+   "name": "о",
+   "comment": "IAO интенциональность ICE.",
+   "fromClass": "EpistemicContent",
+   "toClass": "Proposition"
+  },
+  {
+   "code": "normIsAbout",
+   "name": "норма о",
+   "comment": "IAO для норм.",
+   "fromClass": "Norm",
+   "toClass": "Proposition"
+  },
+  {
+   "code": "determinedByModel",
+   "name": "определяется моделью",
+   "comment": "Алетический статус относителен модели.",
+   "fromClass": "AlethicStatus",
+   "toClass": "Model"
+  },
+  {
+   "code": "hasEpistemicContent",
+   "name": "имеет эпистемическое содержание",
+   "comment": "Интенциональность disposition → ICE.",
+   "fromClass": "EpistemicState",
+   "toClass": "EpistemicContent"
+  },
+  {
+   "code": "hasAddressee",
+   "name": "имеет адресата",
+   "comment": "Субъект нормы.",
+   "fromClass": "Norm",
+   "toClass": "CognitiveAgent"
+  },
+  {
+   "code": "hasCounterparty",
+   "name": "имеет контрагента",
+   "comment": "Бенефициар нормы.",
+   "fromClass": "Norm",
+   "toClass": "CognitiveAgent"
+  },
+  {
+   "code": "regulatesActionType",
+   "name": "регулирует тип действия",
+   "comment": "Под-свойство isAbout.",
+   "fromClass": "Norm",
+   "toClass": "ActionType"
+  },
+  {
+   "code": "regulatesStateType",
+   "name": "регулирует тип состояния",
+   "comment": "Под-свойство isAbout.",
+   "fromClass": "Norm",
+   "toClass": "Situation"
+  },
+  {
+   "code": "isInForceDuring",
+   "name": "действует в интервале",
+   "comment": "Временная локализация силы нормы.",
+   "fromClass": "Norm",
+   "toClass": "TemporalInterval"
+  },
+  {
+   "code": "issuedBy",
+   "name": "издана",
+   "comment": "Агент-источник нормы.",
+   "fromClass": "Norm",
+   "toClass": "CognitiveAgent"
+  },
+  {
+   "code": "derivedFromNorm",
+   "name": "выведена из",
+   "comment": "Иерархия норм.",
+   "fromClass": "Norm",
+   "toClass": "Norm"
+  },
+  {
+   "code": "conflictsWithNorm",
+   "name": "конфликтует с",
+   "comment": "Симметричный конфликт.",
+   "fromClass": "Norm",
+   "toClass": "Norm"
+  },
+  {
+   "code": "hasPriorityOverNorm",
+   "name": "имеет приоритет над",
+   "comment": "Транзитивное разрешение конфликтов.",
+   "fromClass": "Norm",
+   "toClass": "Norm"
+  },
+  {
+   "code": "requiresAwarenessOf",
+   "name": "требует ознакомления с",
+   "comment": "Мета-норма: обязывает адресата ознакомиться с другой нормой.",
+   "fromClass": "Norm",
+   "toClass": "Norm"
+  },
+  {
+   "code": "hasParticipant",
+   "name": "имеет участника",
+   "comment": "Стандартное BFO-отношение: процесс и его участник (объект).",
+   "fromClass": "ActionProcess",
+   "toClass": "CognitiveAgent"
+  },
+  {
+   "code": "hasOutput",
+   "name": "имеет результат",
+   "comment": "Результат процесса: для ознакомления — знание. RO has_output; направление проверить в OLS.",
+   "fromClass": "ActionProcess",
+   "toClass": "EpistemicState"
+  },
+  {
+   "code": "compliantWith",
+   "name": "соответствует",
+   "comment": "Действие соблюдает норму.",
+   "fromClass": "ActionProcess",
+   "toClass": "Norm"
+  },
+  {
+   "code": "violates",
+   "name": "нарушает",
+   "comment": "Действие нарушает норму.",
+   "fromClass": "ActionProcess",
+   "toClass": "Norm"
+  },
+  {
+   "code": "constrainedByAlethicStatus",
+   "name": "ограничена алетическим статусом",
+   "comment": "Деонтика → алетика: невыполнимость из-за невозможности.",
+   "fromClass": "Norm",
+   "toClass": "AlethicStatus"
+  },
+  {
+   "code": "unenforceableInModel",
+   "name": "неисполнима в модели",
+   "comment": "Замкнутая неисполнимость нормы.",
+   "fromClass": "Norm",
+   "toClass": "Model"
+  },
+  {
+   "code": "requiresRevision",
+   "name": "требует пересмотра",
+   "comment": "Указывает нормы/модели, пересмотр которых устраняет неисполнимость.",
+   "fromClass": "Norm",
+   "toClass": "Norm"
+  },
+  {
+   "code": "hasRevisionStatus",
+   "name": "статус пересмотра",
+   "comment": "Стадия пересмотра нормы или модели.",
+   "fromClass": "Norm",
+   "toClass": "RevisionStatus"
+  },
+  {
+   "code": "revisionInitiatedAt",
+   "name": "дата инициации пересмотра",
+   "comment": "Дата инициации пересмотра.",
+   "fromClass": "Norm",
+   "toClass": "TemporalInterval"
+  },
+  {
+   "code": "knownThroughEpistemicState",
+   "name": "познаётся через",
+   "comment": "Норма и знание о ней.",
+   "fromClass": "Norm",
+   "toClass": "EpistemicState"
+  },
+  {
+   "code": "precedes",
+   "name": "предшествует",
+   "comment": "TODO: verify direction.",
+   "fromClass": "TemporalInterval",
+   "toClass": "TemporalInterval"
+  },
+  {
+   "code": "precededBy",
+   "name": "следует за",
+   "comment": "Обратное.",
+   "fromClass": "TemporalInterval",
+   "toClass": "TemporalInterval"
+  },
+  {
+   "code": "overlapsTemporal",
+   "name": "перекрывается с",
+   "comment": "Аллен overlaps.",
+   "fromClass": "TemporalInterval",
+   "toClass": "TemporalInterval"
+  },
+  {
+   "code": "during",
+   "name": "в течение",
+   "comment": "Аллен during.",
+   "fromClass": "TemporalInterval",
+   "toClass": "TemporalInterval"
+  }
+ ],
+ "info": {
+  "description": "Онтология описывает четыре модальных слоя. v1.6: введён класс Ignorance (Незнание) и явные инстансы незнания/знания + факт ознакомления с датой — argumentum ex silentio устранён. Эпистемические состояния имеют временные границы через heldDuring. Алетические статусы типизированы и связаны с моделями. Деонтика — нормы по Hohfeld с приоритетами и мета-нормами ознакомления.",
+  "scope": [
+   "Алетика: 4 категории через hasModalityKind, validDuring",
+   "Эпистемика: Knowledge/Ignorance как явные инстансы, heldDuring для временной локализации",
+   "Деонтика: нормы по Hohfeld, пересмотр, мета-нормы requiresAwarenessOf",
+   "Время: интервалы BFO, Алленовы отношения",
+   "Межмодальные ограничения: алетика → деонтика, эпистемика ↔ деонтика"
+  ],
+  "competencyQuestions": [
+   "Какие пропозиции необходимо истинны в данной модели и какие возможны, но не необходимы?",
+   "Какой алетический статус приписан данной пропозиции и относительно какой модели?",
+   "Какие пропозиции невозможны и кто это утверждает?",
+   "Кто из агентов знает, верит, не знает или допускает, что P?",
+   "Какие эпистемические состояния агента противоречат друг другу?",
+   "В каком временном интервале агент знает/не знает/считает, что P?",
+   "Какие обязанности, разрешения и запреты действуют в данный момент?",
+   "Кто адресат и контрагент нормы, какие действия она регулирует?",
+   "Какие нормы конфликтуют и какая имеет приоритет?",
+   "Какие действия соблюдают или нарушают данную норму?",
+   "Какие нормы невыполнимы из-за алетических ограничений?",
+   "Кто из агентов знает о действующей норме, а кто — нет?",
+   "Как изменяется модальный статус сущности во времени?",
+   "Какие сценарии одновременно совместимы с необходимостью, знанием и разрешением?",
+   "Какие выводы о соблюдении нормы возможны при неполном знании агента?",
+   "Какие модальные статусы какой категории действительны в интервале T?",
+   "Какие нормы и модели находятся на пересмотре?",
+   "Для каких способов смены пароля возможна смена в модели M?",
+   "Чем подтверждается статус случайности P и когда контрольная дата?",
+   "С какими нормами обязан ознакомиться агент и исполнена ли мета-норма ознакомления?",
+   "Каким эпистемическим состоянием (знание/незнание) обладает агент относительно нормы и как оно менялось во времени?"
+  ]
+ },
+ "theme": [
+  {
+   "code": "ALE",
+   "name": "Алетическая модальность",
+   "color": "#818cf8"
+  },
+  {
+   "code": "EPI",
+   "name": "Эпистемические состояния",
+   "color": "#34d399"
+  },
+  {
+   "code": "DEO",
+   "name": "Деонтические нормы",
+   "color": "#fbbf24"
+  },
+  {
+   "code": "TMP",
+   "name": "Временные сущности",
+   "color": "#c084fc"
+  }
+ ]
+}

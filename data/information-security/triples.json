@@ -1,0 +1,5014 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "politika-informacionnoy-bezopasnosti",
+   "predicate": "имеет тип",
+   "object": "class-politika-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t002",
+   "subject": "politika-upravleniya-dostupom",
+   "predicate": "имеет тип",
+   "object": "class-politika-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t003",
+   "subject": "politika-rezervnogo-kopirovaniya",
+   "predicate": "имеет тип",
+   "object": "class-politika-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t004",
+   "subject": "politika-reagirovaniya-na-incidenty",
+   "predicate": "имеет тип",
+   "object": "class-politika-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t005",
+   "subject": "upravlenie-riskami-ib",
+   "predicate": "имеет тип",
+   "object": "class-process-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t006",
+   "subject": "upravlenie-uyazvimostyami",
+   "predicate": "имеет тип",
+   "object": "class-process-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t007",
+   "subject": "upravlenie-incidentami",
+   "predicate": "имеет тип",
+   "object": "class-process-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t008",
+   "subject": "upravlenie-dostupami-iam",
+   "predicate": "имеет тип",
+   "object": "class-process-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t009",
+   "subject": "obespechenie-nepreryvnosti-bcp-drp",
+   "predicate": "имеет тип",
+   "object": "class-process-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t010",
+   "subject": "anna-kovaleva-ciso",
+   "predicate": "имеет тип",
+   "object": "class-rol-v-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t011",
+   "subject": "dmitriy-orlov-ib-analitik-soc",
+   "predicate": "имеет тип",
+   "object": "class-rol-v-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t012",
+   "subject": "sergey-volkov-administrator-is",
+   "predicate": "имеет тип",
+   "object": "class-rol-v-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t013",
+   "subject": "mariya-lebedeva-vladelec-aktiva",
+   "predicate": "имеет тип",
+   "object": "class-rol-v-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t014",
+   "subject": "petr-zaharov-polzovatel",
+   "predicate": "имеет тип",
+   "object": "class-rol-v-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t015",
+   "subject": "mttr-incidentov",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t016",
+   "subject": "chislo-utechek-pdn",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t017",
+   "subject": "pokrytie-edr",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t018",
+   "subject": "dolya-obuchennyh-sotrudnikov",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t019",
+   "subject": "crm-klientsoft",
+   "predicate": "имеет тип",
+   "object": "class-informacionnaya-sistema",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t020",
+   "subject": "erp-globalerp",
+   "predicate": "имеет тип",
+   "object": "class-informacionnaya-sistema",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t021",
+   "subject": "faylovyy-server-fs-01",
+   "predicate": "имеет тип",
+   "object": "class-informacionnaya-sistema",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t022",
+   "subject": "asu-tp-tehnolayn",
+   "predicate": "имеет тип",
+   "object": "class-asu-tp-ot-aktiv",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t023",
+   "subject": "oblako-oblakosoft",
+   "predicate": "имеет тип",
+   "object": "class-oblachnyy-servis",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t024",
+   "subject": "baza-personalnyh-dannyh-klientov",
+   "predicate": "имеет тип",
+   "object": "class-informacionnyy-resurs-dannye",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t025",
+   "subject": "segment-ofisnoy-seti",
+   "predicate": "имеет тип",
+   "object": "class-segment-seti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t026",
+   "subject": "segment-seti-asu-tp",
+   "predicate": "имеет тип",
+   "object": "class-segment-seti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t027",
+   "subject": "noutbuk-petra-zaharova",
+   "predicate": "имеет тип",
+   "object": "class-konechnoe-ustroystvo",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t028",
+   "subject": "arm-operatora-asu-tp",
+   "predicate": "имеет тип",
+   "object": "class-konechnoe-ustroystvo",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t029",
+   "subject": "obrabotka-zayavok-klientov",
+   "predicate": "имеет тип",
+   "object": "class-biznes-process",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t030",
+   "subject": "raschet-zarabotnoy-platy",
+   "predicate": "имеет тип",
+   "object": "class-biznes-process",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t031",
+   "subject": "upravlenie-tehnologicheskim-processom",
+   "predicate": "имеет тип",
+   "object": "class-biznes-process",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t032",
+   "subject": "tehnicheskaya-podderzhka-klientov",
+   "predicate": "имеет тип",
+   "object": "class-biznes-process",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t033",
+   "subject": "personalnye-dannye",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-informacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t034",
+   "subject": "kommercheskaya-tayna",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-informacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t035",
+   "subject": "promyshlennaya-tayna",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-informacii",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t036",
+   "subject": "uz-admin-volkov",
+   "predicate": "имеет тип",
+   "object": "class-uchetnaya-zapis",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t037",
+   "subject": "uz-svc-backup",
+   "predicate": "имеет тип",
+   "object": "class-uchetnaya-zapis",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t038",
+   "subject": "uz-petr-zakharov",
+   "predicate": "имеет тип",
+   "object": "class-uchetnaya-zapis",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t039",
+   "subject": "uz-service-erp",
+   "predicate": "имеет тип",
+   "object": "class-uchetnaya-zapis",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t040",
+   "subject": "ransomware-ataka",
+   "predicate": "имеет тип",
+   "object": "class-ugroza",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t041",
+   "subject": "fishingovaya-rassylka",
+   "predicate": "имеет тип",
+   "object": "class-ugroza",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t042",
+   "subject": "komprometaciya-uchetnyh-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-ugroza",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t043",
+   "subject": "hischenie-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-ugroza",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t044",
+   "subject": "ataka-na-cepochku-postavok-po",
+   "predicate": "имеет тип",
+   "object": "class-ugroza",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t045",
+   "subject": "ddos-ataka",
+   "predicate": "имеет тип",
+   "object": "class-ugroza",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t046",
+   "subject": "insayderskaya-utechka",
+   "predicate": "имеет тип",
+   "object": "class-ugroza",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t047",
+   "subject": "apt-gruppirovka-temnyy-shturm",
+   "predicate": "имеет тип",
+   "object": "class-istochnik-ugrozy",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t048",
+   "subject": "insayder",
+   "predicate": "имеет тип",
+   "object": "class-istochnik-ugrozy",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t049",
+   "subject": "haktivist",
+   "predicate": "имеет тип",
+   "object": "class-istochnik-ugrozy",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t050",
+   "subject": "nedobrosovestnyy-podryadchik",
+   "predicate": "имеет тип",
+   "object": "class-istochnik-ugrozy",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t051",
+   "subject": "fishing-t1566",
+   "predicate": "имеет тип",
+   "object": "class-tehnika-ataki",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t052",
+   "subject": "ekspluataciya-publichnogo-prilozheniya-t1190",
+   "predicate": "имеет тип",
+   "object": "class-tehnika-ataki",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t053",
+   "subject": "zakreplenie-cherez-servisnye-uchetnye-zapisi-t1078",
+   "predicate": "имеет тип",
+   "object": "class-tehnika-ataki",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t054",
+   "subject": "bokovoe-peremeschenie-t1021",
+   "predicate": "имеет тип",
+   "object": "class-tehnika-ataki",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t055",
+   "subject": "eksfiltraciya-dannyh-t1041",
+   "predicate": "имеет тип",
+   "object": "class-tehnika-ataki",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t056",
+   "subject": "otsutstvie-mfa-na-vpn",
+   "predicate": "имеет тип",
+   "object": "class-uyazvimost",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t057",
+   "subject": "nepropatchennaya-os-na-fs-01",
+   "predicate": "имеет тип",
+   "object": "class-uyazvimost",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t058",
+   "subject": "slabaya-segmentaciya-seti",
+   "predicate": "имеет тип",
+   "object": "class-uyazvimost",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t059",
+   "subject": "izbytochnye-prava-servisnoy-uchetki",
+   "predicate": "имеет тип",
+   "object": "class-uyazvimost",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t060",
+   "subject": "ustarevshie-biblioteki-v-crm",
+   "predicate": "имеет тип",
+   "object": "class-uyazvimost",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t061",
+   "subject": "utechka-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-riska",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t062",
+   "subject": "narushenie-dostupnosti",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-riska",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t063",
+   "subject": "narushenie-celostnosti",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-riska",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t064",
+   "subject": "nesootvetstvie-trebovaniyam",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-riska",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t065",
+   "subject": "risk-tretey-storony",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-riska",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t066",
+   "subject": "utechka-personalnyh-dannyh-klientov",
+   "predicate": "имеет тип",
+   "object": "class-risk-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t067",
+   "subject": "prostoy-erp-iz-za-ransomware",
+   "predicate": "имеет тип",
+   "object": "class-risk-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t068",
+   "subject": "nesankcionirovannyy-dostup-k-asu-tp",
+   "predicate": "имеет тип",
+   "object": "class-risk-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t069",
+   "subject": "shtraf-za-narushenie-152-fz",
+   "predicate": "имеет тип",
+   "object": "class-risk-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t070",
+   "subject": "sryv-sla-oblachnogo-provaydera",
+   "predicate": "имеет тип",
+   "object": "class-risk-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t071",
+   "subject": "komprometaciya-cepochki-postavok-po",
+   "predicate": "имеет тип",
+   "object": "class-risk-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t072",
+   "subject": "incident-utechka-pdn-iz-crm",
+   "predicate": "имеет тип",
+   "object": "class-incident-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t073",
+   "subject": "incident-ransomware-na-fs-01",
+   "predicate": "имеет тип",
+   "object": "class-incident-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t074",
+   "subject": "incident-komprometaciya-uz-administratora",
+   "predicate": "имеет тип",
+   "object": "class-incident-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t075",
+   "subject": "incident-ddos-na-vneshniy-portal",
+   "predicate": "имеет тип",
+   "object": "class-incident-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t076",
+   "subject": "prostoy-biznes-processa",
+   "predicate": "имеет тип",
+   "object": "class-posledstvie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t077",
+   "subject": "finansovye-poteri",
+   "predicate": "имеет тип",
+   "object": "class-posledstvie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t078",
+   "subject": "regulyatornyy-shtraf",
+   "predicate": "имеет тип",
+   "object": "class-posledstvie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t079",
+   "subject": "reputacionnyy-uscherb",
+   "predicate": "имеет тип",
+   "object": "class-posledstvie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t080",
+   "subject": "utrata-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-posledstvie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t081",
+   "subject": "kriticheskiy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-kritichnosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t082",
+   "subject": "vysokiy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-kritichnosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t083",
+   "subject": "sredniy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-kritichnosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t084",
+   "subject": "nizkiy",
+   "predicate": "имеет тип",
+   "object": "class-uroven-kritichnosti",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t085",
+   "subject": "siem-monitoring",
+   "predicate": "имеет тип",
+   "object": "class-tehnicheskaya-mera",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t086",
+   "subject": "edr-na-konechnyh-ustroystvah",
+   "predicate": "имеет тип",
+   "object": "class-tehnicheskaya-mera",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t087",
+   "subject": "dlp-sistema",
+   "predicate": "имеет тип",
+   "object": "class-tehnicheskaya-mera",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t088",
+   "subject": "mnogofaktornaya-autentifikaciya-mfa",
+   "predicate": "имеет тип",
+   "object": "class-tehnicheskaya-mera",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t089",
+   "subject": "rezervnoe-kopirovanie",
+   "predicate": "имеет тип",
+   "object": "class-tehnicheskaya-mera",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t090",
+   "subject": "segmentaciya-seti",
+   "predicate": "имеет тип",
+   "object": "class-tehnicheskaya-mera",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t091",
+   "subject": "regulyarnoe-skanirovanie-uyazvimostey",
+   "predicate": "имеет тип",
+   "object": "class-tehnicheskaya-mera",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t092",
+   "subject": "obuchenie-sotrudnikov",
+   "predicate": "имеет тип",
+   "object": "class-organizacionnaya-mera",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t093",
+   "subject": "kontrol-privilegirovannogo-dostupa-pam",
+   "predicate": "имеет тип",
+   "object": "class-tehnicheskaya-mera",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t094",
+   "subject": "programma-upravleniya-riskami",
+   "predicate": "имеет тип",
+   "object": "class-organizacionnaya-mera",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t095",
+   "subject": "monitoring-i-obnaruzhenie",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-mery",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t096",
+   "subject": "upravlenie-dostupom",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-mery",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t097",
+   "subject": "zaschita-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-mery",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t098",
+   "subject": "vosstanovlenie",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-mery",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t099",
+   "subject": "setevaya-zaschita",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-mery",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t100",
+   "subject": "upravlenie-uyazvimostyami-i-patchami",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-mery",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t101",
+   "subject": "obuchenie-i-osvedomlennost",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-mery",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t102",
+   "subject": "plan-reagirovaniya-na-utechku-pdn",
+   "predicate": "имеет тип",
+   "object": "class-plan-reagirovaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t103",
+   "subject": "plan-reagirovaniya-na-ransomware",
+   "predicate": "имеет тип",
+   "object": "class-plan-reagirovaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t104",
+   "subject": "plan-reagirovaniya-na-komprometaciyu-uchetnoy-zapisi",
+   "predicate": "имеет тип",
+   "object": "class-plan-reagirovaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t105",
+   "subject": "izolirovat-zarazhennyy-uzel",
+   "predicate": "имеет тип",
+   "object": "class-deystvie-po-reagirovaniyu",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t106",
+   "subject": "otklyuchit-skomprometirovannuyu-uchetnuyu-zapis",
+   "predicate": "имеет тип",
+   "object": "class-deystvie-po-reagirovaniyu",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t107",
+   "subject": "uvedomit-roskomnadzor",
+   "predicate": "имеет тип",
+   "object": "class-deystvie-po-reagirovaniyu",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t108",
+   "subject": "vosstanovit-dannye-iz-rezervnoy-kopii",
+   "predicate": "имеет тип",
+   "object": "class-deystvie-po-reagirovaniyu",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t109",
+   "subject": "provesti-rassledovanie-incidenta",
+   "predicate": "имеет тип",
+   "object": "class-deystvie-po-reagirovaniyu",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t110",
+   "subject": "usilit-monitoring",
+   "predicate": "имеет тип",
+   "object": "class-deystvie-po-reagirovaniyu",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t111",
+   "subject": "obespechenie-konfidencialnosti-pdn",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t112",
+   "subject": "uvedomlenie-roskomnadzora-ob-utechke",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t113",
+   "subject": "attestaciya-is-po-trebovaniyam-bezopasnosti",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t114",
+   "subject": "upravlenie-dostupom-k-is",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t115",
+   "subject": "kategorirovanie-obektov-kii",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t116",
+   "subject": "zaschita-asu-tp",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t117",
+   "subject": "federalnyy-zakon-152-fz",
+   "predicate": "имеет тип",
+   "object": "class-normativnyy-akt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t118",
+   "subject": "federalnyy-zakon-187-fz-kii",
+   "predicate": "имеет тип",
+   "object": "class-normativnyy-akt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t119",
+   "subject": "prikaz-fstek-rossii-17",
+   "predicate": "имеет тип",
+   "object": "class-normativnyy-akt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t120",
+   "subject": "prikaz-fstek-rossii-21",
+   "predicate": "имеет тип",
+   "object": "class-normativnyy-akt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t121",
+   "subject": "prikaz-fstek-rossii-239",
+   "predicate": "имеет тип",
+   "object": "class-normativnyy-akt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t122",
+   "subject": "gost-r-57580-1-2017",
+   "predicate": "имеет тип",
+   "object": "class-standart",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t123",
+   "subject": "gost-r-iso-mek-27001-2022",
+   "predicate": "имеет тип",
+   "object": "class-standart",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t124",
+   "subject": "gost-r-56545-2015",
+   "predicate": "имеет тип",
+   "object": "class-standart",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t125",
+   "subject": "fstek-rossii",
+   "predicate": "имеет тип",
+   "object": "class-regulyator",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t126",
+   "subject": "fsb-rossii",
+   "predicate": "имеет тип",
+   "object": "class-regulyator",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t127",
+   "subject": "roskomnadzor",
+   "predicate": "имеет тип",
+   "object": "class-regulyator",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t128",
+   "subject": "attestaciya-is-klientsoft",
+   "predicate": "имеет тип",
+   "object": "class-ocenka-sootvetstviya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t129",
+   "subject": "audit-sootvetstviya-152-fz",
+   "predicate": "имеет тип",
+   "object": "class-ocenka-sootvetstviya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t130",
+   "subject": "ocenka-sootvetstviya-gost-r-57580",
+   "predicate": "имеет тип",
+   "object": "class-ocenka-sootvetstviya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t131",
+   "subject": "analiz-incidentov",
+   "predicate": "имеет тип",
+   "object": "class-kompetenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t132",
+   "subject": "administrirovanie-is",
+   "predicate": "имеет тип",
+   "object": "class-kompetenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t133",
+   "subject": "osvedomlennost-o-fishinge",
+   "predicate": "имеет тип",
+   "object": "class-kompetenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t134",
+   "subject": "reagirovanie-na-incidenty",
+   "predicate": "имеет тип",
+   "object": "class-kompetenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t135",
+   "subject": "ezhegodnoe-obuchenie-po-ib",
+   "predicate": "имеет тип",
+   "object": "class-obuchenie-po-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t136",
+   "subject": "antifishingovyy-trening",
+   "predicate": "имеет тип",
+   "object": "class-obuchenie-po-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t137",
+   "subject": "kurs-po-zaschite-personalnyh-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-obuchenie-po-ib",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t138",
+   "subject": "postavschik-po-klientsoft",
+   "predicate": "имеет тип",
+   "object": "class-postavschik",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t139",
+   "subject": "oblachnyy-provayder-oblakosoft",
+   "predicate": "имеет тип",
+   "object": "class-postavschik",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t140",
+   "subject": "podryadchik-servispro",
+   "predicate": "имеет тип",
+   "object": "class-postavschik",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t141",
+   "subject": "autsors-soc-sekyurmonitor",
+   "predicate": "имеет тип",
+   "object": "class-postavschik",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t142",
+   "subject": "dogovor-s-klientsoft",
+   "predicate": "имеет тип",
+   "object": "class-dogovor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t143",
+   "subject": "dogovor-s-oblakosoft",
+   "predicate": "имеет тип",
+   "object": "class-dogovor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t144",
+   "subject": "dogovor-s-servispro",
+   "predicate": "имеет тип",
+   "object": "class-dogovor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t145",
+   "subject": "oblachnyy-servis-crm",
+   "predicate": "имеет тип",
+   "object": "class-usluga",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t146",
+   "subject": "tehnicheskaya-podderzhka-erp",
+   "predicate": "имеет тип",
+   "object": "class-usluga",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t147",
+   "subject": "monitoring-soc",
+   "predicate": "имеет тип",
+   "object": "class-usluga",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t148",
+   "subject": "risk-komprometacii-obnovleniy-po",
+   "predicate": "имеет тип",
+   "object": "class-risk-cepochki-postavok",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t149",
+   "subject": "risk-zavisimosti-ot-oblachnogo-provaydera",
+   "predicate": "имеет тип",
+   "object": "class-risk-cepochki-postavok",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t150",
+   "subject": "risk-utechki-cherez-podryadchika",
+   "predicate": "имеет тип",
+   "object": "class-risk-cepochki-postavok",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t151",
+   "subject": "politika-informacionnoy-bezopasnosti",
+   "predicate": "регулирует процессы",
+   "object": "upravlenie-riskami-ib",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t152",
+   "subject": "politika-informacionnoy-bezopasnosti",
+   "predicate": "регулирует процессы",
+   "object": "upravlenie-incidentami",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t153",
+   "subject": "politika-informacionnoy-bezopasnosti",
+   "predicate": "распространяется на активы",
+   "object": "crm-klientsoft",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t154",
+   "subject": "politika-informacionnoy-bezopasnosti",
+   "predicate": "распространяется на активы",
+   "object": "erp-globalerp",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t155",
+   "subject": "politika-upravleniya-dostupom",
+   "predicate": "регулирует процессы",
+   "object": "upravlenie-dostupami-iam",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t156",
+   "subject": "politika-upravleniya-dostupom",
+   "predicate": "распространяется на активы",
+   "object": "faylovyy-server-fs-01",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t157",
+   "subject": "politika-rezervnogo-kopirovaniya",
+   "predicate": "регулирует процессы",
+   "object": "obespechenie-nepreryvnosti-bcp-drp",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t158",
+   "subject": "politika-reagirovaniya-na-incidenty",
+   "predicate": "регулирует процессы",
+   "object": "upravlenie-incidentami",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t159",
+   "subject": "upravlenie-riskami-ib",
+   "predicate": "управляется ролью",
+   "object": "anna-kovaleva-ciso",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t160",
+   "subject": "upravlenie-incidentami",
+   "predicate": "управляется ролью",
+   "object": "dmitriy-orlov-ib-analitik-soc",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t161",
+   "subject": "upravlenie-uyazvimostyami",
+   "predicate": "управляется ролью",
+   "object": "dmitriy-orlov-ib-analitik-soc",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t162",
+   "subject": "upravlenie-dostupami-iam",
+   "predicate": "управляется ролью",
+   "object": "sergey-volkov-administrator-is",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t163",
+   "subject": "obespechenie-nepreryvnosti-bcp-drp",
+   "predicate": "управляется ролью",
+   "object": "mariya-lebedeva-vladelec-aktiva",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t164",
+   "subject": "upravlenie-riskami-ib",
+   "predicate": "использует меры",
+   "object": "programma-upravleniya-riskami",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t165",
+   "subject": "upravlenie-incidentami",
+   "predicate": "использует меры",
+   "object": "siem-monitoring",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t166",
+   "subject": "upravlenie-incidentami",
+   "predicate": "использует меры",
+   "object": "edr-na-konechnyh-ustroystvah",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t167",
+   "subject": "upravlenie-uyazvimostyami",
+   "predicate": "использует меры",
+   "object": "regulyarnoe-skanirovanie-uyazvimostey",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t168",
+   "subject": "upravlenie-dostupami-iam",
+   "predicate": "использует меры",
+   "object": "mnogofaktornaya-autentifikaciya-mfa",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t169",
+   "subject": "upravlenie-dostupami-iam",
+   "predicate": "использует меры",
+   "object": "kontrol-privilegirovannogo-dostupa-pam",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t170",
+   "subject": "obespechenie-nepreryvnosti-bcp-drp",
+   "predicate": "использует меры",
+   "object": "rezervnoe-kopirovanie",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t171",
+   "subject": "upravlenie-riskami-ib",
+   "predicate": "направлен на риск",
+   "object": "utechka-personalnyh-dannyh-klientov",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t172",
+   "subject": "upravlenie-riskami-ib",
+   "predicate": "направлен на риск",
+   "object": "nesankcionirovannyy-dostup-k-asu-tp",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t173",
+   "subject": "upravlenie-incidentami",
+   "predicate": "измеряется показателем",
+   "object": "mttr-incidentov",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t174",
+   "subject": "upravlenie-riskami-ib",
+   "predicate": "измеряется показателем",
+   "object": "chislo-utechek-pdn",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t175",
+   "subject": "upravlenie-dostupami-iam",
+   "predicate": "измеряется показателем",
+   "object": "pokrytie-edr",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t176",
+   "subject": "upravlenie-incidentami",
+   "predicate": "измеряется показателем",
+   "object": "dolya-obuchennyh-sotrudnikov",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t177",
+   "subject": "anna-kovaleva-ciso",
+   "predicate": "владеет активом",
+   "object": "crm-klientsoft",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t178",
+   "subject": "anna-kovaleva-ciso",
+   "predicate": "владеет активом",
+   "object": "erp-globalerp",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t179",
+   "subject": "mariya-lebedeva-vladelec-aktiva",
+   "predicate": "владеет активом",
+   "object": "baza-personalnyh-dannyh-klientov",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t180",
+   "subject": "mariya-lebedeva-vladelec-aktiva",
+   "predicate": "владеет активом",
+   "object": "asu-tp-tehnolayn",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t181",
+   "subject": "anna-kovaleva-ciso",
+   "predicate": "отвечает за требование",
+   "object": "obespechenie-konfidencialnosti-pdn",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t182",
+   "subject": "anna-kovaleva-ciso",
+   "predicate": "отвечает за требование",
+   "object": "kategorirovanie-obektov-kii",
+   "sourceId": "fz187",
+   "sourceName": "187-ФЗ «О безопасности КИИ»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t183",
+   "subject": "anna-kovaleva-ciso",
+   "predicate": "обладает компетенцией",
+   "object": "reagirovanie-na-incidenty",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t184",
+   "subject": "dmitriy-orlov-ib-analitik-soc",
+   "predicate": "обладает компетенцией",
+   "object": "analiz-incidentov",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t185",
+   "subject": "sergey-volkov-administrator-is",
+   "predicate": "обладает компетенцией",
+   "object": "administrirovanie-is",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t186",
+   "subject": "petr-zaharov-polzovatel",
+   "predicate": "обладает компетенцией",
+   "object": "osvedomlennost-o-fishinge",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t187",
+   "subject": "anna-kovaleva-ciso",
+   "predicate": "проходит обучение",
+   "object": "ezhegodnoe-obuchenie-po-ib",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t188",
+   "subject": "dmitriy-orlov-ib-analitik-soc",
+   "predicate": "проходит обучение",
+   "object": "ezhegodnoe-obuchenie-po-ib",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t189",
+   "subject": "sergey-volkov-administrator-is",
+   "predicate": "проходит обучение",
+   "object": "kurs-po-zaschite-personalnyh-dannyh",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t190",
+   "subject": "petr-zaharov-polzovatel",
+   "predicate": "проходит обучение",
+   "object": "antifishingovyy-trening",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t191",
+   "subject": "mariya-lebedeva-vladelec-aktiva",
+   "predicate": "проходит обучение",
+   "object": "ezhegodnoe-obuchenie-po-ib",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t192",
+   "subject": "crm-klientsoft",
+   "predicate": "поддерживает процесс",
+   "object": "obrabotka-zayavok-klientov",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t193",
+   "subject": "erp-globalerp",
+   "predicate": "поддерживает процесс",
+   "object": "raschet-zarabotnoy-platy",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t194",
+   "subject": "asu-tp-tehnolayn",
+   "predicate": "поддерживает процесс",
+   "object": "upravlenie-tehnologicheskim-processom",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t195",
+   "subject": "faylovyy-server-fs-01",
+   "predicate": "поддерживает процесс",
+   "object": "tehnicheskaya-podderzhka-klientov",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t196",
+   "subject": "crm-klientsoft",
+   "predicate": "обрабатывает данные категории",
+   "object": "personalnye-dannye",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t197",
+   "subject": "baza-personalnyh-dannyh-klientov",
+   "predicate": "обрабатывает данные категории",
+   "object": "personalnye-dannye",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t198",
+   "subject": "erp-globalerp",
+   "predicate": "обрабатывает данные категории",
+   "object": "kommercheskaya-tayna",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t199",
+   "subject": "asu-tp-tehnolayn",
+   "predicate": "обрабатывает данные категории",
+   "object": "promyshlennaya-tayna",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t200",
+   "subject": "crm-klientsoft",
+   "predicate": "имеет уровень критичности",
+   "object": "vysokiy",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t201",
+   "subject": "erp-globalerp",
+   "predicate": "имеет уровень критичности",
+   "object": "kriticheskiy",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t202",
+   "subject": "faylovyy-server-fs-01",
+   "predicate": "имеет уровень критичности",
+   "object": "sredniy",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t203",
+   "subject": "asu-tp-tehnolayn",
+   "predicate": "имеет уровень критичности",
+   "object": "kriticheskiy",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t204",
+   "subject": "oblako-oblakosoft",
+   "predicate": "имеет уровень критичности",
+   "object": "vysokiy",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t205",
+   "subject": "crm-klientsoft",
+   "predicate": "входит в сегмент",
+   "object": "segment-ofisnoy-seti",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t206",
+   "subject": "erp-globalerp",
+   "predicate": "входит в сегмент",
+   "object": "segment-ofisnoy-seti",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t207",
+   "subject": "faylovyy-server-fs-01",
+   "predicate": "входит в сегмент",
+   "object": "segment-ofisnoy-seti",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t208",
+   "subject": "asu-tp-tehnolayn",
+   "predicate": "входит в сегмент",
+   "object": "segment-seti-asu-tp",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t209",
+   "subject": "arm-operatora-asu-tp",
+   "predicate": "входит в сегмент",
+   "object": "segment-seti-asu-tp",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t210",
+   "subject": "noutbuk-petra-zaharova",
+   "predicate": "входит в сегмент",
+   "object": "segment-ofisnoy-seti",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t211",
+   "subject": "crm-klientsoft",
+   "predicate": "размещён в облаке",
+   "object": "oblako-oblakosoft",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t212",
+   "subject": "obrabotka-zayavok-klientov",
+   "predicate": "зависит от актива",
+   "object": "crm-klientsoft",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t213",
+   "subject": "raschet-zarabotnoy-platy",
+   "predicate": "зависит от актива",
+   "object": "erp-globalerp",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t214",
+   "subject": "upravlenie-tehnologicheskim-processom",
+   "predicate": "зависит от актива",
+   "object": "asu-tp-tehnolayn",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t215",
+   "subject": "tehnicheskaya-podderzhka-klientov",
+   "predicate": "зависит от актива",
+   "object": "faylovyy-server-fs-01",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t216",
+   "subject": "personalnye-dannye",
+   "predicate": "регулируется требованием",
+   "object": "obespechenie-konfidencialnosti-pdn",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t217",
+   "subject": "promyshlennaya-tayna",
+   "predicate": "регулируется требованием",
+   "object": "zaschita-asu-tp",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t218",
+   "subject": "uz-admin-volkov",
+   "predicate": "предоставляет доступ к активу",
+   "object": "erp-globalerp",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t219",
+   "subject": "uz-admin-volkov",
+   "predicate": "предоставляет доступ к активу",
+   "object": "faylovyy-server-fs-01",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t220",
+   "subject": "uz-svc-backup",
+   "predicate": "предоставляет доступ к активу",
+   "object": "faylovyy-server-fs-01",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t221",
+   "subject": "uz-service-erp",
+   "predicate": "предоставляет доступ к активу",
+   "object": "erp-globalerp",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t222",
+   "subject": "uz-petr-zakharov",
+   "predicate": "предоставляет доступ к активу",
+   "object": "crm-klientsoft",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t223",
+   "subject": "uz-admin-volkov",
+   "predicate": "принадлежит роли",
+   "object": "sergey-volkov-administrator-is",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t224",
+   "subject": "uz-svc-backup",
+   "predicate": "принадлежит роли",
+   "object": "sergey-volkov-administrator-is",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t225",
+   "subject": "uz-service-erp",
+   "predicate": "принадлежит роли",
+   "object": "sergey-volkov-administrator-is",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t226",
+   "subject": "uz-petr-zakharov",
+   "predicate": "принадлежит роли",
+   "object": "petr-zaharov-polzovatel",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t227",
+   "subject": "ransomware-ataka",
+   "predicate": "направлена на актив",
+   "object": "faylovyy-server-fs-01",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t228",
+   "subject": "ransomware-ataka",
+   "predicate": "направлена на актив",
+   "object": "erp-globalerp",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t229",
+   "subject": "fishingovaya-rassylka",
+   "predicate": "направлена на актив",
+   "object": "noutbuk-petra-zaharova",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t230",
+   "subject": "komprometaciya-uchetnyh-dannyh",
+   "predicate": "направлена на актив",
+   "object": "uz-admin-volkov",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t231",
+   "subject": "hischenie-dannyh",
+   "predicate": "направлена на актив",
+   "object": "baza-personalnyh-dannyh-klientov",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t232",
+   "subject": "ataka-na-cepochku-postavok-po",
+   "predicate": "направлена на актив",
+   "object": "crm-klientsoft",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t233",
+   "subject": "ddos-ataka",
+   "predicate": "направлена на актив",
+   "object": "crm-klientsoft",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t234",
+   "subject": "insayderskaya-utechka",
+   "predicate": "направлена на актив",
+   "object": "baza-personalnyh-dannyh-klientov",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t235",
+   "subject": "ransomware-ataka",
+   "predicate": "эксплуатирует уязвимость",
+   "object": "nepropatchennaya-os-na-fs-01",
+   "sourceId": "vulnscan",
+   "sourceName": "Сканер уязвимостей (VM)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t236",
+   "subject": "fishingovaya-rassylka",
+   "predicate": "эксплуатирует уязвимость",
+   "object": "otsutstvie-mfa-na-vpn",
+   "sourceId": "vulnscan",
+   "sourceName": "Сканер уязвимостей (VM)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t237",
+   "subject": "komprometaciya-uchetnyh-dannyh",
+   "predicate": "эксплуатирует уязвимость",
+   "object": "izbytochnye-prava-servisnoy-uchetki",
+   "sourceId": "vulnscan",
+   "sourceName": "Сканер уязвимостей (VM)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t238",
+   "subject": "hischenie-dannyh",
+   "predicate": "эксплуатирует уязвимость",
+   "object": "ustarevshie-biblioteki-v-crm",
+   "sourceId": "vulnscan",
+   "sourceName": "Сканер уязвимостей (VM)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t239",
+   "subject": "ataka-na-cepochku-postavok-po",
+   "predicate": "эксплуатирует уязвимость",
+   "object": "slabaya-segmentaciya-seti",
+   "sourceId": "vulnscan",
+   "sourceName": "Сканер уязвимостей (VM)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t240",
+   "subject": "ransomware-ataka",
+   "predicate": "реализуется источником",
+   "object": "apt-gruppirovka-temnyy-shturm",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t241",
+   "subject": "fishingovaya-rassylka",
+   "predicate": "реализуется источником",
+   "object": "haktivist",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t242",
+   "subject": "komprometaciya-uchetnyh-dannyh",
+   "predicate": "реализуется источником",
+   "object": "insayder",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t243",
+   "subject": "hischenie-dannyh",
+   "predicate": "реализуется источником",
+   "object": "insayder",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t244",
+   "subject": "ataka-na-cepochku-postavok-po",
+   "predicate": "реализуется источником",
+   "object": "nedobrosovestnyy-podryadchik",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t245",
+   "subject": "insayderskaya-utechka",
+   "predicate": "реализуется источником",
+   "object": "insayder",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t246",
+   "subject": "ddos-ataka",
+   "predicate": "реализуется источником",
+   "object": "haktivist",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t247",
+   "subject": "apt-gruppirovka-temnyy-shturm",
+   "predicate": "использует технику",
+   "object": "ekspluataciya-publichnogo-prilozheniya-t1190",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t248",
+   "subject": "apt-gruppirovka-temnyy-shturm",
+   "predicate": "использует технику",
+   "object": "zakreplenie-cherez-servisnye-uchetnye-zapisi-t1078",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t249",
+   "subject": "apt-gruppirovka-temnyy-shturm",
+   "predicate": "использует технику",
+   "object": "bokovoe-peremeschenie-t1021",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t250",
+   "subject": "apt-gruppirovka-temnyy-shturm",
+   "predicate": "использует технику",
+   "object": "eksfiltraciya-dannyh-t1041",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t251",
+   "subject": "haktivist",
+   "predicate": "использует технику",
+   "object": "fishing-t1566",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t252",
+   "subject": "insayder",
+   "predicate": "использует технику",
+   "object": "eksfiltraciya-dannyh-t1041",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t253",
+   "subject": "nedobrosovestnyy-podryadchik",
+   "predicate": "использует технику",
+   "object": "zakreplenie-cherez-servisnye-uchetnye-zapisi-t1078",
+   "sourceId": "threatintel",
+   "sourceName": "Бюллетень угроз и IoC",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t254",
+   "subject": "ekspluataciya-publichnogo-prilozheniya-t1190",
+   "predicate": "использует уязвимость",
+   "object": "ustarevshie-biblioteki-v-crm",
+   "sourceId": "vulnscan",
+   "sourceName": "Сканер уязвимостей (VM)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t255",
+   "subject": "zakreplenie-cherez-servisnye-uchetnye-zapisi-t1078",
+   "predicate": "использует уязвимость",
+   "object": "izbytochnye-prava-servisnoy-uchetki",
+   "sourceId": "vulnscan",
+   "sourceName": "Сканер уязвимостей (VM)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t256",
+   "subject": "bokovoe-peremeschenie-t1021",
+   "predicate": "использует уязвимость",
+   "object": "slabaya-segmentaciya-seti",
+   "sourceId": "vulnscan",
+   "sourceName": "Сканер уязвимостей (VM)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t257",
+   "subject": "fishing-t1566",
+   "predicate": "использует уязвимость",
+   "object": "otsutstvie-mfa-na-vpn",
+   "sourceId": "vulnscan",
+   "sourceName": "Сканер уязвимостей (VM)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t258",
+   "subject": "eksfiltraciya-dannyh-t1041",
+   "predicate": "использует уязвимость",
+   "object": "otsutstvie-mfa-na-vpn",
+   "sourceId": "vulnscan",
+   "sourceName": "Сканер уязвимостей (VM)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t259",
+   "subject": "otsutstvie-mfa-na-vpn",
+   "predicate": "свойственна активу",
+   "object": "oblako-oblakosoft",
+   "sourceId": "vulnscan",
+   "sourceName": "Сканер уязвимостей (VM)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t260",
+   "subject": "nepropatchennaya-os-na-fs-01",
+   "predicate": "свойственна активу",
+   "object": "faylovyy-server-fs-01",
+   "sourceId": "vulnscan",
+   "sourceName": "Сканер уязвимостей (VM)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t261",
+   "subject": "slabaya-segmentaciya-seti",
+   "predicate": "свойственна активу",
+   "object": "segment-ofisnoy-seti",
+   "sourceId": "vulnscan",
+   "sourceName": "Сканер уязвимостей (VM)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t262",
+   "subject": "izbytochnye-prava-servisnoy-uchetki",
+   "predicate": "свойственна активу",
+   "object": "uz-svc-backup",
+   "sourceId": "vulnscan",
+   "sourceName": "Сканер уязвимостей (VM)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t263",
+   "subject": "ustarevshie-biblioteki-v-crm",
+   "predicate": "свойственна активу",
+   "object": "crm-klientsoft",
+   "sourceId": "vulnscan",
+   "sourceName": "Сканер уязвимостей (VM)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t264",
+   "subject": "otsutstvie-mfa-na-vpn",
+   "predicate": "устраняется мерой",
+   "object": "mnogofaktornaya-autentifikaciya-mfa",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t265",
+   "subject": "nepropatchennaya-os-na-fs-01",
+   "predicate": "устраняется мерой",
+   "object": "regulyarnoe-skanirovanie-uyazvimostey",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t266",
+   "subject": "slabaya-segmentaciya-seti",
+   "predicate": "устраняется мерой",
+   "object": "segmentaciya-seti",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t267",
+   "subject": "izbytochnye-prava-servisnoy-uchetki",
+   "predicate": "устраняется мерой",
+   "object": "kontrol-privilegirovannogo-dostupa-pam",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t268",
+   "subject": "ustarevshie-biblioteki-v-crm",
+   "predicate": "устраняется мерой",
+   "object": "regulyarnoe-skanirovanie-uyazvimostey",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t269",
+   "subject": "ransomware-ataka",
+   "predicate": "создаёт риск",
+   "object": "prostoy-erp-iz-za-ransomware",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t270",
+   "subject": "fishingovaya-rassylka",
+   "predicate": "создаёт риск",
+   "object": "komprometaciya-uchetnyh-dannyh",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t271",
+   "subject": "komprometaciya-uchetnyh-dannyh",
+   "predicate": "создаёт риск",
+   "object": "nesankcionirovannyy-dostup-k-asu-tp",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t272",
+   "subject": "hischenie-dannyh",
+   "predicate": "создаёт риск",
+   "object": "utechka-personalnyh-dannyh-klientov",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t273",
+   "subject": "ataka-na-cepochku-postavok-po",
+   "predicate": "создаёт риск",
+   "object": "komprometaciya-cepochki-postavok-po",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t274",
+   "subject": "ddos-ataka",
+   "predicate": "создаёт риск",
+   "object": "sryv-sla-oblachnogo-provaydera",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t275",
+   "subject": "insayderskaya-utechka",
+   "predicate": "создаёт риск",
+   "object": "utechka-personalnyh-dannyh-klientov",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t276",
+   "subject": "nepropatchennaya-os-na-fs-01",
+   "predicate": "повышает риск",
+   "object": "prostoy-erp-iz-za-ransomware",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t277",
+   "subject": "izbytochnye-prava-servisnoy-uchetki",
+   "predicate": "повышает риск",
+   "object": "nesankcionirovannyy-dostup-k-asu-tp",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t278",
+   "subject": "slabaya-segmentaciya-seti",
+   "predicate": "повышает риск",
+   "object": "nesankcionirovannyy-dostup-k-asu-tp",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t279",
+   "subject": "ustarevshie-biblioteki-v-crm",
+   "predicate": "повышает риск",
+   "object": "komprometaciya-cepochki-postavok-po",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t280",
+   "subject": "otsutstvie-mfa-na-vpn",
+   "predicate": "повышает риск",
+   "object": "komprometaciya-uchetnyh-dannyh",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t281",
+   "subject": "utechka-personalnyh-dannyh-klientov",
+   "predicate": "затрагивает актив",
+   "object": "baza-personalnyh-dannyh-klientov",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t282",
+   "subject": "utechka-personalnyh-dannyh-klientov",
+   "predicate": "затрагивает актив",
+   "object": "crm-klientsoft",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t283",
+   "subject": "prostoy-erp-iz-za-ransomware",
+   "predicate": "затрагивает актив",
+   "object": "erp-globalerp",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t284",
+   "subject": "prostoy-erp-iz-za-ransomware",
+   "predicate": "затрагивает актив",
+   "object": "faylovyy-server-fs-01",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t285",
+   "subject": "nesankcionirovannyy-dostup-k-asu-tp",
+   "predicate": "затрагивает актив",
+   "object": "asu-tp-tehnolayn",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t286",
+   "subject": "komprometaciya-cepochki-postavok-po",
+   "predicate": "затрагивает актив",
+   "object": "crm-klientsoft",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t287",
+   "subject": "sryv-sla-oblachnogo-provaydera",
+   "predicate": "затрагивает актив",
+   "object": "oblako-oblakosoft",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t288",
+   "subject": "utechka-personalnyh-dannyh-klientov",
+   "predicate": "относится к категории",
+   "object": "utechka-dannyh",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t289",
+   "subject": "prostoy-erp-iz-za-ransomware",
+   "predicate": "относится к категории",
+   "object": "narushenie-dostupnosti",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t290",
+   "subject": "nesankcionirovannyy-dostup-k-asu-tp",
+   "predicate": "относится к категории",
+   "object": "narushenie-celostnosti",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t291",
+   "subject": "komprometaciya-cepochki-postavok-po",
+   "predicate": "относится к категории",
+   "object": "risk-tretey-storony",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t292",
+   "subject": "shtraf-za-narushenie-152-fz",
+   "predicate": "относится к категории",
+   "object": "nesootvetstvie-trebovaniyam",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t293",
+   "subject": "sryv-sla-oblachnogo-provaydera",
+   "predicate": "относится к категории",
+   "object": "risk-tretey-storony",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t294",
+   "subject": "utechka-personalnyh-dannyh-klientov",
+   "predicate": "оценивается уровнем",
+   "object": "kriticheskiy",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t295",
+   "subject": "prostoy-erp-iz-za-ransomware",
+   "predicate": "оценивается уровнем",
+   "object": "kriticheskiy",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t296",
+   "subject": "nesankcionirovannyy-dostup-k-asu-tp",
+   "predicate": "оценивается уровнем",
+   "object": "vysokiy",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t297",
+   "subject": "komprometaciya-cepochki-postavok-po",
+   "predicate": "оценивается уровнем",
+   "object": "vysokiy",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t298",
+   "subject": "sryv-sla-oblachnogo-provaydera",
+   "predicate": "оценивается уровнем",
+   "object": "sredniy",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t299",
+   "subject": "shtraf-za-narushenie-152-fz",
+   "predicate": "оценивается уровнем",
+   "object": "vysokiy",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t300",
+   "subject": "utechka-personalnyh-dannyh-klientov",
+   "predicate": "приводит к последствию",
+   "object": "utrata-dannyh",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t301",
+   "subject": "utechka-personalnyh-dannyh-klientov",
+   "predicate": "приводит к последствию",
+   "object": "regulyatornyy-shtraf",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t302",
+   "subject": "utechka-personalnyh-dannyh-klientov",
+   "predicate": "приводит к последствию",
+   "object": "reputacionnyy-uscherb",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t303",
+   "subject": "prostoy-erp-iz-za-ransomware",
+   "predicate": "приводит к последствию",
+   "object": "prostoy-biznes-processa",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t304",
+   "subject": "prostoy-erp-iz-za-ransomware",
+   "predicate": "приводит к последствию",
+   "object": "finansovye-poteri",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t305",
+   "subject": "nesankcionirovannyy-dostup-k-asu-tp",
+   "predicate": "приводит к последствию",
+   "object": "prostoy-biznes-processa",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t306",
+   "subject": "komprometaciya-cepochki-postavok-po",
+   "predicate": "приводит к последствию",
+   "object": "reputacionnyy-uscherb",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t307",
+   "subject": "sryv-sla-oblachnogo-provaydera",
+   "predicate": "приводит к последствию",
+   "object": "finansovye-poteri",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t308",
+   "subject": "utechka-personalnyh-dannyh-klientov",
+   "predicate": "снижается мерой",
+   "object": "dlp-sistema",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t309",
+   "subject": "utechka-personalnyh-dannyh-klientov",
+   "predicate": "снижается мерой",
+   "object": "regulyarnoe-skanirovanie-uyazvimostey",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t310",
+   "subject": "prostoy-erp-iz-za-ransomware",
+   "predicate": "снижается мерой",
+   "object": "rezervnoe-kopirovanie",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t311",
+   "subject": "prostoy-erp-iz-za-ransomware",
+   "predicate": "снижается мерой",
+   "object": "edr-na-konechnyh-ustroystvah",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t312",
+   "subject": "nesankcionirovannyy-dostup-k-asu-tp",
+   "predicate": "снижается мерой",
+   "object": "segmentaciya-seti",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t313",
+   "subject": "nesankcionirovannyy-dostup-k-asu-tp",
+   "predicate": "снижается мерой",
+   "object": "kontrol-privilegirovannogo-dostupa-pam",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t314",
+   "subject": "komprometaciya-cepochki-postavok-po",
+   "predicate": "снижается мерой",
+   "object": "programma-upravleniya-riskami",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t315",
+   "subject": "sryv-sla-oblachnogo-provaydera",
+   "predicate": "снижается мерой",
+   "object": "programma-upravleniya-riskami",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t316",
+   "subject": "shtraf-za-narushenie-152-fz",
+   "predicate": "снижается мерой",
+   "object": "programma-upravleniya-riskami",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t317",
+   "subject": "utechka-personalnyh-dannyh-klientov",
+   "predicate": "принимается ролью",
+   "object": "anna-kovaleva-ciso",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t318",
+   "subject": "prostoy-erp-iz-za-ransomware",
+   "predicate": "принимается ролью",
+   "object": "mariya-lebedeva-vladelec-aktiva",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t319",
+   "subject": "nesankcionirovannyy-dostup-k-asu-tp",
+   "predicate": "принимается ролью",
+   "object": "anna-kovaleva-ciso",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t320",
+   "subject": "komprometaciya-cepochki-postavok-po",
+   "predicate": "принимается ролью",
+   "object": "anna-kovaleva-ciso",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t321",
+   "subject": "sryv-sla-oblachnogo-provaydera",
+   "predicate": "принимается ролью",
+   "object": "mariya-lebedeva-vladelec-aktiva",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t322",
+   "subject": "shtraf-za-narushenie-152-fz",
+   "predicate": "принимается ролью",
+   "object": "anna-kovaleva-ciso",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t323",
+   "subject": "incident-utechka-pdn-iz-crm",
+   "predicate": "реализует риск",
+   "object": "utechka-personalnyh-dannyh-klientov",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t324",
+   "subject": "incident-ransomware-na-fs-01",
+   "predicate": "реализует риск",
+   "object": "prostoy-erp-iz-za-ransomware",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t325",
+   "subject": "incident-komprometaciya-uz-administratora",
+   "predicate": "реализует риск",
+   "object": "nesankcionirovannyy-dostup-k-asu-tp",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t326",
+   "subject": "incident-ddos-na-vneshniy-portal",
+   "predicate": "реализует риск",
+   "object": "sryv-sla-oblachnogo-provaydera",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t327",
+   "subject": "incident-utechka-pdn-iz-crm",
+   "predicate": "затрагивает актив",
+   "object": "crm-klientsoft",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t328",
+   "subject": "incident-utechka-pdn-iz-crm",
+   "predicate": "затрагивает актив",
+   "object": "baza-personalnyh-dannyh-klientov",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t329",
+   "subject": "incident-ransomware-na-fs-01",
+   "predicate": "затрагивает актив",
+   "object": "faylovyy-server-fs-01",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t330",
+   "subject": "incident-komprometaciya-uz-administratora",
+   "predicate": "затрагивает актив",
+   "object": "uz-admin-volkov",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t331",
+   "subject": "incident-ddos-na-vneshniy-portal",
+   "predicate": "затрагивает актив",
+   "object": "crm-klientsoft",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t332",
+   "subject": "incident-utechka-pdn-iz-crm",
+   "predicate": "обнаружен мерой",
+   "object": "dlp-sistema",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t333",
+   "subject": "incident-ransomware-na-fs-01",
+   "predicate": "обнаружен мерой",
+   "object": "edr-na-konechnyh-ustroystvah",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t334",
+   "subject": "incident-komprometaciya-uz-administratora",
+   "predicate": "обнаружен мерой",
+   "object": "siem-monitoring",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t335",
+   "subject": "incident-ddos-na-vneshniy-portal",
+   "predicate": "обнаружен мерой",
+   "object": "siem-monitoring",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t336",
+   "subject": "incident-utechka-pdn-iz-crm",
+   "predicate": "обрабатывается ролью",
+   "object": "dmitriy-orlov-ib-analitik-soc",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t337",
+   "subject": "incident-ransomware-na-fs-01",
+   "predicate": "обрабатывается ролью",
+   "object": "dmitriy-orlov-ib-analitik-soc",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t338",
+   "subject": "incident-komprometaciya-uz-administratora",
+   "predicate": "обрабатывается ролью",
+   "object": "sergey-volkov-administrator-is",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t339",
+   "subject": "incident-ddos-na-vneshniy-portal",
+   "predicate": "обрабатывается ролью",
+   "object": "dmitriy-orlov-ib-analitik-soc",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t340",
+   "subject": "incident-utechka-pdn-iz-crm",
+   "predicate": "имеет уровень критичности",
+   "object": "kriticheskiy",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t341",
+   "subject": "incident-ransomware-na-fs-01",
+   "predicate": "имеет уровень критичности",
+   "object": "kriticheskiy",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t342",
+   "subject": "incident-komprometaciya-uz-administratora",
+   "predicate": "имеет уровень критичности",
+   "object": "vysokiy",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t343",
+   "subject": "incident-ddos-na-vneshniy-portal",
+   "predicate": "имеет уровень критичности",
+   "object": "sredniy",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t344",
+   "subject": "incident-utechka-pdn-iz-crm",
+   "predicate": "приводит к последствию",
+   "object": "regulyatornyy-shtraf",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t345",
+   "subject": "incident-utechka-pdn-iz-crm",
+   "predicate": "приводит к последствию",
+   "object": "utrata-dannyh",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t346",
+   "subject": "incident-ransomware-na-fs-01",
+   "predicate": "приводит к последствию",
+   "object": "prostoy-biznes-processa",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t347",
+   "subject": "incident-komprometaciya-uz-administratora",
+   "predicate": "приводит к последствию",
+   "object": "finansovye-poteri",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t348",
+   "subject": "incident-ddos-na-vneshniy-portal",
+   "predicate": "приводит к последствию",
+   "object": "finansovye-poteri",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t349",
+   "subject": "incident-utechka-pdn-iz-crm",
+   "predicate": "требует действия",
+   "object": "uvedomit-roskomnadzor",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t350",
+   "subject": "incident-utechka-pdn-iz-crm",
+   "predicate": "требует действия",
+   "object": "provesti-rassledovanie-incidenta",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t351",
+   "subject": "incident-ransomware-na-fs-01",
+   "predicate": "требует действия",
+   "object": "izolirovat-zarazhennyy-uzel",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t352",
+   "subject": "incident-ransomware-na-fs-01",
+   "predicate": "требует действия",
+   "object": "vosstanovit-dannye-iz-rezervnoy-kopii",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t353",
+   "subject": "incident-komprometaciya-uz-administratora",
+   "predicate": "требует действия",
+   "object": "otklyuchit-skomprometirovannuyu-uchetnuyu-zapis",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t354",
+   "subject": "incident-komprometaciya-uz-administratora",
+   "predicate": "требует действия",
+   "object": "usilit-monitoring",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t355",
+   "subject": "incident-ddos-na-vneshniy-portal",
+   "predicate": "требует действия",
+   "object": "usilit-monitoring",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t356",
+   "subject": "incident-utechka-pdn-iz-crm",
+   "predicate": "уведомляет регулятора",
+   "object": "roskomnadzor",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t357",
+   "subject": "incident-komprometaciya-uz-administratora",
+   "predicate": "уведомляет регулятора",
+   "object": "fstek-rossii",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t358",
+   "subject": "incident-utechka-pdn-iz-crm",
+   "predicate": "реагируется по плану",
+   "object": "plan-reagirovaniya-na-utechku-pdn",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t359",
+   "subject": "incident-ransomware-na-fs-01",
+   "predicate": "реагируется по плану",
+   "object": "plan-reagirovaniya-na-ransomware",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t360",
+   "subject": "incident-komprometaciya-uz-administratora",
+   "predicate": "реагируется по плану",
+   "object": "plan-reagirovaniya-na-komprometaciyu-uchetnoy-zapisi",
+   "sourceId": "incidentlog",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t361",
+   "subject": "regulyatornyy-shtraf",
+   "predicate": "влияет на процесс",
+   "object": "obrabotka-zayavok-klientov",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t362",
+   "subject": "prostoy-biznes-processa",
+   "predicate": "влияет на процесс",
+   "object": "upravlenie-tehnologicheskim-processom",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t363",
+   "subject": "finansovye-poteri",
+   "predicate": "влияет на процесс",
+   "object": "tehnicheskaya-podderzhka-klientov",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t364",
+   "subject": "utrata-dannyh",
+   "predicate": "влияет на процесс",
+   "object": "obrabotka-zayavok-klientov",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t365",
+   "subject": "reputacionnyy-uscherb",
+   "predicate": "влияет на процесс",
+   "object": "tehnicheskaya-podderzhka-klientov",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t366",
+   "subject": "siem-monitoring",
+   "predicate": "защищает актив",
+   "object": "erp-globalerp",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t367",
+   "subject": "siem-monitoring",
+   "predicate": "защищает актив",
+   "object": "asu-tp-tehnolayn",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t368",
+   "subject": "edr-na-konechnyh-ustroystvah",
+   "predicate": "защищает актив",
+   "object": "noutbuk-petra-zaharova",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t369",
+   "subject": "edr-na-konechnyh-ustroystvah",
+   "predicate": "защищает актив",
+   "object": "faylovyy-server-fs-01",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t370",
+   "subject": "dlp-sistema",
+   "predicate": "защищает актив",
+   "object": "baza-personalnyh-dannyh-klientov",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t371",
+   "subject": "mnogofaktornaya-autentifikaciya-mfa",
+   "predicate": "защищает актив",
+   "object": "crm-klientsoft",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t372",
+   "subject": "mnogofaktornaya-autentifikaciya-mfa",
+   "predicate": "защищает актив",
+   "object": "oblako-oblakosoft",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t373",
+   "subject": "rezervnoe-kopirovanie",
+   "predicate": "защищает актив",
+   "object": "erp-globalerp",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t374",
+   "subject": "rezervnoe-kopirovanie",
+   "predicate": "защищает актив",
+   "object": "faylovyy-server-fs-01",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t375",
+   "subject": "segmentaciya-seti",
+   "predicate": "защищает актив",
+   "object": "segment-seti-asu-tp",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t376",
+   "subject": "kontrol-privilegirovannogo-dostupa-pam",
+   "predicate": "защищает актив",
+   "object": "uz-admin-volkov",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t377",
+   "subject": "obuchenie-sotrudnikov",
+   "predicate": "защищает актив",
+   "object": "noutbuk-petra-zaharova",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t378",
+   "subject": "siem-monitoring",
+   "predicate": "снижает риск",
+   "object": "nesankcionirovannyy-dostup-k-asu-tp",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t379",
+   "subject": "edr-na-konechnyh-ustroystvah",
+   "predicate": "снижает риск",
+   "object": "prostoy-erp-iz-za-ransomware",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t380",
+   "subject": "dlp-sistema",
+   "predicate": "снижает риск",
+   "object": "utechka-personalnyh-dannyh-klientov",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t381",
+   "subject": "mnogofaktornaya-autentifikaciya-mfa",
+   "predicate": "снижает риск",
+   "object": "komprometaciya-uchetnyh-dannyh",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t382",
+   "subject": "rezervnoe-kopirovanie",
+   "predicate": "снижает риск",
+   "object": "prostoy-erp-iz-za-ransomware",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t383",
+   "subject": "segmentaciya-seti",
+   "predicate": "снижает риск",
+   "object": "nesankcionirovannyy-dostup-k-asu-tp",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t384",
+   "subject": "kontrol-privilegirovannogo-dostupa-pam",
+   "predicate": "снижает риск",
+   "object": "nesankcionirovannyy-dostup-k-asu-tp",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t385",
+   "subject": "obuchenie-sotrudnikov",
+   "predicate": "снижает риск",
+   "object": "komprometaciya-uchetnyh-dannyh",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t386",
+   "subject": "programma-upravleniya-riskami",
+   "predicate": "снижает риск",
+   "object": "utechka-personalnyh-dannyh-klientov",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t387",
+   "subject": "siem-monitoring",
+   "predicate": "реализует требование",
+   "object": "upravlenie-dostupom-k-is",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t388",
+   "subject": "dlp-sistema",
+   "predicate": "реализует требование",
+   "object": "obespechenie-konfidencialnosti-pdn",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t389",
+   "subject": "mnogofaktornaya-autentifikaciya-mfa",
+   "predicate": "реализует требование",
+   "object": "upravlenie-dostupom-k-is",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t390",
+   "subject": "rezervnoe-kopirovanie",
+   "predicate": "реализует требование",
+   "object": "zaschita-asu-tp",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t391",
+   "subject": "segmentaciya-seti",
+   "predicate": "реализует требование",
+   "object": "zaschita-asu-tp",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t392",
+   "subject": "programma-upravleniya-riskami",
+   "predicate": "реализует требование",
+   "object": "attestaciya-is-po-trebovaniyam-bezopasnosti",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t393",
+   "subject": "regulyarnoe-skanirovanie-uyazvimostey",
+   "predicate": "реализует требование",
+   "object": "attestaciya-is-po-trebovaniyam-bezopasnosti",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t394",
+   "subject": "kontrol-privilegirovannogo-dostupa-pam",
+   "predicate": "реализует требование",
+   "object": "upravlenie-dostupom-k-is",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t395",
+   "subject": "siem-monitoring",
+   "predicate": "относится к категории",
+   "object": "monitoring-i-obnaruzhenie",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t396",
+   "subject": "edr-na-konechnyh-ustroystvah",
+   "predicate": "относится к категории",
+   "object": "monitoring-i-obnaruzhenie",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t397",
+   "subject": "dlp-sistema",
+   "predicate": "относится к категории",
+   "object": "zaschita-dannyh",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t398",
+   "subject": "mnogofaktornaya-autentifikaciya-mfa",
+   "predicate": "относится к категории",
+   "object": "upravlenie-dostupom",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t399",
+   "subject": "rezervnoe-kopirovanie",
+   "predicate": "относится к категории",
+   "object": "vosstanovlenie",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t400",
+   "subject": "segmentaciya-seti",
+   "predicate": "относится к категории",
+   "object": "setevaya-zaschita",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t401",
+   "subject": "regulyarnoe-skanirovanie-uyazvimostey",
+   "predicate": "относится к категории",
+   "object": "upravlenie-uyazvimostyami-i-patchami",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t402",
+   "subject": "obuchenie-sotrudnikov",
+   "predicate": "относится к категории",
+   "object": "obuchenie-i-osvedomlennost",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t403",
+   "subject": "kontrol-privilegirovannogo-dostupa-pam",
+   "predicate": "относится к категории",
+   "object": "upravlenie-dostupom",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t404",
+   "subject": "programma-upravleniya-riskami",
+   "predicate": "относится к категории",
+   "object": "zaschita-dannyh",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр рисков ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t405",
+   "subject": "siem-monitoring",
+   "predicate": "управляется ролью",
+   "object": "dmitriy-orlov-ib-analitik-soc",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t406",
+   "subject": "edr-na-konechnyh-ustroystvah",
+   "predicate": "управляется ролью",
+   "object": "dmitriy-orlov-ib-analitik-soc",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t407",
+   "subject": "dlp-sistema",
+   "predicate": "управляется ролью",
+   "object": "dmitriy-orlov-ib-analitik-soc",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t408",
+   "subject": "mnogofaktornaya-autentifikaciya-mfa",
+   "predicate": "управляется ролью",
+   "object": "sergey-volkov-administrator-is",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t409",
+   "subject": "rezervnoe-kopirovanie",
+   "predicate": "управляется ролью",
+   "object": "sergey-volkov-administrator-is",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t410",
+   "subject": "segmentaciya-seti",
+   "predicate": "управляется ролью",
+   "object": "sergey-volkov-administrator-is",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t411",
+   "subject": "regulyarnoe-skanirovanie-uyazvimostey",
+   "predicate": "управляется ролью",
+   "object": "dmitriy-orlov-ib-analitik-soc",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t412",
+   "subject": "obuchenie-sotrudnikov",
+   "predicate": "управляется ролью",
+   "object": "anna-kovaleva-ciso",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t413",
+   "subject": "kontrol-privilegirovannogo-dostupa-pam",
+   "predicate": "управляется ролью",
+   "object": "sergey-volkov-administrator-is",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t414",
+   "subject": "programma-upravleniya-riskami",
+   "predicate": "управляется ролью",
+   "object": "anna-kovaleva-ciso",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t415",
+   "subject": "plan-reagirovaniya-na-utechku-pdn",
+   "predicate": "содержит действие",
+   "object": "uvedomit-roskomnadzor",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t416",
+   "subject": "plan-reagirovaniya-na-utechku-pdn",
+   "predicate": "содержит действие",
+   "object": "provesti-rassledovanie-incidenta",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t417",
+   "subject": "plan-reagirovaniya-na-ransomware",
+   "predicate": "содержит действие",
+   "object": "izolirovat-zarazhennyy-uzel",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t418",
+   "subject": "plan-reagirovaniya-na-ransomware",
+   "predicate": "содержит действие",
+   "object": "vosstanovit-dannye-iz-rezervnoy-kopii",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t419",
+   "subject": "plan-reagirovaniya-na-komprometaciyu-uchetnoy-zapisi",
+   "predicate": "содержит действие",
+   "object": "otklyuchit-skomprometirovannuyu-uchetnuyu-zapis",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t420",
+   "subject": "plan-reagirovaniya-na-komprometaciyu-uchetnoy-zapisi",
+   "predicate": "содержит действие",
+   "object": "usilit-monitoring",
+   "sourceId": "policy",
+   "sourceName": "Политика информационной безопасности",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t421",
+   "subject": "federalnyy-zakon-152-fz",
+   "predicate": "издан регулятором",
+   "object": "roskomnadzor",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t422",
+   "subject": "federalnyy-zakon-187-fz-kii",
+   "predicate": "издан регулятором",
+   "object": "fstek-rossii",
+   "sourceId": "fz187",
+   "sourceName": "187-ФЗ «О безопасности КИИ»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t423",
+   "subject": "prikaz-fstek-rossii-17",
+   "predicate": "издан регулятором",
+   "object": "fstek-rossii",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t424",
+   "subject": "prikaz-fstek-rossii-21",
+   "predicate": "издан регулятором",
+   "object": "fstek-rossii",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t425",
+   "subject": "prikaz-fstek-rossii-239",
+   "predicate": "издан регулятором",
+   "object": "fstek-rossii",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t426",
+   "subject": "federalnyy-zakon-152-fz",
+   "predicate": "содержит требование",
+   "object": "obespechenie-konfidencialnosti-pdn",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t427",
+   "subject": "federalnyy-zakon-152-fz",
+   "predicate": "содержит требование",
+   "object": "uvedomlenie-roskomnadzora-ob-utechke",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t428",
+   "subject": "federalnyy-zakon-187-fz-kii",
+   "predicate": "содержит требование",
+   "object": "kategorirovanie-obektov-kii",
+   "sourceId": "fz187",
+   "sourceName": "187-ФЗ «О безопасности КИИ»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t429",
+   "subject": "prikaz-fstek-rossii-17",
+   "predicate": "содержит требование",
+   "object": "attestaciya-is-po-trebovaniyam-bezopasnosti",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t430",
+   "subject": "prikaz-fstek-rossii-21",
+   "predicate": "содержит требование",
+   "object": "upravlenie-dostupom-k-is",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t431",
+   "subject": "prikaz-fstek-rossii-239",
+   "predicate": "содержит требование",
+   "object": "zaschita-asu-tp",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t432",
+   "subject": "gost-r-57580-1-2017",
+   "predicate": "содержит требование",
+   "object": "upravlenie-dostupom-k-is",
+   "sourceId": "gost",
+   "sourceName": "ГОСТ Р 57580.1-2017 / ГОСТ Р ИСО/МЭК 27001",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-04-10"
+  },
+  {
+   "id": "t433",
+   "subject": "gost-r-iso-mek-27001-2022",
+   "predicate": "содержит требование",
+   "object": "upravlenie-dostupom-k-is",
+   "sourceId": "gost",
+   "sourceName": "ГОСТ Р 57580.1-2017 / ГОСТ Р ИСО/МЭК 27001",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-04-10"
+  },
+  {
+   "id": "t434",
+   "subject": "gost-r-56545-2015",
+   "predicate": "содержит требование",
+   "object": "attestaciya-is-po-trebovaniyam-bezopasnosti",
+   "sourceId": "gost",
+   "sourceName": "ГОСТ Р 57580.1-2017 / ГОСТ Р ИСО/МЭК 27001",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-04-10"
+  },
+  {
+   "id": "t435",
+   "subject": "obespechenie-konfidencialnosti-pdn",
+   "predicate": "применяется к активу",
+   "object": "baza-personalnyh-dannyh-klientov",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t436",
+   "subject": "obespechenie-konfidencialnosti-pdn",
+   "predicate": "применяется к активу",
+   "object": "crm-klientsoft",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t437",
+   "subject": "uvedomlenie-roskomnadzora-ob-utechke",
+   "predicate": "применяется к активу",
+   "object": "baza-personalnyh-dannyh-klientov",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t438",
+   "subject": "attestaciya-is-po-trebovaniyam-bezopasnosti",
+   "predicate": "применяется к активу",
+   "object": "erp-globalerp",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t439",
+   "subject": "zaschita-asu-tp",
+   "predicate": "применяется к активу",
+   "object": "asu-tp-tehnolayn",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t440",
+   "subject": "kategorirovanie-obektov-kii",
+   "predicate": "применяется к активу",
+   "object": "asu-tp-tehnolayn",
+   "sourceId": "fz187",
+   "sourceName": "187-ФЗ «О безопасности КИИ»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t441",
+   "subject": "upravlenie-dostupom-k-is",
+   "predicate": "применяется к активу",
+   "object": "erp-globalerp",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t442",
+   "subject": "obespechenie-konfidencialnosti-pdn",
+   "predicate": "требует меры",
+   "object": "mnogofaktornaya-autentifikaciya-mfa",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t443",
+   "subject": "obespechenie-konfidencialnosti-pdn",
+   "predicate": "требует меры",
+   "object": "dlp-sistema",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t444",
+   "subject": "uvedomlenie-roskomnadzora-ob-utechke",
+   "predicate": "требует меры",
+   "object": "siem-monitoring",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t445",
+   "subject": "attestaciya-is-po-trebovaniyam-bezopasnosti",
+   "predicate": "требует меры",
+   "object": "programma-upravleniya-riskami",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t446",
+   "subject": "attestaciya-is-po-trebovaniyam-bezopasnosti",
+   "predicate": "требует меры",
+   "object": "regulyarnoe-skanirovanie-uyazvimostey",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t447",
+   "subject": "zaschita-asu-tp",
+   "predicate": "требует меры",
+   "object": "segmentaciya-seti",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t448",
+   "subject": "zaschita-asu-tp",
+   "predicate": "требует меры",
+   "object": "rezervnoe-kopirovanie",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t449",
+   "subject": "upravlenie-dostupom-k-is",
+   "predicate": "требует меры",
+   "object": "kontrol-privilegirovannogo-dostupa-pam",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t450",
+   "subject": "kategorirovanie-obektov-kii",
+   "predicate": "требует меры",
+   "object": "programma-upravleniya-riskami",
+   "sourceId": "fz187",
+   "sourceName": "187-ФЗ «О безопасности КИИ»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t451",
+   "subject": "obespechenie-konfidencialnosti-pdn",
+   "predicate": "применяется к процессу",
+   "object": "obrabotka-zayavok-klientov",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t452",
+   "subject": "upravlenie-dostupom-k-is",
+   "predicate": "применяется к процессу",
+   "object": "raschet-zarabotnoy-platy",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t453",
+   "subject": "zaschita-asu-tp",
+   "predicate": "применяется к процессу",
+   "object": "upravlenie-tehnologicheskim-processom",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t454",
+   "subject": "uvedomlenie-roskomnadzora-ob-utechke",
+   "predicate": "предусматривает последствие",
+   "object": "regulyatornyy-shtraf",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t455",
+   "subject": "attestaciya-is-po-trebovaniyam-bezopasnosti",
+   "predicate": "предусматривает последствие",
+   "object": "finansovye-poteri",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t456",
+   "subject": "zaschita-asu-tp",
+   "predicate": "предусматривает последствие",
+   "object": "prostoy-biznes-processa",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t457",
+   "subject": "attestaciya-is-klientsoft",
+   "predicate": "проверяет требование",
+   "object": "attestaciya-is-po-trebovaniyam-bezopasnosti",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t458",
+   "subject": "attestaciya-is-klientsoft",
+   "predicate": "проверяет меру",
+   "object": "mnogofaktornaya-autentifikaciya-mfa",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t459",
+   "subject": "attestaciya-is-klientsoft",
+   "predicate": "оценивает актив",
+   "object": "crm-klientsoft",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t460",
+   "subject": "audit-sootvetstviya-152-fz",
+   "predicate": "проверяет требование",
+   "object": "obespechenie-konfidencialnosti-pdn",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t461",
+   "subject": "audit-sootvetstviya-152-fz",
+   "predicate": "проверяет меру",
+   "object": "dlp-sistema",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t462",
+   "subject": "audit-sootvetstviya-152-fz",
+   "predicate": "оценивает актив",
+   "object": "baza-personalnyh-dannyh-klientov",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t463",
+   "subject": "ocenka-sootvetstviya-gost-r-57580",
+   "predicate": "проверяет требование",
+   "object": "upravlenie-dostupom-k-is",
+   "sourceId": "gost",
+   "sourceName": "ГОСТ Р 57580.1-2017 / ГОСТ Р ИСО/МЭК 27001",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-04-10"
+  },
+  {
+   "id": "t464",
+   "subject": "ocenka-sootvetstviya-gost-r-57580",
+   "predicate": "проверяет меру",
+   "object": "kontrol-privilegirovannogo-dostupa-pam",
+   "sourceId": "gost",
+   "sourceName": "ГОСТ Р 57580.1-2017 / ГОСТ Р ИСО/МЭК 27001",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-04-10"
+  },
+  {
+   "id": "t465",
+   "subject": "ocenka-sootvetstviya-gost-r-57580",
+   "predicate": "оценивает актив",
+   "object": "erp-globalerp",
+   "sourceId": "gost",
+   "sourceName": "ГОСТ Р 57580.1-2017 / ГОСТ Р ИСО/МЭК 27001",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-04-10"
+  },
+  {
+   "id": "t466",
+   "subject": "ezhegodnoe-obuchenie-po-ib",
+   "predicate": "развивает компетенцию",
+   "object": "reagirovanie-na-incidenty",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t467",
+   "subject": "ezhegodnoe-obuchenie-po-ib",
+   "predicate": "повышает осведомлённость об угрозе",
+   "object": "fishingovaya-rassylka",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t468",
+   "subject": "antifishingovyy-trening",
+   "predicate": "развивает компетенцию",
+   "object": "osvedomlennost-o-fishinge",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t469",
+   "subject": "antifishingovyy-trening",
+   "predicate": "повышает осведомлённость об угрозе",
+   "object": "fishingovaya-rassylka",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t470",
+   "subject": "kurs-po-zaschite-personalnyh-dannyh",
+   "predicate": "развивает компетенцию",
+   "object": "administrirovanie-is",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t471",
+   "subject": "kurs-po-zaschite-personalnyh-dannyh",
+   "predicate": "повышает осведомлённость об угрозе",
+   "object": "hischenie-dannyh",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t472",
+   "subject": "ezhegodnoe-obuchenie-po-ib",
+   "predicate": "развивает компетенцию",
+   "object": "analiz-incidentov",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t473",
+   "subject": "antifishingovyy-trening",
+   "predicate": "повышает осведомлённость об угрозе",
+   "object": "insayderskaya-utechka",
+   "sourceId": "hr",
+   "sourceName": "HR-система и LMS",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-25"
+  },
+  {
+   "id": "t474",
+   "subject": "postavschik-po-klientsoft",
+   "predicate": "предоставляет услугу",
+   "object": "oblachnyy-servis-crm",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t475",
+   "subject": "oblachnyy-provayder-oblakosoft",
+   "predicate": "предоставляет услугу",
+   "object": "oblachnyy-servis-crm",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t476",
+   "subject": "podryadchik-servispro",
+   "predicate": "предоставляет услугу",
+   "object": "tehnicheskaya-podderzhka-erp",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t477",
+   "subject": "autsors-soc-sekyurmonitor",
+   "predicate": "предоставляет услугу",
+   "object": "monitoring-soc",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t478",
+   "subject": "postavschik-po-klientsoft",
+   "predicate": "имеет доступ к активу",
+   "object": "crm-klientsoft",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t479",
+   "subject": "oblachnyy-provayder-oblakosoft",
+   "predicate": "имеет доступ к активу",
+   "object": "oblako-oblakosoft",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t480",
+   "subject": "podryadchik-servispro",
+   "predicate": "имеет доступ к активу",
+   "object": "erp-globalerp",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t481",
+   "subject": "autsors-soc-sekyurmonitor",
+   "predicate": "имеет доступ к активу",
+   "object": "erp-globalerp",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t482",
+   "subject": "autsors-soc-sekyurmonitor",
+   "predicate": "имеет доступ к активу",
+   "object": "asu-tp-tehnolayn",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t483",
+   "subject": "dogovor-s-klientsoft",
+   "predicate": "связывает поставщика",
+   "object": "postavschik-po-klientsoft",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t484",
+   "subject": "dogovor-s-oblakosoft",
+   "predicate": "связывает поставщика",
+   "object": "oblachnyy-provayder-oblakosoft",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t485",
+   "subject": "dogovor-s-servispro",
+   "predicate": "связывает поставщика",
+   "object": "podryadchik-servispro",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t486",
+   "subject": "dogovor-s-klientsoft",
+   "predicate": "содержит требование",
+   "object": "upravlenie-dostupom-k-is",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t487",
+   "subject": "dogovor-s-oblakosoft",
+   "predicate": "содержит требование",
+   "object": "obespechenie-konfidencialnosti-pdn",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t488",
+   "subject": "dogovor-s-servispro",
+   "predicate": "содержит требование",
+   "object": "upravlenie-dostupom-k-is",
+   "sourceId": "fstek",
+   "sourceName": "Приказы ФСТЭК России №17/21/239",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t489",
+   "subject": "postavschik-po-klientsoft",
+   "predicate": "вносит риск цепочки поставок",
+   "object": "risk-komprometacii-obnovleniy-po",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t490",
+   "subject": "oblachnyy-provayder-oblakosoft",
+   "predicate": "вносит риск цепочки поставок",
+   "object": "risk-zavisimosti-ot-oblachnogo-provaydera",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t491",
+   "subject": "podryadchik-servispro",
+   "predicate": "вносит риск цепочки поставок",
+   "object": "risk-utechki-cherez-podryadchika",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t492",
+   "subject": "autsors-soc-sekyurmonitor",
+   "predicate": "вносит риск цепочки поставок",
+   "object": "risk-utechki-cherez-podryadchika",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t493",
+   "subject": "risk-komprometacii-obnovleniy-po",
+   "predicate": "является риском",
+   "object": "komprometaciya-cepochki-postavok-po",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t494",
+   "subject": "risk-zavisimosti-ot-oblachnogo-provaydera",
+   "predicate": "является риском",
+   "object": "sryv-sla-oblachnogo-provaydera",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t495",
+   "subject": "risk-utechki-cherez-podryadchika",
+   "predicate": "является риском",
+   "object": "utechka-personalnyh-dannyh-klientov",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t496",
+   "subject": "oblachnyy-servis-crm",
+   "predicate": "поддерживает процесс",
+   "object": "obrabotka-zayavok-klientov",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t497",
+   "subject": "tehnicheskaya-podderzhka-erp",
+   "predicate": "поддерживает процесс",
+   "object": "tehnicheskaya-podderzhka-klientov",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t498",
+   "subject": "monitoring-soc",
+   "predicate": "поддерживает процесс",
+   "object": "upravlenie-incidentami",
+   "sourceId": "cmdb",
+   "sourceName": "CMDB / реестр активов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t499",
+   "subject": "dogovor-s-klientsoft",
+   "predicate": "оплачивает услугу",
+   "object": "oblachnyy-servis-crm",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t500",
+   "subject": "dogovor-s-oblakosoft",
+   "predicate": "оплачивает услугу",
+   "object": "oblachnyy-servis-crm",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  },
+  {
+   "id": "t501",
+   "subject": "dogovor-s-servispro",
+   "predicate": "оплачивает услугу",
+   "object": "tehnicheskaya-podderzhka-erp",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров с подрядчиками",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-15"
+  }
+ ]
+}

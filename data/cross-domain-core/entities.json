@@ -1,0 +1,404 @@
+{
+ "entities": [
+  {
+   "id": "audit-dostupa",
+   "label": "Аудит доступа",
+   "classCode": "Control"
+  },
+  {
+   "id": "byudzhet-socvyplat",
+   "label": "Бюджет соцвыплат",
+   "classCode": "FinancialResource"
+  },
+  {
+   "id": "class-variant-resheniya",
+   "label": "Вариант решения",
+   "classCode": "DecisionOption",
+   "isClass": true
+  },
+  {
+   "id": "vklyuchit-ruchnoy-rezhim",
+   "label": "Включить ручной режим",
+   "classCode": "DecisionOption"
+  },
+  {
+   "id": "vremennaya-nedostupnost-ivanova",
+   "label": "Временная недоступность Иванова",
+   "classCode": "Restriction"
+  },
+  {
+   "id": "vremya-obrabotki-zayavleniya",
+   "label": "Время обработки заявления",
+   "classCode": "KPI"
+  },
+  {
+   "id": "vybrat-infosoft",
+   "label": "Выбрать ИнфоСофт",
+   "classCode": "DecisionOption"
+  },
+  {
+   "id": "vyplata-subsidii",
+   "label": "Выплата субсидии",
+   "classCode": "Process"
+  },
+  {
+   "id": "class-dogovor",
+   "label": "Договор",
+   "classCode": "Contract",
+   "isClass": true
+  },
+  {
+   "id": "dogovor-podderzhki-ias",
+   "label": "Договор поддержки ИАС",
+   "classCode": "Contract"
+  },
+  {
+   "id": "dogovor-s-infosoft",
+   "label": "Договор с ИнфоСофт",
+   "classCode": "Contract"
+  },
+  {
+   "id": "class-dokument",
+   "label": "Документ",
+   "classCode": "Document",
+   "isClass": true
+  },
+  {
+   "id": "class-dolzhnost",
+   "label": "Должность",
+   "classCode": "Position",
+   "isClass": true
+  },
+  {
+   "id": "class-domohozyaystvo",
+   "label": "Домохозяйство",
+   "classCode": "Household",
+   "isClass": true
+  },
+  {
+   "id": "domohozyaystvo-petrovyh",
+   "label": "Домохозяйство Петровых",
+   "classCode": "Household"
+  },
+  {
+   "id": "dohod-petrova",
+   "label": "Доход Петрова",
+   "classCode": "FinancialResource"
+  },
+  {
+   "id": "zhilischnaya-subsidiya",
+   "label": "Жилищная субсидия",
+   "classCode": "Service"
+  },
+  {
+   "id": "zavisimost-ot-postavschika",
+   "label": "Зависимость от поставщика",
+   "classCode": "Risk"
+  },
+  {
+   "id": "zakon-o-personalnyh-dannyh",
+   "label": "Закон о персональных данных",
+   "classCode": "LegalAct"
+  },
+  {
+   "id": "zaprosit-podtverzhdenie-dohodov",
+   "label": "Запросить подтверждение доходов",
+   "classCode": "DecisionOption"
+  },
+  {
+   "id": "zayavlenie-petrova",
+   "label": "Заявление Петрова",
+   "classCode": "Document"
+  },
+  {
+   "id": "ias-socpodderzhka",
+   "label": "ИАС Соцподдержка",
+   "classCode": "ITSystem"
+  },
+  {
+   "id": "ivanov",
+   "label": "Иванов",
+   "classCode": "Person"
+  },
+  {
+   "id": "infosoft",
+   "label": "ИнфоСофт",
+   "classCode": "Organization"
+  },
+  {
+   "id": "class-incident",
+   "label": "Инцидент",
+   "classCode": "Incident",
+   "isClass": true
+  },
+  {
+   "id": "class-it-sistema",
+   "label": "ИТ-система",
+   "classCode": "ITSystem",
+   "isClass": true
+  },
+  {
+   "id": "keys-vybora-postavschika",
+   "label": "Кейс выбора поставщика",
+   "classCode": "DecisionCase"
+  },
+  {
+   "id": "keys-naznacheniya",
+   "label": "Кейс назначения",
+   "classCode": "DecisionCase"
+  },
+  {
+   "id": "keys-petrova",
+   "label": "Кейс Петрова",
+   "classCode": "DecisionCase"
+  },
+  {
+   "id": "class-keys-prinyatiya-resheniya",
+   "label": "Кейс принятия решения",
+   "classCode": "DecisionCase",
+   "isClass": true
+  },
+  {
+   "id": "keys-reagirovaniya-na-sboy",
+   "label": "Кейс реагирования на сбой",
+   "classCode": "DecisionCase"
+  },
+  {
+   "id": "class-kontrol",
+   "label": "Контроль",
+   "classCode": "Control",
+   "isClass": true
+  },
+  {
+   "id": "kuznecov",
+   "label": "Кузнецов",
+   "classCode": "Person"
+  },
+  {
+   "id": "class-mestopolozhenie",
+   "label": "Местоположение",
+   "classCode": "Location",
+   "isClass": true
+  },
+  {
+   "id": "minsocpolitiki",
+   "label": "Минсоцполитики",
+   "classCode": "Organization"
+  },
+  {
+   "id": "moskva",
+   "label": "Москва",
+   "classCode": "Location"
+  },
+  {
+   "id": "naznachit-sidorovu",
+   "label": "Назначить Сидорову",
+   "classCode": "DecisionOption"
+  },
+  {
+   "id": "class-normativnyy-pravovoy-akt",
+   "label": "Нормативный правовой акт",
+   "classCode": "LegalAct",
+   "isClass": true
+  },
+  {
+   "id": "class-obekt-dannyh",
+   "label": "Объект данных",
+   "classCode": "DataObject",
+   "isClass": true
+  },
+  {
+   "id": "class-ogranichenie",
+   "label": "Ограничение",
+   "classCode": "Restriction",
+   "isClass": true
+  },
+  {
+   "id": "odobrit-subsidiyu-petrovu",
+   "label": "Одобрить субсидию Петрову",
+   "classCode": "DecisionOption"
+  },
+  {
+   "id": "class-organizacionnoe-podrazdelenie",
+   "label": "Организационное подразделение",
+   "classCode": "OrgUnit",
+   "isClass": true
+  },
+  {
+   "id": "class-organizaciya",
+   "label": "Организация",
+   "classCode": "Organization",
+   "isClass": true
+  },
+  {
+   "id": "ostanovka-uslugi",
+   "label": "Остановка услуги",
+   "classCode": "Risk"
+  },
+  {
+   "id": "otdel-socpodderzhki",
+   "label": "Отдел соцподдержки",
+   "classCode": "OrgUnit"
+  },
+  {
+   "id": "personalnye-dannye-zayaviteley",
+   "label": "Персональные данные заявителей",
+   "classCode": "DataObject"
+  },
+  {
+   "id": "petrov",
+   "label": "Петров",
+   "classCode": "Person"
+  },
+  {
+   "id": "class-pokazatel",
+   "label": "Показатель",
+   "classCode": "KPI",
+   "isClass": true
+  },
+  {
+   "id": "class-politika",
+   "label": "Политика",
+   "classCode": "Policy",
+   "isClass": true
+  },
+  {
+   "id": "politika-dostupa-k-pdn",
+   "label": "Политика доступа к ПДн",
+   "classCode": "Policy"
+  },
+  {
+   "id": "pravilo-zhilischnoy-subsidii",
+   "label": "Правило жилищной субсидии",
+   "classCode": "EligibilityRule"
+  },
+  {
+   "id": "class-pravilo-naznacheniya",
+   "label": "Правило назначения",
+   "classCode": "EligibilityRule",
+   "isClass": true
+  },
+  {
+   "id": "priem-zayavleniy",
+   "label": "Приём заявлений",
+   "classCode": "Process"
+  },
+  {
+   "id": "proverka-dohodov",
+   "label": "Проверка доходов",
+   "classCode": "Process"
+  },
+  {
+   "id": "class-process",
+   "label": "Процесс",
+   "classCode": "Process",
+   "isClass": true
+  },
+  {
+   "id": "class-reshenie",
+   "label": "Решение",
+   "classCode": "Decision",
+   "isClass": true
+  },
+  {
+   "id": "reshenie-po-naznacheniyu",
+   "label": "Решение по назначению",
+   "classCode": "Decision"
+  },
+  {
+   "id": "reshenie-po-petrovu",
+   "label": "Решение по Петрову",
+   "classCode": "Decision"
+  },
+  {
+   "id": "reshenie-po-postavschiku",
+   "label": "Решение по поставщику",
+   "classCode": "Decision"
+  },
+  {
+   "id": "reshenie-po-sboyu",
+   "label": "Решение по сбою",
+   "classCode": "Decision"
+  },
+  {
+   "id": "class-risk",
+   "label": "Риск",
+   "classCode": "Risk",
+   "isClass": true
+  },
+  {
+   "id": "romashka",
+   "label": "Ромашка",
+   "classCode": "Organization"
+  },
+  {
+   "id": "rukovoditel-processa-subsidiy",
+   "label": "Руководитель процесса субсидий",
+   "classCode": "Position"
+  },
+  {
+   "id": "ruchnoy-rezhim-priema",
+   "label": "Ручной режим приёма",
+   "classCode": "Control"
+  },
+  {
+   "id": "sankcionnoe-ogranichenie-romashki",
+   "label": "Санкционное ограничение Ромашки",
+   "classCode": "Restriction"
+  },
+  {
+   "id": "sboy-ias-socpodderzhka",
+   "label": "Сбой ИАС Соцподдержка",
+   "classCode": "Incident"
+  },
+  {
+   "id": "sidorova",
+   "label": "Сидорова",
+   "classCode": "Person"
+  },
+  {
+   "id": "spravka-o-dohodah",
+   "label": "Справка о доходах",
+   "classCode": "Document"
+  },
+  {
+   "id": "sryv-srokov-vyplat",
+   "label": "Срыв сроков выплат",
+   "classCode": "Risk"
+  },
+  {
+   "id": "class-trebovanie",
+   "label": "Требование",
+   "classCode": "Requirement",
+   "isClass": true
+  },
+  {
+   "id": "usilennaya-autentifikaciya-pdn",
+   "label": "Усиленная аутентификация ПДн",
+   "classCode": "Requirement"
+  },
+  {
+   "id": "class-usluga",
+   "label": "Услуга",
+   "classCode": "Service",
+   "isClass": true
+  },
+  {
+   "id": "utechka-pdn",
+   "label": "Утечка ПДн",
+   "classCode": "Risk"
+  },
+  {
+   "id": "class-fizicheskoe-lico",
+   "label": "Физическое лицо",
+   "classCode": "Person",
+   "isClass": true
+  },
+  {
+   "id": "class-finansovyy-resurs",
+   "label": "Финансовый ресурс",
+   "classCode": "FinancialResource",
+   "isClass": true
+  }
+ ]
+}

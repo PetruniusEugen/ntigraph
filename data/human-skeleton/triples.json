@@ -1,0 +1,7824 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "osevoy-skelet",
+   "predicate": "имеет тип",
+   "object": "class-otdel-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "osevoy-skelet",
+   "predicate": "выполняет функцию",
+   "object": "opora",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t003",
+   "subject": "osevoy-skelet",
+   "predicate": "выполняет функцию",
+   "object": "zaschita-organov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "osevoy-skelet",
+   "predicate": "выполняет функцию",
+   "object": "krovetvorenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "dobavochnyy-skelet",
+   "predicate": "имеет тип",
+   "object": "class-otdel-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "dobavochnyy-skelet",
+   "predicate": "выполняет функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "dobavochnyy-skelet",
+   "predicate": "выполняет функцию",
+   "object": "depo-mineralov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t008",
+   "subject": "cherep",
+   "predicate": "имеет тип",
+   "object": "class-kost-osevogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "cherep",
+   "predicate": "входит в отдел",
+   "object": "osevoy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t010",
+   "subject": "cherep",
+   "predicate": "защищает",
+   "object": "golovnoy-mozg",
+   "sourceId": "src-anatomy",
+   "sourceName": "Учебник анатомии человека (демонстрационный источник)",
+   "sourceType": "textbook",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t011",
+   "subject": "pozvonochnik",
+   "predicate": "имеет тип",
+   "object": "class-kost-osevogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t012",
+   "subject": "pozvonochnik",
+   "predicate": "входит в отдел",
+   "object": "osevoy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t013",
+   "subject": "pozvonochnik",
+   "predicate": "защищает",
+   "object": "spinnoy-mozg",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t014",
+   "subject": "grudnaya-kletka",
+   "predicate": "имеет тип",
+   "object": "class-kost-osevogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "grudnaya-kletka",
+   "predicate": "входит в отдел",
+   "object": "osevoy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "grudnaya-kletka",
+   "predicate": "защищает",
+   "object": "serdce",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "grudnaya-kletka",
+   "predicate": "защищает",
+   "object": "legkie",
+   "sourceId": "src-anatomy",
+   "sourceName": "Учебник анатомии человека (демонстрационный источник)",
+   "sourceType": "textbook",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t018",
+   "subject": "golovnoy-mozg",
+   "predicate": "имеет тип",
+   "object": "class-organ",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t019",
+   "subject": "spinnoy-mozg",
+   "predicate": "имеет тип",
+   "object": "class-organ",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t020",
+   "subject": "serdce",
+   "predicate": "имеет тип",
+   "object": "class-organ",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "legkie",
+   "predicate": "имеет тип",
+   "object": "class-organ",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t022",
+   "subject": "lopatka",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t023",
+   "subject": "lopatka",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t024",
+   "subject": "lopatka",
+   "predicate": "образует сустав",
+   "object": "plechevoy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t025",
+   "subject": "plechevaya-kost",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t026",
+   "subject": "plechevaya-kost",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t027",
+   "subject": "plechevaya-kost",
+   "predicate": "образует сустав",
+   "object": "plechevoy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t028",
+   "subject": "plechevaya-kost",
+   "predicate": "образует сустав",
+   "object": "loktevoy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t029",
+   "subject": "luchevaya-kost",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t030",
+   "subject": "luchevaya-kost",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t031",
+   "subject": "luchevaya-kost",
+   "predicate": "образует сустав",
+   "object": "loktevoy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t032",
+   "subject": "loktevaya-kost",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t033",
+   "subject": "loktevaya-kost",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t034",
+   "subject": "loktevaya-kost",
+   "predicate": "образует сустав",
+   "object": "loktevoy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t035",
+   "subject": "tazovaya-kost",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t036",
+   "subject": "tazovaya-kost",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t037",
+   "subject": "tazovaya-kost",
+   "predicate": "образует сустав",
+   "object": "tazobedrennyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t038",
+   "subject": "bedrennaya-kost",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t039",
+   "subject": "bedrennaya-kost",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t040",
+   "subject": "bedrennaya-kost",
+   "predicate": "образует сустав",
+   "object": "tazobedrennyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t041",
+   "subject": "bedrennaya-kost",
+   "predicate": "образует сустав",
+   "object": "kolennyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t042",
+   "subject": "bolshebercovaya-kost",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t043",
+   "subject": "bolshebercovaya-kost",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t044",
+   "subject": "bolshebercovaya-kost",
+   "predicate": "образует сустав",
+   "object": "kolennyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t045",
+   "subject": "plechevoy-sustav",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t046",
+   "subject": "loktevoy-sustav",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t047",
+   "subject": "tazobedrennyy-sustav",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t048",
+   "subject": "kolennyy-sustav",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t049",
+   "subject": "deltovidnaya-myshca",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t050",
+   "subject": "deltovidnaya-myshca",
+   "predicate": "крепится к",
+   "object": "plechevaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t051",
+   "subject": "deltovidnaya-myshca",
+   "predicate": "приводит в движение",
+   "object": "plechevoy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t052",
+   "subject": "dvuglavaya-myshca-plecha",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t053",
+   "subject": "dvuglavaya-myshca-plecha",
+   "predicate": "крепится к",
+   "object": "luchevaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t054",
+   "subject": "dvuglavaya-myshca-plecha",
+   "predicate": "приводит в движение",
+   "object": "loktevoy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t055",
+   "subject": "chetyrehglavaya-myshca-bedra",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t056",
+   "subject": "chetyrehglavaya-myshca-bedra",
+   "predicate": "крепится к",
+   "object": "bolshebercovaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t057",
+   "subject": "chetyrehglavaya-myshca-bedra",
+   "predicate": "приводит в движение",
+   "object": "kolennyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t058",
+   "subject": "opora",
+   "predicate": "имеет тип",
+   "object": "class-funkciya-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t059",
+   "subject": "zaschita-organov",
+   "predicate": "имеет тип",
+   "object": "class-funkciya-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t060",
+   "subject": "dvizhenie",
+   "predicate": "имеет тип",
+   "object": "class-funkciya-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t061",
+   "subject": "krovetvorenie",
+   "predicate": "имеет тип",
+   "object": "class-funkciya-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t062",
+   "subject": "depo-mineralov",
+   "predicate": "имеет тип",
+   "object": "class-funkciya-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t063",
+   "subject": "perelom-sheyki-bedra",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t064",
+   "subject": "perelom-sheyki-bedra",
+   "predicate": "поражает кость",
+   "object": "bedrennaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t065",
+   "subject": "perelom-sheyki-bedra",
+   "predicate": "поражает сустав",
+   "object": "tazobedrennyy-sustav",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t066",
+   "subject": "perelom-sheyki-bedra",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t067",
+   "subject": "perelom-luchevoy-kosti",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t068",
+   "subject": "perelom-luchevoy-kosti",
+   "predicate": "поражает кость",
+   "object": "luchevaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t069",
+   "subject": "perelom-luchevoy-kosti",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t070",
+   "subject": "vyvih-plecha",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t071",
+   "subject": "vyvih-plecha",
+   "predicate": "поражает сустав",
+   "object": "plechevoy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t072",
+   "subject": "vyvih-plecha",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t073",
+   "subject": "artroz-kolennogo-sustava",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t074",
+   "subject": "artroz-kolennogo-sustava",
+   "predicate": "поражает сустав",
+   "object": "kolennyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t075",
+   "subject": "artroz-kolennogo-sustava",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t076",
+   "subject": "osteoporoz",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t077",
+   "subject": "osteoporoz",
+   "predicate": "поражает кость",
+   "object": "bedrennaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t078",
+   "subject": "osteoporoz",
+   "predicate": "нарушает функцию",
+   "object": "opora",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t079",
+   "subject": "osteoporoz",
+   "predicate": "нарушает функцию",
+   "object": "depo-mineralov",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t080",
+   "subject": "kosti-zapyastya",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t081",
+   "subject": "kosti-zapyastya",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t082",
+   "subject": "luchezapyastnyy-sustav",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t083",
+   "subject": "luchevaya-kost",
+   "predicate": "образует сустав",
+   "object": "luchezapyastnyy-sustav",
+   "sourceId": "src-anatomy",
+   "sourceName": "Учебник анатомии человека (демонстрационный источник)",
+   "sourceType": "textbook",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t084",
+   "subject": "kosti-zapyastya",
+   "predicate": "образует сустав",
+   "object": "luchezapyastnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t085",
+   "subject": "perelom-luchevoy-kosti",
+   "predicate": "поражает сустав",
+   "object": "luchezapyastnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t086",
+   "subject": "bolshoy-palec",
+   "predicate": "имеет тип",
+   "object": "class-palec-kisti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t087",
+   "subject": "pyastnaya-kost-bolshogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t088",
+   "subject": "pyastnaya-kost-bolshogo-palca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t089",
+   "subject": "pyastnaya-kost-bolshogo-palca",
+   "predicate": "принадлежит пальцу",
+   "object": "bolshoy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t090",
+   "subject": "proksimalnaya-falanga-bolshogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t091",
+   "subject": "proksimalnaya-falanga-bolshogo-palca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t092",
+   "subject": "proksimalnaya-falanga-bolshogo-palca",
+   "predicate": "принадлежит пальцу",
+   "object": "bolshoy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t093",
+   "subject": "distalnaya-falanga-bolshogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t094",
+   "subject": "distalnaya-falanga-bolshogo-palca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t095",
+   "subject": "distalnaya-falanga-bolshogo-palca",
+   "predicate": "принадлежит пальцу",
+   "object": "bolshoy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t096",
+   "subject": "pyastno-falangovyy-sustav-bolshogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t097",
+   "subject": "pyastnaya-kost-bolshogo-palca",
+   "predicate": "образует сустав",
+   "object": "pyastno-falangovyy-sustav-bolshogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t098",
+   "subject": "proksimalnaya-falanga-bolshogo-palca",
+   "predicate": "образует сустав",
+   "object": "pyastno-falangovyy-sustav-bolshogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t099",
+   "subject": "pyastno-falangovyy-sustav-bolshogo-palca",
+   "predicate": "относится к пальцу",
+   "object": "bolshoy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t100",
+   "subject": "mezhfalangovyy-sustav-bolshogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t101",
+   "subject": "proksimalnaya-falanga-bolshogo-palca",
+   "predicate": "образует сустав",
+   "object": "mezhfalangovyy-sustav-bolshogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t102",
+   "subject": "distalnaya-falanga-bolshogo-palca",
+   "predicate": "образует сустав",
+   "object": "mezhfalangovyy-sustav-bolshogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t103",
+   "subject": "mezhfalangovyy-sustav-bolshogo-palca",
+   "predicate": "относится к пальцу",
+   "object": "bolshoy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t104",
+   "subject": "zapyastno-pyastnyy-sustav-bolshogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t105",
+   "subject": "kosti-zapyastya",
+   "predicate": "образует сустав",
+   "object": "zapyastno-pyastnyy-sustav-bolshogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t106",
+   "subject": "pyastnaya-kost-bolshogo-palca",
+   "predicate": "образует сустав",
+   "object": "zapyastno-pyastnyy-sustav-bolshogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t107",
+   "subject": "zapyastno-pyastnyy-sustav-bolshogo-palca",
+   "predicate": "относится к пальцу",
+   "object": "bolshoy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t108",
+   "subject": "ukazatelnyy-palec",
+   "predicate": "имеет тип",
+   "object": "class-palec-kisti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t109",
+   "subject": "pyastnaya-kost-ukazatelnogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t110",
+   "subject": "pyastnaya-kost-ukazatelnogo-palca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t111",
+   "subject": "pyastnaya-kost-ukazatelnogo-palca",
+   "predicate": "принадлежит пальцу",
+   "object": "ukazatelnyy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t112",
+   "subject": "proksimalnaya-falanga-ukazatelnogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t113",
+   "subject": "proksimalnaya-falanga-ukazatelnogo-palca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t114",
+   "subject": "proksimalnaya-falanga-ukazatelnogo-palca",
+   "predicate": "принадлежит пальцу",
+   "object": "ukazatelnyy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t115",
+   "subject": "srednyaya-falanga-ukazatelnogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t116",
+   "subject": "srednyaya-falanga-ukazatelnogo-palca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t117",
+   "subject": "srednyaya-falanga-ukazatelnogo-palca",
+   "predicate": "принадлежит пальцу",
+   "object": "ukazatelnyy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t118",
+   "subject": "distalnaya-falanga-ukazatelnogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t119",
+   "subject": "distalnaya-falanga-ukazatelnogo-palca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t120",
+   "subject": "distalnaya-falanga-ukazatelnogo-palca",
+   "predicate": "принадлежит пальцу",
+   "object": "ukazatelnyy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t121",
+   "subject": "pyastno-falangovyy-sustav-ukazatelnogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t122",
+   "subject": "pyastnaya-kost-ukazatelnogo-palca",
+   "predicate": "образует сустав",
+   "object": "pyastno-falangovyy-sustav-ukazatelnogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t123",
+   "subject": "proksimalnaya-falanga-ukazatelnogo-palca",
+   "predicate": "образует сустав",
+   "object": "pyastno-falangovyy-sustav-ukazatelnogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t124",
+   "subject": "pyastno-falangovyy-sustav-ukazatelnogo-palca",
+   "predicate": "относится к пальцу",
+   "object": "ukazatelnyy-palec",
+   "sourceId": "src-anatomy",
+   "sourceName": "Учебник анатомии человека (демонстрационный источник)",
+   "sourceType": "textbook",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t125",
+   "subject": "proksimalnyy-mezhfalangovyy-sustav-ukazatelnogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t126",
+   "subject": "proksimalnaya-falanga-ukazatelnogo-palca",
+   "predicate": "образует сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-ukazatelnogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t127",
+   "subject": "srednyaya-falanga-ukazatelnogo-palca",
+   "predicate": "образует сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-ukazatelnogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t128",
+   "subject": "proksimalnyy-mezhfalangovyy-sustav-ukazatelnogo-palca",
+   "predicate": "относится к пальцу",
+   "object": "ukazatelnyy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t129",
+   "subject": "distalnyy-mezhfalangovyy-sustav-ukazatelnogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t130",
+   "subject": "srednyaya-falanga-ukazatelnogo-palca",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhfalangovyy-sustav-ukazatelnogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t131",
+   "subject": "distalnaya-falanga-ukazatelnogo-palca",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhfalangovyy-sustav-ukazatelnogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t132",
+   "subject": "distalnyy-mezhfalangovyy-sustav-ukazatelnogo-palca",
+   "predicate": "относится к пальцу",
+   "object": "ukazatelnyy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t133",
+   "subject": "sredniy-palec",
+   "predicate": "имеет тип",
+   "object": "class-palec-kisti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t134",
+   "subject": "pyastnaya-kost-srednego-palca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t135",
+   "subject": "pyastnaya-kost-srednego-palca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t136",
+   "subject": "pyastnaya-kost-srednego-palca",
+   "predicate": "принадлежит пальцу",
+   "object": "sredniy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t137",
+   "subject": "proksimalnaya-falanga-srednego-palca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t138",
+   "subject": "proksimalnaya-falanga-srednego-palca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t139",
+   "subject": "proksimalnaya-falanga-srednego-palca",
+   "predicate": "принадлежит пальцу",
+   "object": "sredniy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t140",
+   "subject": "srednyaya-falanga-srednego-palca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t141",
+   "subject": "srednyaya-falanga-srednego-palca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t142",
+   "subject": "srednyaya-falanga-srednego-palca",
+   "predicate": "принадлежит пальцу",
+   "object": "sredniy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t143",
+   "subject": "distalnaya-falanga-srednego-palca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t144",
+   "subject": "distalnaya-falanga-srednego-palca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t145",
+   "subject": "distalnaya-falanga-srednego-palca",
+   "predicate": "принадлежит пальцу",
+   "object": "sredniy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t146",
+   "subject": "pyastno-falangovyy-sustav-srednego-palca",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t147",
+   "subject": "pyastnaya-kost-srednego-palca",
+   "predicate": "образует сустав",
+   "object": "pyastno-falangovyy-sustav-srednego-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t148",
+   "subject": "proksimalnaya-falanga-srednego-palca",
+   "predicate": "образует сустав",
+   "object": "pyastno-falangovyy-sustav-srednego-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t149",
+   "subject": "pyastno-falangovyy-sustav-srednego-palca",
+   "predicate": "относится к пальцу",
+   "object": "sredniy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t150",
+   "subject": "proksimalnyy-mezhfalangovyy-sustav-srednego-palca",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t151",
+   "subject": "proksimalnaya-falanga-srednego-palca",
+   "predicate": "образует сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-srednego-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t152",
+   "subject": "srednyaya-falanga-srednego-palca",
+   "predicate": "образует сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-srednego-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t153",
+   "subject": "proksimalnyy-mezhfalangovyy-sustav-srednego-palca",
+   "predicate": "относится к пальцу",
+   "object": "sredniy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t154",
+   "subject": "distalnyy-mezhfalangovyy-sustav-srednego-palca",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t155",
+   "subject": "srednyaya-falanga-srednego-palca",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhfalangovyy-sustav-srednego-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t156",
+   "subject": "distalnaya-falanga-srednego-palca",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhfalangovyy-sustav-srednego-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t157",
+   "subject": "distalnyy-mezhfalangovyy-sustav-srednego-palca",
+   "predicate": "относится к пальцу",
+   "object": "sredniy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t158",
+   "subject": "bezymyannyy-palec",
+   "predicate": "имеет тип",
+   "object": "class-palec-kisti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t159",
+   "subject": "pyastnaya-kost-bezymyannogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t160",
+   "subject": "pyastnaya-kost-bezymyannogo-palca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t161",
+   "subject": "pyastnaya-kost-bezymyannogo-palca",
+   "predicate": "принадлежит пальцу",
+   "object": "bezymyannyy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t162",
+   "subject": "proksimalnaya-falanga-bezymyannogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t163",
+   "subject": "proksimalnaya-falanga-bezymyannogo-palca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t164",
+   "subject": "proksimalnaya-falanga-bezymyannogo-palca",
+   "predicate": "принадлежит пальцу",
+   "object": "bezymyannyy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t165",
+   "subject": "srednyaya-falanga-bezymyannogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t166",
+   "subject": "srednyaya-falanga-bezymyannogo-palca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t167",
+   "subject": "srednyaya-falanga-bezymyannogo-palca",
+   "predicate": "принадлежит пальцу",
+   "object": "bezymyannyy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t168",
+   "subject": "distalnaya-falanga-bezymyannogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t169",
+   "subject": "distalnaya-falanga-bezymyannogo-palca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t170",
+   "subject": "distalnaya-falanga-bezymyannogo-palca",
+   "predicate": "принадлежит пальцу",
+   "object": "bezymyannyy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t171",
+   "subject": "pyastno-falangovyy-sustav-bezymyannogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t172",
+   "subject": "pyastnaya-kost-bezymyannogo-palca",
+   "predicate": "образует сустав",
+   "object": "pyastno-falangovyy-sustav-bezymyannogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t173",
+   "subject": "proksimalnaya-falanga-bezymyannogo-palca",
+   "predicate": "образует сустав",
+   "object": "pyastno-falangovyy-sustav-bezymyannogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t174",
+   "subject": "pyastno-falangovyy-sustav-bezymyannogo-palca",
+   "predicate": "относится к пальцу",
+   "object": "bezymyannyy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t175",
+   "subject": "proksimalnyy-mezhfalangovyy-sustav-bezymyannogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t176",
+   "subject": "proksimalnaya-falanga-bezymyannogo-palca",
+   "predicate": "образует сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-bezymyannogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t177",
+   "subject": "srednyaya-falanga-bezymyannogo-palca",
+   "predicate": "образует сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-bezymyannogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t178",
+   "subject": "proksimalnyy-mezhfalangovyy-sustav-bezymyannogo-palca",
+   "predicate": "относится к пальцу",
+   "object": "bezymyannyy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t179",
+   "subject": "distalnyy-mezhfalangovyy-sustav-bezymyannogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t180",
+   "subject": "srednyaya-falanga-bezymyannogo-palca",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhfalangovyy-sustav-bezymyannogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t181",
+   "subject": "distalnaya-falanga-bezymyannogo-palca",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhfalangovyy-sustav-bezymyannogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t182",
+   "subject": "distalnyy-mezhfalangovyy-sustav-bezymyannogo-palca",
+   "predicate": "относится к пальцу",
+   "object": "bezymyannyy-palec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t183",
+   "subject": "mizinec",
+   "predicate": "имеет тип",
+   "object": "class-palec-kisti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t184",
+   "subject": "pyastnaya-kost-mizinca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t185",
+   "subject": "pyastnaya-kost-mizinca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t186",
+   "subject": "pyastnaya-kost-mizinca",
+   "predicate": "принадлежит пальцу",
+   "object": "mizinec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t187",
+   "subject": "proksimalnaya-falanga-mizinca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t188",
+   "subject": "proksimalnaya-falanga-mizinca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t189",
+   "subject": "proksimalnaya-falanga-mizinca",
+   "predicate": "принадлежит пальцу",
+   "object": "mizinec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t190",
+   "subject": "srednyaya-falanga-mizinca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t191",
+   "subject": "srednyaya-falanga-mizinca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t192",
+   "subject": "srednyaya-falanga-mizinca",
+   "predicate": "принадлежит пальцу",
+   "object": "mizinec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t193",
+   "subject": "distalnaya-falanga-mizinca",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t194",
+   "subject": "distalnaya-falanga-mizinca",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t195",
+   "subject": "distalnaya-falanga-mizinca",
+   "predicate": "принадлежит пальцу",
+   "object": "mizinec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t196",
+   "subject": "pyastno-falangovyy-sustav-mizinca",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t197",
+   "subject": "pyastnaya-kost-mizinca",
+   "predicate": "образует сустав",
+   "object": "pyastno-falangovyy-sustav-mizinca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t198",
+   "subject": "proksimalnaya-falanga-mizinca",
+   "predicate": "образует сустав",
+   "object": "pyastno-falangovyy-sustav-mizinca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t199",
+   "subject": "pyastno-falangovyy-sustav-mizinca",
+   "predicate": "относится к пальцу",
+   "object": "mizinec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t200",
+   "subject": "proksimalnyy-mezhfalangovyy-sustav-mizinca",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t201",
+   "subject": "proksimalnaya-falanga-mizinca",
+   "predicate": "образует сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-mizinca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t202",
+   "subject": "srednyaya-falanga-mizinca",
+   "predicate": "образует сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-mizinca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t203",
+   "subject": "proksimalnyy-mezhfalangovyy-sustav-mizinca",
+   "predicate": "относится к пальцу",
+   "object": "mizinec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t204",
+   "subject": "distalnyy-mezhfalangovyy-sustav-mizinca",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t205",
+   "subject": "srednyaya-falanga-mizinca",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhfalangovyy-sustav-mizinca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t206",
+   "subject": "distalnaya-falanga-mizinca",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhfalangovyy-sustav-mizinca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t207",
+   "subject": "distalnyy-mezhfalangovyy-sustav-mizinca",
+   "predicate": "относится к пальцу",
+   "object": "mizinec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t208",
+   "subject": "poverhnostnyy-sgibatel-palcev",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t209",
+   "subject": "glubokiy-sgibatel-palcev",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t210",
+   "subject": "razgibatel-palcev",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t211",
+   "subject": "dlinnyy-sgibatel-bolshogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t212",
+   "subject": "poverhnostnyy-sgibatel-palcev",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-ukazatelnogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t213",
+   "subject": "poverhnostnyy-sgibatel-palcev",
+   "predicate": "приводит в движение",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-ukazatelnogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t214",
+   "subject": "glubokiy-sgibatel-palcev",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-ukazatelnogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t215",
+   "subject": "glubokiy-sgibatel-palcev",
+   "predicate": "приводит в движение",
+   "object": "distalnyy-mezhfalangovyy-sustav-ukazatelnogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t216",
+   "subject": "razgibatel-palcev",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-ukazatelnogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t217",
+   "subject": "razgibatel-palcev",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-ukazatelnogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t218",
+   "subject": "razgibatel-palcev",
+   "predicate": "приводит в движение",
+   "object": "pyastno-falangovyy-sustav-ukazatelnogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t219",
+   "subject": "poverhnostnyy-sgibatel-palcev",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-srednego-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t220",
+   "subject": "poverhnostnyy-sgibatel-palcev",
+   "predicate": "приводит в движение",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-srednego-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t221",
+   "subject": "glubokiy-sgibatel-palcev",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-srednego-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t222",
+   "subject": "glubokiy-sgibatel-palcev",
+   "predicate": "приводит в движение",
+   "object": "distalnyy-mezhfalangovyy-sustav-srednego-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t223",
+   "subject": "razgibatel-palcev",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-srednego-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t224",
+   "subject": "razgibatel-palcev",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-srednego-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t225",
+   "subject": "razgibatel-palcev",
+   "predicate": "приводит в движение",
+   "object": "pyastno-falangovyy-sustav-srednego-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t226",
+   "subject": "poverhnostnyy-sgibatel-palcev",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-bezymyannogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t227",
+   "subject": "poverhnostnyy-sgibatel-palcev",
+   "predicate": "приводит в движение",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-bezymyannogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t228",
+   "subject": "glubokiy-sgibatel-palcev",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-bezymyannogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t229",
+   "subject": "glubokiy-sgibatel-palcev",
+   "predicate": "приводит в движение",
+   "object": "distalnyy-mezhfalangovyy-sustav-bezymyannogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t230",
+   "subject": "razgibatel-palcev",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-bezymyannogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t231",
+   "subject": "razgibatel-palcev",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-bezymyannogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t232",
+   "subject": "razgibatel-palcev",
+   "predicate": "приводит в движение",
+   "object": "pyastno-falangovyy-sustav-bezymyannogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t233",
+   "subject": "poverhnostnyy-sgibatel-palcev",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-mizinca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t234",
+   "subject": "poverhnostnyy-sgibatel-palcev",
+   "predicate": "приводит в движение",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-mizinca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t235",
+   "subject": "glubokiy-sgibatel-palcev",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-mizinca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t236",
+   "subject": "glubokiy-sgibatel-palcev",
+   "predicate": "приводит в движение",
+   "object": "distalnyy-mezhfalangovyy-sustav-mizinca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t237",
+   "subject": "razgibatel-palcev",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-mizinca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t238",
+   "subject": "razgibatel-palcev",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-mizinca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t239",
+   "subject": "razgibatel-palcev",
+   "predicate": "приводит в движение",
+   "object": "pyastno-falangovyy-sustav-mizinca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t240",
+   "subject": "dlinnyy-sgibatel-bolshogo-palca",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-bolshogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t241",
+   "subject": "dlinnyy-sgibatel-bolshogo-palca",
+   "predicate": "приводит в движение",
+   "object": "mezhfalangovyy-sustav-bolshogo-palca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t242",
+   "subject": "rizartroz",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t243",
+   "subject": "rizartroz",
+   "predicate": "поражает сустав",
+   "object": "zapyastno-pyastnyy-sustav-bolshogo-palca",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t244",
+   "subject": "rizartroz",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t245",
+   "subject": "revmatoidnyy-artrit-kisti",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t246",
+   "subject": "revmatoidnyy-artrit-kisti",
+   "predicate": "поражает сустав",
+   "object": "luchezapyastnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t247",
+   "subject": "revmatoidnyy-artrit-kisti",
+   "predicate": "поражает сустав",
+   "object": "pyastno-falangovyy-sustav-ukazatelnogo-palca",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t248",
+   "subject": "revmatoidnyy-artrit-kisti",
+   "predicate": "поражает сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-ukazatelnogo-palca",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t249",
+   "subject": "revmatoidnyy-artrit-kisti",
+   "predicate": "поражает сустав",
+   "object": "pyastno-falangovyy-sustav-srednego-palca",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t250",
+   "subject": "revmatoidnyy-artrit-kisti",
+   "predicate": "поражает сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-srednego-palca",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t251",
+   "subject": "revmatoidnyy-artrit-kisti",
+   "predicate": "поражает сустав",
+   "object": "pyastno-falangovyy-sustav-bezymyannogo-palca",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t252",
+   "subject": "revmatoidnyy-artrit-kisti",
+   "predicate": "поражает сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-bezymyannogo-palca",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t253",
+   "subject": "revmatoidnyy-artrit-kisti",
+   "predicate": "поражает сустав",
+   "object": "pyastno-falangovyy-sustav-mizinca",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t254",
+   "subject": "revmatoidnyy-artrit-kisti",
+   "predicate": "поражает сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-mizinca",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t255",
+   "subject": "revmatoidnyy-artrit-kisti",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t256",
+   "subject": "perelom-proksimalnoy-falangi-ukazatelnogo-palca",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t257",
+   "subject": "perelom-proksimalnoy-falangi-ukazatelnogo-palca",
+   "predicate": "поражает кость",
+   "object": "proksimalnaya-falanga-ukazatelnogo-palca",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t258",
+   "subject": "perelom-proksimalnoy-falangi-ukazatelnogo-palca",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t259",
+   "subject": "malobercovaya-kost",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t260",
+   "subject": "malobercovaya-kost",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t261",
+   "subject": "tarannaya-kost",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t262",
+   "subject": "tarannaya-kost",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t263",
+   "subject": "pyatochnaya-kost",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t264",
+   "subject": "pyatochnaya-kost",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t265",
+   "subject": "ladevidnaya-kost-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t266",
+   "subject": "ladevidnaya-kost-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t267",
+   "subject": "kubovidnaya-kost-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t268",
+   "subject": "kubovidnaya-kost-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t269",
+   "subject": "medialnaya-klinovidnaya-kost",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t270",
+   "subject": "medialnaya-klinovidnaya-kost",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t271",
+   "subject": "promezhutochnaya-klinovidnaya-kost",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t272",
+   "subject": "promezhutochnaya-klinovidnaya-kost",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t273",
+   "subject": "lateralnaya-klinovidnaya-kost",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t274",
+   "subject": "lateralnaya-klinovidnaya-kost",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t275",
+   "subject": "bolshoy-palec-stopy",
+   "predicate": "имеет тип",
+   "object": "class-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t276",
+   "subject": "plyusnevaya-kost-bolshogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t277",
+   "subject": "plyusnevaya-kost-bolshogo-palca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t278",
+   "subject": "plyusnevaya-kost-bolshogo-palca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "bolshoy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t279",
+   "subject": "proksimalnaya-falanga-bolshogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t280",
+   "subject": "proksimalnaya-falanga-bolshogo-palca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t281",
+   "subject": "proksimalnaya-falanga-bolshogo-palca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "bolshoy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t282",
+   "subject": "distalnaya-falanga-bolshogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t283",
+   "subject": "distalnaya-falanga-bolshogo-palca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t284",
+   "subject": "distalnaya-falanga-bolshogo-palca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "bolshoy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t285",
+   "subject": "vtoroy-palec-stopy",
+   "predicate": "имеет тип",
+   "object": "class-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t286",
+   "subject": "plyusnevaya-kost-vtorogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t287",
+   "subject": "plyusnevaya-kost-vtorogo-palca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t288",
+   "subject": "plyusnevaya-kost-vtorogo-palca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "vtoroy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t289",
+   "subject": "proksimalnaya-falanga-vtorogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t290",
+   "subject": "proksimalnaya-falanga-vtorogo-palca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t291",
+   "subject": "proksimalnaya-falanga-vtorogo-palca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "vtoroy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t292",
+   "subject": "srednyaya-falanga-vtorogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t293",
+   "subject": "srednyaya-falanga-vtorogo-palca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t294",
+   "subject": "srednyaya-falanga-vtorogo-palca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "vtoroy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t295",
+   "subject": "distalnaya-falanga-vtorogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t296",
+   "subject": "distalnaya-falanga-vtorogo-palca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t297",
+   "subject": "distalnaya-falanga-vtorogo-palca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "vtoroy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t298",
+   "subject": "tretiy-palec-stopy",
+   "predicate": "имеет тип",
+   "object": "class-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t299",
+   "subject": "plyusnevaya-kost-tretego-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t300",
+   "subject": "plyusnevaya-kost-tretego-palca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t301",
+   "subject": "plyusnevaya-kost-tretego-palca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "tretiy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t302",
+   "subject": "proksimalnaya-falanga-tretego-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t303",
+   "subject": "proksimalnaya-falanga-tretego-palca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t304",
+   "subject": "proksimalnaya-falanga-tretego-palca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "tretiy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t305",
+   "subject": "srednyaya-falanga-tretego-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t306",
+   "subject": "srednyaya-falanga-tretego-palca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t307",
+   "subject": "srednyaya-falanga-tretego-palca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "tretiy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t308",
+   "subject": "distalnaya-falanga-tretego-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t309",
+   "subject": "distalnaya-falanga-tretego-palca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t310",
+   "subject": "distalnaya-falanga-tretego-palca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "tretiy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t311",
+   "subject": "chetvertyy-palec-stopy",
+   "predicate": "имеет тип",
+   "object": "class-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t312",
+   "subject": "plyusnevaya-kost-chetvertogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t313",
+   "subject": "plyusnevaya-kost-chetvertogo-palca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t314",
+   "subject": "plyusnevaya-kost-chetvertogo-palca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "chetvertyy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t315",
+   "subject": "proksimalnaya-falanga-chetvertogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t316",
+   "subject": "proksimalnaya-falanga-chetvertogo-palca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t317",
+   "subject": "proksimalnaya-falanga-chetvertogo-palca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "chetvertyy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t318",
+   "subject": "srednyaya-falanga-chetvertogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t319",
+   "subject": "srednyaya-falanga-chetvertogo-palca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t320",
+   "subject": "srednyaya-falanga-chetvertogo-palca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "chetvertyy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t321",
+   "subject": "distalnaya-falanga-chetvertogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t322",
+   "subject": "distalnaya-falanga-chetvertogo-palca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t323",
+   "subject": "distalnaya-falanga-chetvertogo-palca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "chetvertyy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t324",
+   "subject": "mizinec-stopy",
+   "predicate": "имеет тип",
+   "object": "class-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t325",
+   "subject": "plyusnevaya-kost-mizinca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t326",
+   "subject": "plyusnevaya-kost-mizinca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t327",
+   "subject": "plyusnevaya-kost-mizinca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "mizinec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t328",
+   "subject": "proksimalnaya-falanga-mizinca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t329",
+   "subject": "proksimalnaya-falanga-mizinca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t330",
+   "subject": "proksimalnaya-falanga-mizinca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "mizinec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t331",
+   "subject": "srednyaya-falanga-mizinca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t332",
+   "subject": "srednyaya-falanga-mizinca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t333",
+   "subject": "srednyaya-falanga-mizinca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "mizinec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t334",
+   "subject": "distalnaya-falanga-mizinca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t335",
+   "subject": "distalnaya-falanga-mizinca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t336",
+   "subject": "distalnaya-falanga-mizinca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "mizinec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t337",
+   "subject": "sesamovidnye-kosti-bolshogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-kost-dobavochnogo-skeleta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t338",
+   "subject": "sesamovidnye-kosti-bolshogo-palca-stopy",
+   "predicate": "относится к отделу",
+   "object": "dobavochnyy-skelet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t339",
+   "subject": "sesamovidnye-kosti-bolshogo-palca-stopy",
+   "predicate": "принадлежит пальцу стопы",
+   "object": "bolshoy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t340",
+   "subject": "golenostopnyy-sustav",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t341",
+   "subject": "bolshebercovaya-kost",
+   "predicate": "образует сустав",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "src-anatomy",
+   "sourceName": "Учебник анатомии человека (демонстрационный источник)",
+   "sourceType": "textbook",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t342",
+   "subject": "malobercovaya-kost",
+   "predicate": "образует сустав",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "src-anatomy",
+   "sourceName": "Учебник анатомии человека (демонстрационный источник)",
+   "sourceType": "textbook",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t343",
+   "subject": "tarannaya-kost",
+   "predicate": "образует сустав",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "src-anatomy",
+   "sourceName": "Учебник анатомии человека (демонстрационный источник)",
+   "sourceType": "textbook",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t344",
+   "subject": "distalnyy-mezhbercovyy-sindesmoz",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t345",
+   "subject": "bolshebercovaya-kost",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhbercovyy-sindesmoz",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t346",
+   "subject": "malobercovaya-kost",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhbercovyy-sindesmoz",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t347",
+   "subject": "podtarannyy-sustav",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t348",
+   "subject": "tarannaya-kost",
+   "predicate": "образует сустав",
+   "object": "podtarannyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t349",
+   "subject": "pyatochnaya-kost",
+   "predicate": "образует сустав",
+   "object": "podtarannyy-sustav",
+   "sourceId": "src-anatomy",
+   "sourceName": "Учебник анатомии человека (демонстрационный источник)",
+   "sourceType": "textbook",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t350",
+   "subject": "taranno-pyatochno-ladevidnyy-sustav",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t351",
+   "subject": "tarannaya-kost",
+   "predicate": "образует сустав",
+   "object": "taranno-pyatochno-ladevidnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t352",
+   "subject": "pyatochnaya-kost",
+   "predicate": "образует сустав",
+   "object": "taranno-pyatochno-ladevidnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t353",
+   "subject": "ladevidnaya-kost-stopy",
+   "predicate": "образует сустав",
+   "object": "taranno-pyatochno-ladevidnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t354",
+   "subject": "pyatochno-kubovidnyy-sustav",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t355",
+   "subject": "pyatochnaya-kost",
+   "predicate": "образует сустав",
+   "object": "pyatochno-kubovidnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t356",
+   "subject": "kubovidnaya-kost-stopy",
+   "predicate": "образует сустав",
+   "object": "pyatochno-kubovidnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t357",
+   "subject": "poperechnyy-sustav-predplyusny-shopara",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t358",
+   "subject": "tarannaya-kost",
+   "predicate": "образует сустав",
+   "object": "poperechnyy-sustav-predplyusny-shopara",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t359",
+   "subject": "ladevidnaya-kost-stopy",
+   "predicate": "образует сустав",
+   "object": "poperechnyy-sustav-predplyusny-shopara",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t360",
+   "subject": "pyatochnaya-kost",
+   "predicate": "образует сустав",
+   "object": "poperechnyy-sustav-predplyusny-shopara",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t361",
+   "subject": "kubovidnaya-kost-stopy",
+   "predicate": "образует сустав",
+   "object": "poperechnyy-sustav-predplyusny-shopara",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t362",
+   "subject": "klinovidno-ladevidnyy-sustav",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t363",
+   "subject": "ladevidnaya-kost-stopy",
+   "predicate": "образует сустав",
+   "object": "klinovidno-ladevidnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t364",
+   "subject": "medialnaya-klinovidnaya-kost",
+   "predicate": "образует сустав",
+   "object": "klinovidno-ladevidnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t365",
+   "subject": "promezhutochnaya-klinovidnaya-kost",
+   "predicate": "образует сустав",
+   "object": "klinovidno-ladevidnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t366",
+   "subject": "lateralnaya-klinovidnaya-kost",
+   "predicate": "образует сустав",
+   "object": "klinovidno-ladevidnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t367",
+   "subject": "mezhklinovidnye-sustavy",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t368",
+   "subject": "medialnaya-klinovidnaya-kost",
+   "predicate": "образует сустав",
+   "object": "mezhklinovidnye-sustavy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t369",
+   "subject": "promezhutochnaya-klinovidnaya-kost",
+   "predicate": "образует сустав",
+   "object": "mezhklinovidnye-sustavy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t370",
+   "subject": "lateralnaya-klinovidnaya-kost",
+   "predicate": "образует сустав",
+   "object": "mezhklinovidnye-sustavy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t371",
+   "subject": "predplyusne-plyusnevyy-sustav-i-lucha",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t372",
+   "subject": "medialnaya-klinovidnaya-kost",
+   "predicate": "образует сустав",
+   "object": "predplyusne-plyusnevyy-sustav-i-lucha",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t373",
+   "subject": "plyusnevaya-kost-bolshogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "predplyusne-plyusnevyy-sustav-i-lucha",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t374",
+   "subject": "predplyusne-plyusnevyy-sustav-i-lucha",
+   "predicate": "относится к пальцу стопы",
+   "object": "bolshoy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t375",
+   "subject": "predplyusne-plyusnevyy-sustav-ii-lucha",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t376",
+   "subject": "promezhutochnaya-klinovidnaya-kost",
+   "predicate": "образует сустав",
+   "object": "predplyusne-plyusnevyy-sustav-ii-lucha",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t377",
+   "subject": "plyusnevaya-kost-vtorogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "predplyusne-plyusnevyy-sustav-ii-lucha",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t378",
+   "subject": "predplyusne-plyusnevyy-sustav-ii-lucha",
+   "predicate": "относится к пальцу стопы",
+   "object": "vtoroy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t379",
+   "subject": "predplyusne-plyusnevyy-sustav-iii-lucha",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t380",
+   "subject": "lateralnaya-klinovidnaya-kost",
+   "predicate": "образует сустав",
+   "object": "predplyusne-plyusnevyy-sustav-iii-lucha",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t381",
+   "subject": "plyusnevaya-kost-tretego-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "predplyusne-plyusnevyy-sustav-iii-lucha",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t382",
+   "subject": "predplyusne-plyusnevyy-sustav-iii-lucha",
+   "predicate": "относится к пальцу стопы",
+   "object": "tretiy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t383",
+   "subject": "predplyusne-plyusnevyy-sustav-iv-lucha",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t384",
+   "subject": "kubovidnaya-kost-stopy",
+   "predicate": "образует сустав",
+   "object": "predplyusne-plyusnevyy-sustav-iv-lucha",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t385",
+   "subject": "plyusnevaya-kost-chetvertogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "predplyusne-plyusnevyy-sustav-iv-lucha",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t386",
+   "subject": "predplyusne-plyusnevyy-sustav-iv-lucha",
+   "predicate": "относится к пальцу стопы",
+   "object": "chetvertyy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t387",
+   "subject": "predplyusne-plyusnevyy-sustav-v-lucha",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t388",
+   "subject": "kubovidnaya-kost-stopy",
+   "predicate": "образует сустав",
+   "object": "predplyusne-plyusnevyy-sustav-v-lucha",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t389",
+   "subject": "plyusnevaya-kost-mizinca-stopy",
+   "predicate": "образует сустав",
+   "object": "predplyusne-plyusnevyy-sustav-v-lucha",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t390",
+   "subject": "predplyusne-plyusnevyy-sustav-v-lucha",
+   "predicate": "относится к пальцу стопы",
+   "object": "mizinec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t391",
+   "subject": "plyusnefalangovyy-sustav-bolshogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t392",
+   "subject": "plyusnevaya-kost-bolshogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "plyusnefalangovyy-sustav-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t393",
+   "subject": "proksimalnaya-falanga-bolshogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "plyusnefalangovyy-sustav-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t394",
+   "subject": "plyusnefalangovyy-sustav-bolshogo-palca-stopy",
+   "predicate": "относится к пальцу стопы",
+   "object": "bolshoy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t395",
+   "subject": "sesamovidnye-kosti-bolshogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "plyusnefalangovyy-sustav-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t396",
+   "subject": "mezhfalangovyy-sustav-bolshogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t397",
+   "subject": "proksimalnaya-falanga-bolshogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "mezhfalangovyy-sustav-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t398",
+   "subject": "distalnaya-falanga-bolshogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "mezhfalangovyy-sustav-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t399",
+   "subject": "mezhfalangovyy-sustav-bolshogo-palca-stopy",
+   "predicate": "относится к пальцу стопы",
+   "object": "bolshoy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t400",
+   "subject": "plyusnefalangovyy-sustav-vtorogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t401",
+   "subject": "plyusnevaya-kost-vtorogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "plyusnefalangovyy-sustav-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t402",
+   "subject": "proksimalnaya-falanga-vtorogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "plyusnefalangovyy-sustav-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t403",
+   "subject": "plyusnefalangovyy-sustav-vtorogo-palca-stopy",
+   "predicate": "относится к пальцу стопы",
+   "object": "vtoroy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t404",
+   "subject": "proksimalnyy-mezhfalangovyy-sustav-vtorogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t405",
+   "subject": "proksimalnaya-falanga-vtorogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t406",
+   "subject": "srednyaya-falanga-vtorogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t407",
+   "subject": "proksimalnyy-mezhfalangovyy-sustav-vtorogo-palca-stopy",
+   "predicate": "относится к пальцу стопы",
+   "object": "vtoroy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t408",
+   "subject": "distalnyy-mezhfalangovyy-sustav-vtorogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t409",
+   "subject": "srednyaya-falanga-vtorogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhfalangovyy-sustav-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t410",
+   "subject": "distalnaya-falanga-vtorogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhfalangovyy-sustav-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t411",
+   "subject": "distalnyy-mezhfalangovyy-sustav-vtorogo-palca-stopy",
+   "predicate": "относится к пальцу стопы",
+   "object": "vtoroy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t412",
+   "subject": "plyusnefalangovyy-sustav-tretego-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t413",
+   "subject": "plyusnevaya-kost-tretego-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "plyusnefalangovyy-sustav-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t414",
+   "subject": "proksimalnaya-falanga-tretego-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "plyusnefalangovyy-sustav-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t415",
+   "subject": "plyusnefalangovyy-sustav-tretego-palca-stopy",
+   "predicate": "относится к пальцу стопы",
+   "object": "tretiy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t416",
+   "subject": "proksimalnyy-mezhfalangovyy-sustav-tretego-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t417",
+   "subject": "proksimalnaya-falanga-tretego-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t418",
+   "subject": "srednyaya-falanga-tretego-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t419",
+   "subject": "proksimalnyy-mezhfalangovyy-sustav-tretego-palca-stopy",
+   "predicate": "относится к пальцу стопы",
+   "object": "tretiy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t420",
+   "subject": "distalnyy-mezhfalangovyy-sustav-tretego-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t421",
+   "subject": "srednyaya-falanga-tretego-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhfalangovyy-sustav-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t422",
+   "subject": "distalnaya-falanga-tretego-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhfalangovyy-sustav-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t423",
+   "subject": "distalnyy-mezhfalangovyy-sustav-tretego-palca-stopy",
+   "predicate": "относится к пальцу стопы",
+   "object": "tretiy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t424",
+   "subject": "plyusnefalangovyy-sustav-chetvertogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t425",
+   "subject": "plyusnevaya-kost-chetvertogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "plyusnefalangovyy-sustav-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t426",
+   "subject": "proksimalnaya-falanga-chetvertogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "plyusnefalangovyy-sustav-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t427",
+   "subject": "plyusnefalangovyy-sustav-chetvertogo-palca-stopy",
+   "predicate": "относится к пальцу стопы",
+   "object": "chetvertyy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t428",
+   "subject": "proksimalnyy-mezhfalangovyy-sustav-chetvertogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t429",
+   "subject": "proksimalnaya-falanga-chetvertogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t430",
+   "subject": "srednyaya-falanga-chetvertogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t431",
+   "subject": "proksimalnyy-mezhfalangovyy-sustav-chetvertogo-palca-stopy",
+   "predicate": "относится к пальцу стопы",
+   "object": "chetvertyy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t432",
+   "subject": "distalnyy-mezhfalangovyy-sustav-chetvertogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t433",
+   "subject": "srednyaya-falanga-chetvertogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhfalangovyy-sustav-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t434",
+   "subject": "distalnaya-falanga-chetvertogo-palca-stopy",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhfalangovyy-sustav-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t435",
+   "subject": "distalnyy-mezhfalangovyy-sustav-chetvertogo-palca-stopy",
+   "predicate": "относится к пальцу стопы",
+   "object": "chetvertyy-palec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t436",
+   "subject": "plyusnefalangovyy-sustav-mizinca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t437",
+   "subject": "plyusnevaya-kost-mizinca-stopy",
+   "predicate": "образует сустав",
+   "object": "plyusnefalangovyy-sustav-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t438",
+   "subject": "proksimalnaya-falanga-mizinca-stopy",
+   "predicate": "образует сустав",
+   "object": "plyusnefalangovyy-sustav-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t439",
+   "subject": "plyusnefalangovyy-sustav-mizinca-stopy",
+   "predicate": "относится к пальцу стопы",
+   "object": "mizinec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t440",
+   "subject": "proksimalnyy-mezhfalangovyy-sustav-mizinca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t441",
+   "subject": "proksimalnaya-falanga-mizinca-stopy",
+   "predicate": "образует сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t442",
+   "subject": "srednyaya-falanga-mizinca-stopy",
+   "predicate": "образует сустав",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t443",
+   "subject": "proksimalnyy-mezhfalangovyy-sustav-mizinca-stopy",
+   "predicate": "относится к пальцу стопы",
+   "object": "mizinec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t444",
+   "subject": "distalnyy-mezhfalangovyy-sustav-mizinca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t445",
+   "subject": "srednyaya-falanga-mizinca-stopy",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhfalangovyy-sustav-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t446",
+   "subject": "distalnaya-falanga-mizinca-stopy",
+   "predicate": "образует сустав",
+   "object": "distalnyy-mezhfalangovyy-sustav-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t447",
+   "subject": "distalnyy-mezhfalangovyy-sustav-mizinca-stopy",
+   "predicate": "относится к пальцу стопы",
+   "object": "mizinec-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t448",
+   "subject": "perednyaya-bolshebercovaya-myshca",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t449",
+   "subject": "zadnyaya-bolshebercovaya-myshca",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t450",
+   "subject": "dlinnaya-malobercovaya-myshca",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t451",
+   "subject": "korotkaya-malobercovaya-myshca",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t452",
+   "subject": "trehglavaya-myshca-goleni",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t453",
+   "subject": "dlinnyy-sgibatel-bolshogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t454",
+   "subject": "dlinnyy-razgibatel-bolshogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t455",
+   "subject": "dlinnyy-sgibatel-palcev-stopy",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t456",
+   "subject": "dlinnyy-razgibatel-palcev-stopy",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t457",
+   "subject": "korotkiy-sgibatel-palcev-stopy",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t458",
+   "subject": "otvodyaschaya-myshca-bolshogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t459",
+   "subject": "perednyaya-bolshebercovaya-myshca",
+   "predicate": "крепится к",
+   "object": "medialnaya-klinovidnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t460",
+   "subject": "perednyaya-bolshebercovaya-myshca",
+   "predicate": "крепится к",
+   "object": "plyusnevaya-kost-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t461",
+   "subject": "perednyaya-bolshebercovaya-myshca",
+   "predicate": "приводит в движение",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t462",
+   "subject": "zadnyaya-bolshebercovaya-myshca",
+   "predicate": "крепится к",
+   "object": "ladevidnaya-kost-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t463",
+   "subject": "zadnyaya-bolshebercovaya-myshca",
+   "predicate": "приводит в движение",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t464",
+   "subject": "zadnyaya-bolshebercovaya-myshca",
+   "predicate": "приводит в движение",
+   "object": "podtarannyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t465",
+   "subject": "dlinnaya-malobercovaya-myshca",
+   "predicate": "крепится к",
+   "object": "medialnaya-klinovidnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t466",
+   "subject": "dlinnaya-malobercovaya-myshca",
+   "predicate": "крепится к",
+   "object": "plyusnevaya-kost-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t467",
+   "subject": "dlinnaya-malobercovaya-myshca",
+   "predicate": "приводит в движение",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t468",
+   "subject": "dlinnaya-malobercovaya-myshca",
+   "predicate": "приводит в движение",
+   "object": "podtarannyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t469",
+   "subject": "korotkaya-malobercovaya-myshca",
+   "predicate": "крепится к",
+   "object": "plyusnevaya-kost-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t470",
+   "subject": "korotkaya-malobercovaya-myshca",
+   "predicate": "приводит в движение",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t471",
+   "subject": "korotkaya-malobercovaya-myshca",
+   "predicate": "приводит в движение",
+   "object": "podtarannyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t472",
+   "subject": "trehglavaya-myshca-goleni",
+   "predicate": "крепится к",
+   "object": "pyatochnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t473",
+   "subject": "trehglavaya-myshca-goleni",
+   "predicate": "приводит в движение",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t474",
+   "subject": "dlinnyy-sgibatel-bolshogo-palca-stopy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t475",
+   "subject": "dlinnyy-sgibatel-bolshogo-palca-stopy",
+   "predicate": "приводит в движение",
+   "object": "mezhfalangovyy-sustav-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t476",
+   "subject": "dlinnyy-sgibatel-bolshogo-palca-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t477",
+   "subject": "dlinnyy-razgibatel-bolshogo-palca-stopy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t478",
+   "subject": "dlinnyy-razgibatel-bolshogo-palca-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t479",
+   "subject": "dlinnyy-razgibatel-bolshogo-palca-stopy",
+   "predicate": "приводит в движение",
+   "object": "mezhfalangovyy-sustav-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t480",
+   "subject": "dlinnyy-sgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t481",
+   "subject": "dlinnyy-sgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t482",
+   "subject": "dlinnyy-sgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t483",
+   "subject": "dlinnyy-sgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t484",
+   "subject": "dlinnyy-sgibatel-palcev-stopy",
+   "predicate": "приводит в движение",
+   "object": "distalnyy-mezhfalangovyy-sustav-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t485",
+   "subject": "dlinnyy-sgibatel-palcev-stopy",
+   "predicate": "приводит в движение",
+   "object": "distalnyy-mezhfalangovyy-sustav-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t486",
+   "subject": "dlinnyy-sgibatel-palcev-stopy",
+   "predicate": "приводит в движение",
+   "object": "distalnyy-mezhfalangovyy-sustav-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t487",
+   "subject": "dlinnyy-sgibatel-palcev-stopy",
+   "predicate": "приводит в движение",
+   "object": "distalnyy-mezhfalangovyy-sustav-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t488",
+   "subject": "dlinnyy-razgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t489",
+   "subject": "dlinnyy-razgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t490",
+   "subject": "dlinnyy-razgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t491",
+   "subject": "dlinnyy-razgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t492",
+   "subject": "dlinnyy-razgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t493",
+   "subject": "dlinnyy-razgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t494",
+   "subject": "dlinnyy-razgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t495",
+   "subject": "dlinnyy-razgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t496",
+   "subject": "dlinnyy-razgibatel-palcev-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t497",
+   "subject": "dlinnyy-razgibatel-palcev-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t498",
+   "subject": "dlinnyy-razgibatel-palcev-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t499",
+   "subject": "dlinnyy-razgibatel-palcev-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t500",
+   "subject": "korotkiy-sgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t501",
+   "subject": "korotkiy-sgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t502",
+   "subject": "korotkiy-sgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t503",
+   "subject": "korotkiy-sgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t504",
+   "subject": "korotkiy-sgibatel-palcev-stopy",
+   "predicate": "приводит в движение",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t505",
+   "subject": "korotkiy-sgibatel-palcev-stopy",
+   "predicate": "приводит в движение",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t506",
+   "subject": "korotkiy-sgibatel-palcev-stopy",
+   "predicate": "приводит в движение",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t507",
+   "subject": "korotkiy-sgibatel-palcev-stopy",
+   "predicate": "приводит в движение",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t508",
+   "subject": "otvodyaschaya-myshca-bolshogo-palca-stopy",
+   "predicate": "крепится к",
+   "object": "proksimalnaya-falanga-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t509",
+   "subject": "otvodyaschaya-myshca-bolshogo-palca-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t510",
+   "subject": "prodolnyy-medialnyy-svod",
+   "predicate": "имеет тип",
+   "object": "class-svod-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t511",
+   "subject": "prodolnyy-lateralnyy-svod",
+   "predicate": "имеет тип",
+   "object": "class-svod-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t512",
+   "subject": "poperechnyy-svod-stopy",
+   "predicate": "имеет тип",
+   "object": "class-svod-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t513",
+   "subject": "prodolnyy-medialnyy-svod",
+   "predicate": "образован костью",
+   "object": "pyatochnaya-kost",
+   "sourceId": "src-anatomy",
+   "sourceName": "Учебник анатомии человека (демонстрационный источник)",
+   "sourceType": "textbook",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t514",
+   "subject": "prodolnyy-medialnyy-svod",
+   "predicate": "образован костью",
+   "object": "tarannaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t515",
+   "subject": "prodolnyy-medialnyy-svod",
+   "predicate": "образован костью",
+   "object": "ladevidnaya-kost-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t516",
+   "subject": "prodolnyy-medialnyy-svod",
+   "predicate": "образован костью",
+   "object": "medialnaya-klinovidnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t517",
+   "subject": "prodolnyy-medialnyy-svod",
+   "predicate": "образован костью",
+   "object": "promezhutochnaya-klinovidnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t518",
+   "subject": "prodolnyy-medialnyy-svod",
+   "predicate": "образован костью",
+   "object": "lateralnaya-klinovidnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t519",
+   "subject": "prodolnyy-medialnyy-svod",
+   "predicate": "образован костью",
+   "object": "plyusnevaya-kost-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t520",
+   "subject": "prodolnyy-medialnyy-svod",
+   "predicate": "образован костью",
+   "object": "plyusnevaya-kost-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t521",
+   "subject": "prodolnyy-medialnyy-svod",
+   "predicate": "образован костью",
+   "object": "plyusnevaya-kost-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t522",
+   "subject": "prodolnyy-lateralnyy-svod",
+   "predicate": "образован костью",
+   "object": "pyatochnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t523",
+   "subject": "prodolnyy-lateralnyy-svod",
+   "predicate": "образован костью",
+   "object": "kubovidnaya-kost-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t524",
+   "subject": "prodolnyy-lateralnyy-svod",
+   "predicate": "образован костью",
+   "object": "plyusnevaya-kost-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t525",
+   "subject": "prodolnyy-lateralnyy-svod",
+   "predicate": "образован костью",
+   "object": "plyusnevaya-kost-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t526",
+   "subject": "poperechnyy-svod-stopy",
+   "predicate": "образован костью",
+   "object": "medialnaya-klinovidnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t527",
+   "subject": "poperechnyy-svod-stopy",
+   "predicate": "образован костью",
+   "object": "promezhutochnaya-klinovidnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t528",
+   "subject": "poperechnyy-svod-stopy",
+   "predicate": "образован костью",
+   "object": "lateralnaya-klinovidnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t529",
+   "subject": "poperechnyy-svod-stopy",
+   "predicate": "образован костью",
+   "object": "kubovidnaya-kost-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t530",
+   "subject": "poperechnyy-svod-stopy",
+   "predicate": "образован костью",
+   "object": "plyusnevaya-kost-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t531",
+   "subject": "poperechnyy-svod-stopy",
+   "predicate": "образован костью",
+   "object": "plyusnevaya-kost-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t532",
+   "subject": "poperechnyy-svod-stopy",
+   "predicate": "образован костью",
+   "object": "plyusnevaya-kost-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t533",
+   "subject": "poperechnyy-svod-stopy",
+   "predicate": "образован костью",
+   "object": "plyusnevaya-kost-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t534",
+   "subject": "poperechnyy-svod-stopy",
+   "predicate": "образован костью",
+   "object": "plyusnevaya-kost-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t535",
+   "subject": "deltovidnaya-svyazka",
+   "predicate": "имеет тип",
+   "object": "class-svyazka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t536",
+   "subject": "perednyaya-taranno-malobercovaya-svyazka",
+   "predicate": "имеет тип",
+   "object": "class-svyazka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t537",
+   "subject": "pyatochno-malobercovaya-svyazka",
+   "predicate": "имеет тип",
+   "object": "class-svyazka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t538",
+   "subject": "zadnyaya-taranno-malobercovaya-svyazka",
+   "predicate": "имеет тип",
+   "object": "class-svyazka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t539",
+   "subject": "svyazki-distalnogo-mezhbercovogo-sindesmoza",
+   "predicate": "имеет тип",
+   "object": "class-svyazka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t540",
+   "subject": "podoshvennaya-pyatochno-ladevidnaya-svyazka",
+   "predicate": "имеет тип",
+   "object": "class-svyazka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t541",
+   "subject": "dlinnaya-podoshvennaya-svyazka",
+   "predicate": "имеет тип",
+   "object": "class-svyazka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t542",
+   "subject": "svyazka-lisfranka",
+   "predicate": "имеет тип",
+   "object": "class-svyazka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t543",
+   "subject": "podoshvennyy-aponevroz",
+   "predicate": "имеет тип",
+   "object": "class-svyazka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t544",
+   "subject": "deltovidnaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "bolshebercovaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t545",
+   "subject": "deltovidnaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "tarannaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t546",
+   "subject": "deltovidnaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "pyatochnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t547",
+   "subject": "deltovidnaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "ladevidnaya-kost-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t548",
+   "subject": "deltovidnaya-svyazka",
+   "predicate": "укрепляет сустав",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t549",
+   "subject": "perednyaya-taranno-malobercovaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "malobercovaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t550",
+   "subject": "perednyaya-taranno-malobercovaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "tarannaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t551",
+   "subject": "perednyaya-taranno-malobercovaya-svyazka",
+   "predicate": "укрепляет сустав",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "src-anatomy",
+   "sourceName": "Учебник анатомии человека (демонстрационный источник)",
+   "sourceType": "textbook",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t552",
+   "subject": "pyatochno-malobercovaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "malobercovaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t553",
+   "subject": "pyatochno-malobercovaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "pyatochnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t554",
+   "subject": "pyatochno-malobercovaya-svyazka",
+   "predicate": "укрепляет сустав",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t555",
+   "subject": "pyatochno-malobercovaya-svyazka",
+   "predicate": "укрепляет сустав",
+   "object": "podtarannyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t556",
+   "subject": "zadnyaya-taranno-malobercovaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "malobercovaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t557",
+   "subject": "zadnyaya-taranno-malobercovaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "tarannaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t558",
+   "subject": "zadnyaya-taranno-malobercovaya-svyazka",
+   "predicate": "укрепляет сустав",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t559",
+   "subject": "svyazki-distalnogo-mezhbercovogo-sindesmoza",
+   "predicate": "прикрепляется к кости",
+   "object": "bolshebercovaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t560",
+   "subject": "svyazki-distalnogo-mezhbercovogo-sindesmoza",
+   "predicate": "прикрепляется к кости",
+   "object": "malobercovaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t561",
+   "subject": "svyazki-distalnogo-mezhbercovogo-sindesmoza",
+   "predicate": "укрепляет сустав",
+   "object": "distalnyy-mezhbercovyy-sindesmoz",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t562",
+   "subject": "podoshvennaya-pyatochno-ladevidnaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "pyatochnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t563",
+   "subject": "podoshvennaya-pyatochno-ladevidnaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "ladevidnaya-kost-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t564",
+   "subject": "podoshvennaya-pyatochno-ladevidnaya-svyazka",
+   "predicate": "укрепляет сустав",
+   "object": "taranno-pyatochno-ladevidnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t565",
+   "subject": "podoshvennaya-pyatochno-ladevidnaya-svyazka",
+   "predicate": "поддерживает свод",
+   "object": "prodolnyy-medialnyy-svod",
+   "sourceId": "src-anatomy",
+   "sourceName": "Учебник анатомии человека (демонстрационный источник)",
+   "sourceType": "textbook",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t566",
+   "subject": "dlinnaya-podoshvennaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "pyatochnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t567",
+   "subject": "dlinnaya-podoshvennaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "kubovidnaya-kost-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t568",
+   "subject": "dlinnaya-podoshvennaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "plyusnevaya-kost-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t569",
+   "subject": "dlinnaya-podoshvennaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "plyusnevaya-kost-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t570",
+   "subject": "dlinnaya-podoshvennaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "plyusnevaya-kost-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t571",
+   "subject": "dlinnaya-podoshvennaya-svyazka",
+   "predicate": "прикрепляется к кости",
+   "object": "plyusnevaya-kost-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t572",
+   "subject": "dlinnaya-podoshvennaya-svyazka",
+   "predicate": "укрепляет сустав",
+   "object": "pyatochno-kubovidnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t573",
+   "subject": "dlinnaya-podoshvennaya-svyazka",
+   "predicate": "поддерживает свод",
+   "object": "prodolnyy-lateralnyy-svod",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t574",
+   "subject": "svyazka-lisfranka",
+   "predicate": "прикрепляется к кости",
+   "object": "medialnaya-klinovidnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t575",
+   "subject": "svyazka-lisfranka",
+   "predicate": "прикрепляется к кости",
+   "object": "plyusnevaya-kost-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t576",
+   "subject": "svyazka-lisfranka",
+   "predicate": "укрепляет сустав",
+   "object": "predplyusne-plyusnevyy-sustav-ii-lucha",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t577",
+   "subject": "podoshvennyy-aponevroz",
+   "predicate": "прикрепляется к кости",
+   "object": "pyatochnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t578",
+   "subject": "podoshvennyy-aponevroz",
+   "predicate": "прикрепляется к кости",
+   "object": "proksimalnaya-falanga-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t579",
+   "subject": "podoshvennyy-aponevroz",
+   "predicate": "прикрепляется к кости",
+   "object": "proksimalnaya-falanga-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t580",
+   "subject": "podoshvennyy-aponevroz",
+   "predicate": "прикрепляется к кости",
+   "object": "proksimalnaya-falanga-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t581",
+   "subject": "podoshvennyy-aponevroz",
+   "predicate": "прикрепляется к кости",
+   "object": "proksimalnaya-falanga-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t582",
+   "subject": "podoshvennyy-aponevroz",
+   "predicate": "прикрепляется к кости",
+   "object": "proksimalnaya-falanga-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t583",
+   "subject": "podoshvennyy-aponevroz",
+   "predicate": "поддерживает свод",
+   "object": "prodolnyy-medialnyy-svod",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t584",
+   "subject": "podoshvennyy-aponevroz",
+   "predicate": "поддерживает свод",
+   "object": "prodolnyy-lateralnyy-svod",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t585",
+   "subject": "perelom-lodyzhek",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t586",
+   "subject": "perelom-lodyzhek",
+   "predicate": "поражает кость",
+   "object": "bolshebercovaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t587",
+   "subject": "perelom-lodyzhek",
+   "predicate": "поражает кость",
+   "object": "malobercovaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t588",
+   "subject": "perelom-lodyzhek",
+   "predicate": "поражает сустав",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t589",
+   "subject": "perelom-lodyzhek",
+   "predicate": "нарушает функцию",
+   "object": "opora",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t590",
+   "subject": "perelom-lodyzhek",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t591",
+   "subject": "rastyazhenie-svyazok-golenostopnogo-sustava",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t592",
+   "subject": "rastyazhenie-svyazok-golenostopnogo-sustava",
+   "predicate": "поражает сустав",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t593",
+   "subject": "rastyazhenie-svyazok-golenostopnogo-sustava",
+   "predicate": "поражает связку",
+   "object": "perednyaya-taranno-malobercovaya-svyazka",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t594",
+   "subject": "rastyazhenie-svyazok-golenostopnogo-sustava",
+   "predicate": "поражает связку",
+   "object": "pyatochno-malobercovaya-svyazka",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t595",
+   "subject": "rastyazhenie-svyazok-golenostopnogo-sustava",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t596",
+   "subject": "razryv-ahillova-suhozhiliya",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t597",
+   "subject": "razryv-ahillova-suhozhiliya",
+   "predicate": "поражает мышцу",
+   "object": "trehglavaya-myshca-goleni",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t598",
+   "subject": "razryv-ahillova-suhozhiliya",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t599",
+   "subject": "perelom-pyatochnoy-kosti",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t600",
+   "subject": "perelom-pyatochnoy-kosti",
+   "predicate": "поражает кость",
+   "object": "pyatochnaya-kost",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t601",
+   "subject": "perelom-pyatochnoy-kosti",
+   "predicate": "поражает сустав",
+   "object": "podtarannyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t602",
+   "subject": "perelom-pyatochnoy-kosti",
+   "predicate": "нарушает функцию",
+   "object": "opora",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t603",
+   "subject": "perelom-pyatochnoy-kosti",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t604",
+   "subject": "perelom-tarannoy-kosti",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t605",
+   "subject": "perelom-tarannoy-kosti",
+   "predicate": "поражает кость",
+   "object": "tarannaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t606",
+   "subject": "perelom-tarannoy-kosti",
+   "predicate": "поражает сустав",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t607",
+   "subject": "perelom-tarannoy-kosti",
+   "predicate": "поражает сустав",
+   "object": "podtarannyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t608",
+   "subject": "perelom-tarannoy-kosti",
+   "predicate": "нарушает функцию",
+   "object": "opora",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t609",
+   "subject": "perelom-tarannoy-kosti",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t610",
+   "subject": "perelom-pyatoy-plyusnevoy-kosti",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t611",
+   "subject": "perelom-pyatoy-plyusnevoy-kosti",
+   "predicate": "поражает кость",
+   "object": "plyusnevaya-kost-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t612",
+   "subject": "perelom-pyatoy-plyusnevoy-kosti",
+   "predicate": "нарушает функцию",
+   "object": "opora",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t613",
+   "subject": "povrezhdenie-sustava-lisfranka",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t614",
+   "subject": "povrezhdenie-sustava-lisfranka",
+   "predicate": "поражает сустав",
+   "object": "predplyusne-plyusnevyy-sustav-i-lucha",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t615",
+   "subject": "povrezhdenie-sustava-lisfranka",
+   "predicate": "поражает сустав",
+   "object": "predplyusne-plyusnevyy-sustav-ii-lucha",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t616",
+   "subject": "povrezhdenie-sustava-lisfranka",
+   "predicate": "поражает связку",
+   "object": "svyazka-lisfranka",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t617",
+   "subject": "povrezhdenie-sustava-lisfranka",
+   "predicate": "нарушает функцию",
+   "object": "opora",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t618",
+   "subject": "valgusnaya-deformaciya-pervogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t619",
+   "subject": "valgusnaya-deformaciya-pervogo-palca-stopy",
+   "predicate": "поражает сустав",
+   "object": "plyusnefalangovyy-sustav-bolshogo-palca-stopy",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t620",
+   "subject": "valgusnaya-deformaciya-pervogo-palca-stopy",
+   "predicate": "нарушает функцию",
+   "object": "opora",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t621",
+   "subject": "valgusnaya-deformaciya-pervogo-palca-stopy",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t622",
+   "subject": "podagricheskiy-artrit-pervogo-plyusnefalangovogo-sustava",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t623",
+   "subject": "podagricheskiy-artrit-pervogo-plyusnefalangovogo-sustava",
+   "predicate": "поражает сустав",
+   "object": "plyusnefalangovyy-sustav-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t624",
+   "subject": "podagricheskiy-artrit-pervogo-plyusnefalangovogo-sustava",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t625",
+   "subject": "ploskostopie",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t626",
+   "subject": "ploskostopie",
+   "predicate": "поражает свод стопы",
+   "object": "prodolnyy-medialnyy-svod",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t627",
+   "subject": "ploskostopie",
+   "predicate": "поражает свод стопы",
+   "object": "poperechnyy-svod-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t628",
+   "subject": "ploskostopie",
+   "predicate": "нарушает функцию",
+   "object": "opora",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t629",
+   "subject": "podoshvennyy-fasciit",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t630",
+   "subject": "podoshvennyy-fasciit",
+   "predicate": "поражает связку",
+   "object": "podoshvennyy-aponevroz",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t631",
+   "subject": "podoshvennyy-fasciit",
+   "predicate": "нарушает функцию",
+   "object": "opora",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t632",
+   "subject": "artroz-golenostopnogo-sustava",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t633",
+   "subject": "artroz-golenostopnogo-sustava",
+   "predicate": "поражает сустав",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t634",
+   "subject": "artroz-golenostopnogo-sustava",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t635",
+   "subject": "korotkiy-razgibatel-bolshogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t636",
+   "subject": "korotkiy-razgibatel-palcev-stopy",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t637",
+   "subject": "tretya-malobercovaya-myshca",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t638",
+   "subject": "otvodyaschaya-myshca-mizinca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t639",
+   "subject": "kvadratnaya-myshca-podoshvy",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t640",
+   "subject": "cherveobraznye-myshcy-stopy",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t641",
+   "subject": "korotkiy-sgibatel-bolshogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t642",
+   "subject": "privodyaschaya-myshca-bolshogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t643",
+   "subject": "korotkiy-sgibatel-mizinca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t644",
+   "subject": "podoshvennye-mezhkostnye-myshcy",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t645",
+   "subject": "tylnye-mezhkostnye-myshcy-stopy",
+   "predicate": "имеет тип",
+   "object": "class-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t646",
+   "subject": "korotkiy-razgibatel-bolshogo-palca-stopy",
+   "predicate": "крепится к",
+   "object": "proksimalnaya-falanga-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t647",
+   "subject": "korotkiy-razgibatel-bolshogo-palca-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t648",
+   "subject": "korotkiy-razgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t649",
+   "subject": "korotkiy-razgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t650",
+   "subject": "korotkiy-razgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t651",
+   "subject": "korotkiy-razgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t652",
+   "subject": "korotkiy-razgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "srednyaya-falanga-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t653",
+   "subject": "korotkiy-razgibatel-palcev-stopy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t654",
+   "subject": "korotkiy-razgibatel-palcev-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t655",
+   "subject": "korotkiy-razgibatel-palcev-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t656",
+   "subject": "korotkiy-razgibatel-palcev-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t657",
+   "subject": "tretya-malobercovaya-myshca",
+   "predicate": "крепится к",
+   "object": "plyusnevaya-kost-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t658",
+   "subject": "tretya-malobercovaya-myshca",
+   "predicate": "приводит в движение",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t659",
+   "subject": "otvodyaschaya-myshca-mizinca-stopy",
+   "predicate": "крепится к",
+   "object": "pyatochnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t660",
+   "subject": "otvodyaschaya-myshca-mizinca-stopy",
+   "predicate": "крепится к",
+   "object": "plyusnevaya-kost-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t661",
+   "subject": "otvodyaschaya-myshca-mizinca-stopy",
+   "predicate": "крепится к",
+   "object": "proksimalnaya-falanga-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t662",
+   "subject": "otvodyaschaya-myshca-mizinca-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t663",
+   "subject": "kvadratnaya-myshca-podoshvy",
+   "predicate": "крепится к",
+   "object": "pyatochnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t664",
+   "subject": "kvadratnaya-myshca-podoshvy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t665",
+   "subject": "kvadratnaya-myshca-podoshvy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t666",
+   "subject": "kvadratnaya-myshca-podoshvy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t667",
+   "subject": "kvadratnaya-myshca-podoshvy",
+   "predicate": "крепится к",
+   "object": "distalnaya-falanga-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t668",
+   "subject": "kvadratnaya-myshca-podoshvy",
+   "predicate": "приводит в движение",
+   "object": "distalnyy-mezhfalangovyy-sustav-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t669",
+   "subject": "kvadratnaya-myshca-podoshvy",
+   "predicate": "приводит в движение",
+   "object": "distalnyy-mezhfalangovyy-sustav-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t670",
+   "subject": "kvadratnaya-myshca-podoshvy",
+   "predicate": "приводит в движение",
+   "object": "distalnyy-mezhfalangovyy-sustav-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t671",
+   "subject": "kvadratnaya-myshca-podoshvy",
+   "predicate": "приводит в движение",
+   "object": "distalnyy-mezhfalangovyy-sustav-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t672",
+   "subject": "cherveobraznye-myshcy-stopy",
+   "predicate": "крепится к",
+   "object": "proksimalnaya-falanga-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t673",
+   "subject": "cherveobraznye-myshcy-stopy",
+   "predicate": "крепится к",
+   "object": "proksimalnaya-falanga-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t674",
+   "subject": "cherveobraznye-myshcy-stopy",
+   "predicate": "крепится к",
+   "object": "proksimalnaya-falanga-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t675",
+   "subject": "cherveobraznye-myshcy-stopy",
+   "predicate": "крепится к",
+   "object": "proksimalnaya-falanga-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t676",
+   "subject": "cherveobraznye-myshcy-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t677",
+   "subject": "cherveobraznye-myshcy-stopy",
+   "predicate": "приводит в движение",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t678",
+   "subject": "cherveobraznye-myshcy-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t679",
+   "subject": "cherveobraznye-myshcy-stopy",
+   "predicate": "приводит в движение",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t680",
+   "subject": "cherveobraznye-myshcy-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t681",
+   "subject": "cherveobraznye-myshcy-stopy",
+   "predicate": "приводит в движение",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t682",
+   "subject": "cherveobraznye-myshcy-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t683",
+   "subject": "cherveobraznye-myshcy-stopy",
+   "predicate": "приводит в движение",
+   "object": "proksimalnyy-mezhfalangovyy-sustav-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t684",
+   "subject": "korotkiy-sgibatel-bolshogo-palca-stopy",
+   "predicate": "крепится к",
+   "object": "kubovidnaya-kost-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t685",
+   "subject": "korotkiy-sgibatel-bolshogo-palca-stopy",
+   "predicate": "крепится к",
+   "object": "medialnaya-klinovidnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t686",
+   "subject": "korotkiy-sgibatel-bolshogo-palca-stopy",
+   "predicate": "крепится к",
+   "object": "proksimalnaya-falanga-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t687",
+   "subject": "korotkiy-sgibatel-bolshogo-palca-stopy",
+   "predicate": "крепится к",
+   "object": "sesamovidnye-kosti-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t688",
+   "subject": "korotkiy-sgibatel-bolshogo-palca-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t689",
+   "subject": "privodyaschaya-myshca-bolshogo-palca-stopy",
+   "predicate": "крепится к",
+   "object": "kubovidnaya-kost-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t690",
+   "subject": "privodyaschaya-myshca-bolshogo-palca-stopy",
+   "predicate": "крепится к",
+   "object": "lateralnaya-klinovidnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t691",
+   "subject": "privodyaschaya-myshca-bolshogo-palca-stopy",
+   "predicate": "крепится к",
+   "object": "proksimalnaya-falanga-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t692",
+   "subject": "privodyaschaya-myshca-bolshogo-palca-stopy",
+   "predicate": "крепится к",
+   "object": "sesamovidnye-kosti-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t693",
+   "subject": "privodyaschaya-myshca-bolshogo-palca-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-bolshogo-palca-stopy",
+   "sourceId": "src-anatomy",
+   "sourceName": "Учебник анатомии человека (демонстрационный источник)",
+   "sourceType": "textbook",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t694",
+   "subject": "korotkiy-sgibatel-mizinca-stopy",
+   "predicate": "крепится к",
+   "object": "plyusnevaya-kost-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t695",
+   "subject": "korotkiy-sgibatel-mizinca-stopy",
+   "predicate": "крепится к",
+   "object": "proksimalnaya-falanga-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t696",
+   "subject": "korotkiy-sgibatel-mizinca-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t697",
+   "subject": "podoshvennye-mezhkostnye-myshcy",
+   "predicate": "крепится к",
+   "object": "plyusnevaya-kost-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t698",
+   "subject": "podoshvennye-mezhkostnye-myshcy",
+   "predicate": "крепится к",
+   "object": "plyusnevaya-kost-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t699",
+   "subject": "podoshvennye-mezhkostnye-myshcy",
+   "predicate": "крепится к",
+   "object": "plyusnevaya-kost-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t700",
+   "subject": "podoshvennye-mezhkostnye-myshcy",
+   "predicate": "крепится к",
+   "object": "proksimalnaya-falanga-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t701",
+   "subject": "podoshvennye-mezhkostnye-myshcy",
+   "predicate": "крепится к",
+   "object": "proksimalnaya-falanga-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t702",
+   "subject": "podoshvennye-mezhkostnye-myshcy",
+   "predicate": "крепится к",
+   "object": "proksimalnaya-falanga-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t703",
+   "subject": "podoshvennye-mezhkostnye-myshcy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t704",
+   "subject": "podoshvennye-mezhkostnye-myshcy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t705",
+   "subject": "podoshvennye-mezhkostnye-myshcy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t706",
+   "subject": "tylnye-mezhkostnye-myshcy-stopy",
+   "predicate": "крепится к",
+   "object": "plyusnevaya-kost-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t707",
+   "subject": "tylnye-mezhkostnye-myshcy-stopy",
+   "predicate": "крепится к",
+   "object": "plyusnevaya-kost-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t708",
+   "subject": "tylnye-mezhkostnye-myshcy-stopy",
+   "predicate": "крепится к",
+   "object": "plyusnevaya-kost-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t709",
+   "subject": "tylnye-mezhkostnye-myshcy-stopy",
+   "predicate": "крепится к",
+   "object": "plyusnevaya-kost-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t710",
+   "subject": "tylnye-mezhkostnye-myshcy-stopy",
+   "predicate": "крепится к",
+   "object": "plyusnevaya-kost-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t711",
+   "subject": "tylnye-mezhkostnye-myshcy-stopy",
+   "predicate": "крепится к",
+   "object": "proksimalnaya-falanga-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t712",
+   "subject": "tylnye-mezhkostnye-myshcy-stopy",
+   "predicate": "крепится к",
+   "object": "proksimalnaya-falanga-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t713",
+   "subject": "tylnye-mezhkostnye-myshcy-stopy",
+   "predicate": "крепится к",
+   "object": "proksimalnaya-falanga-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t714",
+   "subject": "tylnye-mezhkostnye-myshcy-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t715",
+   "subject": "tylnye-mezhkostnye-myshcy-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t716",
+   "subject": "tylnye-mezhkostnye-myshcy-stopy",
+   "predicate": "приводит в движение",
+   "object": "plyusnefalangovyy-sustav-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t717",
+   "subject": "vlagalische-suhozhiliya-peredney-bolshebercovoy-myshcy",
+   "predicate": "имеет тип",
+   "object": "class-suhozhilnoe-vlagalische",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t718",
+   "subject": "vlagalische-suhozhiliya-dlinnogo-razgibatelya-bolshogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-suhozhilnoe-vlagalische",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t719",
+   "subject": "vlagalische-suhozhiliy-dlinnogo-razgibatelya-palcev-stopy",
+   "predicate": "имеет тип",
+   "object": "class-suhozhilnoe-vlagalische",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t720",
+   "subject": "vlagalische-suhozhiliya-zadney-bolshebercovoy-myshcy",
+   "predicate": "имеет тип",
+   "object": "class-suhozhilnoe-vlagalische",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t721",
+   "subject": "vlagalische-suhozhiliy-dlinnogo-sgibatelya-palcev-stopy",
+   "predicate": "имеет тип",
+   "object": "class-suhozhilnoe-vlagalische",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t722",
+   "subject": "vlagalische-suhozhiliya-dlinnogo-sgibatelya-bolshogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-suhozhilnoe-vlagalische",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t723",
+   "subject": "obschee-vlagalische-suhozhiliy-malobercovyh-myshc",
+   "predicate": "имеет тип",
+   "object": "class-suhozhilnoe-vlagalische",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t724",
+   "subject": "podoshvennoe-vlagalische-suhozhiliya-dlinnoy-malobercovoy-myshcy",
+   "predicate": "имеет тип",
+   "object": "class-suhozhilnoe-vlagalische",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t725",
+   "subject": "palcevye-sinovialnye-vlagalischa-sgibateley-palcev-stopy",
+   "predicate": "имеет тип",
+   "object": "class-suhozhilnoe-vlagalische",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t726",
+   "subject": "vlagalische-suhozhiliya-peredney-bolshebercovoy-myshcy",
+   "predicate": "окружает сухожилие",
+   "object": "perednyaya-bolshebercovaya-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t727",
+   "subject": "vlagalische-suhozhiliya-peredney-bolshebercovoy-myshcy",
+   "predicate": "расположено у сустава",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t728",
+   "subject": "vlagalische-suhozhiliya-dlinnogo-razgibatelya-bolshogo-palca-stopy",
+   "predicate": "окружает сухожилие",
+   "object": "dlinnyy-razgibatel-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t729",
+   "subject": "vlagalische-suhozhiliya-dlinnogo-razgibatelya-bolshogo-palca-stopy",
+   "predicate": "расположено у сустава",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t730",
+   "subject": "vlagalische-suhozhiliy-dlinnogo-razgibatelya-palcev-stopy",
+   "predicate": "окружает сухожилие",
+   "object": "dlinnyy-razgibatel-palcev-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t731",
+   "subject": "vlagalische-suhozhiliy-dlinnogo-razgibatelya-palcev-stopy",
+   "predicate": "окружает сухожилие",
+   "object": "tretya-malobercovaya-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t732",
+   "subject": "vlagalische-suhozhiliy-dlinnogo-razgibatelya-palcev-stopy",
+   "predicate": "расположено у сустава",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t733",
+   "subject": "vlagalische-suhozhiliya-zadney-bolshebercovoy-myshcy",
+   "predicate": "окружает сухожилие",
+   "object": "zadnyaya-bolshebercovaya-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t734",
+   "subject": "vlagalische-suhozhiliya-zadney-bolshebercovoy-myshcy",
+   "predicate": "расположено у сустава",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t735",
+   "subject": "vlagalische-suhozhiliya-zadney-bolshebercovoy-myshcy",
+   "predicate": "проходит рядом с костью",
+   "object": "bolshebercovaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t736",
+   "subject": "vlagalische-suhozhiliy-dlinnogo-sgibatelya-palcev-stopy",
+   "predicate": "окружает сухожилие",
+   "object": "dlinnyy-sgibatel-palcev-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t737",
+   "subject": "vlagalische-suhozhiliy-dlinnogo-sgibatelya-palcev-stopy",
+   "predicate": "расположено у сустава",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t738",
+   "subject": "vlagalische-suhozhiliy-dlinnogo-sgibatelya-palcev-stopy",
+   "predicate": "проходит рядом с костью",
+   "object": "bolshebercovaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t739",
+   "subject": "vlagalische-suhozhiliya-dlinnogo-sgibatelya-bolshogo-palca-stopy",
+   "predicate": "окружает сухожилие",
+   "object": "dlinnyy-sgibatel-bolshogo-palca-stopy",
+   "sourceId": "src-anatomy",
+   "sourceName": "Учебник анатомии человека (демонстрационный источник)",
+   "sourceType": "textbook",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t740",
+   "subject": "vlagalische-suhozhiliya-dlinnogo-sgibatelya-bolshogo-palca-stopy",
+   "predicate": "расположено у сустава",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t741",
+   "subject": "vlagalische-suhozhiliya-dlinnogo-sgibatelya-bolshogo-palca-stopy",
+   "predicate": "расположено у сустава",
+   "object": "podtarannyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t742",
+   "subject": "vlagalische-suhozhiliya-dlinnogo-sgibatelya-bolshogo-palca-stopy",
+   "predicate": "проходит рядом с костью",
+   "object": "tarannaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t743",
+   "subject": "vlagalische-suhozhiliya-dlinnogo-sgibatelya-bolshogo-palca-stopy",
+   "predicate": "проходит рядом с костью",
+   "object": "pyatochnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t744",
+   "subject": "obschee-vlagalische-suhozhiliy-malobercovyh-myshc",
+   "predicate": "окружает сухожилие",
+   "object": "dlinnaya-malobercovaya-myshca",
+   "sourceId": "src-anatomy",
+   "sourceName": "Учебник анатомии человека (демонстрационный источник)",
+   "sourceType": "textbook",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t745",
+   "subject": "obschee-vlagalische-suhozhiliy-malobercovyh-myshc",
+   "predicate": "окружает сухожилие",
+   "object": "korotkaya-malobercovaya-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t746",
+   "subject": "obschee-vlagalische-suhozhiliy-malobercovyh-myshc",
+   "predicate": "расположено у сустава",
+   "object": "golenostopnyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t747",
+   "subject": "obschee-vlagalische-suhozhiliy-malobercovyh-myshc",
+   "predicate": "расположено у сустава",
+   "object": "podtarannyy-sustav",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t748",
+   "subject": "obschee-vlagalische-suhozhiliy-malobercovyh-myshc",
+   "predicate": "проходит рядом с костью",
+   "object": "malobercovaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t749",
+   "subject": "obschee-vlagalische-suhozhiliy-malobercovyh-myshc",
+   "predicate": "проходит рядом с костью",
+   "object": "pyatochnaya-kost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t750",
+   "subject": "podoshvennoe-vlagalische-suhozhiliya-dlinnoy-malobercovoy-myshcy",
+   "predicate": "окружает сухожилие",
+   "object": "dlinnaya-malobercovaya-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t751",
+   "subject": "podoshvennoe-vlagalische-suhozhiliya-dlinnoy-malobercovoy-myshcy",
+   "predicate": "проходит рядом с костью",
+   "object": "kubovidnaya-kost-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t752",
+   "subject": "palcevye-sinovialnye-vlagalischa-sgibateley-palcev-stopy",
+   "predicate": "окружает сухожилие",
+   "object": "dlinnyy-sgibatel-palcev-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t753",
+   "subject": "palcevye-sinovialnye-vlagalischa-sgibateley-palcev-stopy",
+   "predicate": "окружает сухожилие",
+   "object": "dlinnyy-sgibatel-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t754",
+   "subject": "palcevye-sinovialnye-vlagalischa-sgibateley-palcev-stopy",
+   "predicate": "окружает сухожилие",
+   "object": "korotkiy-sgibatel-palcev-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t755",
+   "subject": "palcevye-sinovialnye-vlagalischa-sgibateley-palcev-stopy",
+   "predicate": "расположено у сустава",
+   "object": "plyusnefalangovyy-sustav-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t756",
+   "subject": "palcevye-sinovialnye-vlagalischa-sgibateley-palcev-stopy",
+   "predicate": "расположено у сустава",
+   "object": "plyusnefalangovyy-sustav-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t757",
+   "subject": "palcevye-sinovialnye-vlagalischa-sgibateley-palcev-stopy",
+   "predicate": "расположено у сустава",
+   "object": "plyusnefalangovyy-sustav-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t758",
+   "subject": "palcevye-sinovialnye-vlagalischa-sgibateley-palcev-stopy",
+   "predicate": "расположено у сустава",
+   "object": "plyusnefalangovyy-sustav-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t759",
+   "subject": "palcevye-sinovialnye-vlagalischa-sgibateley-palcev-stopy",
+   "predicate": "расположено у сустава",
+   "object": "plyusnefalangovyy-sustav-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t760",
+   "subject": "palcevye-sinovialnye-vlagalischa-sgibateley-palcev-stopy",
+   "predicate": "проходит рядом с костью",
+   "object": "proksimalnaya-falanga-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t761",
+   "subject": "palcevye-sinovialnye-vlagalischa-sgibateley-palcev-stopy",
+   "predicate": "проходит рядом с костью",
+   "object": "proksimalnaya-falanga-vtorogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t762",
+   "subject": "palcevye-sinovialnye-vlagalischa-sgibateley-palcev-stopy",
+   "predicate": "проходит рядом с костью",
+   "object": "proksimalnaya-falanga-tretego-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t763",
+   "subject": "palcevye-sinovialnye-vlagalischa-sgibateley-palcev-stopy",
+   "predicate": "проходит рядом с костью",
+   "object": "proksimalnaya-falanga-chetvertogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t764",
+   "subject": "palcevye-sinovialnye-vlagalischa-sgibateley-palcev-stopy",
+   "predicate": "проходит рядом с костью",
+   "object": "proksimalnaya-falanga-mizinca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t765",
+   "subject": "tenosinovit-suhozhiliy-malobercovyh-myshc",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t766",
+   "subject": "tenosinovit-suhozhiliy-malobercovyh-myshc",
+   "predicate": "поражает сухожильное влагалище",
+   "object": "obschee-vlagalische-suhozhiliy-malobercovyh-myshc",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t767",
+   "subject": "tenosinovit-suhozhiliy-malobercovyh-myshc",
+   "predicate": "поражает мышцу",
+   "object": "dlinnaya-malobercovaya-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t768",
+   "subject": "tenosinovit-suhozhiliy-malobercovyh-myshc",
+   "predicate": "поражает мышцу",
+   "object": "korotkaya-malobercovaya-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t769",
+   "subject": "tenosinovit-suhozhiliy-malobercovyh-myshc",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t770",
+   "subject": "disfunkciya-suhozhiliya-zadney-bolshebercovoy-myshcy",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t771",
+   "subject": "disfunkciya-suhozhiliya-zadney-bolshebercovoy-myshcy",
+   "predicate": "поражает сухожильное влагалище",
+   "object": "vlagalische-suhozhiliya-zadney-bolshebercovoy-myshcy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t772",
+   "subject": "disfunkciya-suhozhiliya-zadney-bolshebercovoy-myshcy",
+   "predicate": "поражает мышцу",
+   "object": "zadnyaya-bolshebercovaya-myshca",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t773",
+   "subject": "disfunkciya-suhozhiliya-zadney-bolshebercovoy-myshcy",
+   "predicate": "поражает свод стопы",
+   "object": "prodolnyy-medialnyy-svod",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t774",
+   "subject": "disfunkciya-suhozhiliya-zadney-bolshebercovoy-myshcy",
+   "predicate": "нарушает функцию",
+   "object": "opora",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t775",
+   "subject": "disfunkciya-suhozhiliya-zadney-bolshebercovoy-myshcy",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t776",
+   "subject": "stenoziruyuschiy-tenosinovit-sgibatelya-bolshogo-palca-stopy",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t777",
+   "subject": "stenoziruyuschiy-tenosinovit-sgibatelya-bolshogo-palca-stopy",
+   "predicate": "поражает сухожильное влагалище",
+   "object": "vlagalische-suhozhiliya-dlinnogo-sgibatelya-bolshogo-palca-stopy",
+   "sourceId": "src-clinical",
+   "sourceName": "Клинические материалы по травматологии и ортопедии (демонстрационный источник)",
+   "sourceType": "guideline",
+   "updatedAt": "2026-09-20"
+  },
+  {
+   "id": "t778",
+   "subject": "stenoziruyuschiy-tenosinovit-sgibatelya-bolshogo-palca-stopy",
+   "predicate": "поражает мышцу",
+   "object": "dlinnyy-sgibatel-bolshogo-palca-stopy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t779",
+   "subject": "stenoziruyuschiy-tenosinovit-sgibatelya-bolshogo-palca-stopy",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t780",
+   "subject": "tendinopatiya-ahillova-suhozhiliya",
+   "predicate": "имеет тип",
+   "object": "class-povrezhdenie-ili-zabolevanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t781",
+   "subject": "tendinopatiya-ahillova-suhozhiliya",
+   "predicate": "поражает мышцу",
+   "object": "trehglavaya-myshca-goleni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t782",
+   "subject": "tendinopatiya-ahillova-suhozhiliya",
+   "predicate": "нарушает функцию",
+   "object": "dvizhenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  }
+ ]
+}

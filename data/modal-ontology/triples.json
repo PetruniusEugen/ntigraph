@@ -1,0 +1,1174 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "propoziciya-2-2-4",
+   "predicate": "имеет тип",
+   "object": "class-propoziciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "neobhodimost-2-2-4",
+   "predicate": "присуще",
+   "object": "propoziciya-2-2-4",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t003",
+   "subject": "neobhodimost-2-2-4",
+   "predicate": "имеет тип",
+   "object": "class-aleticheskiy-status",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "neobhodimost-2-2-4",
+   "predicate": "относится к",
+   "object": "propoziciya-2-2-4",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "neobhodimost-2-2-4",
+   "predicate": "определяется моделью",
+   "object": "klassicheskaya-arifmetika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "neobhodimost-2-2-4",
+   "predicate": "действителен в интервале",
+   "object": "vechnyy-interval-2-2-4",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "vechnyy-interval-2-2-4",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t008",
+   "subject": "klassicheskaya-arifmetika",
+   "predicate": "имеет тип",
+   "object": "class-model",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "propoziciya-zavtra-poydet-dozhd",
+   "predicate": "имеет тип",
+   "object": "class-propoziciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t010",
+   "subject": "sluchaynost-zavtra-poydet-dozhd",
+   "predicate": "присуще",
+   "object": "propoziciya-zavtra-poydet-dozhd",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t011",
+   "subject": "sluchaynost-zavtra-poydet-dozhd",
+   "predicate": "имеет тип",
+   "object": "class-aleticheskiy-status",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t012",
+   "subject": "sluchaynost-zavtra-poydet-dozhd",
+   "predicate": "относится к",
+   "object": "propoziciya-zavtra-poydet-dozhd",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t013",
+   "subject": "sluchaynost-zavtra-poydet-dozhd",
+   "predicate": "определяется моделью",
+   "object": "model-pogody-moskva-2026-10-24",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t014",
+   "subject": "sluchaynost-zavtra-poydet-dozhd",
+   "predicate": "действителен в интервале",
+   "object": "2026-10-23-2026-10-24",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "2026-10-23-2026-10-24",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "model-pogody-moskva-2026-10-24",
+   "predicate": "имеет тип",
+   "object": "class-model",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "propoziciya-ivanov-i-i-smenit-parol-do-2026-12-31",
+   "predicate": "имеет тип",
+   "object": "class-propoziciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t018",
+   "subject": "sluchaynost-ivanov-i-i-smenit-parol-do-2026-12-31",
+   "predicate": "присуще",
+   "object": "propoziciya-ivanov-i-i-smenit-parol-do-2026-12-31",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t019",
+   "subject": "sluchaynost-ivanov-i-i-smenit-parol-do-2026-12-31",
+   "predicate": "имеет тип",
+   "object": "class-aleticheskiy-status",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t020",
+   "subject": "sluchaynost-ivanov-i-i-smenit-parol-do-2026-12-31",
+   "predicate": "относится к",
+   "object": "propoziciya-ivanov-i-i-smenit-parol-do-2026-12-31",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "sluchaynost-ivanov-i-i-smenit-parol-do-2026-12-31",
+   "predicate": "определяется моделью",
+   "object": "model-it-reglament-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t022",
+   "subject": "sluchaynost-ivanov-i-i-smenit-parol-do-2026-12-31",
+   "predicate": "действителен в интервале",
+   "object": "2026-10-23-2026-12-31",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t023",
+   "subject": "sluchaynost-ivanov-i-i-smenit-parol-do-2026-12-31",
+   "predicate": "подтверждается",
+   "object": "fakticheskaya-smena-parolya-2026-11-15",
+   "sourceId": "src-audit",
+   "sourceName": "Внутренний аудит доступа к паролям, 2026-05",
+   "sourceType": "audit",
+   "updatedAt": "2026-05-12"
+  },
+  {
+   "id": "t024",
+   "subject": "sluchaynost-ivanov-i-i-smenit-parol-do-2026-12-31",
+   "predicate": "контрольная дата",
+   "object": "2026-12-31",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t025",
+   "subject": "2026-10-23-2026-12-31",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t026",
+   "subject": "fakticheskaya-smena-parolya-2026-11-15",
+   "predicate": "имеет тип",
+   "object": "class-deystvie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t027",
+   "subject": "2026-12-31",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t028",
+   "subject": "ivanov-i-i",
+   "predicate": "имеет тип",
+   "object": "class-chelovek",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t029",
+   "subject": "znanie-parolya-bd",
+   "predicate": "имеет тип",
+   "object": "class-znanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t030",
+   "subject": "znanie-parolya-bd",
+   "predicate": "присуще агенту",
+   "object": "ivanov-i-i",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t031",
+   "subject": "znanie-parolya-bd",
+   "predicate": "имеет эпистемическое содержание",
+   "object": "soderzhanie-parol-x",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t032",
+   "subject": "2026-q1-2026-q4",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t033",
+   "subject": "2026-01-2026-12",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t034",
+   "subject": "2026-01-2026-09",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t035",
+   "subject": "2026-q3-2027-q2",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t036",
+   "subject": "2026-10-23",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t037",
+   "subject": "2026-10-25",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t038",
+   "subject": "2026-01-01-2026-12-31",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t039",
+   "subject": "2026-01-01-2026-10-25",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t040",
+   "subject": "s-2026-10-25-bessrochno",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t041",
+   "subject": "obyazannost-menyat-parol-raz-v-90-dney",
+   "predicate": "имеет тип",
+   "object": "class-obyazannost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t042",
+   "subject": "obyazannost-menyat-parol-raz-v-90-dney",
+   "predicate": "имеет адресата",
+   "object": "ivanov-i-i",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t043",
+   "subject": "obyazannost-menyat-parol-raz-v-90-dney",
+   "predicate": "регулирует тип действия",
+   "object": "smena-parolya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t044",
+   "subject": "obyazannost-menyat-parol-raz-v-90-dney",
+   "predicate": "действует в интервале",
+   "object": "2026-q1-2026-q4",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t045",
+   "subject": "obyazannost-menyat-parol-raz-v-90-dney",
+   "predicate": "ограничена алетическим статусом",
+   "object": "nevozmozhnost-ruchnaya-smena-raz-v-90-dney",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t046",
+   "subject": "obyazannost-menyat-parol-raz-v-90-dney",
+   "predicate": "конфликтует с",
+   "object": "zapret-na-avtomatizaciyu-smeny-parolya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t047",
+   "subject": "obyazannost-menyat-parol-raz-v-90-dney",
+   "predicate": "неисполнима в модели",
+   "object": "model-it-reglament-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t048",
+   "subject": "obyazannost-menyat-parol-raz-v-90-dney",
+   "predicate": "требует пересмотра",
+   "object": "zapret-na-avtomatizaciyu-smeny-parolya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t049",
+   "subject": "obyazannost-menyat-parol-raz-v-90-dney",
+   "predicate": "требует пересмотра",
+   "object": "model-it-reglament-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t050",
+   "subject": "smena-parolya",
+   "predicate": "имеет тип",
+   "object": "class-tip-deystviya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t051",
+   "subject": "avtomaticheskaya-smena-parolya",
+   "predicate": "имеет тип",
+   "object": "class-tip-deystviya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t052",
+   "subject": "avtomaticheskaya-smena-parolya",
+   "predicate": "часть",
+   "object": "smena-parolya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t053",
+   "subject": "zapret-na-avtomatizaciyu-smeny-parolya",
+   "predicate": "имеет тип",
+   "object": "class-zapret",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t054",
+   "subject": "zapret-na-avtomatizaciyu-smeny-parolya",
+   "predicate": "имеет адресата",
+   "object": "ivanov-i-i",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t055",
+   "subject": "zapret-na-avtomatizaciyu-smeny-parolya",
+   "predicate": "регулирует тип действия",
+   "object": "avtomaticheskaya-smena-parolya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t056",
+   "subject": "zapret-na-avtomatizaciyu-smeny-parolya",
+   "predicate": "действует в интервале",
+   "object": "2026-q1-2026-q4",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t057",
+   "subject": "zapret-na-avtomatizaciyu-smeny-parolya",
+   "predicate": "имеет приоритет над",
+   "object": "obyazannost-menyat-parol-raz-v-90-dney",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t058",
+   "subject": "zapret-na-avtomatizaciyu-smeny-parolya",
+   "predicate": "статус пересмотра",
+   "object": "na-peresmotre",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t059",
+   "subject": "zapret-na-avtomatizaciyu-smeny-parolya",
+   "predicate": "дата инициации пересмотра",
+   "object": "2026-10-25",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t060",
+   "subject": "propoziciya-ruchnaya-smena-parolya-raz-v-90-dney-nevozmozhna",
+   "predicate": "имеет тип",
+   "object": "class-propoziciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t061",
+   "subject": "nevozmozhnost-ruchnaya-smena-raz-v-90-dney",
+   "predicate": "присуще",
+   "object": "propoziciya-ruchnaya-smena-parolya-raz-v-90-dney-nevozmozhna",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t062",
+   "subject": "nevozmozhnost-ruchnaya-smena-raz-v-90-dney",
+   "predicate": "имеет тип",
+   "object": "class-aleticheskiy-status",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t063",
+   "subject": "nevozmozhnost-ruchnaya-smena-raz-v-90-dney",
+   "predicate": "относится к",
+   "object": "propoziciya-ruchnaya-smena-parolya-raz-v-90-dney-nevozmozhna",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t064",
+   "subject": "nevozmozhnost-ruchnaya-smena-raz-v-90-dney",
+   "predicate": "определяется моделью",
+   "object": "model-it-reglament-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t065",
+   "subject": "nevozmozhnost-ruchnaya-smena-raz-v-90-dney",
+   "predicate": "действителен в интервале",
+   "object": "2026-01-01-2026-12-31",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t066",
+   "subject": "propoziciya-avtomaticheskaya-smena-parolya-vozmozhna",
+   "predicate": "имеет тип",
+   "object": "class-propoziciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t067",
+   "subject": "vozmozhnost-avtomaticheskaya-smena-parolya",
+   "predicate": "присуще",
+   "object": "propoziciya-avtomaticheskaya-smena-parolya-vozmozhna",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t068",
+   "subject": "vozmozhnost-avtomaticheskaya-smena-parolya",
+   "predicate": "имеет тип",
+   "object": "class-aleticheskiy-status",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t069",
+   "subject": "vozmozhnost-avtomaticheskaya-smena-parolya",
+   "predicate": "относится к",
+   "object": "propoziciya-avtomaticheskaya-smena-parolya-vozmozhna",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t070",
+   "subject": "vozmozhnost-avtomaticheskaya-smena-parolya",
+   "predicate": "определяется моделью",
+   "object": "model-it-reglament-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t071",
+   "subject": "vozmozhnost-avtomaticheskaya-smena-parolya",
+   "predicate": "действителен в интервале",
+   "object": "2026-01-01-2026-12-31",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t072",
+   "subject": "vozmozhnost-avtomaticheskaya-smena-parolya",
+   "predicate": "ограничена областью",
+   "object": "avtomaticheskaya-smena-parolya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t073",
+   "subject": "model-it-reglament-2026",
+   "predicate": "имеет тип",
+   "object": "class-model",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t074",
+   "subject": "model-it-reglament-2026",
+   "predicate": "статус пересмотра",
+   "object": "na-peresmotre",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t075",
+   "subject": "model-it-reglament-2026",
+   "predicate": "дата инициации пересмотра",
+   "object": "2026-10-25",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t076",
+   "subject": "na-peresmotre",
+   "predicate": "имеет тип",
+   "object": "class-status-peresmotra",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t077",
+   "subject": "zapret-peredavat-parol-tretim-licam",
+   "predicate": "имеет тип",
+   "object": "class-zapret",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t078",
+   "subject": "zapret-peredavat-parol-tretim-licam",
+   "predicate": "имеет адресата",
+   "object": "ivanov-i-i",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t079",
+   "subject": "zapret-peredavat-parol-tretim-licam",
+   "predicate": "регулирует тип действия",
+   "object": "peredacha-parolya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t080",
+   "subject": "zapret-peredavat-parol-tretim-licam",
+   "predicate": "действует в интервале",
+   "object": "2026-01-2026-12",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t081",
+   "subject": "zapret-peredavat-parol-tretim-licam",
+   "predicate": "конфликтует с",
+   "object": "obyazannost-delegirovat-dostup-assistentu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t082",
+   "subject": "zapret-peredavat-parol-tretim-licam",
+   "predicate": "норма о",
+   "object": "propoziciya-peredacha-parolya-zapreschena",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t083",
+   "subject": "propoziciya-peredacha-parolya-zapreschena",
+   "predicate": "имеет тип",
+   "object": "class-propoziciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t084",
+   "subject": "soderzhanie-zapret-na-peredachu-parolya",
+   "predicate": "имеет тип",
+   "object": "class-epistemicheskoe-soderzhanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t085",
+   "subject": "soderzhanie-zapret-na-peredachu-parolya",
+   "predicate": "о",
+   "object": "propoziciya-peredacha-parolya-zapreschena",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t086",
+   "subject": "neznanie-zapret-peredavat-parol",
+   "predicate": "имеет тип",
+   "object": "class-neznanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t087",
+   "subject": "neznanie-zapret-peredavat-parol",
+   "predicate": "присуще агенту",
+   "object": "ivanov-i-i",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t088",
+   "subject": "neznanie-zapret-peredavat-parol",
+   "predicate": "имеет эпистемическое содержание",
+   "object": "soderzhanie-zapret-na-peredachu-parolya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t089",
+   "subject": "neznanie-zapret-peredavat-parol",
+   "predicate": "удерживается в интервале",
+   "object": "2026-01-01-2026-10-25",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t090",
+   "subject": "obyazannost-oznakomitsya-s-zapretom-peredavat-parol",
+   "predicate": "имеет тип",
+   "object": "class-obyazannost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t091",
+   "subject": "obyazannost-oznakomitsya-s-zapretom-peredavat-parol",
+   "predicate": "имеет адресата",
+   "object": "ivanov-i-i",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t092",
+   "subject": "obyazannost-oznakomitsya-s-zapretom-peredavat-parol",
+   "predicate": "регулирует тип действия",
+   "object": "oznakomlenie-s-normoy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t093",
+   "subject": "obyazannost-oznakomitsya-s-zapretom-peredavat-parol",
+   "predicate": "действует в интервале",
+   "object": "2026-01-01-2026-12-31",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t094",
+   "subject": "obyazannost-oznakomitsya-s-zapretom-peredavat-parol",
+   "predicate": "требует ознакомления с",
+   "object": "zapret-peredavat-parol-tretim-licam",
+   "sourceId": "src-reglament",
+   "sourceName": "Внутренний регламент управления ИТ-активами",
+   "sourceType": "internal",
+   "updatedAt": "2026-09-30"
+  },
+  {
+   "id": "t095",
+   "subject": "oznakomlenie-s-normoy",
+   "predicate": "имеет тип",
+   "object": "class-tip-deystviya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t096",
+   "subject": "oznakomlenie-s-zapretom-peredavat-parol-2026-10-25",
+   "predicate": "имеет тип",
+   "object": "class-soblyudenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t097",
+   "subject": "oznakomlenie-s-zapretom-peredavat-parol-2026-10-25",
+   "predicate": "имеет участника",
+   "object": "ivanov-i-i",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t098",
+   "subject": "oznakomlenie-s-zapretom-peredavat-parol-2026-10-25",
+   "predicate": "соответствует",
+   "object": "obyazannost-oznakomitsya-s-zapretom-peredavat-parol",
+   "sourceId": "src-onboarding",
+   "sourceName": "Журнал ознакомления сотрудников с внутренними регламентами, 2026-10-25",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-25"
+  },
+  {
+   "id": "t099",
+   "subject": "oznakomlenie-s-zapretom-peredavat-parol-2026-10-25",
+   "predicate": "выполнено",
+   "object": "2026-10-25",
+   "sourceId": "src-onboarding",
+   "sourceName": "Журнал ознакомления сотрудников с внутренними регламентами, 2026-10-25",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-25"
+  },
+  {
+   "id": "t100",
+   "subject": "oznakomlenie-s-zapretom-peredavat-parol-2026-10-25",
+   "predicate": "имеет результат",
+   "object": "znanie-zapret-peredavat-parol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t101",
+   "subject": "znanie-zapret-peredavat-parol",
+   "predicate": "имеет тип",
+   "object": "class-znanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t102",
+   "subject": "znanie-zapret-peredavat-parol",
+   "predicate": "присуще агенту",
+   "object": "ivanov-i-i",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t103",
+   "subject": "znanie-zapret-peredavat-parol",
+   "predicate": "имеет эпистемическое содержание",
+   "object": "soderzhanie-zapret-na-peredachu-parolya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t104",
+   "subject": "znanie-zapret-peredavat-parol",
+   "predicate": "удерживается в интервале",
+   "object": "s-2026-10-25-bessrochno",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t105",
+   "subject": "obyazannost-delegirovat-dostup-assistentu",
+   "predicate": "имеет тип",
+   "object": "class-obyazannost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t106",
+   "subject": "obyazannost-delegirovat-dostup-assistentu",
+   "predicate": "имеет адресата",
+   "object": "ivanov-i-i",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t107",
+   "subject": "obyazannost-delegirovat-dostup-assistentu",
+   "predicate": "регулирует тип действия",
+   "object": "delegirovanie-dostupa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t108",
+   "subject": "obyazannost-delegirovat-dostup-assistentu",
+   "predicate": "действует в интервале",
+   "object": "2026-01-2026-09",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t109",
+   "subject": "obyazannost-delegirovat-dostup-assistentu",
+   "predicate": "имеет приоритет над",
+   "object": "zapret-peredavat-parol-tretim-licam",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t110",
+   "subject": "delegirovanie-dostupa",
+   "predicate": "имеет тип",
+   "object": "class-tip-deystviya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t111",
+   "subject": "peredacha-parolya",
+   "predicate": "имеет тип",
+   "object": "class-tip-deystviya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t112",
+   "subject": "razreshenie-ispolzovat-korporativnyy-messendzher-dlya-vremennyh-ssylok",
+   "predicate": "имеет тип",
+   "object": "class-razreshenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t113",
+   "subject": "razreshenie-ispolzovat-korporativnyy-messendzher-dlya-vremennyh-ssylok",
+   "predicate": "имеет адресата",
+   "object": "ivanov-i-i",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t114",
+   "subject": "razreshenie-ispolzovat-korporativnyy-messendzher-dlya-vremennyh-ssylok",
+   "predicate": "регулирует тип действия",
+   "object": "peredacha-vremennoy-ssylki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t115",
+   "subject": "razreshenie-ispolzovat-korporativnyy-messendzher-dlya-vremennyh-ssylok",
+   "predicate": "действует в интервале",
+   "object": "2026-q3-2027-q2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t116",
+   "subject": "peredacha-vremennoy-ssylki",
+   "predicate": "имеет тип",
+   "object": "class-tip-deystviya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t117",
+   "subject": "incident-utechki-parolya-2026-05-12",
+   "predicate": "нарушает",
+   "object": "zapret-peredavat-parol-tretim-licam",
+   "sourceId": "src-audit",
+   "sourceName": "Внутренний аудит доступа к паролям, 2026-05",
+   "sourceType": "audit",
+   "updatedAt": "2026-05-12"
+  }
+ ]
+}

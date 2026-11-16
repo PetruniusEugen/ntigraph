@@ -1,0 +1,929 @@
+{
+ "entities": [
+  {
+   "id": "akt-priemki",
+   "label": "Акт приёмки",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "class-aktiv",
+   "label": "Актив",
+   "classCode": "Asset",
+   "isClass": true
+  },
+  {
+   "id": "amortizaciya",
+   "label": "Амортизация",
+   "classCode": "FinIndicator"
+  },
+  {
+   "id": "analiz-metrik-produkta",
+   "label": "Анализ метрик продукта",
+   "classCode": "Activity"
+  },
+  {
+   "id": "analitik-dannyh",
+   "label": "Аналитик данных",
+   "classCode": "Role"
+  },
+  {
+   "id": "class-artefakt",
+   "label": "Артефакт",
+   "classCode": "Deliverable",
+   "isClass": true
+  },
+  {
+   "id": "arhiv-dannyh",
+   "label": "Архив данных",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "arhivirovanie-dannyh",
+   "label": "Архивирование данных",
+   "classCode": "Activity"
+  },
+  {
+   "id": "arhitektura-resheniya",
+   "label": "Архитектура решения",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "biznes-analitik",
+   "label": "Бизнес-аналитик",
+   "classCode": "Role"
+  },
+  {
+   "id": "biznes-keys",
+   "label": "Бизнес-кейс",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "beklog-produkta",
+   "label": "Бэклог продукта",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "byudzhet-kopilki-na-2026-god",
+   "label": "Бюджет «Копилки» на 2026 год",
+   "classCode": "Budget"
+  },
+  {
+   "id": "byudzhet-chitaydom-na-2026-god",
+   "label": "Бюджет «ЧитайДом» на 2026 год",
+   "classCode": "Budget"
+  },
+  {
+   "id": "class-byudzhet-produkta",
+   "label": "Бюджет продукта",
+   "classCode": "Budget",
+   "isClass": true
+  },
+  {
+   "id": "vedenie-bekloga",
+   "label": "Ведение бэклога",
+   "classCode": "Activity"
+  },
+  {
+   "id": "vladelec-produkta",
+   "label": "Владелец продукта",
+   "classCode": "Role"
+  },
+  {
+   "id": "vremya-vyvoda-na-rynok",
+   "label": "Время вывода на рынок",
+   "classCode": "Metric"
+  },
+  {
+   "id": "vyvod-iz-ekspluatacii",
+   "label": "Вывод из эксплуатации",
+   "classCode": "Phase"
+  },
+  {
+   "id": "vypusk-obnovleniy",
+   "label": "Выпуск обновлений",
+   "classCode": "Activity"
+  },
+  {
+   "id": "vyruchka-kompanii",
+   "label": "Выручка компании",
+   "classCode": "FinIndicator"
+  },
+  {
+   "id": "generaciya-idey",
+   "label": "Генерация идей",
+   "classCode": "Activity"
+  },
+  {
+   "id": "gipotezy-produkta",
+   "label": "Гипотезы продукта",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "glubinnye-intervyu",
+   "label": "Глубинные интервью",
+   "classCode": "Practice"
+  },
+  {
+   "id": "denezhnye-sredstva-kompanii",
+   "label": "Денежные средства компании",
+   "classCode": "Asset"
+  },
+  {
+   "id": "dizayner-ux",
+   "label": "Дизайнер UX",
+   "classCode": "Role"
+  },
+  {
+   "id": "dorabotat",
+   "label": "Доработать",
+   "classCode": "GateDecision"
+  },
+  {
+   "id": "dorozhnaya-karta-produkta",
+   "label": "Дорожная карта продукта",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "dostupnost-servisa-uptime",
+   "label": "Доступность сервиса (uptime)",
+   "classCode": "Metric"
+  },
+  {
+   "id": "zavisimost-ot-klyuchevyh-sotrudnikov",
+   "label": "Зависимость от ключевых сотрудников",
+   "classCode": "Risk"
+  },
+  {
+   "id": "zapusk",
+   "label": "Запуск",
+   "classCode": "Phase"
+  },
+  {
+   "id": "ideya-i-issledovanie",
+   "label": "Идея и исследование",
+   "classCode": "Phase"
+  },
+  {
+   "id": "indeks-nps",
+   "label": "Индекс NPS",
+   "classCode": "Metric"
+  },
+  {
+   "id": "inzhener-po-bezopasnosti",
+   "label": "Инженер по безопасности",
+   "classCode": "Role"
+  },
+  {
+   "id": "integraciya-i-sborka",
+   "label": "Интеграция и сборка",
+   "classCode": "Activity"
+  },
+  {
+   "id": "intervyu-s-polzovatelyami",
+   "label": "Интервью с пользователями",
+   "classCode": "Activity"
+  },
+  {
+   "id": "issledovanie-rynka",
+   "label": "Исследование рынка",
+   "classCode": "Activity"
+  },
+  {
+   "id": "kanareechnyy-reliz",
+   "label": "Канареечный релиз",
+   "classCode": "Practice"
+  },
+  {
+   "id": "kaskadnaya-model",
+   "label": "Каскадная модель",
+   "classCode": "Methodology"
+  },
+  {
+   "id": "kod-revyu",
+   "label": "Код-ревью",
+   "classCode": "Practice"
+  },
+  {
+   "id": "komitet-po-produktam",
+   "label": "Комитет по продуктам",
+   "classCode": "Role"
+  },
+  {
+   "id": "konkurentnyy-analiz",
+   "label": "Конкурентный анализ",
+   "classCode": "Activity"
+  },
+  {
+   "id": "class-kontrolnaya-tochka",
+   "label": "Контрольная точка",
+   "classCode": "Gate",
+   "isClass": true
+  },
+  {
+   "id": "koncepciya-produkta",
+   "label": "Концепция продукта",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "kopilka-infrastruktura-i-licenzii",
+   "label": "Копилка · Инфраструктура и лицензии",
+   "classCode": "BudgetItem"
+  },
+  {
+   "id": "kopilka-issledovaniya-i-obosnovanie",
+   "label": "Копилка · Исследования и обоснование",
+   "classCode": "BudgetItem"
+  },
+  {
+   "id": "kopilka-marketing-zapuska",
+   "label": "Копилка · Маркетинг запуска",
+   "classCode": "BudgetItem"
+  },
+  {
+   "id": "kopilka-proektirovanie",
+   "label": "Копилка · Проектирование",
+   "classCode": "BudgetItem"
+  },
+  {
+   "id": "kopilka-razrabotka-kapitaliziruemaya-chast",
+   "label": "Копилка · Разработка (капитализируемая часть)",
+   "classCode": "BudgetItem"
+  },
+  {
+   "id": "kopilka-testirovanie-i-priemka-kapitaliziruemaya-chast",
+   "label": "Копилка · Тестирование и приёмка (капитализируемая часть)",
+   "classCode": "BudgetItem"
+  },
+  {
+   "id": "kriticheskie-defekty-v-relize",
+   "label": "Критические дефекты в релизе",
+   "classCode": "Risk"
+  },
+  {
+   "id": "makety-interfeysa",
+   "label": "Макеты интерфейса",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "marketolog",
+   "label": "Маркетолог",
+   "classCode": "Role"
+  },
+  {
+   "id": "mesyachnaya-vyruchka-mrr",
+   "label": "Месячная выручка (MRR)",
+   "classCode": "Metric"
+  },
+  {
+   "id": "class-metodologiya",
+   "label": "Методология",
+   "classCode": "Methodology",
+   "isClass": true
+  },
+  {
+   "id": "class-metrika",
+   "label": "Метрика",
+   "classCode": "Metric",
+   "isClass": true
+  },
+  {
+   "id": "migraciya-polzovateley",
+   "label": "Миграция пользователей",
+   "classCode": "Activity"
+  },
+  {
+   "id": "mobilnoe-prilozhenie-kopilka",
+   "label": "Мобильное приложение «Копилка»",
+   "classCode": "Product"
+  },
+  {
+   "id": "monitoring-zapuska",
+   "label": "Мониторинг запуска",
+   "classCode": "Activity"
+  },
+  {
+   "id": "nagruzochnoe-testirovanie",
+   "label": "Нагрузочное тестирование",
+   "classCode": "Activity"
+  },
+  {
+   "id": "nalog-na-pribyl",
+   "label": "Налог на прибыль",
+   "classCode": "FinIndicator"
+  },
+  {
+   "id": "narushenie-regulyatornyh-trebovaniy",
+   "label": "Нарушение регуляторных требований",
+   "classCode": "Risk"
+  },
+  {
+   "id": "nematerialnyy-aktiv-kopilka-v-razrabotke",
+   "label": "Нематериальный актив «Копилка» (в разработке)",
+   "classCode": "Asset"
+  },
+  {
+   "id": "nematerialnyy-aktiv-chitaydom",
+   "label": "Нематериальный актив «ЧитайДом»",
+   "classCode": "Asset"
+  },
+  {
+   "id": "nepreryvnaya-integraciya-i-postavka",
+   "label": "Непрерывная интеграция и поставка",
+   "classCode": "Practice"
+  },
+  {
+   "id": "nerelevantnost-produkta-rynku",
+   "label": "Нерелевантность продукта рынку",
+   "classCode": "Risk"
+  },
+  {
+   "id": "obzor-rynka",
+   "label": "Обзор рынка",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "obnovlenie-produkta",
+   "label": "Обновление продукта",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "obosnovanie-koncepcii",
+   "label": "Обоснование концепции",
+   "classCode": "Phase"
+  },
+  {
+   "id": "obuchenie-sluzhby-podderzhki",
+   "label": "Обучение службы поддержки",
+   "classCode": "Activity"
+  },
+  {
+   "id": "okupaemost-investiciy-roi",
+   "label": "Окупаемость инвестиций (ROI)",
+   "classCode": "Metric"
+  },
+  {
+   "id": "operacionnaya-pribyl-ebit",
+   "label": "Операционная прибыль (EBIT)",
+   "classCode": "FinIndicator"
+  },
+  {
+   "id": "operacionnye-rashody-kompanii",
+   "label": "Операционные расходы компании",
+   "classCode": "FinIndicator"
+  },
+  {
+   "id": "opredelenie-trebovaniy",
+   "label": "Определение требований",
+   "classCode": "Activity"
+  },
+  {
+   "id": "osnovnye-sredstva-infrastruktura-kopilki",
+   "label": "Основные средства: инфраструктура «Копилки»",
+   "classCode": "Asset"
+  },
+  {
+   "id": "ostanovit",
+   "label": "Остановить",
+   "classCode": "GateDecision"
+  },
+  {
+   "id": "otklyuchenie-servisa",
+   "label": "Отключение сервиса",
+   "classCode": "Activity"
+  },
+  {
+   "id": "otlozhit",
+   "label": "Отложить",
+   "classCode": "GateDecision"
+  },
+  {
+   "id": "ottok-polzovateley",
+   "label": "Отток пользователей",
+   "classCode": "Metric"
+  },
+  {
+   "id": "otchet-o-zapuske",
+   "label": "Отчёт о запуске",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "otchet-o-konkurentah",
+   "label": "Отчёт о конкурентах",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "otchet-o-migracii",
+   "label": "Отчёт о миграции",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "otchet-o-nagruzochnom-testirovanii",
+   "label": "Отчёт о нагрузочном тестировании",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "otchet-o-proverke-gipotez",
+   "label": "Отчёт о проверке гипотез",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "otchet-o-testirovanii",
+   "label": "Отчёт о тестировании",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "otchet-o-testirovanii-bezopasnosti",
+   "label": "Отчёт о тестировании безопасности",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "otchet-ob-issledovanii-polzovateley",
+   "label": "Отчёт об исследовании пользователей",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "otchet-ob-obratnoy-svyazi",
+   "label": "Отчёт об обратной связи",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "otchet-po-metrikam-produkta",
+   "label": "Отчёт по метрикам продукта",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "ocenka-biznes-keysa",
+   "label": "Оценка бизнес-кейса",
+   "classCode": "Activity"
+  },
+  {
+   "id": "ocenka-po-kriteriyam-kontrolnoy-tochki",
+   "label": "Оценка по критериям контрольной точки",
+   "classCode": "Practice"
+  },
+  {
+   "id": "ocenka-riskov",
+   "label": "Оценка рисков",
+   "classCode": "Activity"
+  },
+  {
+   "id": "parnoe-programmirovanie",
+   "label": "Парное программирование",
+   "classCode": "Practice"
+  },
+  {
+   "id": "pererashod-byudzheta",
+   "label": "Перерасход бюджета",
+   "classCode": "Risk"
+  },
+  {
+   "id": "plan-vyvoda-iz-ekspluatacii",
+   "label": "План вывода из эксплуатации",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "plan-zapuska",
+   "label": "План запуска",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "plan-reliza",
+   "label": "План релиза",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "planirovanie-vyvoda-iz-ekspluatacii",
+   "label": "Планирование вывода из эксплуатации",
+   "classCode": "Activity"
+  },
+  {
+   "id": "planirovanie-reliza",
+   "label": "Планирование релиза",
+   "classCode": "Activity"
+  },
+  {
+   "id": "planirovanie-sprinta",
+   "label": "Планирование спринта",
+   "classCode": "Practice"
+  },
+  {
+   "id": "plotnost-defektov",
+   "label": "Плотность дефектов",
+   "classCode": "Metric"
+  },
+  {
+   "id": "podgotovka-zapuska",
+   "label": "Подготовка запуска",
+   "classCode": "Activity"
+  },
+  {
+   "id": "podrobnaya-specifikaciya-trebovaniy",
+   "label": "Подробная спецификация требований",
+   "classCode": "Practice"
+  },
+  {
+   "id": "pokrytie-testami",
+   "label": "Покрытие тестами",
+   "classCode": "Metric"
+  },
+  {
+   "id": "polzovatelskie-istorii",
+   "label": "Пользовательские истории",
+   "classCode": "Practice"
+  },
+  {
+   "id": "class-praktika",
+   "label": "Практика",
+   "classCode": "Practice",
+   "isClass": true
+  },
+  {
+   "id": "priemochnoe-testirovanie",
+   "label": "Приёмочное тестирование",
+   "classCode": "Activity"
+  },
+  {
+   "id": "proverka-gipotez",
+   "label": "Проверка гипотез",
+   "classCode": "Activity"
+  },
+  {
+   "id": "prodakt-menedzher",
+   "label": "Продакт-менеджер",
+   "classCode": "Role"
+  },
+  {
+   "id": "prodolzhit",
+   "label": "Продолжить",
+   "classCode": "GateDecision"
+  },
+  {
+   "id": "class-produkt",
+   "label": "Продукт",
+   "classCode": "Product",
+   "isClass": true
+  },
+  {
+   "id": "proektirovanie",
+   "label": "Проектирование",
+   "classCode": "Phase"
+  },
+  {
+   "id": "proektirovanie-arhitektury",
+   "label": "Проектирование архитектуры",
+   "classCode": "Activity"
+  },
+  {
+   "id": "prototip",
+   "label": "Прототип",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "prototipirovanie",
+   "label": "Прототипирование",
+   "classCode": "Practice"
+  },
+  {
+   "id": "class-rabota",
+   "label": "Работа",
+   "classCode": "Activity",
+   "isClass": true
+  },
+  {
+   "id": "rabochiy-inkrement-produkta",
+   "label": "Рабочий инкремент продукта",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "razvertyvanie-v-prodakshn",
+   "label": "Развёртывание в продакшн",
+   "classCode": "Activity"
+  },
+  {
+   "id": "razduvanie-obema-scope-creep",
+   "label": "Раздувание объёма (scope creep)",
+   "classCode": "Risk"
+  },
+  {
+   "id": "razmer-rynka-tam",
+   "label": "Размер рынка (TAM)",
+   "classCode": "Metric"
+  },
+  {
+   "id": "razrabotka",
+   "label": "Разработка",
+   "classCode": "Phase"
+  },
+  {
+   "id": "razrabotka-funkcionalnosti",
+   "label": "Разработка функциональности",
+   "classCode": "Activity"
+  },
+  {
+   "id": "razrabotchik",
+   "label": "Разработчик",
+   "classCode": "Role"
+  },
+  {
+   "id": "reestr-riskov",
+   "label": "Реестр рисков",
+   "classCode": "Practice"
+  },
+  {
+   "id": "reestr-riskov-produkta",
+   "label": "Реестр рисков продукта",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "reliznaya-versiya-produkta",
+   "label": "Релизная версия продукта",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "retrospektiva",
+   "label": "Ретроспектива",
+   "classCode": "Practice"
+  },
+  {
+   "id": "class-reshenie-kontrolnoy-tochki",
+   "label": "Решение контрольной точки",
+   "classCode": "GateDecision",
+   "isClass": true
+  },
+  {
+   "id": "class-risk",
+   "label": "Риск",
+   "classCode": "Risk",
+   "isClass": true
+  },
+  {
+   "id": "class-rol",
+   "label": "Роль",
+   "classCode": "Role",
+   "isClass": true
+  },
+  {
+   "id": "rost-i-soprovozhdenie",
+   "label": "Рост и сопровождение",
+   "classCode": "Phase"
+  },
+  {
+   "id": "rost-ottoka-polzovateley",
+   "label": "Рост оттока пользователей",
+   "classCode": "Risk"
+  },
+  {
+   "id": "rukovoditel-proekta",
+   "label": "Руководитель проекта",
+   "classCode": "Role"
+  },
+  {
+   "id": "rukovodstvo-dlya-sluzhby-podderzhki",
+   "label": "Руководство для службы поддержки",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "sbor-obratnoy-svyazi",
+   "label": "Сбор обратной связи",
+   "classCode": "Activity"
+  },
+  {
+   "id": "servis-podpiski-chitaydom",
+   "label": "Сервис подписки «ЧитайДом»",
+   "classCode": "Product"
+  },
+  {
+   "id": "sistemnyy-arhitektor",
+   "label": "Системный архитектор",
+   "classCode": "Role"
+  },
+  {
+   "id": "skorost-komandy",
+   "label": "Скорость команды",
+   "classCode": "Metric"
+  },
+  {
+   "id": "slabyy-zapusk",
+   "label": "Слабый запуск",
+   "classCode": "Risk"
+  },
+  {
+   "id": "sluzhba-podderzhki",
+   "label": "Служба поддержки",
+   "classCode": "Role"
+  },
+  {
+   "id": "sovokupnaya-stoimost-aktivov",
+   "label": "Совокупная стоимость активов",
+   "classCode": "FinIndicator"
+  },
+  {
+   "id": "sozdanie-prototipa",
+   "label": "Создание прототипа",
+   "classCode": "Activity"
+  },
+  {
+   "id": "sponsor-produkta",
+   "label": "Спонсор продукта",
+   "classCode": "Role"
+  },
+  {
+   "id": "sryv-srokov",
+   "label": "Срыв сроков",
+   "classCode": "Risk"
+  },
+  {
+   "id": "class-statya-byudzheta",
+   "label": "Статья бюджета",
+   "classCode": "BudgetItem",
+   "isClass": true
+  },
+  {
+   "id": "stoimost-privlecheniya-klienta-cac",
+   "label": "Стоимость привлечения клиента (CAC)",
+   "classCode": "Metric"
+  },
+  {
+   "id": "testirovanie-bezopasnosti",
+   "label": "Тестирование безопасности",
+   "classCode": "Activity"
+  },
+  {
+   "id": "testirovanie-i-priemka",
+   "label": "Тестирование и приёмка",
+   "classCode": "Phase"
+  },
+  {
+   "id": "testirovschik",
+   "label": "Тестировщик",
+   "classCode": "Role"
+  },
+  {
+   "id": "tehnicheskaya-podderzhka",
+   "label": "Техническая поддержка",
+   "classCode": "Activity"
+  },
+  {
+   "id": "tehnicheskiy-dolg",
+   "label": "Технический долг",
+   "classCode": "Risk"
+  },
+  {
+   "id": "trebovaniya-k-produktu",
+   "label": "Требования к продукту",
+   "classCode": "Deliverable"
+  },
+  {
+   "id": "ubytok-ot-obesceneniya-aktivov",
+   "label": "Убыток от обесценения активов",
+   "classCode": "FinIndicator"
+  },
+  {
+   "id": "uderzhanie-polzovateley",
+   "label": "Удержание пользователей",
+   "classCode": "Metric"
+  },
+  {
+   "id": "ustarevanie-produkta",
+   "label": "Устаревание продукта",
+   "classCode": "Risk"
+  },
+  {
+   "id": "uyazvimosti-bezopasnosti",
+   "label": "Уязвимости безопасности",
+   "classCode": "Risk"
+  },
+  {
+   "id": "class-faza-pdlc",
+   "label": "Фаза PDLC",
+   "classCode": "Phase",
+   "isClass": true
+  },
+  {
+   "id": "class-finansovyy-pokazatel-kompanii",
+   "label": "Финансовый показатель компании",
+   "classCode": "FinIndicator",
+   "isClass": true
+  },
+  {
+   "id": "formulirovanie-gipotez",
+   "label": "Формулирование гипотез",
+   "classCode": "Activity"
+  },
+  {
+   "id": "funkcionalnoe-testirovanie",
+   "label": "Функциональное тестирование",
+   "classCode": "Activity"
+  },
+  {
+   "id": "chistaya-pribyl",
+   "label": "Чистая прибыль",
+   "classCode": "FinIndicator"
+  },
+  {
+   "id": "chitaydom-marketing-i-privlechenie-polzovateley",
+   "label": "ЧитайДом · Маркетинг и привлечение пользователей",
+   "classCode": "BudgetItem"
+  },
+  {
+   "id": "chitaydom-razvitie-funkcionalnosti-kapitaliziruemaya-chast",
+   "label": "ЧитайДом · Развитие функциональности (капитализируемая часть)",
+   "classCode": "BudgetItem"
+  },
+  {
+   "id": "chitaydom-soprovozhdenie-i-podderzhka",
+   "label": "ЧитайДом · Сопровождение и поддержка",
+   "classCode": "BudgetItem"
+  },
+  {
+   "id": "yuzabiliti-testirovanie",
+   "label": "Юзабилити-тестирование",
+   "classCode": "Practice"
+  },
+  {
+   "id": "a-b-testirovanie",
+   "label": "A/B-тестирование",
+   "classCode": "Practice"
+  },
+  {
+   "id": "agile",
+   "label": "Agile",
+   "classCode": "Methodology"
+  },
+  {
+   "id": "customer-development",
+   "label": "Customer Development",
+   "classCode": "Practice"
+  },
+  {
+   "id": "design-thinking",
+   "label": "Design Thinking",
+   "classCode": "Methodology"
+  },
+  {
+   "id": "devops-inzhener",
+   "label": "DevOps-инженер",
+   "classCode": "Role"
+  },
+  {
+   "id": "gate-1-otbor-idei",
+   "label": "Gate 1: Отбор идеи",
+   "classCode": "Gate"
+  },
+  {
+   "id": "gate-2-utverzhdenie-biznes-keysa",
+   "label": "Gate 2: Утверждение бизнес-кейса",
+   "classCode": "Gate"
+  },
+  {
+   "id": "gate-3-gotovnost-k-razrabotke",
+   "label": "Gate 3: Готовность к разработке",
+   "classCode": "Gate"
+  },
+  {
+   "id": "gate-4-gotovnost-k-testirovaniyu",
+   "label": "Gate 4: Готовность к тестированию",
+   "classCode": "Gate"
+  },
+  {
+   "id": "gate-5-reshenie-o-zapuske",
+   "label": "Gate 5: Решение о запуске",
+   "classCode": "Gate"
+  },
+  {
+   "id": "gate-6-poslezapuskovyy-obzor",
+   "label": "Gate 6: Послезапусковый обзор",
+   "classCode": "Gate"
+  },
+  {
+   "id": "gate-7-reshenie-o-sudbe-produkta",
+   "label": "Gate 7: Решение о судьбе продукта",
+   "classCode": "Gate"
+  },
+  {
+   "id": "lean-startup",
+   "label": "Lean Startup",
+   "classCode": "Methodology"
+  },
+  {
+   "id": "mvp",
+   "label": "MVP",
+   "classCode": "Practice"
+  },
+  {
+   "id": "scrum",
+   "label": "Scrum",
+   "classCode": "Methodology"
+  },
+  {
+   "id": "stage-gate",
+   "label": "Stage-Gate",
+   "classCode": "Methodology"
+  },
+  {
+   "id": "ux-proektirovanie",
+   "label": "UX-проектирование",
+   "classCode": "Activity"
+  }
+ ]
+}

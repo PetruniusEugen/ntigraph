@@ -1,0 +1,625 @@
+{
+ "classes": [
+  {
+   "code": "PhysicalObject",
+   "name": "Физический объект",
+   "comment": "BFO 2020: material-entity — независимый континуант (independent continuant), имеющий некоторое количество материи в качестве своей континуантной части. Источник: BFO 2020, ISO 23247-1: физический субъект-двойника (physical twin).",
+   "attributes": [
+    {
+     "code": "id",
+     "name": "идентификатор",
+     "type": "string",
+     "comment": ""
+    },
+    {
+     "code": "location",
+     "name": "местоположение",
+     "type": "string",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PHY",
+     "name": "Физический мир"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DigitalRepresentation",
+   "name": "Цифровое представление",
+   "comment": "BFO 2020: generically-dependent-continuant (родово-зависимый континуант) — континуант, который зависит от одного или более независимых континуантов и может быть многократно инстанцирован. Цифровая модель (CAD, граф знаний) может существовать на разных носителях. Источник: BFO 2020.",
+   "attributes": [
+    {
+     "code": "format",
+     "name": "формат",
+     "type": "string",
+     "comment": ""
+    },
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DIG",
+     "name": "Цифровое пространство"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DigitalTwin",
+   "name": "Цифровой двойник",
+   "comment": "ISO 23247-1: интегрированная система, состоящая из физического объекта (physical entity), его цифрового представления (digital counterpart) и каналов связи между ними. ISO/IEC 30173: цифровое представление целевого объекта с соединениями данных, обеспечивающими сходимость физического и цифрового состояний с соответствующей скоростью синхронизации. ГОСТ Р 57700.25-2020: цифровой аналог физического объекта с двунаправленным обменом данными в реальном времени.",
+   "attributes": [
+    {
+     "code": "fidelity",
+     "name": "точность",
+     "type": "string",
+     "comment": ""
+    },
+    {
+     "code": "syncMode",
+     "name": "синхронизация",
+     "type": "string",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "TWIN",
+     "name": "Цифровой двойник"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "PhysicalComponent",
+   "name": "Компонент",
+   "comment": "BFO 2020: object-aggregate (агрегат объектов) — объект, состоящий из двух или более объектов в качестве частей, но сам не являющийся их суммой. Декомпозиция физического объекта. Источник: BFO 2020.",
+   "attributes": [
+    {
+     "code": "partNumber",
+     "name": "номер детали",
+     "type": "string",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PHY",
+     "name": "Физический мир"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Sensor",
+   "name": "Датчик",
+   "comment": "BFO 2020: instrument. Устройство, наблюдающее параметры физического объекта. В контексте ISO 23247 — компонент канала связи (data connection) между физическим и цифровым объектами.",
+   "attributes": [
+    {
+     "code": "type",
+     "name": "тип",
+     "type": "string",
+     "comment": ""
+    },
+    {
+     "code": "unit",
+     "name": "ед.изм.",
+     "type": "string",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "IOT",
+     "name": "Сенсоры и данные"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Actuator",
+   "name": "Актюатор",
+   "comment": "Устройство, воздействующее на физический объект. Замыкает канал управления в контуре цифрового двойника (ISO 23247: actuation interface).",
+   "attributes": [
+    {
+     "code": "actionType",
+     "name": "тип",
+     "type": "string",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "IOT",
+     "name": "Сенсоры и данные"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataStream",
+   "name": "Поток данных",
+   "comment": "BFO 2020: process (процесс) — оккурент (occurrent), имеющий временные части и разворачивающийся во времени. Поток измерений от датчика = process с временной протяжённостью. Источник: BFO 2020.",
+   "attributes": [
+    {
+     "code": "frequency",
+     "name": "частота",
+     "type": "string",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "IOT",
+     "name": "Сенсоры и данные"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SimulationModel",
+   "name": "Модель симуляции",
+   "comment": "ISO/IEC 30173: математическая или вычислительная модель, имитирующая поведение физического объекта. Позволяет проецировать: F(p → поведение).",
+   "attributes": [
+    {
+     "code": "modelType",
+     "name": "тип",
+     "type": "string",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SIM",
+     "name": "Модели и симуляция"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SimulationRun",
+   "name": "Прогон симуляции",
+   "comment": "BFO 2020: process (процесс) — однократный запуск модели, имеющий временные границы (start, end).",
+   "attributes": [
+    {
+     "code": "start",
+     "name": "начало",
+     "type": "datetime",
+     "comment": ""
+    },
+    {
+     "code": "end",
+     "name": "конец",
+     "type": "datetime",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SIM",
+     "name": "Модели и симуляция"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "PhysicalState",
+   "name": "Физическое состояние",
+   "comment": "BFO 2020: specifically-dependent-continuant (собственно-зависимый континуант) — континуант, который зависит от конкретного экземпляра независимого континуанта. Текущие параметры (температура, давление) — trope (троп) этого объекта. Источник: BFO 2020.",
+   "attributes": [
+    {
+     "code": "ts",
+     "name": "время",
+     "type": "datetime",
+     "comment": ""
+    },
+    {
+     "code": "params",
+     "name": "параметры",
+     "type": "object",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PHY",
+     "name": "Физический мир"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DigitalState",
+   "name": "Цифровое состояние",
+   "comment": "ISO 23247-1: синхронизированное состояние цифрового двойника. Модальность: ◇(G(состояние ≡ реальность)). Drift (расхождение) — метрика качества синхронизации по ISO 23247.",
+   "attributes": [
+    {
+     "code": "drift",
+     "name": "расхождение",
+     "type": "float",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DIG",
+     "name": "Цифровое пространство"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Scenario",
+   "name": "Сценарий",
+   "comment": "ISO/IEC 30173: набор условий и последовательность событий для симуляции «что-если». Временная модальность: G(условие → F(действие)).",
+   "attributes": [
+    {
+     "code": "goal",
+     "name": "цель",
+     "type": "string",
+     "comment": ""
+    },
+    {
+     "code": "window",
+     "name": "окно",
+     "type": "string",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SIM",
+     "name": "Модели и симуляция"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Requirement",
+   "name": "Требование",
+   "comment": "ISO 23247-2 (Observability requirements): требования к наблюдаемости, синхронизации и точности цифрового двойника. ГОСТ Р 57700.25-2020, п.4: требования к составу, функциям и валидации. Деонтика: O(G(двойник → требование)).",
+   "attributes": [
+    {
+     "code": "source",
+     "name": "источник",
+     "type": "string",
+     "comment": ""
+    },
+    {
+     "code": "priority",
+     "name": "приоритет",
+     "type": "string",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "REG",
+     "name": "Требования и нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Capability",
+   "name": "Способность",
+   "comment": "ISO 23247-4 (Maintenance capability): способность двойника выполнять функции мониторинга, диагностики, прогноза, оптимизации и управления. Модальность: ◇(двойник → функция).",
+   "attributes": [
+    {
+     "code": "function",
+     "name": "функция",
+     "type": "string",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "TWIN",
+     "name": "Цифровой двойник"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Constraint",
+   "name": "Ограничение",
+   "comment": "ISO 23247-3 (Operational constraints): граничные условия работы двойника — физические (температура, давление) и логические (доступ, бюджет).",
+   "attributes": [
+    {
+     "code": "bound",
+     "name": "тип",
+     "type": "string",
+     "comment": ""
+    },
+    {
+     "code": "value",
+     "name": "значение",
+     "type": "string",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "REG",
+     "name": "Требования и нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Event",
+   "name": "Событие",
+   "comment": "BFO 2020: process-boundary (граница процесса) — временная граница между процессами. P(событие) — событие было. В контексте ISO 23247: событие-триггер для смены режима или запуска симуляции.",
+   "attributes": [
+    {
+     "code": "severity",
+     "name": "серьёзность",
+     "type": "string",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "TWIN",
+     "name": "Цифровой двойник"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Stakeholder",
+   "name": "Заинтересованное лицо",
+   "comment": "ISO 23247-2 (Roles and responsibilities): оператор, инженер, менеджер, аналитик в жизненном цикле цифрового двойника.",
+   "attributes": [
+    {
+     "code": "role",
+     "name": "роль",
+     "type": "string",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ORG",
+     "name": "Организационные роли"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataConnection",
+   "name": "Канал связи",
+   "comment": "ISO 23247-1: data connection — интерфейс передачи данных между физическим и цифровым объектами. Определяет протокол, частоту, задержки и надёжность.",
+   "attributes": [
+    {
+     "code": "protocol",
+     "name": "протокол",
+     "type": "string",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "IOT",
+     "name": "Сенсоры и данные"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ValidationResult",
+   "name": "Результат валидации",
+   "comment": "ГОСТ Р 57700.25-2020, п.5.3: проверка соответствия цифрового двойника требованиям. G(двойник → требование)?",
+   "attributes": [
+    {
+     "code": "passed",
+     "name": "пройдено",
+     "type": "boolean",
+     "comment": ""
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "REG",
+     "name": "Требования и нормы"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "represents",
+   "name": "представляет",
+   "comment": "Цифровое представление описывает физический объект (ISO 23247-1: digital counterpart represents physical entity)",
+   "fromClass": "DigitalRepresentation",
+   "toClass": "PhysicalObject"
+  },
+  {
+   "code": "realizes",
+   "name": "реализует",
+   "comment": "Цифровой двойник реализует цифровое представление в интегрированной системе (ISO 23247-1)",
+   "fromClass": "DigitalTwin",
+   "toClass": "DigitalRepresentation"
+  },
+  {
+   "code": "twins",
+   "name": "является двойником",
+   "comment": "Основное отношение Digital Twin: соотнесение цифровой и физической сущности (ISO 23247-1)",
+   "fromClass": "DigitalTwin",
+   "toClass": "PhysicalObject"
+  },
+  {
+   "code": "observes",
+   "name": "наблюдает",
+   "comment": "Датчик измеряет параметр объекта (data connection: physical→digital)",
+   "fromClass": "Sensor",
+   "toClass": "PhysicalObject"
+  },
+  {
+   "code": "actuates",
+   "name": "воздействует",
+   "comment": "Актюатор изменяет состояние объекта (data connection: digital→physical)",
+   "fromClass": "Actuator",
+   "toClass": "PhysicalObject"
+  },
+  {
+   "code": "generatesStream",
+   "name": "генерирует поток",
+   "comment": "Датчик создаёт поток измерений (BFO:process)",
+   "fromClass": "Sensor",
+   "toClass": "DataStream"
+  },
+  {
+   "code": "simulates",
+   "name": "симулирует",
+   "comment": "Модель имитирует поведение физического объекта",
+   "fromClass": "SimulationModel",
+   "toClass": "PhysicalObject"
+  },
+  {
+   "code": "hasState",
+   "name": "имеет состояние",
+   "comment": "Объект обладает физическим состоянием (BFO:specifically-dependent-continuant)",
+   "fromClass": "PhysicalObject",
+   "toClass": "PhysicalState"
+  },
+  {
+   "code": "hasDigitalState",
+   "name": "имеет цифр.состояние",
+   "comment": "Двойник поддерживает синхронизированное состояние",
+   "fromClass": "DigitalTwin",
+   "toClass": "DigitalState"
+  },
+  {
+   "code": "governedBy",
+   "name": "подчиняется",
+   "comment": "Двойник подчиняется требованию стандарта (деонтика: O)",
+   "fromClass": "DigitalTwin",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "hasCapability",
+   "name": "обладает способностью",
+   "comment": "Двойник выполняет функцию (модальность: ◇)",
+   "fromClass": "DigitalTwin",
+   "toClass": "Capability"
+  },
+  {
+   "code": "constrainedBy",
+   "name": "ограничен",
+   "comment": "Двойник работает в рамках ограничения",
+   "fromClass": "DigitalTwin",
+   "toClass": "Constraint"
+  },
+  {
+   "code": "scenarioUsesModel",
+   "name": "использует модель",
+   "comment": "Сценарий задействует модель",
+   "fromClass": "Scenario",
+   "toClass": "SimulationModel"
+  },
+  {
+   "code": "hasSensor",
+   "name": "имеет датчик",
+   "comment": "Объект оснащён датчиком",
+   "fromClass": "PhysicalObject",
+   "toClass": "Sensor"
+  },
+  {
+   "code": "validates",
+   "name": "проверяет",
+   "comment": "Результат валидации проверяет требование",
+   "fromClass": "ValidationResult",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "occursInScenario",
+   "name": "в сценарии",
+   "comment": "Событие происходит в рамках сценария",
+   "fromClass": "Event",
+   "toClass": "Scenario"
+  },
+  {
+   "code": "scenarioProducesRun",
+   "name": "порождает прогон",
+   "comment": "Сценарий запускает прогон симуляции",
+   "fromClass": "Scenario",
+   "toClass": "SimulationRun"
+  },
+  {
+   "code": "updatesState",
+   "name": "обновляет состояние",
+   "comment": "Поток данных обновляет цифровое состояние (ISO 23247: synchronisation)",
+   "fromClass": "DataStream",
+   "toClass": "DigitalState"
+  }
+ ],
+ "info": {
+  "description": "Онтология на фундаменте BFO 2020, ISO 23247-1/2/3/4, ISO/IEC 30173, ГОСТ Р 57700.25-2020 и модальной логики. Связывает физический объект (BFO:material-entity), его цифровое представление (BFO:generically-dependent-continuant), цифровой двойник (ISO 23247), сенсоры, потоки данных (BFO:process), модели симуляции, сценарии с временными окнами F(≤t), требования стандартов (O(G(дв→треб))) и способности (◇(дв→функция)).",
+  "scope": [
+   "BFO 2020: material-entity — физический объект, независимый континуант",
+   "BFO 2020: generically-dependent-continuant — цифровое представление",
+   "BFO 2020: specifically-dependent-continuant — физическое состояние троп",
+   "BFO 2020: process — потоки данных, прогоны симуляции",
+   "BFO 2020: process-boundary — события-триггеры",
+   "ISO 23247: интегрированная система Digital Twin",
+   "ISO/IEC 30173: сценарии «что-если»",
+   "ГОСТ Р 57700.25-2020: валидация и требования"
+  ],
+  "competencyQuestions": [
+   "Какие датчики наблюдают за физическим объектом?",
+   "Какие модели симулируют его поведение?",
+   "Каково расхождение (drift) между цифровым и физическим состояниями?",
+   "Соответствует ли двойник требованиям ISO 23247?",
+   "В каком временном окне F(≤t) выполняется симуляция?",
+   "Какие события-триггеры произошли в сценариях?",
+   "Достаточно ли текущих мер для соответствия ГОСТ Р 57700.25?"
+  ]
+ },
+ "theme": [
+  {
+   "code": "PHY",
+   "name": "Физический мир",
+   "color": "#60a5fa"
+  },
+  {
+   "code": "DIG",
+   "name": "Цифровое пространство",
+   "color": "#34d399"
+  },
+  {
+   "code": "TWIN",
+   "name": "Цифровой двойник",
+   "color": "#fbbf24"
+  },
+  {
+   "code": "IOT",
+   "name": "Сенсоры и данные",
+   "color": "#f472b6"
+  },
+  {
+   "code": "SIM",
+   "name": "Модели и симуляция",
+   "color": "#a78bfa"
+  },
+  {
+   "code": "REG",
+   "name": "Требования и нормы",
+   "color": "#f87171"
+  },
+  {
+   "code": "ORG",
+   "name": "Организационные роли",
+   "color": "#fb923c"
+  }
+ ]
+}

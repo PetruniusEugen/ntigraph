@@ -1,0 +1,5604 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "kontrakt-26-niokr-17",
+   "predicate": "имеет тип",
+   "object": "class-kontrakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "kontrakt-26-niokr-17",
+   "predicate": "имеет сторону",
+   "object": "rol-zakazchik",
+   "sourceId": "src-contract",
+   "sourceName": "Контракт № 26/НИОКР-17 и приложения (ТЗ, смета)",
+   "sourceType": "internal",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t003",
+   "subject": "rol-zakazchik",
+   "predicate": "имеет тип",
+   "object": "class-rol-storony",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "rol-zakazchik",
+   "predicate": "роль принадлежит стороне",
+   "object": "goskorporaciya-rosatom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "goskorporaciya-rosatom",
+   "predicate": "имеет тип",
+   "object": "class-organizaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "kontrakt-26-niokr-17",
+   "predicate": "имеет сторону",
+   "object": "rol-golovnoy-ispolnitel",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "rol-golovnoy-ispolnitel",
+   "predicate": "имеет тип",
+   "object": "class-rol-storony",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t008",
+   "subject": "rol-golovnoy-ispolnitel",
+   "predicate": "роль принадлежит стороне",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "kontrakt-26-niokr-17",
+   "predicate": "имеет приложение",
+   "object": "tz-na-niokr",
+   "sourceId": "src-contract",
+   "sourceName": "Контракт № 26/НИОКР-17 и приложения (ТЗ, смета)",
+   "sourceType": "internal",
+   "updatedAt": "2026-02-10"
+  },
+  {
+   "id": "t010",
+   "subject": "tz-na-niokr",
+   "predicate": "имеет тип",
+   "object": "class-prilozhenie-k-kontraktu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t011",
+   "subject": "kontrakt-26-niokr-17",
+   "predicate": "имеет приложение",
+   "object": "prilozhenie-kalendarnyy-plan",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t012",
+   "subject": "prilozhenie-kalendarnyy-plan",
+   "predicate": "имеет тип",
+   "object": "class-prilozhenie-k-kontraktu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t013",
+   "subject": "kontrakt-26-niokr-17",
+   "predicate": "имеет приложение",
+   "object": "smeta-kontrakta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t014",
+   "subject": "smeta-kontrakta",
+   "predicate": "имеет тип",
+   "object": "class-prilozhenie-k-kontraktu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "kontrakt-26-niokr-17",
+   "predicate": "имеет срок действия",
+   "object": "srok-2026-2028",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "srok-2026-2028",
+   "predicate": "имеет тип",
+   "object": "class-srok-deystviya-kontrakta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "kontrakt-26-niokr-17",
+   "predicate": "регулирует проект",
+   "object": "okr-datchik-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t018",
+   "subject": "kontrakt-26-niokr-17",
+   "predicate": "имеет статью затрат",
+   "object": "pryamye-zatraty",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t019",
+   "subject": "pryamye-zatraty",
+   "predicate": "имеет тип",
+   "object": "class-statya-zatrat",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t020",
+   "subject": "kontrakt-26-niokr-17",
+   "predicate": "имеет статью затрат",
+   "object": "nakladnye-rashody",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "nakladnye-rashody",
+   "predicate": "имеет тип",
+   "object": "class-statya-zatrat",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t022",
+   "subject": "kontrakt-26-niokr-17",
+   "predicate": "имеет статью затрат",
+   "object": "pribyl-ispolnitelya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t023",
+   "subject": "pribyl-ispolnitelya",
+   "predicate": "имеет тип",
+   "object": "class-statya-zatrat",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t024",
+   "subject": "pryamye-zatraty",
+   "predicate": "затраты по этапу",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t025",
+   "subject": "kontrakt-26-niokr-17",
+   "predicate": "регулируется группой требований",
+   "object": "trebovaniya-tipovogo-kontrakta-minobrnauki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t026",
+   "subject": "trebovaniya-tipovogo-kontrakta-minobrnauki",
+   "predicate": "имеет тип",
+   "object": "class-gruppa-kontraktnyh-trebovaniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t027",
+   "subject": "kontrakt-26-niokr-17",
+   "predicate": "регулируется группой требований",
+   "object": "trebovaniya-44-fz",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t028",
+   "subject": "trebovaniya-44-fz",
+   "predicate": "имеет тип",
+   "object": "class-gruppa-kontraktnyh-trebovaniy",
+   "sourceId": "src-law",
+   "sourceName": "44-ФЗ, 223-ФЗ и Бюджетный кодекс РФ",
+   "sourceType": "external",
+   "updatedAt": "2026-01-15"
+  },
+  {
+   "id": "t029",
+   "subject": "trebovaniya-byudzhetnogo-kodeksa-rf",
+   "predicate": "имеет тип",
+   "object": "class-gruppa-kontraktnyh-trebovaniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t030",
+   "subject": "trebovanie-egisu-nioktr",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-zakonodatelstva",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t031",
+   "subject": "trebovanie-egisu-nioktr",
+   "predicate": "требование распространяется на контракт",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "src-egisu",
+   "sourceName": "Выписка ЕГИСУ НИОКТР (домен «Наука»)",
+   "sourceType": "registry",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t032",
+   "subject": "trebovanie-o-privlechenii-soispolniteley",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-zakonodatelstva",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t033",
+   "subject": "trebovanie-o-privlechenii-soispolniteley",
+   "predicate": "требование распространяется на контракт",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t034",
+   "subject": "dopolnitelnoe-soglashenie-1",
+   "predicate": "имеет тип",
+   "object": "class-dopolnitelnoe-soglashenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t035",
+   "subject": "dopolnitelnoe-soglashenie-1",
+   "predicate": "изменяет контракт",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t036",
+   "subject": "subkontrakt-26-s-04",
+   "predicate": "имеет тип",
+   "object": "class-subkontrakt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t037",
+   "subject": "subkontrakt-26-s-04",
+   "predicate": "является субконтрактом",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t038",
+   "subject": "obyazatelstvo-vypolnit-etap-2",
+   "predicate": "имеет тип",
+   "object": "class-obyazatelstvo-po-kontraktu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t039",
+   "subject": "kontrakt-26-niokr-17",
+   "predicate": "устанавливает обязательство",
+   "object": "obyazatelstvo-vypolnit-etap-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t040",
+   "subject": "obyazatelstvo-vypolnit-etap-2",
+   "predicate": "сторона обязательства",
+   "object": "rol-golovnoy-ispolnitel",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t041",
+   "subject": "ispolnenie-obyazatelstva-etap-2",
+   "predicate": "имеет тип",
+   "object": "class-ispolnenie-obyazatelstva",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t042",
+   "subject": "ispolnenie-obyazatelstva-etap-2",
+   "predicate": "реализует обязательство",
+   "object": "obyazatelstvo-vypolnit-etap-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t043",
+   "subject": "narushenie-sroka-etapa-2",
+   "predicate": "имеет тип",
+   "object": "class-narushenie-usloviy-kontrakta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t044",
+   "subject": "narushenie-sroka-etapa-2",
+   "predicate": "нарушение по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t045",
+   "subject": "pretenziya-po-sroku-etapa-2",
+   "predicate": "имеет тип",
+   "object": "class-pretenzionno-iskovaya-rabota",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t046",
+   "subject": "pretenziya-po-sroku-etapa-2",
+   "predicate": "претензия по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t047",
+   "subject": "pretenziya-po-sroku-etapa-2",
+   "predicate": "основание претензии",
+   "object": "narushenie-sroka-etapa-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t048",
+   "subject": "kompleksnyy-proekt-datchiki-2026",
+   "predicate": "имеет тип",
+   "object": "class-kompleksnyy-proekt-niokr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t049",
+   "subject": "kompleksnyy-proekt-datchiki-2026",
+   "predicate": "включает подпроект",
+   "object": "nir-materialy-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t050",
+   "subject": "nir-materialy-2026",
+   "predicate": "имеет тип",
+   "object": "class-proekt-nir-niokr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t051",
+   "subject": "kompleksnyy-proekt-datchiki-2026",
+   "predicate": "включает подпроект",
+   "object": "okr-datchik-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t052",
+   "subject": "okr-datchik-2026",
+   "predicate": "имеет тип",
+   "object": "class-proekt-nir-niokr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t053",
+   "subject": "nir-materialy-2026",
+   "predicate": "имеет этап",
+   "object": "etap-1-nir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t054",
+   "subject": "etap-1-nir",
+   "predicate": "имеет тип",
+   "object": "class-etap-proekta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t055",
+   "subject": "okr-datchik-2026",
+   "predicate": "имеет этап",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t056",
+   "subject": "etap-2-okr",
+   "predicate": "имеет тип",
+   "object": "class-etap-proekta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t057",
+   "subject": "okr-datchik-2026",
+   "predicate": "имеет этап",
+   "object": "etap-3-ispytaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t058",
+   "subject": "etap-3-ispytaniya",
+   "predicate": "имеет тип",
+   "object": "class-etap-proekta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t059",
+   "subject": "etap-1-nir",
+   "predicate": "предшествует",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t060",
+   "subject": "etap-2-okr",
+   "predicate": "предшествует",
+   "object": "etap-3-ispytaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t061",
+   "subject": "okr-datchik-2026",
+   "predicate": "находится в фазе",
+   "object": "faza-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t062",
+   "subject": "faza-okr",
+   "predicate": "имеет тип",
+   "object": "class-faza-zhiznennogo-cikla",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t063",
+   "subject": "okr-datchik-2026",
+   "predicate": "имеет веху",
+   "object": "veha-maket-izgotovlen",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t064",
+   "subject": "veha-maket-izgotovlen",
+   "predicate": "имеет тип",
+   "object": "class-veha",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t065",
+   "subject": "veha-maket-izgotovlen",
+   "predicate": "веха этапа",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t066",
+   "subject": "okr-datchik-2026",
+   "predicate": "следует плану",
+   "object": "plan-vypolneniya-v2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t067",
+   "subject": "plan-vypolneniya-v2",
+   "predicate": "имеет тип",
+   "object": "class-plan-vypolneniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t068",
+   "subject": "plan-vypolneniya-v2",
+   "predicate": "план предписывает пакет работ",
+   "object": "paket-rabot-izgotovlenie-maketa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t069",
+   "subject": "paket-rabot-izgotovlenie-maketa",
+   "predicate": "имеет тип",
+   "object": "class-paket-rabot",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t070",
+   "subject": "etap-2-okr",
+   "predicate": "имеет пакет работ",
+   "object": "paket-rabot-izgotovlenie-maketa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t071",
+   "subject": "paket-rabot-izgotovlenie-maketa",
+   "predicate": "имеет задачу",
+   "object": "zadacha-raschet-korpusa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t072",
+   "subject": "zadacha-raschet-korpusa",
+   "predicate": "имеет тип",
+   "object": "class-zadacha",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t073",
+   "subject": "zadacha-raschet-korpusa",
+   "predicate": "ответственная роль",
+   "object": "rol-glavnyy-konstruktor",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t074",
+   "subject": "okr-datchik-2026",
+   "predicate": "имеет календарный план",
+   "object": "kalendarnyy-plan-2026",
+   "sourceId": "src-plan",
+   "sourceName": "Календарный план и ведомость исполнения по ОКР «Датчик-2026»",
+   "sourceType": "internal",
+   "updatedAt": "2026-03-01"
+  },
+  {
+   "id": "t075",
+   "subject": "kalendarnyy-plan-2026",
+   "predicate": "имеет тип",
+   "object": "class-kalendarnyy-plan",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t076",
+   "subject": "kalendarnyy-plan-2026",
+   "predicate": "план охватывает этап",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t077",
+   "subject": "kalendarnyy-plan-2026",
+   "predicate": "план охватывает этап",
+   "object": "etap-3-ispytaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t078",
+   "subject": "okr-datchik-2026",
+   "predicate": "финансируется из",
+   "object": "finansirovanie-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t079",
+   "subject": "finansirovanie-2026",
+   "predicate": "имеет тип",
+   "object": "class-finansirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t080",
+   "subject": "oplata-etapa-1",
+   "predicate": "имеет тип",
+   "object": "class-obyazatelstvo-po-oplate",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t081",
+   "subject": "oplata-etapa-1",
+   "predicate": "оплата этапа",
+   "object": "etap-1-nir",
+   "sourceId": "src-plan",
+   "sourceName": "Календарный план и ведомость исполнения по ОКР «Датчик-2026»",
+   "sourceType": "internal",
+   "updatedAt": "2026-03-01"
+  },
+  {
+   "id": "t082",
+   "subject": "oplata-etapa-2",
+   "predicate": "имеет тип",
+   "object": "class-obyazatelstvo-po-oplate",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t083",
+   "subject": "oplata-etapa-2",
+   "predicate": "оплата этапа",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t084",
+   "subject": "smirnov-a-v",
+   "predicate": "имеет тип",
+   "object": "class-fizicheskoe-lico",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t085",
+   "subject": "smirnov-a-v",
+   "predicate": "исполняет роль",
+   "object": "rol-rukovoditel-proekta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t086",
+   "subject": "rol-rukovoditel-proekta",
+   "predicate": "имеет тип",
+   "object": "class-rol-v-proekte",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t087",
+   "subject": "rol-rukovoditel-proekta",
+   "predicate": "реализуется в проекте",
+   "object": "okr-datchik-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t088",
+   "subject": "rol-rukovoditel-proekta",
+   "predicate": "роль в организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t089",
+   "subject": "kovaleva-e-p",
+   "predicate": "имеет тип",
+   "object": "class-fizicheskoe-lico",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t090",
+   "subject": "kovaleva-e-p",
+   "predicate": "исполняет роль",
+   "object": "rol-nauchnyy-rukovoditel",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t091",
+   "subject": "rol-nauchnyy-rukovoditel",
+   "predicate": "имеет тип",
+   "object": "class-rol-v-proekte",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t092",
+   "subject": "rol-nauchnyy-rukovoditel",
+   "predicate": "реализуется в проекте",
+   "object": "nir-materialy-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t093",
+   "subject": "rol-nauchnyy-rukovoditel",
+   "predicate": "роль в организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t094",
+   "subject": "orlov-d-s",
+   "predicate": "имеет тип",
+   "object": "class-fizicheskoe-lico",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t095",
+   "subject": "orlov-d-s",
+   "predicate": "исполняет роль",
+   "object": "rol-glavnyy-konstruktor",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t096",
+   "subject": "rol-glavnyy-konstruktor",
+   "predicate": "имеет тип",
+   "object": "class-rol-v-proekte",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t097",
+   "subject": "rol-glavnyy-konstruktor",
+   "predicate": "реализуется в проекте",
+   "object": "okr-datchik-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t098",
+   "subject": "rol-glavnyy-konstruktor",
+   "predicate": "роль в организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t099",
+   "subject": "kadrovaya-zapis-orlov-d-s",
+   "predicate": "имеет тип",
+   "object": "class-kadrovaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t100",
+   "subject": "kadrovaya-zapis-orlov-d-s",
+   "predicate": "кадровая запись",
+   "object": "orlov-d-s",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t101",
+   "subject": "petrov-s-n",
+   "predicate": "имеет тип",
+   "object": "class-fizicheskoe-lico",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t102",
+   "subject": "petrov-s-n",
+   "predicate": "исполняет роль",
+   "object": "rol-chlen-priemochnoy-komissii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t103",
+   "subject": "rol-chlen-priemochnoy-komissii",
+   "predicate": "имеет тип",
+   "object": "class-rol-v-proekte",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t104",
+   "subject": "rol-chlen-priemochnoy-komissii",
+   "predicate": "реализуется в проекте",
+   "object": "okr-datchik-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t105",
+   "subject": "ao-niitfa",
+   "predicate": "имеет тип",
+   "object": "class-organizaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t106",
+   "subject": "ao-niitfa",
+   "predicate": "исполняет роль организации",
+   "object": "rol-pravoobladatel",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t107",
+   "subject": "rol-pravoobladatel",
+   "predicate": "имеет тип",
+   "object": "class-rol-v-proekte",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t108",
+   "subject": "rol-pravoobladatel",
+   "predicate": "реализуется в проекте",
+   "object": "okr-datchik-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t109",
+   "subject": "rol-pravoobladatel",
+   "predicate": "роль в организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t110",
+   "subject": "ao-vniim",
+   "predicate": "имеет тип",
+   "object": "class-organizaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t111",
+   "subject": "ao-vniim",
+   "predicate": "исполняет роль организации",
+   "object": "rol-soispolnitel",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t112",
+   "subject": "rol-soispolnitel",
+   "predicate": "имеет тип",
+   "object": "class-rol-v-proekte",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t113",
+   "subject": "rol-soispolnitel",
+   "predicate": "реализуется в проекте",
+   "object": "okr-datchik-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t114",
+   "subject": "rol-soispolnitel",
+   "predicate": "роль в организации",
+   "object": "ao-vniim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t115",
+   "subject": "ooo-sensor-teh",
+   "predicate": "имеет тип",
+   "object": "class-organizaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t116",
+   "subject": "ooo-sensor-teh",
+   "predicate": "исполняет роль организации",
+   "object": "rol-subpodryadchik",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t117",
+   "subject": "rol-subpodryadchik",
+   "predicate": "имеет тип",
+   "object": "class-rol-v-proekte",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t118",
+   "subject": "rol-subpodryadchik",
+   "predicate": "реализуется в проекте",
+   "object": "okr-datchik-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t119",
+   "subject": "rol-subpodryadchik",
+   "predicate": "роль в организации",
+   "object": "ooo-sensor-teh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t120",
+   "subject": "zharoprochnaya-stal-12h18n10t",
+   "predicate": "имеет тип",
+   "object": "class-ishodnyy-material",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t121",
+   "subject": "etap-1-nir",
+   "predicate": "использует материал",
+   "object": "zharoprochnaya-stal-12h18n10t",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t122",
+   "subject": "pezokeramika-cts-19",
+   "predicate": "имеет тип",
+   "object": "class-ishodnyy-material",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t123",
+   "subject": "etap-2-okr",
+   "predicate": "использует материал",
+   "object": "pezokeramika-cts-19",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t124",
+   "subject": "dannye-stendovyh-ispytaniy-2025",
+   "predicate": "имеет тип",
+   "object": "class-ishodnaya-informaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t125",
+   "subject": "etap-1-nir",
+   "predicate": "использует информацию",
+   "object": "dannye-stendovyh-ispytaniy-2025",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t126",
+   "subject": "otchet-po-nir-2024-datchiki-temperatury",
+   "predicate": "имеет тип",
+   "object": "class-zadel",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t127",
+   "subject": "otchet-po-nir-2024-datchiki-temperatury",
+   "predicate": "задел для проекта",
+   "object": "okr-datchik-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t128",
+   "subject": "gost-15-101-2022",
+   "predicate": "имеет тип",
+   "object": "class-normativnyy-dokument",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t129",
+   "subject": "etap-2-okr",
+   "predicate": "применяет нормативный документ",
+   "object": "gost-15-101-2022",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t130",
+   "subject": "vakuumnaya-pech-vp-40",
+   "predicate": "имеет тип",
+   "object": "class-oborudovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t131",
+   "subject": "etap-2-okr",
+   "predicate": "использует оборудование",
+   "object": "vakuumnaya-pech-vp-40",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t132",
+   "subject": "laboratoriya-materialovedeniya",
+   "predicate": "имеет тип",
+   "object": "class-laboratoriya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t133",
+   "subject": "eksperiment-otzhig-obrazcov",
+   "predicate": "имеет тип",
+   "object": "class-eksperiment",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t134",
+   "subject": "eksperiment-otzhig-obrazcov",
+   "predicate": "проводится в лаборатории",
+   "object": "laboratoriya-materialovedeniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t135",
+   "subject": "eksperiment-otzhig-obrazcov",
+   "predicate": "использует оборудование эксперимента",
+   "object": "vakuumnaya-pech-vp-40",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t136",
+   "subject": "eksperiment-otzhig-obrazcov",
+   "predicate": "использует образец",
+   "object": "obrazec-3-26",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t137",
+   "subject": "eksperiment-otzhig-obrazcov",
+   "predicate": "эксперимент на этапе",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t138",
+   "subject": "obrazec-3-26",
+   "predicate": "имеет тип",
+   "object": "class-obrazec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t139",
+   "subject": "rol-obekt-ispytaniya",
+   "predicate": "имеет тип",
+   "object": "class-rol-obrazca-v-ispytanii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t140",
+   "subject": "obrazec-3-26",
+   "predicate": "роль образца",
+   "object": "rol-obekt-ispytaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t141",
+   "subject": "pezokeramika-cts-19-partiya-12",
+   "predicate": "имеет тип",
+   "object": "class-zakupaemye-materialy-i-komplektuyuschie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t142",
+   "subject": "etap-2-okr",
+   "predicate": "имеет закупку",
+   "object": "pezokeramika-cts-19-partiya-12",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t143",
+   "subject": "spekanie-pezokeramiki",
+   "predicate": "имеет тип",
+   "object": "class-transformaciya-materialov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t144",
+   "subject": "spekanie-pezokeramiki",
+   "predicate": "потребляет",
+   "object": "pezokeramika-cts-19-partiya-12",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t145",
+   "subject": "spekanie-pezokeramiki",
+   "predicate": "производит результат",
+   "object": "laboratornyy-obrazec-datchika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t146",
+   "subject": "spekanie-pezokeramiki",
+   "predicate": "выполняется на этапе",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t147",
+   "subject": "laboratornyy-obrazec-datchika",
+   "predicate": "имеет тип",
+   "object": "class-nauchno-tehnicheskiy-rezultat",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t148",
+   "subject": "laboratornyy-obrazec-datchika",
+   "predicate": "получен из",
+   "object": "dannye-stendovyh-ispytaniy-2025",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t149",
+   "subject": "ugt-4",
+   "predicate": "имеет тип",
+   "object": "class-uroven-gotovnosti-tehnologii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t150",
+   "subject": "laboratornyy-obrazec-datchika",
+   "predicate": "имеет уровень готовности",
+   "object": "ugt-4",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t151",
+   "subject": "ugt-5",
+   "predicate": "имеет тип",
+   "object": "class-uroven-gotovnosti-tehnologii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t152",
+   "subject": "laboratornyy-obrazec-datchika",
+   "predicate": "имеет уровень готовности",
+   "object": "ugt-5",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t153",
+   "subject": "otchet-po-nir",
+   "predicate": "имеет тип",
+   "object": "class-otchet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t154",
+   "subject": "otchet-po-nir",
+   "predicate": "отчёт по этапу",
+   "object": "etap-1-nir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t155",
+   "subject": "otchet-po-nir",
+   "predicate": "отчёт по проекту",
+   "object": "nir-materialy-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t156",
+   "subject": "otchet-po-okr",
+   "predicate": "имеет тип",
+   "object": "class-otchet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t157",
+   "subject": "otchet-po-okr",
+   "predicate": "отчёт по этапу",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t158",
+   "subject": "otchet-po-okr",
+   "predicate": "отчёт по проекту",
+   "object": "okr-datchik-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t159",
+   "subject": "protokol-ispytaniy",
+   "predicate": "имеет тип",
+   "object": "class-otchet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t160",
+   "subject": "protokol-ispytaniy",
+   "predicate": "отчёт по этапу",
+   "object": "etap-3-ispytaniya",
+   "sourceId": "src-report",
+   "sourceName": "Отчёт по ОКР «Датчик-2026» и протокол испытаний, 2027",
+   "sourceType": "internal",
+   "updatedAt": "2027-11-20"
+  },
+  {
+   "id": "t161",
+   "subject": "maket-datchika",
+   "predicate": "имеет тип",
+   "object": "class-rezultat-k-peredache",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t162",
+   "subject": "maket-datchika",
+   "predicate": "передаваемый результат",
+   "object": "laboratornyy-obrazec-datchika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t163",
+   "subject": "etap-3-ispytaniya",
+   "predicate": "производит результат к передаче",
+   "object": "maket-datchika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t164",
+   "subject": "obyazatelstvo-po-peredache-maketa",
+   "predicate": "имеет тип",
+   "object": "class-obyazatelstvo-po-peredache",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t165",
+   "subject": "obyazatelstvo-po-peredache-maketa",
+   "predicate": "обязательство по передаче",
+   "object": "maket-datchika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t166",
+   "subject": "obyazatelstvo-po-peredache-maketa",
+   "predicate": "передача по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t167",
+   "subject": "priemka-etapa-1",
+   "predicate": "имеет тип",
+   "object": "class-priemka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t168",
+   "subject": "priemka-etapa-1",
+   "predicate": "приёмка отчёта",
+   "object": "otchet-po-nir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t169",
+   "subject": "priemka-etapa-1",
+   "predicate": "акт приёмки",
+   "object": "akt-priemki-12",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t170",
+   "subject": "akt-priemki-12",
+   "predicate": "имеет тип",
+   "object": "class-akt-priemki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t171",
+   "subject": "ekspertiza-etapa-2",
+   "predicate": "имеет тип",
+   "object": "class-ekspertiza",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t172",
+   "subject": "ekspertiza-etapa-2",
+   "predicate": "экспертиза этапа",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t173",
+   "subject": "zamechanie-o-metodike-izmereniy",
+   "predicate": "имеет тип",
+   "object": "class-zamechanie-ekspertizy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t174",
+   "subject": "ekspertiza-etapa-2",
+   "predicate": "замечание экспертизы",
+   "object": "zamechanie-o-metodike-izmereniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t175",
+   "subject": "patentnoe-issledovanie-datchiki-temperatury",
+   "predicate": "имеет тип",
+   "object": "class-patentnoe-issledovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t176",
+   "subject": "patentnoe-issledovanie-datchiki-temperatury",
+   "predicate": "патентное исследование этапа",
+   "object": "etap-1-nir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t177",
+   "subject": "patent-2812345",
+   "predicate": "имеет тип",
+   "object": "class-patent",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t178",
+   "subject": "patent-2812345",
+   "predicate": "охраняет результат",
+   "object": "laboratornyy-obrazec-datchika",
+   "sourceId": "src-report",
+   "sourceName": "Отчёт по ОКР «Датчик-2026» и протокол испытаний, 2027",
+   "sourceType": "internal",
+   "updatedAt": "2027-11-20"
+  },
+  {
+   "id": "t179",
+   "subject": "pravo-na-poleznuyu-model",
+   "predicate": "имеет тип",
+   "object": "class-pravo-na-rezultat",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t180",
+   "subject": "pravo-na-poleznuyu-model",
+   "predicate": "право на результат",
+   "object": "laboratornyy-obrazec-datchika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t181",
+   "subject": "pravo-na-poleznuyu-model",
+   "predicate": "правообладатель",
+   "object": "rol-pravoobladatel",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t182",
+   "subject": "obyazatelstvo-konfidencialnosti-dsp",
+   "predicate": "имеет тип",
+   "object": "class-obyazatelstvo-konfidencialnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t183",
+   "subject": "otchet-po-okr",
+   "predicate": "гриф конфиденциальности",
+   "object": "obyazatelstvo-konfidencialnosti-dsp",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t184",
+   "subject": "risk-sryva-sroka-okr",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t185",
+   "subject": "okr-datchik-2026",
+   "predicate": "проект имеет риск",
+   "object": "risk-sryva-sroka-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t186",
+   "subject": "prosrochka-postavki-pezokeramiki",
+   "predicate": "имеет тип",
+   "object": "class-otklonenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t187",
+   "subject": "prosrochka-postavki-pezokeramiki",
+   "predicate": "отклонение на этапе",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t188",
+   "subject": "prosrochka-postavki-pezokeramiki",
+   "predicate": "отклонение реализует риск",
+   "object": "risk-sryva-sroka-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t189",
+   "subject": "rezervirovanie-vtorogo-postavschika-keramiki",
+   "predicate": "имеет тип",
+   "object": "class-mera-reagirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t190",
+   "subject": "rezervirovanie-vtorogo-postavschika-keramiki",
+   "predicate": "мера снижает риск",
+   "object": "risk-sryva-sroka-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t191",
+   "subject": "schet-20-osnovnoe-proizvodstvo",
+   "predicate": "имеет тип",
+   "object": "class-schet-buhgalterskogo-ucheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t192",
+   "subject": "schet-25-obscheproizvodstvennye-rashody",
+   "predicate": "имеет тип",
+   "object": "class-schet-buhgalterskogo-ucheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t193",
+   "subject": "schet-08-08-vypolnenie-niokr",
+   "predicate": "имеет тип",
+   "object": "class-schet-buhgalterskogo-ucheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t194",
+   "subject": "schet-04-nematerialnye-aktivy",
+   "predicate": "имеет тип",
+   "object": "class-schet-buhgalterskogo-ucheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t195",
+   "subject": "schet-62-raschety-s-pokupatelyami-i-zakazchikami",
+   "predicate": "имеет тип",
+   "object": "class-schet-buhgalterskogo-ucheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t196",
+   "subject": "schet-51-raschetnye-scheta",
+   "predicate": "имеет тип",
+   "object": "class-schet-buhgalterskogo-ucheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t197",
+   "subject": "schet-90-01-vyruchka",
+   "predicate": "имеет тип",
+   "object": "class-schet-buhgalterskogo-ucheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t198",
+   "subject": "schet-90-02-sebestoimost-prodazh",
+   "predicate": "имеет тип",
+   "object": "class-schet-buhgalterskogo-ucheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t199",
+   "subject": "schet-60-raschety-s-postavschikami-i-podryadchikami",
+   "predicate": "имеет тип",
+   "object": "class-schet-buhgalterskogo-ucheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t200",
+   "subject": "schet-70-raschety-s-personalom-po-oplate-truda",
+   "predicate": "имеет тип",
+   "object": "class-schet-buhgalterskogo-ucheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t201",
+   "subject": "schet-69-raschety-po-socialnomu-strahovaniyu",
+   "predicate": "имеет тип",
+   "object": "class-schet-buhgalterskogo-ucheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t202",
+   "subject": "schet-10-materialy",
+   "predicate": "имеет тип",
+   "object": "class-schet-buhgalterskogo-ucheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t203",
+   "subject": "schet-84-neraspredelennaya-pribyl",
+   "predicate": "имеет тип",
+   "object": "class-schet-buhgalterskogo-ucheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t204",
+   "subject": "operaciya-nachislena-oplata-truda-po-etapu-1",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t205",
+   "subject": "operaciya-nachisleny-strahovye-vznosy-po-etapu-1",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t206",
+   "subject": "operaciya-spisany-materialy-etapa-1",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t207",
+   "subject": "operaciya-raspredeleny-nakladnye-rashody-etapa-1",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t208",
+   "subject": "operaciya-sformirovana-sebestoimost-etapa-1",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t209",
+   "subject": "operaciya-nachislena-vyruchka-po-etapu-1",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t210",
+   "subject": "operaciya-poluchena-oplata-etapa-1",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t211",
+   "subject": "operaciya-kapitalizirovany-zatraty-na-nir",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t212",
+   "subject": "operaciya-prinyat-rezultat-nir-k-uchetu",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t213",
+   "subject": "operaciya-nachislena-oplata-truda-po-etapu-1",
+   "predicate": "операция на этапе",
+   "object": "etap-1-nir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t214",
+   "subject": "operaciya-nachisleny-strahovye-vznosy-po-etapu-1",
+   "predicate": "операция на этапе",
+   "object": "etap-1-nir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t215",
+   "subject": "operaciya-spisany-materialy-etapa-1",
+   "predicate": "операция на этапе",
+   "object": "etap-1-nir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t216",
+   "subject": "operaciya-raspredeleny-nakladnye-rashody-etapa-1",
+   "predicate": "операция на этапе",
+   "object": "etap-1-nir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t217",
+   "subject": "operaciya-sformirovana-sebestoimost-etapa-1",
+   "predicate": "операция на этапе",
+   "object": "etap-1-nir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t218",
+   "subject": "operaciya-nachislena-vyruchka-po-etapu-1",
+   "predicate": "операция на этапе",
+   "object": "etap-1-nir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t219",
+   "subject": "operaciya-poluchena-oplata-etapa-1",
+   "predicate": "операция на этапе",
+   "object": "etap-1-nir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t220",
+   "subject": "operaciya-kapitalizirovany-zatraty-na-nir",
+   "predicate": "операция на этапе",
+   "object": "etap-1-nir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t221",
+   "subject": "operaciya-prinyat-rezultat-nir-k-uchetu",
+   "predicate": "операция на этапе",
+   "object": "etap-1-nir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t222",
+   "subject": "operaciya-nachislena-oplata-truda-po-etapu-1",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t223",
+   "subject": "operaciya-nachisleny-strahovye-vznosy-po-etapu-1",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t224",
+   "subject": "operaciya-spisany-materialy-etapa-1",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t225",
+   "subject": "operaciya-raspredeleny-nakladnye-rashody-etapa-1",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t226",
+   "subject": "operaciya-sformirovana-sebestoimost-etapa-1",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t227",
+   "subject": "operaciya-nachislena-vyruchka-po-etapu-1",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t228",
+   "subject": "operaciya-poluchena-oplata-etapa-1",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t229",
+   "subject": "operaciya-kapitalizirovany-zatraty-na-nir",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t230",
+   "subject": "operaciya-prinyat-rezultat-nir-k-uchetu",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t231",
+   "subject": "zapis-dt-20-kt-70-po-etapu-1",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t232",
+   "subject": "zapis-dt-20-kt-70-po-etapu-1",
+   "predicate": "дебет записи",
+   "object": "schet-20-osnovnoe-proizvodstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t233",
+   "subject": "zapis-dt-20-kt-70-po-etapu-1",
+   "predicate": "кредит записи",
+   "object": "schet-70-raschety-s-personalom-po-oplate-truda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t234",
+   "subject": "zapis-dt-20-kt-70-po-etapu-1",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-nachislena-oplata-truda-po-etapu-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t235",
+   "subject": "zapis-dt-20-kt-70-po-etapu-1",
+   "predicate": "запись организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t236",
+   "subject": "zapis-dt-20-kt-69-po-etapu-1",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t237",
+   "subject": "zapis-dt-20-kt-69-po-etapu-1",
+   "predicate": "дебет записи",
+   "object": "schet-20-osnovnoe-proizvodstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t238",
+   "subject": "zapis-dt-20-kt-69-po-etapu-1",
+   "predicate": "кредит записи",
+   "object": "schet-69-raschety-po-socialnomu-strahovaniyu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t239",
+   "subject": "zapis-dt-20-kt-69-po-etapu-1",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-nachisleny-strahovye-vznosy-po-etapu-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t240",
+   "subject": "zapis-dt-20-kt-69-po-etapu-1",
+   "predicate": "запись организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t241",
+   "subject": "zapis-dt-20-kt-10-po-etapu-1",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t242",
+   "subject": "zapis-dt-20-kt-10-po-etapu-1",
+   "predicate": "дебет записи",
+   "object": "schet-20-osnovnoe-proizvodstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t243",
+   "subject": "zapis-dt-20-kt-10-po-etapu-1",
+   "predicate": "кредит записи",
+   "object": "schet-10-materialy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t244",
+   "subject": "zapis-dt-20-kt-10-po-etapu-1",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-spisany-materialy-etapa-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t245",
+   "subject": "zapis-dt-20-kt-10-po-etapu-1",
+   "predicate": "запись организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t246",
+   "subject": "zapis-dt-20-kt-25-po-etapu-1",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t247",
+   "subject": "zapis-dt-20-kt-25-po-etapu-1",
+   "predicate": "дебет записи",
+   "object": "schet-20-osnovnoe-proizvodstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t248",
+   "subject": "zapis-dt-20-kt-25-po-etapu-1",
+   "predicate": "кредит записи",
+   "object": "schet-25-obscheproizvodstvennye-rashody",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t249",
+   "subject": "zapis-dt-20-kt-25-po-etapu-1",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-raspredeleny-nakladnye-rashody-etapa-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t250",
+   "subject": "zapis-dt-20-kt-25-po-etapu-1",
+   "predicate": "запись организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t251",
+   "subject": "zapis-dt-90-02-kt-20-po-etapu-1",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t252",
+   "subject": "zapis-dt-90-02-kt-20-po-etapu-1",
+   "predicate": "дебет записи",
+   "object": "schet-90-02-sebestoimost-prodazh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t253",
+   "subject": "zapis-dt-90-02-kt-20-po-etapu-1",
+   "predicate": "кредит записи",
+   "object": "schet-20-osnovnoe-proizvodstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t254",
+   "subject": "zapis-dt-90-02-kt-20-po-etapu-1",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-sformirovana-sebestoimost-etapa-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t255",
+   "subject": "zapis-dt-90-02-kt-20-po-etapu-1",
+   "predicate": "запись организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t256",
+   "subject": "zapis-dt-62-kt-90-01-po-etapu-1",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t257",
+   "subject": "zapis-dt-62-kt-90-01-po-etapu-1",
+   "predicate": "дебет записи",
+   "object": "schet-62-raschety-s-pokupatelyami-i-zakazchikami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t258",
+   "subject": "zapis-dt-62-kt-90-01-po-etapu-1",
+   "predicate": "кредит записи",
+   "object": "schet-90-01-vyruchka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t259",
+   "subject": "zapis-dt-62-kt-90-01-po-etapu-1",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-nachislena-vyruchka-po-etapu-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t260",
+   "subject": "zapis-dt-62-kt-90-01-po-etapu-1",
+   "predicate": "запись организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t261",
+   "subject": "zapis-dt-51-kt-62-po-etapu-1",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t262",
+   "subject": "zapis-dt-51-kt-62-po-etapu-1",
+   "predicate": "дебет записи",
+   "object": "schet-51-raschetnye-scheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t263",
+   "subject": "zapis-dt-51-kt-62-po-etapu-1",
+   "predicate": "кредит записи",
+   "object": "schet-62-raschety-s-pokupatelyami-i-zakazchikami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t264",
+   "subject": "zapis-dt-51-kt-62-po-etapu-1",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-poluchena-oplata-etapa-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t265",
+   "subject": "zapis-dt-51-kt-62-po-etapu-1",
+   "predicate": "запись организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t266",
+   "subject": "zapis-dt-60-kt-51-po-etapu-1",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t267",
+   "subject": "zapis-dt-60-kt-51-po-etapu-1",
+   "predicate": "дебет записи",
+   "object": "schet-60-raschety-s-postavschikami-i-podryadchikami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t268",
+   "subject": "zapis-dt-60-kt-51-po-etapu-1",
+   "predicate": "кредит записи",
+   "object": "schet-51-raschetnye-scheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t269",
+   "subject": "zapis-dt-60-kt-51-po-etapu-1",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-poluchena-oplata-etapa-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t270",
+   "subject": "zapis-dt-60-kt-51-po-etapu-1",
+   "predicate": "запись организации",
+   "object": "goskorporaciya-rosatom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t271",
+   "subject": "zapis-dt-08-08-kt-60-po-nir",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t272",
+   "subject": "zapis-dt-08-08-kt-60-po-nir",
+   "predicate": "дебет записи",
+   "object": "schet-08-08-vypolnenie-niokr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t273",
+   "subject": "zapis-dt-08-08-kt-60-po-nir",
+   "predicate": "кредит записи",
+   "object": "schet-60-raschety-s-postavschikami-i-podryadchikami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t274",
+   "subject": "zapis-dt-08-08-kt-60-po-nir",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-kapitalizirovany-zatraty-na-nir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t275",
+   "subject": "zapis-dt-08-08-kt-60-po-nir",
+   "predicate": "запись организации",
+   "object": "goskorporaciya-rosatom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t276",
+   "subject": "zapis-dt-04-kt-08-08-po-nir",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t277",
+   "subject": "zapis-dt-04-kt-08-08-po-nir",
+   "predicate": "дебет записи",
+   "object": "schet-04-nematerialnye-aktivy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t278",
+   "subject": "zapis-dt-04-kt-08-08-po-nir",
+   "predicate": "кредит записи",
+   "object": "schet-08-08-vypolnenie-niokr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t279",
+   "subject": "zapis-dt-04-kt-08-08-po-nir",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-prinyat-rezultat-nir-k-uchetu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t280",
+   "subject": "zapis-dt-04-kt-08-08-po-nir",
+   "predicate": "запись организации",
+   "object": "goskorporaciya-rosatom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t281",
+   "subject": "operaciya-nachislena-oplata-truda-po-etapu-2",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t282",
+   "subject": "operaciya-nachisleny-strahovye-vznosy-po-etapu-2",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t283",
+   "subject": "operaciya-spisany-materialy-etapa-2",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t284",
+   "subject": "operaciya-prinyaty-raboty-subpodryadchika-po-etapu-2",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t285",
+   "subject": "operaciya-raspredeleny-nakladnye-rashody-etapa-2",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t286",
+   "subject": "operaciya-sformirovana-sebestoimost-etapa-2",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t287",
+   "subject": "operaciya-nachislena-vyruchka-po-etapu-2",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t288",
+   "subject": "operaciya-poluchena-oplata-etapa-2",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t289",
+   "subject": "operaciya-kapitalizirovany-zatraty-na-okr",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t290",
+   "subject": "operaciya-prinyat-rezultat-okr-k-uchetu",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t291",
+   "subject": "operaciya-nachislena-oplata-truda-po-etapu-2",
+   "predicate": "операция на этапе",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t292",
+   "subject": "operaciya-nachisleny-strahovye-vznosy-po-etapu-2",
+   "predicate": "операция на этапе",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t293",
+   "subject": "operaciya-spisany-materialy-etapa-2",
+   "predicate": "операция на этапе",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t294",
+   "subject": "operaciya-prinyaty-raboty-subpodryadchika-po-etapu-2",
+   "predicate": "операция на этапе",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t295",
+   "subject": "operaciya-raspredeleny-nakladnye-rashody-etapa-2",
+   "predicate": "операция на этапе",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t296",
+   "subject": "operaciya-sformirovana-sebestoimost-etapa-2",
+   "predicate": "операция на этапе",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t297",
+   "subject": "operaciya-nachislena-vyruchka-po-etapu-2",
+   "predicate": "операция на этапе",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t298",
+   "subject": "operaciya-poluchena-oplata-etapa-2",
+   "predicate": "операция на этапе",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t299",
+   "subject": "operaciya-kapitalizirovany-zatraty-na-okr",
+   "predicate": "операция на этапе",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t300",
+   "subject": "operaciya-prinyat-rezultat-okr-k-uchetu",
+   "predicate": "операция на этапе",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t301",
+   "subject": "operaciya-nachislena-oplata-truda-po-etapu-2",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t302",
+   "subject": "operaciya-nachisleny-strahovye-vznosy-po-etapu-2",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t303",
+   "subject": "operaciya-spisany-materialy-etapa-2",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t304",
+   "subject": "operaciya-prinyaty-raboty-subpodryadchika-po-etapu-2",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t305",
+   "subject": "operaciya-raspredeleny-nakladnye-rashody-etapa-2",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t306",
+   "subject": "operaciya-sformirovana-sebestoimost-etapa-2",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t307",
+   "subject": "operaciya-nachislena-vyruchka-po-etapu-2",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t308",
+   "subject": "operaciya-poluchena-oplata-etapa-2",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t309",
+   "subject": "operaciya-kapitalizirovany-zatraty-na-okr",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t310",
+   "subject": "operaciya-prinyat-rezultat-okr-k-uchetu",
+   "predicate": "операция по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t311",
+   "subject": "zapis-dt-20-kt-70-po-etapu-2",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t312",
+   "subject": "zapis-dt-20-kt-70-po-etapu-2",
+   "predicate": "дебет записи",
+   "object": "schet-20-osnovnoe-proizvodstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t313",
+   "subject": "zapis-dt-20-kt-70-po-etapu-2",
+   "predicate": "кредит записи",
+   "object": "schet-70-raschety-s-personalom-po-oplate-truda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t314",
+   "subject": "zapis-dt-20-kt-70-po-etapu-2",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-nachislena-oplata-truda-po-etapu-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t315",
+   "subject": "zapis-dt-20-kt-70-po-etapu-2",
+   "predicate": "запись организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t316",
+   "subject": "zapis-dt-20-kt-69-po-etapu-2",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t317",
+   "subject": "zapis-dt-20-kt-69-po-etapu-2",
+   "predicate": "дебет записи",
+   "object": "schet-20-osnovnoe-proizvodstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t318",
+   "subject": "zapis-dt-20-kt-69-po-etapu-2",
+   "predicate": "кредит записи",
+   "object": "schet-69-raschety-po-socialnomu-strahovaniyu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t319",
+   "subject": "zapis-dt-20-kt-69-po-etapu-2",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-nachisleny-strahovye-vznosy-po-etapu-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t320",
+   "subject": "zapis-dt-20-kt-69-po-etapu-2",
+   "predicate": "запись организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t321",
+   "subject": "zapis-dt-20-kt-10-po-etapu-2",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t322",
+   "subject": "zapis-dt-20-kt-10-po-etapu-2",
+   "predicate": "дебет записи",
+   "object": "schet-20-osnovnoe-proizvodstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t323",
+   "subject": "zapis-dt-20-kt-10-po-etapu-2",
+   "predicate": "кредит записи",
+   "object": "schet-10-materialy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t324",
+   "subject": "zapis-dt-20-kt-10-po-etapu-2",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-spisany-materialy-etapa-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t325",
+   "subject": "zapis-dt-20-kt-10-po-etapu-2",
+   "predicate": "запись организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t326",
+   "subject": "zapis-dt-20-kt-60-po-etapu-2",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t327",
+   "subject": "zapis-dt-20-kt-60-po-etapu-2",
+   "predicate": "дебет записи",
+   "object": "schet-20-osnovnoe-proizvodstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t328",
+   "subject": "zapis-dt-20-kt-60-po-etapu-2",
+   "predicate": "кредит записи",
+   "object": "schet-60-raschety-s-postavschikami-i-podryadchikami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t329",
+   "subject": "zapis-dt-20-kt-60-po-etapu-2",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-prinyaty-raboty-subpodryadchika-po-etapu-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t330",
+   "subject": "zapis-dt-20-kt-60-po-etapu-2",
+   "predicate": "запись организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t331",
+   "subject": "zapis-dt-20-kt-25-po-etapu-2",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t332",
+   "subject": "zapis-dt-20-kt-25-po-etapu-2",
+   "predicate": "дебет записи",
+   "object": "schet-20-osnovnoe-proizvodstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t333",
+   "subject": "zapis-dt-20-kt-25-po-etapu-2",
+   "predicate": "кредит записи",
+   "object": "schet-25-obscheproizvodstvennye-rashody",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t334",
+   "subject": "zapis-dt-20-kt-25-po-etapu-2",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-raspredeleny-nakladnye-rashody-etapa-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t335",
+   "subject": "zapis-dt-20-kt-25-po-etapu-2",
+   "predicate": "запись организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t336",
+   "subject": "zapis-dt-90-02-kt-20-po-etapu-2",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t337",
+   "subject": "zapis-dt-90-02-kt-20-po-etapu-2",
+   "predicate": "дебет записи",
+   "object": "schet-90-02-sebestoimost-prodazh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t338",
+   "subject": "zapis-dt-90-02-kt-20-po-etapu-2",
+   "predicate": "кредит записи",
+   "object": "schet-20-osnovnoe-proizvodstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t339",
+   "subject": "zapis-dt-90-02-kt-20-po-etapu-2",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-sformirovana-sebestoimost-etapa-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t340",
+   "subject": "zapis-dt-90-02-kt-20-po-etapu-2",
+   "predicate": "запись организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t341",
+   "subject": "zapis-dt-62-kt-90-01-po-etapu-2",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t342",
+   "subject": "zapis-dt-62-kt-90-01-po-etapu-2",
+   "predicate": "дебет записи",
+   "object": "schet-62-raschety-s-pokupatelyami-i-zakazchikami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t343",
+   "subject": "zapis-dt-62-kt-90-01-po-etapu-2",
+   "predicate": "кредит записи",
+   "object": "schet-90-01-vyruchka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t344",
+   "subject": "zapis-dt-62-kt-90-01-po-etapu-2",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-nachislena-vyruchka-po-etapu-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t345",
+   "subject": "zapis-dt-62-kt-90-01-po-etapu-2",
+   "predicate": "запись организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t346",
+   "subject": "zapis-dt-51-kt-62-po-etapu-2",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t347",
+   "subject": "zapis-dt-51-kt-62-po-etapu-2",
+   "predicate": "дебет записи",
+   "object": "schet-51-raschetnye-scheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t348",
+   "subject": "zapis-dt-51-kt-62-po-etapu-2",
+   "predicate": "кредит записи",
+   "object": "schet-62-raschety-s-pokupatelyami-i-zakazchikami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t349",
+   "subject": "zapis-dt-51-kt-62-po-etapu-2",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-poluchena-oplata-etapa-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t350",
+   "subject": "zapis-dt-51-kt-62-po-etapu-2",
+   "predicate": "запись организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t351",
+   "subject": "zapis-dt-60-kt-51-po-etapu-2",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t352",
+   "subject": "zapis-dt-60-kt-51-po-etapu-2",
+   "predicate": "дебет записи",
+   "object": "schet-60-raschety-s-postavschikami-i-podryadchikami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t353",
+   "subject": "zapis-dt-60-kt-51-po-etapu-2",
+   "predicate": "кредит записи",
+   "object": "schet-51-raschetnye-scheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t354",
+   "subject": "zapis-dt-60-kt-51-po-etapu-2",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-poluchena-oplata-etapa-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t355",
+   "subject": "zapis-dt-60-kt-51-po-etapu-2",
+   "predicate": "запись организации",
+   "object": "goskorporaciya-rosatom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t356",
+   "subject": "zapis-dt-08-08-kt-60-po-okr",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t357",
+   "subject": "zapis-dt-08-08-kt-60-po-okr",
+   "predicate": "дебет записи",
+   "object": "schet-08-08-vypolnenie-niokr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t358",
+   "subject": "zapis-dt-08-08-kt-60-po-okr",
+   "predicate": "кредит записи",
+   "object": "schet-60-raschety-s-postavschikami-i-podryadchikami",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t359",
+   "subject": "zapis-dt-08-08-kt-60-po-okr",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-kapitalizirovany-zatraty-na-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t360",
+   "subject": "zapis-dt-08-08-kt-60-po-okr",
+   "predicate": "запись организации",
+   "object": "goskorporaciya-rosatom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t361",
+   "subject": "zapis-dt-04-kt-08-08-po-okr",
+   "predicate": "имеет тип",
+   "object": "class-buhgalterskaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t362",
+   "subject": "zapis-dt-04-kt-08-08-po-okr",
+   "predicate": "дебет записи",
+   "object": "schet-04-nematerialnye-aktivy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t363",
+   "subject": "zapis-dt-04-kt-08-08-po-okr",
+   "predicate": "кредит записи",
+   "object": "schet-08-08-vypolnenie-niokr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t364",
+   "subject": "zapis-dt-04-kt-08-08-po-okr",
+   "predicate": "запись отражает операцию",
+   "object": "operaciya-prinyat-rezultat-okr-k-uchetu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t365",
+   "subject": "zapis-dt-04-kt-08-08-po-okr",
+   "predicate": "запись организации",
+   "object": "goskorporaciya-rosatom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t366",
+   "subject": "bdr-ispolnitelya-za-2026",
+   "predicate": "имеет тип",
+   "object": "class-finansovyy-otchet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t367",
+   "subject": "bdr-ispolnitelya-za-2026",
+   "predicate": "отчёт организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t368",
+   "subject": "bdr-ispolnitelya-za-2026",
+   "predicate": "отчёт по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t369",
+   "subject": "bdr-ispolnitelya-za-2026",
+   "predicate": "содержит строку",
+   "object": "bdr-2026-vyruchka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t370",
+   "subject": "bdr-ispolnitelya-za-2026",
+   "predicate": "содержит строку",
+   "object": "bdr-2026-sebestoimost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t371",
+   "subject": "bdr-ispolnitelya-za-2026",
+   "predicate": "содержит строку",
+   "object": "bdr-2026-pribyl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t372",
+   "subject": "bdr-2026-vyruchka",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t373",
+   "subject": "bdr-2026-vyruchka",
+   "predicate": "строка по счёту",
+   "object": "schet-90-01-vyruchka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t374",
+   "subject": "bdr-2026-sebestoimost",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t375",
+   "subject": "bdr-2026-sebestoimost",
+   "predicate": "строка по счёту",
+   "object": "schet-90-02-sebestoimost-prodazh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t376",
+   "subject": "bdr-2026-pribyl",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t377",
+   "subject": "bdr-2026-pribyl",
+   "predicate": "строка по счёту",
+   "object": "schet-84-neraspredelennaya-pribyl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t378",
+   "subject": "bdr-ispolnitelya-za-2027",
+   "predicate": "имеет тип",
+   "object": "class-finansovyy-otchet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t379",
+   "subject": "bdr-ispolnitelya-za-2027",
+   "predicate": "отчёт организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t380",
+   "subject": "bdr-ispolnitelya-za-2027",
+   "predicate": "отчёт по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t381",
+   "subject": "bdr-ispolnitelya-za-2027",
+   "predicate": "содержит строку",
+   "object": "bdr-2027-vyruchka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t382",
+   "subject": "bdr-ispolnitelya-za-2027",
+   "predicate": "содержит строку",
+   "object": "bdr-2027-sebestoimost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t383",
+   "subject": "bdr-ispolnitelya-za-2027",
+   "predicate": "содержит строку",
+   "object": "bdr-2027-pribyl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t384",
+   "subject": "bdr-2027-vyruchka",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t385",
+   "subject": "bdr-2027-vyruchka",
+   "predicate": "строка по счёту",
+   "object": "schet-90-01-vyruchka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t386",
+   "subject": "bdr-2027-sebestoimost",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t387",
+   "subject": "bdr-2027-sebestoimost",
+   "predicate": "строка по счёту",
+   "object": "schet-90-02-sebestoimost-prodazh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t388",
+   "subject": "bdr-2027-pribyl",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t389",
+   "subject": "bdr-2027-pribyl",
+   "predicate": "строка по счёту",
+   "object": "schet-84-neraspredelennaya-pribyl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t390",
+   "subject": "dds-ispolnitelya-za-2026",
+   "predicate": "имеет тип",
+   "object": "class-finansovyy-otchet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t391",
+   "subject": "dds-ispolnitelya-za-2026",
+   "predicate": "отчёт организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t392",
+   "subject": "dds-ispolnitelya-za-2026",
+   "predicate": "отчёт по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t393",
+   "subject": "dds-ispolnitelya-za-2026",
+   "predicate": "содержит строку",
+   "object": "dds-2026-postupleniya-ot-zakazchika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t394",
+   "subject": "dds-ispolnitelya-za-2026",
+   "predicate": "содержит строку",
+   "object": "dds-2026-oplata-truda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t395",
+   "subject": "dds-ispolnitelya-za-2026",
+   "predicate": "содержит строку",
+   "object": "dds-2026-strahovye-vznosy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t396",
+   "subject": "dds-ispolnitelya-za-2026",
+   "predicate": "содержит строку",
+   "object": "dds-2026-materialy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t397",
+   "subject": "dds-ispolnitelya-za-2026",
+   "predicate": "содержит строку",
+   "object": "dds-2026-nakladnye-rashody",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t398",
+   "subject": "dds-ispolnitelya-za-2026",
+   "predicate": "содержит строку",
+   "object": "dds-2026-chistyy-denezhnyy-potok",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t399",
+   "subject": "dds-ispolnitelya-za-2026",
+   "predicate": "содержит строку",
+   "object": "dds-2026-ostatok-na-konec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t400",
+   "subject": "dds-2026-postupleniya-ot-zakazchika",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t401",
+   "subject": "dds-2026-postupleniya-ot-zakazchika",
+   "predicate": "строка по счёту",
+   "object": "schet-51-raschetnye-scheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t402",
+   "subject": "dds-2026-oplata-truda",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t403",
+   "subject": "dds-2026-strahovye-vznosy",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t404",
+   "subject": "dds-2026-materialy",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t405",
+   "subject": "dds-2026-nakladnye-rashody",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t406",
+   "subject": "dds-2026-chistyy-denezhnyy-potok",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t407",
+   "subject": "dds-2026-chistyy-denezhnyy-potok",
+   "predicate": "строка по счёту",
+   "object": "schet-51-raschetnye-scheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t408",
+   "subject": "dds-2026-ostatok-na-konec",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t409",
+   "subject": "dds-2026-ostatok-na-konec",
+   "predicate": "строка по счёту",
+   "object": "schet-51-raschetnye-scheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t410",
+   "subject": "dds-ispolnitelya-za-2027",
+   "predicate": "имеет тип",
+   "object": "class-finansovyy-otchet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t411",
+   "subject": "dds-ispolnitelya-za-2027",
+   "predicate": "отчёт организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t412",
+   "subject": "dds-ispolnitelya-za-2027",
+   "predicate": "отчёт по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t413",
+   "subject": "dds-ispolnitelya-za-2027",
+   "predicate": "содержит строку",
+   "object": "dds-2027-postupleniya-ot-zakazchika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t414",
+   "subject": "dds-ispolnitelya-za-2027",
+   "predicate": "содержит строку",
+   "object": "dds-2027-oplata-truda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t415",
+   "subject": "dds-ispolnitelya-za-2027",
+   "predicate": "содержит строку",
+   "object": "dds-2027-strahovye-vznosy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t416",
+   "subject": "dds-ispolnitelya-za-2027",
+   "predicate": "содержит строку",
+   "object": "dds-2027-materialy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t417",
+   "subject": "dds-ispolnitelya-za-2027",
+   "predicate": "содержит строку",
+   "object": "dds-2027-raboty-subpodryadchika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t418",
+   "subject": "dds-ispolnitelya-za-2027",
+   "predicate": "содержит строку",
+   "object": "dds-2027-nakladnye-rashody",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t419",
+   "subject": "dds-ispolnitelya-za-2027",
+   "predicate": "содержит строку",
+   "object": "dds-2027-chistyy-denezhnyy-potok",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t420",
+   "subject": "dds-ispolnitelya-za-2027",
+   "predicate": "содержит строку",
+   "object": "dds-2027-ostatok-na-konec",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t421",
+   "subject": "dds-2027-postupleniya-ot-zakazchika",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t422",
+   "subject": "dds-2027-postupleniya-ot-zakazchika",
+   "predicate": "строка по счёту",
+   "object": "schet-51-raschetnye-scheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t423",
+   "subject": "dds-2027-oplata-truda",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t424",
+   "subject": "dds-2027-strahovye-vznosy",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t425",
+   "subject": "dds-2027-materialy",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t426",
+   "subject": "dds-2027-raboty-subpodryadchika",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t427",
+   "subject": "dds-2027-nakladnye-rashody",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t428",
+   "subject": "dds-2027-chistyy-denezhnyy-potok",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t429",
+   "subject": "dds-2027-chistyy-denezhnyy-potok",
+   "predicate": "строка по счёту",
+   "object": "schet-51-raschetnye-scheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t430",
+   "subject": "dds-2027-ostatok-na-konec",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t431",
+   "subject": "dds-2027-ostatok-na-konec",
+   "predicate": "строка по счёту",
+   "object": "schet-51-raschetnye-scheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t432",
+   "subject": "balans-ispolnitelya-na-31-12-2026",
+   "predicate": "имеет тип",
+   "object": "class-finansovyy-otchet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t433",
+   "subject": "balans-ispolnitelya-na-31-12-2026",
+   "predicate": "отчёт организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t434",
+   "subject": "balans-ispolnitelya-na-31-12-2026",
+   "predicate": "отчёт по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t435",
+   "subject": "balans-ispolnitelya-na-31-12-2026",
+   "predicate": "содержит строку",
+   "object": "balans-2026-denezhnye-sredstva",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t436",
+   "subject": "balans-ispolnitelya-na-31-12-2026",
+   "predicate": "содержит строку",
+   "object": "balans-2026-neraspredelennaya-pribyl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t437",
+   "subject": "balans-2026-denezhnye-sredstva",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t438",
+   "subject": "balans-2026-denezhnye-sredstva",
+   "predicate": "строка по счёту",
+   "object": "schet-51-raschetnye-scheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t439",
+   "subject": "balans-2026-neraspredelennaya-pribyl",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t440",
+   "subject": "balans-2026-neraspredelennaya-pribyl",
+   "predicate": "строка по счёту",
+   "object": "schet-84-neraspredelennaya-pribyl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t441",
+   "subject": "balans-ispolnitelya-na-31-12-2027",
+   "predicate": "имеет тип",
+   "object": "class-finansovyy-otchet",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t442",
+   "subject": "balans-ispolnitelya-na-31-12-2027",
+   "predicate": "отчёт организации",
+   "object": "ao-niitfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t443",
+   "subject": "balans-ispolnitelya-na-31-12-2027",
+   "predicate": "отчёт по контракту",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t444",
+   "subject": "balans-ispolnitelya-na-31-12-2027",
+   "predicate": "содержит строку",
+   "object": "balans-2027-denezhnye-sredstva",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t445",
+   "subject": "balans-ispolnitelya-na-31-12-2027",
+   "predicate": "содержит строку",
+   "object": "balans-2027-neraspredelennaya-pribyl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t446",
+   "subject": "balans-2027-denezhnye-sredstva",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t447",
+   "subject": "balans-2027-denezhnye-sredstva",
+   "predicate": "строка по счёту",
+   "object": "schet-51-raschetnye-scheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t448",
+   "subject": "balans-2027-neraspredelennaya-pribyl",
+   "predicate": "имеет тип",
+   "object": "class-stroka-otcheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t449",
+   "subject": "balans-2027-neraspredelennaya-pribyl",
+   "predicate": "строка по счёту",
+   "object": "schet-84-neraspredelennaya-pribyl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t450",
+   "subject": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "predicate": "имеет тип",
+   "object": "class-vozmozhnyy-mir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t451",
+   "subject": "mir-w1-sryv-sroka-okr",
+   "predicate": "имеет тип",
+   "object": "class-vozmozhnyy-mir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t452",
+   "subject": "mir-w1-sryv-sroka-okr",
+   "predicate": "мир достижим из мира",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t453",
+   "subject": "mir-w2-vypolnenie-po-planu",
+   "predicate": "имеет тип",
+   "object": "class-vozmozhnyy-mir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t454",
+   "subject": "mir-w2-vypolnenie-po-planu",
+   "predicate": "мир достижим из мира",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t455",
+   "subject": "mir-w3-deonticheski-idealnoe-ispolnenie",
+   "predicate": "имеет тип",
+   "object": "class-vozmozhnyy-mir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t456",
+   "subject": "mir-w3-deonticheski-idealnoe-ispolnenie",
+   "predicate": "мир достижим из мира",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t457",
+   "subject": "priemka-etapa-2",
+   "predicate": "имеет тип",
+   "object": "class-priemka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t458",
+   "subject": "priemka-etapa-2",
+   "predicate": "приёмка отчёта",
+   "object": "otchet-po-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t459",
+   "subject": "mal-01-sryv-sroka-okr-vozmozhen",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "src-modal",
+   "sourceName": "Модальная модель НИОКР: экспертные оценки, нормативные основания и возможные миры",
+   "sourceType": "internal",
+   "updatedAt": "2026-11-08"
+  },
+  {
+   "id": "t460",
+   "subject": "mal-01-sryv-sroka-okr-vozmozhen",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t461",
+   "subject": "mal-01-sryv-sroka-okr-vozmozhen",
+   "predicate": "действует в мире",
+   "object": "mir-w1-sryv-sroka-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t462",
+   "subject": "mal-01-sryv-sroka-okr-vozmozhen",
+   "predicate": "касается риска",
+   "object": "risk-sryva-sroka-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t463",
+   "subject": "mal-02-bez-rezervnoy-pechi-etap-2-nevozmozhen",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t464",
+   "subject": "mal-02-bez-rezervnoy-pechi-etap-2-nevozmozhen",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t465",
+   "subject": "mal-02-bez-rezervnoy-pechi-etap-2-nevozmozhen",
+   "predicate": "касается этапа",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t466",
+   "subject": "mal-03-prosrochka-postavki-neobhodimo-vlechet-sryv-sroka",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t467",
+   "subject": "mal-03-prosrochka-postavki-neobhodimo-vlechet-sryv-sroka",
+   "predicate": "действует в мире",
+   "object": "mir-w1-sryv-sroka-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t468",
+   "subject": "mal-03-prosrochka-postavki-neobhodimo-vlechet-sryv-sroka",
+   "predicate": "касается риска",
+   "object": "risk-sryva-sroka-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t469",
+   "subject": "mal-03-prosrochka-postavki-neobhodimo-vlechet-sryv-sroka",
+   "predicate": "касается отклонения",
+   "object": "prosrochka-postavki-pezokeramiki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t470",
+   "subject": "mal-04-dostizhenie-ugt-5-vozmozhno-posle-ustraneniya-zamechaniya",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t471",
+   "subject": "mal-04-dostizhenie-ugt-5-vozmozhno-posle-ustraneniya-zamechaniya",
+   "predicate": "действует в мире",
+   "object": "mir-w2-vypolnenie-po-planu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t472",
+   "subject": "mal-04-dostizhenie-ugt-5-vozmozhno-posle-ustraneniya-zamechaniya",
+   "predicate": "касается результата",
+   "object": "laboratornyy-obrazec-datchika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t473",
+   "subject": "mal-05-patentnaya-chistota-novogo-resheniya-sluchayna",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t474",
+   "subject": "mal-05-patentnaya-chistota-novogo-resheniya-sluchayna",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t475",
+   "subject": "mal-05-patentnaya-chistota-novogo-resheniya-sluchayna",
+   "predicate": "касается патента",
+   "object": "patent-2812345",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t476",
+   "subject": "mde-01-peredacha-maketa-obyazatelna",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t477",
+   "subject": "mde-01-peredacha-maketa-obyazatelna",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t478",
+   "subject": "mde-01-peredacha-maketa-obyazatelna",
+   "predicate": "действует в мире",
+   "object": "mir-w3-deonticheski-idealnoe-ispolnenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t479",
+   "subject": "mde-01-peredacha-maketa-obyazatelna",
+   "predicate": "касается обязательства по передаче",
+   "object": "obyazatelstvo-po-peredache-maketa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t480",
+   "subject": "mde-01-peredacha-maketa-obyazatelna",
+   "predicate": "касается контракта",
+   "object": "kontrakt-26-niokr-17",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t481",
+   "subject": "mde-02-oplata-etapa-1-obyazatelna-i-ispolnena",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t482",
+   "subject": "mde-02-oplata-etapa-1-obyazatelna-i-ispolnena",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t483",
+   "subject": "mde-02-oplata-etapa-1-obyazatelna-i-ispolnena",
+   "predicate": "действует в мире",
+   "object": "mir-w3-deonticheski-idealnoe-ispolnenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t484",
+   "subject": "mde-02-oplata-etapa-1-obyazatelna-i-ispolnena",
+   "predicate": "касается обязательства по оплате",
+   "object": "oplata-etapa-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t485",
+   "subject": "mde-03-razglashenie-otcheta-dsp-zaprescheno",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t486",
+   "subject": "mde-03-razglashenie-otcheta-dsp-zaprescheno",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t487",
+   "subject": "mde-03-razglashenie-otcheta-dsp-zaprescheno",
+   "predicate": "действует в мире",
+   "object": "mir-w3-deonticheski-idealnoe-ispolnenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t488",
+   "subject": "mde-03-razglashenie-otcheta-dsp-zaprescheno",
+   "predicate": "касается конфиденциальности",
+   "object": "obyazatelstvo-konfidencialnosti-dsp",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t489",
+   "subject": "mde-04-zakazchik-vprave-ne-prinimat-otchet-s-zamechaniem",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t490",
+   "subject": "mde-04-zakazchik-vprave-ne-prinimat-otchet-s-zamechaniem",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t491",
+   "subject": "mde-04-zakazchik-vprave-ne-prinimat-otchet-s-zamechaniem",
+   "predicate": "касается замечания экспертизы",
+   "object": "zamechanie-o-metodike-izmereniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t492",
+   "subject": "mde-04-zakazchik-vprave-ne-prinimat-otchet-s-zamechaniem",
+   "predicate": "касается приёмки",
+   "object": "priemka-etapa-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t493",
+   "subject": "mde-05-publikaciya-rezultatov-niokr-obyazatelna",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t494",
+   "subject": "mde-05-publikaciya-rezultatov-niokr-obyazatelna",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t495",
+   "subject": "mde-05-publikaciya-rezultatov-niokr-obyazatelna",
+   "predicate": "действует в мире",
+   "object": "mir-w3-deonticheski-idealnoe-ispolnenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t496",
+   "subject": "mde-05-publikaciya-rezultatov-niokr-obyazatelna",
+   "predicate": "касается требования законодательства",
+   "object": "trebovanie-egisu-nioktr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t497",
+   "subject": "mde-06-konflikt-publikacii-i-konfidencialnosti",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "src-modal",
+   "sourceName": "Модальная модель НИОКР: экспертные оценки, нормативные основания и возможные миры",
+   "sourceType": "internal",
+   "updatedAt": "2026-11-08"
+  },
+  {
+   "id": "t498",
+   "subject": "mde-06-konflikt-publikacii-i-konfidencialnosti",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t499",
+   "subject": "mde-06-konflikt-publikacii-i-konfidencialnosti",
+   "predicate": "конфликтует с утверждением",
+   "object": "mde-03-razglashenie-otcheta-dsp-zaprescheno",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t500",
+   "subject": "mde-06-konflikt-publikacii-i-konfidencialnosti",
+   "predicate": "конфликтует с утверждением",
+   "object": "mde-05-publikaciya-rezultatov-niokr-obyazatelna",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t501",
+   "subject": "mde-06-konflikt-publikacii-i-konfidencialnosti",
+   "predicate": "касается требования законодательства",
+   "object": "trebovanie-egisu-nioktr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t502",
+   "subject": "mde-06-konflikt-publikacii-i-konfidencialnosti",
+   "predicate": "касается конфиденциальности",
+   "object": "obyazatelstvo-konfidencialnosti-dsp",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t503",
+   "subject": "mep-01-ispolnitel-znaet-o-prosrochke-postavki",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t504",
+   "subject": "mep-01-ispolnitel-znaet-o-prosrochke-postavki",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t505",
+   "subject": "mep-01-ispolnitel-znaet-o-prosrochke-postavki",
+   "predicate": "касается отклонения",
+   "object": "prosrochka-postavki-pezokeramiki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t506",
+   "subject": "mep-02-zakazchik-predpolagaet-ustranenie-zamechaniya-k-priemke",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t507",
+   "subject": "mep-02-zakazchik-predpolagaet-ustranenie-zamechaniya-k-priemke",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t508",
+   "subject": "mep-02-zakazchik-predpolagaet-ustranenie-zamechaniya-k-priemke",
+   "predicate": "касается замечания экспертизы",
+   "object": "zamechanie-o-metodike-izmereniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t509",
+   "subject": "mep-03-veroyatnost-sryva-sroka-ekspertnaya-ocenka",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t510",
+   "subject": "mep-03-veroyatnost-sryva-sroka-ekspertnaya-ocenka",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t511",
+   "subject": "mep-03-veroyatnost-sryva-sroka-ekspertnaya-ocenka",
+   "predicate": "касается риска",
+   "object": "risk-sryva-sroka-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t512",
+   "subject": "mep-04-patentnaya-chistota-novogo-resheniya-neizvestna",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t513",
+   "subject": "mep-04-patentnaya-chistota-novogo-resheniya-neizvestna",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t514",
+   "subject": "mep-04-patentnaya-chistota-novogo-resheniya-neizvestna",
+   "predicate": "касается патента",
+   "object": "patent-2812345",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t515",
+   "subject": "mep-05-oplata-etapa-1-podtverzhdena-vypiskoy",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t516",
+   "subject": "mep-05-oplata-etapa-1-podtverzhdena-vypiskoy",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t517",
+   "subject": "mep-05-oplata-etapa-1-podtverzhdena-vypiskoy",
+   "predicate": "касается обязательства по оплате",
+   "object": "oplata-etapa-1",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t518",
+   "subject": "mep-05-oplata-etapa-1-podtverzhdena-vypiskoy",
+   "predicate": "касается финансового отчёта",
+   "object": "dds-ispolnitelya-za-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t519",
+   "subject": "mte-01-etap-1-zavershen-v-proshlom",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t520",
+   "subject": "mte-01-etap-1-zavershen-v-proshlom",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t521",
+   "subject": "mte-01-etap-1-zavershen-v-proshlom",
+   "predicate": "касается этапа",
+   "object": "etap-1-nir",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t522",
+   "subject": "mte-02-etap-2-nastupit-v-buduschem",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t523",
+   "subject": "mte-02-etap-2-nastupit-v-buduschem",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t524",
+   "subject": "mte-02-etap-2-nastupit-v-buduschem",
+   "predicate": "касается этапа",
+   "object": "etap-2-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t525",
+   "subject": "mte-03-zamechanie-ne-ustraneno-v-nastoyaschem",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t526",
+   "subject": "mte-03-zamechanie-ne-ustraneno-v-nastoyaschem",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t527",
+   "subject": "mte-03-zamechanie-ne-ustraneno-v-nastoyaschem",
+   "predicate": "касается замечания экспертизы",
+   "object": "zamechanie-o-metodike-izmereniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t528",
+   "subject": "mte-04-sryv-sroka-vsegda-sleduet-za-prosrochkoy-postavki",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t529",
+   "subject": "mte-04-sryv-sroka-vsegda-sleduet-za-prosrochkoy-postavki",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t530",
+   "subject": "mte-04-sryv-sroka-vsegda-sleduet-za-prosrochkoy-postavki",
+   "predicate": "действует в мире",
+   "object": "mir-w1-sryv-sroka-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t531",
+   "subject": "mte-04-sryv-sroka-vsegda-sleduet-za-prosrochkoy-postavki",
+   "predicate": "касается риска",
+   "object": "risk-sryva-sroka-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t532",
+   "subject": "mte-04-sryv-sroka-vsegda-sleduet-za-prosrochkoy-postavki",
+   "predicate": "касается отклонения",
+   "object": "prosrochka-postavki-pezokeramiki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t533",
+   "subject": "mte-05-oplata-etapa-2-inogda-zaderzhivaetsya-do-priemki",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t534",
+   "subject": "mte-05-oplata-etapa-2-inogda-zaderzhivaetsya-do-priemki",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t535",
+   "subject": "mte-05-oplata-etapa-2-inogda-zaderzhivaetsya-do-priemki",
+   "predicate": "действует в мире",
+   "object": "mir-w1-sryv-sroka-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t536",
+   "subject": "mte-05-oplata-etapa-2-inogda-zaderzhivaetsya-do-priemki",
+   "predicate": "касается обязательства по оплате",
+   "object": "oplata-etapa-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t537",
+   "subject": "mak-01-maket-datchika-cennost-dlya-zakazchika",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t538",
+   "subject": "mak-01-maket-datchika-cennost-dlya-zakazchika",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t539",
+   "subject": "mak-01-maket-datchika-cennost-dlya-zakazchika",
+   "predicate": "действует в мире",
+   "object": "mir-w2-vypolnenie-po-planu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t540",
+   "subject": "mak-01-maket-datchika-cennost-dlya-zakazchika",
+   "predicate": "касается результата к передаче",
+   "object": "maket-datchika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t541",
+   "subject": "mak-02-patent-2812345-cennost-dlya-ispolnitelya",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t542",
+   "subject": "mak-02-patent-2812345-cennost-dlya-ispolnitelya",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t543",
+   "subject": "mak-02-patent-2812345-cennost-dlya-ispolnitelya",
+   "predicate": "касается патента",
+   "object": "patent-2812345",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t544",
+   "subject": "mak-03-prosrochka-postavki-anticennost",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t545",
+   "subject": "mak-03-prosrochka-postavki-anticennost",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t546",
+   "subject": "mak-03-prosrochka-postavki-anticennost",
+   "predicate": "действует в мире",
+   "object": "mir-w1-sryv-sroka-okr",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t547",
+   "subject": "mak-03-prosrochka-postavki-anticennost",
+   "predicate": "касается отклонения",
+   "object": "prosrochka-postavki-pezokeramiki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t548",
+   "subject": "mak-04-vtoroy-maket-neytralnaya-mera",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t549",
+   "subject": "mak-04-vtoroy-maket-neytralnaya-mera",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t550",
+   "subject": "mak-04-vtoroy-maket-neytralnaya-mera",
+   "predicate": "касается меры реагирования",
+   "object": "izgotovlenie-vtorogo-maketa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t551",
+   "subject": "mak-05-rezervirovanie-vtorogo-postavschika-cennost",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t552",
+   "subject": "mak-05-rezervirovanie-vtorogo-postavschika-cennost",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t553",
+   "subject": "mak-05-rezervirovanie-vtorogo-postavschika-cennost",
+   "predicate": "действует в мире",
+   "object": "mir-w2-vypolnenie-po-planu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t554",
+   "subject": "mak-05-rezervirovanie-vtorogo-postavschika-cennost",
+   "predicate": "касается меры реагирования",
+   "object": "rezervirovanie-vtorogo-postavschika-keramiki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t555",
+   "subject": "mak-06-patentnoe-issledovanie-cennee-vtorogo-maketa",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "src-modal",
+   "sourceName": "Модальная модель НИОКР: экспертные оценки, нормативные основания и возможные миры",
+   "sourceType": "internal",
+   "updatedAt": "2026-11-08"
+  },
+  {
+   "id": "t556",
+   "subject": "mak-06-patentnoe-issledovanie-cennee-vtorogo-maketa",
+   "predicate": "действует в мире",
+   "object": "mir-w0-fakticheskoe-sostoyanie-na-08-11-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t557",
+   "subject": "mak-06-patentnoe-issledovanie-cennee-vtorogo-maketa",
+   "predicate": "действует в мире",
+   "object": "mir-w2-vypolnenie-po-planu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t558",
+   "subject": "mak-06-patentnoe-issledovanie-cennee-vtorogo-maketa",
+   "predicate": "касается патентного исследования",
+   "object": "patentnoe-issledovanie-datchiki-temperatury",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t559",
+   "subject": "mak-06-patentnoe-issledovanie-cennee-vtorogo-maketa",
+   "predicate": "касается меры реагирования",
+   "object": "izgotovlenie-vtorogo-maketa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t560",
+   "subject": "izgotovlenie-vtorogo-maketa",
+   "predicate": "имеет тип",
+   "object": "class-mera-reagirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  }
+ ]
+}

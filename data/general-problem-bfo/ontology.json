@@ -1,0 +1,604 @@
+{
+ "classes": [
+  {
+   "code": "MaterialEntity",
+   "name": "Материальный объект",
+   "comment": "BFO: independent continuant → material entity. Организация, команда, система, сотрудник. Носитель качеств, диспозиций и ролей, а также участник процессов.",
+   "attributes": [
+    {
+     "code": "bfoAnchor",
+     "name": "категория BFO",
+     "type": "string",
+     "comment": "independent continuant → material entity"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MAT",
+     "name": "Материальные объекты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ProblemQuality",
+   "name": "Проблемное качество",
+   "comment": "BFO: specifically dependent continuant → quality. Наблюдаемая характеристика носителя (например, низкая пропускная способность). Именно качество фиксируется измерением, но не является самой проблемой.",
+   "attributes": [
+    {
+     "code": "bfoAnchor",
+     "name": "категория BFO",
+     "type": "string",
+     "comment": "specifically dependent continuant → quality"
+    },
+    {
+     "code": "measuredValue",
+     "name": "измеренное значение",
+     "type": "string",
+     "comment": "Значение и единица измерения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SDC",
+     "name": "Качества, диспозиции, роли"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ProblemDisposition",
+   "name": "Проблемная диспозиция",
+   "comment": "BFO: specifically dependent continuant → realizable entity → disposition. Собственно проблема: предрасположенность носителя к реализации вредоносных процессов. Не является процессом и не является документом — реализуется в процессе.",
+   "attributes": [
+    {
+     "code": "bfoAnchor",
+     "name": "категория BFO",
+     "type": "string",
+     "comment": "specifically dependent continuant → disposition"
+    },
+    {
+     "code": "severity",
+     "name": "серьёзность",
+     "type": "string",
+     "comment": "низкая, средняя, высокая"
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "открыта, в работе, устранена"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SDC",
+     "name": "Качества, диспозиции, роли"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CausalFactor",
+   "name": "Причинный фактор",
+   "comment": "BFO: specifically dependent continuant. В зависимости от случая — качество (например, недостаточная квалификация) или диспозиция (например, переработки). Класс введён как обобщение для причинно-следственного анализа; причинная связь выражается отношением «причина вносит вклад в проблему».",
+   "attributes": [
+    {
+     "code": "bfoAnchor",
+     "name": "категория BFO",
+     "type": "string",
+     "comment": "specifically dependent continuant (quality | disposition)"
+    },
+    {
+     "code": "depth",
+     "name": "глубина",
+     "type": "string",
+     "comment": "корневой или второстепенный"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SDC",
+     "name": "Качества, диспозиции, роли"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "StakeholderRole",
+   "name": "Роль стороны",
+   "comment": "BFO: specifically dependent continuant → realizable entity → role. Роль («владелец проблемы», «исполнитель», «регулятор»), присущая материальному объекту и реализующаяся в процессах участия.",
+   "attributes": [
+    {
+     "code": "bfoAnchor",
+     "name": "категория BFO",
+     "type": "string",
+     "comment": "specifically dependent continuant → role"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SDC",
+     "name": "Качества, диспозиции, роли"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "RiskDisposition",
+   "name": "Риск",
+   "comment": "BFO: specifically dependent continuant → disposition. Ещё не реализованная диспозиция к вредоносному процессу. Отличается от проблемной диспозиции тем, что реализация не наступила, а лишь ожидается.",
+   "attributes": [
+    {
+     "code": "bfoAnchor",
+     "name": "категория BFO",
+     "type": "string",
+     "comment": "specifically dependent continuant → disposition"
+    },
+    {
+     "code": "probability",
+     "name": "вероятность",
+     "type": "string",
+     "comment": "низкая, средняя, высокая"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SDC",
+     "name": "Качества, диспозиции, роли"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "HarmfulProcess",
+   "name": "Вредоносный процесс",
+   "comment": "BFO: occurrent → process. Процесс, реализующий проблемную диспозицию и наносящий ущерб участникам. Именно процесс, а не «последствие-объект»: последствие существует только как процесс.",
+   "attributes": [
+    {
+     "code": "bfoAnchor",
+     "name": "категория BFO",
+     "type": "string",
+     "comment": "occurrent → process"
+    },
+    {
+     "code": "impactType",
+     "name": "тип воздействия",
+     "type": "string",
+     "comment": "финансовый, операционный, репутационный"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROC",
+     "name": "Процессы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ObservationProcess",
+   "name": "Процесс наблюдения",
+   "comment": "BFO: occurrent → process. Измерение, мониторинг, аудит — процесс, выявляющий проблемное качество и порождающий данные наблюдения.",
+   "attributes": [
+    {
+     "code": "bfoAnchor",
+     "name": "категория BFO",
+     "type": "string",
+     "comment": "occurrent → process"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROC",
+     "name": "Процессы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "PlanExecution",
+   "name": "Выполнение плана",
+   "comment": "BFO: occurrent → process. Процесс, реализующий план решения и способный предотвратить вредоносный процесс.",
+   "attributes": [
+    {
+     "code": "bfoAnchor",
+     "name": "категория BFO",
+     "type": "string",
+     "comment": "occurrent → process"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROC",
+     "name": "Процессы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "RealizationProcess",
+   "name": "Событие реализации",
+   "comment": "BFO: occurrent → process. Произошедший процесс, реализовавший диспозицию риска. Фиксируется постфактум.",
+   "attributes": [
+    {
+     "code": "bfoAnchor",
+     "name": "категория BFO",
+     "type": "string",
+     "comment": "occurrent → process"
+    },
+    {
+     "code": "occurredAt",
+     "name": "дата события",
+     "type": "date",
+     "comment": "Дата наступления"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROC",
+     "name": "Процессы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ObservationDatum",
+   "name": "Данные наблюдения",
+   "comment": "BFO: generically dependent continuant → information content entity. Симптом как зафиксированные данные (отчёт, метрика), которые «о» проблемном качестве. Данные не устраняются действием — они лишь указывают.",
+   "attributes": [
+    {
+     "code": "bfoAnchor",
+     "name": "категория BFO",
+     "type": "string",
+     "comment": "generically dependent continuant → ICE"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ICE",
+     "name": "Информационные сущности"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ProblemDescription",
+   "name": "Описание проблемы",
+   "comment": "BFO: generically dependent continuant → information content entity. Документированное описание проблемной диспозиции. Существует независимо от носителя проблемы.",
+   "attributes": [
+    {
+     "code": "bfoAnchor",
+     "name": "категория BFO",
+     "type": "string",
+     "comment": "generically dependent continuant → ICE"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ICE",
+     "name": "Информационные сущности"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "GoalSpecification",
+   "name": "Целевая спецификация",
+   "comment": "BFO: generically dependent continuant → ICE → directive information entity. Предписывает желаемое состояние (отсутствие вредоносных процессов) и измеримый показатель.",
+   "attributes": [
+    {
+     "code": "bfoAnchor",
+     "name": "категория BFO",
+     "type": "string",
+     "comment": "generically dependent continuant → directive ICE"
+    },
+    {
+     "code": "metric",
+     "name": "измеримый показатель",
+     "type": "string",
+     "comment": "Показатель и целевое значение"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ICE",
+     "name": "Информационные сущности"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SolutionPlan",
+   "name": "План решения",
+   "comment": "BFO: generically dependent continuant → ICE → directive information entity → plan. Предписывает последовательность действий (выполнение плана), адресующих причинный фактор или проблемную диспозицию.",
+   "attributes": [
+    {
+     "code": "bfoAnchor",
+     "name": "категория BFO",
+     "type": "string",
+     "comment": "generically dependent continuant → plan"
+    },
+    {
+     "code": "cost",
+     "name": "стоимость",
+     "type": "string",
+     "comment": "Затраты на реализацию"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ICE",
+     "name": "Информационные сущности"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Constraint",
+   "name": "Ограничение",
+   "comment": "BFO: generically dependent continuant → ICE → directive information entity. Сужает множество допустимых планов (бюджет, сроки, законодательство).",
+   "attributes": [
+    {
+     "code": "bfoAnchor",
+     "name": "категория BFO",
+     "type": "string",
+     "comment": "generically dependent continuant → directive ICE"
+    },
+    {
+     "code": "type",
+     "name": "тип ограничения",
+     "type": "string",
+     "comment": "бюджет, срок, персонал, законодательство"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ICE",
+     "name": "Информационные сущности"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Criterion",
+   "name": "Критерий",
+   "comment": "BFO: generically dependent continuant → ICE → descriptive information entity. Используется в процессах оценки для сравнения планов между собой.",
+   "attributes": [
+    {
+     "code": "bfoAnchor",
+     "name": "категория BFO",
+     "type": "string",
+     "comment": "generically dependent continuant → descriptive ICE"
+    },
+    {
+     "code": "weight",
+     "name": "вес",
+     "type": "string",
+     "comment": "Относительная важность"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ICE",
+     "name": "Информационные сущности"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "qualityInheresIn",
+   "name": "качество присуще объекту",
+   "comment": "BFO: inheres in. Качество существует в носителе.",
+   "fromClass": "ProblemQuality",
+   "toClass": "MaterialEntity"
+  },
+  {
+   "code": "problemInheresIn",
+   "name": "проблемная диспозиция присуща объекту",
+   "comment": "BFO: inheres in. Диспозиция существует в носителе и без него не существует.",
+   "fromClass": "ProblemDisposition",
+   "toClass": "MaterialEntity"
+  },
+  {
+   "code": "causeInheresIn",
+   "name": "причинный фактор присущ объекту",
+   "comment": "BFO: inheres in.",
+   "fromClass": "CausalFactor",
+   "toClass": "MaterialEntity"
+  },
+  {
+   "code": "riskInheresIn",
+   "name": "риск присущ объекту",
+   "comment": "BFO: inheres in.",
+   "fromClass": "RiskDisposition",
+   "toClass": "MaterialEntity"
+  },
+  {
+   "code": "roleInheresIn",
+   "name": "роль присуща объекту",
+   "comment": "BFO: inheres in. Роль держится носителем и реализуется в процессах.",
+   "fromClass": "StakeholderRole",
+   "toClass": "MaterialEntity"
+  },
+  {
+   "code": "problemRealizedInProcess",
+   "name": "проблема реализуется в процессе",
+   "comment": "BFO: realized in. Диспозиция реализуется только в процессе.",
+   "fromClass": "ProblemDisposition",
+   "toClass": "HarmfulProcess"
+  },
+  {
+   "code": "riskRealizedInProcess",
+   "name": "риск реализуется в процессе",
+   "comment": "BFO: realized in.",
+   "fromClass": "RiskDisposition",
+   "toClass": "RealizationProcess"
+  },
+  {
+   "code": "causeContributesToProblem",
+   "name": "причина вносит вклад в проблему",
+   "comment": "BFO: causally contributes to. Причинная связь между двумя специфически зависимыми континуантами.",
+   "fromClass": "CausalFactor",
+   "toClass": "ProblemDisposition"
+  },
+  {
+   "code": "processCausesProcess",
+   "name": "процесс порождает процесс",
+   "comment": "BFO: causally contributes to. Цепочка вредоносных процессов.",
+   "fromClass": "HarmfulProcess",
+   "toClass": "HarmfulProcess"
+  },
+  {
+   "code": "harmfulProcessHasParticipant",
+   "name": "вредоносный процесс имеет участника",
+   "comment": "BFO: has participant.",
+   "fromClass": "HarmfulProcess",
+   "toClass": "MaterialEntity"
+  },
+  {
+   "code": "observationHasParticipant",
+   "name": "процесс наблюдения имеет участника",
+   "comment": "BFO: has participant.",
+   "fromClass": "ObservationProcess",
+   "toClass": "MaterialEntity"
+  },
+  {
+   "code": "executionHasParticipant",
+   "name": "выполнение плана имеет участника",
+   "comment": "BFO: has participant.",
+   "fromClass": "PlanExecution",
+   "toClass": "MaterialEntity"
+  },
+  {
+   "code": "observationRevealsQuality",
+   "name": "наблюдение выявляет качество",
+   "comment": "BFO: process that is about a quality; наблюдение обнаруживает качество носителя.",
+   "fromClass": "ObservationProcess",
+   "toClass": "ProblemQuality"
+  },
+  {
+   "code": "datumAboutQuality",
+   "name": "данные наблюдения о качестве",
+   "comment": "BFO: is about.",
+   "fromClass": "ObservationDatum",
+   "toClass": "ProblemQuality"
+  },
+  {
+   "code": "descriptionAboutProblem",
+   "name": "описание проблемы о проблеме",
+   "comment": "BFO: is about.",
+   "fromClass": "ProblemDescription",
+   "toClass": "ProblemDisposition"
+  },
+  {
+   "code": "goalAddressesProblem",
+   "name": "цель направлена на проблему",
+   "comment": "BFO: is about + prescribes. Целевая спецификация формулируется относительно проблемной диспозиции.",
+   "fromClass": "GoalSpecification",
+   "toClass": "ProblemDisposition"
+  },
+  {
+   "code": "planAddressesProblem",
+   "name": "план адресует проблему",
+   "comment": "BFO: is about. План направлен на устранение диспозиции.",
+   "fromClass": "SolutionPlan",
+   "toClass": "ProblemDisposition"
+  },
+  {
+   "code": "planAddressesCause",
+   "name": "план адресует причинный фактор",
+   "comment": "План бьёт по причине, а не по симптому.",
+   "fromClass": "SolutionPlan",
+   "toClass": "CausalFactor"
+  },
+  {
+   "code": "planAchievesGoal",
+   "name": "план обеспечивает достижение цели",
+   "comment": "BFO: prescribes. План предписывает действия, реализация которых приводит к цели.",
+   "fromClass": "SolutionPlan",
+   "toClass": "GoalSpecification"
+  },
+  {
+   "code": "planPrescribesExecution",
+   "name": "план предписывает выполнение",
+   "comment": "BFO: prescribes. План задаёт процессы своего выполнения.",
+   "fromClass": "SolutionPlan",
+   "toClass": "PlanExecution"
+  },
+  {
+   "code": "executionRealizesPlan",
+   "name": "выполнение реализует план",
+   "comment": "BFO: realizes. Процесс является реализацией плана.",
+   "fromClass": "PlanExecution",
+   "toClass": "SolutionPlan"
+  },
+  {
+   "code": "executionPreventsProcess",
+   "name": "выполнение предотвращает процесс",
+   "comment": "Выполнение плана препятствует реализации вредоносного процесса.",
+   "fromClass": "PlanExecution",
+   "toClass": "HarmfulProcess"
+  },
+  {
+   "code": "constraintLimitsPlan",
+   "name": "ограничение ограничивает план",
+   "comment": "BFO: prescribes. Ограничение сужает множество допустимых планов.",
+   "fromClass": "Constraint",
+   "toClass": "SolutionPlan"
+  },
+  {
+   "code": "criterionEvaluatesPlan",
+   "name": "критерий используется при оценке плана",
+   "comment": "BFO: is about. Критерий применяется в процессе оценки плана.",
+   "fromClass": "Criterion",
+   "toClass": "SolutionPlan"
+  }
+ ],
+ "info": {
+  "description": "Онтология описывает проблему строго в категориях BFO. Проблема — это не процесс и не документ, а диспозиция материального объекта (problem disposition), которая реализуется во вредоносных процессах. Симптом — это данные наблюдения (ICE), указывающие на проблемное качество носителя. Причина — качество или диспозиция, причинно вносящая вклад в проблемную диспозицию. Решение — это план (directive ICE), предписывающий выполнение, которое реализует план и предотвращает вредоносный процесс. Риск — ещё не реализованная диспозиция, реализующаяся в событии. Цель, ограничение и критерий — информационные сущности, различающиеся директивностью: цель и ограничение предписывают, критерий описывает.",
+  "scope": [
+   "Independent continuants: материальные носители проблем, рисков и ролей",
+   "Specifically dependent continuants: проблемные качества, проблемные диспозиции, причинные факторы, риски, роли сторон",
+   "Generically dependent continuants: данные наблюдения, описания проблемы, целевые спецификации, планы, ограничения, критерии",
+   "Occurrents: вредоносные процессы, процессы наблюдения, выполнения плана, события реализации риска",
+   "Отношения BFO: inheres in, realized in, has participant, causally contributes to, is about, prescribes, realizes"
+  ],
+  "competencyQuestions": [
+   "В чём именно присуща проблема — в каком материальном объекте она укоренена?",
+   "В каких процессах реализуется проблемная диспозиция и кто их участники?",
+   "Какие данные наблюдения указывают на проблемное качество и кто провёл наблюдение?",
+   "Какие причинные факторы вносят вклад в проблемную диспозицию и какие из них корневые?",
+   "Какие процессы порождаются вредоносным процессом (цепочка последствий)?",
+   "Какие планы адресуют причинный фактор, а какие — только проблему в целом?",
+   "Какие ограничения сужают множество допустимых планов?",
+   "По каким критериям сравниваются планы и какой план обеспечивает достижение цели?",
+   "Какие процессы реализуют план и какие вредоносные процессы они предотвращают?",
+   "Какие риски ещё не реализованы и какие события уже реализовали риск?"
+  ]
+ },
+ "theme": [
+  {
+   "code": "MAT",
+   "name": "Материальные объекты",
+   "color": "#60a5fa"
+  },
+  {
+   "code": "SDC",
+   "name": "Качества, диспозиции, роли",
+   "color": "#fbbf24"
+  },
+  {
+   "code": "ICE",
+   "name": "Информационные сущности",
+   "color": "#a78bfa"
+  },
+  {
+   "code": "PROC",
+   "name": "Процессы",
+   "color": "#f87171"
+  }
+ ]
+}

@@ -1,0 +1,2964 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "ao-tess",
+   "predicate": "владеет каталогом",
+   "object": "katalog-oborudovaniya-tess",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t002",
+   "subject": "katalog-oborudovaniya-tess",
+   "predicate": "включает категорию",
+   "object": "lokalnye-energosistemy-iles",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t003",
+   "subject": "katalog-oborudovaniya-tess",
+   "predicate": "включает категорию",
+   "object": "silovoe-oborudovanie",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t004",
+   "subject": "katalog-oborudovaniya-tess",
+   "predicate": "включает категорию",
+   "object": "malaya-energetika",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t005",
+   "subject": "katalog-oborudovaniya-tess",
+   "predicate": "включает категорию",
+   "object": "sistemy-releynoy-zaschity-i-avtomatiki",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t006",
+   "subject": "katalog-oborudovaniya-tess",
+   "predicate": "включает категорию",
+   "object": "elektroprivodnoe-oborudovanie",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t007",
+   "subject": "katalog-oborudovaniya-tess",
+   "predicate": "включает категорию",
+   "object": "schitovoe-i-kommutacionnoe-oborudovanie",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t008",
+   "subject": "lokalnye-energosistemy-iles",
+   "predicate": "включает подраздел",
+   "object": "ptk-dlya-lokalnyh-energosistem-iles",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t009",
+   "subject": "lokalnye-energosistemy-iles",
+   "predicate": "включает подраздел",
+   "object": "ptk-dlya-territorialno-raspredelennyh-iles-tilies",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t010",
+   "subject": "lokalnye-energosistemy-iles",
+   "predicate": "включает подраздел",
+   "object": "simulyator-iles",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t011",
+   "subject": "silovoe-oborudovanie",
+   "predicate": "включает подраздел",
+   "object": "raspredelitelnye-transformatory",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t012",
+   "subject": "silovoe-oborudovanie",
+   "predicate": "включает подраздел",
+   "object": "preobrazovatelnye-transformatory",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t013",
+   "subject": "malaya-energetika",
+   "predicate": "включает подраздел",
+   "object": "gpu",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t014",
+   "subject": "malaya-energetika",
+   "predicate": "включает подраздел",
+   "object": "nakopiteli-energii",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t015",
+   "subject": "malaya-energetika",
+   "predicate": "включает подраздел",
+   "object": "ibp",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t016",
+   "subject": "malaya-energetika",
+   "predicate": "включает подраздел",
+   "object": "akb",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t017",
+   "subject": "sistemy-releynoy-zaschity-i-avtomatiki",
+   "predicate": "включает подраздел",
+   "object": "rza-cifrovogo-tipa",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t018",
+   "subject": "elektroprivodnoe-oborudovanie",
+   "predicate": "включает подраздел",
+   "object": "datchiki-i-preobrazovateli",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t019",
+   "subject": "schitovoe-i-kommutacionnoe-oborudovanie",
+   "predicate": "включает подраздел",
+   "object": "lokalnaya-avtomatika",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t020",
+   "subject": "ao-tess",
+   "predicate": "предлагает услугу",
+   "object": "iles",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t021",
+   "subject": "ao-tess",
+   "predicate": "предлагает услугу",
+   "object": "kompleksnye-industrialnye-resheniya",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t022",
+   "subject": "ptk-dlya-territorialno-raspredelennyh-iles-tilies",
+   "predicate": "содержит продукт",
+   "object": "programmno-tehnicheskiy-kompleks-territorialno-integrirovannyh-lokalnyh-intellektualnyh-energosistem",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t023",
+   "subject": "simulyator-iles",
+   "predicate": "содержит продукт",
+   "object": "programmnyy-simulyator-rezhimov-lokalnoy-intellektualnoy-energosistemy",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t024",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-3200-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t025",
+   "subject": "ptk-dlya-lokalnyh-energosistem-iles",
+   "predicate": "содержит продукт",
+   "object": "programmno-tehnicheskiy-kompleks-intellektualnoy-lokalnoy-energosistemy",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t026",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-3200-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t027",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-2500-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t028",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-2000-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t029",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-2500-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t030",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-2000-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t031",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-1600-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t032",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-1600-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t033",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-1250-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t034",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-1250-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t035",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-1000-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t036",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-1000-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t037",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-630-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t038",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-630-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t039",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-400-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t040",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-400-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t041",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-250-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t042",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-250-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t043",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-160-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t044",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-100-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t045",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-160-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t046",
+   "subject": "preobrazovatelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tlsp-100-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t047",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-1600-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t048",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-40-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t049",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-2500-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t050",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-25-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t051",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-16-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t052",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-63-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t053",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-160-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t054",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-1250-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t055",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-400-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t056",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-800-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t057",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-2000-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t058",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-3150-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t059",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-25-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t060",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-63-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t061",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-100-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t062",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-250-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t063",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-630-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t064",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-1000-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t065",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-1600-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t066",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-2500-10-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t067",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-16-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t068",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-40-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t069",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-100-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t070",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-250-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t071",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-1000-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t072",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-630-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t073",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-160-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t074",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-400-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t075",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-800-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t076",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-1250-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t077",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-2000-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t078",
+   "subject": "gpu",
+   "predicate": "содержит продукт",
+   "object": "gazoporshnevaya-ustanovka-zichai-250-kvt",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t079",
+   "subject": "raspredelitelnye-transformatory",
+   "predicate": "содержит продукт",
+   "object": "transformator-tls-tsl-3150-6-0-4",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t080",
+   "subject": "akb",
+   "predicate": "содержит продукт",
+   "object": "akb-s3m040-6c-240-x",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t081",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-neo-1000-1000-l-1000-le",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t082",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-fr-uk33200-gel",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t083",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-fr-uk33160-gel",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t084",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-fr-uk33120-gel",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t085",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-fr-uk33100-gel",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t086",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-fr-uk3380-gel",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t087",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-fr-uk3360-gel",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t088",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-fr-uk3350-gel",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t089",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-fr-uk3340-gel",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t090",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-fr-uk3330-gel",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t091",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr331000",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t092",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr33800",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t093",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr33600",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t094",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr33500",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t095",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr33400",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t096",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr33300",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t097",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-my200",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t098",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-my160",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t099",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-my120",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t100",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-my100",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t101",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-my80",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t102",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-my60",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t103",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr6000t-l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t104",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-mr331600",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t105",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-mr331200",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t106",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-mr331000",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t107",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-mr33800",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t108",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-mr33600",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t109",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-mr33500",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t110",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-mr33400",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t111",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-mr33300",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t112",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-mr33200",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t113",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-mr33120",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t114",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr331200",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t115",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-fr-uk3320-gel",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t116",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-fr-uk3310-gel",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t117",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr33600t",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t118",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr33400t",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t119",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr33500t",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t120",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr33300t",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t121",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr33-t-40-kva",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t122",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr33-t-30-kva",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t123",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr33-t-20-kva",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t124",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr33-t-15-kva",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t125",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr33-t-10-kva",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t126",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr1110t-l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t127",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr3340s",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t128",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr3340",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t129",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr3330s",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t130",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr3320s",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t131",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr3330",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t132",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr3315s",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t133",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr3320",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t134",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr3315",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t135",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr3310",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t136",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr3310s",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t137",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr30kva-rm",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t138",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr40kva-rm",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t139",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr20kva-rm",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t140",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr-10kva-rm",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t141",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr15kva-rm",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t142",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr3000-rm-li",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t143",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr2200-rm-li",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t144",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr2000-rm-li",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t145",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr6000-rm",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t146",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr1000-rm-li",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t147",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr1110-rm",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t148",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr3000l-rm",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t149",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr3000-rm",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t150",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr2000-rm",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t151",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr2000l-rm",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t152",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr1000l-rm",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t153",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr1000-rm",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t154",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr1110-j",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t155",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr6000l-j",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t156",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr1110",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t157",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr1110s",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t158",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr6000l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t159",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr6000",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t160",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr3000l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t161",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr3000",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t162",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr2000l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t163",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr1000l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t164",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr2000",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t165",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kr1000",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t166",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-800",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t167",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-600",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t168",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-500",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t169",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-400",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t170",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-300",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t171",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-320",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t172",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-240",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t173",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-200",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t174",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-160",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t175",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-100",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t176",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-120",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t177",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-80",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t178",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-60",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t179",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-50",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t180",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-40",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t181",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-30",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t182",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-20",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t183",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-dl-10",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t184",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-iq33-800",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t185",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-iq33-500",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t186",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-iq33-600",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t187",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-iq33-400",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t188",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-iq33-300",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t189",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-iq33-200",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t190",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-iq33-160",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t191",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-iq33-120",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t192",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-iq33-80",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t193",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-iq33-100",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t194",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-iq33-60",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t195",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-iq33-40",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t196",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-iq33-30",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t197",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-iq33-10",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t198",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-iq33-20",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t199",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-msp-150",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t200",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-msp-120",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t201",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-msp-125",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t202",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-msp-80",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t203",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-msp-100",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t204",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-msp-75",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t205",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-msp-60",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t206",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-msp-50",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t207",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-msp-40",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t208",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-msp-25",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t209",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-msp-20",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t210",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-1200",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t211",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-1000",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t212",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-840",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t213",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-600",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t214",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-500",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t215",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-200",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t216",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-400",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t217",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-300",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t218",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-240",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t219",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-175",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t220",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-140",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t221",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-100",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t222",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-80",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t223",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-r-180",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t224",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-r-150",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t225",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-r-120",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t226",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-r-100",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t227",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-r-50",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t228",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-r-80",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t229",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-moda-r-40",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t230",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-flex33-200l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t231",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-flex33-150l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t232",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-flex33-100l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t233",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-flex33-120l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t234",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-flex33-80l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t235",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-flex33-60l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t236",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-flex33-50l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t237",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-flex33-40-40l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t238",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-flex33-30-30l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t239",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-flex33-20-20l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t240",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-flex33-10-10l",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t241",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-flex-20rm",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t242",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-flex-15rm",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t243",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-flex-10rm",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t244",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-smart-hs-10000-smart-hs-10000rl",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t245",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-smart-hs-6000-smart-hs-6000rl",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t246",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-smart-hs-3000-smart-hs-3000rl",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t247",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-smart-hs-2000-smart-hs-2000rl",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t248",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-smart-hs-1000-smart-hs-1000rl",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t249",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-nova-10000-10000tl",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t250",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-nova-6000-6000tl",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t251",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-nova-3000-3000tl",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t252",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-nova-2000-2000tl",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t253",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-nova-1000-1000tl",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t254",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-neo-20000-le",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t255",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-neo-15000-le",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t256",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-neo-10000-l-10000-le",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t257",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-neo-6000-l-6000-le",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t258",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-neo-3000-3000-l-3000-le",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t259",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-neo-2000-2000-l-2000-le",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t260",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-atom-1000-1000l-1000le",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t261",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-atom-20000-l-20000-le",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t262",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-atom-15000-l-15000-le",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t263",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-atom-10000-l-10000-le",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t264",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-atom-6000-l-6000-le",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t265",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-atom-3000-3000l-3000le",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t266",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-atom-2000-2000l-2000le",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t267",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-element-ii-2000",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t268",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-element-ii-3000",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t269",
+   "subject": "nakopiteli-energii",
+   "predicate": "содержит продукт",
+   "object": "perenosnaya-elektrostanciya-pg3600",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t270",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-element-ii-1500",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t271",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-element-ii-1000",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t272",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "absolite-element-ii-600",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t273",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-modul-serii-ips",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t274",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-s3-smart-backup-system-100-ach",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t275",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-s3-smart-backup-system-50-ach",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t276",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-s3-smart-backup-system-40-ach",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t277",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kompleksnoe-reshenie-ibp-s3-litiy-ionnaya-akb-40kva",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t278",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kompleksnoe-reshenie-ibp-s3-litiy-ionnaya-akb-30kva",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t279",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kompleksnoe-reshenie-ibp-s3-litiy-ionnaya-akb-20kva",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t280",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kompleksnoe-reshenie-ibp-s3-litiy-ionnaya-akb-10kva",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t281",
+   "subject": "akb",
+   "predicate": "содержит продукт",
+   "object": "akb-s3m100-1c-240-x",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t282",
+   "subject": "akb",
+   "predicate": "содержит продукт",
+   "object": "akb-s3m050-4c-240-x",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t283",
+   "subject": "gpu",
+   "predicate": "содержит продукт",
+   "object": "gazoporshnevaya-ustanovka-zichai-700-kvt",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t284",
+   "subject": "ibp",
+   "predicate": "содержит продукт",
+   "object": "kehua-kompleksnoe-reshenie-ibp-s3-litiy-ionnaya-akb-6kva",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t285",
+   "subject": "gpu",
+   "predicate": "содержит продукт",
+   "object": "gazoporshnevaya-ustanovka-zichai-750-kvt",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t286",
+   "subject": "gpu",
+   "predicate": "содержит продукт",
+   "object": "gazoporshnevaya-ustanovka-zichai-2-mvt",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t287",
+   "subject": "gpu",
+   "predicate": "содержит продукт",
+   "object": "gazoporshnevaya-ustanovka-zichai-1-5-mvt",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t288",
+   "subject": "rza-cifrovogo-tipa",
+   "predicate": "содержит продукт",
+   "object": "ric-rva-reklouzer",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t289",
+   "subject": "rza-cifrovogo-tipa",
+   "predicate": "содержит продукт",
+   "object": "ric-vn-intellektualnyy-vyklyuchatel-nagruzki",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t290",
+   "subject": "rza-cifrovogo-tipa",
+   "predicate": "содержит продукт",
+   "object": "ric-intellektualnyy-razedinitel",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t291",
+   "subject": "datchiki-i-preobrazovateli",
+   "predicate": "содержит продукт",
+   "object": "regulyator-polozheniya-privoda-up-200",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t292",
+   "subject": "datchiki-i-preobrazovateli",
+   "predicate": "содержит продукт",
+   "object": "ikz-v6-35-4-indikator-dlya-vozdushnyh-liniy",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t293",
+   "subject": "datchiki-i-preobrazovateli",
+   "predicate": "содержит продукт",
+   "object": "a-signal-k1-indikator-dlya-kabelnyh-liniy-v-yacheyku-kru",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t294",
+   "subject": "lokalnaya-avtomatika",
+   "predicate": "содержит продукт",
+   "object": "tess-la-programmiruemyy-kontroller",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t295",
+   "subject": "lokalnaya-avtomatika",
+   "predicate": "содержит продукт",
+   "object": "tess-la-upravlenie-generatorami",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  },
+  {
+   "id": "t296",
+   "subject": "lokalnaya-avtomatika",
+   "predicate": "содержит продукт",
+   "object": "tess-la-sinhronizirovannye-vektornye-izmereniya",
+   "sourceId": "src-gktess-catalog",
+   "sourceName": "Официальный каталог оборудования АО «ТЭСС»",
+   "sourceType": "website",
+   "updatedAt": "2026-11-11"
+  }
+ ]
+}

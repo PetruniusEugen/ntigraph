@@ -1,0 +1,3854 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "nezavisimyy-kontinuant",
+   "predicate": "является подклассом",
+   "object": "kontinuant",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "class-materialnaya-suschnost",
+   "predicate": "является подклассом",
+   "object": "nezavisimyy-kontinuant",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t003",
+   "subject": "specificheski-zavisimyy-kontinuant",
+   "predicate": "является подклассом",
+   "object": "kontinuant",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "class-dispoziciya",
+   "predicate": "является подклассом",
+   "object": "specificheski-zavisimyy-kontinuant",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "rol",
+   "predicate": "является подклассом",
+   "object": "specificheski-zavisimyy-kontinuant",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "genericheski-zavisimyy-kontinuant",
+   "predicate": "является подклассом",
+   "object": "kontinuant",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "class-informacionnaya-suschnost",
+   "predicate": "является подклассом",
+   "object": "genericheski-zavisimyy-kontinuant",
+   "sourceId": "src-bfo",
+   "sourceName": "BFO 2.0: Basic Formal Ontology",
+   "sourceType": "standard",
+   "updatedAt": "2020-09-01"
+  },
+  {
+   "id": "t008",
+   "subject": "process",
+   "predicate": "является подклассом",
+   "object": "okkurrent",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "granica-processa",
+   "predicate": "является подклассом",
+   "object": "okkurrent",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t010",
+   "subject": "istoriya",
+   "predicate": "является подклассом",
+   "object": "okkurrent",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t011",
+   "subject": "vremennoy-region",
+   "predicate": "является подклассом",
+   "object": "okkurrent",
+   "sourceId": "src-bfo",
+   "sourceName": "BFO 2.0: Basic Formal Ontology",
+   "sourceType": "standard",
+   "updatedAt": "2020-09-01"
+  },
+  {
+   "id": "t012",
+   "subject": "class-moment-vremeni",
+   "predicate": "является подклассом",
+   "object": "vremennoy-region",
+   "sourceId": "src-bfo",
+   "sourceName": "BFO 2.0: Basic Formal Ontology",
+   "sourceType": "standard",
+   "updatedAt": "2020-09-01"
+  },
+  {
+   "id": "t013",
+   "subject": "class-interval-vremeni",
+   "predicate": "является подклассом",
+   "object": "vremennoy-region",
+   "sourceId": "src-bfo",
+   "sourceName": "BFO 2.0: Basic Formal Ontology",
+   "sourceType": "standard",
+   "updatedAt": "2020-09-01"
+  },
+  {
+   "id": "t014",
+   "subject": "class-sistema-otscheta-vremeni",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "class-edinica-vremeni",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "class-metka-vremeni",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "vremennaya-situaciya",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t018",
+   "subject": "class-tochechnaya-situaciya",
+   "predicate": "является подклассом",
+   "object": "vremennaya-situaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t019",
+   "subject": "class-intervalnaya-situaciya",
+   "predicate": "является подклассом",
+   "object": "vremennaya-situaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t020",
+   "subject": "uslovie",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "class-uslovie-sostoyanie",
+   "predicate": "является подклассом",
+   "object": "uslovie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t022",
+   "subject": "class-uslovie-proisshestvie",
+   "predicate": "является подклассом",
+   "object": "uslovie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t023",
+   "subject": "class-sobytie",
+   "predicate": "является подклассом",
+   "object": "process",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t024",
+   "subject": "class-fakticheskaya-liniya",
+   "predicate": "является подклассом",
+   "object": "istoriya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t025",
+   "subject": "class-semeystvo-modalnosti",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t026",
+   "subject": "class-modalnyy-operator",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t027",
+   "subject": "class-temporalnyy-operator",
+   "predicate": "является подклассом",
+   "object": "class-modalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t028",
+   "subject": "modalnoe-utverzhdenie",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t029",
+   "subject": "class-temporalnoe-utverzhdenie",
+   "predicate": "является подклассом",
+   "object": "modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t030",
+   "subject": "class-sostavnoe-modalnoe-utverzhdenie",
+   "predicate": "является подклассом",
+   "object": "modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t031",
+   "subject": "otnoshenie-dostizhimosti",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t032",
+   "subject": "class-temporalnaya-dostizhimost",
+   "predicate": "является подклассом",
+   "object": "otnoshenie-dostizhimosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t033",
+   "subject": "class-modalnaya-sistema",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t034",
+   "subject": "class-svoystvo-ramki",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t035",
+   "subject": "class-temporalnaya-ramka",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t036",
+   "subject": "class-temporalnaya-aksioma",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t037",
+   "subject": "class-temporalnyy-invariant",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t038",
+   "subject": "temporalnoe-ogranichenie",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t039",
+   "subject": "class-ogranichenie-poryadka",
+   "predicate": "является подклассом",
+   "object": "temporalnoe-ogranichenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t040",
+   "subject": "class-ogranichenie-dlitelnosti",
+   "predicate": "является подклассом",
+   "object": "temporalnoe-ogranichenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t041",
+   "subject": "class-ogranichenie-okna",
+   "predicate": "является подклассом",
+   "object": "temporalnoe-ogranichenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t042",
+   "subject": "class-temporalnaya-zapis",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t043",
+   "subject": "class-temporalnoe-dokazatelstvo",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t044",
+   "subject": "class-temporalnaya-proekciya",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t045",
+   "subject": "class-temporalnaya-rekonstrukciya",
+   "predicate": "является подклассом",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t046",
+   "subject": "organizaciya-zakazchik",
+   "predicate": "имеет тип",
+   "object": "class-materialnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t047",
+   "subject": "organizaciya-postavschik",
+   "predicate": "имеет тип",
+   "object": "class-materialnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t048",
+   "subject": "partiya-tovara-14",
+   "predicate": "имеет тип",
+   "object": "class-materialnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t049",
+   "subject": "dogovor-postavka-2026-14",
+   "predicate": "имеет тип",
+   "object": "class-informacionnaya-suschnost",
+   "sourceId": "src-contract",
+   "sourceName": "Демонстрационный договор поставки «Поставка-2026/14»",
+   "sourceType": "example",
+   "updatedAt": "2026-11-14"
+  },
+  {
+   "id": "t050",
+   "subject": "dispoziciya-gotovnost-sklada-k-otgruzke",
+   "predicate": "имеет тип",
+   "object": "class-dispoziciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t051",
+   "subject": "dispoziciya-zaderzhka-transporta-na-marshrute",
+   "predicate": "имеет тип",
+   "object": "class-dispoziciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t052",
+   "subject": "sistema-otscheta-utc",
+   "predicate": "имеет тип",
+   "object": "class-sistema-otscheta-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t053",
+   "subject": "kalendar-iso-8601",
+   "predicate": "имеет тип",
+   "object": "class-sistema-otscheta-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t054",
+   "subject": "sistema-otscheta-proizvodstvennyy-kalendar-2026",
+   "predicate": "имеет тип",
+   "object": "class-sistema-otscheta-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t055",
+   "subject": "edinica-kalendarnyy-den",
+   "predicate": "имеет тип",
+   "object": "class-edinica-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t056",
+   "subject": "edinica-rabochiy-den",
+   "predicate": "имеет тип",
+   "object": "class-edinica-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t057",
+   "subject": "metka-2026-01-12t10-00z",
+   "predicate": "имеет тип",
+   "object": "class-metka-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t058",
+   "subject": "metka-2026-03-15t23-59z",
+   "predicate": "имеет тип",
+   "object": "class-metka-vremeni",
+   "sourceId": "src-register",
+   "sourceName": "Демонстрационный журнал исполнения договора",
+   "sourceType": "example",
+   "updatedAt": "2026-11-14"
+  },
+  {
+   "id": "t059",
+   "subject": "metka-2026-03-20t14-20z",
+   "predicate": "имеет тип",
+   "object": "class-metka-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t060",
+   "subject": "metka-2026-03-23t11-00z",
+   "predicate": "имеет тип",
+   "object": "class-metka-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t061",
+   "subject": "metka-2026-04-10t09-30z",
+   "predicate": "имеет тип",
+   "object": "class-metka-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t062",
+   "subject": "moment-12-01-2026",
+   "predicate": "имеет тип",
+   "object": "class-moment-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t063",
+   "subject": "moment-15-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-moment-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t064",
+   "subject": "moment-16-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-moment-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t065",
+   "subject": "moment-19-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-moment-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t066",
+   "subject": "moment-20-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-moment-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t067",
+   "subject": "moment-23-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-moment-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t068",
+   "subject": "moment-10-04-2026",
+   "predicate": "имеет тип",
+   "object": "class-moment-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t069",
+   "subject": "moment-19-04-2026",
+   "predicate": "имеет тип",
+   "object": "class-moment-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t070",
+   "subject": "moment-31-12-2026",
+   "predicate": "имеет тип",
+   "object": "class-moment-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t071",
+   "subject": "interval-srok-deystviya-dogovora-12-01-2026-31-12-2026",
+   "predicate": "имеет тип",
+   "object": "class-interval-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t072",
+   "subject": "interval-okno-postavki-12-01-2026-15-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-interval-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t073",
+   "subject": "interval-period-prosrochki-16-03-2026-19-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-interval-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t074",
+   "subject": "interval-okno-oplaty-20-03-2026-19-04-2026",
+   "predicate": "имеет тип",
+   "object": "class-interval-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t075",
+   "subject": "sobytie-podpisanie-dogovora",
+   "predicate": "имеет тип",
+   "object": "class-sobytie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t076",
+   "subject": "sobytie-istechenie-sroka-postavki",
+   "predicate": "имеет тип",
+   "object": "class-sobytie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t077",
+   "subject": "sobytie-postavka-partii",
+   "predicate": "имеет тип",
+   "object": "class-sobytie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t078",
+   "subject": "sobytie-priemka-partii",
+   "predicate": "имеет тип",
+   "object": "class-sobytie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t079",
+   "subject": "sobytie-oplata-scheta",
+   "predicate": "имеет тип",
+   "object": "class-sobytie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t080",
+   "subject": "liniya-ispolnenie-dogovora-postavka-2026-14",
+   "predicate": "имеет тип",
+   "object": "class-fakticheskaya-liniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t081",
+   "subject": "situaciya-podpisanie-12-01-2026",
+   "predicate": "имеет тип",
+   "object": "class-tochechnaya-situaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t082",
+   "subject": "situaciya-istechenie-sroka-postavki-15-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-tochechnaya-situaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t083",
+   "subject": "situaciya-postavka-20-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-tochechnaya-situaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t084",
+   "subject": "situaciya-priemka-23-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-tochechnaya-situaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t085",
+   "subject": "situaciya-srok-deystviya-dogovora",
+   "predicate": "имеет тип",
+   "object": "class-intervalnaya-situaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t086",
+   "subject": "uslovie-partiya-postavlena",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-proisshestvie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t087",
+   "subject": "uslovie-partiya-prinyata",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-sostoyanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t088",
+   "subject": "uslovie-schet-oplachen",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-sostoyanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t089",
+   "subject": "uslovie-nachislyaetsya-neustoyka",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-sostoyanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t090",
+   "subject": "uslovie-soblyudaetsya-konfidencialnost",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-sostoyanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t091",
+   "subject": "uslovie-obyazatelstvo-po-postavke-prekrascheno",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-sostoyanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t092",
+   "subject": "uslovie-postavka-v-srok",
+   "predicate": "имеет тип",
+   "object": "class-uslovie-sostoyanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t093",
+   "subject": "operator-g-vsegda-v-buduschem",
+   "predicate": "имеет тип",
+   "object": "class-temporalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t094",
+   "subject": "operator-f-kogda-nibud-v-buduschem",
+   "predicate": "имеет тип",
+   "object": "class-temporalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t095",
+   "subject": "operator-h-vsegda-v-proshlom",
+   "predicate": "имеет тип",
+   "object": "class-temporalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t096",
+   "subject": "operator-p-kogda-to-v-proshlom",
+   "predicate": "имеет тип",
+   "object": "class-temporalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t097",
+   "subject": "operator-x-sleduyuschiy",
+   "predicate": "имеет тип",
+   "object": "class-temporalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t098",
+   "subject": "operator-y-predyduschiy",
+   "predicate": "имеет тип",
+   "object": "class-temporalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t099",
+   "subject": "operator-u-do-teh-por-poka",
+   "predicate": "имеет тип",
+   "object": "class-temporalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t100",
+   "subject": "operator-s-s-teh-por-kak",
+   "predicate": "имеет тип",
+   "object": "class-temporalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t101",
+   "subject": "operator-neobhodimo",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t102",
+   "subject": "operator-vozmozhno",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t103",
+   "subject": "operator-o-obyazatelno",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t104",
+   "subject": "operator-k-izvestno",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-operator",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t105",
+   "subject": "semeystvo-temporalnaya-modalnost",
+   "predicate": "имеет тип",
+   "object": "class-semeystvo-modalnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t106",
+   "subject": "semeystvo-aleticheskaya-modalnost",
+   "predicate": "имеет тип",
+   "object": "class-semeystvo-modalnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t107",
+   "subject": "semeystvo-deonticheskaya-modalnost",
+   "predicate": "имеет тип",
+   "object": "class-semeystvo-modalnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t108",
+   "subject": "semeystvo-epistemicheskaya-modalnost",
+   "predicate": "имеет тип",
+   "object": "class-semeystvo-modalnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t109",
+   "subject": "sistema-kt-minimalnaya-temporalnaya",
+   "predicate": "имеет тип",
+   "object": "class-modalnaya-sistema",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t110",
+   "subject": "sistema-s4t-refleksivnaya-i-tranzitivnaya",
+   "predicate": "имеет тип",
+   "object": "class-modalnaya-sistema",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t111",
+   "subject": "sistema-pltl-lineynaya-diskretnaya",
+   "predicate": "имеет тип",
+   "object": "class-modalnaya-sistema",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t112",
+   "subject": "sistema-ctl-vetvyaschayasya",
+   "predicate": "имеет тип",
+   "object": "class-modalnaya-sistema",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t113",
+   "subject": "svoystvo-refleksivnost",
+   "predicate": "имеет тип",
+   "object": "class-svoystvo-ramki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t114",
+   "subject": "svoystvo-tranzitivnost",
+   "predicate": "имеет тип",
+   "object": "class-svoystvo-ramki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t115",
+   "subject": "svoystvo-lineynost",
+   "predicate": "имеет тип",
+   "object": "class-svoystvo-ramki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t116",
+   "subject": "svoystvo-diskretnost",
+   "predicate": "имеет тип",
+   "object": "class-svoystvo-ramki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t117",
+   "subject": "svoystvo-plotnost",
+   "predicate": "имеет тип",
+   "object": "class-svoystvo-ramki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t118",
+   "subject": "svoystvo-vetvlenie",
+   "predicate": "имеет тип",
+   "object": "class-svoystvo-ramki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t119",
+   "subject": "ramka-lineynoe-diskretnoe-vremya",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-ramka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t120",
+   "subject": "ramka-refleksivnoe-tranzitivnoe-vremya",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-ramka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t121",
+   "subject": "ramka-vetvyascheesya-vremya",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-ramka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t122",
+   "subject": "dostizhimost-buduschee",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-dostizhimost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t123",
+   "subject": "dostizhimost-proshloe",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-dostizhimost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t124",
+   "subject": "aksioma-g",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-aksioma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t125",
+   "subject": "aksioma-g-gg",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-aksioma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t126",
+   "subject": "aksioma-f-g",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-aksioma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t127",
+   "subject": "aksioma-p-h",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-aksioma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t128",
+   "subject": "aksioma-u-x-u",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-aksioma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t129",
+   "subject": "invariant-konfidencialnost-na-vsem-sroke-deystviya",
+   "predicate": "имеет тип",
+   "object": "class-temporalnyy-invariant",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t130",
+   "subject": "invariant-oplata-ne-ranshe-postavki",
+   "predicate": "имеет тип",
+   "object": "class-temporalnyy-invariant",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t131",
+   "subject": "ogranichenie-priemka-posle-postavki",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie-poryadka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t132",
+   "subject": "ogranichenie-oplata-v-techenie-30-dney",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie-dlitelnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t133",
+   "subject": "ogranichenie-postavka-ne-pozdnee-15-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie-okna",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t134",
+   "subject": "zapis-tovarnaya-nakladnaya-20-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t135",
+   "subject": "zapis-akt-priemki-23-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t136",
+   "subject": "zapis-platezhnoe-poruchenie-10-04-2026",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t137",
+   "subject": "zapis-zhurnal-dogovora-15-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-zapis",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t138",
+   "subject": "dokazatelstvo-nakladnaya-031",
+   "predicate": "имеет тип",
+   "object": "class-temporalnoe-dokazatelstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t139",
+   "subject": "dokazatelstvo-akt-14",
+   "predicate": "имеет тип",
+   "object": "class-temporalnoe-dokazatelstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t140",
+   "subject": "dokazatelstvo-vypiska-po-schetu-10-04-2026",
+   "predicate": "имеет тип",
+   "object": "class-temporalnoe-dokazatelstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t141",
+   "subject": "dokazatelstvo-vypiska-iz-zhurnala-na-15-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-temporalnoe-dokazatelstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t142",
+   "subject": "proekciya-postavka-v-srok",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-proekciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t143",
+   "subject": "proekciya-prosrochka-na-4-dnya",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-proekciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t144",
+   "subject": "rekonstrukciya-sostoyanie-ispolneniya-na-15-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-temporalnaya-rekonstrukciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t145",
+   "subject": "utverzhdenie-postavka-sostoitsya-ne-pozdnee-15-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-temporalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t146",
+   "subject": "utverzhdenie-postavka-sostoyalas-20-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-temporalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t147",
+   "subject": "utverzhdenie-na-protyazhenii-sroka-deystviya-dogovora-soblyudaetsya-konfidencialnost",
+   "predicate": "имеет тип",
+   "object": "class-temporalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t148",
+   "subject": "utverzhdenie-neustoyka-nachislyaetsya-do-momenta-postavki",
+   "predicate": "имеет тип",
+   "object": "class-temporalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t149",
+   "subject": "utverzhdenie-posle-priemki-obyazatelstvo-po-postavke-prekrascheno",
+   "predicate": "имеет тип",
+   "object": "class-temporalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t150",
+   "subject": "utverzhdenie-sleduyuschim-sobytiem-posle-postavki-budet-priemka",
+   "predicate": "имеет тип",
+   "object": "class-temporalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t151",
+   "subject": "utverzhdenie-oplata-obyazatelna-v-techenie-30-dney-posle-postavki",
+   "predicate": "имеет тип",
+   "object": "class-sostavnoe-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t152",
+   "subject": "utverzhdenie-oplata-budet-proizvedena-v-okne-20-03-19-04-2026",
+   "predicate": "имеет тип",
+   "object": "class-temporalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t153",
+   "subject": "utverzhdenie-postavka-mogla-sostoyatsya-k-15-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-sostavnoe-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t154",
+   "subject": "utverzhdenie-k-15-03-2026-postavka-ne-sostoyalas",
+   "predicate": "имеет тип",
+   "object": "class-temporalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t155",
+   "subject": "utverzhdenie-neustoyka-nachislyalas-17-03-2026",
+   "predicate": "имеет тип",
+   "object": "class-temporalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t156",
+   "subject": "moment-12-01-2026",
+   "predicate": "предшествует во времени",
+   "object": "moment-15-03-2026",
+   "sourceId": "src-allen",
+   "sourceName": "Allen J. F. Maintaining Knowledge about Temporal Intervals. Communications of the ACM, 1983",
+   "sourceType": "article",
+   "updatedAt": "1983-01-01"
+  },
+  {
+   "id": "t157",
+   "subject": "moment-15-03-2026",
+   "predicate": "предшествует во времени",
+   "object": "moment-16-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t158",
+   "subject": "moment-16-03-2026",
+   "predicate": "предшествует во времени",
+   "object": "moment-19-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t159",
+   "subject": "moment-19-03-2026",
+   "predicate": "предшествует во времени",
+   "object": "moment-20-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t160",
+   "subject": "moment-20-03-2026",
+   "predicate": "предшествует во времени",
+   "object": "moment-23-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t161",
+   "subject": "moment-23-03-2026",
+   "predicate": "предшествует во времени",
+   "object": "moment-10-04-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t162",
+   "subject": "moment-10-04-2026",
+   "predicate": "предшествует во времени",
+   "object": "moment-19-04-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t163",
+   "subject": "moment-19-04-2026",
+   "predicate": "предшествует во времени",
+   "object": "moment-31-12-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t164",
+   "subject": "interval-srok-deystviya-dogovora-12-01-2026-31-12-2026",
+   "predicate": "начинается в момент",
+   "object": "moment-12-01-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t165",
+   "subject": "interval-srok-deystviya-dogovora-12-01-2026-31-12-2026",
+   "predicate": "заканчивается в момент",
+   "object": "moment-31-12-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t166",
+   "subject": "interval-okno-postavki-12-01-2026-15-03-2026",
+   "predicate": "начинается в момент",
+   "object": "moment-12-01-2026",
+   "sourceId": "src-owltime",
+   "sourceName": "OWL-Time: Time Ontology in OWL. W3C Recommendation, 2017",
+   "sourceType": "standard",
+   "updatedAt": "2017-10-19"
+  },
+  {
+   "id": "t167",
+   "subject": "interval-okno-postavki-12-01-2026-15-03-2026",
+   "predicate": "заканчивается в момент",
+   "object": "moment-15-03-2026",
+   "sourceId": "src-owltime",
+   "sourceName": "OWL-Time: Time Ontology in OWL. W3C Recommendation, 2017",
+   "sourceType": "standard",
+   "updatedAt": "2017-10-19"
+  },
+  {
+   "id": "t168",
+   "subject": "interval-period-prosrochki-16-03-2026-19-03-2026",
+   "predicate": "начинается в момент",
+   "object": "moment-16-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t169",
+   "subject": "interval-period-prosrochki-16-03-2026-19-03-2026",
+   "predicate": "заканчивается в момент",
+   "object": "moment-19-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t170",
+   "subject": "interval-okno-oplaty-20-03-2026-19-04-2026",
+   "predicate": "начинается в момент",
+   "object": "moment-20-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t171",
+   "subject": "interval-okno-oplaty-20-03-2026-19-04-2026",
+   "predicate": "заканчивается в момент",
+   "object": "moment-19-04-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t172",
+   "subject": "interval-srok-deystviya-dogovora-12-01-2026-31-12-2026",
+   "predicate": "содержит регион",
+   "object": "interval-okno-postavki-12-01-2026-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t173",
+   "subject": "interval-srok-deystviya-dogovora-12-01-2026-31-12-2026",
+   "predicate": "содержит регион",
+   "object": "interval-period-prosrochki-16-03-2026-19-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t174",
+   "subject": "interval-srok-deystviya-dogovora-12-01-2026-31-12-2026",
+   "predicate": "содержит регион",
+   "object": "interval-okno-oplaty-20-03-2026-19-04-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t175",
+   "subject": "interval-okno-postavki-12-01-2026-15-03-2026",
+   "predicate": "содержит регион",
+   "object": "moment-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t176",
+   "subject": "interval-period-prosrochki-16-03-2026-19-03-2026",
+   "predicate": "непосредственно примыкает",
+   "object": "interval-okno-oplaty-20-03-2026-19-04-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t177",
+   "subject": "interval-okno-oplaty-20-03-2026-19-04-2026",
+   "predicate": "измеряется в единице",
+   "object": "edinica-kalendarnyy-den",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t178",
+   "subject": "interval-srok-deystviya-dogovora-12-01-2026-31-12-2026",
+   "predicate": "измеряется в единице",
+   "object": "edinica-kalendarnyy-den",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t179",
+   "subject": "metka-2026-01-12t10-00z",
+   "predicate": "обозначает момент",
+   "object": "moment-12-01-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t180",
+   "subject": "metka-2026-03-15t23-59z",
+   "predicate": "обозначает момент",
+   "object": "moment-15-03-2026",
+   "sourceId": "src-owltime",
+   "sourceName": "OWL-Time: Time Ontology in OWL. W3C Recommendation, 2017",
+   "sourceType": "standard",
+   "updatedAt": "2017-10-19"
+  },
+  {
+   "id": "t181",
+   "subject": "metka-2026-03-20t14-20z",
+   "predicate": "обозначает момент",
+   "object": "moment-20-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t182",
+   "subject": "metka-2026-03-23t11-00z",
+   "predicate": "обозначает момент",
+   "object": "moment-23-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t183",
+   "subject": "metka-2026-04-10t09-30z",
+   "predicate": "обозначает момент",
+   "object": "moment-10-04-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t184",
+   "subject": "metka-2026-01-12t10-00z",
+   "predicate": "задана в системе отсчёта",
+   "object": "sistema-otscheta-utc",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t185",
+   "subject": "metka-2026-03-15t23-59z",
+   "predicate": "задана в системе отсчёта",
+   "object": "sistema-otscheta-utc",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t186",
+   "subject": "metka-2026-03-20t14-20z",
+   "predicate": "задана в системе отсчёта",
+   "object": "sistema-otscheta-utc",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t187",
+   "subject": "metka-2026-03-23t11-00z",
+   "predicate": "задана в системе отсчёта",
+   "object": "sistema-otscheta-utc",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t188",
+   "subject": "metka-2026-04-10t09-30z",
+   "predicate": "задана в системе отсчёта",
+   "object": "sistema-otscheta-utc",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t189",
+   "subject": "edinica-kalendarnyy-den",
+   "predicate": "определена в системе отсчёта",
+   "object": "kalendar-iso-8601",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t190",
+   "subject": "edinica-rabochiy-den",
+   "predicate": "определена в системе отсчёта",
+   "object": "sistema-otscheta-proizvodstvennyy-kalendar-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t191",
+   "subject": "situaciya-podpisanie-12-01-2026",
+   "predicate": "привязана к региону",
+   "object": "moment-12-01-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t192",
+   "subject": "situaciya-istechenie-sroka-postavki-15-03-2026",
+   "predicate": "привязана к региону",
+   "object": "moment-15-03-2026",
+   "sourceId": "src-prior",
+   "sourceName": "Prior A. N. Past, Present and Future. Oxford University Press, 1967",
+   "sourceType": "book",
+   "updatedAt": "1967-01-01"
+  },
+  {
+   "id": "t193",
+   "subject": "situaciya-postavka-20-03-2026",
+   "predicate": "привязана к региону",
+   "object": "moment-20-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t194",
+   "subject": "situaciya-priemka-23-03-2026",
+   "predicate": "привязана к региону",
+   "object": "moment-23-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t195",
+   "subject": "situaciya-srok-deystviya-dogovora",
+   "predicate": "привязана к региону",
+   "object": "interval-srok-deystviya-dogovora-12-01-2026-31-12-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t196",
+   "subject": "situaciya-podpisanie-12-01-2026",
+   "predicate": "входит в фактическую линию",
+   "object": "liniya-ispolnenie-dogovora-postavka-2026-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t197",
+   "subject": "situaciya-istechenie-sroka-postavki-15-03-2026",
+   "predicate": "входит в фактическую линию",
+   "object": "liniya-ispolnenie-dogovora-postavka-2026-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t198",
+   "subject": "situaciya-postavka-20-03-2026",
+   "predicate": "входит в фактическую линию",
+   "object": "liniya-ispolnenie-dogovora-postavka-2026-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t199",
+   "subject": "situaciya-priemka-23-03-2026",
+   "predicate": "входит в фактическую линию",
+   "object": "liniya-ispolnenie-dogovora-postavka-2026-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t200",
+   "subject": "situaciya-srok-deystviya-dogovora",
+   "predicate": "входит в фактическую линию",
+   "object": "liniya-ispolnenie-dogovora-postavka-2026-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t201",
+   "subject": "situaciya-podpisanie-12-01-2026",
+   "predicate": "подчинена достижимости",
+   "object": "dostizhimost-proshloe",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t202",
+   "subject": "situaciya-podpisanie-12-01-2026",
+   "predicate": "подчинена достижимости",
+   "object": "dostizhimost-buduschee",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t203",
+   "subject": "situaciya-istechenie-sroka-postavki-15-03-2026",
+   "predicate": "подчинена достижимости",
+   "object": "dostizhimost-buduschee",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t204",
+   "subject": "situaciya-postavka-20-03-2026",
+   "predicate": "подчинена достижимости",
+   "object": "dostizhimost-buduschee",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t205",
+   "subject": "situaciya-postavka-20-03-2026",
+   "predicate": "подчинена достижимости",
+   "object": "dostizhimost-proshloe",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t206",
+   "subject": "situaciya-priemka-23-03-2026",
+   "predicate": "подчинена достижимости",
+   "object": "dostizhimost-buduschee",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t207",
+   "subject": "situaciya-priemka-23-03-2026",
+   "predicate": "подчинена достижимости",
+   "object": "dostizhimost-proshloe",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t208",
+   "subject": "situaciya-srok-deystviya-dogovora",
+   "predicate": "подчинена достижимости",
+   "object": "dostizhimost-buduschee",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t209",
+   "subject": "situaciya-postavka-20-03-2026",
+   "predicate": "достижима из ситуации",
+   "object": "situaciya-podpisanie-12-01-2026",
+   "sourceId": "src-kripke",
+   "sourceName": "Kripke S. Semantical Considerations on Modal Logic. Acta Philosophica Fennica, 1963",
+   "sourceType": "article",
+   "updatedAt": "1963-01-01"
+  },
+  {
+   "id": "t210",
+   "subject": "situaciya-istechenie-sroka-postavki-15-03-2026",
+   "predicate": "достижима из ситуации",
+   "object": "situaciya-podpisanie-12-01-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t211",
+   "subject": "situaciya-priemka-23-03-2026",
+   "predicate": "достижима из ситуации",
+   "object": "situaciya-postavka-20-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t212",
+   "subject": "situaciya-podpisanie-12-01-2026",
+   "predicate": "достижима из ситуации",
+   "object": "situaciya-priemka-23-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t213",
+   "subject": "situaciya-srok-deystviya-dogovora",
+   "predicate": "описывает сущность",
+   "object": "dogovor-postavka-2026-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t214",
+   "subject": "situaciya-postavka-20-03-2026",
+   "predicate": "описывает сущность",
+   "object": "partiya-tovara-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t215",
+   "subject": "uslovie-partiya-postavlena",
+   "predicate": "реализуется событием",
+   "object": "sobytie-postavka-partii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t216",
+   "subject": "uslovie-partiya-prinyata",
+   "predicate": "выполняется на регионе",
+   "object": "moment-23-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t217",
+   "subject": "uslovie-schet-oplachen",
+   "predicate": "выполняется на регионе",
+   "object": "moment-10-04-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t218",
+   "subject": "uslovie-nachislyaetsya-neustoyka",
+   "predicate": "выполняется на регионе",
+   "object": "interval-period-prosrochki-16-03-2026-19-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t219",
+   "subject": "uslovie-soblyudaetsya-konfidencialnost",
+   "predicate": "выполняется на регионе",
+   "object": "interval-srok-deystviya-dogovora-12-01-2026-31-12-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t220",
+   "subject": "uslovie-obyazatelstvo-po-postavke-prekrascheno",
+   "predicate": "выполняется на регионе",
+   "object": "moment-23-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t221",
+   "subject": "uslovie-postavka-v-srok",
+   "predicate": "выполняется на регионе",
+   "object": "interval-okno-postavki-12-01-2026-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t222",
+   "subject": "uslovie-partiya-postavlena",
+   "predicate": "касается сущности",
+   "object": "partiya-tovara-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t223",
+   "subject": "uslovie-partiya-prinyata",
+   "predicate": "касается сущности",
+   "object": "partiya-tovara-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t224",
+   "subject": "uslovie-schet-oplachen",
+   "predicate": "касается сущности",
+   "object": "dogovor-postavka-2026-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t225",
+   "subject": "uslovie-nachislyaetsya-neustoyka",
+   "predicate": "касается сущности",
+   "object": "dogovor-postavka-2026-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t226",
+   "subject": "uslovie-soblyudaetsya-konfidencialnost",
+   "predicate": "касается сущности",
+   "object": "dogovor-postavka-2026-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t227",
+   "subject": "uslovie-obyazatelstvo-po-postavke-prekrascheno",
+   "predicate": "касается сущности",
+   "object": "dogovor-postavka-2026-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t228",
+   "subject": "uslovie-postavka-v-srok",
+   "predicate": "касается сущности",
+   "object": "partiya-tovara-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t229",
+   "subject": "operator-g-vsegda-v-buduschem",
+   "predicate": "принадлежит семейству",
+   "object": "semeystvo-temporalnaya-modalnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t230",
+   "subject": "operator-f-kogda-nibud-v-buduschem",
+   "predicate": "принадлежит семейству",
+   "object": "semeystvo-temporalnaya-modalnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t231",
+   "subject": "operator-h-vsegda-v-proshlom",
+   "predicate": "принадлежит семейству",
+   "object": "semeystvo-temporalnaya-modalnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t232",
+   "subject": "operator-p-kogda-to-v-proshlom",
+   "predicate": "принадлежит семейству",
+   "object": "semeystvo-temporalnaya-modalnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t233",
+   "subject": "operator-x-sleduyuschiy",
+   "predicate": "принадлежит семейству",
+   "object": "semeystvo-temporalnaya-modalnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t234",
+   "subject": "operator-y-predyduschiy",
+   "predicate": "принадлежит семейству",
+   "object": "semeystvo-temporalnaya-modalnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t235",
+   "subject": "operator-u-do-teh-por-poka",
+   "predicate": "принадлежит семейству",
+   "object": "semeystvo-temporalnaya-modalnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t236",
+   "subject": "operator-s-s-teh-por-kak",
+   "predicate": "принадлежит семейству",
+   "object": "semeystvo-temporalnaya-modalnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t237",
+   "subject": "operator-neobhodimo",
+   "predicate": "принадлежит семейству",
+   "object": "semeystvo-aleticheskaya-modalnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t238",
+   "subject": "operator-vozmozhno",
+   "predicate": "принадлежит семейству",
+   "object": "semeystvo-aleticheskaya-modalnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t239",
+   "subject": "operator-o-obyazatelno",
+   "predicate": "принадлежит семейству",
+   "object": "semeystvo-deonticheskaya-modalnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t240",
+   "subject": "operator-k-izvestno",
+   "predicate": "принадлежит семейству",
+   "object": "semeystvo-epistemicheskaya-modalnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t241",
+   "subject": "operator-g-vsegda-v-buduschem",
+   "predicate": "двойственен оператору",
+   "object": "operator-f-kogda-nibud-v-buduschem",
+   "sourceId": "src-prior",
+   "sourceName": "Prior A. N. Past, Present and Future. Oxford University Press, 1967",
+   "sourceType": "book",
+   "updatedAt": "1967-01-01"
+  },
+  {
+   "id": "t242",
+   "subject": "operator-h-vsegda-v-proshlom",
+   "predicate": "двойственен оператору",
+   "object": "operator-p-kogda-to-v-proshlom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t243",
+   "subject": "operator-x-sleduyuschiy",
+   "predicate": "двойственен оператору",
+   "object": "operator-y-predyduschiy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t244",
+   "subject": "operator-neobhodimo",
+   "predicate": "двойственен оператору",
+   "object": "operator-vozmozhno",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t245",
+   "subject": "operator-g-vsegda-v-buduschem",
+   "predicate": "подчиняется аксиоме",
+   "object": "aksioma-g",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t246",
+   "subject": "operator-g-vsegda-v-buduschem",
+   "predicate": "подчиняется аксиоме",
+   "object": "aksioma-g-gg",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t247",
+   "subject": "operator-f-kogda-nibud-v-buduschem",
+   "predicate": "подчиняется аксиоме",
+   "object": "aksioma-f-g",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t248",
+   "subject": "operator-p-kogda-to-v-proshlom",
+   "predicate": "подчиняется аксиоме",
+   "object": "aksioma-p-h",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t249",
+   "subject": "operator-u-do-teh-por-poka",
+   "predicate": "подчиняется аксиоме",
+   "object": "aksioma-u-x-u",
+   "sourceId": "src-pnueli",
+   "sourceName": "Pnueli A. The Temporal Logic of Programs. FOCS, 1977",
+   "sourceType": "article",
+   "updatedAt": "1977-01-01"
+  },
+  {
+   "id": "t250",
+   "subject": "utverzhdenie-postavka-sostoitsya-ne-pozdnee-15-03-2026",
+   "predicate": "использует оператор",
+   "object": "operator-f-kogda-nibud-v-buduschem",
+   "sourceId": "src-prior",
+   "sourceName": "Prior A. N. Past, Present and Future. Oxford University Press, 1967",
+   "sourceType": "book",
+   "updatedAt": "1967-01-01"
+  },
+  {
+   "id": "t251",
+   "subject": "utverzhdenie-postavka-sostoitsya-ne-pozdnee-15-03-2026",
+   "predicate": "имеет условие",
+   "object": "uslovie-partiya-postavlena",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t252",
+   "subject": "utverzhdenie-postavka-sostoitsya-ne-pozdnee-15-03-2026",
+   "predicate": "имеет областью действия",
+   "object": "interval-okno-postavki-12-01-2026-15-03-2026",
+   "sourceId": "src-kamp",
+   "sourceName": "Kamp H. Tense Logic and the Theory of Linear Order. UCLA, 1968",
+   "sourceType": "dissertation",
+   "updatedAt": "1968-01-01"
+  },
+  {
+   "id": "t253",
+   "subject": "utverzhdenie-postavka-sostoitsya-ne-pozdnee-15-03-2026",
+   "predicate": "оценивается в ситуации",
+   "object": "situaciya-podpisanie-12-01-2026",
+   "sourceId": "src-kripke",
+   "sourceName": "Kripke S. Semantical Considerations on Modal Logic. Acta Philosophica Fennica, 1963",
+   "sourceType": "article",
+   "updatedAt": "1963-01-01"
+  },
+  {
+   "id": "t254",
+   "subject": "utverzhdenie-postavka-sostoitsya-ne-pozdnee-15-03-2026",
+   "predicate": "опирается на проекцию",
+   "object": "proekciya-postavka-v-srok",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t255",
+   "subject": "utverzhdenie-postavka-sostoitsya-ne-pozdnee-15-03-2026",
+   "predicate": "опровергнуто доказательством",
+   "object": "dokazatelstvo-nakladnaya-031",
+   "sourceId": "src-register",
+   "sourceName": "Демонстрационный журнал исполнения договора",
+   "sourceType": "example",
+   "updatedAt": "2026-11-14"
+  },
+  {
+   "id": "t256",
+   "subject": "utverzhdenie-postavka-sostoitsya-ne-pozdnee-15-03-2026",
+   "predicate": "опровергнуто доказательством",
+   "object": "dokazatelstvo-vypiska-iz-zhurnala-na-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t257",
+   "subject": "utverzhdenie-postavka-sostoyalas-20-03-2026",
+   "predicate": "использует оператор",
+   "object": "operator-p-kogda-to-v-proshlom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t258",
+   "subject": "utverzhdenie-postavka-sostoyalas-20-03-2026",
+   "predicate": "имеет условие",
+   "object": "uslovie-partiya-postavlena",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t259",
+   "subject": "utverzhdenie-postavka-sostoyalas-20-03-2026",
+   "predicate": "оценивается в ситуации",
+   "object": "situaciya-priemka-23-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t260",
+   "subject": "utverzhdenie-postavka-sostoyalas-20-03-2026",
+   "predicate": "подтверждено доказательством",
+   "object": "dokazatelstvo-nakladnaya-031",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t261",
+   "subject": "utverzhdenie-na-protyazhenii-sroka-deystviya-dogovora-soblyudaetsya-konfidencialnost",
+   "predicate": "использует оператор",
+   "object": "operator-g-vsegda-v-buduschem",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t262",
+   "subject": "utverzhdenie-na-protyazhenii-sroka-deystviya-dogovora-soblyudaetsya-konfidencialnost",
+   "predicate": "имеет условие",
+   "object": "uslovie-soblyudaetsya-konfidencialnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t263",
+   "subject": "utverzhdenie-na-protyazhenii-sroka-deystviya-dogovora-soblyudaetsya-konfidencialnost",
+   "predicate": "имеет областью действия",
+   "object": "interval-srok-deystviya-dogovora-12-01-2026-31-12-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t264",
+   "subject": "utverzhdenie-na-protyazhenii-sroka-deystviya-dogovora-soblyudaetsya-konfidencialnost",
+   "predicate": "оценивается в ситуации",
+   "object": "situaciya-srok-deystviya-dogovora",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t265",
+   "subject": "utverzhdenie-neustoyka-nachislyaetsya-do-momenta-postavki",
+   "predicate": "использует оператор",
+   "object": "operator-u-do-teh-por-poka",
+   "sourceId": "src-kamp",
+   "sourceName": "Kamp H. Tense Logic and the Theory of Linear Order. UCLA, 1968",
+   "sourceType": "dissertation",
+   "updatedAt": "1968-01-01"
+  },
+  {
+   "id": "t266",
+   "subject": "utverzhdenie-neustoyka-nachislyaetsya-do-momenta-postavki",
+   "predicate": "имеет условие",
+   "object": "uslovie-nachislyaetsya-neustoyka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t267",
+   "subject": "utverzhdenie-neustoyka-nachislyaetsya-do-momenta-postavki",
+   "predicate": "завершается условием",
+   "object": "uslovie-partiya-postavlena",
+   "sourceId": "src-kamp",
+   "sourceName": "Kamp H. Tense Logic and the Theory of Linear Order. UCLA, 1968",
+   "sourceType": "dissertation",
+   "updatedAt": "1968-01-01"
+  },
+  {
+   "id": "t268",
+   "subject": "utverzhdenie-neustoyka-nachislyaetsya-do-momenta-postavki",
+   "predicate": "имеет областью действия",
+   "object": "interval-period-prosrochki-16-03-2026-19-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t269",
+   "subject": "utverzhdenie-neustoyka-nachislyaetsya-do-momenta-postavki",
+   "predicate": "оценивается в ситуации",
+   "object": "situaciya-postavka-20-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t270",
+   "subject": "utverzhdenie-neustoyka-nachislyaetsya-do-momenta-postavki",
+   "predicate": "подтверждено доказательством",
+   "object": "dokazatelstvo-vypiska-iz-zhurnala-na-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t271",
+   "subject": "utverzhdenie-neustoyka-nachislyaetsya-do-momenta-postavki",
+   "predicate": "подтверждено доказательством",
+   "object": "dokazatelstvo-nakladnaya-031",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t272",
+   "subject": "utverzhdenie-posle-priemki-obyazatelstvo-po-postavke-prekrascheno",
+   "predicate": "использует оператор",
+   "object": "operator-s-s-teh-por-kak",
+   "sourceId": "src-kamp",
+   "sourceName": "Kamp H. Tense Logic and the Theory of Linear Order. UCLA, 1968",
+   "sourceType": "dissertation",
+   "updatedAt": "1968-01-01"
+  },
+  {
+   "id": "t273",
+   "subject": "utverzhdenie-posle-priemki-obyazatelstvo-po-postavke-prekrascheno",
+   "predicate": "имеет условие",
+   "object": "uslovie-obyazatelstvo-po-postavke-prekrascheno",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t274",
+   "subject": "utverzhdenie-posle-priemki-obyazatelstvo-po-postavke-prekrascheno",
+   "predicate": "отсчитывается от условия",
+   "object": "uslovie-partiya-prinyata",
+   "sourceId": "src-kamp",
+   "sourceName": "Kamp H. Tense Logic and the Theory of Linear Order. UCLA, 1968",
+   "sourceType": "dissertation",
+   "updatedAt": "1968-01-01"
+  },
+  {
+   "id": "t275",
+   "subject": "utverzhdenie-posle-priemki-obyazatelstvo-po-postavke-prekrascheno",
+   "predicate": "оценивается в ситуации",
+   "object": "situaciya-priemka-23-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t276",
+   "subject": "utverzhdenie-posle-priemki-obyazatelstvo-po-postavke-prekrascheno",
+   "predicate": "подтверждено доказательством",
+   "object": "dokazatelstvo-akt-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t277",
+   "subject": "utverzhdenie-sleduyuschim-sobytiem-posle-postavki-budet-priemka",
+   "predicate": "использует оператор",
+   "object": "operator-x-sleduyuschiy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t278",
+   "subject": "utverzhdenie-sleduyuschim-sobytiem-posle-postavki-budet-priemka",
+   "predicate": "имеет условие",
+   "object": "uslovie-partiya-prinyata",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t279",
+   "subject": "utverzhdenie-sleduyuschim-sobytiem-posle-postavki-budet-priemka",
+   "predicate": "оценивается в ситуации",
+   "object": "situaciya-postavka-20-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t280",
+   "subject": "utverzhdenie-sleduyuschim-sobytiem-posle-postavki-budet-priemka",
+   "predicate": "подтверждено доказательством",
+   "object": "dokazatelstvo-akt-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t281",
+   "subject": "utverzhdenie-oplata-obyazatelna-v-techenie-30-dney-posle-postavki",
+   "predicate": "использует оператор",
+   "object": "operator-o-obyazatelno",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t282",
+   "subject": "utverzhdenie-oplata-obyazatelna-v-techenie-30-dney-posle-postavki",
+   "predicate": "включает утверждение",
+   "object": "utverzhdenie-oplata-budet-proizvedena-v-okne-20-03-19-04-2026",
+   "sourceId": "src-pnueli",
+   "sourceName": "Pnueli A. The Temporal Logic of Programs. FOCS, 1977",
+   "sourceType": "article",
+   "updatedAt": "1977-01-01"
+  },
+  {
+   "id": "t283",
+   "subject": "utverzhdenie-oplata-obyazatelna-v-techenie-30-dney-posle-postavki",
+   "predicate": "оценивается в ситуации",
+   "object": "situaciya-postavka-20-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t284",
+   "subject": "utverzhdenie-oplata-budet-proizvedena-v-okne-20-03-19-04-2026",
+   "predicate": "использует оператор",
+   "object": "operator-f-kogda-nibud-v-buduschem",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t285",
+   "subject": "utverzhdenie-oplata-budet-proizvedena-v-okne-20-03-19-04-2026",
+   "predicate": "имеет условие",
+   "object": "uslovie-schet-oplachen",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t286",
+   "subject": "utverzhdenie-oplata-budet-proizvedena-v-okne-20-03-19-04-2026",
+   "predicate": "имеет областью действия",
+   "object": "interval-okno-oplaty-20-03-2026-19-04-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t287",
+   "subject": "utverzhdenie-oplata-budet-proizvedena-v-okne-20-03-19-04-2026",
+   "predicate": "оценивается в ситуации",
+   "object": "situaciya-postavka-20-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t288",
+   "subject": "utverzhdenie-oplata-budet-proizvedena-v-okne-20-03-19-04-2026",
+   "predicate": "подтверждено доказательством",
+   "object": "dokazatelstvo-vypiska-po-schetu-10-04-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t289",
+   "subject": "utverzhdenie-postavka-mogla-sostoyatsya-k-15-03-2026",
+   "predicate": "использует оператор",
+   "object": "operator-vozmozhno",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t290",
+   "subject": "utverzhdenie-postavka-mogla-sostoyatsya-k-15-03-2026",
+   "predicate": "включает утверждение",
+   "object": "utverzhdenie-postavka-sostoitsya-ne-pozdnee-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t291",
+   "subject": "utverzhdenie-postavka-mogla-sostoyatsya-k-15-03-2026",
+   "predicate": "оценивается в ситуации",
+   "object": "situaciya-podpisanie-12-01-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t292",
+   "subject": "utverzhdenie-postavka-mogla-sostoyatsya-k-15-03-2026",
+   "predicate": "опирается на проекцию",
+   "object": "proekciya-postavka-v-srok",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t293",
+   "subject": "utverzhdenie-k-15-03-2026-postavka-ne-sostoyalas",
+   "predicate": "использует оператор",
+   "object": "operator-p-kogda-to-v-proshlom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t294",
+   "subject": "utverzhdenie-k-15-03-2026-postavka-ne-sostoyalas",
+   "predicate": "имеет условие",
+   "object": "uslovie-partiya-postavlena",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t295",
+   "subject": "utverzhdenie-k-15-03-2026-postavka-ne-sostoyalas",
+   "predicate": "оценивается в ситуации",
+   "object": "situaciya-istechenie-sroka-postavki-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t296",
+   "subject": "utverzhdenie-k-15-03-2026-postavka-ne-sostoyalas",
+   "predicate": "подтверждено доказательством",
+   "object": "dokazatelstvo-vypiska-iz-zhurnala-na-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t297",
+   "subject": "utverzhdenie-k-15-03-2026-postavka-ne-sostoyalas",
+   "predicate": "противоречит утверждению",
+   "object": "utverzhdenie-postavka-sostoitsya-ne-pozdnee-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t298",
+   "subject": "utverzhdenie-neustoyka-nachislyalas-17-03-2026",
+   "predicate": "использует оператор",
+   "object": "operator-p-kogda-to-v-proshlom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t299",
+   "subject": "utverzhdenie-neustoyka-nachislyalas-17-03-2026",
+   "predicate": "имеет условие",
+   "object": "uslovie-nachislyaetsya-neustoyka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t300",
+   "subject": "utverzhdenie-neustoyka-nachislyalas-17-03-2026",
+   "predicate": "оценивается в ситуации",
+   "object": "situaciya-postavka-20-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t301",
+   "subject": "utverzhdenie-neustoyka-nachislyaetsya-do-momenta-postavki",
+   "predicate": "влечёт утверждение",
+   "object": "utverzhdenie-neustoyka-nachislyalas-17-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t302",
+   "subject": "utverzhdenie-neustoyka-nachislyalas-17-03-2026",
+   "predicate": "подтверждено доказательством",
+   "object": "dokazatelstvo-vypiska-iz-zhurnala-na-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t303",
+   "subject": "invariant-konfidencialnost-na-vsem-sroke-deystviya",
+   "predicate": "действует на регионе",
+   "object": "interval-srok-deystviya-dogovora-12-01-2026-31-12-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t304",
+   "subject": "invariant-konfidencialnost-na-vsem-sroke-deystviya",
+   "predicate": "ограничивает утверждение",
+   "object": "utverzhdenie-na-protyazhenii-sroka-deystviya-dogovora-soblyudaetsya-konfidencialnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t305",
+   "subject": "invariant-oplata-ne-ranshe-postavki",
+   "predicate": "действует на регионе",
+   "object": "interval-srok-deystviya-dogovora-12-01-2026-31-12-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t306",
+   "subject": "invariant-oplata-ne-ranshe-postavki",
+   "predicate": "ограничивает утверждение",
+   "object": "utverzhdenie-oplata-obyazatelna-v-techenie-30-dney-posle-postavki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t307",
+   "subject": "ogranichenie-priemka-posle-postavki",
+   "predicate": "относится к объекту",
+   "object": "dogovor-postavka-2026-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t308",
+   "subject": "ogranichenie-priemka-posle-postavki",
+   "predicate": "предшествующее событие",
+   "object": "sobytie-postavka-partii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t309",
+   "subject": "ogranichenie-priemka-posle-postavki",
+   "predicate": "последующее событие",
+   "object": "sobytie-priemka-partii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t310",
+   "subject": "ogranichenie-priemka-posle-postavki",
+   "predicate": "выполнено согласно записи",
+   "object": "zapis-akt-priemki-23-03-2026",
+   "sourceId": "src-contract",
+   "sourceName": "Демонстрационный договор поставки «Поставка-2026/14»",
+   "sourceType": "example",
+   "updatedAt": "2026-11-14"
+  },
+  {
+   "id": "t311",
+   "subject": "ogranichenie-oplata-v-techenie-30-dney",
+   "predicate": "относится к объекту",
+   "object": "dogovor-postavka-2026-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t312",
+   "subject": "ogranichenie-oplata-v-techenie-30-dney",
+   "predicate": "задаёт окно",
+   "object": "interval-okno-oplaty-20-03-2026-19-04-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t313",
+   "subject": "ogranichenie-oplata-v-techenie-30-dney",
+   "predicate": "выполнено согласно записи",
+   "object": "zapis-platezhnoe-poruchenie-10-04-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t314",
+   "subject": "ogranichenie-postavka-ne-pozdnee-15-03-2026",
+   "predicate": "относится к объекту",
+   "object": "dogovor-postavka-2026-14",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t315",
+   "subject": "ogranichenie-postavka-ne-pozdnee-15-03-2026",
+   "predicate": "задаёт окно",
+   "object": "interval-okno-postavki-12-01-2026-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t316",
+   "subject": "ogranichenie-postavka-ne-pozdnee-15-03-2026",
+   "predicate": "нарушено согласно записи",
+   "object": "zapis-tovarnaya-nakladnaya-20-03-2026",
+   "sourceId": "src-contract",
+   "sourceName": "Демонстрационный договор поставки «Поставка-2026/14»",
+   "sourceType": "example",
+   "updatedAt": "2026-11-14"
+  },
+  {
+   "id": "t317",
+   "subject": "zapis-tovarnaya-nakladnaya-20-03-2026",
+   "predicate": "датирована меткой",
+   "object": "metka-2026-03-20t14-20z",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t318",
+   "subject": "zapis-tovarnaya-nakladnaya-20-03-2026",
+   "predicate": "фиксирует событие",
+   "object": "sobytie-postavka-partii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t319",
+   "subject": "zapis-tovarnaya-nakladnaya-20-03-2026",
+   "predicate": "обосновывает доказательство",
+   "object": "dokazatelstvo-nakladnaya-031",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t320",
+   "subject": "zapis-akt-priemki-23-03-2026",
+   "predicate": "датирована меткой",
+   "object": "metka-2026-03-23t11-00z",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t321",
+   "subject": "zapis-akt-priemki-23-03-2026",
+   "predicate": "фиксирует событие",
+   "object": "sobytie-priemka-partii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t322",
+   "subject": "zapis-akt-priemki-23-03-2026",
+   "predicate": "обосновывает доказательство",
+   "object": "dokazatelstvo-akt-14",
+   "sourceId": "src-contract",
+   "sourceName": "Демонстрационный договор поставки «Поставка-2026/14»",
+   "sourceType": "example",
+   "updatedAt": "2026-11-14"
+  },
+  {
+   "id": "t323",
+   "subject": "zapis-platezhnoe-poruchenie-10-04-2026",
+   "predicate": "датирована меткой",
+   "object": "metka-2026-04-10t09-30z",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t324",
+   "subject": "zapis-platezhnoe-poruchenie-10-04-2026",
+   "predicate": "фиксирует событие",
+   "object": "sobytie-oplata-scheta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t325",
+   "subject": "zapis-platezhnoe-poruchenie-10-04-2026",
+   "predicate": "обосновывает доказательство",
+   "object": "dokazatelstvo-vypiska-po-schetu-10-04-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t326",
+   "subject": "zapis-zhurnal-dogovora-15-03-2026",
+   "predicate": "датирована меткой",
+   "object": "metka-2026-03-15t23-59z",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t327",
+   "subject": "zapis-zhurnal-dogovora-15-03-2026",
+   "predicate": "фиксирует событие",
+   "object": "sobytie-istechenie-sroka-postavki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t328",
+   "subject": "zapis-zhurnal-dogovora-15-03-2026",
+   "predicate": "обосновывает доказательство",
+   "object": "dokazatelstvo-vypiska-iz-zhurnala-na-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t329",
+   "subject": "dokazatelstvo-nakladnaya-031",
+   "predicate": "подтверждает утверждение",
+   "object": "utverzhdenie-postavka-sostoyalas-20-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t330",
+   "subject": "dokazatelstvo-nakladnaya-031",
+   "predicate": "опровергает утверждение",
+   "object": "utverzhdenie-postavka-sostoitsya-ne-pozdnee-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t331",
+   "subject": "dokazatelstvo-akt-14",
+   "predicate": "подтверждает утверждение",
+   "object": "utverzhdenie-posle-priemki-obyazatelstvo-po-postavke-prekrascheno",
+   "sourceId": "src-contract",
+   "sourceName": "Демонстрационный договор поставки «Поставка-2026/14»",
+   "sourceType": "example",
+   "updatedAt": "2026-11-14"
+  },
+  {
+   "id": "t332",
+   "subject": "dokazatelstvo-akt-14",
+   "predicate": "подтверждает утверждение",
+   "object": "utverzhdenie-sleduyuschim-sobytiem-posle-postavki-budet-priemka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t333",
+   "subject": "dokazatelstvo-vypiska-po-schetu-10-04-2026",
+   "predicate": "подтверждает утверждение",
+   "object": "utverzhdenie-oplata-budet-proizvedena-v-okne-20-03-19-04-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t334",
+   "subject": "dokazatelstvo-vypiska-iz-zhurnala-na-15-03-2026",
+   "predicate": "подтверждает утверждение",
+   "object": "utverzhdenie-k-15-03-2026-postavka-ne-sostoyalas",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t335",
+   "subject": "dokazatelstvo-vypiska-iz-zhurnala-na-15-03-2026",
+   "predicate": "подтверждает утверждение",
+   "object": "utverzhdenie-neustoyka-nachislyaetsya-do-momenta-postavki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t336",
+   "subject": "dokazatelstvo-vypiska-iz-zhurnala-na-15-03-2026",
+   "predicate": "опровергает утверждение",
+   "object": "utverzhdenie-postavka-sostoitsya-ne-pozdnee-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t337",
+   "subject": "sobytie-podpisanie-dogovora",
+   "predicate": "происходит на регионе",
+   "object": "moment-12-01-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t338",
+   "subject": "sobytie-istechenie-sroka-postavki",
+   "predicate": "происходит на регионе",
+   "object": "moment-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t339",
+   "subject": "sobytie-postavka-partii",
+   "predicate": "происходит на регионе",
+   "object": "moment-20-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t340",
+   "subject": "sobytie-priemka-partii",
+   "predicate": "происходит на регионе",
+   "object": "moment-23-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t341",
+   "subject": "sobytie-oplata-scheta",
+   "predicate": "происходит на регионе",
+   "object": "moment-10-04-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t342",
+   "subject": "sobytie-priemka-partii",
+   "predicate": "непосредственно следует за",
+   "object": "sobytie-postavka-partii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t343",
+   "subject": "proekciya-postavka-v-srok",
+   "predicate": "строится из ситуации",
+   "object": "situaciya-podpisanie-12-01-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t344",
+   "subject": "proekciya-postavka-v-srok",
+   "predicate": "обоснована диспозицией",
+   "object": "dispoziciya-gotovnost-sklada-k-otgruzke",
+   "sourceId": "src-bfo-book",
+   "sourceName": "Arp R., Smith B., Spear A. Building Ontologies with Basic Formal Ontology. MIT Press, 2015",
+   "sourceType": "book",
+   "updatedAt": "2015-08-01"
+  },
+  {
+   "id": "t345",
+   "subject": "proekciya-postavka-v-srok",
+   "predicate": "допускает утверждение",
+   "object": "utverzhdenie-postavka-sostoitsya-ne-pozdnee-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t346",
+   "subject": "proekciya-prosrochka-na-4-dnya",
+   "predicate": "строится из ситуации",
+   "object": "situaciya-podpisanie-12-01-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t347",
+   "subject": "proekciya-prosrochka-na-4-dnya",
+   "predicate": "обоснована диспозицией",
+   "object": "dispoziciya-zaderzhka-transporta-na-marshrute",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t348",
+   "subject": "proekciya-prosrochka-na-4-dnya",
+   "predicate": "допускает утверждение",
+   "object": "utverzhdenie-k-15-03-2026-postavka-ne-sostoyalas",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t349",
+   "subject": "rekonstrukciya-sostoyanie-ispolneniya-na-15-03-2026",
+   "predicate": "восстановлена по записи",
+   "object": "zapis-zhurnal-dogovora-15-03-2026",
+   "sourceId": "src-register",
+   "sourceName": "Демонстрационный журнал исполнения договора",
+   "sourceType": "example",
+   "updatedAt": "2026-11-14"
+  },
+  {
+   "id": "t350",
+   "subject": "utverzhdenie-k-15-03-2026-postavka-ne-sostoyalas",
+   "predicate": "восстановлено реконструкцией",
+   "object": "rekonstrukciya-sostoyanie-ispolneniya-na-15-03-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t351",
+   "subject": "dostizhimost-buduschee",
+   "predicate": "обладает свойством",
+   "object": "svoystvo-refleksivnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t352",
+   "subject": "dostizhimost-buduschee",
+   "predicate": "обладает свойством",
+   "object": "svoystvo-tranzitivnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t353",
+   "subject": "dostizhimost-buduschee",
+   "predicate": "обладает свойством",
+   "object": "svoystvo-lineynost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t354",
+   "subject": "dostizhimost-buduschee",
+   "predicate": "обладает свойством",
+   "object": "svoystvo-diskretnost",
+   "sourceId": "src-kripke",
+   "sourceName": "Kripke S. Semantical Considerations on Modal Logic. Acta Philosophica Fennica, 1963",
+   "sourceType": "article",
+   "updatedAt": "1963-01-01"
+  },
+  {
+   "id": "t355",
+   "subject": "dostizhimost-proshloe",
+   "predicate": "обладает свойством",
+   "object": "svoystvo-refleksivnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t356",
+   "subject": "dostizhimost-proshloe",
+   "predicate": "обладает свойством",
+   "object": "svoystvo-tranzitivnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t357",
+   "subject": "dostizhimost-proshloe",
+   "predicate": "обладает свойством",
+   "object": "svoystvo-lineynost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t358",
+   "subject": "dostizhimost-proshloe",
+   "predicate": "обладает свойством",
+   "object": "svoystvo-diskretnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t359",
+   "subject": "ramka-lineynoe-diskretnoe-vremya",
+   "predicate": "задаёт достижимость",
+   "object": "dostizhimost-buduschee",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t360",
+   "subject": "ramka-lineynoe-diskretnoe-vremya",
+   "predicate": "задаёт достижимость",
+   "object": "dostizhimost-proshloe",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t361",
+   "subject": "ramka-refleksivnoe-tranzitivnoe-vremya",
+   "predicate": "задаёт достижимость",
+   "object": "dostizhimost-buduschee",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t362",
+   "subject": "ramka-vetvyascheesya-vremya",
+   "predicate": "задаёт достижимость",
+   "object": "dostizhimost-buduschee",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t363",
+   "subject": "sistema-s4t-refleksivnaya-i-tranzitivnaya",
+   "predicate": "характеризуется рамкой",
+   "object": "ramka-refleksivnoe-tranzitivnoe-vremya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t364",
+   "subject": "sistema-pltl-lineynaya-diskretnaya",
+   "predicate": "характеризуется рамкой",
+   "object": "ramka-lineynoe-diskretnoe-vremya",
+   "sourceId": "src-pnueli",
+   "sourceName": "Pnueli A. The Temporal Logic of Programs. FOCS, 1977",
+   "sourceType": "article",
+   "updatedAt": "1977-01-01"
+  },
+  {
+   "id": "t365",
+   "subject": "sistema-ctl-vetvyaschayasya",
+   "predicate": "характеризуется рамкой",
+   "object": "ramka-vetvyascheesya-vremya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t366",
+   "subject": "sistema-kt-minimalnaya-temporalnaya",
+   "predicate": "допускает оператор",
+   "object": "operator-g-vsegda-v-buduschem",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t367",
+   "subject": "sistema-kt-minimalnaya-temporalnaya",
+   "predicate": "допускает оператор",
+   "object": "operator-f-kogda-nibud-v-buduschem",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t368",
+   "subject": "sistema-s4t-refleksivnaya-i-tranzitivnaya",
+   "predicate": "допускает оператор",
+   "object": "operator-g-vsegda-v-buduschem",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t369",
+   "subject": "sistema-s4t-refleksivnaya-i-tranzitivnaya",
+   "predicate": "допускает оператор",
+   "object": "operator-f-kogda-nibud-v-buduschem",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t370",
+   "subject": "sistema-pltl-lineynaya-diskretnaya",
+   "predicate": "допускает оператор",
+   "object": "operator-g-vsegda-v-buduschem",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t371",
+   "subject": "sistema-pltl-lineynaya-diskretnaya",
+   "predicate": "допускает оператор",
+   "object": "operator-f-kogda-nibud-v-buduschem",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t372",
+   "subject": "sistema-pltl-lineynaya-diskretnaya",
+   "predicate": "допускает оператор",
+   "object": "operator-x-sleduyuschiy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t373",
+   "subject": "sistema-pltl-lineynaya-diskretnaya",
+   "predicate": "допускает оператор",
+   "object": "operator-u-do-teh-por-poka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t374",
+   "subject": "sistema-ctl-vetvyaschayasya",
+   "predicate": "допускает оператор",
+   "object": "operator-f-kogda-nibud-v-buduschem",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t375",
+   "subject": "sistema-ctl-vetvyaschayasya",
+   "predicate": "допускает оператор",
+   "object": "operator-x-sleduyuschiy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t376",
+   "subject": "sistema-ctl-vetvyaschayasya",
+   "predicate": "допускает оператор",
+   "object": "operator-u-do-teh-por-poka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t377",
+   "subject": "aksioma-g",
+   "predicate": "истинна в системе",
+   "object": "sistema-s4t-refleksivnaya-i-tranzitivnaya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t378",
+   "subject": "aksioma-g",
+   "predicate": "истинна в системе",
+   "object": "sistema-pltl-lineynaya-diskretnaya",
+   "sourceId": "src-pnueli",
+   "sourceName": "Pnueli A. The Temporal Logic of Programs. FOCS, 1977",
+   "sourceType": "article",
+   "updatedAt": "1977-01-01"
+  },
+  {
+   "id": "t379",
+   "subject": "aksioma-g-gg",
+   "predicate": "истинна в системе",
+   "object": "sistema-s4t-refleksivnaya-i-tranzitivnaya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t380",
+   "subject": "aksioma-g-gg",
+   "predicate": "истинна в системе",
+   "object": "sistema-pltl-lineynaya-diskretnaya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t381",
+   "subject": "aksioma-f-g",
+   "predicate": "истинна в системе",
+   "object": "sistema-kt-minimalnaya-temporalnaya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t382",
+   "subject": "aksioma-f-g",
+   "predicate": "истинна в системе",
+   "object": "sistema-pltl-lineynaya-diskretnaya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t383",
+   "subject": "aksioma-p-h",
+   "predicate": "истинна в системе",
+   "object": "sistema-kt-minimalnaya-temporalnaya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t384",
+   "subject": "aksioma-p-h",
+   "predicate": "истинна в системе",
+   "object": "sistema-pltl-lineynaya-diskretnaya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t385",
+   "subject": "aksioma-u-x-u",
+   "predicate": "истинна в системе",
+   "object": "sistema-pltl-lineynaya-diskretnaya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  }
+ ]
+}

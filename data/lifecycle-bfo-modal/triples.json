@@ -1,0 +1,1614 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "nezavisimyy-kontinuant",
+   "predicate": "является подклассом",
+   "object": "kontinuant",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "specificheski-zavisimyy-kontinuant",
+   "predicate": "является подклассом",
+   "object": "kontinuant",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t003",
+   "subject": "genericheski-zavisimyy-kontinuant",
+   "predicate": "является подклассом",
+   "object": "kontinuant",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "class-materialnaya-suschnost",
+   "predicate": "является подклассом",
+   "object": "nezavisimyy-kontinuant",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "kachestvo",
+   "predicate": "является подклассом",
+   "object": "specificheski-zavisimyy-kontinuant",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "dispoziciya",
+   "predicate": "является подклассом",
+   "object": "specificheski-zavisimyy-kontinuant",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "rol",
+   "predicate": "является подклассом",
+   "object": "specificheski-zavisimyy-kontinuant",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t008",
+   "subject": "informacionnaya-suschnost",
+   "predicate": "является подклассом",
+   "object": "genericheski-zavisimyy-kontinuant",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "process",
+   "predicate": "является подклассом",
+   "object": "okkurrent",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t010",
+   "subject": "granica-processa",
+   "predicate": "является подклассом",
+   "object": "okkurrent",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t011",
+   "subject": "istoriya",
+   "predicate": "является подклассом",
+   "object": "process",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t012",
+   "subject": "class-zhiznennyy-cikl",
+   "predicate": "является подклассом",
+   "object": "istoriya",
+   "sourceId": "src-bfo",
+   "sourceName": "BFO 2.0: Basic Formal Ontology",
+   "sourceType": "standard",
+   "updatedAt": "2020-09-01"
+  },
+  {
+   "id": "t013",
+   "subject": "class-fakticheskaya-traektoriya",
+   "predicate": "является подклассом",
+   "object": "istoriya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t014",
+   "subject": "class-faza-zhiznennogo-cikla",
+   "predicate": "является подклассом",
+   "object": "process",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "class-perehod",
+   "predicate": "является подклассом",
+   "object": "process",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "class-sobytie-zhiznennogo-cikla",
+   "predicate": "является подклассом",
+   "object": "process",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "class-kontrolnaya-tochka",
+   "predicate": "является подклассом",
+   "object": "process",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t018",
+   "subject": "class-granica-fazy",
+   "predicate": "является подклассом",
+   "object": "granica-processa",
+   "sourceId": "src-bfo",
+   "sourceName": "BFO 2.0: Basic Formal Ontology",
+   "sourceType": "standard",
+   "updatedAt": "2020-09-01"
+  },
+  {
+   "id": "t019",
+   "subject": "class-status-zhiznennogo-cikla",
+   "predicate": "является подклассом",
+   "object": "rol",
+   "sourceId": "src-bfo",
+   "sourceName": "BFO 2.0: Basic Formal Ontology",
+   "sourceType": "standard",
+   "updatedAt": "2020-09-01"
+  },
+  {
+   "id": "t020",
+   "subject": "class-rol-otvetstvennogo",
+   "predicate": "является подклассом",
+   "object": "rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "deonticheskiy-status",
+   "predicate": "является подклассом",
+   "object": "rol",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t022",
+   "subject": "class-obyazatelstvo",
+   "predicate": "является подклассом",
+   "object": "deonticheskiy-status",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t023",
+   "subject": "class-razreshenie",
+   "predicate": "является подклассом",
+   "object": "deonticheskiy-status",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t024",
+   "subject": "class-zapreschenie",
+   "predicate": "является подклассом",
+   "object": "deonticheskiy-status",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t025",
+   "subject": "class-dispoziciya-k-perehodu",
+   "predicate": "является подклассом",
+   "object": "dispoziciya",
+   "sourceId": "src-bfo",
+   "sourceName": "BFO 2.0: Basic Formal Ontology",
+   "sourceType": "standard",
+   "updatedAt": "2020-09-01"
+  },
+  {
+   "id": "t026",
+   "subject": "class-modalnoe-utverzhdenie",
+   "predicate": "является подклассом",
+   "object": "informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t027",
+   "subject": "class-scenariy",
+   "predicate": "является подклассом",
+   "object": "informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t028",
+   "subject": "class-kontrfakticheskiy-scenariy",
+   "predicate": "является подклассом",
+   "object": "class-scenariy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t029",
+   "subject": "class-invariant-zhiznennogo-cikla",
+   "predicate": "является подклассом",
+   "object": "informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t030",
+   "subject": "kriteriy",
+   "predicate": "является подклассом",
+   "object": "informacionnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t031",
+   "subject": "class-kriteriy-vhoda",
+   "predicate": "является подклассом",
+   "object": "kriteriy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t032",
+   "subject": "class-kriteriy-zaversheniya",
+   "predicate": "является подклассом",
+   "object": "kriteriy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t033",
+   "subject": "server-bd-01",
+   "predicate": "имеет тип",
+   "object": "class-materialnaya-suschnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t034",
+   "subject": "zhiznennyy-cikl-servera-bd-01",
+   "predicate": "имеет тип",
+   "object": "class-zhiznennyy-cikl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t035",
+   "subject": "zhiznennyy-cikl-servera-bd-01",
+   "predicate": "является жизненным циклом",
+   "object": "server-bd-01",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t036",
+   "subject": "faza-planirovanie",
+   "predicate": "имеет тип",
+   "object": "class-faza-zhiznennogo-cikla",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t037",
+   "subject": "faza-zakupka",
+   "predicate": "имеет тип",
+   "object": "class-faza-zhiznennogo-cikla",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t038",
+   "subject": "faza-vvod-v-ekspluataciyu",
+   "predicate": "имеет тип",
+   "object": "class-faza-zhiznennogo-cikla",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t039",
+   "subject": "faza-ekspluataciya",
+   "predicate": "имеет тип",
+   "object": "class-faza-zhiznennogo-cikla",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t040",
+   "subject": "faza-obsluzhivanie",
+   "predicate": "имеет тип",
+   "object": "class-faza-zhiznennogo-cikla",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t041",
+   "subject": "faza-vyvod-iz-ekspluatacii",
+   "predicate": "имеет тип",
+   "object": "class-faza-zhiznennogo-cikla",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t042",
+   "subject": "zhiznennyy-cikl-servera-bd-01",
+   "predicate": "имеет фазу",
+   "object": "faza-planirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t043",
+   "subject": "zhiznennyy-cikl-servera-bd-01",
+   "predicate": "имеет фазу",
+   "object": "faza-zakupka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t044",
+   "subject": "zhiznennyy-cikl-servera-bd-01",
+   "predicate": "имеет фазу",
+   "object": "faza-vvod-v-ekspluataciyu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t045",
+   "subject": "zhiznennyy-cikl-servera-bd-01",
+   "predicate": "имеет фазу",
+   "object": "faza-ekspluataciya",
+   "sourceId": "src-example",
+   "sourceName": "Демонстрационный пример жизненного цикла сервера БД-01",
+   "sourceType": "example",
+   "updatedAt": "2026-11-13"
+  },
+  {
+   "id": "t046",
+   "subject": "zhiznennyy-cikl-servera-bd-01",
+   "predicate": "имеет фазу",
+   "object": "faza-obsluzhivanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t047",
+   "subject": "zhiznennyy-cikl-servera-bd-01",
+   "predicate": "имеет фазу",
+   "object": "faza-vyvod-iz-ekspluatacii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t048",
+   "subject": "faza-ekspluataciya",
+   "predicate": "является фазой",
+   "object": "zhiznennyy-cikl-servera-bd-01",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t049",
+   "subject": "faza-ekspluataciya",
+   "predicate": "имеет участника",
+   "object": "server-bd-01",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t050",
+   "subject": "faza-planirovanie",
+   "predicate": "предшествует фазе",
+   "object": "faza-zakupka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t051",
+   "subject": "faza-zakupka",
+   "predicate": "предшествует фазе",
+   "object": "faza-vvod-v-ekspluataciyu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t052",
+   "subject": "faza-vvod-v-ekspluataciyu",
+   "predicate": "предшествует фазе",
+   "object": "faza-ekspluataciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t053",
+   "subject": "faza-ekspluataciya",
+   "predicate": "предшествует фазе",
+   "object": "faza-obsluzhivanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t054",
+   "subject": "faza-obsluzhivanie",
+   "predicate": "предшествует фазе",
+   "object": "faza-vyvod-iz-ekspluatacii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t055",
+   "subject": "zhiznennyy-cikl-servera-bd-01",
+   "predicate": "соответствует схеме",
+   "object": "shema-zhc-serverov-bd",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t056",
+   "subject": "shema-zhc-serverov-bd",
+   "predicate": "имеет тип",
+   "object": "class-shema-zhiznennogo-cikla",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t057",
+   "subject": "shema-zhc-serverov-bd",
+   "predicate": "определяет фазу",
+   "object": "faza-ekspluataciya",
+   "sourceId": "src-reglament",
+   "sourceName": "Демонстрационный регламент управления ИТ-активами",
+   "sourceType": "example",
+   "updatedAt": "2026-09-30"
+  },
+  {
+   "id": "t058",
+   "subject": "shema-zhc-serverov-bd",
+   "predicate": "определяет переход",
+   "object": "perehod-vvod-v-ekspluataciyu-12-01-2025",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t059",
+   "subject": "faza-vvod-v-ekspluataciyu",
+   "predicate": "требует критерий входа",
+   "object": "kriteriy-akt-priemki-podpisan",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t060",
+   "subject": "faza-ekspluataciya",
+   "predicate": "требует критерий завершения",
+   "object": "kriteriy-proverka-vosstanovleniya-iz-kopii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t061",
+   "subject": "faza-vyvod-iz-ekspluatacii",
+   "predicate": "требует критерий входа",
+   "object": "kriteriy-soglasovanie-vyvoda-s-vladelcem-sistemy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t062",
+   "subject": "kriteriy-akt-priemki-podpisan",
+   "predicate": "имеет тип",
+   "object": "class-kriteriy-vhoda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t063",
+   "subject": "kriteriy-proverka-vosstanovleniya-iz-kopii",
+   "predicate": "имеет тип",
+   "object": "class-kriteriy-zaversheniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t064",
+   "subject": "kriteriy-soglasovanie-vyvoda-s-vladelcem-sistemy",
+   "predicate": "имеет тип",
+   "object": "class-kriteriy-vhoda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t065",
+   "subject": "kontrolnaya-tochka-proverka-kopii-pered-vyvodom",
+   "predicate": "имеет тип",
+   "object": "class-kontrolnaya-tochka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t066",
+   "subject": "kontrolnaya-tochka-proverka-kopii-pered-vyvodom",
+   "predicate": "проверяет критерий",
+   "object": "kriteriy-proverka-vosstanovleniya-iz-kopii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t067",
+   "subject": "perehod-vvod-v-ekspluataciyu-12-01-2025",
+   "predicate": "имеет тип",
+   "object": "class-perehod",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t068",
+   "subject": "perehod-vvod-v-ekspluataciyu-12-01-2025",
+   "predicate": "переход из фазы",
+   "object": "faza-vvod-v-ekspluataciyu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t069",
+   "subject": "perehod-vvod-v-ekspluataciyu-12-01-2025",
+   "predicate": "переход в фазу",
+   "object": "faza-ekspluataciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t070",
+   "subject": "granica-fazy-vvod-zavershen-12-01-2025",
+   "predicate": "имеет тип",
+   "object": "class-granica-fazy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t071",
+   "subject": "perehod-vvod-v-ekspluataciyu-12-01-2025",
+   "predicate": "происходит в границе",
+   "object": "granica-fazy-vvod-zavershen-12-01-2025",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t072",
+   "subject": "faza-vvod-v-ekspluataciyu",
+   "predicate": "ограничена границей",
+   "object": "granica-fazy-vvod-zavershen-12-01-2025",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t073",
+   "subject": "faza-ekspluataciya",
+   "predicate": "ограничена границей",
+   "object": "granica-fazy-vvod-zavershen-12-01-2025",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t074",
+   "subject": "granica-fazy-vvod-zavershen-12-01-2025",
+   "predicate": "открывает фазу",
+   "object": "faza-ekspluataciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t075",
+   "subject": "granica-fazy-vvod-zavershen-12-01-2025",
+   "predicate": "завершает фазу",
+   "object": "faza-vvod-v-ekspluataciyu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t076",
+   "subject": "granica-fazy-vvod-zavershen-12-01-2025",
+   "predicate": "учреждает статус",
+   "object": "status-v-ekspluatacii",
+   "sourceId": "src-example",
+   "sourceName": "Демонстрационный пример жизненного цикла сервера БД-01",
+   "sourceType": "example",
+   "updatedAt": "2026-11-13"
+  },
+  {
+   "id": "t077",
+   "subject": "granica-fazy-otkaz-12-08-2026",
+   "predicate": "прекращает статус",
+   "object": "status-v-ekspluatacii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t078",
+   "subject": "status-v-ekspluatacii",
+   "predicate": "имеет тип",
+   "object": "class-status-zhiznennogo-cikla",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t079",
+   "subject": "status-v-ekspluatacii",
+   "predicate": "присущ объекту",
+   "object": "server-bd-01",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t080",
+   "subject": "status-v-ekspluatacii",
+   "predicate": "действует в фазе",
+   "object": "faza-ekspluataciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t081",
+   "subject": "faza-ekspluataciya",
+   "predicate": "длится в интервале",
+   "object": "interval-12-01-2025-12-08-2026",
+   "sourceId": "src-55000",
+   "sourceName": "ISO 55000:2014 — Asset management — Overview, principles and terminology",
+   "sourceType": "standard",
+   "updatedAt": "2014-01-01"
+  },
+  {
+   "id": "t082",
+   "subject": "interval-12-01-2025-12-08-2026",
+   "predicate": "имеет тип",
+   "object": "class-vremennoy-interval",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t083",
+   "subject": "faza-ekspluataciya",
+   "predicate": "имеет ответственного",
+   "object": "otvetstvennyy-vladelec-servera-bd-01",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t084",
+   "subject": "otvetstvennyy-vladelec-servera-bd-01",
+   "predicate": "имеет тип",
+   "object": "class-rol-otvetstvennogo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t085",
+   "subject": "server-bd-01",
+   "predicate": "имеет диспозицию",
+   "object": "dispoziciya-otkaz-diska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t086",
+   "subject": "dispoziciya-otkaz-diska",
+   "predicate": "имеет тип",
+   "object": "class-dispoziciya-k-perehodu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t087",
+   "subject": "dispoziciya-otkaz-diska",
+   "predicate": "предрасполагает к переходу",
+   "object": "perehod-avariynyy-perehod-v-obsluzhivanie-12-08-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t088",
+   "subject": "dispoziciya-otkaz-diska",
+   "predicate": "реализуется в процессе",
+   "object": "sobytie-nedostupnost-1s-2-chasa",
+   "sourceId": "src-audit",
+   "sourceName": "Демонстрационный отчёт внутреннего аудита ИТ, 2026",
+   "sourceType": "example",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t089",
+   "subject": "sobytie-nedostupnost-1s-2-chasa",
+   "predicate": "имеет тип",
+   "object": "class-sobytie-zhiznennogo-cikla",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t090",
+   "subject": "sobytie-nedostupnost-1s-2-chasa",
+   "predicate": "происходит в момент",
+   "object": "moment-12-08-2026-09-40",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t091",
+   "subject": "moment-12-08-2026-09-40",
+   "predicate": "имеет тип",
+   "object": "class-moment-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t092",
+   "subject": "perehod-avariynyy-perehod-v-obsluzhivanie-12-08-2026",
+   "predicate": "имеет тип",
+   "object": "class-perehod",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t093",
+   "subject": "utverzhdenie-otkaz-diska-vozmozhen",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t094",
+   "subject": "utverzhdenie-otkaz-diska-vozmozhen",
+   "predicate": "имеет модальный режим",
+   "object": "rezhim-aleticheskaya-vozmozhnost-s4",
+   "sourceId": "src-audit",
+   "sourceName": "Демонстрационный отчёт внутреннего аудита ИТ, 2026",
+   "sourceType": "example",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t095",
+   "subject": "utverzhdenie-otkaz-diska-vozmozhen",
+   "predicate": "касается сущности",
+   "object": "dispoziciya-otkaz-diska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t096",
+   "subject": "utverzhdenie-otkaz-diska-vozmozhen",
+   "predicate": "оценивается в ситуации",
+   "object": "situaciya-ekspluataciya-01-08-2026",
+   "sourceId": "src-audit",
+   "sourceName": "Демонстрационный отчёт внутреннего аудита ИТ, 2026",
+   "sourceType": "example",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t097",
+   "subject": "rezhim-aleticheskaya-vozmozhnost-s4",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t098",
+   "subject": "utverzhdenie-vyvod-bez-proverki-kopii-nevozmozhen",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t099",
+   "subject": "utverzhdenie-vyvod-bez-proverki-kopii-nevozmozhen",
+   "predicate": "имеет модальный режим",
+   "object": "rezhim-aleticheskaya-neobhodimost-s4",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t100",
+   "subject": "rezhim-aleticheskaya-neobhodimost-s4",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t101",
+   "subject": "utverzhdenie-vyvod-bez-proverki-kopii-nevozmozhen",
+   "predicate": "касается сущности",
+   "object": "invariant-net-vyvoda-iz-ekspluatacii-bez-proverennoy-kopii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t102",
+   "subject": "invariant-net-vyvoda-iz-ekspluatacii-bez-proverennoy-kopii",
+   "predicate": "имеет тип",
+   "object": "class-invariant-zhiznennogo-cikla",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t103",
+   "subject": "invariant-net-vyvoda-iz-ekspluatacii-bez-proverennoy-kopii",
+   "predicate": "ограничивает цикл",
+   "object": "zhiznennyy-cikl-servera-bd-01",
+   "sourceId": "src-15288",
+   "sourceName": "ISO/IEC/IEEE 15288:2023 — Systems and software engineering — System life cycle processes",
+   "sourceType": "standard",
+   "updatedAt": "2023-05-01"
+  },
+  {
+   "id": "t104",
+   "subject": "situaciya-ekspluataciya-01-08-2026",
+   "predicate": "имеет тип",
+   "object": "class-situaciya-ocenki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t105",
+   "subject": "situaciya-ekspluataciya-01-08-2026",
+   "predicate": "подчинена отношению достижимости",
+   "object": "otnoshenie-s4-refleksivno-i-tranzitivno",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t106",
+   "subject": "otnoshenie-s4-refleksivno-i-tranzitivno",
+   "predicate": "имеет тип",
+   "object": "class-otnoshenie-dostizhimosti",
+   "sourceId": "src-kripke",
+   "sourceName": "Kripke S. Semantical Considerations on Modal Logic. Acta Philosophica Fennica, 1963",
+   "sourceType": "article",
+   "updatedAt": "1963-01-01"
+  },
+  {
+   "id": "t107",
+   "subject": "scenariy-otkaz-bez-rezervnogo-servera",
+   "predicate": "имеет тип",
+   "object": "class-scenariy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t108",
+   "subject": "scenariy-otkaz-bez-rezervnogo-servera",
+   "predicate": "альтернативна траектории",
+   "object": "fakticheskaya-traektoriya-servera-bd-01",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t109",
+   "subject": "scenariy-otkaz-bez-rezervnogo-servera",
+   "predicate": "расходится в точке",
+   "object": "granica-fazy-otkaz-12-08-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t110",
+   "subject": "granica-fazy-otkaz-12-08-2026",
+   "predicate": "имеет тип",
+   "object": "class-granica-fazy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t111",
+   "subject": "scenariy-otkaz-bez-rezervnogo-servera",
+   "predicate": "обоснован диспозицией",
+   "object": "dispoziciya-otkaz-diska",
+   "sourceId": "src-audit",
+   "sourceName": "Демонстрационный отчёт внутреннего аудита ИТ, 2026",
+   "sourceType": "example",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t112",
+   "subject": "scenariy-otkaz-bez-rezervnogo-servera",
+   "predicate": "опирается на допущение",
+   "object": "utverzhdenie-otkaz-diska-vozmozhen",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t113",
+   "subject": "kontrfakticheskiy-scenariy-s-rezervnym-serverom",
+   "predicate": "имеет тип",
+   "object": "class-kontrfakticheskiy-scenariy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t114",
+   "subject": "kontrfakticheskiy-scenariy-s-rezervnym-serverom",
+   "predicate": "контрфактичен к",
+   "object": "fakticheskaya-traektoriya-servera-bd-01",
+   "sourceId": "src-lewis",
+   "sourceName": "Lewis D. Counterfactuals. Blackwell, 1973",
+   "sourceType": "book",
+   "updatedAt": "1973-01-01"
+  },
+  {
+   "id": "t115",
+   "subject": "fakticheskaya-traektoriya-servera-bd-01",
+   "predicate": "имеет тип",
+   "object": "class-fakticheskaya-traektoriya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t116",
+   "subject": "fakticheskaya-traektoriya-servera-bd-01",
+   "predicate": "восстановлена по записям",
+   "object": "zapis-akt-vvoda-v-ekspluataciyu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t117",
+   "subject": "zapis-akt-vvoda-v-ekspluataciyu",
+   "predicate": "имеет тип",
+   "object": "class-zapis-o-zhiznennom-cikle",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t118",
+   "subject": "zapis-akt-vvoda-v-ekspluataciyu",
+   "predicate": "фиксирует процесс",
+   "object": "perehod-vvod-v-ekspluataciyu-12-01-2025",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t119",
+   "subject": "zapis-akt-vvoda-v-ekspluataciyu",
+   "predicate": "служит доказательством",
+   "object": "dokazatelstvo-akt-ot-12-01-2025",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t120",
+   "subject": "dokazatelstvo-akt-ot-12-01-2025",
+   "predicate": "имеет тип",
+   "object": "class-dokazatelstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t121",
+   "subject": "perehod-vvod-v-ekspluataciyu-12-01-2025",
+   "predicate": "подтверждён доказательством",
+   "object": "dokazatelstvo-akt-ot-12-01-2025",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t122",
+   "subject": "kriteriy-akt-priemki-podpisan",
+   "predicate": "критерий проверен записью",
+   "object": "zapis-akt-vvoda-v-ekspluataciyu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t123",
+   "subject": "dokazatelstvo-zhurnal-incidentov-2026",
+   "predicate": "имеет тип",
+   "object": "class-dokazatelstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t124",
+   "subject": "dokazatelstvo-zhurnal-incidentov-2026",
+   "predicate": "доказательство подтверждает утверждение",
+   "object": "utverzhdenie-otkaz-diska-vozmozhen",
+   "sourceId": "src-audit",
+   "sourceName": "Демонстрационный отчёт внутреннего аудита ИТ, 2026",
+   "sourceType": "example",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t125",
+   "subject": "utverzhdenie-proverka-kopii-ne-vypolnyalas",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t126",
+   "subject": "utverzhdenie-proverka-kopii-ne-vypolnyalas",
+   "predicate": "имеет модальный режим",
+   "object": "rezhim-epistemicheskaya-vozmozhnost-s5",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t127",
+   "subject": "rezhim-epistemicheskaya-vozmozhnost-s5",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t128",
+   "subject": "utverzhdenie-proverka-kopii-ne-vypolnyalas",
+   "predicate": "касается сущности",
+   "object": "kriteriy-proverka-vosstanovleniya-iz-kopii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t129",
+   "subject": "utverzhdenie-proverka-kopii-ne-vypolnyalas",
+   "predicate": "оценивается в ситуации",
+   "object": "situaciya-ekspluataciya-01-08-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t130",
+   "subject": "zapis-protokol-proverki-kopii-15-07-2026",
+   "predicate": "имеет тип",
+   "object": "class-zapis-o-zhiznennom-cikle",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t131",
+   "subject": "zapis-protokol-proverki-kopii-15-07-2026",
+   "predicate": "фиксирует процесс",
+   "object": "kontrolnaya-tochka-proverka-kopii-pered-vyvodom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t132",
+   "subject": "zapis-protokol-proverki-kopii-15-07-2026",
+   "predicate": "служит доказательством",
+   "object": "dokazatelstvo-protokol-proverki-15-07-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t133",
+   "subject": "kriteriy-proverka-vosstanovleniya-iz-kopii",
+   "predicate": "критерий проверен записью",
+   "object": "zapis-protokol-proverki-kopii-15-07-2026",
+   "sourceId": "src-example",
+   "sourceName": "Демонстрационный пример жизненного цикла сервера БД-01",
+   "sourceType": "example",
+   "updatedAt": "2026-11-13"
+  },
+  {
+   "id": "t134",
+   "subject": "kontrolnaya-tochka-proverka-kopii-pered-vyvodom",
+   "predicate": "подтверждена доказательством",
+   "object": "dokazatelstvo-protokol-proverki-15-07-2026",
+   "sourceId": "src-example",
+   "sourceName": "Демонстрационный пример жизненного цикла сервера БД-01",
+   "sourceType": "example",
+   "updatedAt": "2026-11-13"
+  },
+  {
+   "id": "t135",
+   "subject": "kontrolnaya-tochka-proverka-kopii-pered-vyvodom",
+   "predicate": "происходит в момент",
+   "object": "moment-15-07-2026-03-10",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t136",
+   "subject": "moment-15-07-2026-03-10",
+   "predicate": "имеет тип",
+   "object": "class-moment-vremeni",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t137",
+   "subject": "dokazatelstvo-protokol-proverki-15-07-2026",
+   "predicate": "имеет тип",
+   "object": "class-dokazatelstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t138",
+   "subject": "dokazatelstvo-protokol-proverki-15-07-2026",
+   "predicate": "доказательство подтверждает утверждение",
+   "object": "utverzhdenie-vosstanovlenie-iz-kopii-vypolneno-uspeshno-vremya-vosstanovleniya-45-minut",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t139",
+   "subject": "dokazatelstvo-protokol-proverki-15-07-2026",
+   "predicate": "доказательство опровергает утверждение",
+   "object": "utverzhdenie-proverka-kopii-ne-vypolnyalas",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t140",
+   "subject": "utverzhdenie-vosstanovlenie-iz-kopii-vypolneno-uspeshno-vremya-vosstanovleniya-45-minut",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t141",
+   "subject": "utverzhdenie-vosstanovlenie-iz-kopii-vypolneno-uspeshno-vremya-vosstanovleniya-45-minut",
+   "predicate": "имеет модальный режим",
+   "object": "rezhim-faktichnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t142",
+   "subject": "rezhim-faktichnost",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t143",
+   "subject": "utverzhdenie-vosstanovlenie-iz-kopii-vypolneno-uspeshno-vremya-vosstanovleniya-45-minut",
+   "predicate": "касается сущности",
+   "object": "kriteriy-proverka-vosstanovleniya-iz-kopii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t144",
+   "subject": "utverzhdenie-vosstanovlenie-iz-kopii-vypolneno-uspeshno-vremya-vosstanovleniya-45-minut",
+   "predicate": "оценивается в ситуации",
+   "object": "situaciya-proverka-kopii-15-07-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t145",
+   "subject": "situaciya-proverka-kopii-15-07-2026",
+   "predicate": "имеет тип",
+   "object": "class-situaciya-ocenki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t146",
+   "subject": "situaciya-proverka-kopii-15-07-2026",
+   "predicate": "привязана к моменту",
+   "object": "moment-15-07-2026-03-10",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t147",
+   "subject": "norma-trebovanie-mfa-dlya-udalennogo-dostupa",
+   "predicate": "имеет тип",
+   "object": "class-norma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t148",
+   "subject": "norma-trebovanie-mfa-dlya-udalennogo-dostupa",
+   "predicate": "норма обосновывает статус",
+   "object": "obyazatelstvo-vklyuchit-mfa",
+   "sourceId": "src-reglament",
+   "sourceName": "Демонстрационный регламент управления ИТ-активами",
+   "sourceType": "example",
+   "updatedAt": "2026-09-30"
+  },
+  {
+   "id": "t149",
+   "subject": "norma-trebovanie-mfa-dlya-udalennogo-dostupa",
+   "predicate": "норма регулирует фазу",
+   "object": "faza-ekspluataciya",
+   "sourceId": "src-reglament",
+   "sourceName": "Демонстрационный регламент управления ИТ-активами",
+   "sourceType": "example",
+   "updatedAt": "2026-09-30"
+  },
+  {
+   "id": "t150",
+   "subject": "obyazatelstvo-vklyuchit-mfa",
+   "predicate": "имеет тип",
+   "object": "class-obyazatelstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t151",
+   "subject": "utverzhdenie-mfa-obyazatelna-dlya-udalennogo-dostupa",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t152",
+   "subject": "utverzhdenie-mfa-obyazatelna-dlya-udalennogo-dostupa",
+   "predicate": "имеет модальный режим",
+   "object": "rezhim-deonticheskaya-neobhodimost-kd",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t153",
+   "subject": "rezhim-deonticheskaya-neobhodimost-kd",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t154",
+   "subject": "utverzhdenie-mfa-obyazatelna-dlya-udalennogo-dostupa",
+   "predicate": "касается сущности",
+   "object": "obyazatelstvo-vklyuchit-mfa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t155",
+   "subject": "razreshenie-planovoe-obsluzhivanie-v-okno-02-00-04-00",
+   "predicate": "имеет тип",
+   "object": "class-razreshenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t156",
+   "subject": "zapreschenie-ruchnoe-udalenie-rezervnyh-kopiy",
+   "predicate": "имеет тип",
+   "object": "class-zapreschenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t157",
+   "subject": "obyazatelstvo-proverit-vosstanovlenie-iz-kopii",
+   "predicate": "имеет тип",
+   "object": "class-obyazatelstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t158",
+   "subject": "norma-reglament-rezervnogo-kopirovaniya",
+   "predicate": "имеет тип",
+   "object": "class-norma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t159",
+   "subject": "norma-reglament-rezervnogo-kopirovaniya",
+   "predicate": "норма обосновывает статус",
+   "object": "obyazatelstvo-proverit-vosstanovlenie-iz-kopii",
+   "sourceId": "src-reglament",
+   "sourceName": "Демонстрационный регламент управления ИТ-активами",
+   "sourceType": "example",
+   "updatedAt": "2026-09-30"
+  },
+  {
+   "id": "t160",
+   "subject": "norma-reglament-rezervnogo-kopirovaniya",
+   "predicate": "норма регулирует фазу",
+   "object": "faza-ekspluataciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t161",
+   "subject": "obyazatelstvo-proverit-vosstanovlenie-iz-kopii",
+   "predicate": "выполнен процессом",
+   "object": "kontrolnaya-tochka-proverka-kopii-pered-vyvodom",
+   "sourceId": "src-example",
+   "sourceName": "Демонстрационный пример жизненного цикла сервера БД-01",
+   "sourceType": "example",
+   "updatedAt": "2026-11-13"
+  }
+ ]
+}

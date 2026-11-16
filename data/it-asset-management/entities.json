@@ -1,0 +1,238 @@
+{
+ "entities": [
+  {
+   "id": "1s-buhgalteriya",
+   "label": "1С:Бухгалтерия",
+   "classCode": "ITSystem"
+  },
+  {
+   "id": "class-aleticheskoe-utverzhdenie",
+   "label": "Алетическое утверждение",
+   "classCode": "AlethicAssertion",
+   "isClass": true
+  },
+  {
+   "id": "vnedrenie-mfa",
+   "label": "Внедрение MFA",
+   "classCode": "Control"
+  },
+  {
+   "id": "vnutrenniy-reglament-upravleniya-it-aktivami",
+   "label": "Внутренний регламент управления ИТ-активами",
+   "classCode": "Source"
+  },
+  {
+   "id": "class-vremennoy-interval",
+   "label": "Временной интервал",
+   "classCode": "TemporalInterval",
+   "isClass": true
+  },
+  {
+   "id": "class-deystvie",
+   "label": "Действие",
+   "classCode": "Action",
+   "isClass": true
+  },
+  {
+   "id": "deystvie-administrirovanie-1s",
+   "label": "Действие «Администрирование 1С»",
+   "classCode": "Action"
+  },
+  {
+   "id": "deystvie-formirovanie-otchetnosti-v-1s",
+   "label": "Действие «Формирование отчётности в 1С»",
+   "classCode": "Action"
+  },
+  {
+   "id": "deystvie-chtenie-otchetnosti-portala",
+   "label": "Действие «Чтение отчётности портала»",
+   "classCode": "Action"
+  },
+  {
+   "id": "class-deonticheskoe-utverzhdenie",
+   "label": "Деонтическое утверждение",
+   "classCode": "DeonticAssertion",
+   "isClass": true
+  },
+  {
+   "id": "ezhednevnoe-rezervnoe-kopirovanie",
+   "label": "Ежедневное резервное копирование",
+   "classCode": "Control"
+  },
+  {
+   "id": "ivanov-i-i",
+   "label": "Иванов И.И.",
+   "classCode": "Employee"
+  },
+  {
+   "id": "interval-prava-administrator-bd",
+   "label": "Интервал права «Администратор БД»",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "interval-prava-chtenie-otchetnosti",
+   "label": "Интервал права «Чтение отчётности»",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "class-incident",
+   "label": "Инцидент",
+   "classCode": "Incident",
+   "isClass": true
+  },
+  {
+   "id": "incident-nedostupnost-1s-2-chasa",
+   "label": "Инцидент: недоступность 1С 2 часа",
+   "classCode": "Incident"
+  },
+  {
+   "id": "class-istochnik",
+   "label": "Источник",
+   "classCode": "Source",
+   "isClass": true
+  },
+  {
+   "id": "class-it-aktiv",
+   "label": "ИТ-актив",
+   "classCode": "ITAsset",
+   "isClass": true
+  },
+  {
+   "id": "class-it-sistema",
+   "label": "ИТ-система",
+   "classCode": "ITSystem",
+   "isClass": true
+  },
+  {
+   "id": "korporativnyy-portal",
+   "label": "Корпоративный портал",
+   "classCode": "ITSystem"
+  },
+  {
+   "id": "class-mera-zaschity",
+   "label": "Мера защиты",
+   "classCode": "Control",
+   "isClass": true
+  },
+  {
+   "id": "norma-administrirovanie-1s-razresheno",
+   "label": "Норма «Администрирование 1С разрешено»",
+   "classCode": "DeonticAssertion"
+  },
+  {
+   "id": "norma-rezervnoe-kopirovanie-obyazatelno",
+   "label": "Норма «Резервное копирование обязательно»",
+   "classCode": "DeonticAssertion"
+  },
+  {
+   "id": "norma-mfa-obyazatelno-dlya-udalennogo-dostupa",
+   "label": "Норма «MFA обязательно для удалённого доступа»",
+   "classCode": "DeonticAssertion"
+  },
+  {
+   "id": "noutbuk-dell-latitude",
+   "label": "Ноутбук Dell Latitude",
+   "classCode": "ITAsset"
+  },
+  {
+   "id": "otchet-vnutrennego-audita-it-2026",
+   "label": "Отчёт внутреннего аудита ИТ, 2026",
+   "classCode": "Source"
+  },
+  {
+   "id": "petrova-a-a",
+   "label": "Петрова А.А.",
+   "classCode": "Employee"
+  },
+  {
+   "id": "pravo-administrator-bd",
+   "label": "Право «Администратор БД»",
+   "classCode": "AccessRight"
+  },
+  {
+   "id": "pravo-chtenie-otchetnosti",
+   "label": "Право «Чтение отчётности»",
+   "classCode": "AccessRight"
+  },
+  {
+   "id": "class-pravo-dostupa",
+   "label": "Право доступа",
+   "classCode": "AccessRight",
+   "isClass": true
+  },
+  {
+   "id": "class-risk",
+   "label": "Риск",
+   "classCode": "Risk",
+   "isClass": true
+  },
+  {
+   "id": "risk-prostoya-buhgalterii",
+   "label": "Риск простоя бухгалтерии",
+   "classCode": "Risk"
+  },
+  {
+   "id": "risk-utechki-dannyh-klientov",
+   "label": "Риск утечки данных клиентов",
+   "classCode": "Risk"
+  },
+  {
+   "id": "server-bd-01",
+   "label": "Сервер БД-01",
+   "classCode": "ITAsset"
+  },
+  {
+   "id": "class-sotrudnik",
+   "label": "Сотрудник",
+   "classCode": "Employee",
+   "isClass": true
+  },
+  {
+   "id": "class-trebovanie",
+   "label": "Требование",
+   "classCode": "Requirement",
+   "isClass": true
+  },
+  {
+   "id": "trebovanie-rezervnogo-kopirovaniya",
+   "label": "Требование резервного копирования",
+   "classCode": "Requirement"
+  },
+  {
+   "id": "trebovanie-mfa-dlya-udalennogo-dostupa",
+   "label": "Требование MFA для удалённого доступа",
+   "classCode": "Requirement"
+  },
+  {
+   "id": "utverzhdenie-administrirovanie-1s-nevozmozhno-bez-prava-administrator-bd",
+   "label": "Утверждение «Администрирование 1С невозможно без права Администратор БД»",
+   "classCode": "AlethicAssertion"
+  },
+  {
+   "id": "utverzhdenie-ivanov-imeet-pravo-administrator-bd",
+   "label": "Утверждение «Иванов имеет право Администратор БД»",
+   "classCode": "EpistemicAssertion"
+  },
+  {
+   "id": "utverzhdenie-incident-1s-realizoval-risk-prostoya",
+   "label": "Утверждение «Инцидент 1С реализовал риск простоя»",
+   "classCode": "EpistemicAssertion"
+  },
+  {
+   "id": "utverzhdenie-rezervnoe-kopirovanie-vozmozhno-dlya-snizheniya-prostoya",
+   "label": "Утверждение «Резервное копирование возможно для снижения простоя»",
+   "classCode": "AlethicAssertion"
+  },
+  {
+   "id": "utverzhdenie-server-bd-01-neobhodim-dlya-1s",
+   "label": "Утверждение «Сервер БД-01 необходим для 1С»",
+   "classCode": "AlethicAssertion"
+  },
+  {
+   "id": "class-epistemicheskoe-utverzhdenie",
+   "label": "Эпистемическое утверждение",
+   "classCode": "EpistemicAssertion",
+   "isClass": true
+  }
+ ]
+}

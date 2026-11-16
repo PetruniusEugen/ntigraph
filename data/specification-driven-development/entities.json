@@ -1,0 +1,324 @@
+{
+ "entities": [
+  {
+   "id": "class-artefakt",
+   "label": "Артефакт",
+   "classCode": "Artifact",
+   "isClass": true
+  },
+  {
+   "id": "artefakt-payment-service-2-4-0",
+   "label": "Артефакт payment-service:2.4.0",
+   "classCode": "Artifact"
+  },
+  {
+   "id": "class-defekt",
+   "label": "Дефект",
+   "classCode": "Defect",
+   "isClass": true
+  },
+  {
+   "id": "defekt-dubl-platezha-pri-retrae",
+   "label": "Дефект: дубль платежа при ретрае",
+   "classCode": "Defect"
+  },
+  {
+   "id": "class-zapros-na-izmenenie",
+   "label": "Запрос на изменение",
+   "classCode": "ChangeRequest",
+   "isClass": true
+  },
+  {
+   "id": "zapros-na-izmenenie-cr-117",
+   "label": "Запрос на изменение CR-117",
+   "classCode": "ChangeRequest"
+  },
+  {
+   "id": "kovalev-d-a",
+   "label": "Ковалёв Д.А.",
+   "classCode": "Developer"
+  },
+  {
+   "id": "class-kriteriy-priemki",
+   "label": "Критерий приёмки",
+   "classCode": "AcceptanceCriterion",
+   "isClass": true
+  },
+  {
+   "id": "kriteriy-kazhdoe-spisanie-fiksiruetsya-v-zhurnale",
+   "label": "Критерий: каждое списание фиксируется в журнале",
+   "classCode": "AcceptanceCriterion"
+  },
+  {
+   "id": "kriteriy-povtornyy-zapros-ne-sozdaet-dubl",
+   "label": "Критерий: повторный запрос не создаёт дубль",
+   "classCode": "AcceptanceCriterion"
+  },
+  {
+   "id": "class-modul-koda",
+   "label": "Модуль кода",
+   "classCode": "CodeModule",
+   "isClass": true
+  },
+  {
+   "id": "modul-audit-log",
+   "label": "Модуль audit-log",
+   "classCode": "CodeModule"
+  },
+  {
+   "id": "modul-payment-service",
+   "label": "Модуль payment-service",
+   "classCode": "CodeModule"
+  },
+  {
+   "id": "class-opcionalnaya-funkciya",
+   "label": "Опциональная функция",
+   "classCode": "FeatureCondition",
+   "isClass": true
+  },
+  {
+   "id": "opciya-rol-refund",
+   "label": "Опция: роль refund",
+   "classCode": "FeatureCondition"
+  },
+  {
+   "id": "class-otklik-sistemy",
+   "label": "Отклик системы",
+   "classCode": "SystemResponse",
+   "isClass": true
+  },
+  {
+   "id": "otklik-vernut-ishodnuyu-tranzakciyu",
+   "label": "Отклик: вернуть исходную транзакцию",
+   "classCode": "SystemResponse"
+  },
+  {
+   "id": "otklik-zapisat-tranzakciyu-v-audit-log",
+   "label": "Отклик: записать транзакцию в audit-log",
+   "classCode": "SystemResponse"
+  },
+  {
+   "id": "otklik-zaprosit-vtoroy-faktor",
+   "label": "Отклик: запросить второй фактор",
+   "classCode": "SystemResponse"
+  },
+  {
+   "id": "otklik-razreshit-iniciaciyu-vozvrata",
+   "label": "Отклик: разрешить инициацию возврата",
+   "classCode": "SystemResponse"
+  },
+  {
+   "id": "otklik-http-503-bez-spisaniya",
+   "label": "Отклик: HTTP 503 без списания",
+   "classCode": "SystemResponse"
+  },
+  {
+   "id": "class-pattern-ears",
+   "label": "Паттерн EARS",
+   "classCode": "EarsPattern",
+   "isClass": true
+  },
+  {
+   "id": "pattern-ears-vezdesuschee",
+   "label": "Паттерн EARS: вездесущее",
+   "classCode": "EarsPattern"
+  },
+  {
+   "id": "pattern-ears-kompleksnoe",
+   "label": "Паттерн EARS: комплексное",
+   "classCode": "EarsPattern"
+  },
+  {
+   "id": "pattern-ears-nezhelatelnoe-povedenie",
+   "label": "Паттерн EARS: нежелательное поведение",
+   "classCode": "EarsPattern"
+  },
+  {
+   "id": "pattern-ears-opcionalnaya-funkciya",
+   "label": "Паттерн EARS: опциональная функция",
+   "classCode": "EarsPattern"
+  },
+  {
+   "id": "pattern-ears-sobytiyno-upravlyaemoe",
+   "label": "Паттерн EARS: событийно-управляемое",
+   "classCode": "EarsPattern"
+  },
+  {
+   "id": "pattern-ears-sostoyanie-upravlyaemoe",
+   "label": "Паттерн EARS: состояние-управляемое",
+   "classCode": "EarsPattern"
+  },
+  {
+   "id": "class-polzovatelskaya-istoriya",
+   "label": "Пользовательская история",
+   "classCode": "UserStory",
+   "isClass": true
+  },
+  {
+   "id": "class-preduslovie",
+   "label": "Предусловие",
+   "classCode": "Precondition",
+   "isClass": true
+  },
+  {
+   "id": "preduslovie-aktivnaya-admin-sessiya",
+   "label": "Предусловие: активная админ-сессия",
+   "classCode": "Precondition"
+  },
+  {
+   "id": "preduslovie-bd-nedostupna",
+   "label": "Предусловие: БД недоступна",
+   "classCode": "Precondition"
+  },
+  {
+   "id": "class-razrabotchik",
+   "label": "Разработчик",
+   "classCode": "Developer",
+   "isClass": true
+  },
+  {
+   "id": "class-reliz",
+   "label": "Релиз",
+   "classCode": "Release",
+   "isClass": true
+  },
+  {
+   "id": "reliz-2-4-0",
+   "label": "Релиз 2.4.0",
+   "classCode": "Release"
+  },
+  {
+   "id": "class-sborka",
+   "label": "Сборка",
+   "classCode": "Build",
+   "isClass": true
+  },
+  {
+   "id": "sborka-build-9012",
+   "label": "Сборка build-9012",
+   "classCode": "Build"
+  },
+  {
+   "id": "smirnova-o-v",
+   "label": "Смирнова О.В.",
+   "classCode": "Developer"
+  },
+  {
+   "id": "class-specifikaciya",
+   "label": "Спецификация",
+   "classCode": "Specification",
+   "isClass": true
+  },
+  {
+   "id": "specifikaciya-platezhey-v2",
+   "label": "Спецификация платежей v2",
+   "classCode": "Specification"
+  },
+  {
+   "id": "class-test",
+   "label": "Тест",
+   "classCode": "Test",
+   "isClass": true
+  },
+  {
+   "id": "test-zapis-v-zhurnal-audita",
+   "label": "Тест: запись в журнал аудита",
+   "classCode": "Test"
+  },
+  {
+   "id": "test-idempotentnost-platezha",
+   "label": "Тест: идемпотентность платежа",
+   "classCode": "Test"
+  },
+  {
+   "id": "class-trebovanie",
+   "label": "Требование",
+   "classCode": "Requirement",
+   "isClass": true
+  },
+  {
+   "id": "trebovanie-audit-operaciy",
+   "label": "Требование: аудит операций",
+   "classCode": "Requirement"
+  },
+  {
+   "id": "trebovanie-idempotentnost-platezhey",
+   "label": "Требование: идемпотентность платежей",
+   "classCode": "Requirement"
+  },
+  {
+   "id": "class-trigger",
+   "label": "Триггер",
+   "classCode": "Trigger",
+   "isClass": true
+  },
+  {
+   "id": "trigger-povtornyy-zapros-s-tem-zhe-idempotency-key",
+   "label": "Триггер: повторный запрос с тем же Idempotency-Key",
+   "classCode": "Trigger"
+  },
+  {
+   "id": "class-api-kontrakt",
+   "label": "API-контракт",
+   "classCode": "ApiContract",
+   "isClass": true
+  },
+  {
+   "id": "class-ears-formulirovka",
+   "label": "EARS-формулировка",
+   "classCode": "EarsStatement",
+   "isClass": true
+  },
+  {
+   "id": "ears-audit-kazhdoy-operacii",
+   "label": "EARS: аудит каждой операции",
+   "classCode": "EarsStatement"
+  },
+  {
+   "id": "ears-vozvrat-dlya-roli-refund",
+   "label": "EARS: возврат для роли refund",
+   "classCode": "EarsStatement"
+  },
+  {
+   "id": "ears-idempotentnost-pri-retrae",
+   "label": "EARS: идемпотентность при ретрае",
+   "classCode": "EarsStatement"
+  },
+  {
+   "id": "ears-otkaz-pri-nedostupnosti-bd",
+   "label": "EARS: отказ при недоступности БД",
+   "classCode": "EarsStatement"
+  },
+  {
+   "id": "ears-mfa-dlya-admin-operaciy",
+   "label": "EARS: MFA для админ-операций",
+   "classCode": "EarsStatement"
+  },
+  {
+   "id": "openapi-platezhey-v2",
+   "label": "OpenAPI платежей v2",
+   "classCode": "ApiContract"
+  },
+  {
+   "id": "pr-482-idempotentnost-platezhey",
+   "label": "PR #482: идемпотентность платежей",
+   "classCode": "PullRequest"
+  },
+  {
+   "id": "pr-483-audit-operaciy",
+   "label": "PR #483: аудит операций",
+   "classCode": "PullRequest"
+  },
+  {
+   "id": "class-pull-request",
+   "label": "Pull Request",
+   "classCode": "PullRequest",
+   "isClass": true
+  },
+  {
+   "id": "user-story-vozvrat-platezha",
+   "label": "User Story: возврат платежа",
+   "classCode": "UserStory"
+  }
+ ]
+}

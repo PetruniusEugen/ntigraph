@@ -1,0 +1,1489 @@
+{
+ "entities": [
+  {
+   "id": "a-signal-k1-indikator-dlya-kabelnyh-liniy-v-yacheyku-kru",
+   "label": "А-сигнал К1 (индикатор для кабельных линий в ячейку КРУ)",
+   "classCode": null
+  },
+  {
+   "id": "akb",
+   "label": "АКБ",
+   "classCode": null
+  },
+  {
+   "id": "akb-s3m040-6c-240-x",
+   "label": "АКБ S3M040-6C-240-X",
+   "classCode": null
+  },
+  {
+   "id": "akb-s3m050-4c-240-x",
+   "label": "АКБ S3M050-4C-240-X",
+   "classCode": null
+  },
+  {
+   "id": "akb-s3m100-1c-240-x",
+   "label": "АКБ S3M100-1C-240-X",
+   "classCode": null
+  },
+  {
+   "id": "ao-tess",
+   "label": "АО «ТЭСС»",
+   "classCode": null
+  },
+  {
+   "id": "gazoporshnevaya-ustanovka-zichai-1-5-mvt",
+   "label": "Газопоршневая установка ZICHAI 1,5 МВт",
+   "classCode": null
+  },
+  {
+   "id": "gazoporshnevaya-ustanovka-zichai-2-mvt",
+   "label": "Газопоршневая установка ZICHAI 2 МВт",
+   "classCode": null
+  },
+  {
+   "id": "gazoporshnevaya-ustanovka-zichai-250-kvt",
+   "label": "Газопоршневая установка ZICHAI 250 кВт",
+   "classCode": null
+  },
+  {
+   "id": "gazoporshnevaya-ustanovka-zichai-700-kvt",
+   "label": "Газопоршневая установка ZICHAI 700 кВт",
+   "classCode": null
+  },
+  {
+   "id": "gazoporshnevaya-ustanovka-zichai-750-kvt",
+   "label": "Газопоршневая установка ZICHAI 750 кВт",
+   "classCode": null
+  },
+  {
+   "id": "gpu",
+   "label": "ГПУ",
+   "classCode": null
+  },
+  {
+   "id": "datchiki-i-preobrazovateli",
+   "label": "Датчики и преобразователи",
+   "classCode": null
+  },
+  {
+   "id": "ibp",
+   "label": "ИБП",
+   "classCode": null
+  },
+  {
+   "id": "ikz-v6-35-4-indikator-dlya-vozdushnyh-liniy",
+   "label": "ИКЗ-В6-35-4 (Индикатор для воздушных линий)",
+   "classCode": null
+  },
+  {
+   "id": "iles",
+   "label": "ИЛЭС",
+   "classCode": null
+  },
+  {
+   "id": "katalog-oborudovaniya-tess",
+   "label": "Каталог оборудования ТЭСС",
+   "classCode": null
+  },
+  {
+   "id": "kompleksnye-industrialnye-resheniya",
+   "label": "Комплексные индустриальные решения",
+   "classCode": null
+  },
+  {
+   "id": "lokalnaya-avtomatika",
+   "label": "Локальная автоматика",
+   "classCode": null
+  },
+  {
+   "id": "lokalnye-energosistemy-iles",
+   "label": "Локальные энергосистемы (ИЛЭС)",
+   "classCode": null
+  },
+  {
+   "id": "malaya-energetika",
+   "label": "Малая энергетика",
+   "classCode": null
+  },
+  {
+   "id": "nakopiteli-energii",
+   "label": "Накопители энергии",
+   "classCode": null
+  },
+  {
+   "id": "perenosnaya-elektrostanciya-pg3600",
+   "label": "Переносная электростанция PG3600",
+   "classCode": null
+  },
+  {
+   "id": "preobrazovatelnye-transformatory",
+   "label": "Преобразовательные трансформаторы",
+   "classCode": null
+  },
+  {
+   "id": "programmno-tehnicheskiy-kompleks-intellektualnoy-lokalnoy-energosistemy",
+   "label": "Программно-технический комплекс интеллектуальной локальной энергосистемы",
+   "classCode": null
+  },
+  {
+   "id": "programmno-tehnicheskiy-kompleks-territorialno-integrirovannyh-lokalnyh-intellektualnyh-energosistem",
+   "label": "Программно-технический комплекс территориально интегрированных локальных интеллектуальных энергосистем",
+   "classCode": null
+  },
+  {
+   "id": "programmnyy-simulyator-rezhimov-lokalnoy-intellektualnoy-energosistemy",
+   "label": "Программный симулятор режимов локальной интеллектуальной энергосистемы",
+   "classCode": null
+  },
+  {
+   "id": "ptk-dlya-lokalnyh-energosistem-iles",
+   "label": "ПТК для локальных энергосистем (ИЛЭС)",
+   "classCode": null
+  },
+  {
+   "id": "ptk-dlya-territorialno-raspredelennyh-iles-tilies",
+   "label": "ПТК для территориально-распределённых ИЛЭС (ТИЛИЭС)",
+   "classCode": null
+  },
+  {
+   "id": "raspredelitelnye-transformatory",
+   "label": "Распределительные трансформаторы",
+   "classCode": null
+  },
+  {
+   "id": "regulyator-polozheniya-privoda-up-200",
+   "label": "Регулятор положения привода УП-200",
+   "classCode": null
+  },
+  {
+   "id": "rza-cifrovogo-tipa",
+   "label": "РЗА цифрового типа",
+   "classCode": null
+  },
+  {
+   "id": "ric-intellektualnyy-razedinitel",
+   "label": "РИЦ (Интеллектуальный разъединитель)",
+   "classCode": null
+  },
+  {
+   "id": "ric-vn-intellektualnyy-vyklyuchatel-nagruzki",
+   "label": "РИЦ ВН (Интеллектуальный выключатель нагрузки)",
+   "classCode": null
+  },
+  {
+   "id": "ric-rva-reklouzer",
+   "label": "РИЦ РВА (Реклоузер)",
+   "classCode": null
+  },
+  {
+   "id": "silovoe-oborudovanie",
+   "label": "Силовое оборудование",
+   "classCode": null
+  },
+  {
+   "id": "simulyator-iles",
+   "label": "Симулятор ИЛЭС",
+   "classCode": null
+  },
+  {
+   "id": "sistemy-releynoy-zaschity-i-avtomatiki",
+   "label": "Системы релейной защиты и автоматики",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-100-10-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 100/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-100-6-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 100/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-1000-10-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 1000/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-1000-6-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 1000/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-1250-10-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 1250/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-1250-6-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 1250/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-16-10-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 16/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-16-6-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 16/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-160-10-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 160/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-160-6-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 160/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-1600-10-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 1600/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-1600-6-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 1600/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-2000-10-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 2000/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-2000-6-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 2000/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-25-10-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 25/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-25-6-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 25/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-250-10-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 250/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-250-6-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 250/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-2500-10-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 2500/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-2500-6-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 2500/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-3150-10-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 3150/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-3150-6-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 3150/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-40-10-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 40/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-40-6-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 40/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-400-10-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 400/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-400-6-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 400/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-63-10-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 63/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-63-6-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 63/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-630-10-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 630/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-630-6-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 630/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-800-10-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 800/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tls-tsl-800-6-0-4",
+   "label": "Трансформатор ТЛС (ТСЛ) 800/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-100-10-0-4",
+   "label": "Трансформатор ТЛСП 100/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-100-6-0-4",
+   "label": "Трансформатор ТЛСП 100/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-1000-10-0-4",
+   "label": "Трансформатор ТЛСП 1000/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-1000-6-0-4",
+   "label": "Трансформатор ТЛСП 1000/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-1250-10-0-4",
+   "label": "Трансформатор ТЛСП 1250/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-1250-6-0-4",
+   "label": "Трансформатор ТЛСП 1250/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-160-10-0-4",
+   "label": "Трансформатор ТЛСП 160/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-160-6-0-4",
+   "label": "Трансформатор ТЛСП 160/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-1600-10-0-4",
+   "label": "Трансформатор ТЛСП 1600/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-1600-6-0-4",
+   "label": "Трансформатор ТЛСП 1600/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-2000-10-0-4",
+   "label": "Трансформатор ТЛСП 2000/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-2000-6-0-4",
+   "label": "Трансформатор ТЛСП 2000/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-250-10-0-4",
+   "label": "Трансформатор ТЛСП 250/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-250-6-0-4",
+   "label": "Трансформатор ТЛСП 250/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-2500-10-0-4",
+   "label": "Трансформатор ТЛСП 2500/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-2500-6-0-4",
+   "label": "Трансформатор ТЛСП 2500/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-3200-10-0-4",
+   "label": "Трансформатор ТЛСП 3200/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-3200-6-0-4",
+   "label": "Трансформатор ТЛСП 3200/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-400-10-0-4",
+   "label": "Трансформатор ТЛСП 400/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-400-6-0-4",
+   "label": "Трансформатор ТЛСП 400/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-630-10-0-4",
+   "label": "Трансформатор ТЛСП 630/10/0,4",
+   "classCode": null
+  },
+  {
+   "id": "transformator-tlsp-630-6-0-4",
+   "label": "Трансформатор ТЛСП 630/6/0,4",
+   "classCode": null
+  },
+  {
+   "id": "tess-la-programmiruemyy-kontroller",
+   "label": "ТЭСС | ЛА - программируемый контроллер",
+   "classCode": null
+  },
+  {
+   "id": "tess-la-sinhronizirovannye-vektornye-izmereniya",
+   "label": "ТЭСС | ЛА - синхронизированные векторные измерения",
+   "classCode": null
+  },
+  {
+   "id": "tess-la-upravlenie-generatorami",
+   "label": "ТЭСС | ЛА - управление генераторами",
+   "classCode": null
+  },
+  {
+   "id": "schitovoe-i-kommutacionnoe-oborudovanie",
+   "label": "Щитовое и коммутационное оборудование",
+   "classCode": null
+  },
+  {
+   "id": "elektroprivodnoe-oborudovanie",
+   "label": "Электроприводное оборудование",
+   "classCode": null
+  },
+  {
+   "id": "absolite-atom-1000-1000l-1000le",
+   "label": "ABSolite ATOM 1000/ 1000L/ 1000LE",
+   "classCode": null
+  },
+  {
+   "id": "absolite-atom-10000-l-10000-le",
+   "label": "ABSolite ATOM 10000 L/ 10000 LE",
+   "classCode": null
+  },
+  {
+   "id": "absolite-atom-15000-l-15000-le",
+   "label": "ABSolite ATOM 15000 L/ 15000 LE",
+   "classCode": null
+  },
+  {
+   "id": "absolite-atom-2000-2000l-2000le",
+   "label": "ABSolite ATOM 2000/ 2000L/ 2000LE",
+   "classCode": null
+  },
+  {
+   "id": "absolite-atom-20000-l-20000-le",
+   "label": "ABSolite ATOM 20000 L/ 20000 LE",
+   "classCode": null
+  },
+  {
+   "id": "absolite-atom-3000-3000l-3000le",
+   "label": "ABSolite ATOM 3000/ 3000L/ 3000LE",
+   "classCode": null
+  },
+  {
+   "id": "absolite-atom-6000-l-6000-le",
+   "label": "ABSolite ATOM 6000 L/ 6000 LE",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-10",
+   "label": "ABSolite DL 10",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-100",
+   "label": "ABSolite DL 100",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-120",
+   "label": "ABSolite DL 120",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-160",
+   "label": "ABSolite DL 160",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-20",
+   "label": "ABSolite DL 20",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-200",
+   "label": "ABSolite DL 200",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-240",
+   "label": "ABSolite DL 240",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-30",
+   "label": "ABSolite DL 30",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-300",
+   "label": "ABSolite DL 300",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-320",
+   "label": "ABSolite DL 320",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-40",
+   "label": "ABSolite DL 40",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-400",
+   "label": "ABSolite DL 400",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-50",
+   "label": "ABSolite DL 50",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-500",
+   "label": "ABSolite DL 500",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-60",
+   "label": "ABSolite DL 60",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-600",
+   "label": "ABSolite DL 600",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-80",
+   "label": "ABSolite DL 80",
+   "classCode": null
+  },
+  {
+   "id": "absolite-dl-800",
+   "label": "ABSolite DL 800",
+   "classCode": null
+  },
+  {
+   "id": "absolite-element-ii-1000",
+   "label": "ABSolite ELEMENT II 1000",
+   "classCode": null
+  },
+  {
+   "id": "absolite-element-ii-1500",
+   "label": "ABSolite ELEMENT II 1500",
+   "classCode": null
+  },
+  {
+   "id": "absolite-element-ii-2000",
+   "label": "ABSolite ELEMENT II 2000",
+   "classCode": null
+  },
+  {
+   "id": "absolite-element-ii-3000",
+   "label": "ABSolite ELEMENT II 3000",
+   "classCode": null
+  },
+  {
+   "id": "absolite-element-ii-600",
+   "label": "ABSolite ELEMENT II 600",
+   "classCode": null
+  },
+  {
+   "id": "absolite-flex-10rm",
+   "label": "ABSolite FLEX-10RM",
+   "classCode": null
+  },
+  {
+   "id": "absolite-flex-15rm",
+   "label": "ABSolite FLEX-15RM",
+   "classCode": null
+  },
+  {
+   "id": "absolite-flex-20rm",
+   "label": "ABSolite FLEX-20RM",
+   "classCode": null
+  },
+  {
+   "id": "absolite-flex33-10-10l",
+   "label": "ABSolite FLEX33 10 / 10L",
+   "classCode": null
+  },
+  {
+   "id": "absolite-flex33-100l",
+   "label": "ABSolite FLEX33 100L",
+   "classCode": null
+  },
+  {
+   "id": "absolite-flex33-120l",
+   "label": "ABSolite FLEX33 120L",
+   "classCode": null
+  },
+  {
+   "id": "absolite-flex33-150l",
+   "label": "ABSolite FLEX33 150L",
+   "classCode": null
+  },
+  {
+   "id": "absolite-flex33-20-20l",
+   "label": "ABSolite FLEX33 20 / 20L",
+   "classCode": null
+  },
+  {
+   "id": "absolite-flex33-200l",
+   "label": "ABSolite FLEX33 200L",
+   "classCode": null
+  },
+  {
+   "id": "absolite-flex33-30-30l",
+   "label": "ABSolite FLEX33 30 / 30L",
+   "classCode": null
+  },
+  {
+   "id": "absolite-flex33-40-40l",
+   "label": "ABSolite FLEX33 40 / 40L",
+   "classCode": null
+  },
+  {
+   "id": "absolite-flex33-50l",
+   "label": "ABSolite FLEX33 50L",
+   "classCode": null
+  },
+  {
+   "id": "absolite-flex33-60l",
+   "label": "ABSolite FLEX33 60L",
+   "classCode": null
+  },
+  {
+   "id": "absolite-flex33-80l",
+   "label": "ABSolite FLEX33 80L",
+   "classCode": null
+  },
+  {
+   "id": "absolite-iq33-10",
+   "label": "ABSolite IQ33 10",
+   "classCode": null
+  },
+  {
+   "id": "absolite-iq33-100",
+   "label": "ABSolite IQ33 100",
+   "classCode": null
+  },
+  {
+   "id": "absolite-iq33-120",
+   "label": "ABSolite IQ33 120",
+   "classCode": null
+  },
+  {
+   "id": "absolite-iq33-160",
+   "label": "ABSolite IQ33 160",
+   "classCode": null
+  },
+  {
+   "id": "absolite-iq33-20",
+   "label": "ABSolite IQ33 20",
+   "classCode": null
+  },
+  {
+   "id": "absolite-iq33-200",
+   "label": "ABSolite IQ33 200",
+   "classCode": null
+  },
+  {
+   "id": "absolite-iq33-30",
+   "label": "ABSolite IQ33 30",
+   "classCode": null
+  },
+  {
+   "id": "absolite-iq33-300",
+   "label": "ABSolite IQ33 300",
+   "classCode": null
+  },
+  {
+   "id": "absolite-iq33-40",
+   "label": "ABSolite IQ33 40",
+   "classCode": null
+  },
+  {
+   "id": "absolite-iq33-400",
+   "label": "ABSolite IQ33 400",
+   "classCode": null
+  },
+  {
+   "id": "absolite-iq33-500",
+   "label": "ABSolite IQ33 500",
+   "classCode": null
+  },
+  {
+   "id": "absolite-iq33-60",
+   "label": "ABSolite IQ33 60",
+   "classCode": null
+  },
+  {
+   "id": "absolite-iq33-600",
+   "label": "ABSolite IQ33 600",
+   "classCode": null
+  },
+  {
+   "id": "absolite-iq33-80",
+   "label": "ABSolite IQ33 80",
+   "classCode": null
+  },
+  {
+   "id": "absolite-iq33-800",
+   "label": "ABSolite IQ33 800",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-100",
+   "label": "ABSolite MODA 100",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-1000",
+   "label": "ABSolite MODA 1000",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-1200",
+   "label": "ABSolite MODA 1200",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-140",
+   "label": "ABSolite MODA 140",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-175",
+   "label": "ABSolite MODA 175",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-200",
+   "label": "ABSolite MODA 200",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-240",
+   "label": "ABSolite MODA 240",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-300",
+   "label": "ABSolite MODA 300",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-400",
+   "label": "ABSolite MODA 400",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-500",
+   "label": "ABSolite MODA 500",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-600",
+   "label": "ABSolite MODA 600",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-80",
+   "label": "ABSolite MODA 80",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-840",
+   "label": "ABSolite MODA 840",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-msp-100",
+   "label": "ABSolite MODA MSP 100",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-msp-120",
+   "label": "ABSolite MODA MSP 120",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-msp-125",
+   "label": "ABSolite MODA MSP 125",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-msp-150",
+   "label": "ABSolite MODA MSP 150",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-msp-20",
+   "label": "ABSolite MODA MSP 20",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-msp-25",
+   "label": "ABSolite MODA MSP 25",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-msp-40",
+   "label": "ABSolite MODA MSP 40",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-msp-50",
+   "label": "ABSolite MODA MSP 50",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-msp-60",
+   "label": "ABSolite MODA MSP 60",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-msp-75",
+   "label": "ABSolite MODA MSP 75",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-msp-80",
+   "label": "ABSolite MODA MSP 80",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-r-100",
+   "label": "ABSolite MODA-R 100",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-r-120",
+   "label": "ABSolite MODA-R 120",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-r-150",
+   "label": "ABSolite MODA-R 150",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-r-180",
+   "label": "ABSolite MODA-R 180",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-r-40",
+   "label": "ABSolite MODA-R 40",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-r-50",
+   "label": "ABSolite MODA-R 50",
+   "classCode": null
+  },
+  {
+   "id": "absolite-moda-r-80",
+   "label": "ABSolite MODA-R 80",
+   "classCode": null
+  },
+  {
+   "id": "absolite-neo-1000-1000-l-1000-le",
+   "label": "ABSolite NEO 1000/ 1000 L/ 1000 LE",
+   "classCode": null
+  },
+  {
+   "id": "absolite-neo-10000-l-10000-le",
+   "label": "ABSolite NEO 10000 L/ 10000 LE",
+   "classCode": null
+  },
+  {
+   "id": "absolite-neo-15000-le",
+   "label": "ABSolite NEO 15000 LE",
+   "classCode": null
+  },
+  {
+   "id": "absolite-neo-2000-2000-l-2000-le",
+   "label": "ABSolite NEO 2000/ 2000 L/ 2000 LE",
+   "classCode": null
+  },
+  {
+   "id": "absolite-neo-20000-le",
+   "label": "ABSolite NEO 20000 LE",
+   "classCode": null
+  },
+  {
+   "id": "absolite-neo-3000-3000-l-3000-le",
+   "label": "ABSolite NEO 3000/ 3000 L/ 3000 LE",
+   "classCode": null
+  },
+  {
+   "id": "absolite-neo-6000-l-6000-le",
+   "label": "ABSolite NEO 6000 L/ 6000 LE",
+   "classCode": null
+  },
+  {
+   "id": "absolite-nova-1000-1000tl",
+   "label": "ABSolite NOVA 1000 / 1000TL",
+   "classCode": null
+  },
+  {
+   "id": "absolite-nova-10000-10000tl",
+   "label": "ABSolite NOVA 10000 / 10000TL",
+   "classCode": null
+  },
+  {
+   "id": "absolite-nova-2000-2000tl",
+   "label": "ABSolite NOVA 2000 / 2000TL",
+   "classCode": null
+  },
+  {
+   "id": "absolite-nova-3000-3000tl",
+   "label": "ABSolite NOVA 3000 / 3000TL",
+   "classCode": null
+  },
+  {
+   "id": "absolite-nova-6000-6000tl",
+   "label": "ABSolite NOVA 6000 / 6000TL",
+   "classCode": null
+  },
+  {
+   "id": "absolite-smart-hs-1000-smart-hs-1000rl",
+   "label": "ABSolite SMART HS 1000 SMART HS 1000RL",
+   "classCode": null
+  },
+  {
+   "id": "absolite-smart-hs-10000-smart-hs-10000rl",
+   "label": "ABSolite SMART HS 10000 SMART HS 10000RL",
+   "classCode": null
+  },
+  {
+   "id": "absolite-smart-hs-2000-smart-hs-2000rl",
+   "label": "ABSolite SMART HS 2000 SMART HS 2000RL",
+   "classCode": null
+  },
+  {
+   "id": "absolite-smart-hs-3000-smart-hs-3000rl",
+   "label": "ABSolite SMART HS 3000 SMART HS 3000RL",
+   "classCode": null
+  },
+  {
+   "id": "absolite-smart-hs-6000-smart-hs-6000rl",
+   "label": "ABSolite SMART HS 6000 SMART HS 6000RL",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kompleksnoe-reshenie-ibp-s3-litiy-ionnaya-akb-10kva",
+   "label": "KEHUA Комплексное решение ИБП+S3 литий-ионная АКБ (10кВА)",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kompleksnoe-reshenie-ibp-s3-litiy-ionnaya-akb-20kva",
+   "label": "KEHUA Комплексное решение ИБП+S3 литий-ионная АКБ (20кВА)",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kompleksnoe-reshenie-ibp-s3-litiy-ionnaya-akb-30kva",
+   "label": "KEHUA Комплексное решение ИБП+S3 литий-ионная АКБ (30кВА)",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kompleksnoe-reshenie-ibp-s3-litiy-ionnaya-akb-40kva",
+   "label": "KEHUA Комплексное решение ИБП+S3 литий-ионная АКБ (40кВА)",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kompleksnoe-reshenie-ibp-s3-litiy-ionnaya-akb-6kva",
+   "label": "KEHUA Комплексное решение ИБП+S3 литий-ионная АКБ (6кВА)",
+   "classCode": null
+  },
+  {
+   "id": "kehua-modul-serii-ips",
+   "label": "KEHUA Модуль серии IPS",
+   "classCode": null
+  },
+  {
+   "id": "kehua-fr-uk3310-gel",
+   "label": "Kehua FR-UK3310-GEL",
+   "classCode": null
+  },
+  {
+   "id": "kehua-fr-uk33100-gel",
+   "label": "Kehua FR-UK33100-GEL",
+   "classCode": null
+  },
+  {
+   "id": "kehua-fr-uk33120-gel",
+   "label": "Kehua FR-UK33120-GEL",
+   "classCode": null
+  },
+  {
+   "id": "kehua-fr-uk33160-gel",
+   "label": "Kehua FR-UK33160-GEL",
+   "classCode": null
+  },
+  {
+   "id": "kehua-fr-uk3320-gel",
+   "label": "Kehua FR-UK3320-GEL",
+   "classCode": null
+  },
+  {
+   "id": "kehua-fr-uk33200-gel",
+   "label": "Kehua FR-UK33200-GEL",
+   "classCode": null
+  },
+  {
+   "id": "kehua-fr-uk3330-gel",
+   "label": "Kehua FR-UK3330-GEL",
+   "classCode": null
+  },
+  {
+   "id": "kehua-fr-uk3340-gel",
+   "label": "Kehua FR-UK3340-GEL",
+   "classCode": null
+  },
+  {
+   "id": "kehua-fr-uk3350-gel",
+   "label": "Kehua FR-UK3350-GEL",
+   "classCode": null
+  },
+  {
+   "id": "kehua-fr-uk3360-gel",
+   "label": "Kehua FR-UK3360-GEL",
+   "classCode": null
+  },
+  {
+   "id": "kehua-fr-uk3380-gel",
+   "label": "Kehua FR-UK3380-GEL",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr-10kva-rm",
+   "label": "Kehua KR 10KVA-RM",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr1000-rm",
+   "label": "Kehua KR1000-RM",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr1000-rm-li",
+   "label": "Kehua KR1000-RM Li",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr1000",
+   "label": "Kehua KR1000+",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr1000l-rm",
+   "label": "Kehua KR1000L-RM",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr1000l",
+   "label": "Kehua KR1000L+",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr1110-j",
+   "label": "Kehua KR1110-J+",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr1110-rm",
+   "label": "Kehua KR1110-RM",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr1110",
+   "label": "Kehua KR1110+",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr1110s",
+   "label": "Kehua KR1110S+",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr1110t-l",
+   "label": "Kehua KR1110T(L)",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr15kva-rm",
+   "label": "Kehua KR15KVA-RM",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr2000-rm",
+   "label": "Kehua KR2000-RM",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr2000-rm-li",
+   "label": "Kehua KR2000-RM Li",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr2000",
+   "label": "Kehua KR2000+",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr2000l-rm",
+   "label": "Kehua KR2000L-RM",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr2000l",
+   "label": "Kehua KR2000L+",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr20kva-rm",
+   "label": "Kehua KR20KVA-RM",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr2200-rm-li",
+   "label": "Kehua KR2200-RM Li",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr3000-rm",
+   "label": "Kehua KR3000-RM",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr3000-rm-li",
+   "label": "Kehua KR3000-RM Li",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr3000",
+   "label": "Kehua KR3000+",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr3000l-rm",
+   "label": "Kehua KR3000L-RM",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr3000l",
+   "label": "Kehua KR3000L+",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr30kva-rm",
+   "label": "Kehua KR30KVA-RM",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr33-t-10-kva",
+   "label": "Kehua KR33 T 10 кВА",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr33-t-15-kva",
+   "label": "Kehua KR33 T 15 кВА",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr33-t-20-kva",
+   "label": "Kehua KR33 T 20 кВА",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr33-t-30-kva",
+   "label": "Kehua KR33 T 30 кВА",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr33-t-40-kva",
+   "label": "Kehua KR33 T 40 кВА",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr3310",
+   "label": "Kehua KR3310",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr331000",
+   "label": "Kehua KR331000",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr3310s",
+   "label": "Kehua KR3310S",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr331200",
+   "label": "Kehua KR331200",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr3315",
+   "label": "Kehua KR3315",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr3315s",
+   "label": "Kehua KR3315S",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr3320",
+   "label": "Kehua KR3320",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr3320s",
+   "label": "Kehua KR3320S",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr3330",
+   "label": "Kehua KR3330",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr33300",
+   "label": "Kehua KR33300",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr33300t",
+   "label": "Kehua KR33300T",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr3330s",
+   "label": "Kehua KR3330S",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr3340",
+   "label": "Kehua KR3340",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr33400",
+   "label": "Kehua KR33400",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr33400t",
+   "label": "Kehua KR33400T",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr3340s",
+   "label": "Kehua KR3340S",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr33500",
+   "label": "Kehua KR33500",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr33500t",
+   "label": "Kehua KR33500T",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr33600",
+   "label": "Kehua KR33600",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr33600t",
+   "label": "Kehua KR33600T",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr33800",
+   "label": "Kehua KR33800",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr40kva-rm",
+   "label": "Kehua KR40KVA-RM",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr6000-rm",
+   "label": "Kehua KR6000-RM",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr6000",
+   "label": "Kehua KR6000+",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr6000l-j",
+   "label": "Kehua KR6000L-J+",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr6000l",
+   "label": "Kehua KR6000L+",
+   "classCode": null
+  },
+  {
+   "id": "kehua-kr6000t-l",
+   "label": "Kehua KR6000T(L)",
+   "classCode": null
+  },
+  {
+   "id": "kehua-mr331000",
+   "label": "Kehua MR331000",
+   "classCode": null
+  },
+  {
+   "id": "kehua-mr33120",
+   "label": "Kehua MR33120",
+   "classCode": null
+  },
+  {
+   "id": "kehua-mr331200",
+   "label": "Kehua MR331200",
+   "classCode": null
+  },
+  {
+   "id": "kehua-mr331600",
+   "label": "Kehua MR331600",
+   "classCode": null
+  },
+  {
+   "id": "kehua-mr33200",
+   "label": "Kehua MR33200",
+   "classCode": null
+  },
+  {
+   "id": "kehua-mr33300",
+   "label": "Kehua MR33300",
+   "classCode": null
+  },
+  {
+   "id": "kehua-mr33400",
+   "label": "Kehua MR33400",
+   "classCode": null
+  },
+  {
+   "id": "kehua-mr33500",
+   "label": "Kehua MR33500",
+   "classCode": null
+  },
+  {
+   "id": "kehua-mr33600",
+   "label": "Kehua MR33600",
+   "classCode": null
+  },
+  {
+   "id": "kehua-mr33800",
+   "label": "Kehua MR33800",
+   "classCode": null
+  },
+  {
+   "id": "kehua-my100",
+   "label": "Kehua MY100",
+   "classCode": null
+  },
+  {
+   "id": "kehua-my120",
+   "label": "Kehua MY120",
+   "classCode": null
+  },
+  {
+   "id": "kehua-my160",
+   "label": "Kehua MY160",
+   "classCode": null
+  },
+  {
+   "id": "kehua-my200",
+   "label": "Kehua MY200",
+   "classCode": null
+  },
+  {
+   "id": "kehua-my60",
+   "label": "Kehua MY60",
+   "classCode": null
+  },
+  {
+   "id": "kehua-my80",
+   "label": "Kehua MY80",
+   "classCode": null
+  },
+  {
+   "id": "kehua-s3-smart-backup-system-100-ach",
+   "label": "KEHUA S3 Smart Backup System (100 Ач)",
+   "classCode": null
+  },
+  {
+   "id": "kehua-s3-smart-backup-system-40-ach",
+   "label": "KEHUA S3 Smart Backup System (40 Ач)",
+   "classCode": null
+  },
+  {
+   "id": "kehua-s3-smart-backup-system-50-ach",
+   "label": "KEHUA S3 Smart Backup System (50 Ач)",
+   "classCode": null
+  }
+ ]
+}

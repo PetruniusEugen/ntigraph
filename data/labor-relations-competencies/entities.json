@@ -1,0 +1,570 @@
+{
+ "entities": [
+  {
+   "id": "adaptaciya-plan-adaptacii-anny-petrovoy",
+   "label": "Адаптация «План адаптации Анны Петровой»",
+   "classCode": "Adaptation"
+  },
+  {
+   "id": "class-adaptaciya-rabotnika",
+   "label": "Адаптация работника",
+   "classCode": "Adaptation",
+   "isClass": true
+  },
+  {
+   "id": "aksiologicheskiy-rezhim",
+   "label": "Аксиологический режим",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "aleticheskiy-rezhim",
+   "label": "Алетический режим",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "anna-petrova",
+   "label": "Анна Петрова",
+   "classCode": "Employee"
+  },
+  {
+   "id": "class-vakansiya",
+   "label": "Вакансия",
+   "classCode": "Vacancy",
+   "isClass": true
+  },
+  {
+   "id": "vakansiya-analitik-dannyh",
+   "label": "Вакансия «Аналитик данных»",
+   "classCode": "Vacancy"
+  },
+  {
+   "id": "vakansiya-veduschiy-inzhener-ontolog",
+   "label": "Вакансия «Ведущий инженер-онтолог»",
+   "classCode": "Vacancy"
+  },
+  {
+   "id": "vakansiya-inzhener-znaniy",
+   "label": "Вакансия «Инженер знаний»",
+   "classCode": "Vacancy"
+  },
+  {
+   "id": "vakansiya-inzhener-ontolog",
+   "label": "Вакансия «Инженер-онтолог»",
+   "classCode": "Vacancy"
+  },
+  {
+   "id": "vakansiya-kontekstnyy-inzhener",
+   "label": "Вакансия «Контекстный инженер»",
+   "classCode": "Vacancy"
+  },
+  {
+   "id": "vakansiya-produktovyy-analitik",
+   "label": "Вакансия «Продуктовый аналитик»",
+   "classCode": "Vacancy"
+  },
+  {
+   "id": "vakansiya-starshiy-analitik-dannyh",
+   "label": "Вакансия «Старший аналитик данных»",
+   "classCode": "Vacancy"
+  },
+  {
+   "id": "vakansiya-bi-analitik",
+   "label": "Вакансия «BI-аналитик»",
+   "classCode": "Vacancy"
+  },
+  {
+   "id": "vopros-kakie-zns-trebuyutsya-dlya-funkcii",
+   "label": "Вопрос «Какие ЗНС требуются для функции?»",
+   "classCode": "CompetencyQuestion"
+  },
+  {
+   "id": "class-vopros-kompetencii",
+   "label": "Вопрос компетенции",
+   "classCode": "CompetencyQuestion",
+   "isClass": true
+  },
+  {
+   "id": "deonticheskiy-rezhim",
+   "label": "Деонтический режим",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "dokazatelstvo-sertifikat-sql-intermediate",
+   "label": "Доказательство «Сертификат SQL Intermediate»",
+   "classCode": "Evidence"
+  },
+  {
+   "id": "class-dokazatelstvo-kompetencii",
+   "label": "Доказательство компетенции",
+   "classCode": "Evidence",
+   "isClass": true
+  },
+  {
+   "id": "class-dolzhnost",
+   "label": "Должность",
+   "classCode": "Position",
+   "isClass": true
+  },
+  {
+   "id": "dolzhnost-analitik-dannyh-greyd-2",
+   "label": "Должность «Аналитик данных, грейд 2»",
+   "classCode": "Position"
+  },
+  {
+   "id": "dolzhnost-inzhener-ontolog-greyd-2",
+   "label": "Должность «Инженер-онтолог, грейд 2»",
+   "classCode": "Position"
+  },
+  {
+   "id": "dolzhnost-kontekstnyy-inzhener-greyd-1",
+   "label": "Должность «Контекстный инженер, грейд 1»",
+   "classCode": "Position"
+  },
+  {
+   "id": "zhiznennyy-cikl-statistika-primenenie",
+   "label": "Жизненный цикл «Статистика: применение»",
+   "classCode": "ZNSLifecycle"
+  },
+  {
+   "id": "zhiznennyy-cikl-sql-podderzhanie-i-obnovlenie",
+   "label": "Жизненный цикл «SQL: поддержание и обновление»",
+   "classCode": "ZNSLifecycle"
+  },
+  {
+   "id": "class-zhiznennyy-cikl-zns",
+   "label": "Жизненный цикл ЗНС",
+   "classCode": "ZNSLifecycle",
+   "isClass": true
+  },
+  {
+   "id": "class-znanie",
+   "label": "Знание",
+   "classCode": "Knowledge",
+   "isClass": true
+  },
+  {
+   "id": "znanie-semanticheskie-tehnologii",
+   "label": "Знание «Семантические технологии»",
+   "classCode": "Knowledge"
+  },
+  {
+   "id": "znanie-statistika",
+   "label": "Знание «Статистика»",
+   "classCode": "Knowledge"
+  },
+  {
+   "id": "znanie-formalnaya-logika",
+   "label": "Знание «Формальная логика»",
+   "classCode": "Knowledge"
+  },
+  {
+   "id": "class-kompetenciya",
+   "label": "Компетенция",
+   "classCode": "Competency",
+   "isClass": true
+  },
+  {
+   "id": "kompetenciya-analiz-dannyh",
+   "label": "Компетенция «Анализ данных»",
+   "classCode": "Competency"
+  },
+  {
+   "id": "kompetenciya-modelirovanie-konteksta",
+   "label": "Компетенция «Моделирование контекста»",
+   "classCode": "Competency"
+  },
+  {
+   "id": "kompetenciya-ontologicheskoe-modelirovanie",
+   "label": "Компетенция «Онтологическое моделирование»",
+   "classCode": "Competency"
+  },
+  {
+   "id": "mera-kurs-sql-dlya-analitiki",
+   "label": "Мера «Курс SQL для аналитики»",
+   "classCode": "TrainingAction"
+  },
+  {
+   "id": "class-mera-razvitiya",
+   "label": "Мера развития",
+   "classCode": "TrainingAction",
+   "isClass": true
+  },
+  {
+   "id": "class-modalnoe-utverzhdenie",
+   "label": "Модальное утверждение",
+   "classCode": "ModalStatement",
+   "isClass": true
+  },
+  {
+   "id": "modalnoe-utverzhdenie-adaptaciya-cenna",
+   "label": "Модальное утверждение «Адаптация ценна»",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "modalnoe-utverzhdenie-sertifikat-podtverzhdaet-navyk",
+   "label": "Модальное утверждение «Сертификат подтверждает навык»",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "modalnoe-utverzhdenie-statistika-neobhodima",
+   "label": "Модальное утверждение «Статистика необходима»",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "modalnoe-utverzhdenie-trebovanie-deystvuet-do-peresmotra",
+   "label": "Модальное утверждение «Требование действует до пересмотра»",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "modalnoe-utverzhdenie-sql-obyazatelen",
+   "label": "Модальное утверждение «SQL обязателен»",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "class-modalnyy-rezhim",
+   "label": "Модальный режим",
+   "classCode": "ModalMode",
+   "isClass": true
+  },
+  {
+   "id": "class-navyk",
+   "label": "Навык",
+   "classCode": "Skill",
+   "isClass": true
+  },
+  {
+   "id": "navyk-vizualizaciya-dannyh",
+   "label": "Навык «Визуализация данных»",
+   "classCode": "Skill"
+  },
+  {
+   "id": "navyk-kontekstnoe-modelirovanie",
+   "label": "Навык «Контекстное моделирование»",
+   "classCode": "Skill"
+  },
+  {
+   "id": "navyk-soglasovanie-ontologiy",
+   "label": "Навык «Согласование онтологий»",
+   "classCode": "Skill"
+  },
+  {
+   "id": "navyk-owl-i-shacl",
+   "label": "Навык «OWL и SHACL»",
+   "classCode": "Skill"
+  },
+  {
+   "id": "navyk-sparql",
+   "label": "Навык «SPARQL»",
+   "classCode": "Skill"
+  },
+  {
+   "id": "navyk-sql",
+   "label": "Навык «SQL»",
+   "classCode": "Skill"
+  },
+  {
+   "id": "class-organizaciya",
+   "label": "Организация",
+   "classCode": "Organization",
+   "isClass": true
+  },
+  {
+   "id": "organizaciya-vektor",
+   "label": "Организация «Вектор»",
+   "classCode": "Organization"
+  },
+  {
+   "id": "pasport-pasport-kompetencii-anny-petrovoy",
+   "label": "Паспорт «Паспорт компетенции Анны Петровой»",
+   "classCode": "CompetencyPassport"
+  },
+  {
+   "id": "class-pasport-kompetencii",
+   "label": "Паспорт компетенции",
+   "classCode": "CompetencyPassport",
+   "isClass": true
+  },
+  {
+   "id": "pokazatel-dolya-vakansiy-s-trebovaniem-vizualizacii-dannyh",
+   "label": "Показатель «Доля вакансий с требованием визуализации данных»",
+   "classCode": "LaborMarketIndicator"
+  },
+  {
+   "id": "pokazatel-dolya-vakansiy-s-trebovaniem-kriticheskogo-myshleniya",
+   "label": "Показатель «Доля вакансий с требованием критического мышления»",
+   "classCode": "LaborMarketIndicator"
+  },
+  {
+   "id": "pokazatel-dolya-vakansiy-s-trebovaniem-modelirovaniya-konteksta",
+   "label": "Показатель «Доля вакансий с требованием моделирования контекста»",
+   "classCode": "LaborMarketIndicator"
+  },
+  {
+   "id": "pokazatel-dolya-vakansiy-s-trebovaniem-ontologicheskogo-modelirovaniya",
+   "label": "Показатель «Доля вакансий с требованием онтологического моделирования»",
+   "classCode": "LaborMarketIndicator"
+  },
+  {
+   "id": "pokazatel-dolya-vakansiy-s-trebovaniem-statistiki",
+   "label": "Показатель «Доля вакансий с требованием статистики»",
+   "classCode": "LaborMarketIndicator"
+  },
+  {
+   "id": "pokazatel-dolya-vakansiy-s-trebovaniem-formalnoy-logiki",
+   "label": "Показатель «Доля вакансий с требованием формальной логики»",
+   "classCode": "LaborMarketIndicator"
+  },
+  {
+   "id": "pokazatel-dolya-vakansiy-s-trebovaniem-owl-i-shacl",
+   "label": "Показатель «Доля вакансий с требованием OWL и SHACL»",
+   "classCode": "LaborMarketIndicator"
+  },
+  {
+   "id": "pokazatel-dolya-vakansiy-s-trebovaniem-sparql",
+   "label": "Показатель «Доля вакансий с требованием SPARQL»",
+   "classCode": "LaborMarketIndicator"
+  },
+  {
+   "id": "pokazatel-dolya-vakansiy-s-trebovaniem-sql-urovnya-3",
+   "label": "Показатель «Доля вакансий с требованием SQL уровня 3+»",
+   "classCode": "LaborMarketIndicator"
+  },
+  {
+   "id": "pokazatel-dolya-vakansiy-s-trebovaniem-sql",
+   "label": "Показатель «Доля вакансий с требованием SQL»",
+   "classCode": "LaborMarketIndicator"
+  },
+  {
+   "id": "class-pokazatel-vostrebovannosti",
+   "label": "Показатель востребованности",
+   "classCode": "LaborMarketIndicator",
+   "isClass": true
+  },
+  {
+   "id": "potrebnost-soglasovat-modeli-dannyh",
+   "label": "Потребность «Согласовать модели данных»",
+   "classCode": "EmployerNeed"
+  },
+  {
+   "id": "potrebnost-uskorit-podgotovku-otchetov",
+   "label": "Потребность «Ускорить подготовку отчётов»",
+   "classCode": "EmployerNeed"
+  },
+  {
+   "id": "potrebnost-uchest-kontekst-ispolzovaniya-dannyh",
+   "label": "Потребность «Учесть контекст использования данных»",
+   "classCode": "EmployerNeed"
+  },
+  {
+   "id": "class-potrebnost-rabotodatelya",
+   "label": "Потребность работодателя",
+   "classCode": "EmployerNeed",
+   "isClass": true
+  },
+  {
+   "id": "class-professionalnyy-standart",
+   "label": "Профессиональный стандарт",
+   "classCode": "ProfessionalStandard",
+   "isClass": true
+  },
+  {
+   "id": "professionalnyy-standart-analitik-dannyh",
+   "label": "Профессиональный стандарт «Аналитик данных»",
+   "classCode": "ProfessionalStandard"
+  },
+  {
+   "id": "class-professiya",
+   "label": "Профессия",
+   "classCode": "Profession",
+   "isClass": true
+  },
+  {
+   "id": "professiya-analitik-dannyh",
+   "label": "Профессия «Аналитик данных»",
+   "classCode": "Profession"
+  },
+  {
+   "id": "professiya-inzhener-ontolog",
+   "label": "Профессия «Инженер-онтолог»",
+   "classCode": "Profession"
+  },
+  {
+   "id": "professiya-kontekstnyy-inzhener",
+   "label": "Профессия «Контекстный инженер»",
+   "classCode": "Profession"
+  },
+  {
+   "id": "class-rabotnik",
+   "label": "Работник",
+   "classCode": "Employee",
+   "isClass": true
+  },
+  {
+   "id": "razryv-sql-uroven-2-vmesto-3",
+   "label": "Разрыв «SQL: уровень 2 вместо 3»",
+   "classCode": "CompetencyGap"
+  },
+  {
+   "id": "class-razryv-kompetenciy",
+   "label": "Разрыв компетенций",
+   "classCode": "CompetencyGap",
+   "isClass": true
+  },
+  {
+   "id": "signal-rost-doli-vakansiy-s-trebovaniem-owl-i-shacl",
+   "label": "Сигнал «Рост доли вакансий с требованием OWL и SHACL»",
+   "classCode": "LaborMarketSignal"
+  },
+  {
+   "id": "signal-rost-doli-vakansiy-s-trebovaniem-sql",
+   "label": "Сигнал «Рост доли вакансий с требованием SQL»",
+   "classCode": "LaborMarketSignal"
+  },
+  {
+   "id": "class-signal-rynka-truda",
+   "label": "Сигнал рынка труда",
+   "classCode": "LaborMarketSignal",
+   "isClass": true
+  },
+  {
+   "id": "class-sposobnost",
+   "label": "Способность",
+   "classCode": "Ability",
+   "isClass": true
+  },
+  {
+   "id": "sposobnost-kriticheskoe-myshlenie",
+   "label": "Способность «Критическое мышление»",
+   "classCode": "Ability"
+  },
+  {
+   "id": "sposobnost-sistemnoe-myshlenie",
+   "label": "Способность «Системное мышление»",
+   "classCode": "Ability"
+  },
+  {
+   "id": "class-srez-rynka-truda",
+   "label": "Срез рынка труда",
+   "classCode": "LaborMarketSnapshot",
+   "isClass": true
+  },
+  {
+   "id": "srez-rynka-truda-analitika-dannyh",
+   "label": "Срез рынка труда «Аналитика данных»",
+   "classCode": "LaborMarketSnapshot"
+  },
+  {
+   "id": "srez-rynka-truda-inzheneriya-znaniy",
+   "label": "Срез рынка труда «Инженерия знаний»",
+   "classCode": "LaborMarketSnapshot"
+  },
+  {
+   "id": "temporalnyy-rezhim",
+   "label": "Темпоральный режим",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "trebovanie-vizualizaciya-dannyh-bazovyy-uroven",
+   "label": "Требование «Визуализация данных: базовый уровень»",
+   "classCode": "CompetencyRequirement"
+  },
+  {
+   "id": "trebovanie-kriticheskoe-myshlenie-bazovyy-uroven",
+   "label": "Требование «Критическое мышление: базовый уровень»",
+   "classCode": "CompetencyRequirement"
+  },
+  {
+   "id": "trebovanie-modelirovanie-konteksta-prakticheskiy-uroven",
+   "label": "Требование «Моделирование контекста: практический уровень»",
+   "classCode": "CompetencyRequirement"
+  },
+  {
+   "id": "trebovanie-ontologicheskoe-modelirovanie-uverennyy-uroven",
+   "label": "Требование «Онтологическое моделирование: уверенный уровень»",
+   "classCode": "CompetencyRequirement"
+  },
+  {
+   "id": "trebovanie-sistemnoe-myshlenie-bazovyy-uroven",
+   "label": "Требование «Системное мышление: базовый уровень»",
+   "classCode": "CompetencyRequirement"
+  },
+  {
+   "id": "trebovanie-soglasovanie-ontologiy-bazovyy-uroven",
+   "label": "Требование «Согласование онтологий: базовый уровень»",
+   "classCode": "CompetencyRequirement"
+  },
+  {
+   "id": "trebovanie-statistika-bazovyy-uroven",
+   "label": "Требование «Статистика: базовый уровень»",
+   "classCode": "CompetencyRequirement"
+  },
+  {
+   "id": "trebovanie-formalnaya-logika-bazovyy-uroven",
+   "label": "Требование «Формальная логика: базовый уровень»",
+   "classCode": "CompetencyRequirement"
+  },
+  {
+   "id": "trebovanie-owl-i-shacl-prakticheskiy-uroven",
+   "label": "Требование «OWL и SHACL: практический уровень»",
+   "classCode": "CompetencyRequirement"
+  },
+  {
+   "id": "trebovanie-sparql-prakticheskiy-uroven",
+   "label": "Требование «SPARQL: практический уровень»",
+   "classCode": "CompetencyRequirement"
+  },
+  {
+   "id": "trebovanie-sql-urovnya-2",
+   "label": "Требование «SQL уровня 2»",
+   "classCode": "CompetencyRequirement"
+  },
+  {
+   "id": "trebovanie-sql-urovnya-3",
+   "label": "Требование «SQL уровня 3»",
+   "classCode": "CompetencyRequirement"
+  },
+  {
+   "id": "class-trebovanie-k-kompetencii",
+   "label": "Требование к компетенции",
+   "classCode": "CompetencyRequirement",
+   "isClass": true
+  },
+  {
+   "id": "class-trudovaya-funkciya",
+   "label": "Трудовая функция",
+   "classCode": "LaborFunction",
+   "isClass": true
+  },
+  {
+   "id": "trudovaya-funkciya-modelirovanie-konteksta-ispolzovaniya-dannyh",
+   "label": "Трудовая функция «Моделирование контекста использования данных»",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-podgotovka-analiticheskih-otchetov",
+   "label": "Трудовая функция «Подготовка аналитических отчётов»",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "trudovaya-funkciya-proektirovanie-ontologii-predmetnoy-oblasti",
+   "label": "Трудовая функция «Проектирование онтологии предметной области»",
+   "classCode": "LaborFunction"
+  },
+  {
+   "id": "class-trudovoy-dogovor",
+   "label": "Трудовой договор",
+   "classCode": "EmploymentContract",
+   "isClass": true
+  },
+  {
+   "id": "trudovoy-dogovor-anny-petrovoy",
+   "label": "Трудовой договор Анны Петровой",
+   "classCode": "EmploymentContract"
+  },
+  {
+   "id": "epistemicheskiy-rezhim",
+   "label": "Эпистемический режим",
+   "classCode": "ModalMode"
+  }
+ ]
+}

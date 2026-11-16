@@ -1,0 +1,813 @@
+{
+ "classes": [
+  {
+   "code": "Organization",
+   "name": "Организация",
+   "comment": "Юридическое лицо, для которого составляется отчётность и управляется ликвидность.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Название организации."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "STATE",
+     "name": "Состояние: баланс"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Counterparty",
+   "name": "Контрагент",
+   "comment": "Покупатель, поставщик, банк или иная сторона, перед которой или к которой есть требования и обязательства.",
+   "attributes": [
+    {
+     "code": "kind",
+     "name": "вид",
+     "type": "string",
+     "comment": "Покупатель, поставщик, банк."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "STATE",
+     "name": "Состояние: баланс"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "BalanceSheet",
+   "name": "Баланс",
+   "comment": "Состояние активов, обязательств и капитала на одну отчётную дату; не накапливается за период.",
+   "attributes": [
+    {
+     "code": "reportDate",
+     "name": "отчётная дата",
+     "type": "date",
+     "comment": "Дата, на которую составлен баланс."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "STATE",
+     "name": "Состояние: баланс"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Asset",
+   "name": "Актив",
+   "comment": "Ресурс или требование, контролируемое организацией (деньги, дебиторская задолженность, запасы, основные средства).",
+   "attributes": [
+    {
+     "code": "amount",
+     "name": "сумма, млн руб.",
+     "type": "string",
+     "comment": "Балансовая стоимость на отчётную дату."
+    },
+    {
+     "code": "daysToDue",
+     "name": "дней до срока",
+     "type": "string",
+     "comment": "Для требований: сколько дней до получения денег."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "STATE",
+     "name": "Состояние: баланс"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Liability",
+   "name": "Обязательство",
+   "comment": "Обязанность организации заплатить или передать ресурс (кредиторская задолженность, заёмные средства).",
+   "attributes": [
+    {
+     "code": "amount",
+     "name": "сумма, млн руб.",
+     "type": "string",
+     "comment": "Балансовая стоимость на отчётную дату."
+    },
+    {
+     "code": "daysToDue",
+     "name": "дней до срока",
+     "type": "string",
+     "comment": "Сколько дней до платежа."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "STATE",
+     "name": "Состояние: баланс"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Equity",
+   "name": "Капитал",
+   "comment": "Остаточное право владельцев на активы после погашения обязательств.",
+   "attributes": [
+    {
+     "code": "amount",
+     "name": "сумма, млн руб.",
+     "type": "string",
+     "comment": "Величина капитала на отчётную дату."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "STATE",
+     "name": "Состояние: баланс"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ReportingPeriod",
+   "name": "Отчётный период",
+   "comment": "Интервал, за который составляются отчёты о прибылях и убытках и о движении денег.",
+   "attributes": [
+    {
+     "code": "startDate",
+     "name": "начало",
+     "type": "date",
+     "comment": "Первый день периода."
+    },
+    {
+     "code": "endDate",
+     "name": "конец",
+     "type": "date",
+     "comment": "Последний день периода."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "FLOW",
+     "name": "Потоки: прибыли, убытки и деньги"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ProfitLossStatement",
+   "name": "Отчёт о прибылях и убытках",
+   "comment": "Поток по методу начисления: доходы и расходы периода, признанные независимо от движения денег.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "FLOW",
+     "name": "Потоки: прибыли, убытки и деньги"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CashFlowStatement",
+   "name": "Отчёт о движении денежных средств",
+   "comment": "Поток денег за период по видам деятельности; итог равен изменению остатка денег между двумя балансами.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "FLOW",
+     "name": "Потоки: прибыли, убытки и деньги"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Income",
+   "name": "Доход",
+   "comment": "Признанная за период выгода от продаж; не равна поступлению денег.",
+   "attributes": [
+    {
+     "code": "amount",
+     "name": "сумма, млн руб.",
+     "type": "string",
+     "comment": "Величина дохода за период."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "FLOW",
+     "name": "Потоки: прибыли, убытки и деньги"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Expense",
+   "name": "Расход",
+   "comment": "Признанные за период затраты; часть расходов неденежная (амортизация).",
+   "attributes": [
+    {
+     "code": "amount",
+     "name": "сумма, млн руб.",
+     "type": "string",
+     "comment": "Величина расхода за период."
+    },
+    {
+     "code": "isCash",
+     "name": "денежный",
+     "type": "string",
+     "comment": "Да, если расход сопровождается выплатой денег."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "FLOW",
+     "name": "Потоки: прибыли, убытки и деньги"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "NetIncome",
+   "name": "Чистая прибыль",
+   "comment": "Доходы минус расходы периода; информационная величина, а не деньги.",
+   "attributes": [
+    {
+     "code": "amount",
+     "name": "сумма, млн руб.",
+     "type": "string",
+     "comment": "Результат периода (со знаком)."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "FLOW",
+     "name": "Потоки: прибыли, убытки и деньги"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CashFlow",
+   "name": "Денежный поток",
+   "comment": "Фактическое или ожидаемое движение денег за интервал; положительный — поступление, отрицательный — выплата.",
+   "attributes": [
+    {
+     "code": "activity",
+     "name": "вид деятельности",
+     "type": "string",
+     "comment": "Операционная, инвестиционная, финансовая."
+    },
+    {
+     "code": "amount",
+     "name": "сумма, млн руб.",
+     "type": "string",
+     "comment": "Величина потока со знаком."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "FLOW",
+     "name": "Потоки: прибыли, убытки и деньги"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Operation",
+   "name": "Хозяйственная операция",
+   "comment": "Процесс, в котором организация продаёт, закупает, инвестирует или привлекает деньги; порождает доходы, расходы и потоки.",
+   "attributes": [
+    {
+     "code": "kind",
+     "name": "вид",
+     "type": "string",
+     "comment": "Продажа, закупка, капвложения, погашение долга."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "FLOW",
+     "name": "Потоки: прибыли, убытки и деньги"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LiquidityBuffer",
+   "name": "Запас ликвидности",
+   "comment": "Деньги и неиспользованные подтверждённые кредитные линии, доступные немедленно.",
+   "attributes": [
+    {
+     "code": "amount",
+     "name": "сумма, млн руб.",
+     "type": "string",
+     "comment": "Величина запаса."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LIQ",
+     "name": "Ликвидность и стресс-тесты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CreditFacility",
+   "name": "Кредитная линия",
+   "comment": "Подтверждённое право получить средства у банка до лимита.",
+   "attributes": [
+    {
+     "code": "unusedAmount",
+     "name": "свободный лимит, млн руб.",
+     "type": "string",
+     "comment": "Неиспользованный остаток."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LIQ",
+     "name": "Ликвидность и стресс-тесты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LiquidityIndicator",
+   "name": "Показатель ликвидности",
+   "comment": "Коэффициент покрытия обязательств горизонта запасом и ожидаемыми поступлениями.",
+   "attributes": [
+    {
+     "code": "value",
+     "name": "значение",
+     "type": "string",
+     "comment": "Рассчитанное значение показателя."
+    },
+    {
+     "code": "horizonDays",
+     "name": "горизонт, дней",
+     "type": "string",
+     "comment": "Горизонт расчёта."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LIQ",
+     "name": "Ликвидность и стресс-тесты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LiquidityLimit",
+   "name": "Лимит ликвидности",
+   "comment": "Минимально допустимое значение показателя по политике или ковенанту.",
+   "attributes": [
+    {
+     "code": "minimum",
+     "name": "минимум",
+     "type": "string",
+     "comment": "Нижняя граница значения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LIQ",
+     "name": "Ликвидность и стресс-тесты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CashForecast",
+   "name": "Прогноз денежных потоков",
+   "comment": "Ожидаемые поступления и выплаты по периодам горизонта планирования.",
+   "attributes": [
+    {
+     "code": "horizonDays",
+     "name": "горизонт, дней",
+     "type": "string",
+     "comment": "Горизонт прогноза."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LIQ",
+     "name": "Ликвидность и стресс-тесты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "StressScenario",
+   "name": "Стресс-сценарий",
+   "comment": "Гипотетическое сочетание неблагоприятных событий с оценкой влияния на потоки и запас ликвидности.",
+   "attributes": [
+    {
+     "code": "inflowReduction",
+     "name": "сокращение поступлений, млн руб.",
+     "type": "string",
+     "comment": "На сколько уменьшаются ожидаемые поступления."
+    },
+    {
+     "code": "bufferReduction",
+     "name": "сокращение запаса, млн руб.",
+     "type": "string",
+     "comment": "На сколько уменьшается запас ликвидности."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LIQ",
+     "name": "Ликвидность и стресс-тесты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Threat",
+   "name": "Угроза",
+   "comment": "Событие внешней или внутренней среды, способное реализовать риск (задержка платежа, санкции, шок курса, кибератака, потеря финансирования).",
+   "attributes": [
+    {
+     "code": "category",
+     "name": "категория",
+     "type": "string",
+     "comment": "Рыночная, кредитная, регуляторная, операционная, финансирования."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RISK",
+     "name": "Угрозы, риски и меры"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Risk",
+   "name": "Риск",
+   "comment": "Предрасположенность организации понести потери при наступлении угрозы; существует и до события.",
+   "attributes": [
+    {
+     "code": "severity",
+     "name": "серьёзность",
+     "type": "string",
+     "comment": "Низкая, средняя, высокая."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RISK",
+     "name": "Угрозы, риски и меры"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Control",
+   "name": "Мера снижения риска",
+   "comment": "Действие или инструмент, уменьшающий вероятность или последствия риска.",
+   "attributes": [
+    {
+     "code": "type",
+     "name": "тип меры",
+     "type": "string",
+     "comment": "Организационная, договорная, финансовая."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RISK",
+     "name": "Угрозы, риски и меры"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "hasBalance",
+   "name": "составляет баланс",
+   "comment": "Организация составляет баланс на отчётную дату.",
+   "fromClass": "Organization",
+   "toClass": "BalanceSheet"
+  },
+  {
+   "code": "balanceIncludesAsset",
+   "name": "включает актив",
+   "comment": "Баланс содержит статью актива.",
+   "fromClass": "BalanceSheet",
+   "toClass": "Asset"
+  },
+  {
+   "code": "balanceIncludesLiability",
+   "name": "включает обязательство",
+   "comment": "Баланс содержит статью обязательства.",
+   "fromClass": "BalanceSheet",
+   "toClass": "Liability"
+  },
+  {
+   "code": "balanceIncludesEquity",
+   "name": "включает капитал",
+   "comment": "Баланс содержит статью капитала.",
+   "fromClass": "BalanceSheet",
+   "toClass": "Equity"
+  },
+  {
+   "code": "pnlOpensFrom",
+   "name": "начинается с баланса",
+   "comment": "Отчёт о прибылях и убытках отсчитывается от баланса на начало периода.",
+   "fromClass": "ProfitLossStatement",
+   "toClass": "BalanceSheet"
+  },
+  {
+   "code": "pnlClosesTo",
+   "name": "заканчивается балансом",
+   "comment": "Результат отчёта отражён в балансе на конец периода.",
+   "fromClass": "ProfitLossStatement",
+   "toClass": "BalanceSheet"
+  },
+  {
+   "code": "cfOpensFrom",
+   "name": "движение денег от баланса",
+   "comment": "Отчёт о движении денег отсчитывается от баланса на начало периода.",
+   "fromClass": "CashFlowStatement",
+   "toClass": "BalanceSheet"
+  },
+  {
+   "code": "cfClosesTo",
+   "name": "движение денег к балансу",
+   "comment": "Итог потока равен остатку денег в балансе на конец периода.",
+   "fromClass": "CashFlowStatement",
+   "toClass": "BalanceSheet"
+  },
+  {
+   "code": "pnlCoversPeriod",
+   "name": "охватывает период",
+   "comment": "Отчёт о прибылях и убытках за период.",
+   "fromClass": "ProfitLossStatement",
+   "toClass": "ReportingPeriod"
+  },
+  {
+   "code": "cfCoversPeriod",
+   "name": "денежный отчёт охватывает период",
+   "comment": "Отчёт о движении денег за период.",
+   "fromClass": "CashFlowStatement",
+   "toClass": "ReportingPeriod"
+  },
+  {
+   "code": "pnlIncludesIncome",
+   "name": "включает доход",
+   "comment": "Отчёт содержит статью дохода.",
+   "fromClass": "ProfitLossStatement",
+   "toClass": "Income"
+  },
+  {
+   "code": "pnlIncludesExpense",
+   "name": "включает расход",
+   "comment": "Отчёт содержит статью расхода.",
+   "fromClass": "ProfitLossStatement",
+   "toClass": "Expense"
+  },
+  {
+   "code": "pnlReportsNetIncome",
+   "name": "сообщает чистую прибыль",
+   "comment": "Итоговый результат периода.",
+   "fromClass": "ProfitLossStatement",
+   "toClass": "NetIncome"
+  },
+  {
+   "code": "netIncomeIncreasesEquity",
+   "name": "увеличивает капитал",
+   "comment": "Результат периода входит в капитал на конец периода.",
+   "fromClass": "NetIncome",
+   "toClass": "Equity"
+  },
+  {
+   "code": "pnlReconcilesWithCf",
+   "name": "стыкуется с денежным отчётом",
+   "comment": "Прибыль и деньги связаны через неденежные статьи и оборотный капитал.",
+   "fromClass": "ProfitLossStatement",
+   "toClass": "CashFlowStatement"
+  },
+  {
+   "code": "cfIncludesFlow",
+   "name": "включает денежный поток",
+   "comment": "Отчёт содержит поток по виду деятельности.",
+   "fromClass": "CashFlowStatement",
+   "toClass": "CashFlow"
+  },
+  {
+   "code": "flowChangesAsset",
+   "name": "изменяет остаток актива",
+   "comment": "Денежный поток увеличивает или уменьшает остаток денег.",
+   "fromClass": "CashFlow",
+   "toClass": "Asset"
+  },
+  {
+   "code": "operationGeneratesFlow",
+   "name": "порождает денежный поток",
+   "comment": "Операция приводит к поступлению или выплате денег.",
+   "fromClass": "Operation",
+   "toClass": "CashFlow"
+  },
+  {
+   "code": "operationRecognizesIncome",
+   "name": "признаёт доход",
+   "comment": "Операция формирует доход по методу начисления.",
+   "fromClass": "Operation",
+   "toClass": "Income"
+  },
+  {
+   "code": "operationRecognizesExpense",
+   "name": "признаёт расход",
+   "comment": "Операция формирует расход по методу начисления.",
+   "fromClass": "Operation",
+   "toClass": "Expense"
+  },
+  {
+   "code": "liabilityOwedTo",
+   "name": "подлежит исполнению перед",
+   "comment": "Кому организация должна.",
+   "fromClass": "Liability",
+   "toClass": "Counterparty"
+  },
+  {
+   "code": "assetClaimOn",
+   "name": "является требованием к",
+   "comment": "Кто должен организации.",
+   "fromClass": "Asset",
+   "toClass": "Counterparty"
+  },
+  {
+   "code": "hasLiquidityBuffer",
+   "name": "располагает запасом",
+   "comment": "Организация владеет запасом ликвидности.",
+   "fromClass": "Organization",
+   "toClass": "LiquidityBuffer"
+  },
+  {
+   "code": "bufferIncludesAsset",
+   "name": "включает денежные средства",
+   "comment": "Деньги, входящие в запас.",
+   "fromClass": "LiquidityBuffer",
+   "toClass": "Asset"
+  },
+  {
+   "code": "bufferIncludesFacility",
+   "name": "включает свободную линию",
+   "comment": "Неиспользованная кредитная линия в запасе.",
+   "fromClass": "LiquidityBuffer",
+   "toClass": "CreditFacility"
+  },
+  {
+   "code": "facilityProvidedBy",
+   "name": "предоставлена",
+   "comment": "Банк, обязанный предоставить средства.",
+   "fromClass": "CreditFacility",
+   "toClass": "Counterparty"
+  },
+  {
+   "code": "indicatorMeasuresBuffer",
+   "name": "оценивает запас",
+   "comment": "Показатель рассчитан по запасу ликвидности.",
+   "fromClass": "LiquidityIndicator",
+   "toClass": "LiquidityBuffer"
+  },
+  {
+   "code": "indicatorHasLimit",
+   "name": "контролируется лимитом",
+   "comment": "Нижняя граница показателя.",
+   "fromClass": "LiquidityIndicator",
+   "toClass": "LiquidityLimit"
+  },
+  {
+   "code": "forecastPredictsFlow",
+   "name": "прогнозирует поток",
+   "comment": "Ожидаемое движение денег на горизонте.",
+   "fromClass": "CashForecast",
+   "toClass": "CashFlow"
+  },
+  {
+   "code": "forecastFeedsIndicator",
+   "name": "служит входом показателя",
+   "comment": "Прогноз используется при расчёте показателя.",
+   "fromClass": "CashForecast",
+   "toClass": "LiquidityIndicator"
+  },
+  {
+   "code": "scenarioModelsThreat",
+   "name": "моделирует угрозу",
+   "comment": "Угроза, заложенная в сценарий.",
+   "fromClass": "StressScenario",
+   "toClass": "Threat"
+  },
+  {
+   "code": "scenarioRecalculatesIndicator",
+   "name": "пересчитывает показатель",
+   "comment": "Сценарий применяется к показателю ликвидности.",
+   "fromClass": "StressScenario",
+   "toClass": "LiquidityIndicator"
+  },
+  {
+   "code": "hasRisk",
+   "name": "имеет риск",
+   "comment": "Организация подвержена риску.",
+   "fromClass": "Organization",
+   "toClass": "Risk"
+  },
+  {
+   "code": "threatTriggersRisk",
+   "name": "запускает реализацию риска",
+   "comment": "Наступление угрозы реализует риск.",
+   "fromClass": "Threat",
+   "toClass": "Risk"
+  },
+  {
+   "code": "threatDisruptsFlow",
+   "name": "нарушает поток",
+   "comment": "Угроза задерживает, блокирует или обрывает денежный поток.",
+   "fromClass": "Threat",
+   "toClass": "CashFlow"
+  },
+  {
+   "code": "threatTargetsAsset",
+   "name": "угрожает активу",
+   "comment": "Угроза снижает стоимость или доступность актива.",
+   "fromClass": "Threat",
+   "toClass": "Asset"
+  },
+  {
+   "code": "threatComesFrom",
+   "name": "исходит от",
+   "comment": "Источник угрозы.",
+   "fromClass": "Threat",
+   "toClass": "Counterparty"
+  },
+  {
+   "code": "riskDegradesIndicator",
+   "name": "ухудшает показатель",
+   "comment": "Реализация риска снижает показатель ликвидности.",
+   "fromClass": "Risk",
+   "toClass": "LiquidityIndicator"
+  },
+  {
+   "code": "controlMitigatesRisk",
+   "name": "мера снижает риск",
+   "comment": "Мера уменьшает вероятность или последствия риска.",
+   "fromClass": "Control",
+   "toClass": "Risk"
+  }
+ ],
+ "info": {
+  "description": "Онтология связывает три формы отчётности: баланс сообщает о состоянии на дату, отчёт о прибылях и убытках и отчёт о движении денег — о потоках за период, при этом оба потока начинаются и заканчиваются балансами. Прибыль считается по начислению и не равна деньгам: разрыв объясняют неденежные статьи и изменение дебиторской и кредиторской задолженности и запасов. Поверх отчётности построен контур ликвидности: запас, прогноз потоков, показатель покрытия, лимит и стресс-сценарии. Угрозы запускают реализацию рисков, нарушают потоки и снижают показатели; меры снижают риски. Числа учебные и согласованы между собой: баланс сходится, капитал растёт на прибыль, поток равен изменению денег.",
+  "scope": [
+   "Отчётность: баланс, отчёт о прибылях и убытках, отчёт о движении денег и их стыковка",
+   "Операции: продажи, закупки, капвложения, погашение долга и их влияние на доходы, расходы и деньги",
+   "Ликвидность: запас, кредитная линия, прогноз, показатель покрытия, лимит, стресс-тесты",
+   "Угрозы и риски: задержки платежей, санкции, шоки курса, потеря финансирования, кибератаки; меры снижения",
+   "Вне области: налоги, мультивалютный учёт, хеджевый учёт, МСФО-детали"
+  ],
+  "competencyQuestions": [
+   "Сходится ли баланс на каждую отчётную дату: активы = обязательства + капитал?",
+   "Как соотносятся чистая прибыль и изменение денег за период?",
+   "Какие статьи объясняют разрыв между прибылью и деньгами?",
+   "Равен ли итог отчёта о движении денег изменению остатка денег между двумя балансами?",
+   "На сколько вырос капитал и чем это объясняется?",
+   "Какие операции формируют денежный поток по видам деятельности?",
+   "Каков запас ликвидности и из чего он состоит?",
+   "Хватает ли запаса и ожидаемых поступлений на выплаты ближайших 30 дней?",
+   "Какие угрозы нарушают какие потоки и какие риски запускают?",
+   "Как меняется покрытие ликвидности в стресс-сценариях и какие нарушают лимит?",
+   "Какая доля дебиторской задолженности приходится на крупнейшего покупателя?",
+   "Какие меры снижают какие риски и что защищать в первую очередь?"
+  ]
+ },
+ "theme": [
+  {
+   "code": "STATE",
+   "name": "Состояние: баланс",
+   "color": "#60a5fa"
+  },
+  {
+   "code": "FLOW",
+   "name": "Потоки: прибыли, убытки и деньги",
+   "color": "#34d399"
+  },
+  {
+   "code": "LIQ",
+   "name": "Ликвидность и стресс-тесты",
+   "color": "#fbbf24"
+  },
+  {
+   "code": "RISK",
+   "name": "Угрозы, риски и меры",
+   "color": "#f87171"
+  }
+ ]
+}

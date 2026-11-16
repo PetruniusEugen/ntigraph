@@ -1,0 +1,1464 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "audit-dostupa",
+   "predicate": "имеет тип",
+   "object": "class-kontrol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t002",
+   "subject": "audit-dostupa",
+   "predicate": "контроль обеспечивает требование",
+   "object": "usilennaya-autentifikaciya-pdn",
+   "sourceId": "policy-pdn",
+   "sourceName": "Политика доступа к ПДн",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t003",
+   "subject": "byudzhet-socvyplat",
+   "predicate": "имеет тип",
+   "object": "class-finansovyy-resurs",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t004",
+   "subject": "vklyuchit-ruchnoy-rezhim",
+   "predicate": "имеет тип",
+   "object": "class-variant-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t005",
+   "subject": "vremennaya-nedostupnost-ivanova",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t006",
+   "subject": "vremennaya-nedostupnost-ivanova",
+   "predicate": "ограничение применяется к физическому лицу",
+   "object": "ivanov",
+   "sourceId": "hr",
+   "sourceName": "HR-система Минсоцполитики",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t007",
+   "subject": "vremya-obrabotki-zayavleniya",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t008",
+   "subject": "vybrat-infosoft",
+   "predicate": "имеет тип",
+   "object": "class-variant-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t009",
+   "subject": "vyplata-subsidii",
+   "predicate": "имеет тип",
+   "object": "class-process",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t010",
+   "subject": "vyplata-subsidii",
+   "predicate": "процесс зависит от процесса",
+   "object": "proverka-dohodov",
+   "sourceId": "reg-subsidy",
+   "sourceName": "Регламент назначения жилищной субсидии",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t011",
+   "subject": "vyplata-subsidii",
+   "predicate": "процесс имеет риск",
+   "object": "sryv-srokov-vyplat",
+   "sourceId": "incident-log",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t012",
+   "subject": "vyplata-subsidii",
+   "predicate": "процесс использует ИТ-систему",
+   "object": "ias-socpodderzhka",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t013",
+   "subject": "vyplata-subsidii",
+   "predicate": "процесс обеспечивает услугу",
+   "object": "zhilischnaya-subsidiya",
+   "sourceId": "reg-subsidy",
+   "sourceName": "Регламент назначения жилищной субсидии",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t014",
+   "subject": "dogovor-podderzhki-ias",
+   "predicate": "договор имеет риск",
+   "object": "zavisimost-ot-postavschika",
+   "sourceId": "contract-romashka",
+   "sourceName": "Договор поддержки ИАС (Ромашка)",
+   "sourceType": "Договор",
+   "updatedAt": "2026-03-10"
+  },
+  {
+   "id": "t015",
+   "subject": "dogovor-podderzhki-ias",
+   "predicate": "договор имеет сторону",
+   "object": "romashka",
+   "sourceId": "contract-romashka",
+   "sourceName": "Договор поддержки ИАС (Ромашка)",
+   "sourceType": "Договор",
+   "updatedAt": "2026-03-10"
+  },
+  {
+   "id": "t016",
+   "subject": "dogovor-podderzhki-ias",
+   "predicate": "договор использует финансовый ресурс",
+   "object": "byudzhet-socvyplat",
+   "sourceId": "contract-romashka",
+   "sourceName": "Договор поддержки ИАС (Ромашка)",
+   "sourceType": "Договор",
+   "updatedAt": "2026-03-10"
+  },
+  {
+   "id": "t017",
+   "subject": "dogovor-podderzhki-ias",
+   "predicate": "договор регулируется требованием",
+   "object": "usilennaya-autentifikaciya-pdn",
+   "sourceId": "contract-romashka",
+   "sourceName": "Договор поддержки ИАС (Ромашка)",
+   "sourceType": "Договор",
+   "updatedAt": "2026-03-10"
+  },
+  {
+   "id": "t018",
+   "subject": "dogovor-podderzhki-ias",
+   "predicate": "имеет тип",
+   "object": "class-dogovor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t019",
+   "subject": "dogovor-s-infosoft",
+   "predicate": "договор имеет сторону",
+   "object": "infosoft",
+   "sourceId": "contract-infosoft",
+   "sourceName": "Договор с ИнфоСофт",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t020",
+   "subject": "dogovor-s-infosoft",
+   "predicate": "договор использует финансовый ресурс",
+   "object": "byudzhet-socvyplat",
+   "sourceId": "contract-infosoft",
+   "sourceName": "Договор с ИнфоСофт",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t021",
+   "subject": "dogovor-s-infosoft",
+   "predicate": "договор регулируется требованием",
+   "object": "usilennaya-autentifikaciya-pdn",
+   "sourceId": "contract-infosoft",
+   "sourceName": "Договор с ИнфоСофт",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t022",
+   "subject": "dogovor-s-infosoft",
+   "predicate": "имеет тип",
+   "object": "class-dogovor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t023",
+   "subject": "domohozyaystvo-petrovyh",
+   "predicate": "имеет тип",
+   "object": "class-domohozyaystvo",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t024",
+   "subject": "dohod-petrova",
+   "predicate": "имеет тип",
+   "object": "class-finansovyy-resurs",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t025",
+   "subject": "zhilischnaya-subsidiya",
+   "predicate": "имеет тип",
+   "object": "class-usluga",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t026",
+   "subject": "zhilischnaya-subsidiya",
+   "predicate": "услуга зависит от ИТ-системы",
+   "object": "ias-socpodderzhka",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t027",
+   "subject": "zhilischnaya-subsidiya",
+   "predicate": "услуга измеряется показателем",
+   "object": "vremya-obrabotki-zayavleniya",
+   "sourceId": "reg-subsidy",
+   "sourceName": "Регламент назначения жилищной субсидии",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t028",
+   "subject": "zhilischnaya-subsidiya",
+   "predicate": "услуга имеет риск",
+   "object": "ostanovka-uslugi",
+   "sourceId": "incident-log",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t029",
+   "subject": "zhilischnaya-subsidiya",
+   "predicate": "услуга регулируется требованием",
+   "object": "usilennaya-autentifikaciya-pdn",
+   "sourceId": "npa-152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-15"
+  },
+  {
+   "id": "t030",
+   "subject": "zavisimost-ot-postavschika",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t031",
+   "subject": "zakon-o-personalnyh-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-normativnyy-pravovoy-akt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t032",
+   "subject": "zakon-o-personalnyh-dannyh",
+   "predicate": "нормативный акт содержит требование",
+   "object": "usilennaya-autentifikaciya-pdn",
+   "sourceId": "npa-152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-15"
+  },
+  {
+   "id": "t033",
+   "subject": "zaprosit-podtverzhdenie-dohodov",
+   "predicate": "имеет тип",
+   "object": "class-variant-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t034",
+   "subject": "zayavlenie-petrova",
+   "predicate": "имеет тип",
+   "object": "class-dokument",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t035",
+   "subject": "ias-socpodderzhka",
+   "predicate": "имеет тип",
+   "object": "class-it-sistema",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t036",
+   "subject": "ias-socpodderzhka",
+   "predicate": "ИТ-система имеет риск",
+   "object": "utechka-pdn",
+   "sourceId": "incident-log",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t037",
+   "subject": "ias-socpodderzhka",
+   "predicate": "ИТ-система обрабатывает объект данных",
+   "object": "personalnye-dannye-zayaviteley",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t038",
+   "subject": "ias-socpodderzhka",
+   "predicate": "ИТ-система поддерживает услугу",
+   "object": "zhilischnaya-subsidiya",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t039",
+   "subject": "ias-socpodderzhka",
+   "predicate": "ИТ-система подчиняется требованию",
+   "object": "usilennaya-autentifikaciya-pdn",
+   "sourceId": "npa-152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-15"
+  },
+  {
+   "id": "t040",
+   "subject": "ivanov",
+   "predicate": "занимает должность",
+   "object": "rukovoditel-processa-subsidiy",
+   "sourceId": "hr",
+   "sourceName": "HR-система Минсоцполитики",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t041",
+   "subject": "ivanov",
+   "predicate": "имеет доступ к ИТ-системе",
+   "object": "ias-socpodderzhka",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t042",
+   "subject": "ivanov",
+   "predicate": "имеет доступ к объекту данных",
+   "object": "personalnye-dannye-zayaviteley",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t043",
+   "subject": "ivanov",
+   "predicate": "имеет тип",
+   "object": "class-fizicheskoe-lico",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t044",
+   "subject": "ivanov",
+   "predicate": "отвечает за договор",
+   "object": "dogovor-podderzhki-ias",
+   "sourceId": "contract-romashka",
+   "sourceName": "Договор поддержки ИАС (Ромашка)",
+   "sourceType": "Договор",
+   "updatedAt": "2026-03-10"
+  },
+  {
+   "id": "t045",
+   "subject": "ivanov",
+   "predicate": "отвечает за процесс",
+   "object": "vyplata-subsidii",
+   "sourceId": "hr",
+   "sourceName": "HR-система Минсоцполитики",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t046",
+   "subject": "ivanov",
+   "predicate": "отвечает за процесс",
+   "object": "priem-zayavleniy",
+   "sourceId": "hr",
+   "sourceName": "HR-система Минсоцполитики",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t047",
+   "subject": "ivanov",
+   "predicate": "отвечает за процесс",
+   "object": "proverka-dohodov",
+   "sourceId": "hr",
+   "sourceName": "HR-система Минсоцполитики",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t048",
+   "subject": "ivanov",
+   "predicate": "работает в",
+   "object": "minsocpolitiki",
+   "sourceId": "hr",
+   "sourceName": "HR-система Минсоцполитики",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t049",
+   "subject": "infosoft",
+   "predicate": "имеет тип",
+   "object": "class-organizaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t050",
+   "subject": "infosoft",
+   "predicate": "организация имеет договор",
+   "object": "dogovor-s-infosoft",
+   "sourceId": "contract-infosoft",
+   "sourceName": "Договор с ИнфоСофт",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t051",
+   "subject": "infosoft",
+   "predicate": "организация подчиняется требованию",
+   "object": "usilennaya-autentifikaciya-pdn",
+   "sourceId": "npa-152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-15"
+  },
+  {
+   "id": "t052",
+   "subject": "infosoft",
+   "predicate": "организация является альтернативным поставщиком для",
+   "object": "romashka",
+   "sourceId": "ops",
+   "sourceName": "Служебные записки отдела соцподдержки",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t053",
+   "subject": "keys-vybora-postavschika",
+   "predicate": "имеет тип",
+   "object": "class-keys-prinyatiya-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t054",
+   "subject": "keys-naznacheniya",
+   "predicate": "имеет тип",
+   "object": "class-keys-prinyatiya-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t055",
+   "subject": "keys-petrova",
+   "predicate": "имеет тип",
+   "object": "class-keys-prinyatiya-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t056",
+   "subject": "keys-reagirovaniya-na-sboy",
+   "predicate": "имеет тип",
+   "object": "class-keys-prinyatiya-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t057",
+   "subject": "kuznecov",
+   "predicate": "имеет конфликт интересов с организацией",
+   "object": "minsocpolitiki",
+   "sourceId": "hr",
+   "sourceName": "HR-система Минсоцполитики",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t058",
+   "subject": "kuznecov",
+   "predicate": "имеет тип",
+   "object": "class-fizicheskoe-lico",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t059",
+   "subject": "kuznecov",
+   "predicate": "отвечает за договор",
+   "object": "dogovor-podderzhki-ias",
+   "sourceId": "contract-romashka",
+   "sourceName": "Договор поддержки ИАС (Ромашка)",
+   "sourceType": "Договор",
+   "updatedAt": "2026-03-10"
+  },
+  {
+   "id": "t060",
+   "subject": "kuznecov",
+   "predicate": "работает в",
+   "object": "minsocpolitiki",
+   "sourceId": "hr",
+   "sourceName": "HR-система Минсоцполитики",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t061",
+   "subject": "kuznecov",
+   "predicate": "является бенефициаром",
+   "object": "romashka",
+   "sourceId": "hr",
+   "sourceName": "HR-система Минсоцполитики",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t062",
+   "subject": "minsocpolitiki",
+   "predicate": "имеет тип",
+   "object": "class-organizaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t063",
+   "subject": "minsocpolitiki",
+   "predicate": "организация выполняет процесс",
+   "object": "vyplata-subsidii",
+   "sourceId": "reg-subsidy",
+   "sourceName": "Регламент назначения жилищной субсидии",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t064",
+   "subject": "minsocpolitiki",
+   "predicate": "организация выполняет процесс",
+   "object": "priem-zayavleniy",
+   "sourceId": "reg-subsidy",
+   "sourceName": "Регламент назначения жилищной субсидии",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t065",
+   "subject": "minsocpolitiki",
+   "predicate": "организация выполняет процесс",
+   "object": "proverka-dohodov",
+   "sourceId": "reg-subsidy",
+   "sourceName": "Регламент назначения жилищной субсидии",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t066",
+   "subject": "minsocpolitiki",
+   "predicate": "организация измеряется показателем",
+   "object": "vremya-obrabotki-zayavleniya",
+   "sourceId": "reg-subsidy",
+   "sourceName": "Регламент назначения жилищной субсидии",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t067",
+   "subject": "minsocpolitiki",
+   "predicate": "организация имеет договор",
+   "object": "dogovor-podderzhki-ias",
+   "sourceId": "contract-romashka",
+   "sourceName": "Договор поддержки ИАС (Ромашка)",
+   "sourceType": "Договор",
+   "updatedAt": "2026-03-10"
+  },
+  {
+   "id": "t068",
+   "subject": "minsocpolitiki",
+   "predicate": "организация имеет договор",
+   "object": "dogovor-s-infosoft",
+   "sourceId": "contract-infosoft",
+   "sourceName": "Договор с ИнфоСофт",
+   "sourceType": "Договор",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t069",
+   "subject": "minsocpolitiki",
+   "predicate": "организация имеет риск",
+   "object": "zavisimost-ot-postavschika",
+   "sourceId": "incident-log",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t070",
+   "subject": "minsocpolitiki",
+   "predicate": "организация имеет финансовый ресурс",
+   "object": "byudzhet-socvyplat",
+   "sourceId": "reg-subsidy",
+   "sourceName": "Регламент назначения жилищной субсидии",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t071",
+   "subject": "minsocpolitiki",
+   "predicate": "организация использует ИТ-систему",
+   "object": "ias-socpodderzhka",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t072",
+   "subject": "minsocpolitiki",
+   "predicate": "организация подчиняется требованию",
+   "object": "usilennaya-autentifikaciya-pdn",
+   "sourceId": "npa-152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-15"
+  },
+  {
+   "id": "t073",
+   "subject": "minsocpolitiki",
+   "predicate": "организация предоставляет услугу",
+   "object": "zhilischnaya-subsidiya",
+   "sourceId": "reg-subsidy",
+   "sourceName": "Регламент назначения жилищной субсидии",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t074",
+   "subject": "minsocpolitiki",
+   "predicate": "организация расположена в",
+   "object": "moskva",
+   "sourceId": "reg-subsidy",
+   "sourceName": "Регламент назначения жилищной субсидии",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t075",
+   "subject": "moskva",
+   "predicate": "имеет тип",
+   "object": "class-mestopolozhenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t076",
+   "subject": "naznachit-sidorovu",
+   "predicate": "имеет тип",
+   "object": "class-variant-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t077",
+   "subject": "odobrit-subsidiyu-petrovu",
+   "predicate": "имеет тип",
+   "object": "class-variant-resheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t078",
+   "subject": "ostanovka-uslugi",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t079",
+   "subject": "ostanovka-uslugi",
+   "predicate": "риск снижается контролем",
+   "object": "ruchnoy-rezhim-priema",
+   "sourceId": "incident-log",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t080",
+   "subject": "otdel-socpodderzhki",
+   "predicate": "имеет тип",
+   "object": "class-organizacionnoe-podrazdelenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t081",
+   "subject": "otdel-socpodderzhki",
+   "predicate": "подразделение входит в организацию",
+   "object": "minsocpolitiki",
+   "sourceId": "hr",
+   "sourceName": "HR-система Минсоцполитики",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t082",
+   "subject": "personalnye-dannye-zayaviteley",
+   "predicate": "имеет тип",
+   "object": "class-obekt-dannyh",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t083",
+   "subject": "personalnye-dannye-zayaviteley",
+   "predicate": "объект данных подчиняется требованию",
+   "object": "usilennaya-autentifikaciya-pdn",
+   "sourceId": "npa-152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-15"
+  },
+  {
+   "id": "t084",
+   "subject": "personalnye-dannye-zayaviteley",
+   "predicate": "объект данных принадлежит организации",
+   "object": "minsocpolitiki",
+   "sourceId": "ops",
+   "sourceName": "Служебные записки отдела соцподдержки",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t085",
+   "subject": "petrov",
+   "predicate": "входит в домохозяйство",
+   "object": "domohozyaystvo-petrovyh",
+   "sourceId": "reg-subsidy",
+   "sourceName": "Регламент назначения жилищной субсидии",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t086",
+   "subject": "petrov",
+   "predicate": "имеет документ",
+   "object": "zayavlenie-petrova",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t087",
+   "subject": "petrov",
+   "predicate": "имеет документ",
+   "object": "spravka-o-dohodah",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t088",
+   "subject": "petrov",
+   "predicate": "имеет тип",
+   "object": "class-fizicheskoe-lico",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t089",
+   "subject": "petrov",
+   "predicate": "имеет финансовый ресурс",
+   "object": "dohod-petrova",
+   "sourceId": "reg-subsidy",
+   "sourceName": "Регламент назначения жилищной субсидии",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t090",
+   "subject": "politika-dostupa-k-pdn",
+   "predicate": "имеет тип",
+   "object": "class-politika",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t091",
+   "subject": "politika-dostupa-k-pdn",
+   "predicate": "политика реализует требование",
+   "object": "usilennaya-autentifikaciya-pdn",
+   "sourceId": "policy-pdn",
+   "sourceName": "Политика доступа к ПДн",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t092",
+   "subject": "pravilo-zhilischnoy-subsidii",
+   "predicate": "имеет тип",
+   "object": "class-pravilo-naznacheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t093",
+   "subject": "pravilo-zhilischnoy-subsidii",
+   "predicate": "правило назначения применяется к услуге",
+   "object": "zhilischnaya-subsidiya",
+   "sourceId": "ops",
+   "sourceName": "Служебные записки отдела соцподдержки",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t094",
+   "subject": "pravilo-zhilischnoy-subsidii",
+   "predicate": "правило назначения применяется к физическому лицу",
+   "object": "petrov",
+   "sourceId": "hr",
+   "sourceName": "HR-система Минсоцполитики",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t095",
+   "subject": "priem-zayavleniy",
+   "predicate": "имеет тип",
+   "object": "class-process",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t096",
+   "subject": "priem-zayavleniy",
+   "predicate": "процесс измеряется показателем",
+   "object": "vremya-obrabotki-zayavleniya",
+   "sourceId": "reg-subsidy",
+   "sourceName": "Регламент назначения жилищной субсидии",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t097",
+   "subject": "priem-zayavleniy",
+   "predicate": "процесс имеет риск",
+   "object": "ostanovka-uslugi",
+   "sourceId": "incident-log",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t098",
+   "subject": "priem-zayavleniy",
+   "predicate": "процесс имеет риск",
+   "object": "utechka-pdn",
+   "sourceId": "incident-log",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t099",
+   "subject": "priem-zayavleniy",
+   "predicate": "процесс использует ИТ-систему",
+   "object": "ias-socpodderzhka",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t100",
+   "subject": "priem-zayavleniy",
+   "predicate": "процесс использует объект данных",
+   "object": "personalnye-dannye-zayaviteley",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t101",
+   "subject": "priem-zayavleniy",
+   "predicate": "процесс контролируется контролем",
+   "object": "audit-dostupa",
+   "sourceId": "policy-pdn",
+   "sourceName": "Политика доступа к ПДн",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t102",
+   "subject": "priem-zayavleniy",
+   "predicate": "процесс контролируется контролем",
+   "object": "ruchnoy-rezhim-priema",
+   "sourceId": "policy-pdn",
+   "sourceName": "Политика доступа к ПДн",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t103",
+   "subject": "priem-zayavleniy",
+   "predicate": "процесс обеспечивает услугу",
+   "object": "zhilischnaya-subsidiya",
+   "sourceId": "reg-subsidy",
+   "sourceName": "Регламент назначения жилищной субсидии",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t104",
+   "subject": "priem-zayavleniy",
+   "predicate": "процесс регулируется политикой",
+   "object": "politika-dostupa-k-pdn",
+   "sourceId": "ops",
+   "sourceName": "Служебные записки отдела соцподдержки",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t105",
+   "subject": "priem-zayavleniy",
+   "predicate": "процесс регулируется требованием",
+   "object": "usilennaya-autentifikaciya-pdn",
+   "sourceId": "npa-152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-15"
+  },
+  {
+   "id": "t106",
+   "subject": "priem-zayavleniy",
+   "predicate": "процесс формирует документ",
+   "object": "zayavlenie-petrova",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t107",
+   "subject": "proverka-dohodov",
+   "predicate": "имеет тип",
+   "object": "class-process",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t108",
+   "subject": "proverka-dohodov",
+   "predicate": "процесс использует ИТ-систему",
+   "object": "ias-socpodderzhka",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t109",
+   "subject": "proverka-dohodov",
+   "predicate": "процесс использует объект данных",
+   "object": "personalnye-dannye-zayaviteley",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t110",
+   "subject": "proverka-dohodov",
+   "predicate": "процесс контролируется контролем",
+   "object": "audit-dostupa",
+   "sourceId": "policy-pdn",
+   "sourceName": "Политика доступа к ПДн",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-05-20"
+  },
+  {
+   "id": "t111",
+   "subject": "proverka-dohodov",
+   "predicate": "процесс обеспечивает услугу",
+   "object": "zhilischnaya-subsidiya",
+   "sourceId": "reg-subsidy",
+   "sourceName": "Регламент назначения жилищной субсидии",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t112",
+   "subject": "proverka-dohodov",
+   "predicate": "процесс регулируется политикой",
+   "object": "politika-dostupa-k-pdn",
+   "sourceId": "ops",
+   "sourceName": "Служебные записки отдела соцподдержки",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t113",
+   "subject": "proverka-dohodov",
+   "predicate": "процесс регулируется требованием",
+   "object": "usilennaya-autentifikaciya-pdn",
+   "sourceId": "npa-152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-15"
+  },
+  {
+   "id": "t114",
+   "subject": "proverka-dohodov",
+   "predicate": "процесс формирует документ",
+   "object": "spravka-o-dohodah",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t115",
+   "subject": "reshenie-po-naznacheniyu",
+   "predicate": "имеет тип",
+   "object": "class-reshenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t116",
+   "subject": "reshenie-po-petrovu",
+   "predicate": "имеет тип",
+   "object": "class-reshenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t117",
+   "subject": "reshenie-po-postavschiku",
+   "predicate": "имеет тип",
+   "object": "class-reshenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t118",
+   "subject": "reshenie-po-sboyu",
+   "predicate": "имеет тип",
+   "object": "class-reshenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t119",
+   "subject": "romashka",
+   "predicate": "имеет тип",
+   "object": "class-organizaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t120",
+   "subject": "romashka",
+   "predicate": "организация имеет договор",
+   "object": "dogovor-podderzhki-ias",
+   "sourceId": "contract-romashka",
+   "sourceName": "Договор поддержки ИАС (Ромашка)",
+   "sourceType": "Договор",
+   "updatedAt": "2026-03-10"
+  },
+  {
+   "id": "t121",
+   "subject": "romashka",
+   "predicate": "организация имеет риск",
+   "object": "zavisimost-ot-postavschika",
+   "sourceId": "incident-log",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t122",
+   "subject": "romashka",
+   "predicate": "организация подчиняется требованию",
+   "object": "usilennaya-autentifikaciya-pdn",
+   "sourceId": "npa-152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-15"
+  },
+  {
+   "id": "t123",
+   "subject": "rukovoditel-processa-subsidiy",
+   "predicate": "должность относится к подразделению",
+   "object": "otdel-socpodderzhki",
+   "sourceId": "hr",
+   "sourceName": "HR-система Минсоцполитики",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t124",
+   "subject": "rukovoditel-processa-subsidiy",
+   "predicate": "имеет тип",
+   "object": "class-dolzhnost",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t125",
+   "subject": "ruchnoy-rezhim-priema",
+   "predicate": "имеет тип",
+   "object": "class-kontrol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t126",
+   "subject": "sankcionnoe-ogranichenie-romashki",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t127",
+   "subject": "sankcionnoe-ogranichenie-romashki",
+   "predicate": "ограничение применяется к организации",
+   "object": "romashka",
+   "sourceId": "hr",
+   "sourceName": "HR-система Минсоцполитики",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t128",
+   "subject": "sboy-ias-socpodderzhka",
+   "predicate": "имеет тип",
+   "object": "class-incident",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t129",
+   "subject": "sboy-ias-socpodderzhka",
+   "predicate": "инцидент влияет на процесс",
+   "object": "priem-zayavleniy",
+   "sourceId": "incident-log",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t130",
+   "subject": "sboy-ias-socpodderzhka",
+   "predicate": "инцидент влияет на услугу",
+   "object": "zhilischnaya-subsidiya",
+   "sourceId": "incident-log",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t131",
+   "subject": "sboy-ias-socpodderzhka",
+   "predicate": "инцидент произошел в ИТ-системе",
+   "object": "ias-socpodderzhka",
+   "sourceId": "incident-log",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t132",
+   "subject": "sboy-ias-socpodderzhka",
+   "predicate": "инцидент создает риск",
+   "object": "ostanovka-uslugi",
+   "sourceId": "incident-log",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t133",
+   "subject": "sboy-ias-socpodderzhka",
+   "predicate": "инцидент создает риск",
+   "object": "sryv-srokov-vyplat",
+   "sourceId": "incident-log",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t134",
+   "subject": "sidorova",
+   "predicate": "имеет доступ к ИТ-системе",
+   "object": "ias-socpodderzhka",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t135",
+   "subject": "sidorova",
+   "predicate": "имеет доступ к объекту данных",
+   "object": "personalnye-dannye-zayaviteley",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t136",
+   "subject": "sidorova",
+   "predicate": "имеет тип",
+   "object": "class-fizicheskoe-lico",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t137",
+   "subject": "sidorova",
+   "predicate": "может заменить",
+   "object": "ivanov",
+   "sourceId": "hr",
+   "sourceName": "HR-система Минсоцполитики",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t138",
+   "subject": "sidorova",
+   "predicate": "отвечает за процесс",
+   "object": "vyplata-subsidii",
+   "sourceId": "hr",
+   "sourceName": "HR-система Минсоцполитики",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t139",
+   "subject": "sidorova",
+   "predicate": "работает в",
+   "object": "minsocpolitiki",
+   "sourceId": "hr",
+   "sourceName": "HR-система Минсоцполитики",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t140",
+   "subject": "spravka-o-dohodah",
+   "predicate": "документ выдан организацией",
+   "object": "minsocpolitiki",
+   "sourceId": "ias",
+   "sourceName": "ИАС «Соцподдержка» (журнал операций)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-08-28"
+  },
+  {
+   "id": "t141",
+   "subject": "spravka-o-dohodah",
+   "predicate": "имеет тип",
+   "object": "class-dokument",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t142",
+   "subject": "sryv-srokov-vyplat",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t143",
+   "subject": "sryv-srokov-vyplat",
+   "predicate": "риск снижается контролем",
+   "object": "ruchnoy-rezhim-priema",
+   "sourceId": "incident-log",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t144",
+   "subject": "usilennaya-autentifikaciya-pdn",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t145",
+   "subject": "utechka-pdn",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t146",
+   "subject": "utechka-pdn",
+   "predicate": "риск снижается контролем",
+   "object": "audit-dostupa",
+   "sourceId": "incident-log",
+   "sourceName": "Журнал инцидентов ИБ",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-08-30"
+  }
+ ]
+}

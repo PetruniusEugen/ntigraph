@@ -1,0 +1,4884 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "minstroy-rossii",
+   "predicate": "имеет тип",
+   "object": "class-regulyator",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t002",
+   "subject": "gosstroynadzor",
+   "predicate": "имеет тип",
+   "object": "class-regulyator",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t003",
+   "subject": "rostehnadzor",
+   "predicate": "имеет тип",
+   "object": "class-regulyator",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t004",
+   "subject": "gradostroitelnyy-kodeks-rf",
+   "predicate": "имеет тип",
+   "object": "class-normativnyy-akt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t005",
+   "subject": "384-fz-tehnicheskiy-reglament-o-bezopasnosti-zdaniy-i-sooruzheniy",
+   "predicate": "имеет тип",
+   "object": "class-normativnyy-akt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t006",
+   "subject": "44-fz-o-kontraktnoy-sisteme",
+   "predicate": "имеет тип",
+   "object": "class-normativnyy-akt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t007",
+   "subject": "152-fz-o-personalnyh-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-normativnyy-akt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t008",
+   "subject": "postanovlenie-pravitelstva-rf-87",
+   "predicate": "имеет тип",
+   "object": "class-normativnyy-akt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t009",
+   "subject": "sp-20-13330-nagruzki-i-vozdeystviya",
+   "predicate": "имеет тип",
+   "object": "class-tehnicheskiy-standart",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t010",
+   "subject": "sp-48-13330-organizaciya-stroitelstva",
+   "predicate": "имеет тип",
+   "object": "class-tehnicheskiy-standart",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t011",
+   "subject": "sp-112-13330-pozharnaya-bezopasnost-zdaniy",
+   "predicate": "имеет тип",
+   "object": "class-tehnicheskiy-standart",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t012",
+   "subject": "gost-r-21-101-osnovnye-trebovaniya-k-proektnoy-dokumentacii",
+   "predicate": "имеет тип",
+   "object": "class-tehnicheskiy-standart",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t013",
+   "subject": "gost-31937-pravila-obsledovaniya-zdaniy",
+   "predicate": "имеет тип",
+   "object": "class-tehnicheskiy-standart",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t014",
+   "subject": "sto-normokontrol-dokumentacii",
+   "predicate": "имеет тип",
+   "object": "class-vnutrenniy-reglament",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t015",
+   "subject": "reglament-vhodnogo-kontrolya-materialov",
+   "predicate": "имеет тип",
+   "object": "class-vnutrenniy-reglament",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t016",
+   "subject": "politika-upravleniya-stroitelnymi-riskami",
+   "predicate": "имеет тип",
+   "object": "class-vnutrenniy-reglament",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t017",
+   "subject": "reglament-elektronnogo-dokumentooborota",
+   "predicate": "имеет тип",
+   "object": "class-vnutrenniy-reglament",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t018",
+   "subject": "trebovanie-k-sostavu-razdelov-pd",
+   "predicate": "имеет тип",
+   "object": "class-vneshnee-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t019",
+   "subject": "trebovanie-pozharnoy-bezopasnosti",
+   "predicate": "имеет тип",
+   "object": "class-vneshnee-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t020",
+   "subject": "trebovanie-k-nesuschim-konstrukciyam",
+   "predicate": "имеет тип",
+   "object": "class-vneshnee-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t021",
+   "subject": "trebovanie-k-oformleniyu-dokumentacii",
+   "predicate": "имеет тип",
+   "object": "class-vneshnee-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t022",
+   "subject": "trebovanie-po-zaschite-pdn",
+   "predicate": "имеет тип",
+   "object": "class-vneshnee-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t023",
+   "subject": "trebovanie-po-raskrytiyu-informacii",
+   "predicate": "имеет тип",
+   "object": "class-vneshnee-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t024",
+   "subject": "trebovanie-chlenstva-v-sro",
+   "predicate": "имеет тип",
+   "object": "class-vneshnee-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t025",
+   "subject": "trebovanie-normokontrolya-do-vypuska",
+   "predicate": "имеет тип",
+   "object": "class-vnutrennee-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t026",
+   "subject": "trebovanie-utverzhdeniya-gip",
+   "predicate": "имеет тип",
+   "object": "class-vnutrennee-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t027",
+   "subject": "trebovanie-vhodnogo-kontrolya-materialov",
+   "predicate": "имеет тип",
+   "object": "class-vnutrennee-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t028",
+   "subject": "trebovanie-soglasovaniya-izmeneniy",
+   "predicate": "имеет тип",
+   "object": "class-vnutrennee-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t029",
+   "subject": "trebovanie-peredachi-ispolnitelnoy-dokumentacii",
+   "predicate": "имеет тип",
+   "object": "class-dogovornoe-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t030",
+   "subject": "trebovanie-primeneniya-sertificirovannyh-materialov",
+   "predicate": "имеет тип",
+   "object": "class-dogovornoe-trebovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t031",
+   "subject": "ooo-stroyvektor",
+   "predicate": "имеет тип",
+   "object": "class-organizaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t032",
+   "subject": "gku-uks-stolica",
+   "predicate": "имеет тип",
+   "object": "class-organizaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t033",
+   "subject": "ooo-geoproekt",
+   "predicate": "имеет тип",
+   "object": "class-organizaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t034",
+   "subject": "ooo-fundamentstroy",
+   "predicate": "имеет тип",
+   "object": "class-organizaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t035",
+   "subject": "ooo-metalltorg",
+   "predicate": "имеет тип",
+   "object": "class-organizaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t036",
+   "subject": "ao-stroysertifikaciya",
+   "predicate": "имеет тип",
+   "object": "class-organizaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t037",
+   "subject": "sro-stroyalyans",
+   "predicate": "имеет тип",
+   "object": "class-organizaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t038",
+   "subject": "pd-severnyy-park-korpus-1",
+   "predicate": "имеет тип",
+   "object": "class-proektnaya-dokumentaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t039",
+   "subject": "razdel-pd-arhitekturnye-resheniya",
+   "predicate": "имеет тип",
+   "object": "class-proektnaya-dokumentaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t040",
+   "subject": "razdel-pd-konstruktivnye-resheniya",
+   "predicate": "имеет тип",
+   "object": "class-proektnaya-dokumentaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t041",
+   "subject": "razdel-pd-pozharnaya-bezopasnost",
+   "predicate": "имеет тип",
+   "object": "class-proektnaya-dokumentaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t042",
+   "subject": "svodnyy-smetnyy-raschet",
+   "predicate": "имеет тип",
+   "object": "class-smetnaya-dokumentaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t043",
+   "subject": "lokalnaya-smeta-na-fundament",
+   "predicate": "имеет тип",
+   "object": "class-smetnaya-dokumentaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t044",
+   "subject": "aosr-114",
+   "predicate": "имеет тип",
+   "object": "class-ispolnitelnaya-dokumentaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t045",
+   "subject": "obschiy-zhurnal-rabot",
+   "predicate": "имеет тип",
+   "object": "class-ispolnitelnaya-dokumentaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t046",
+   "subject": "ispolnitelnaya-shema-armirovaniya",
+   "predicate": "имеет тип",
+   "object": "class-ispolnitelnaya-dokumentaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t047",
+   "subject": "reestr-ispolnitelnoy-dokumentacii",
+   "predicate": "имеет тип",
+   "object": "class-ispolnitelnaya-dokumentaciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t048",
+   "subject": "razreshenie-na-stroitelstvo-77-i-2026",
+   "predicate": "имеет тип",
+   "object": "class-razreshenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t049",
+   "subject": "gradostroitelnyy-plan-zemelnogo-uchastka",
+   "predicate": "имеет тип",
+   "object": "class-razreshenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t050",
+   "subject": "dogovor-genpodryada-gp-14",
+   "predicate": "имеет тип",
+   "object": "class-dogovor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t051",
+   "subject": "dogovor-podryada-sp-07",
+   "predicate": "имеет тип",
+   "object": "class-dogovor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t052",
+   "subject": "dogovor-postavki-p-22",
+   "predicate": "имеет тип",
+   "object": "class-dogovor",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t053",
+   "subject": "sertifikat-na-beton-b25",
+   "predicate": "имеет тип",
+   "object": "class-sertifikat-sootvetstviya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t054",
+   "subject": "sertifikat-na-armaturu-a500s",
+   "predicate": "имеет тип",
+   "object": "class-sertifikat-sootvetstviya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t055",
+   "subject": "polozhitelnoe-zaklyuchenie-ekspertizy",
+   "predicate": "имеет тип",
+   "object": "class-otchetnyy-dokument",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t056",
+   "subject": "akt-proverki-gosstroynadzora-gsn-04",
+   "predicate": "имеет тип",
+   "object": "class-otchetnyy-dokument",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t057",
+   "subject": "otchet-o-normokontrole",
+   "predicate": "имеет тип",
+   "object": "class-otchetnyy-dokument",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t058",
+   "subject": "zaklyuchenie-stroitelnogo-kontrolya",
+   "predicate": "имеет тип",
+   "object": "class-otchetnyy-dokument",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t059",
+   "subject": "razdel-pozharnaya-bezopasnost",
+   "predicate": "имеет тип",
+   "object": "class-razdel-dokumenta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t060",
+   "subject": "razdel-konstruktivnye-resheniya",
+   "predicate": "имеет тип",
+   "object": "class-razdel-dokumenta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t061",
+   "subject": "razdel-smeta",
+   "predicate": "имеет тип",
+   "object": "class-razdel-dokumenta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t062",
+   "subject": "redakciya-1-pd",
+   "predicate": "имеет тип",
+   "object": "class-versiya-dokumenta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t063",
+   "subject": "redakciya-2-pd",
+   "predicate": "имеет тип",
+   "object": "class-versiya-dokumenta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t064",
+   "subject": "razrabotka-proektnoy-dokumentacii",
+   "predicate": "имеет тип",
+   "object": "class-process-zhiznennogo-cikla-dokumenta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t065",
+   "subject": "normokontrol-dokumentacii",
+   "predicate": "имеет тип",
+   "object": "class-process-zhiznennogo-cikla-dokumenta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t066",
+   "subject": "soglasovanie-s-zakazchikom",
+   "predicate": "имеет тип",
+   "object": "class-process-zhiznennogo-cikla-dokumenta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t067",
+   "subject": "prohozhdenie-gosekspertizy",
+   "predicate": "имеет тип",
+   "object": "class-process-zhiznennogo-cikla-dokumenta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t068",
+   "subject": "osvidetelstvovanie-skrytyh-rabot",
+   "predicate": "имеет тип",
+   "object": "class-process-zhiznennogo-cikla-dokumenta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t069",
+   "subject": "vhodnoy-kontrol-materialov",
+   "predicate": "имеет тип",
+   "object": "class-process-zhiznennogo-cikla-dokumenta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t070",
+   "subject": "peredacha-dokumentacii-zakazchiku",
+   "predicate": "имеет тип",
+   "object": "class-process-zhiznennogo-cikla-dokumenta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t071",
+   "subject": "hranenie-i-arhivirovanie-dokumentacii",
+   "predicate": "имеет тип",
+   "object": "class-process-zhiznennogo-cikla-dokumenta",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t072",
+   "subject": "stroitelnyy-kontrol",
+   "predicate": "имеет тип",
+   "object": "class-kontrol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t073",
+   "subject": "proverka-sertifikatov-materialov",
+   "predicate": "имеет тип",
+   "object": "class-kontrol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t074",
+   "subject": "normokontrol-pd",
+   "predicate": "имеет тип",
+   "object": "class-normokontrol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t075",
+   "subject": "normokontrol-aosr",
+   "predicate": "имеет тип",
+   "object": "class-normokontrol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t076",
+   "subject": "avtoproverka-rekvizitov-aosr",
+   "predicate": "имеет тип",
+   "object": "class-avtomaticheskaya-proverka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t077",
+   "subject": "avtoproverka-komplektnosti-id",
+   "predicate": "имеет тип",
+   "object": "class-avtomaticheskaya-proverka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t078",
+   "subject": "soglasovanie-pd-s-zakazchikom",
+   "predicate": "имеет тип",
+   "object": "class-soglasovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t079",
+   "subject": "soglasovanie-izmeneniya-izm-3",
+   "predicate": "имеет тип",
+   "object": "class-soglasovanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t080",
+   "subject": "gosudarstvennaya-ekspertiza-pd",
+   "predicate": "имеет тип",
+   "object": "class-ekspertiza",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t081",
+   "subject": "ekspertiza-promyshlennoy-bezopasnosti",
+   "predicate": "имеет тип",
+   "object": "class-ekspertiza",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t082",
+   "subject": "proverka-gosstroynadzora-gsn-2026-04",
+   "predicate": "имеет тип",
+   "object": "class-nadzornaya-proverka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t083",
+   "subject": "proverka-rostehnadzora-rtn-11",
+   "predicate": "имеет тип",
+   "object": "class-nadzornaya-proverka",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t084",
+   "subject": "pravilo-obyazatelnyh-rekvizitov-aosr",
+   "predicate": "имеет тип",
+   "object": "class-mashinochitaemoe-pravilo",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t085",
+   "subject": "pravilo-polnoty-razdelov-pd",
+   "predicate": "имеет тип",
+   "object": "class-mashinochitaemoe-pravilo",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t086",
+   "subject": "pravilo-sroka-deystviya-sertifikata",
+   "predicate": "имеет тип",
+   "object": "class-mashinochitaemoe-pravilo",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t087",
+   "subject": "ocenka-sootvetstviya-pd-pered-ekspertizoy",
+   "predicate": "имеет тип",
+   "object": "class-ocenka-sootvetstviya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t088",
+   "subject": "vnutrenniy-audit-ispolnitelnoy-dokumentacii",
+   "predicate": "имеет тип",
+   "object": "class-ocenka-sootvetstviya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t089",
+   "subject": "nesootvetstvie-razdela-pd-po-pb",
+   "predicate": "имеет тип",
+   "object": "class-nesootvetstvie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t090",
+   "subject": "nesootvetstvie-v-aosr-114",
+   "predicate": "имеет тип",
+   "object": "class-nesootvetstvie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t091",
+   "subject": "prosrochennyy-sertifikat-betona",
+   "predicate": "имеет тип",
+   "object": "class-nesootvetstvie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t092",
+   "subject": "zamechanie-ekspertizy-po-ognezaschite",
+   "predicate": "имеет тип",
+   "object": "class-zamechanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t093",
+   "subject": "zamechanie-normokontrolya-po-rekvizitam",
+   "predicate": "имеет тип",
+   "object": "class-zamechanie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t094",
+   "subject": "narushenie-trebovaniya-pozharnoy-bezopasnosti",
+   "predicate": "имеет тип",
+   "object": "class-narushenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t095",
+   "subject": "narushenie-sostava-razdelov-pd",
+   "predicate": "имеет тип",
+   "object": "class-narushenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t096",
+   "subject": "narushenie-sroka-peredachi-id",
+   "predicate": "имеет тип",
+   "object": "class-narushenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t097",
+   "subject": "dorabotat-razdel-pozharnoy-bezopasnosti",
+   "predicate": "имеет тип",
+   "object": "class-korrektiruyuschee-deystvie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t098",
+   "subject": "obnovit-rekvizity-aosr-114",
+   "predicate": "имеет тип",
+   "object": "class-korrektiruyuschee-deystvie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t099",
+   "subject": "zamenit-sertifikat-betona",
+   "predicate": "имеет тип",
+   "object": "class-korrektiruyuschee-deystvie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t100",
+   "subject": "plan-ustraneniya-zamechaniy-gosstroynadzora",
+   "predicate": "имеет тип",
+   "object": "class-plan-ustraneniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t101",
+   "subject": "plan-dorabotki-pd",
+   "predicate": "имеет тип",
+   "object": "class-plan-ustraneniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t102",
+   "subject": "soglasovannoe-otstuplenie-po-armirovaniyu",
+   "predicate": "имеет тип",
+   "object": "class-soglasovannoe-otstuplenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t103",
+   "subject": "otstuplenie-po-ognezaschite",
+   "predicate": "имеет тип",
+   "object": "class-soglasovannoe-otstuplenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t104",
+   "subject": "protokol-ispytaniy-betona",
+   "predicate": "имеет тип",
+   "object": "class-dokazatelstvo",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t105",
+   "subject": "fotofiksaciya-skrytyh-rabot",
+   "predicate": "имеет тип",
+   "object": "class-dokazatelstvo",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t106",
+   "subject": "vypiska-iz-reestra-sro",
+   "predicate": "имеет тип",
+   "object": "class-dokazatelstvo",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t107",
+   "subject": "zhurnal-vhodnogo-kontrolya",
+   "predicate": "имеет тип",
+   "object": "class-dokazatelstvo",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t108",
+   "subject": "akt-vhodnogo-kontrolya-materialov",
+   "predicate": "имеет тип",
+   "object": "class-dokazatelstvo",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t109",
+   "subject": "gip",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t110",
+   "subject": "normokontroler",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t111",
+   "subject": "inzhener-tehnadzora",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t112",
+   "subject": "rukovoditel-stroitelnogo-kontrolya",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t113",
+   "subject": "specialist-po-pdn",
+   "predicate": "имеет тип",
+   "object": "class-rol",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t114",
+   "subject": "ivanov-sergey-gip",
+   "predicate": "имеет тип",
+   "object": "class-sotrudnik",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t115",
+   "subject": "kuznecova-anna-normokontroler",
+   "predicate": "имеет тип",
+   "object": "class-sotrudnik",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t116",
+   "subject": "petrov-dmitriy-inzhener-tehnadzora",
+   "predicate": "имеет тип",
+   "object": "class-sotrudnik",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t117",
+   "subject": "smirnov-aleksey-rukovoditel-sk",
+   "predicate": "имеет тип",
+   "object": "class-sotrudnik",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t118",
+   "subject": "orlova-mariya-specialist-po-pdn",
+   "predicate": "имеет тип",
+   "object": "class-sotrudnik",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t119",
+   "subject": "normokontrol-proektnoy-dokumentacii",
+   "predicate": "имеет тип",
+   "object": "class-kompetenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t120",
+   "subject": "znanie-pozharnyh-norm",
+   "predicate": "имеет тип",
+   "object": "class-kompetenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t121",
+   "subject": "rabota-v-sed",
+   "predicate": "имеет тип",
+   "object": "class-kompetenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t122",
+   "subject": "upravlenie-stroitelnymi-riskami",
+   "predicate": "имеет тип",
+   "object": "class-kompetenciya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t123",
+   "subject": "zhk-severnyy-park",
+   "predicate": "имеет тип",
+   "object": "class-stroitelnyy-proekt",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t124",
+   "subject": "korpus-1-zhk-severnyy-park",
+   "predicate": "имеет тип",
+   "object": "class-obekt-kapitalnogo-stroitelstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t125",
+   "subject": "fundamentnaya-plita-korpusa-1",
+   "predicate": "имеет тип",
+   "object": "class-obekt-kapitalnogo-stroitelstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t126",
+   "subject": "krovlya-korpusa-1",
+   "predicate": "имеет тип",
+   "object": "class-obekt-kapitalnogo-stroitelstva",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t127",
+   "subject": "etap-proektirovaniya",
+   "predicate": "имеет тип",
+   "object": "class-etap-zhiznennogo-cikla",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t128",
+   "subject": "etap-stroitelno-montazhnyh-rabot",
+   "predicate": "имеет тип",
+   "object": "class-etap-zhiznennogo-cikla",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t129",
+   "subject": "etap-vvoda-v-ekspluataciyu",
+   "predicate": "имеет тип",
+   "object": "class-etap-zhiznennogo-cikla",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t130",
+   "subject": "risk-otkaza-vo-vvode-obekta",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t131",
+   "subject": "risk-shtrafa-za-narushenie-pozharnoy-bezopasnosti",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t132",
+   "subject": "risk-ostanovki-rabot-predpisaniem",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t133",
+   "subject": "risk-primeneniya-nesertificirovannogo-materiala",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t134",
+   "subject": "risk-utechki-personalnyh-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t135",
+   "subject": "shtraf-po-koap-500-tys",
+   "predicate": "имеет тип",
+   "object": "class-shtraf",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t136",
+   "subject": "priostanovka-razresheniya-na-stroitelstvo",
+   "predicate": "имеет тип",
+   "object": "class-priostanovka-razresheniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t137",
+   "subject": "avariya-na-obekte",
+   "predicate": "имеет тип",
+   "object": "class-avariya-ili-neschastnyy-sluchay",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t138",
+   "subject": "ocenka-vliyaniya-izmeneniya-sp-112",
+   "predicate": "имеет тип",
+   "object": "class-ocenka-vliyaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t139",
+   "subject": "ocenka-vliyaniya-otzyva-sertifikata",
+   "predicate": "имеет тип",
+   "object": "class-ocenka-vliyaniya",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t140",
+   "subject": "izmenenie-sp-112-13330-2026",
+   "predicate": "имеет тип",
+   "object": "class-izmenenie-normativki",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t141",
+   "subject": "novoe-trebovanie-k-mashinochitaemomu-formatu-aosr",
+   "predicate": "имеет тип",
+   "object": "class-izmenenie-normativki",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t142",
+   "subject": "zapros-na-izmenenie-izm-3",
+   "predicate": "имеет тип",
+   "object": "class-zapros-na-izmenenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t143",
+   "subject": "zapros-na-izmenenie-izm-4",
+   "predicate": "имеет тип",
+   "object": "class-zapros-na-izmenenie",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t144",
+   "subject": "incident-prosrochennyy-sertifikat-betona",
+   "predicate": "имеет тип",
+   "object": "class-incident",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t145",
+   "subject": "incident-zamechanie-ekspertizy",
+   "predicate": "имеет тип",
+   "object": "class-incident",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t146",
+   "subject": "reshenie-o-dorabotke-razdela-pb",
+   "predicate": "имеет тип",
+   "object": "class-reshenie-po-sootvetstviyu",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t147",
+   "subject": "reshenie-o-zamene-postavschika",
+   "predicate": "имеет тип",
+   "object": "class-reshenie-po-sootvetstviyu",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t148",
+   "subject": "reshenie-prinyat-risk-po-otstupleniyu",
+   "predicate": "имеет тип",
+   "object": "class-reshenie-po-sootvetstviyu",
+   "sourceId": "ontology",
+   "sourceName": "Онтология графа (модель данных)",
+   "sourceType": "Модель",
+   "updatedAt": "2026-09-17"
+  },
+  {
+   "id": "t149",
+   "subject": "gradostroitelnyy-kodeks-rf",
+   "predicate": "издан регулятором",
+   "object": "minstroy-rossii",
+   "sourceId": "grk",
+   "sourceName": "Градостроительный кодекс РФ",
+   "sourceType": "НПА",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t150",
+   "subject": "384-fz-tehnicheskiy-reglament-o-bezopasnosti-zdaniy-i-sooruzheniy",
+   "predicate": "издан регулятором",
+   "object": "minstroy-rossii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t151",
+   "subject": "postanovlenie-pravitelstva-rf-87",
+   "predicate": "издан регулятором",
+   "object": "minstroy-rossii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t152",
+   "subject": "sp-20-13330-nagruzki-i-vozdeystviya",
+   "predicate": "содержит требование",
+   "object": "trebovanie-k-nesuschim-konstrukciyam",
+   "sourceId": "sp",
+   "sourceName": "СП и ГОСТ (нормативная база)",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t153",
+   "subject": "sp-112-13330-pozharnaya-bezopasnost-zdaniy",
+   "predicate": "содержит требование",
+   "object": "trebovanie-pozharnoy-bezopasnosti",
+   "sourceId": "sp",
+   "sourceName": "СП и ГОСТ (нормативная база)",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t154",
+   "subject": "gost-r-21-101-osnovnye-trebovaniya-k-proektnoy-dokumentacii",
+   "predicate": "содержит требование",
+   "object": "trebovanie-k-oformleniyu-dokumentacii",
+   "sourceId": "sp",
+   "sourceName": "СП и ГОСТ (нормативная база)",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t155",
+   "subject": "gost-31937-pravila-obsledovaniya-zdaniy",
+   "predicate": "содержит требование",
+   "object": "trebovanie-k-nesuschim-konstrukciyam",
+   "sourceId": "sp",
+   "sourceName": "СП и ГОСТ (нормативная база)",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t156",
+   "subject": "gradostroitelnyy-kodeks-rf",
+   "predicate": "содержит требование",
+   "object": "trebovanie-k-sostavu-razdelov-pd",
+   "sourceId": "grk",
+   "sourceName": "Градостроительный кодекс РФ",
+   "sourceType": "НПА",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t157",
+   "subject": "384-fz-tehnicheskiy-reglament-o-bezopasnosti-zdaniy-i-sooruzheniy",
+   "predicate": "содержит требование",
+   "object": "trebovanie-k-nesuschim-konstrukciyam",
+   "sourceId": "fz384",
+   "sourceName": "384-ФЗ «Технический регламент о безопасности зданий и сооружений»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-08-01"
+  },
+  {
+   "id": "t158",
+   "subject": "44-fz-o-kontraktnoy-sisteme",
+   "predicate": "содержит требование",
+   "object": "trebovanie-po-raskrytiyu-informacii",
+   "sourceId": "fz44",
+   "sourceName": "44-ФЗ «О контрактной системе»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t159",
+   "subject": "152-fz-o-personalnyh-dannyh",
+   "predicate": "содержит требование",
+   "object": "trebovanie-po-zaschite-pdn",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-15"
+  },
+  {
+   "id": "t160",
+   "subject": "postanovlenie-pravitelstva-rf-87",
+   "predicate": "содержит требование",
+   "object": "trebovanie-k-sostavu-razdelov-pd",
+   "sourceId": "pp87",
+   "sourceName": "Постановление Правительства РФ № 87",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t161",
+   "subject": "sto-normokontrol-dokumentacii",
+   "predicate": "содержит требование",
+   "object": "trebovanie-normokontrolya-do-vypuska",
+   "sourceId": "sto",
+   "sourceName": "СТО «Нормоконтроль документации»",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-05-10"
+  },
+  {
+   "id": "t162",
+   "subject": "sto-normokontrol-dokumentacii",
+   "predicate": "содержит требование",
+   "object": "trebovanie-utverzhdeniya-gip",
+   "sourceId": "sto",
+   "sourceName": "СТО «Нормоконтроль документации»",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-05-10"
+  },
+  {
+   "id": "t163",
+   "subject": "reglament-vhodnogo-kontrolya-materialov",
+   "predicate": "содержит требование",
+   "object": "trebovanie-vhodnogo-kontrolya-materialov",
+   "sourceId": "vhod",
+   "sourceName": "Регламент входного контроля материалов",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t164",
+   "subject": "reglament-elektronnogo-dokumentooborota",
+   "predicate": "содержит требование",
+   "object": "trebovanie-soglasovaniya-izmeneniy",
+   "sourceId": "edo",
+   "sourceName": "Регламент электронного документооборота",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-05-25"
+  },
+  {
+   "id": "t165",
+   "subject": "politika-upravleniya-stroitelnymi-riskami",
+   "predicate": "содержит требование",
+   "object": "trebovanie-soglasovaniya-izmeneniy",
+   "sourceId": "riskpolicy",
+   "sourceName": "Политика управления строительными рисками",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-07-05"
+  },
+  {
+   "id": "t166",
+   "subject": "dogovor-genpodryada-gp-14",
+   "predicate": "содержит требование",
+   "object": "trebovanie-peredachi-ispolnitelnoy-dokumentacii",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров подряда и поставки",
+   "sourceType": "Договор",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t167",
+   "subject": "dogovor-podryada-sp-07",
+   "predicate": "содержит требование",
+   "object": "trebovanie-primeneniya-sertificirovannyh-materialov",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров подряда и поставки",
+   "sourceType": "Договор",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t168",
+   "subject": "dogovor-postavki-p-22",
+   "predicate": "содержит требование",
+   "object": "trebovanie-primeneniya-sertificirovannyh-materialov",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров подряда и поставки",
+   "sourceType": "Договор",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t169",
+   "subject": "trebovanie-k-sostavu-razdelov-pd",
+   "predicate": "вытекает из акта",
+   "object": "postanovlenie-pravitelstva-rf-87",
+   "sourceId": "pp87",
+   "sourceName": "Постановление Правительства РФ № 87",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t170",
+   "subject": "trebovanie-pozharnoy-bezopasnosti",
+   "predicate": "вытекает из акта",
+   "object": "384-fz-tehnicheskiy-reglament-o-bezopasnosti-zdaniy-i-sooruzheniy",
+   "sourceId": "fz384",
+   "sourceName": "384-ФЗ «Технический регламент о безопасности зданий и сооружений»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-08-01"
+  },
+  {
+   "id": "t171",
+   "subject": "trebovanie-po-raskrytiyu-informacii",
+   "predicate": "вытекает из акта",
+   "object": "44-fz-o-kontraktnoy-sisteme",
+   "sourceId": "fz44",
+   "sourceName": "44-ФЗ «О контрактной системе»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-07-01"
+  },
+  {
+   "id": "t172",
+   "subject": "trebovanie-po-zaschite-pdn",
+   "predicate": "вытекает из акта",
+   "object": "152-fz-o-personalnyh-dannyh",
+   "sourceId": "fz152",
+   "sourceName": "152-ФЗ «О персональных данных»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-04-15"
+  },
+  {
+   "id": "t173",
+   "subject": "trebovanie-chlenstva-v-sro",
+   "predicate": "вытекает из акта",
+   "object": "gradostroitelnyy-kodeks-rf",
+   "sourceId": "grk",
+   "sourceName": "Градостроительный кодекс РФ",
+   "sourceType": "НПА",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t174",
+   "subject": "trebovanie-k-nesuschim-konstrukciyam",
+   "predicate": "вытекает из стандарта",
+   "object": "sp-20-13330-nagruzki-i-vozdeystviya",
+   "sourceId": "sp",
+   "sourceName": "СП и ГОСТ (нормативная база)",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t175",
+   "subject": "trebovanie-pozharnoy-bezopasnosti",
+   "predicate": "вытекает из стандарта",
+   "object": "sp-112-13330-pozharnaya-bezopasnost-zdaniy",
+   "sourceId": "sp",
+   "sourceName": "СП и ГОСТ (нормативная база)",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t176",
+   "subject": "trebovanie-k-oformleniyu-dokumentacii",
+   "predicate": "вытекает из стандарта",
+   "object": "gost-r-21-101-osnovnye-trebovaniya-k-proektnoy-dokumentacii",
+   "sourceId": "sp",
+   "sourceName": "СП и ГОСТ (нормативная база)",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t177",
+   "subject": "trebovanie-normokontrolya-do-vypuska",
+   "predicate": "вытекает из регламента",
+   "object": "sto-normokontrol-dokumentacii",
+   "sourceId": "sto",
+   "sourceName": "СТО «Нормоконтроль документации»",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-05-10"
+  },
+  {
+   "id": "t178",
+   "subject": "trebovanie-utverzhdeniya-gip",
+   "predicate": "вытекает из регламента",
+   "object": "sto-normokontrol-dokumentacii",
+   "sourceId": "sto",
+   "sourceName": "СТО «Нормоконтроль документации»",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-05-10"
+  },
+  {
+   "id": "t179",
+   "subject": "trebovanie-vhodnogo-kontrolya-materialov",
+   "predicate": "вытекает из регламента",
+   "object": "reglament-vhodnogo-kontrolya-materialov",
+   "sourceId": "vhod",
+   "sourceName": "Регламент входного контроля материалов",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t180",
+   "subject": "trebovanie-soglasovaniya-izmeneniy",
+   "predicate": "вытекает из регламента",
+   "object": "reglament-elektronnogo-dokumentooborota",
+   "sourceId": "edo",
+   "sourceName": "Регламент электронного документооборота",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-05-25"
+  },
+  {
+   "id": "t181",
+   "subject": "trebovanie-k-sostavu-razdelov-pd",
+   "predicate": "применяется к документу",
+   "object": "pd-severnyy-park-korpus-1",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t182",
+   "subject": "trebovanie-pozharnoy-bezopasnosti",
+   "predicate": "применяется к документу",
+   "object": "razdel-pd-pozharnaya-bezopasnost",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t183",
+   "subject": "trebovanie-k-nesuschim-konstrukciyam",
+   "predicate": "применяется к документу",
+   "object": "razdel-pd-konstruktivnye-resheniya",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t184",
+   "subject": "trebovanie-k-oformleniyu-dokumentacii",
+   "predicate": "применяется к документу",
+   "object": "pd-severnyy-park-korpus-1",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t185",
+   "subject": "trebovanie-normokontrolya-do-vypuska",
+   "predicate": "применяется к документу",
+   "object": "pd-severnyy-park-korpus-1",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t186",
+   "subject": "trebovanie-peredachi-ispolnitelnoy-dokumentacii",
+   "predicate": "применяется к документу",
+   "object": "reestr-ispolnitelnoy-dokumentacii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t187",
+   "subject": "trebovanie-primeneniya-sertificirovannyh-materialov",
+   "predicate": "применяется к документу",
+   "object": "sertifikat-na-beton-b25",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t188",
+   "subject": "trebovanie-normokontrolya-do-vypuska",
+   "predicate": "применяется к процессу",
+   "object": "normokontrol-dokumentacii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t189",
+   "subject": "trebovanie-vhodnogo-kontrolya-materialov",
+   "predicate": "применяется к процессу",
+   "object": "vhodnoy-kontrol-materialov",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t190",
+   "subject": "trebovanie-soglasovaniya-izmeneniy",
+   "predicate": "применяется к процессу",
+   "object": "soglasovanie-s-zakazchikom",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t191",
+   "subject": "trebovanie-peredachi-ispolnitelnoy-dokumentacii",
+   "predicate": "применяется к процессу",
+   "object": "peredacha-dokumentacii-zakazchiku",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t192",
+   "subject": "trebovanie-pozharnoy-bezopasnosti",
+   "predicate": "применяется к объекту",
+   "object": "korpus-1-zhk-severnyy-park",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t193",
+   "subject": "trebovanie-k-nesuschim-konstrukciyam",
+   "predicate": "применяется к объекту",
+   "object": "korpus-1-zhk-severnyy-park",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t194",
+   "subject": "trebovanie-k-nesuschim-konstrukciyam",
+   "predicate": "применяется к объекту",
+   "object": "fundamentnaya-plita-korpusa-1",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t195",
+   "subject": "trebovanie-k-oformleniyu-dokumentacii",
+   "predicate": "применяется к организации",
+   "object": "ooo-geoproekt",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t196",
+   "subject": "trebovanie-primeneniya-sertificirovannyh-materialov",
+   "predicate": "применяется к организации",
+   "object": "ooo-metalltorg",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t197",
+   "subject": "trebovanie-peredachi-ispolnitelnoy-dokumentacii",
+   "predicate": "применяется к организации",
+   "object": "ooo-stroyvektor",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t198",
+   "subject": "trebovanie-po-zaschite-pdn",
+   "predicate": "применяется к организации",
+   "object": "ooo-stroyvektor",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t199",
+   "subject": "trebovanie-chlenstva-v-sro",
+   "predicate": "применяется к организации",
+   "object": "ooo-stroyvektor",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t200",
+   "subject": "trebovanie-k-nesuschim-konstrukciyam",
+   "predicate": "требует подтверждения",
+   "object": "protokol-ispytaniy-betona",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t201",
+   "subject": "trebovanie-peredachi-ispolnitelnoy-dokumentacii",
+   "predicate": "требует подтверждения",
+   "object": "fotofiksaciya-skrytyh-rabot",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t202",
+   "subject": "trebovanie-vhodnogo-kontrolya-materialov",
+   "predicate": "требует подтверждения",
+   "object": "zhurnal-vhodnogo-kontrolya",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t203",
+   "subject": "trebovanie-vhodnogo-kontrolya-materialov",
+   "predicate": "требует подтверждения",
+   "object": "akt-vhodnogo-kontrolya-materialov",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t204",
+   "subject": "trebovanie-primeneniya-sertificirovannyh-materialov",
+   "predicate": "требует подтверждения",
+   "object": "vypiska-iz-reestra-sro",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t205",
+   "subject": "trebovanie-chlenstva-v-sro",
+   "predicate": "требует подтверждения",
+   "object": "vypiska-iz-reestra-sro",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t206",
+   "subject": "trebovanie-normokontrolya-do-vypuska",
+   "predicate": "требует контроля",
+   "object": "normokontrol-pd",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t207",
+   "subject": "trebovanie-k-sostavu-razdelov-pd",
+   "predicate": "требует контроля",
+   "object": "ocenka-sootvetstviya-pd-pered-ekspertizoy",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t208",
+   "subject": "trebovanie-vhodnogo-kontrolya-materialov",
+   "predicate": "требует контроля",
+   "object": "stroitelnyy-kontrol",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t209",
+   "subject": "trebovanie-pozharnoy-bezopasnosti",
+   "predicate": "требует контроля",
+   "object": "gosudarstvennaya-ekspertiza-pd",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t210",
+   "subject": "trebovanie-primeneniya-sertificirovannyh-materialov",
+   "predicate": "требует контроля",
+   "object": "proverka-sertifikatov-materialov",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t211",
+   "subject": "trebovanie-pozharnoy-bezopasnosti",
+   "predicate": "связано с риском",
+   "object": "risk-shtrafa-za-narushenie-pozharnoy-bezopasnosti",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t212",
+   "subject": "trebovanie-peredachi-ispolnitelnoy-dokumentacii",
+   "predicate": "связано с риском",
+   "object": "risk-ostanovki-rabot-predpisaniem",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t213",
+   "subject": "trebovanie-primeneniya-sertificirovannyh-materialov",
+   "predicate": "связано с риском",
+   "object": "risk-primeneniya-nesertificirovannogo-materiala",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t214",
+   "subject": "trebovanie-po-zaschite-pdn",
+   "predicate": "связано с риском",
+   "object": "risk-utechki-personalnyh-dannyh",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t215",
+   "subject": "trebovanie-k-sostavu-razdelov-pd",
+   "predicate": "связано с риском",
+   "object": "risk-otkaza-vo-vvode-obekta",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t216",
+   "subject": "pd-severnyy-park-korpus-1",
+   "predicate": "удовлетворяет требование",
+   "object": "trebovanie-k-sostavu-razdelov-pd",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t217",
+   "subject": "razdel-pd-pozharnaya-bezopasnost",
+   "predicate": "удовлетворяет требование",
+   "object": "trebovanie-pozharnoy-bezopasnosti",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t218",
+   "subject": "razdel-pd-konstruktivnye-resheniya",
+   "predicate": "удовлетворяет требование",
+   "object": "trebovanie-k-nesuschim-konstrukciyam",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t219",
+   "subject": "pd-severnyy-park-korpus-1",
+   "predicate": "удовлетворяет требование",
+   "object": "trebovanie-k-oformleniyu-dokumentacii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t220",
+   "subject": "pd-severnyy-park-korpus-1",
+   "predicate": "удовлетворяет требование",
+   "object": "trebovanie-normokontrolya-do-vypuska",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t221",
+   "subject": "reestr-ispolnitelnoy-dokumentacii",
+   "predicate": "удовлетворяет требование",
+   "object": "trebovanie-peredachi-ispolnitelnoy-dokumentacii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t222",
+   "subject": "sertifikat-na-beton-b25",
+   "predicate": "удовлетворяет требование",
+   "object": "trebovanie-primeneniya-sertificirovannyh-materialov",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t223",
+   "subject": "sertifikat-na-armaturu-a500s",
+   "predicate": "удовлетворяет требование",
+   "object": "trebovanie-primeneniya-sertificirovannyh-materialov",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t224",
+   "subject": "aosr-114",
+   "predicate": "удовлетворяет требование",
+   "object": "trebovanie-peredachi-ispolnitelnoy-dokumentacii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t225",
+   "subject": "obschiy-zhurnal-rabot",
+   "predicate": "удовлетворяет требование",
+   "object": "trebovanie-peredachi-ispolnitelnoy-dokumentacii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t226",
+   "subject": "ispolnitelnaya-shema-armirovaniya",
+   "predicate": "удовлетворяет требование",
+   "object": "trebovanie-k-nesuschim-konstrukciyam",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t227",
+   "subject": "pd-severnyy-park-korpus-1",
+   "predicate": "содержит раздел",
+   "object": "razdel-pozharnaya-bezopasnost",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t228",
+   "subject": "pd-severnyy-park-korpus-1",
+   "predicate": "содержит раздел",
+   "object": "razdel-konstruktivnye-resheniya",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t229",
+   "subject": "svodnyy-smetnyy-raschet",
+   "predicate": "содержит раздел",
+   "object": "razdel-smeta",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t230",
+   "subject": "pd-severnyy-park-korpus-1",
+   "predicate": "имеет версию",
+   "object": "redakciya-1-pd",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t231",
+   "subject": "pd-severnyy-park-korpus-1",
+   "predicate": "имеет версию",
+   "object": "redakciya-2-pd",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t232",
+   "subject": "pd-severnyy-park-korpus-1",
+   "predicate": "создаётся в процессе",
+   "object": "razrabotka-proektnoy-dokumentacii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t233",
+   "subject": "razdel-pd-pozharnaya-bezopasnost",
+   "predicate": "создаётся в процессе",
+   "object": "razrabotka-proektnoy-dokumentacii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t234",
+   "subject": "razdel-pd-konstruktivnye-resheniya",
+   "predicate": "создаётся в процессе",
+   "object": "razrabotka-proektnoy-dokumentacii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t235",
+   "subject": "aosr-114",
+   "predicate": "создаётся в процессе",
+   "object": "osvidetelstvovanie-skrytyh-rabot",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t236",
+   "subject": "obschiy-zhurnal-rabot",
+   "predicate": "создаётся в процессе",
+   "object": "osvidetelstvovanie-skrytyh-rabot",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t237",
+   "subject": "ispolnitelnaya-shema-armirovaniya",
+   "predicate": "создаётся в процессе",
+   "object": "osvidetelstvovanie-skrytyh-rabot",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t238",
+   "subject": "sertifikat-na-beton-b25",
+   "predicate": "создаётся в процессе",
+   "object": "vhodnoy-kontrol-materialov",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t239",
+   "subject": "reestr-ispolnitelnoy-dokumentacii",
+   "predicate": "создаётся в процессе",
+   "object": "peredacha-dokumentacii-zakazchiku",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t240",
+   "subject": "polozhitelnoe-zaklyuchenie-ekspertizy",
+   "predicate": "создаётся в процессе",
+   "object": "prohozhdenie-gosekspertizy",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t241",
+   "subject": "pd-severnyy-park-korpus-1",
+   "predicate": "утверждён ролью",
+   "object": "gip",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t242",
+   "subject": "razdel-pd-pozharnaya-bezopasnost",
+   "predicate": "утверждён ролью",
+   "object": "gip",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t243",
+   "subject": "aosr-114",
+   "predicate": "утверждён ролью",
+   "object": "inzhener-tehnadzora",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t244",
+   "subject": "obschiy-zhurnal-rabot",
+   "predicate": "утверждён ролью",
+   "object": "rukovoditel-stroitelnogo-kontrolya",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t245",
+   "subject": "reestr-ispolnitelnoy-dokumentacii",
+   "predicate": "утверждён ролью",
+   "object": "inzhener-tehnadzora",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t246",
+   "subject": "pd-severnyy-park-korpus-1",
+   "predicate": "ссылается на акт",
+   "object": "postanovlenie-pravitelstva-rf-87",
+   "sourceId": "pp87",
+   "sourceName": "Постановление Правительства РФ № 87",
+   "sourceType": "НПА",
+   "updatedAt": "2026-06-01"
+  },
+  {
+   "id": "t247",
+   "subject": "razdel-pd-pozharnaya-bezopasnost",
+   "predicate": "ссылается на акт",
+   "object": "384-fz-tehnicheskiy-reglament-o-bezopasnosti-zdaniy-i-sooruzheniy",
+   "sourceId": "fz384",
+   "sourceName": "384-ФЗ «Технический регламент о безопасности зданий и сооружений»",
+   "sourceType": "НПА",
+   "updatedAt": "2026-08-01"
+  },
+  {
+   "id": "t248",
+   "subject": "otchet-o-normokontrole",
+   "predicate": "ссылается на акт",
+   "object": "gradostroitelnyy-kodeks-rf",
+   "sourceId": "grk",
+   "sourceName": "Градостроительный кодекс РФ",
+   "sourceType": "НПА",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t249",
+   "subject": "razreshenie-na-stroitelstvo-77-i-2026",
+   "predicate": "ссылается на акт",
+   "object": "gradostroitelnyy-kodeks-rf",
+   "sourceId": "grk",
+   "sourceName": "Градостроительный кодекс РФ",
+   "sourceType": "НПА",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t250",
+   "subject": "razdel-pd-pozharnaya-bezopasnost",
+   "predicate": "ссылается на стандарт",
+   "object": "sp-112-13330-pozharnaya-bezopasnost-zdaniy",
+   "sourceId": "sp",
+   "sourceName": "СП и ГОСТ (нормативная база)",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t251",
+   "subject": "razdel-pd-konstruktivnye-resheniya",
+   "predicate": "ссылается на стандарт",
+   "object": "sp-20-13330-nagruzki-i-vozdeystviya",
+   "sourceId": "sp",
+   "sourceName": "СП и ГОСТ (нормативная база)",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t252",
+   "subject": "pd-severnyy-park-korpus-1",
+   "predicate": "ссылается на стандарт",
+   "object": "gost-r-21-101-osnovnye-trebovaniya-k-proektnoy-dokumentacii",
+   "sourceId": "sp",
+   "sourceName": "СП и ГОСТ (нормативная база)",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t253",
+   "subject": "ispolnitelnaya-shema-armirovaniya",
+   "predicate": "ссылается на стандарт",
+   "object": "gost-r-21-101-osnovnye-trebovaniya-k-proektnoy-dokumentacii",
+   "sourceId": "sp",
+   "sourceName": "СП и ГОСТ (нормативная база)",
+   "sourceType": "Стандарт",
+   "updatedAt": "2026-08-20"
+  },
+  {
+   "id": "t254",
+   "subject": "pd-severnyy-park-korpus-1",
+   "predicate": "регламентирован",
+   "object": "sto-normokontrol-dokumentacii",
+   "sourceId": "sto",
+   "sourceName": "СТО «Нормоконтроль документации»",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-05-10"
+  },
+  {
+   "id": "t255",
+   "subject": "aosr-114",
+   "predicate": "регламентирован",
+   "object": "reglament-elektronnogo-dokumentooborota",
+   "sourceId": "edo",
+   "sourceName": "Регламент электронного документооборота",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-05-25"
+  },
+  {
+   "id": "t256",
+   "subject": "obschiy-zhurnal-rabot",
+   "predicate": "регламентирован",
+   "object": "reglament-elektronnogo-dokumentooborota",
+   "sourceId": "edo",
+   "sourceName": "Регламент электронного документооборота",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-05-25"
+  },
+  {
+   "id": "t257",
+   "subject": "sertifikat-na-beton-b25",
+   "predicate": "регламентирован",
+   "object": "reglament-vhodnogo-kontrolya-materialov",
+   "sourceId": "vhod",
+   "sourceName": "Регламент входного контроля материалов",
+   "sourceType": "Регламент",
+   "updatedAt": "2026-06-15"
+  },
+  {
+   "id": "t258",
+   "subject": "razdel-pozharnaya-bezopasnost",
+   "predicate": "проверяется по требованию",
+   "object": "trebovanie-pozharnoy-bezopasnosti",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t259",
+   "subject": "razdel-konstruktivnye-resheniya",
+   "predicate": "проверяется по требованию",
+   "object": "trebovanie-k-nesuschim-konstrukciyam",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t260",
+   "subject": "razdel-smeta",
+   "predicate": "проверяется по требованию",
+   "object": "trebovanie-k-sostavu-razdelov-pd",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t261",
+   "subject": "razreshenie-na-stroitelstvo-77-i-2026",
+   "predicate": "выдан регулятором",
+   "object": "minstroy-rossii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t262",
+   "subject": "gradostroitelnyy-plan-zemelnogo-uchastka",
+   "predicate": "выдан регулятором",
+   "object": "minstroy-rossii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t263",
+   "subject": "sertifikat-na-beton-b25",
+   "predicate": "выдан организацией",
+   "object": "ao-stroysertifikaciya",
+   "sourceId": "certs",
+   "sourceName": "Реестр сертификатов материалов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t264",
+   "subject": "sertifikat-na-armaturu-a500s",
+   "predicate": "выдан организацией",
+   "object": "ao-stroysertifikaciya",
+   "sourceId": "certs",
+   "sourceName": "Реестр сертификатов материалов",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-08"
+  },
+  {
+   "id": "t265",
+   "subject": "dogovor-genpodryada-gp-14",
+   "predicate": "охватывает объект",
+   "object": "korpus-1-zhk-severnyy-park",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров подряда и поставки",
+   "sourceType": "Договор",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t266",
+   "subject": "dogovor-podryada-sp-07",
+   "predicate": "охватывает объект",
+   "object": "fundamentnaya-plita-korpusa-1",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров подряда и поставки",
+   "sourceType": "Договор",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t267",
+   "subject": "dogovor-postavki-p-22",
+   "predicate": "охватывает объект",
+   "object": "korpus-1-zhk-severnyy-park",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров подряда и поставки",
+   "sourceType": "Договор",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t268",
+   "subject": "dogovor-genpodryada-gp-14",
+   "predicate": "связывает организацию",
+   "object": "ooo-stroyvektor",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров подряда и поставки",
+   "sourceType": "Договор",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t269",
+   "subject": "dogovor-genpodryada-gp-14",
+   "predicate": "связывает организацию",
+   "object": "gku-uks-stolica",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров подряда и поставки",
+   "sourceType": "Договор",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t270",
+   "subject": "dogovor-podryada-sp-07",
+   "predicate": "связывает организацию",
+   "object": "ooo-fundamentstroy",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров подряда и поставки",
+   "sourceType": "Договор",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t271",
+   "subject": "dogovor-postavki-p-22",
+   "predicate": "связывает организацию",
+   "object": "ooo-metalltorg",
+   "sourceId": "contracts",
+   "sourceName": "Реестр договоров подряда и поставки",
+   "sourceType": "Договор",
+   "updatedAt": "2026-08-30"
+  },
+  {
+   "id": "t272",
+   "subject": "razdel-pd-pozharnaya-bezopasnost",
+   "predicate": "несёт риск",
+   "object": "risk-shtrafa-za-narushenie-pozharnoy-bezopasnosti",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t273",
+   "subject": "reestr-ispolnitelnoy-dokumentacii",
+   "predicate": "несёт риск",
+   "object": "risk-ostanovki-rabot-predpisaniem",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t274",
+   "subject": "sertifikat-na-beton-b25",
+   "predicate": "несёт риск",
+   "object": "risk-primeneniya-nesertificirovannogo-materiala",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t275",
+   "subject": "obschiy-zhurnal-rabot",
+   "predicate": "несёт риск",
+   "object": "risk-utechki-personalnyh-dannyh",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t276",
+   "subject": "razrabotka-proektnoy-dokumentacii",
+   "predicate": "создаёт документ",
+   "object": "pd-severnyy-park-korpus-1",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t277",
+   "subject": "razrabotka-proektnoy-dokumentacii",
+   "predicate": "создаёт документ",
+   "object": "razdel-pd-pozharnaya-bezopasnost",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t278",
+   "subject": "razrabotka-proektnoy-dokumentacii",
+   "predicate": "создаёт документ",
+   "object": "razdel-pd-konstruktivnye-resheniya",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t279",
+   "subject": "osvidetelstvovanie-skrytyh-rabot",
+   "predicate": "создаёт документ",
+   "object": "aosr-114",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t280",
+   "subject": "osvidetelstvovanie-skrytyh-rabot",
+   "predicate": "создаёт документ",
+   "object": "obschiy-zhurnal-rabot",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t281",
+   "subject": "osvidetelstvovanie-skrytyh-rabot",
+   "predicate": "создаёт документ",
+   "object": "ispolnitelnaya-shema-armirovaniya",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t282",
+   "subject": "vhodnoy-kontrol-materialov",
+   "predicate": "создаёт документ",
+   "object": "sertifikat-na-beton-b25",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t283",
+   "subject": "peredacha-dokumentacii-zakazchiku",
+   "predicate": "создаёт документ",
+   "object": "reestr-ispolnitelnoy-dokumentacii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t284",
+   "subject": "prohozhdenie-gosekspertizy",
+   "predicate": "создаёт документ",
+   "object": "polozhitelnoe-zaklyuchenie-ekspertizy",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t285",
+   "subject": "razrabotka-proektnoy-dokumentacii",
+   "predicate": "владелец процесса",
+   "object": "gip",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t286",
+   "subject": "normokontrol-dokumentacii",
+   "predicate": "владелец процесса",
+   "object": "normokontroler",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t287",
+   "subject": "soglasovanie-s-zakazchikom",
+   "predicate": "владелец процесса",
+   "object": "gip",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t288",
+   "subject": "osvidetelstvovanie-skrytyh-rabot",
+   "predicate": "владелец процесса",
+   "object": "inzhener-tehnadzora",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t289",
+   "subject": "vhodnoy-kontrol-materialov",
+   "predicate": "владелец процесса",
+   "object": "rukovoditel-stroitelnogo-kontrolya",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t290",
+   "subject": "peredacha-dokumentacii-zakazchiku",
+   "predicate": "владелец процесса",
+   "object": "inzhener-tehnadzora",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t291",
+   "subject": "normokontrol-pd",
+   "predicate": "проверяет документ",
+   "object": "pd-severnyy-park-korpus-1",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t292",
+   "subject": "normokontrol-aosr",
+   "predicate": "проверяет документ",
+   "object": "aosr-114",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t293",
+   "subject": "avtoproverka-rekvizitov-aosr",
+   "predicate": "проверяет документ",
+   "object": "aosr-114",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t294",
+   "subject": "avtoproverka-komplektnosti-id",
+   "predicate": "проверяет документ",
+   "object": "reestr-ispolnitelnoy-dokumentacii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t295",
+   "subject": "proverka-sertifikatov-materialov",
+   "predicate": "проверяет документ",
+   "object": "sertifikat-na-beton-b25",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t296",
+   "subject": "gosudarstvennaya-ekspertiza-pd",
+   "predicate": "проверяет документ",
+   "object": "pd-severnyy-park-korpus-1",
+   "sourceId": "expert",
+   "sourceName": "ЕГРЗ / государственная экспертиза",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t297",
+   "subject": "proverka-gosstroynadzora-gsn-2026-04",
+   "predicate": "проверяет документ",
+   "object": "reestr-ispolnitelnoy-dokumentacii",
+   "sourceId": "gsn",
+   "sourceName": "Единый реестр проверок Госстройнадзора",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-12"
+  },
+  {
+   "id": "t298",
+   "subject": "normokontrol-pd",
+   "predicate": "проверяет требование",
+   "object": "trebovanie-normokontrolya-do-vypuska",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t299",
+   "subject": "normokontrol-pd",
+   "predicate": "проверяет требование",
+   "object": "trebovanie-k-oformleniyu-dokumentacii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t300",
+   "subject": "avtoproverka-rekvizitov-aosr",
+   "predicate": "проверяет требование",
+   "object": "trebovanie-k-oformleniyu-dokumentacii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t301",
+   "subject": "proverka-sertifikatov-materialov",
+   "predicate": "проверяет требование",
+   "object": "trebovanie-primeneniya-sertificirovannyh-materialov",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t302",
+   "subject": "gosudarstvennaya-ekspertiza-pd",
+   "predicate": "проверяет требование",
+   "object": "trebovanie-k-sostavu-razdelov-pd",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t303",
+   "subject": "proverka-gosstroynadzora-gsn-2026-04",
+   "predicate": "проверяет требование",
+   "object": "trebovanie-peredachi-ispolnitelnoy-dokumentacii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t304",
+   "subject": "normokontrol-pd",
+   "predicate": "выявляет",
+   "object": "zamechanie-normokontrolya-po-rekvizitam",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t305",
+   "subject": "avtoproverka-rekvizitov-aosr",
+   "predicate": "выявляет",
+   "object": "nesootvetstvie-v-aosr-114",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t306",
+   "subject": "proverka-sertifikatov-materialov",
+   "predicate": "выявляет",
+   "object": "prosrochennyy-sertifikat-betona",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t307",
+   "subject": "gosudarstvennaya-ekspertiza-pd",
+   "predicate": "выявляет",
+   "object": "nesootvetstvie-razdela-pd-po-pb",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t308",
+   "subject": "gosudarstvennaya-ekspertiza-pd",
+   "predicate": "выявляет",
+   "object": "zamechanie-ekspertizy-po-ognezaschite",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t309",
+   "subject": "proverka-gosstroynadzora-gsn-2026-04",
+   "predicate": "выявляет",
+   "object": "nesootvetstvie-v-aosr-114",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t310",
+   "subject": "avtoproverka-rekvizitov-aosr",
+   "predicate": "использует правило",
+   "object": "pravilo-obyazatelnyh-rekvizitov-aosr",
+   "sourceId": "rules",
+   "sourceName": "Библиотека машиночитаемых правил",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-15"
+  },
+  {
+   "id": "t311",
+   "subject": "avtoproverka-komplektnosti-id",
+   "predicate": "использует правило",
+   "object": "pravilo-polnoty-razdelov-pd",
+   "sourceId": "rules",
+   "sourceName": "Библиотека машиночитаемых правил",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-15"
+  },
+  {
+   "id": "t312",
+   "subject": "proverka-sertifikatov-materialov",
+   "predicate": "использует правило",
+   "object": "pravilo-sroka-deystviya-sertifikata",
+   "sourceId": "rules",
+   "sourceName": "Библиотека машиночитаемых правил",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-15"
+  },
+  {
+   "id": "t313",
+   "subject": "pravilo-obyazatelnyh-rekvizitov-aosr",
+   "predicate": "формализует требование",
+   "object": "trebovanie-k-oformleniyu-dokumentacii",
+   "sourceId": "rules",
+   "sourceName": "Библиотека машиночитаемых правил",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-15"
+  },
+  {
+   "id": "t314",
+   "subject": "pravilo-polnoty-razdelov-pd",
+   "predicate": "формализует требование",
+   "object": "trebovanie-k-sostavu-razdelov-pd",
+   "sourceId": "rules",
+   "sourceName": "Библиотека машиночитаемых правил",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-15"
+  },
+  {
+   "id": "t315",
+   "subject": "pravilo-sroka-deystviya-sertifikata",
+   "predicate": "формализует требование",
+   "object": "trebovanie-primeneniya-sertificirovannyh-materialov",
+   "sourceId": "rules",
+   "sourceName": "Библиотека машиночитаемых правил",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-15"
+  },
+  {
+   "id": "t316",
+   "subject": "soglasovanie-pd-s-zakazchikom",
+   "predicate": "выполняется ролью",
+   "object": "gip",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t317",
+   "subject": "soglasovanie-izmeneniya-izm-3",
+   "predicate": "выполняется ролью",
+   "object": "gip",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t318",
+   "subject": "gosudarstvennaya-ekspertiza-pd",
+   "predicate": "проверяет документ",
+   "object": "razdel-pd-pozharnaya-bezopasnost",
+   "sourceId": "expert",
+   "sourceName": "ЕГРЗ / государственная экспертиза",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t319",
+   "subject": "ekspertiza-promyshlennoy-bezopasnosti",
+   "predicate": "проверяет документ",
+   "object": "razdel-pd-konstruktivnye-resheniya",
+   "sourceId": "expert",
+   "sourceName": "ЕГРЗ / государственная экспертиза",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t320",
+   "subject": "gosudarstvennaya-ekspertiza-pd",
+   "predicate": "требуется актом",
+   "object": "gradostroitelnyy-kodeks-rf",
+   "sourceId": "expert",
+   "sourceName": "ЕГРЗ / государственная экспертиза",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t321",
+   "subject": "proverka-gosstroynadzora-gsn-2026-04",
+   "predicate": "проверяет объект",
+   "object": "korpus-1-zhk-severnyy-park",
+   "sourceId": "gsn",
+   "sourceName": "Единый реестр проверок Госстройнадзора",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-12"
+  },
+  {
+   "id": "t322",
+   "subject": "proverka-rostehnadzora-rtn-11",
+   "predicate": "проверяет объект",
+   "object": "fundamentnaya-plita-korpusa-1",
+   "sourceId": "gsn",
+   "sourceName": "Единый реестр проверок Госстройнадзора",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-12"
+  },
+  {
+   "id": "t323",
+   "subject": "proverka-gosstroynadzora-gsn-2026-04",
+   "predicate": "проводится регулятором",
+   "object": "gosstroynadzor",
+   "sourceId": "gsn",
+   "sourceName": "Единый реестр проверок Госстройнадзора",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-12"
+  },
+  {
+   "id": "t324",
+   "subject": "proverka-rostehnadzora-rtn-11",
+   "predicate": "проводится регулятором",
+   "object": "rostehnadzor",
+   "sourceId": "gsn",
+   "sourceName": "Единый реестр проверок Госстройнадзора",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-12"
+  },
+  {
+   "id": "t325",
+   "subject": "proverka-gosstroynadzora-gsn-2026-04",
+   "predicate": "проверяет документ",
+   "object": "aosr-114",
+   "sourceId": "gsn",
+   "sourceName": "Единый реестр проверок Госстройнадзора",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-12"
+  },
+  {
+   "id": "t326",
+   "subject": "proverka-gosstroynadzora-gsn-2026-04",
+   "predicate": "проверяет документ",
+   "object": "obschiy-zhurnal-rabot",
+   "sourceId": "gsn",
+   "sourceName": "Единый реестр проверок Госстройнадзора",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-12"
+  },
+  {
+   "id": "t327",
+   "subject": "proverka-rostehnadzora-rtn-11",
+   "predicate": "проверяет документ",
+   "object": "ispolnitelnaya-shema-armirovaniya",
+   "sourceId": "gsn",
+   "sourceName": "Единый реестр проверок Госстройнадзора",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-12"
+  },
+  {
+   "id": "t328",
+   "subject": "ocenka-sootvetstviya-pd-pered-ekspertizoy",
+   "predicate": "оценивает документ",
+   "object": "pd-severnyy-park-korpus-1",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t329",
+   "subject": "ocenka-sootvetstviya-pd-pered-ekspertizoy",
+   "predicate": "оценивает документ",
+   "object": "razdel-pd-pozharnaya-bezopasnost",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t330",
+   "subject": "vnutrenniy-audit-ispolnitelnoy-dokumentacii",
+   "predicate": "оценивает документ",
+   "object": "reestr-ispolnitelnoy-dokumentacii",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t331",
+   "subject": "ocenka-sootvetstviya-pd-pered-ekspertizoy",
+   "predicate": "оценивает требование",
+   "object": "trebovanie-k-sostavu-razdelov-pd",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t332",
+   "subject": "ocenka-sootvetstviya-pd-pered-ekspertizoy",
+   "predicate": "оценивает требование",
+   "object": "trebovanie-pozharnoy-bezopasnosti",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t333",
+   "subject": "vnutrenniy-audit-ispolnitelnoy-dokumentacii",
+   "predicate": "оценивает требование",
+   "object": "trebovanie-peredachi-ispolnitelnoy-dokumentacii",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t334",
+   "subject": "ocenka-sootvetstviya-pd-pered-ekspertizoy",
+   "predicate": "оценивает объект",
+   "object": "korpus-1-zhk-severnyy-park",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t335",
+   "subject": "ocenka-sootvetstviya-pd-pered-ekspertizoy",
+   "predicate": "приводит к выявлению",
+   "object": "nesootvetstvie-razdela-pd-po-pb",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t336",
+   "subject": "ocenka-sootvetstviya-pd-pered-ekspertizoy",
+   "predicate": "приводит к выявлению",
+   "object": "zamechanie-ekspertizy-po-ognezaschite",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t337",
+   "subject": "vnutrenniy-audit-ispolnitelnoy-dokumentacii",
+   "predicate": "приводит к выявлению",
+   "object": "nesootvetstvie-v-aosr-114",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t338",
+   "subject": "nesootvetstvie-razdela-pd-po-pb",
+   "predicate": "касается документа",
+   "object": "razdel-pd-pozharnaya-bezopasnost",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t339",
+   "subject": "nesootvetstvie-v-aosr-114",
+   "predicate": "касается документа",
+   "object": "aosr-114",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t340",
+   "subject": "prosrochennyy-sertifikat-betona",
+   "predicate": "касается документа",
+   "object": "sertifikat-na-beton-b25",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t341",
+   "subject": "zamechanie-ekspertizy-po-ognezaschite",
+   "predicate": "касается документа",
+   "object": "razdel-pd-konstruktivnye-resheniya",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t342",
+   "subject": "zamechanie-normokontrolya-po-rekvizitam",
+   "predicate": "касается документа",
+   "object": "pd-severnyy-park-korpus-1",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t343",
+   "subject": "nesootvetstvie-razdela-pd-po-pb",
+   "predicate": "касается требования",
+   "object": "trebovanie-pozharnoy-bezopasnosti",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t344",
+   "subject": "nesootvetstvie-v-aosr-114",
+   "predicate": "касается требования",
+   "object": "trebovanie-k-oformleniyu-dokumentacii",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t345",
+   "subject": "prosrochennyy-sertifikat-betona",
+   "predicate": "касается требования",
+   "object": "trebovanie-primeneniya-sertificirovannyh-materialov",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t346",
+   "subject": "zamechanie-normokontrolya-po-rekvizitam",
+   "predicate": "касается требования",
+   "object": "trebovanie-k-oformleniyu-dokumentacii",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t347",
+   "subject": "zamechanie-ekspertizy-po-ognezaschite",
+   "predicate": "касается требования",
+   "object": "trebovanie-pozharnoy-bezopasnosti",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t348",
+   "subject": "nesootvetstvie-razdela-pd-po-pb",
+   "predicate": "требует действия",
+   "object": "dorabotat-razdel-pozharnoy-bezopasnosti",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t349",
+   "subject": "nesootvetstvie-v-aosr-114",
+   "predicate": "требует действия",
+   "object": "obnovit-rekvizity-aosr-114",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t350",
+   "subject": "prosrochennyy-sertifikat-betona",
+   "predicate": "требует действия",
+   "object": "zamenit-sertifikat-betona",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t351",
+   "subject": "zamechanie-ekspertizy-po-ognezaschite",
+   "predicate": "требует действия",
+   "object": "dorabotat-razdel-pozharnoy-bezopasnosti",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t352",
+   "subject": "narushenie-trebovaniya-pozharnoy-bezopasnosti",
+   "predicate": "основано на выявлении",
+   "object": "nesootvetstvie-razdela-pd-po-pb",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t353",
+   "subject": "narushenie-sostava-razdelov-pd",
+   "predicate": "основано на выявлении",
+   "object": "zamechanie-ekspertizy-po-ognezaschite",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t354",
+   "subject": "narushenie-sroka-peredachi-id",
+   "predicate": "основано на выявлении",
+   "object": "nesootvetstvie-v-aosr-114",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t355",
+   "subject": "narushenie-trebovaniya-pozharnoy-bezopasnosti",
+   "predicate": "влечёт последствие",
+   "object": "shtraf-po-koap-500-tys",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t356",
+   "subject": "narushenie-sostava-razdelov-pd",
+   "predicate": "влечёт последствие",
+   "object": "priostanovka-razresheniya-na-stroitelstvo",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t357",
+   "subject": "narushenie-sroka-peredachi-id",
+   "predicate": "влечёт последствие",
+   "object": "priostanovka-razresheniya-na-stroitelstvo",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t358",
+   "subject": "narushenie-trebovaniya-pozharnoy-bezopasnosti",
+   "predicate": "влечёт последствие",
+   "object": "avariya-na-obekte",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t359",
+   "subject": "narushenie-trebovaniya-pozharnoy-bezopasnosti",
+   "predicate": "создаёт риск",
+   "object": "risk-otkaza-vo-vvode-obekta",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t360",
+   "subject": "narushenie-sostava-razdelov-pd",
+   "predicate": "создаёт риск",
+   "object": "risk-otkaza-vo-vvode-obekta",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t361",
+   "subject": "narushenie-sroka-peredachi-id",
+   "predicate": "создаёт риск",
+   "object": "risk-ostanovki-rabot-predpisaniem",
+   "sourceId": "incidents",
+   "sourceName": "Журнал инцидентов и предписаний",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-13"
+  },
+  {
+   "id": "t362",
+   "subject": "dorabotat-razdel-pozharnoy-bezopasnosti",
+   "predicate": "устраняет выявление",
+   "object": "nesootvetstvie-razdela-pd-po-pb",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t363",
+   "subject": "obnovit-rekvizity-aosr-114",
+   "predicate": "устраняет выявление",
+   "object": "nesootvetstvie-v-aosr-114",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t364",
+   "subject": "zamenit-sertifikat-betona",
+   "predicate": "устраняет выявление",
+   "object": "prosrochennyy-sertifikat-betona",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t365",
+   "subject": "dorabotat-razdel-pozharnoy-bezopasnosti",
+   "predicate": "корректирует документ",
+   "object": "razdel-pd-pozharnaya-bezopasnost",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t366",
+   "subject": "obnovit-rekvizity-aosr-114",
+   "predicate": "корректирует документ",
+   "object": "aosr-114",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t367",
+   "subject": "zamenit-sertifikat-betona",
+   "predicate": "корректирует документ",
+   "object": "sertifikat-na-beton-b25",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t368",
+   "subject": "dorabotat-razdel-pozharnoy-bezopasnosti",
+   "predicate": "ответственная роль",
+   "object": "gip",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t369",
+   "subject": "obnovit-rekvizity-aosr-114",
+   "predicate": "ответственная роль",
+   "object": "normokontroler",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t370",
+   "subject": "zamenit-sertifikat-betona",
+   "predicate": "ответственная роль",
+   "object": "rukovoditel-stroitelnogo-kontrolya",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t371",
+   "subject": "plan-ustraneniya-zamechaniy-gosstroynadzora",
+   "predicate": "включает действие",
+   "object": "obnovit-rekvizity-aosr-114",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t372",
+   "subject": "plan-ustraneniya-zamechaniy-gosstroynadzora",
+   "predicate": "включает действие",
+   "object": "zamenit-sertifikat-betona",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t373",
+   "subject": "plan-dorabotki-pd",
+   "predicate": "включает действие",
+   "object": "dorabotat-razdel-pozharnoy-bezopasnosti",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t374",
+   "subject": "plan-ustraneniya-zamechaniy-gosstroynadzora",
+   "predicate": "устраняет нарушение",
+   "object": "narushenie-sroka-peredachi-id",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t375",
+   "subject": "plan-dorabotki-pd",
+   "predicate": "устраняет нарушение",
+   "object": "narushenie-sostava-razdelov-pd",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t376",
+   "subject": "soglasovannoe-otstuplenie-po-armirovaniyu",
+   "predicate": "отступает от требования",
+   "object": "trebovanie-k-nesuschim-konstrukciyam",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t377",
+   "subject": "otstuplenie-po-ognezaschite",
+   "predicate": "отступает от требования",
+   "object": "trebovanie-pozharnoy-bezopasnosti",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t378",
+   "subject": "soglasovannoe-otstuplenie-po-armirovaniyu",
+   "predicate": "касается документа",
+   "object": "ispolnitelnaya-shema-armirovaniya",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t379",
+   "subject": "otstuplenie-po-ognezaschite",
+   "predicate": "касается документа",
+   "object": "razdel-pd-konstruktivnye-resheniya",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t380",
+   "subject": "protokol-ispytaniy-betona",
+   "predicate": "подтверждает оценку",
+   "object": "ocenka-sootvetstviya-pd-pered-ekspertizoy",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t381",
+   "subject": "fotofiksaciya-skrytyh-rabot",
+   "predicate": "подтверждает оценку",
+   "object": "vnutrenniy-audit-ispolnitelnoy-dokumentacii",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t382",
+   "subject": "zhurnal-vhodnogo-kontrolya",
+   "predicate": "подтверждает оценку",
+   "object": "vnutrenniy-audit-ispolnitelnoy-dokumentacii",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t383",
+   "subject": "protokol-ispytaniy-betona",
+   "predicate": "доказывает выполнение",
+   "object": "trebovanie-k-nesuschim-konstrukciyam",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t384",
+   "subject": "fotofiksaciya-skrytyh-rabot",
+   "predicate": "доказывает выполнение",
+   "object": "trebovanie-peredachi-ispolnitelnoy-dokumentacii",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t385",
+   "subject": "zhurnal-vhodnogo-kontrolya",
+   "predicate": "доказывает выполнение",
+   "object": "trebovanie-vhodnogo-kontrolya-materialov",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t386",
+   "subject": "akt-vhodnogo-kontrolya-materialov",
+   "predicate": "доказывает выполнение",
+   "object": "trebovanie-vhodnogo-kontrolya-materialov",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t387",
+   "subject": "vypiska-iz-reestra-sro",
+   "predicate": "доказывает выполнение",
+   "object": "trebovanie-chlenstva-v-sro",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t388",
+   "subject": "protokol-ispytaniy-betona",
+   "predicate": "подготовлено ролью",
+   "object": "rukovoditel-stroitelnogo-kontrolya",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t389",
+   "subject": "fotofiksaciya-skrytyh-rabot",
+   "predicate": "подготовлено ролью",
+   "object": "inzhener-tehnadzora",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t390",
+   "subject": "zhurnal-vhodnogo-kontrolya",
+   "predicate": "подготовлено ролью",
+   "object": "rukovoditel-stroitelnogo-kontrolya",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t391",
+   "subject": "akt-vhodnogo-kontrolya-materialov",
+   "predicate": "подготовлено ролью",
+   "object": "rukovoditel-stroitelnogo-kontrolya",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t392",
+   "subject": "vypiska-iz-reestra-sro",
+   "predicate": "подготовлено ролью",
+   "object": "gip",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t393",
+   "subject": "ivanov-sergey-gip",
+   "predicate": "работает в",
+   "object": "ooo-stroyvektor",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t394",
+   "subject": "kuznecova-anna-normokontroler",
+   "predicate": "работает в",
+   "object": "ooo-geoproekt",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t395",
+   "subject": "petrov-dmitriy-inzhener-tehnadzora",
+   "predicate": "работает в",
+   "object": "gku-uks-stolica",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t396",
+   "subject": "smirnov-aleksey-rukovoditel-sk",
+   "predicate": "работает в",
+   "object": "ooo-stroyvektor",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t397",
+   "subject": "orlova-mariya-specialist-po-pdn",
+   "predicate": "работает в",
+   "object": "ooo-stroyvektor",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t398",
+   "subject": "ivanov-sergey-gip",
+   "predicate": "занимает роль",
+   "object": "gip",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t399",
+   "subject": "kuznecova-anna-normokontroler",
+   "predicate": "занимает роль",
+   "object": "normokontroler",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t400",
+   "subject": "petrov-dmitriy-inzhener-tehnadzora",
+   "predicate": "занимает роль",
+   "object": "inzhener-tehnadzora",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t401",
+   "subject": "smirnov-aleksey-rukovoditel-sk",
+   "predicate": "занимает роль",
+   "object": "rukovoditel-stroitelnogo-kontrolya",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t402",
+   "subject": "orlova-mariya-specialist-po-pdn",
+   "predicate": "занимает роль",
+   "object": "specialist-po-pdn",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t403",
+   "subject": "gip",
+   "predicate": "требует компетенцию",
+   "object": "normokontrol-proektnoy-dokumentacii",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t404",
+   "subject": "gip",
+   "predicate": "требует компетенцию",
+   "object": "upravlenie-stroitelnymi-riskami",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t405",
+   "subject": "normokontroler",
+   "predicate": "требует компетенцию",
+   "object": "normokontrol-proektnoy-dokumentacii",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t406",
+   "subject": "normokontroler",
+   "predicate": "требует компетенцию",
+   "object": "rabota-v-sed",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t407",
+   "subject": "inzhener-tehnadzora",
+   "predicate": "требует компетенцию",
+   "object": "znanie-pozharnyh-norm",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t408",
+   "subject": "specialist-po-pdn",
+   "predicate": "требует компетенцию",
+   "object": "rabota-v-sed",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t409",
+   "subject": "gip",
+   "predicate": "отвечает за документ",
+   "object": "pd-severnyy-park-korpus-1",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t410",
+   "subject": "normokontroler",
+   "predicate": "отвечает за документ",
+   "object": "otchet-o-normokontrole",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t411",
+   "subject": "inzhener-tehnadzora",
+   "predicate": "отвечает за документ",
+   "object": "reestr-ispolnitelnoy-dokumentacii",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t412",
+   "subject": "gip",
+   "predicate": "отвечает за процесс",
+   "object": "razrabotka-proektnoy-dokumentacii",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t413",
+   "subject": "normokontroler",
+   "predicate": "отвечает за процесс",
+   "object": "normokontrol-dokumentacii",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t414",
+   "subject": "inzhener-tehnadzora",
+   "predicate": "отвечает за процесс",
+   "object": "osvidetelstvovanie-skrytyh-rabot",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t415",
+   "subject": "rukovoditel-stroitelnogo-kontrolya",
+   "predicate": "отвечает за процесс",
+   "object": "vhodnoy-kontrol-materialov",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t416",
+   "subject": "normokontroler",
+   "predicate": "выполняет контроль",
+   "object": "normokontrol-pd",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t417",
+   "subject": "normokontroler",
+   "predicate": "выполняет контроль",
+   "object": "normokontrol-aosr",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t418",
+   "subject": "inzhener-tehnadzora",
+   "predicate": "выполняет контроль",
+   "object": "stroitelnyy-kontrol",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t419",
+   "subject": "rukovoditel-stroitelnogo-kontrolya",
+   "predicate": "выполняет контроль",
+   "object": "proverka-sertifikatov-materialov",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t420",
+   "subject": "ooo-stroyvektor",
+   "predicate": "включает роль",
+   "object": "rukovoditel-stroitelnogo-kontrolya",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t421",
+   "subject": "ooo-stroyvektor",
+   "predicate": "включает роль",
+   "object": "specialist-po-pdn",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t422",
+   "subject": "ooo-geoproekt",
+   "predicate": "включает роль",
+   "object": "gip",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t423",
+   "subject": "ooo-geoproekt",
+   "predicate": "включает роль",
+   "object": "normokontroler",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t424",
+   "subject": "gku-uks-stolica",
+   "predicate": "включает роль",
+   "object": "inzhener-tehnadzora",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t425",
+   "subject": "ooo-stroyvektor",
+   "predicate": "участвует в проекте",
+   "object": "zhk-severnyy-park",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t426",
+   "subject": "gku-uks-stolica",
+   "predicate": "участвует в проекте",
+   "object": "zhk-severnyy-park",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t427",
+   "subject": "ooo-geoproekt",
+   "predicate": "участвует в проекте",
+   "object": "zhk-severnyy-park",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t428",
+   "subject": "ooo-fundamentstroy",
+   "predicate": "участвует в проекте",
+   "object": "zhk-severnyy-park",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t429",
+   "subject": "ooo-metalltorg",
+   "predicate": "участвует в проекте",
+   "object": "zhk-severnyy-park",
+   "sourceId": "hr",
+   "sourceName": "HR-система и матрица ответственности",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-05"
+  },
+  {
+   "id": "t430",
+   "subject": "zhk-severnyy-park",
+   "predicate": "включает этап",
+   "object": "etap-proektirovaniya",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t431",
+   "subject": "zhk-severnyy-park",
+   "predicate": "включает этап",
+   "object": "etap-stroitelno-montazhnyh-rabot",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t432",
+   "subject": "zhk-severnyy-park",
+   "predicate": "включает этап",
+   "object": "etap-vvoda-v-ekspluataciyu",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t433",
+   "subject": "zhk-severnyy-park",
+   "predicate": "включает объект",
+   "object": "korpus-1-zhk-severnyy-park",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t434",
+   "subject": "korpus-1-zhk-severnyy-park",
+   "predicate": "включает объект",
+   "object": "fundamentnaya-plita-korpusa-1",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t435",
+   "subject": "korpus-1-zhk-severnyy-park",
+   "predicate": "включает объект",
+   "object": "krovlya-korpusa-1",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t436",
+   "subject": "etap-proektirovaniya",
+   "predicate": "сопровождается документом",
+   "object": "pd-severnyy-park-korpus-1",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t437",
+   "subject": "etap-proektirovaniya",
+   "predicate": "сопровождается документом",
+   "object": "polozhitelnoe-zaklyuchenie-ekspertizy",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t438",
+   "subject": "etap-stroitelno-montazhnyh-rabot",
+   "predicate": "сопровождается документом",
+   "object": "aosr-114",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t439",
+   "subject": "etap-stroitelno-montazhnyh-rabot",
+   "predicate": "сопровождается документом",
+   "object": "obschiy-zhurnal-rabot",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t440",
+   "subject": "etap-vvoda-v-ekspluataciyu",
+   "predicate": "сопровождается документом",
+   "object": "reestr-ispolnitelnoy-dokumentacii",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t441",
+   "subject": "korpus-1-zhk-severnyy-park",
+   "predicate": "требует разрешения",
+   "object": "razreshenie-na-stroitelstvo-77-i-2026",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t442",
+   "subject": "korpus-1-zhk-severnyy-park",
+   "predicate": "требует разрешения",
+   "object": "gradostroitelnyy-plan-zemelnogo-uchastka",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t443",
+   "subject": "korpus-1-zhk-severnyy-park",
+   "predicate": "требует экспертизы",
+   "object": "gosudarstvennaya-ekspertiza-pd",
+   "sourceId": "expert",
+   "sourceName": "ЕГРЗ / государственная экспертиза",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t444",
+   "subject": "fundamentnaya-plita-korpusa-1",
+   "predicate": "требует экспертизы",
+   "object": "ekspertiza-promyshlennoy-bezopasnosti",
+   "sourceId": "expert",
+   "sourceName": "ЕГРЗ / государственная экспертиза",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t445",
+   "subject": "risk-otkaza-vo-vvode-obekta",
+   "predicate": "оценивается в",
+   "object": "ocenka-vliyaniya-izmeneniya-sp-112",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр строительных рисков",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-11"
+  },
+  {
+   "id": "t446",
+   "subject": "risk-primeneniya-nesertificirovannogo-materiala",
+   "predicate": "оценивается в",
+   "object": "ocenka-vliyaniya-otzyva-sertifikata",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр строительных рисков",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-11"
+  },
+  {
+   "id": "t447",
+   "subject": "risk-shtrafa-za-narushenie-pozharnoy-bezopasnosti",
+   "predicate": "оценивается в",
+   "object": "ocenka-vliyaniya-izmeneniya-sp-112",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр строительных рисков",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-11"
+  },
+  {
+   "id": "t448",
+   "subject": "ocenka-vliyaniya-izmeneniya-sp-112",
+   "predicate": "оценивает объект",
+   "object": "korpus-1-zhk-severnyy-park",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t449",
+   "subject": "ocenka-vliyaniya-otzyva-sertifikata",
+   "predicate": "оценивает объект",
+   "object": "fundamentnaya-plita-korpusa-1",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t450",
+   "subject": "ocenka-vliyaniya-izmeneniya-sp-112",
+   "predicate": "оценивает документ",
+   "object": "razdel-pd-pozharnaya-bezopasnost",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t451",
+   "subject": "ocenka-vliyaniya-otzyva-sertifikata",
+   "predicate": "оценивает документ",
+   "object": "sertifikat-na-armaturu-a500s",
+   "sourceId": "audit",
+   "sourceName": "Внутренний аудит и строительный контроль",
+   "sourceType": "Отчёт",
+   "updatedAt": "2026-09-09"
+  },
+  {
+   "id": "t452",
+   "subject": "shtraf-po-koap-500-tys",
+   "predicate": "влияет на проект",
+   "object": "zhk-severnyy-park",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр строительных рисков",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-11"
+  },
+  {
+   "id": "t453",
+   "subject": "priostanovka-razresheniya-na-stroitelstvo",
+   "predicate": "влияет на проект",
+   "object": "zhk-severnyy-park",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр строительных рисков",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-11"
+  },
+  {
+   "id": "t454",
+   "subject": "avariya-na-obekte",
+   "predicate": "влияет на проект",
+   "object": "zhk-severnyy-park",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр строительных рисков",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-11"
+  },
+  {
+   "id": "t455",
+   "subject": "shtraf-po-koap-500-tys",
+   "predicate": "влияет на организацию",
+   "object": "ooo-stroyvektor",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр строительных рисков",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-11"
+  },
+  {
+   "id": "t456",
+   "subject": "priostanovka-razresheniya-na-stroitelstvo",
+   "predicate": "влияет на организацию",
+   "object": "ooo-stroyvektor",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр строительных рисков",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-11"
+  },
+  {
+   "id": "t457",
+   "subject": "avariya-na-obekte",
+   "predicate": "влияет на организацию",
+   "object": "ooo-fundamentstroy",
+   "sourceId": "riskreg",
+   "sourceName": "Реестр строительных рисков",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-11"
+  },
+  {
+   "id": "t458",
+   "subject": "izmenenie-sp-112-13330-2026",
+   "predicate": "затрагивает требование",
+   "object": "trebovanie-pozharnoy-bezopasnosti",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t459",
+   "subject": "novoe-trebovanie-k-mashinochitaemomu-formatu-aosr",
+   "predicate": "затрагивает требование",
+   "object": "trebovanie-k-oformleniyu-dokumentacii",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t460",
+   "subject": "izmenenie-sp-112-13330-2026",
+   "predicate": "затрагивает документ",
+   "object": "razdel-pd-pozharnaya-bezopasnost",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t461",
+   "subject": "novoe-trebovanie-k-mashinochitaemomu-formatu-aosr",
+   "predicate": "затрагивает документ",
+   "object": "aosr-114",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t462",
+   "subject": "novoe-trebovanie-k-mashinochitaemomu-formatu-aosr",
+   "predicate": "затрагивает документ",
+   "object": "reestr-ispolnitelnoy-dokumentacii",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t463",
+   "subject": "izmenenie-sp-112-13330-2026",
+   "predicate": "затрагивает процесс",
+   "object": "prohozhdenie-gosekspertizy",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t464",
+   "subject": "novoe-trebovanie-k-mashinochitaemomu-formatu-aosr",
+   "predicate": "затрагивает процесс",
+   "object": "osvidetelstvovanie-skrytyh-rabot",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t465",
+   "subject": "novoe-trebovanie-k-mashinochitaemomu-formatu-aosr",
+   "predicate": "затрагивает правило",
+   "object": "pravilo-obyazatelnyh-rekvizitov-aosr",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t466",
+   "subject": "izmenenie-sp-112-13330-2026",
+   "predicate": "затрагивает правило",
+   "object": "pravilo-polnoty-razdelov-pd",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t467",
+   "subject": "izmenenie-sp-112-13330-2026",
+   "predicate": "инициировано регулятором",
+   "object": "minstroy-rossii",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t468",
+   "subject": "novoe-trebovanie-k-mashinochitaemomu-formatu-aosr",
+   "predicate": "инициировано регулятором",
+   "object": "minstroy-rossii",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t469",
+   "subject": "zapros-na-izmenenie-izm-3",
+   "predicate": "изменяет документ",
+   "object": "razdel-pd-konstruktivnye-resheniya",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t470",
+   "subject": "zapros-na-izmenenie-izm-4",
+   "predicate": "изменяет документ",
+   "object": "razdel-pd-pozharnaya-bezopasnost",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t471",
+   "subject": "zapros-na-izmenenie-izm-3",
+   "predicate": "вызван изменением",
+   "object": "izmenenie-sp-112-13330-2026",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t472",
+   "subject": "zapros-na-izmenenie-izm-4",
+   "predicate": "вызван изменением",
+   "object": "novoe-trebovanie-k-mashinochitaemomu-formatu-aosr",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t473",
+   "subject": "zapros-na-izmenenie-izm-3",
+   "predicate": "согласуется ролью",
+   "object": "gip",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t474",
+   "subject": "zapros-na-izmenenie-izm-4",
+   "predicate": "согласуется ролью",
+   "object": "gip",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t475",
+   "subject": "incident-prosrochennyy-sertifikat-betona",
+   "predicate": "затрагивает объект",
+   "object": "fundamentnaya-plita-korpusa-1",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t476",
+   "subject": "incident-zamechanie-ekspertizy",
+   "predicate": "затрагивает объект",
+   "object": "korpus-1-zhk-severnyy-park",
+   "sourceId": "sed",
+   "sourceName": "СЭД «СтройДок» (карточки документов)",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-14"
+  },
+  {
+   "id": "t477",
+   "subject": "incident-prosrochennyy-sertifikat-betona",
+   "predicate": "затрагивает документ",
+   "object": "sertifikat-na-beton-b25",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t478",
+   "subject": "incident-zamechanie-ekspertizy",
+   "predicate": "затрагивает документ",
+   "object": "razdel-pd-pozharnaya-bezopasnost",
+   "sourceId": "regchanges",
+   "sourceName": "Мониторинг изменений законодательства",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t479",
+   "subject": "incident-prosrochennyy-sertifikat-betona",
+   "predicate": "влечёт проверку",
+   "object": "proverka-gosstroynadzora-gsn-2026-04",
+   "sourceId": "gsn",
+   "sourceName": "Единый реестр проверок Госстройнадзора",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-12"
+  },
+  {
+   "id": "t480",
+   "subject": "incident-zamechanie-ekspertizy",
+   "predicate": "влечёт проверку",
+   "object": "proverka-rostehnadzora-rtn-11",
+   "sourceId": "gsn",
+   "sourceName": "Единый реестр проверок Госстройнадзора",
+   "sourceType": "ИС",
+   "updatedAt": "2026-09-12"
+  },
+  {
+   "id": "t481",
+   "subject": "reshenie-o-dorabotke-razdela-pb",
+   "predicate": "касается нарушения",
+   "object": "narushenie-trebovaniya-pozharnoy-bezopasnosti",
+   "sourceId": "decisions",
+   "sourceName": "Журнал решений по соответствию",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t482",
+   "subject": "reshenie-o-zamene-postavschika",
+   "predicate": "касается нарушения",
+   "object": "narushenie-sroka-peredachi-id",
+   "sourceId": "decisions",
+   "sourceName": "Журнал решений по соответствию",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t483",
+   "subject": "reshenie-prinyat-risk-po-otstupleniyu",
+   "predicate": "касается нарушения",
+   "object": "narushenie-sostava-razdelov-pd",
+   "sourceId": "decisions",
+   "sourceName": "Журнал решений по соответствию",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t484",
+   "subject": "reshenie-o-dorabotke-razdela-pb",
+   "predicate": "выбирает действие",
+   "object": "dorabotat-razdel-pozharnoy-bezopasnosti",
+   "sourceId": "decisions",
+   "sourceName": "Журнал решений по соответствию",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t485",
+   "subject": "reshenie-prinyat-risk-po-otstupleniyu",
+   "predicate": "принимает риск",
+   "object": "risk-otkaza-vo-vvode-obekta",
+   "sourceId": "decisions",
+   "sourceName": "Журнал решений по соответствию",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t486",
+   "subject": "reshenie-o-dorabotke-razdela-pb",
+   "predicate": "принято ролью",
+   "object": "gip",
+   "sourceId": "decisions",
+   "sourceName": "Журнал решений по соответствию",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t487",
+   "subject": "reshenie-o-zamene-postavschika",
+   "predicate": "принято ролью",
+   "object": "rukovoditel-stroitelnogo-kontrolya",
+   "sourceId": "decisions",
+   "sourceName": "Журнал решений по соответствию",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-16"
+  },
+  {
+   "id": "t488",
+   "subject": "reshenie-prinyat-risk-po-otstupleniyu",
+   "predicate": "принято ролью",
+   "object": "gip",
+   "sourceId": "decisions",
+   "sourceName": "Журнал решений по соответствию",
+   "sourceType": "Журнал",
+   "updatedAt": "2026-09-16"
+  }
+ ]
+}

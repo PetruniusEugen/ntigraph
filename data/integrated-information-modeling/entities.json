@@ -1,0 +1,886 @@
+{
+ "entities": [
+  {
+   "id": "aksiologicheskiy-rezhim",
+   "label": "Аксиологический режим",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "aktiv-val-nasosa",
+   "label": "Актив «Вал насоса»",
+   "classCode": "PhysicalAsset"
+  },
+  {
+   "id": "aktiv-vyklyuchatel-qf1",
+   "label": "Актив «Выключатель QF1»",
+   "classCode": "PhysicalAsset"
+  },
+  {
+   "id": "aktiv-dvigatel-m1",
+   "label": "Актив «Двигатель M1»",
+   "classCode": "PhysicalAsset"
+  },
+  {
+   "id": "aktiv-nasosnyy-agregat-na-1",
+   "label": "Актив «Насосный агрегат НА-1»",
+   "classCode": "PhysicalAsset"
+  },
+  {
+   "id": "aktiv-shkaf-upravleniya",
+   "label": "Актив «Шкаф управления»",
+   "classCode": "PhysicalAsset"
+  },
+  {
+   "id": "aleticheskiy-rezhim",
+   "label": "Алетический режим",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "class-bazovaya-konfiguraciya",
+   "label": "Базовая конфигурация",
+   "classCode": "Baseline",
+   "isClass": true
+  },
+  {
+   "id": "bazovaya-konfiguraciya-nasosnaya-stanciya-reviziya-b",
+   "label": "Базовая конфигурация «Насосная станция, ревизия B»",
+   "classCode": "Baseline"
+  },
+  {
+   "id": "class-versiya",
+   "label": "Версия",
+   "classCode": "Version",
+   "isClass": true
+  },
+  {
+   "id": "versiya-cad-2-1",
+   "label": "Версия «CAD 2.1»",
+   "classCode": "Version"
+  },
+  {
+   "id": "versiya-cad-2-2",
+   "label": "Версия «CAD 2.2»",
+   "classCode": "Version"
+  },
+  {
+   "id": "versiya-ea-1-4",
+   "label": "Версия «EA 1.4»",
+   "classCode": "Version"
+  },
+  {
+   "id": "versiya-fsm-1-0",
+   "label": "Версия «FSM 1.0»",
+   "classCode": "Version"
+  },
+  {
+   "id": "vid-3d-sborka-nasosnogo-agregata",
+   "label": "Вид «3D-сборка насосного агрегата»",
+   "classCode": "ModelView"
+  },
+  {
+   "id": "vid-shema-obsluzhivaniya",
+   "label": "Вид «Схема обслуживания»",
+   "classCode": "ModelView"
+  },
+  {
+   "id": "vid-shema-sostoyaniy",
+   "label": "Вид «Схема состояний»",
+   "classCode": "ModelView"
+  },
+  {
+   "id": "vopros-kakie-modeli-predstavlyayut-sistemu",
+   "label": "Вопрос «Какие модели представляют систему?»",
+   "classCode": "CompetencyQuestion"
+  },
+  {
+   "id": "class-vopros-kompetencii",
+   "label": "Вопрос компетенции",
+   "classCode": "CompetencyQuestion",
+   "isClass": true
+  },
+  {
+   "id": "dvigatel-m1",
+   "label": "Двигатель «M1»",
+   "classCode": "ModelElement"
+  },
+  {
+   "id": "dvoynik-cifrovoy-dvoynik-nasosnogo-agregata-na-1",
+   "label": "Двойник «Цифровой двойник насосного агрегата НА-1»",
+   "classCode": "DigitalTwin"
+  },
+  {
+   "id": "deonticheskiy-rezhim",
+   "label": "Деонтический режим",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "detal-val",
+   "label": "Деталь «Вал»",
+   "classCode": "ModelElement"
+  },
+  {
+   "id": "edinica-kvt",
+   "label": "Единица «кВт»",
+   "classCode": "UnitOfMeasure"
+  },
+  {
+   "id": "edinica-mm",
+   "label": "Единица «мм»",
+   "classCode": "UnitOfMeasure"
+  },
+  {
+   "id": "edinica-mm-s",
+   "label": "Единица «мм/с»",
+   "classCode": "UnitOfMeasure"
+  },
+  {
+   "id": "class-edinica-izmereniya",
+   "label": "Единица измерения",
+   "classCode": "UnitOfMeasure",
+   "isClass": true
+  },
+  {
+   "id": "zadacha-osmotret-nasos",
+   "label": "Задача «Осмотреть насос»",
+   "classCode": "ModelElement"
+  },
+  {
+   "id": "class-zainteresovannaya-storona",
+   "label": "Заинтересованная сторона",
+   "classCode": "Stakeholder",
+   "isClass": true
+  },
+  {
+   "id": "zapros-dobavit-datchik-vibracii",
+   "label": "Запрос «Добавить датчик вибрации»",
+   "classCode": "ChangeRequest"
+  },
+  {
+   "id": "zapros-dobavit-qf1-v-cad-sborku",
+   "label": "Запрос «Добавить QF1 в CAD-сборку»",
+   "classCode": "ChangeRequest"
+  },
+  {
+   "id": "class-zapros-na-izmenenie",
+   "label": "Запрос на изменение",
+   "classCode": "ChangeRequest",
+   "isClass": true
+  },
+  {
+   "id": "instrument-kontur-elektro",
+   "label": "Инструмент «Контур Электро»",
+   "classCode": "ModelingTool"
+  },
+  {
+   "id": "instrument-kontur-bpmn",
+   "label": "Инструмент «Контур BPMN»",
+   "classCode": "ModelingTool"
+  },
+  {
+   "id": "instrument-kontur-cad",
+   "label": "Инструмент «Контур CAD»",
+   "classCode": "ModelingTool"
+  },
+  {
+   "id": "instrument-kontur-cae",
+   "label": "Инструмент «Контур CAE»",
+   "classCode": "ModelingTool"
+  },
+  {
+   "id": "instrument-kontur-ea",
+   "label": "Инструмент «Контур EA»",
+   "classCode": "ModelingTool"
+  },
+  {
+   "id": "instrument-kontur-fsm",
+   "label": "Инструмент «Контур FSM»",
+   "classCode": "ModelingTool"
+  },
+  {
+   "id": "class-instrument-modelirovaniya",
+   "label": "Инструмент моделирования",
+   "classCode": "ModelingTool",
+   "isClass": true
+  },
+  {
+   "id": "class-integrirovannaya-sreda-modelirovaniya",
+   "label": "Интегрированная среда моделирования",
+   "classCode": "IntegratedModelingSystem",
+   "isClass": true
+  },
+  {
+   "id": "interfeys-import-reqif",
+   "label": "Интерфейс «Импорт ReqIF»",
+   "classCode": "SpecializedInterface"
+  },
+  {
+   "id": "interfeys-obmen-step-faylami",
+   "label": "Интерфейс «Обмен STEP-файлами»",
+   "classCode": "SpecializedInterface"
+  },
+  {
+   "id": "interfeys-plagin-raschetnogo-reshatelya",
+   "label": "Интерфейс «Плагин расчётного решателя»",
+   "classCode": "SpecializedInterface"
+  },
+  {
+   "id": "interfeys-sobytiynaya-shina",
+   "label": "Интерфейс «Событийная шина»",
+   "classCode": "SpecializedInterface"
+  },
+  {
+   "id": "interfeys-rest-api",
+   "label": "Интерфейс «REST API»",
+   "classCode": "SpecializedInterface"
+  },
+  {
+   "id": "komponent-qf1",
+   "label": "Компонент «QF1»",
+   "classCode": "ModelElement"
+  },
+  {
+   "id": "class-metamodel",
+   "label": "Метамодель",
+   "classCode": "Metamodel",
+   "isClass": true
+  },
+  {
+   "id": "metamodel-konechnye-avtomaty",
+   "label": "Метамодель «Конечные автоматы»",
+   "classCode": "Metamodel"
+  },
+  {
+   "id": "metamodel-elektricheskie-shemy",
+   "label": "Метамодель «Электрические схемы»",
+   "classCode": "Metamodel"
+  },
+  {
+   "id": "metamodel-archimate-3-2",
+   "label": "Метамодель «ArchiMate 3.2»",
+   "classCode": "Metamodel"
+  },
+  {
+   "id": "metamodel-bpmn-2-0",
+   "label": "Метамодель «BPMN 2.0»",
+   "classCode": "Metamodel"
+  },
+  {
+   "id": "metamodel-step-ap242",
+   "label": "Метамодель «STEP AP242»",
+   "classCode": "Metamodel"
+  },
+  {
+   "id": "metod-konechnye-avtomaty",
+   "label": "Метод «Конечные автоматы»",
+   "classCode": "ModelingMethod"
+  },
+  {
+   "id": "metod-upravlenie-federaciey-modeley",
+   "label": "Метод «Управление федерацией моделей»",
+   "classCode": "ModelingMethod"
+  },
+  {
+   "id": "metod-elektricheskie-shemy",
+   "label": "Метод «Электрические схемы»",
+   "classCode": "ModelingMethod"
+  },
+  {
+   "id": "metod-bpmn",
+   "label": "Метод «BPMN»",
+   "classCode": "ModelingMethod"
+  },
+  {
+   "id": "metod-cad",
+   "label": "Метод «CAD»",
+   "classCode": "ModelingMethod"
+  },
+  {
+   "id": "metod-cae",
+   "label": "Метод «CAE»",
+   "classCode": "ModelingMethod"
+  },
+  {
+   "id": "metod-enterprise-architecture",
+   "label": "Метод «Enterprise Architecture»",
+   "classCode": "ModelingMethod"
+  },
+  {
+   "id": "class-metod-modelirovaniya",
+   "label": "Метод моделирования",
+   "classCode": "ModelingMethod",
+   "isClass": true
+  },
+  {
+   "id": "class-modalnoe-utverzhdenie",
+   "label": "Модальное утверждение",
+   "classCode": "ModalStatement",
+   "isClass": true
+  },
+  {
+   "id": "class-modalnyy-rezhim",
+   "label": "Модальный режим",
+   "classCode": "ModalMode",
+   "isClass": true
+  },
+  {
+   "id": "class-modeliruemaya-sistema",
+   "label": "Моделируемая система",
+   "classCode": "SystemUnderStudy",
+   "isClass": true
+  },
+  {
+   "id": "class-model",
+   "label": "Модель",
+   "classCode": "Model",
+   "isClass": true
+  },
+  {
+   "id": "model-graf-dostizhimosti-sostoyaniy",
+   "label": "Модель «Граф достижимости состояний»",
+   "classCode": "Model"
+  },
+  {
+   "id": "model-trebovaniya-nasosnaya-stanciya",
+   "label": "Модель «Требования: Насосная станция»",
+   "classCode": "Model"
+  },
+  {
+   "id": "model-elektricheskaya-shema-shkaf-upravleniya",
+   "label": "Модель «Электрическая схема: Шкаф управления»",
+   "classCode": "Model"
+  },
+  {
+   "id": "model-bpmn-obsluzhivanie-nasosnoy-stancii",
+   "label": "Модель «BPMN: Обслуживание насосной станции»",
+   "classCode": "Model"
+  },
+  {
+   "id": "model-cad-sborka-nasosnogo-agregata",
+   "label": "Модель «CAD: Сборка насосного агрегата»",
+   "classCode": "Model"
+  },
+  {
+   "id": "model-cae-raschety-nasosnogo-agregata",
+   "label": "Модель «CAE: Расчёты насосного агрегата»",
+   "classCode": "Model"
+  },
+  {
+   "id": "model-ea-nasosnaya-stanciya",
+   "label": "Модель «EA: Насосная станция»",
+   "classCode": "Model"
+  },
+  {
+   "id": "model-fsm-rezhimy-nasosnoy-stancii",
+   "label": "Модель «FSM: Режимы насосной станции»",
+   "classCode": "Model"
+  },
+  {
+   "id": "nahodka-iz-avarii-net-perehoda-v-bezopasnoe-sostoyanie",
+   "label": "Находка «Из аварии нет перехода в безопасное состояние»",
+   "classCode": "ConsistencyFinding"
+  },
+  {
+   "id": "nahodka-qf1-otsutstvuet-v-cad-sborke",
+   "label": "Находка «QF1 отсутствует в CAD-сборке»",
+   "classCode": "ConsistencyFinding"
+  },
+  {
+   "id": "class-nahodka-proverki",
+   "label": "Находка проверки",
+   "classCode": "ConsistencyFinding",
+   "isClass": true
+  },
+  {
+   "id": "nit-cifrovaya-nit-nasosnoy-stancii",
+   "label": "Нить «Цифровая нить насосной станции»",
+   "classCode": "DigitalThread"
+  },
+  {
+   "id": "class-ogranichenie",
+   "label": "Ограничение",
+   "classCode": "Constraint",
+   "isClass": true
+  },
+  {
+   "id": "ogranichenie-vibraciya-ne-bolee-4-5-mm-s",
+   "label": "Ограничение «Вибрация не более 4,5 мм/с»",
+   "classCode": "Constraint"
+  },
+  {
+   "id": "parametr-vibroskorost",
+   "label": "Параметр «Виброскорость»",
+   "classCode": "ModelParameter"
+  },
+  {
+   "id": "parametr-diametr-vala",
+   "label": "Параметр «Диаметр вала»",
+   "classCode": "ModelParameter"
+  },
+  {
+   "id": "parametr-moschnost-dvigatelya",
+   "label": "Параметр «Мощность двигателя»",
+   "classCode": "ModelParameter"
+  },
+  {
+   "id": "class-parametr-modeli",
+   "label": "Параметр модели",
+   "classCode": "ModelParameter",
+   "isClass": true
+  },
+  {
+   "id": "perehod-rabota-avariya",
+   "label": "Переход «Работа → Авария»",
+   "classCode": "ModelElement"
+  },
+  {
+   "id": "perehod-rabota-bezopasnaya-ostanovka",
+   "label": "Переход «Работа → Безопасная остановка»",
+   "classCode": "ModelElement"
+  },
+  {
+   "id": "pravilo-kazhdoe-sostoyanie-imeet-put-v-bezopasnoe-sostoyanie",
+   "label": "Правило «Каждое состояние имеет путь в безопасное состояние»",
+   "classCode": "ValidationRule"
+  },
+  {
+   "id": "pravilo-komponent-shemy-prisutstvuet-v-cad-sborke",
+   "label": "Правило «Компонент схемы присутствует в CAD-сборке»",
+   "classCode": "ValidationRule"
+  },
+  {
+   "id": "pravilo-trebovanie-imeet-proslezhivaemost",
+   "label": "Правило «Требование имеет прослеживаемость»",
+   "classCode": "ValidationRule"
+  },
+  {
+   "id": "class-pravilo-proverki",
+   "label": "Правило проверки",
+   "classCode": "ValidationRule",
+   "isClass": true
+  },
+  {
+   "id": "class-predstavlenie-modeli",
+   "label": "Представление модели",
+   "classCode": "ModelView",
+   "isClass": true
+  },
+  {
+   "id": "preobrazovanie-elektricheskaya-shema-cad",
+   "label": "Преобразование «Электрическая схема → CAD»",
+   "classCode": "ModelTransformation"
+  },
+  {
+   "id": "preobrazovanie-bpmn-ea",
+   "label": "Преобразование «BPMN → EA»",
+   "classCode": "ModelTransformation"
+  },
+  {
+   "id": "preobrazovanie-cad-cae",
+   "label": "Преобразование «CAD → CAE»",
+   "classCode": "ModelTransformation"
+  },
+  {
+   "id": "preobrazovanie-fsm-graf-dostizhimosti",
+   "label": "Преобразование «FSM → Граф достижимости»",
+   "classCode": "ModelTransformation"
+  },
+  {
+   "id": "class-preobrazovanie-modeli",
+   "label": "Преобразование модели",
+   "classCode": "ModelTransformation",
+   "isClass": true
+  },
+  {
+   "id": "raschet-vibraciya-nasosnogo-agregata",
+   "label": "Расчёт «Вибрация насосного агрегата»",
+   "classCode": "ModelElement"
+  },
+  {
+   "id": "raschet-prochnost-vala",
+   "label": "Расчёт «Прочность вала»",
+   "classCode": "ModelElement"
+  },
+  {
+   "id": "rezultat-vibraciya-progon-1",
+   "label": "Результат «Вибрация, прогон 1»",
+   "classCode": "SimulationResult"
+  },
+  {
+   "id": "rezultat-proverka-dostizhimosti-bezopasnogo-sostoyaniya",
+   "label": "Результат «Проверка достижимости безопасного состояния»",
+   "classCode": "SimulationResult"
+  },
+  {
+   "id": "rezultat-prochnost-vala-progon-1",
+   "label": "Результат «Прочность вала, прогон 1»",
+   "classCode": "SimulationResult"
+  },
+  {
+   "id": "class-rezultat-rascheta",
+   "label": "Результат расчёта",
+   "classCode": "SimulationResult",
+   "isClass": true
+  },
+  {
+   "id": "svyaz-avariya-qf1",
+   "label": "Связь «Авария → QF1»",
+   "classCode": "TraceLink"
+  },
+  {
+   "id": "svyaz-osmotr-val",
+   "label": "Связь «Осмотр → Вал»",
+   "classCode": "TraceLink"
+  },
+  {
+   "id": "svyaz-raschet-prochnosti-val",
+   "label": "Связь «Расчёт прочности → Вал»",
+   "classCode": "TraceLink"
+  },
+  {
+   "id": "class-svyaz-proslezhivaemosti",
+   "label": "Связь прослеживаемости",
+   "classCode": "TraceLink",
+   "isClass": true
+  },
+  {
+   "id": "class-semanticheskoe-sootvetstvie",
+   "label": "Семантическое соответствие",
+   "classCode": "SemanticMapping",
+   "isClass": true
+  },
+  {
+   "id": "sistema-nasosnaya-stanciya",
+   "label": "Система «Насосная станция»",
+   "classCode": "SystemUnderStudy"
+  },
+  {
+   "id": "soedinenie-qf1-m1",
+   "label": "Соединение «QF1 — M1»",
+   "classCode": "ModelElement"
+  },
+  {
+   "id": "sootvetstvie-elektricheskoe-soedinenie-cad-dvigatel",
+   "label": "Соответствие «Электрическое соединение → CAD двигатель»",
+   "classCode": "SemanticMapping"
+  },
+  {
+   "id": "sootvetstvie-bpmn-zadacha-ea-funkciya",
+   "label": "Соответствие «BPMN Задача → EA Функция»",
+   "classCode": "SemanticMapping"
+  },
+  {
+   "id": "sootvetstvie-cad-detal-cae-raschet",
+   "label": "Соответствие «CAD Деталь → CAE Расчёт»",
+   "classCode": "SemanticMapping"
+  },
+  {
+   "id": "sostoyanie-avariya",
+   "label": "Состояние «Авария»",
+   "classCode": "ModelElement"
+  },
+  {
+   "id": "sostoyanie-bezopasnaya-ostanovka",
+   "label": "Состояние «Безопасная остановка»",
+   "classCode": "ModelElement"
+  },
+  {
+   "id": "sostoyanie-rabota",
+   "label": "Состояние «Работа»",
+   "classCode": "ModelElement"
+  },
+  {
+   "id": "class-specializirovannyy-interfeys",
+   "label": "Специализированный интерфейс",
+   "classCode": "SpecializedInterface",
+   "isClass": true
+  },
+  {
+   "id": "sreda-kontur",
+   "label": "Среда «Контур»",
+   "classCode": "IntegratedModelingSystem"
+  },
+  {
+   "id": "steykholder-proektnyy-ofis",
+   "label": "Стейкхолдер «Проектный офис»",
+   "classCode": "Stakeholder"
+  },
+  {
+   "id": "steykholder-sluzhba-ekspluatacii",
+   "label": "Стейкхолдер «Служба эксплуатации»",
+   "classCode": "Stakeholder"
+  },
+  {
+   "id": "temporalnyy-rezhim",
+   "label": "Темпоральный режим",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "tip-biznes-funkciya",
+   "label": "Тип «Бизнес-функция»",
+   "classCode": "MetamodelElementType"
+  },
+  {
+   "id": "tip-detal",
+   "label": "Тип «Деталь»",
+   "classCode": "MetamodelElementType"
+  },
+  {
+   "id": "tip-zadacha",
+   "label": "Тип «Задача»",
+   "classCode": "MetamodelElementType"
+  },
+  {
+   "id": "tip-komponent-shemy",
+   "label": "Тип «Компонент схемы»",
+   "classCode": "MetamodelElementType"
+  },
+  {
+   "id": "tip-perehod",
+   "label": "Тип «Переход»",
+   "classCode": "MetamodelElementType"
+  },
+  {
+   "id": "tip-raschetnaya-model",
+   "label": "Тип «Расчётная модель»",
+   "classCode": "MetamodelElementType"
+  },
+  {
+   "id": "tip-soedinenie",
+   "label": "Тип «Соединение»",
+   "classCode": "MetamodelElementType"
+  },
+  {
+   "id": "tip-sostoyanie",
+   "label": "Тип «Состояние»",
+   "classCode": "MetamodelElementType"
+  },
+  {
+   "id": "tip-trebovanie",
+   "label": "Тип «Требование»",
+   "classCode": "MetamodelElementType"
+  },
+  {
+   "id": "class-tip-elementa-metamodeli",
+   "label": "Тип элемента метамодели",
+   "classCode": "MetamodelElementType",
+   "isClass": true
+  },
+  {
+   "id": "class-tochka-zreniya",
+   "label": "Точка зрения",
+   "classCode": "Viewpoint",
+   "isClass": true
+  },
+  {
+   "id": "tochka-zreniya-proektirovanie",
+   "label": "Точка зрения «Проектирование»",
+   "classCode": "Viewpoint"
+  },
+  {
+   "id": "tochka-zreniya-ekspluataciya",
+   "label": "Точка зрения «Эксплуатация»",
+   "classCode": "Viewpoint"
+  },
+  {
+   "id": "class-trebovanie",
+   "label": "Требование",
+   "classCode": "Requirement",
+   "isClass": true
+  },
+  {
+   "id": "trebovanie-bezopasnaya-ostanovka",
+   "label": "Требование «Безопасная остановка»",
+   "classCode": "Requirement"
+  },
+  {
+   "id": "trebovanie-planovyy-osmotr-vala",
+   "label": "Требование «Плановый осмотр вала»",
+   "classCode": "Requirement"
+  },
+  {
+   "id": "utverzhdenie-bez-puti-v-bezopasnoe-sostoyanie-avariya-nedopustima",
+   "label": "Утверждение «Без пути в безопасное состояние авария недопустима»",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-bezopasnaya-ostanovka-obyazatelna",
+   "label": "Утверждение «Безопасная остановка обязательна»",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-rabochaya-federaciya-deystvuet-do-revizii-c",
+   "label": "Утверждение «Рабочая федерация действует до ревизии C»",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-sootvetstvie-bpmn-ea-podtverzhdeno",
+   "label": "Утверждение «Соответствие BPMN → EA подтверждено»",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-federaciya-cenna-dlya-ekspluatacii",
+   "label": "Утверждение «Федерация ценна для эксплуатации»",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-qf1-dolzhen-byt-v-cad-sborke",
+   "label": "Утверждение «QF1 должен быть в CAD-сборке»",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "faza-validaciya",
+   "label": "Фаза «Валидация»",
+   "classCode": "LifecyclePhase"
+  },
+  {
+   "id": "faza-proektirovanie",
+   "label": "Фаза «Проектирование»",
+   "classCode": "LifecyclePhase"
+  },
+  {
+   "id": "faza-ekspluataciya",
+   "label": "Фаза «Эксплуатация»",
+   "classCode": "LifecyclePhase"
+  },
+  {
+   "id": "class-faza-zhiznennogo-cikla",
+   "label": "Фаза жизненного цикла",
+   "classCode": "LifecyclePhase",
+   "isClass": true
+  },
+  {
+   "id": "federaciya-nasosnaya-stanciya-rabochaya-federaciya",
+   "label": "Федерация «Насосная станция, рабочая федерация»",
+   "classCode": "ModelFederation"
+  },
+  {
+   "id": "class-federaciya-modeley",
+   "label": "Федерация моделей",
+   "classCode": "ModelFederation",
+   "isClass": true
+  },
+  {
+   "id": "class-fizicheskiy-aktiv",
+   "label": "Физический актив",
+   "classCode": "PhysicalAsset",
+   "isClass": true
+  },
+  {
+   "id": "format-json",
+   "label": "Формат «JSON»",
+   "classCode": "DataExchangeFormat"
+  },
+  {
+   "id": "format-reqif",
+   "label": "Формат «ReqIF»",
+   "classCode": "DataExchangeFormat"
+  },
+  {
+   "id": "format-step-ap242",
+   "label": "Формат «STEP AP242»",
+   "classCode": "DataExchangeFormat"
+  },
+  {
+   "id": "format-xmi",
+   "label": "Формат «XMI»",
+   "classCode": "DataExchangeFormat"
+  },
+  {
+   "id": "class-format-obmena-dannymi",
+   "label": "Формат обмена данными",
+   "classCode": "DataExchangeFormat",
+   "isClass": true
+  },
+  {
+   "id": "fragment-mehanicheskaya-podsistema",
+   "label": "Фрагмент «Механическая подсистема»",
+   "classCode": "ModelFragment"
+  },
+  {
+   "id": "fragment-sistema-upravleniya",
+   "label": "Фрагмент «Система управления»",
+   "classCode": "ModelFragment"
+  },
+  {
+   "id": "class-fragment-modeli",
+   "label": "Фрагмент модели",
+   "classCode": "ModelFragment",
+   "isClass": true
+  },
+  {
+   "id": "funkciya-ekspluataciya-nasosnoy-stancii",
+   "label": "Функция «Эксплуатация насосной станции»",
+   "classCode": "ModelElement"
+  },
+  {
+   "id": "hranilische-arhiv-bazovyh-konfiguraciy",
+   "label": "Хранилище «Архив базовых конфигураций»",
+   "classCode": "ModelRepository"
+  },
+  {
+   "id": "hranilische-repozitoriy-kontura",
+   "label": "Хранилище «Репозиторий Контура»",
+   "classCode": "ModelRepository"
+  },
+  {
+   "id": "class-hranilische-modeley",
+   "label": "Хранилище моделей",
+   "classCode": "ModelRepository",
+   "isClass": true
+  },
+  {
+   "id": "class-cifrovaya-nit",
+   "label": "Цифровая нить",
+   "classCode": "DigitalThread",
+   "isClass": true
+  },
+  {
+   "id": "class-cifrovoy-dvoynik",
+   "label": "Цифровой двойник",
+   "classCode": "DigitalTwin",
+   "isClass": true
+  },
+  {
+   "id": "class-element-modeli",
+   "label": "Элемент модели",
+   "classCode": "ModelElement",
+   "isClass": true
+  },
+  {
+   "id": "epistemicheskiy-rezhim",
+   "label": "Эпистемический режим",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "yazyk-konechnye-avtomaty-tablica-perehodov",
+   "label": "Язык «Конечные автоматы: таблица переходов»",
+   "classCode": "ModelingLanguage"
+  },
+  {
+   "id": "yazyk-archimate",
+   "label": "Язык «ArchiMate»",
+   "classCode": "ModelingLanguage"
+  },
+  {
+   "id": "yazyk-bpmn-2-0",
+   "label": "Язык «BPMN 2.0»",
+   "classCode": "ModelingLanguage"
+  },
+  {
+   "id": "yazyk-iec-60617",
+   "label": "Язык «IEC 60617»",
+   "classCode": "ModelingLanguage"
+  },
+  {
+   "id": "yazyk-step-ap242",
+   "label": "Язык «STEP AP242»",
+   "classCode": "ModelingLanguage"
+  },
+  {
+   "id": "class-yazyk-modelirovaniya",
+   "label": "Язык моделирования",
+   "classCode": "ModelingLanguage",
+   "isClass": true
+  }
+ ]
+}

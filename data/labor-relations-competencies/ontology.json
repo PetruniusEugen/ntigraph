@@ -1,0 +1,1278 @@
+{
+ "classes": [
+  {
+   "code": "Organization",
+   "name": "Организация",
+   "comment": "BFO: объект (independent continuant), коллективный носитель потребностей и обязательств. В трудовых отношениях выступает работодателем.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Наименование организации."
+    },
+    {
+     "code": "industry",
+     "name": "отрасль",
+     "type": "string",
+     "comment": "Основная отрасль деятельности."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LABOR",
+     "name": "Трудовые отношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Employee",
+   "name": "Работник",
+   "comment": "BFO: объект (independent continuant); человек в роли работника. Роль работника зависима от трудового договора и организации.",
+   "attributes": [
+    {
+     "code": "fullName",
+     "name": "ФИО",
+     "type": "string",
+     "comment": "Полное имя работника."
+    },
+    {
+     "code": "personnelNumber",
+     "name": "табельный номер",
+     "type": "string",
+     "comment": "Учётный номер работника."
+    },
+    {
+     "code": "hireDate",
+     "name": "дата приёма",
+     "type": "date",
+     "comment": "Дата начала работы в организации."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LABOR",
+     "name": "Трудовые отношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Profession",
+   "name": "Профессия",
+   "comment": "BFO: роль (role) — устойчивый тип трудовой роли. Профессия не совпадает с должностью и задаёт типовой набор компетенций.",
+   "attributes": [
+    {
+     "code": "family",
+     "name": "профессиональная область",
+     "type": "string",
+     "comment": "Группа родственных профессий."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LABOR",
+     "name": "Трудовые отношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Position",
+   "name": "Должность",
+   "comment": "BFO: роль, конкретизированная в штатном расписании организации. Одна профессия может быть основой для нескольких должностей.",
+   "attributes": [
+    {
+     "code": "title",
+     "name": "наименование должности",
+     "type": "string",
+     "comment": "Название должности в штатном расписании."
+    },
+    {
+     "code": "grade",
+     "name": "грейд",
+     "type": "string",
+     "comment": "Уровень должности в организации."
+    },
+    {
+     "code": "profileVersion",
+     "name": "версия профиля",
+     "type": "string",
+     "comment": "Версия профиля требований к должности."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LABOR",
+     "name": "Трудовые отношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "EmploymentContract",
+   "name": "Трудовой договор",
+   "comment": "BFO: ICE — документированное соглашение работника и работодателя, которое устанавливает трудовую функцию и должность.",
+   "attributes": [
+    {
+     "code": "contractNumber",
+     "name": "номер договора",
+     "type": "string",
+     "comment": "Идентификатор договора."
+    },
+    {
+     "code": "startDate",
+     "name": "дата начала",
+     "type": "date",
+     "comment": "Дата вступления договора в силу."
+    },
+    {
+     "code": "contractType",
+     "name": "тип договора",
+     "type": "string",
+     "comment": "Бессрочный или срочный."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LABOR",
+     "name": "Трудовые отношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ProfessionalStandard",
+   "name": "Профессиональный стандарт",
+   "comment": "BFO: ICE — документированный набор требований к профессии, который конкретизируется в профиле должности.",
+   "attributes": [
+    {
+     "code": "registryCode",
+     "name": "код в реестре",
+     "type": "string",
+     "comment": "Идентификатор стандарта."
+    },
+    {
+     "code": "scope",
+     "name": "область действия",
+     "type": "string",
+     "comment": "Профессии и виды деятельности, на которые распространяется стандарт."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LABOR",
+     "name": "Трудовые отношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LaborFunction",
+   "name": "Трудовая функция",
+   "comment": "BFO: процесс (occurrent), реализующий компетенции работника в конкретных условиях труда.",
+   "attributes": [
+    {
+     "code": "expectedOutcome",
+     "name": "ожидаемый результат",
+     "type": "string",
+     "comment": "Результат, которым завершается трудовая функция."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LABOR",
+     "name": "Трудовые отношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Competency",
+   "name": "Компетенция",
+   "comment": "BFO: сложная диспозиция (disposition), реализуемая в трудовой функции. Связывает знания, навыки и способности с условием применения.",
+   "attributes": [
+    {
+     "code": "level",
+     "name": "уровень",
+     "type": "string",
+     "comment": "Уровень владения компетенцией."
+    },
+    {
+     "code": "criticality",
+     "name": "критичность",
+     "type": "string",
+     "comment": "Критичность для трудовой функции: низкая, средняя, высокая."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "COMP",
+     "name": "Компетенции и ЗНС"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Knowledge",
+   "name": "Знание",
+   "comment": "BFO: диспозиция (disposition) к воспроизведению проверяемых сведений. При записи содержание знания становится ICE.",
+   "attributes": [
+    {
+     "code": "domain",
+     "name": "предметная область",
+     "type": "string",
+     "comment": "Область, к которой относится знание."
+    },
+    {
+     "code": "verificationMethod",
+     "name": "способ проверки",
+     "type": "string",
+     "comment": "Как подтверждается знание."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "COMP",
+     "name": "Компетенции и ЗНС"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Skill",
+   "name": "Навык",
+   "comment": "BFO: диспозиция (disposition), отработанная в повторяемом действии. Измеряется уровнем самостоятельности и качеством результата.",
+   "attributes": [
+    {
+     "code": "level",
+     "name": "уровень",
+     "type": "string",
+     "comment": "Уровень владения навыком."
+    },
+    {
+     "code": "assessmentMethod",
+     "name": "способ оценки",
+     "type": "string",
+     "comment": "Как оценивается навык."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "COMP",
+     "name": "Компетенции и ЗНС"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Ability",
+   "name": "Способность",
+   "comment": "BFO: диспозиция (disposition) — потенциал выполнять класс задач, в том числе в новых условиях.",
+   "attributes": [
+    {
+     "code": "kind",
+     "name": "вид",
+     "type": "string",
+     "comment": "Когнитивная, коммуникативная, организационная или иная способность."
+    },
+    {
+     "code": "evidenceRequired",
+     "name": "требуемое доказательство",
+     "type": "string",
+     "comment": "Чем подтверждается способность."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "COMP",
+     "name": "Компетенции и ЗНС"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "EmployerNeed",
+   "name": "Потребность работодателя",
+   "comment": "BFO: диспозиция организации, реализуемая в процессах подбора, развития и адаптации. Документируется как требование к компетенции.",
+   "attributes": [
+    {
+     "code": "urgency",
+     "name": "срочность",
+     "type": "string",
+     "comment": "Срочность удовлетворения потребности."
+    },
+    {
+     "code": "horizon",
+     "name": "горизонт",
+     "type": "string",
+     "comment": "Период, на который рассчитана потребность."
+    },
+    {
+     "code": "rationale",
+     "name": "основание",
+     "type": "string",
+     "comment": "Почему потребность возникла."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LABOR",
+     "name": "Трудовые отношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CompetencyRequirement",
+   "name": "Требование к компетенции",
+   "comment": "BFO: ICE (информационный артефакт), описывающий потребность работодателя в ЗНС. Имеет версию, источник и модальный статус.",
+   "attributes": [
+    {
+     "code": "targetLevel",
+     "name": "целевой уровень",
+     "type": "string",
+     "comment": "Требуемый уровень владения."
+    },
+    {
+     "code": "validFrom",
+     "name": "действует с",
+     "type": "date",
+     "comment": "Дата начала действия требования."
+    },
+    {
+     "code": "source",
+     "name": "источник",
+     "type": "string",
+     "comment": "Документ или роль, откуда взято требование."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LABOR",
+     "name": "Трудовые отношения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CompetencyGap",
+   "name": "Разрыв компетенций",
+   "comment": "BFO: качество (quality) — состояние несоответствия фактических ЗНС требованию. Не является записью о разрыве.",
+   "attributes": [
+    {
+     "code": "severity",
+     "name": "серьёзность",
+     "type": "string",
+     "comment": "Низкая, средняя или высокая."
+    },
+    {
+     "code": "detectedAt",
+     "name": "дата обнаружения",
+     "type": "date",
+     "comment": "Когда разрыв зафиксирован."
+    },
+    {
+     "code": "closureCriterion",
+     "name": "критерий закрытия",
+     "type": "string",
+     "comment": "Что должно быть достигнуто, чтобы разрыв считался закрытым."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ADAPT",
+     "name": "Адаптация и развитие"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Adaptation",
+   "name": "Адаптация работника",
+   "comment": "BFO: процесс (occurrent), направленный на закрытие разрыва и включение работника в трудовую функцию.",
+   "attributes": [
+    {
+     "code": "startDate",
+     "name": "дата начала",
+     "type": "date",
+     "comment": "Когда началась адаптация."
+    },
+    {
+     "code": "durationWeeks",
+     "name": "длительность, недель",
+     "type": "integer",
+     "comment": "Плановая длительность адаптации."
+    },
+    {
+     "code": "owner",
+     "name": "ответственный",
+     "type": "string",
+     "comment": "Роль, отвечающая за адаптацию."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ADAPT",
+     "name": "Адаптация и развитие"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TrainingAction",
+   "name": "Мера развития",
+   "comment": "BFO: процесс (occurrent) — обучение, наставничество, ротация или практика, развивающая конкретные ЗНС.",
+   "attributes": [
+    {
+     "code": "type",
+     "name": "тип меры",
+     "type": "string",
+     "comment": "Курс, наставничество, ротация, практика."
+    },
+    {
+     "code": "provider",
+     "name": "провайдер",
+     "type": "string",
+     "comment": "Кто проводит меру."
+    },
+    {
+     "code": "completionCriterion",
+     "name": "критерий завершения",
+     "type": "string",
+     "comment": "Что подтверждает завершение меры."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ADAPT",
+     "name": "Адаптация и развитие"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ZNSLifecycle",
+   "name": "Жизненный цикл ЗНС",
+   "comment": "BFO: процесс (occurrent) — стадии приобретения, применения, поддержания, устаревания и обновления ЗНС. Задаёт горизонт актуальности.",
+   "attributes": [
+    {
+     "code": "stage",
+     "name": "стадия",
+     "type": "string",
+     "comment": "Приобретение, применение, поддержание, устаревание, обновление."
+    },
+    {
+     "code": "reviewDate",
+     "name": "дата пересмотра",
+     "type": "date",
+     "comment": "Когда ЗНС нужно пересмотреть."
+    },
+    {
+     "code": "obsolescenceRisk",
+     "name": "риск устаревания",
+     "type": "string",
+     "comment": "Низкий, средний или высокий."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ADAPT",
+     "name": "Адаптация и развитие"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModalStatement",
+   "name": "Модальное утверждение",
+   "comment": "BFO: ICE; реифицирует утверждение о необходимости, обязанности, знании, ценности или времени. Поля: режим, пропозиция, агент, контекст, время, источник.",
+   "attributes": [
+    {
+     "code": "mode",
+     "name": "режим",
+     "type": "string",
+     "comment": "Алетический, деонтический, эпистемический, аксиологический или темпоральный."
+    },
+    {
+     "code": "proposition",
+     "name": "пропозиция",
+     "type": "string",
+     "comment": "Что именно утверждается."
+    },
+    {
+     "code": "agent",
+     "name": "агент",
+     "type": "string",
+     "comment": "Кто утверждает или для кого действует норма."
+    },
+    {
+     "code": "context",
+     "name": "контекст",
+     "type": "string",
+     "comment": "Где и в каких границах утверждение действует."
+    },
+    {
+     "code": "validFrom",
+     "name": "действует с",
+     "type": "date",
+     "comment": "Дата начала действия утверждения."
+    },
+    {
+     "code": "source",
+     "name": "источник",
+     "type": "string",
+     "comment": "Документ или роль — основание утверждения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальные квалификации"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModalMode",
+   "name": "Модальный режим",
+   "comment": "BFO: ICE — тип режима истинности утверждения: алетический, деонтический, эпистемический, аксиологический, темпоральный. Не является модальным утверждением.",
+   "attributes": [
+    {
+     "code": "operator",
+     "name": "оператор",
+     "type": "string",
+     "comment": "□/◇, O/P/F, K/B, ценностный или темпоральный оператор."
+    },
+    {
+     "code": "question",
+     "name": "вопрос режима",
+     "type": "string",
+     "comment": "Что проверяет режим: необходимость, обязанность, знание, ценность, время."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальные квалификации"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Evidence",
+   "name": "Доказательство компетенции",
+   "comment": "BFO: ICE — сертификат, результат работы, оценка или отзыв, подтверждающий ЗНС.",
+   "attributes": [
+    {
+     "code": "kind",
+     "name": "вид доказательства",
+     "type": "string",
+     "comment": "Сертификат, рабочая задача, оценка, отзыв."
+    },
+    {
+     "code": "issuedAt",
+     "name": "дата выдачи",
+     "type": "date",
+     "comment": "Когда доказательство получено."
+    },
+    {
+     "code": "issuer",
+     "name": "кто выдал",
+     "type": "string",
+     "comment": "Организация или роль, выдавшая доказательство."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "COMP",
+     "name": "Компетенции и ЗНС"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CompetencyPassport",
+   "name": "Паспорт компетенции",
+   "comment": "BFO: ICE, агрегирующий требования, фактические ЗНС, разрывы, модальные статусы и меры развития.",
+   "attributes": [
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Версия паспорта."
+    },
+    {
+     "code": "updatedAt",
+     "name": "дата обновления",
+     "type": "date",
+     "comment": "Когда паспорт обновлён."
+    },
+    {
+     "code": "owner",
+     "name": "владелец",
+     "type": "string",
+     "comment": "Кто отвечает за паспорт."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "COMP",
+     "name": "Компетенции и ЗНС"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CompetencyQuestion",
+   "name": "Вопрос компетенции",
+   "comment": "BFO: ICE — вопрос, на который должна ответить модель. Задаёт границы и критерий полноты.",
+   "attributes": [
+    {
+     "code": "question",
+     "name": "вопрос",
+     "type": "string",
+     "comment": "Текст вопроса."
+    },
+    {
+     "code": "priority",
+     "name": "приоритет",
+     "type": "string",
+     "comment": "Насколько вопрос важен для модели."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "COMP",
+     "name": "Компетенции и ЗНС"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LaborMarketSignal",
+   "name": "Сигнал рынка труда",
+   "comment": "BFO: ICE — наблюдаемое изменение требований, технологий или профессий, влияющее на потребность работодателя.",
+   "attributes": [
+    {
+     "code": "signalType",
+     "name": "тип сигнала",
+     "type": "string",
+     "comment": "Рост требований, появление технологии, изменение профессии."
+    },
+    {
+     "code": "observedAt",
+     "name": "дата наблюдения",
+     "type": "date",
+     "comment": "Когда сигнал зафиксирован."
+    },
+    {
+     "code": "source",
+     "name": "источник",
+     "type": "string",
+     "comment": "Откуда получен сигнал."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MARKET",
+     "name": "Рынок труда"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LaborMarketSnapshot",
+   "name": "Срез рынка труда",
+   "comment": "BFO: ICE — зафиксированная подборка вакансий за период с указанием региона, размера выборки и методики сбора. Задаёт границы, в которых посчитаны показатели востребованности.",
+   "attributes": [
+    {
+     "code": "period",
+     "name": "период",
+     "type": "string",
+     "comment": "Календарный период выборки."
+    },
+    {
+     "code": "region",
+     "name": "регион",
+     "type": "string",
+     "comment": "География выборки."
+    },
+    {
+     "code": "sampleSize",
+     "name": "размер выборки",
+     "type": "integer",
+     "comment": "Число открытых позиций в выборке."
+    },
+    {
+     "code": "vacancyGroups",
+     "name": "групп вакансий",
+     "type": "integer",
+     "comment": "Число групп схожих вакансий."
+    },
+    {
+     "code": "collectionMethod",
+     "name": "методика сбора",
+     "type": "string",
+     "comment": "Как отбирались вакансии и как считались требования."
+    },
+    {
+     "code": "dataStatus",
+     "name": "статус данных",
+     "type": "string",
+     "comment": "Демонстрационные, пилотные или проверенные данные."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MARKET",
+     "name": "Рынок труда"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Vacancy",
+   "name": "Вакансия",
+   "comment": "BFO: ICE — опубликованное предложение работы. В модели вакансия описывается как группа схожих объявлений с числом открытых позиций и набором требований.",
+   "attributes": [
+    {
+     "code": "title",
+     "name": "заголовок",
+     "type": "string",
+     "comment": "Название вакансии."
+    },
+    {
+     "code": "employer",
+     "name": "работодатель",
+     "type": "string",
+     "comment": "Организация, опубликовавшая вакансию."
+    },
+    {
+     "code": "region",
+     "name": "регион",
+     "type": "string",
+     "comment": "География вакансии."
+    },
+    {
+     "code": "publishedAt",
+     "name": "дата публикации",
+     "type": "date",
+     "comment": "Когда вакансия опубликована."
+    },
+    {
+     "code": "openings",
+     "name": "открытых позиций",
+     "type": "integer",
+     "comment": "Сколько позиций открыто по этой группе вакансий."
+    },
+    {
+     "code": "employmentType",
+     "name": "тип занятости",
+     "type": "string",
+     "comment": "Полная, частичная, проектная."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MARKET",
+     "name": "Рынок труда"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LaborMarketIndicator",
+   "name": "Показатель востребованности",
+   "comment": "BFO: ICE — вычисляемая величина, которая показывает, как часто требование встречается в выборке вакансий. Хранит значение, числитель, знаменатель, период и методику расчёта.",
+   "attributes": [
+    {
+     "code": "value",
+     "name": "значение",
+     "type": "number",
+     "comment": "Числовое значение показателя."
+    },
+    {
+     "code": "unit",
+     "name": "единица",
+     "type": "string",
+     "comment": "Процент, доля, число."
+    },
+    {
+     "code": "numerator",
+     "name": "числитель",
+     "type": "integer",
+     "comment": "Сколько позиций содержит требование."
+    },
+    {
+     "code": "denominator",
+     "name": "знаменатель",
+     "type": "integer",
+     "comment": "Сколько позиций в выборке."
+    },
+    {
+     "code": "period",
+     "name": "период",
+     "type": "string",
+     "comment": "Период, к которому относится показатель."
+    },
+    {
+     "code": "trend",
+     "name": "динамика",
+     "type": "string",
+     "comment": "Рост, стабильно или снижение."
+    },
+    {
+     "code": "method",
+     "name": "методика",
+     "type": "string",
+     "comment": "Как именно посчитан показатель."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MARKET",
+     "name": "Рынок труда"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "worksFor",
+   "name": "работает в",
+   "comment": "Работник состоит в трудовых отношениях с организацией.",
+   "fromClass": "Employee",
+   "toClass": "Organization"
+  },
+  {
+   "code": "employeeHasContract",
+   "name": "имеет трудовой договор",
+   "comment": "Работник состоит в трудовых отношениях на основании договора.",
+   "fromClass": "Employee",
+   "toClass": "EmploymentContract"
+  },
+  {
+   "code": "contractWithOrganization",
+   "name": "заключён с",
+   "comment": "Трудовой договор заключён с организацией-работодателем.",
+   "fromClass": "EmploymentContract",
+   "toClass": "Organization"
+  },
+  {
+   "code": "contractDefinesPosition",
+   "name": "определяет должность",
+   "comment": "Трудовой договор фиксирует должность работника.",
+   "fromClass": "EmploymentContract",
+   "toClass": "Position"
+  },
+  {
+   "code": "contractDefinesFunction",
+   "name": "определяет функцию",
+   "comment": "Трудовой договор фиксирует трудовую функцию работника.",
+   "fromClass": "EmploymentContract",
+   "toClass": "LaborFunction"
+  },
+  {
+   "code": "holdsPosition",
+   "name": "занимает должность",
+   "comment": "Работник занимает должность в штатном расписании.",
+   "fromClass": "Employee",
+   "toClass": "Position"
+  },
+  {
+   "code": "positionBasedOnProfession",
+   "name": "основана на профессии",
+   "comment": "Должность конкретизирует профессию в условиях организации.",
+   "fromClass": "Position",
+   "toClass": "Profession"
+  },
+  {
+   "code": "standardDefinesProfession",
+   "name": "стандарт определяет профессию",
+   "comment": "Профессиональный стандарт описывает требования к профессии.",
+   "fromClass": "ProfessionalStandard",
+   "toClass": "Profession"
+  },
+  {
+   "code": "standardInformsRequirement",
+   "name": "стандарт служит основой требования",
+   "comment": "Профессиональный стандарт служит основой требования, но не заменяет профиль должности.",
+   "fromClass": "ProfessionalStandard",
+   "toClass": "CompetencyRequirement"
+  },
+  {
+   "code": "professionRequiresCompetency",
+   "name": "профессия требует компетенцию",
+   "comment": "Профессия задаёт типовой набор компетенций.",
+   "fromClass": "Profession",
+   "toClass": "Competency"
+  },
+  {
+   "code": "competencyIncludesKnowledge",
+   "name": "включает знание",
+   "comment": "Компетенция опирается на проверяемые знания.",
+   "fromClass": "Competency",
+   "toClass": "Knowledge"
+  },
+  {
+   "code": "competencyIncludesSkill",
+   "name": "включает навык",
+   "comment": "Компетенция включает отработанное действие.",
+   "fromClass": "Competency",
+   "toClass": "Skill"
+  },
+  {
+   "code": "competencyIncludesAbility",
+   "name": "включает способность",
+   "comment": "Компетенция включает потенциал выполнения класса задач.",
+   "fromClass": "Competency",
+   "toClass": "Ability"
+  },
+  {
+   "code": "employeeHasKnowledge",
+   "name": "обладает знанием",
+   "comment": "Работник фактически владеет знанием.",
+   "fromClass": "Employee",
+   "toClass": "Knowledge"
+  },
+  {
+   "code": "employeeHasSkill",
+   "name": "обладает навыком",
+   "comment": "Работник фактически владеет навыком.",
+   "fromClass": "Employee",
+   "toClass": "Skill"
+  },
+  {
+   "code": "employeeHasAbility",
+   "name": "обладает способностью",
+   "comment": "Работник фактически обладает способностью.",
+   "fromClass": "Employee",
+   "toClass": "Ability"
+  },
+  {
+   "code": "employeePerformsFunction",
+   "name": "выполняет функцию",
+   "comment": "Работник выполняет трудовую функцию.",
+   "fromClass": "Employee",
+   "toClass": "LaborFunction"
+  },
+  {
+   "code": "functionRequiresCompetency",
+   "name": "функция требует компетенцию",
+   "comment": "Трудовая функция требует компетенции для выполнения.",
+   "fromClass": "LaborFunction",
+   "toClass": "Competency"
+  },
+  {
+   "code": "organizationHasNeed",
+   "name": "имеет потребность",
+   "comment": "Организация испытывает потребность в компетенциях.",
+   "fromClass": "Organization",
+   "toClass": "EmployerNeed"
+  },
+  {
+   "code": "needExpressedAsRequirement",
+   "name": "выражена требованием",
+   "comment": "Потребность документируется как требование к компетенции.",
+   "fromClass": "EmployerNeed",
+   "toClass": "CompetencyRequirement"
+  },
+  {
+   "code": "requirementTargetsCompetency",
+   "name": "направлено на компетенцию",
+   "comment": "Требование задаёт целевой уровень компетенции.",
+   "fromClass": "CompetencyRequirement",
+   "toClass": "Competency"
+  },
+  {
+   "code": "gapOfEmployee",
+   "name": "у работника",
+   "comment": "Разрыв компетенций относится к конкретному работнику.",
+   "fromClass": "CompetencyGap",
+   "toClass": "Employee"
+  },
+  {
+   "code": "gapAgainstRequirement",
+   "name": "относительно требования",
+   "comment": "Разрыв измеряется относительно требования к компетенции.",
+   "fromClass": "CompetencyGap",
+   "toClass": "CompetencyRequirement"
+  },
+  {
+   "code": "adaptationClosesGap",
+   "name": "закрывает разрыв",
+   "comment": "Адаптация направлена на закрытие разрыва компетенций.",
+   "fromClass": "Adaptation",
+   "toClass": "CompetencyGap"
+  },
+  {
+   "code": "adaptationIncludesAction",
+   "name": "включает меру",
+   "comment": "Адаптация включает конкретные меры развития.",
+   "fromClass": "Adaptation",
+   "toClass": "TrainingAction"
+  },
+  {
+   "code": "actionDevelopsCompetency",
+   "name": "развивает компетенцию",
+   "comment": "Мера развития развивает компетенцию.",
+   "fromClass": "TrainingAction",
+   "toClass": "Competency"
+  },
+  {
+   "code": "knowledgeHasLifecycle",
+   "name": "знание имеет жизненный цикл",
+   "comment": "Знание имеет стадии актуальности и пересмотра.",
+   "fromClass": "Knowledge",
+   "toClass": "ZNSLifecycle"
+  },
+  {
+   "code": "skillHasLifecycle",
+   "name": "навык имеет жизненный цикл",
+   "comment": "Навык имеет стадии актуальности и пересмотра.",
+   "fromClass": "Skill",
+   "toClass": "ZNSLifecycle"
+  },
+  {
+   "code": "abilityHasLifecycle",
+   "name": "способность имеет жизненный цикл",
+   "comment": "Способность имеет стадии актуальности и пересмотра.",
+   "fromClass": "Ability",
+   "toClass": "ZNSLifecycle"
+  },
+  {
+   "code": "needAcceleratesLifecycle",
+   "name": "ускоряет жизненный цикл",
+   "comment": "Изменение потребности работодателя сокращает срок актуальности ЗНС.",
+   "fromClass": "EmployerNeed",
+   "toClass": "ZNSLifecycle"
+  },
+  {
+   "code": "marketSignalShortensLifecycle",
+   "name": "сокращает жизненный цикл",
+   "comment": "Сигнал рынка труда сокращает срок актуальности ЗНС.",
+   "fromClass": "LaborMarketSignal",
+   "toClass": "ZNSLifecycle"
+  },
+  {
+   "code": "modalStatementQualifiesRequirement",
+   "name": "квалифицирует требование",
+   "comment": "Модальное утверждение задаёт режим требования.",
+   "fromClass": "ModalStatement",
+   "toClass": "CompetencyRequirement"
+  },
+  {
+   "code": "modalStatementQualifiesCompetency",
+   "name": "квалифицирует компетенцию",
+   "comment": "Модальное утверждение задаёт режим утверждения о компетенции.",
+   "fromClass": "ModalStatement",
+   "toClass": "Competency"
+  },
+  {
+   "code": "modalStatementHasMode",
+   "name": "имеет режим",
+   "comment": "Модальное утверждение относится к одному модальному режиму.",
+   "fromClass": "ModalStatement",
+   "toClass": "ModalMode"
+  },
+  {
+   "code": "evidenceSupportsCompetency",
+   "name": "подтверждает компетенцию",
+   "comment": "Доказательство подтверждает владение компетенцией.",
+   "fromClass": "Evidence",
+   "toClass": "Competency"
+  },
+  {
+   "code": "evidenceBelongsToEmployee",
+   "name": "принадлежит работнику",
+   "comment": "Доказательство относится к конкретному работнику.",
+   "fromClass": "Evidence",
+   "toClass": "Employee"
+  },
+  {
+   "code": "passportOfEmployee",
+   "name": "описывает работника",
+   "comment": "Паспорт компетенции описывает работника и его ЗНС.",
+   "fromClass": "CompetencyPassport",
+   "toClass": "Employee"
+  },
+  {
+   "code": "passportIncludesGap",
+   "name": "включает разрыв",
+   "comment": "Паспорт фиксирует разрыв компетенций.",
+   "fromClass": "CompetencyPassport",
+   "toClass": "CompetencyGap"
+  },
+  {
+   "code": "questionGuidesPassport",
+   "name": "задаёт границы паспорта",
+   "comment": "Вопрос компетенции задаёт границы и критерий полноты паспорта.",
+   "fromClass": "CompetencyQuestion",
+   "toClass": "CompetencyPassport"
+  },
+  {
+   "code": "marketSignalChangesNeed",
+   "name": "меняет потребность",
+   "comment": "Сигнал рынка труда изменяет потребность работодателя.",
+   "fromClass": "LaborMarketSignal",
+   "toClass": "EmployerNeed"
+  },
+  {
+   "code": "marketSignalIndicatesCompetency",
+   "name": "указывает на компетенцию",
+   "comment": "Сигнал рынка труда указывает на рост значимости компетенции.",
+   "fromClass": "LaborMarketSignal",
+   "toClass": "Competency"
+  },
+  {
+   "code": "snapshotIncludesVacancy",
+   "name": "включает вакансию",
+   "comment": "Срез рынка труда включает вакансию в выборку.",
+   "fromClass": "LaborMarketSnapshot",
+   "toClass": "Vacancy"
+  },
+  {
+   "code": "snapshotHasIndicator",
+   "name": "содержит показатель",
+   "comment": "Срез рынка труда содержит рассчитанный показатель востребованности.",
+   "fromClass": "LaborMarketSnapshot",
+   "toClass": "LaborMarketIndicator"
+  },
+  {
+   "code": "vacancyForProfession",
+   "name": "вакансия по профессии",
+   "comment": "Вакансия относится к профессии.",
+   "fromClass": "Vacancy",
+   "toClass": "Profession"
+  },
+  {
+   "code": "vacancyStatesRequirement",
+   "name": "вакансия содержит требование",
+   "comment": "В тексте вакансии явно указано требование к компетенции.",
+   "fromClass": "Vacancy",
+   "toClass": "CompetencyRequirement"
+  },
+  {
+   "code": "requirementTargetsSkill",
+   "name": "требование к навыку",
+   "comment": "Требование задаёт уровень конкретного навыка.",
+   "fromClass": "CompetencyRequirement",
+   "toClass": "Skill"
+  },
+  {
+   "code": "requirementTargetsKnowledge",
+   "name": "требование к знанию",
+   "comment": "Требование задаёт уровень конкретного знания.",
+   "fromClass": "CompetencyRequirement",
+   "toClass": "Knowledge"
+  },
+  {
+   "code": "requirementTargetsAbility",
+   "name": "требование к способности",
+   "comment": "Требование задаёт уровень конкретной способности.",
+   "fromClass": "CompetencyRequirement",
+   "toClass": "Ability"
+  },
+  {
+   "code": "indicatorMeasuresCompetency",
+   "name": "показатель измеряет компетенцию",
+   "comment": "Показатель востребованности относится к компетенции.",
+   "fromClass": "LaborMarketIndicator",
+   "toClass": "Competency"
+  },
+  {
+   "code": "indicatorMeasuresSkill",
+   "name": "показатель измеряет навык",
+   "comment": "Показатель востребованности относится к навыку.",
+   "fromClass": "LaborMarketIndicator",
+   "toClass": "Skill"
+  },
+  {
+   "code": "indicatorMeasuresKnowledge",
+   "name": "показатель измеряет знание",
+   "comment": "Показатель востребованности относится к знанию.",
+   "fromClass": "LaborMarketIndicator",
+   "toClass": "Knowledge"
+  },
+  {
+   "code": "indicatorMeasuresAbility",
+   "name": "показатель измеряет способность",
+   "comment": "Показатель востребованности относится к способности.",
+   "fromClass": "LaborMarketIndicator",
+   "toClass": "Ability"
+  },
+  {
+   "code": "indicatorSupportsSignal",
+   "name": "показатель обосновывает сигнал",
+   "comment": "Показатель востребованности служит количественным основанием сигнала рынка труда.",
+   "fromClass": "LaborMarketIndicator",
+   "toClass": "LaborMarketSignal"
+  },
+  {
+   "code": "signalBasedOnSnapshot",
+   "name": "сигнал опирается на срез",
+   "comment": "Сигнал рынка труда выведен из конкретного среза вакансий.",
+   "fromClass": "LaborMarketSignal",
+   "toClass": "LaborMarketSnapshot"
+  }
+ ],
+ "info": {
+  "description": "Онтология описывает контур трудовых отношений вокруг компетенций. Она связывает работника с профессией, должностью и трудовой функцией, функцию — с компетенцией, а компетенцию — с знаниями, навыками и способностями. Потребность работодателя выражается требованием к компетенции, требование сравнивается с фактическими ЗНС работника, разрыв фиксируется как состояние, а адаптация и меры развития направлены на его закрытие. Модальные утверждения задают режим требований и оценок, доказательства подтверждают ЗНС, а жизненный цикл ЗНС задаёт горизонт пересмотра. Модель отвечает на вопросы о разрывах, приоритетах развития и моменте пересмотра требований.",
+  "scope": [
+   "Трудовые отношения: работник, организация, трудовой договор, профессия, должность, трудовая функция",
+   "Компетенции и ЗНС: компетенция, знание, навык, способность, доказательства",
+   "Потребности и требования: потребность работодателя, профессиональный стандарт, требование к компетенции, разрыв",
+   "Адаптация: план адаптации, меры развития, критерий закрытия разрыва",
+   "Модальности и время: режим утверждения, агент, контекст, источник, жизненный цикл ЗНС",
+   "Динамика: изменение потребности и сигнал рынка сокращают жизненный цикл ЗНС",
+   "Рынок труда: срез, вакансии, требования вакансий, показатели востребованности и связь с сигналом",
+   "Инженерия знаний: профессии и должности инженеров-онтологов и контекстных инженеров, их компетенции и требования вакансий"
+  ],
+  "competencyQuestions": [
+   "Какие компетенции требуются для профессии, должности и трудовой функции?",
+   "Какие знания, навыки и способности входят в компетенцию?",
+   "Какими ЗНС фактически обладает работник и чем они подтверждены?",
+   "Где разрыв между требованием и фактическим уровнем и насколько он критичен?",
+   "Какие меры адаптации закрывают разрыв и кто за них отвечает?",
+   "Какие модальные статусы имеют требования: обязательно, необходимо, известно, ценно, ограничено временем?",
+   "Какие ЗНС устаревают и когда нужен пересмотр требований?",
+   "Что изменится в требованиях при изменении потребности работодателя?",
+   "Какие требования задаёт профессиональный стандарт и как они конкретизируются в профиле должности?",
+   "Как изменение потребности работодателя сокращает жизненный цикл ЗНС?",
+   "Какие требования чаще всего встречаются в вакансиях и как они соотносятся с профилем должности?",
+   "Какие показатели востребованности подтверждают сигнал рынка труда и как они рассчитаны?",
+   "Какие компетенции отличают инженера-онтолога от контекстного инженера?",
+   "Как требования вакансий инженерных ролей связаны с компетенциями и показателями востребованности?"
+  ]
+ },
+ "theme": [
+  {
+   "code": "LABOR",
+   "name": "Трудовые отношения",
+   "color": "#60a5fa"
+  },
+  {
+   "code": "COMP",
+   "name": "Компетенции и ЗНС",
+   "color": "#34d399"
+  },
+  {
+   "code": "ADAPT",
+   "name": "Адаптация и развитие",
+   "color": "#fbbf24"
+  },
+  {
+   "code": "MODAL",
+   "name": "Модальные квалификации",
+   "color": "#f87171"
+  },
+  {
+   "code": "MARKET",
+   "name": "Рынок труда",
+   "color": "#6b4c9a"
+  }
+ ]
+}

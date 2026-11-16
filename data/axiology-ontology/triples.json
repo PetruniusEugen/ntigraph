@@ -1,0 +1,1084 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "moralnye-cennosti",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-cennosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "socialnye-cennosti",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-cennosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t003",
+   "subject": "ekonomicheskie-cennosti",
+   "predicate": "имеет тип",
+   "object": "class-kategoriya-cennosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "zhizn-cheloveka",
+   "predicate": "имеет тип",
+   "object": "class-cennost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "blagopoluchie-cheloveka",
+   "predicate": "имеет тип",
+   "object": "class-cennost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "avtonomiya-lichnosti",
+   "predicate": "имеет тип",
+   "object": "class-cennost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "spravedlivost",
+   "predicate": "имеет тип",
+   "object": "class-cennost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t008",
+   "subject": "ravenstvo-dostupa-k-medicinskoy-pomoschi",
+   "predicate": "имеет тип",
+   "object": "class-cennost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "solidarnost",
+   "predicate": "имеет тип",
+   "object": "class-cennost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t010",
+   "subject": "effektivnost-ispolzovaniya-resursov",
+   "predicate": "имеет тип",
+   "object": "class-cennost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t011",
+   "subject": "nespravedlivost",
+   "predicate": "имеет тип",
+   "object": "class-anticennost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t012",
+   "subject": "stradanie",
+   "predicate": "имеет тип",
+   "object": "class-anticennost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t013",
+   "subject": "eticheskaya-komissiya-bolnicy",
+   "predicate": "имеет тип",
+   "object": "class-ocenivayuschiy-subekt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t014",
+   "subject": "glavnyy-vrach",
+   "predicate": "имеет тип",
+   "object": "class-ocenivayuschiy-subekt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "soobschestvo-pacientov",
+   "predicate": "имеет тип",
+   "object": "class-ocenivayuschiy-subekt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "kodeks-medicinskoy-etiki-bolnicy",
+   "predicate": "имеет тип",
+   "object": "class-sistema-cennostey",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "princip-triazha-po-tyazhesti-sostoyaniya",
+   "predicate": "имеет тип",
+   "object": "class-cennostnaya-norma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t018",
+   "subject": "zapret-diskriminacii-pri-okazanii-pomoschi",
+   "predicate": "имеет тип",
+   "object": "class-cennostnaya-norma",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t019",
+   "subject": "raspredelenie-apparatov-ivl",
+   "predicate": "имеет тип",
+   "object": "class-nositel-cennosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t020",
+   "subject": "ochered-na-gospitalizaciyu",
+   "predicate": "имеет тип",
+   "object": "class-nositel-cennosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "dostup-k-apparatu-ivl",
+   "predicate": "имеет тип",
+   "object": "class-blago",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t022",
+   "subject": "svoevremennaya-pomosch",
+   "predicate": "имеет тип",
+   "object": "class-blago",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t023",
+   "subject": "otkaz-v-gospitalizacii-bez-osnovaniy",
+   "predicate": "имеет тип",
+   "object": "class-vred",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t024",
+   "subject": "zatyazhnoe-ozhidanie-pomoschi",
+   "predicate": "имеет тип",
+   "object": "class-vred",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t025",
+   "subject": "tyazhest-sostoyaniya",
+   "predicate": "имеет тип",
+   "object": "class-kriteriy-ocenki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t026",
+   "subject": "ravenstvo-shansov",
+   "predicate": "имеет тип",
+   "object": "class-kriteriy-ocenki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t027",
+   "subject": "shkala-srochnosti",
+   "predicate": "имеет тип",
+   "object": "class-shkala-ocenki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t028",
+   "subject": "ocenka-ocheredi-na-gospitalizaciyu",
+   "predicate": "имеет тип",
+   "object": "class-akt-ocenivaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t029",
+   "subject": "ocenka-dostupa-k-apparatu-ivl",
+   "predicate": "имеет тип",
+   "object": "class-akt-ocenivaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t030",
+   "subject": "ochered-sootvetstvuet-prioritetu-zhizni-no-narushaet-ravenstvo-shansov",
+   "predicate": "имеет тип",
+   "object": "class-ocenochnoe-suzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t031",
+   "subject": "dostup-k-ivl-imeet-vysshuyu-srochnost",
+   "predicate": "имеет тип",
+   "object": "class-ocenochnoe-suzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t032",
+   "subject": "predpochtenie-zhizni-pered-effektivnostyu",
+   "predicate": "имеет тип",
+   "object": "class-predpochtenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t033",
+   "subject": "raspredelenie-ivl-po-tyazhesti-sostoyaniya",
+   "predicate": "имеет тип",
+   "object": "class-realizaciya-cennosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t034",
+   "subject": "konflikt-effektivnosti-i-ravenstva-dostupa",
+   "predicate": "имеет тип",
+   "object": "class-cennostnyy-konflikt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t035",
+   "subject": "reshenie-komissii-o-ravnom-dostupe-pri-raspredelenii-ivl",
+   "predicate": "имеет тип",
+   "object": "class-razreshenie-konflikta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t036",
+   "subject": "zhizn-cheloveka",
+   "predicate": "относится к категории",
+   "object": "moralnye-cennosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t037",
+   "subject": "blagopoluchie-cheloveka",
+   "predicate": "относится к категории",
+   "object": "moralnye-cennosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t038",
+   "subject": "avtonomiya-lichnosti",
+   "predicate": "относится к категории",
+   "object": "moralnye-cennosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t039",
+   "subject": "spravedlivost",
+   "predicate": "относится к категории",
+   "object": "socialnye-cennosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t040",
+   "subject": "ravenstvo-dostupa-k-medicinskoy-pomoschi",
+   "predicate": "относится к категории",
+   "object": "socialnye-cennosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t041",
+   "subject": "solidarnost",
+   "predicate": "относится к категории",
+   "object": "socialnye-cennosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t042",
+   "subject": "effektivnost-ispolzovaniya-resursov",
+   "predicate": "относится к категории",
+   "object": "ekonomicheskie-cennosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t043",
+   "subject": "zhizn-cheloveka",
+   "predicate": "приоритетнее, чем",
+   "object": "effektivnost-ispolzovaniya-resursov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t044",
+   "subject": "ravenstvo-dostupa-k-medicinskoy-pomoschi",
+   "predicate": "конкретизирует ценность",
+   "object": "spravedlivost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t045",
+   "subject": "solidarnost",
+   "predicate": "поддерживает ценность",
+   "object": "spravedlivost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t046",
+   "subject": "avtonomiya-lichnosti",
+   "predicate": "поддерживает ценность",
+   "object": "blagopoluchie-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t047",
+   "subject": "effektivnost-ispolzovaniya-resursov",
+   "predicate": "может конфликтовать с",
+   "object": "ravenstvo-dostupa-k-medicinskoy-pomoschi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t048",
+   "subject": "nespravedlivost",
+   "predicate": "противоположна ценности",
+   "object": "spravedlivost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t049",
+   "subject": "stradanie",
+   "predicate": "противоположна ценности",
+   "object": "blagopoluchie-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t050",
+   "subject": "kodeks-medicinskoy-etiki-bolnicy",
+   "predicate": "система включает ценность",
+   "object": "zhizn-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t051",
+   "subject": "kodeks-medicinskoy-etiki-bolnicy",
+   "predicate": "система включает ценность",
+   "object": "spravedlivost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t052",
+   "subject": "kodeks-medicinskoy-etiki-bolnicy",
+   "predicate": "система включает ценность",
+   "object": "ravenstvo-dostupa-k-medicinskoy-pomoschi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t053",
+   "subject": "kodeks-medicinskoy-etiki-bolnicy",
+   "predicate": "система включает ценность",
+   "object": "avtonomiya-lichnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t054",
+   "subject": "kodeks-medicinskoy-etiki-bolnicy",
+   "predicate": "система включает ценность",
+   "object": "solidarnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t055",
+   "subject": "kodeks-medicinskoy-etiki-bolnicy",
+   "predicate": "система включает ценность",
+   "object": "effektivnost-ispolzovaniya-resursov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t056",
+   "subject": "kodeks-medicinskoy-etiki-bolnicy",
+   "predicate": "система принята субъектом",
+   "object": "eticheskaya-komissiya-bolnicy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t057",
+   "subject": "glavnyy-vrach",
+   "predicate": "придерживается ценности",
+   "object": "zhizn-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t058",
+   "subject": "soobschestvo-pacientov",
+   "predicate": "придерживается ценности",
+   "object": "avtonomiya-lichnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t059",
+   "subject": "eticheskaya-komissiya-bolnicy",
+   "predicate": "придерживается ценности",
+   "object": "spravedlivost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t060",
+   "subject": "princip-triazha-po-tyazhesti-sostoyaniya",
+   "predicate": "норма служит ценности",
+   "object": "zhizn-cheloveka",
+   "sourceId": "src-theory",
+   "sourceName": "Общая схема понятий аксиологии (авторская систематизация)",
+   "sourceType": "internal",
+   "updatedAt": "2026-11-04"
+  },
+  {
+   "id": "t061",
+   "subject": "princip-triazha-po-tyazhesti-sostoyaniya",
+   "predicate": "норма обращена к субъекту",
+   "object": "glavnyy-vrach",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t062",
+   "subject": "zapret-diskriminacii-pri-okazanii-pomoschi",
+   "predicate": "норма служит ценности",
+   "object": "ravenstvo-dostupa-k-medicinskoy-pomoschi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t063",
+   "subject": "zapret-diskriminacii-pri-okazanii-pomoschi",
+   "predicate": "норма обращена к субъекту",
+   "object": "glavnyy-vrach",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t064",
+   "subject": "raspredelenie-apparatov-ivl",
+   "predicate": "носитель воплощает ценность",
+   "object": "effektivnost-ispolzovaniya-resursov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t065",
+   "subject": "ochered-na-gospitalizaciyu",
+   "predicate": "носитель воплощает ценность",
+   "object": "ravenstvo-dostupa-k-medicinskoy-pomoschi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t066",
+   "subject": "dostup-k-apparatu-ivl",
+   "predicate": "благо воплощает ценность",
+   "object": "zhizn-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t067",
+   "subject": "svoevremennaya-pomosch",
+   "predicate": "благо воплощает ценность",
+   "object": "blagopoluchie-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t068",
+   "subject": "otkaz-v-gospitalizacii-bez-osnovaniy",
+   "predicate": "вред воплощает антиценность",
+   "object": "nespravedlivost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t069",
+   "subject": "otkaz-v-gospitalizacii-bez-osnovaniy",
+   "predicate": "вред ущемляет ценность",
+   "object": "ravenstvo-dostupa-k-medicinskoy-pomoschi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t070",
+   "subject": "otkaz-v-gospitalizacii-bez-osnovaniy",
+   "predicate": "вред причиняется носителю",
+   "object": "ochered-na-gospitalizaciyu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t071",
+   "subject": "zatyazhnoe-ozhidanie-pomoschi",
+   "predicate": "вред воплощает антиценность",
+   "object": "stradanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t072",
+   "subject": "zatyazhnoe-ozhidanie-pomoschi",
+   "predicate": "вред ущемляет ценность",
+   "object": "blagopoluchie-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t073",
+   "subject": "zatyazhnoe-ozhidanie-pomoschi",
+   "predicate": "вред причиняется носителю",
+   "object": "ochered-na-gospitalizaciyu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t074",
+   "subject": "ocenka-ocheredi-na-gospitalizaciyu",
+   "predicate": "оценивание выполняет субъект",
+   "object": "eticheskaya-komissiya-bolnicy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t075",
+   "subject": "ocenka-ocheredi-na-gospitalizaciyu",
+   "predicate": "оценивает носитель",
+   "object": "ochered-na-gospitalizaciyu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t076",
+   "subject": "ocenka-ocheredi-na-gospitalizaciyu",
+   "predicate": "применяет критерий",
+   "object": "tyazhest-sostoyaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t077",
+   "subject": "ocenka-ocheredi-na-gospitalizaciyu",
+   "predicate": "применяет критерий",
+   "object": "ravenstvo-shansov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t078",
+   "subject": "ocenka-ocheredi-na-gospitalizaciyu",
+   "predicate": "использует шкалу",
+   "object": "shkala-srochnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t079",
+   "subject": "ocenka-ocheredi-na-gospitalizaciyu",
+   "predicate": "завершается суждением",
+   "object": "ochered-sootvetstvuet-prioritetu-zhizni-no-narushaet-ravenstvo-shansov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t080",
+   "subject": "ochered-sootvetstvuet-prioritetu-zhizni-no-narushaet-ravenstvo-shansov",
+   "predicate": "приписывает ценность",
+   "object": "zhizn-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t081",
+   "subject": "ochered-sootvetstvuet-prioritetu-zhizni-no-narushaet-ravenstvo-shansov",
+   "predicate": "суждение о носителе",
+   "object": "ochered-na-gospitalizaciyu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t082",
+   "subject": "ochered-sootvetstvuet-prioritetu-zhizni-no-narushaet-ravenstvo-shansov",
+   "predicate": "выражено на шкале",
+   "object": "shkala-srochnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t083",
+   "subject": "ocenka-dostupa-k-apparatu-ivl",
+   "predicate": "оценивание выполняет субъект",
+   "object": "glavnyy-vrach",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t084",
+   "subject": "ocenka-dostupa-k-apparatu-ivl",
+   "predicate": "оценивает благо",
+   "object": "dostup-k-apparatu-ivl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t085",
+   "subject": "ocenka-dostupa-k-apparatu-ivl",
+   "predicate": "применяет критерий",
+   "object": "tyazhest-sostoyaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t086",
+   "subject": "ocenka-dostupa-k-apparatu-ivl",
+   "predicate": "использует шкалу",
+   "object": "shkala-srochnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t087",
+   "subject": "ocenka-dostupa-k-apparatu-ivl",
+   "predicate": "завершается суждением",
+   "object": "dostup-k-ivl-imeet-vysshuyu-srochnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t088",
+   "subject": "dostup-k-ivl-imeet-vysshuyu-srochnost",
+   "predicate": "приписывает ценность",
+   "object": "zhizn-cheloveka",
+   "sourceId": "src-example",
+   "sourceName": "Иллюстративный вымышленный сценарий распределения аппаратов ИВЛ",
+   "sourceType": "internal",
+   "updatedAt": "2026-11-04"
+  },
+  {
+   "id": "t089",
+   "subject": "dostup-k-ivl-imeet-vysshuyu-srochnost",
+   "predicate": "суждение о благе",
+   "object": "dostup-k-apparatu-ivl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t090",
+   "subject": "dostup-k-ivl-imeet-vysshuyu-srochnost",
+   "predicate": "выражено на шкале",
+   "object": "shkala-srochnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t091",
+   "subject": "tyazhest-sostoyaniya",
+   "predicate": "критерий выводится из ценности",
+   "object": "zhizn-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t092",
+   "subject": "ravenstvo-shansov",
+   "predicate": "критерий выводится из ценности",
+   "object": "spravedlivost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t093",
+   "subject": "shkala-srochnosti",
+   "predicate": "шкала измеряет критерий",
+   "object": "tyazhest-sostoyaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t094",
+   "subject": "eticheskaya-komissiya-bolnicy",
+   "predicate": "имеет предпочтение",
+   "object": "predpochtenie-zhizni-pered-effektivnostyu",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t095",
+   "subject": "predpochtenie-zhizni-pered-effektivnostyu",
+   "predicate": "отдаёт предпочтение ценности",
+   "object": "zhizn-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t096",
+   "subject": "predpochtenie-zhizni-pered-effektivnostyu",
+   "predicate": "ставит ниже ценность",
+   "object": "effektivnost-ispolzovaniya-resursov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t097",
+   "subject": "predpochtenie-zhizni-pered-effektivnostyu",
+   "predicate": "предпочтение основано на суждении",
+   "object": "ochered-sootvetstvuet-prioritetu-zhizni-no-narushaet-ravenstvo-shansov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t098",
+   "subject": "raspredelenie-ivl-po-tyazhesti-sostoyaniya",
+   "predicate": "реализует ценность",
+   "object": "zhizn-cheloveka",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t099",
+   "subject": "raspredelenie-ivl-po-tyazhesti-sostoyaniya",
+   "predicate": "реализация происходит в носителе",
+   "object": "raspredelenie-apparatov-ivl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t100",
+   "subject": "raspredelenie-ivl-po-tyazhesti-sostoyaniya",
+   "predicate": "реализацию осуществляет субъект",
+   "object": "glavnyy-vrach",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t101",
+   "subject": "raspredelenie-ivl-po-tyazhesti-sostoyaniya",
+   "predicate": "реализация выполняет норму",
+   "object": "princip-triazha-po-tyazhesti-sostoyaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t102",
+   "subject": "konflikt-effektivnosti-i-ravenstva-dostupa",
+   "predicate": "затрагивает ценность",
+   "object": "effektivnost-ispolzovaniya-resursov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t103",
+   "subject": "konflikt-effektivnosti-i-ravenstva-dostupa",
+   "predicate": "затрагивает ценность",
+   "object": "ravenstvo-dostupa-k-medicinskoy-pomoschi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t104",
+   "subject": "konflikt-effektivnosti-i-ravenstva-dostupa",
+   "predicate": "конфликт возникает у субъекта",
+   "object": "eticheskaya-komissiya-bolnicy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t105",
+   "subject": "reshenie-komissii-o-ravnom-dostupe-pri-raspredelenii-ivl",
+   "predicate": "разрешает конфликт",
+   "object": "konflikt-effektivnosti-i-ravenstva-dostupa",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t106",
+   "subject": "reshenie-komissii-o-ravnom-dostupe-pri-raspredelenii-ivl",
+   "predicate": "отдаёт приоритет ценности",
+   "object": "ravenstvo-dostupa-k-medicinskoy-pomoschi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t107",
+   "subject": "reshenie-komissii-o-ravnom-dostupe-pri-raspredelenii-ivl",
+   "predicate": "решение принято субъектом",
+   "object": "eticheskaya-komissiya-bolnicy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t108",
+   "subject": "reshenie-komissii-o-ravnom-dostupe-pri-raspredelenii-ivl",
+   "predicate": "решение обосновано критерием",
+   "object": "ravenstvo-shansov",
+   "sourceId": "src-example",
+   "sourceName": "Иллюстративный вымышленный сценарий распределения аппаратов ИВЛ",
+   "sourceType": "internal",
+   "updatedAt": "2026-11-04"
+  }
+ ]
+}

@@ -1,0 +1,1841 @@
+{
+ "classes": [
+  {
+   "code": "IntegratedModelingSystem",
+   "name": "Интегрированная среда моделирования",
+   "comment": "BFO: объект (independent continuant) — организационно-технический комплекс, который объединяет методы, инструменты, интерфейсы и хранилища в один контур работы с моделями. Не является отдельной моделью.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Название среды моделирования."
+    },
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Версия конфигурации среды."
+    },
+    {
+     "code": "scope",
+     "name": "область охвата",
+     "type": "string",
+     "comment": "Какие методы и подразделения охватывает среда."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "TOOL",
+     "name": "Инструменты и интерфейсы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModelingMethod",
+   "name": "Метод моделирования",
+   "comment": "BFO/IAO: ICE, план (plan) — предписание, как описывать систему: какие вопросы задавать, какие элементы выделять и какие правила соблюдать. Enterprise Architecture, BPMN, CAD, CAE, конечные автоматы и электрические схемы — примеры методов.",
+   "attributes": [
+    {
+     "code": "purpose",
+     "name": "назначение",
+     "type": "string",
+     "comment": "Какой аспект системы описывает метод."
+    },
+    {
+     "code": "discipline",
+     "name": "дисциплина",
+     "type": "string",
+     "comment": "Инженерная или управленческая дисциплина метода."
+    },
+    {
+     "code": "maturity",
+     "name": "зрелость применения",
+     "type": "string",
+     "comment": "Насколько метод освоен в среде: начальный, рабочий, развитый."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "METH",
+     "name": "Методы и языки моделирования"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModelingLanguage",
+   "name": "Язык моделирования",
+   "comment": "BFO/IAO: ICE, спецификация (specification) — система обозначений и правил, в которой записывается модель. Язык задаёт синтаксис и допустимые конструкции, но не описывает конкретную систему.",
+   "attributes": [
+    {
+     "code": "notation",
+     "name": "нотация",
+     "type": "string",
+     "comment": "Графическая или текстовая форма записи."
+    },
+    {
+     "code": "syntax",
+     "name": "синтаксис",
+     "type": "string",
+     "comment": "Правила допустимых конструкций языка."
+    },
+    {
+     "code": "semantics",
+     "name": "семантика",
+     "type": "string",
+     "comment": "Что означают конструкции языка."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "METH",
+     "name": "Методы и языки моделирования"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Metamodel",
+   "name": "Метамодель",
+   "comment": "BFO/IAO: ICE, спецификация — описание допустимых типов элементов и связей языка. Метамодель задаёт то, что может существовать в модели, и служит основанием для проверки корректности.",
+   "attributes": [
+    {
+     "code": "level",
+     "name": "уровень",
+     "type": "string",
+     "comment": "Уровень метамоделирования: M2 или M3."
+    },
+    {
+     "code": "serialization",
+     "name": "сериализация",
+     "type": "string",
+     "comment": "В каком формате метамодель хранится и передаётся."
+    },
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Версия метамодели."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "METH",
+     "name": "Методы и языки моделирования"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "MetamodelElementType",
+   "name": "Тип элемента метамодели",
+   "comment": "BFO/IAO: ICE, спецификация — разрешённый вид элемента: задача, деталь, состояние, компонент схемы. Каждый элемент модели конкретизирует ровно один тип метамодели.",
+   "attributes": [
+    {
+     "code": "category",
+     "name": "категория",
+     "type": "string",
+     "comment": "Группа типа: поведение, структура, требование, интерфейс."
+    },
+    {
+     "code": "allowedConnections",
+     "name": "допустимые связи",
+     "type": "string",
+     "comment": "С какими типами элемент может соединяться."
+    },
+    {
+     "code": "abstract",
+     "name": "абстрактный",
+     "type": "boolean",
+     "comment": "Может ли тип использоваться напрямую или только через наследников."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "METH",
+     "name": "Методы и языки моделирования"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModelingTool",
+   "name": "Инструмент моделирования",
+   "comment": "BFO: объект (independent continuant) — программное средство, которое реализует метод и хранит модели. Инструмент не равен методу: один метод может поддерживаться несколькими инструментами.",
+   "attributes": [
+    {
+     "code": "vendor",
+     "name": "поставщик",
+     "type": "string",
+     "comment": "Кто поставляет инструмент."
+    },
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Версия инструмента."
+    },
+    {
+     "code": "deployment",
+     "name": "размещение",
+     "type": "string",
+     "comment": "Локальное, серверное или облачное."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "TOOL",
+     "name": "Инструменты и интерфейсы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SpecializedInterface",
+   "name": "Специализированный интерфейс",
+   "comment": "BFO: объект — функциональная часть инструмента или среды, через которую передаются данные и команды другому инструменту. Специализация означает привязку к конкретному методу или формату.",
+   "attributes": [
+    {
+     "code": "protocol",
+     "name": "протокол",
+     "type": "string",
+     "comment": "REST, файловый обмен, событийная шина, плагин."
+    },
+    {
+     "code": "direction",
+     "name": "направление",
+     "type": "string",
+     "comment": "Входящий, исходящий или двусторонний обмен."
+    },
+    {
+     "code": "contract",
+     "name": "контракт",
+     "type": "string",
+     "comment": "Что именно передаётся и в каком виде."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "TOOL",
+     "name": "Инструменты и интерфейсы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DataExchangeFormat",
+   "name": "Формат обмена данными",
+   "comment": "BFO/IAO: ICE, спецификация — правило сериализации модели для передачи между инструментами. Формат отвечает за синтаксис передачи, но не за смысл элементов.",
+   "attributes": [
+    {
+     "code": "mediaType",
+     "name": "тип носителя",
+     "type": "string",
+     "comment": "Текстовый, бинарный или контейнер."
+    },
+    {
+     "code": "serialization",
+     "name": "сериализация",
+     "type": "string",
+     "comment": "XML, JSON, STEP-файл, архив."
+    },
+    {
+     "code": "schemaRef",
+     "name": "ссылка на схему",
+     "type": "string",
+     "comment": "Какая схема описывает допустимое содержимое."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "TOOL",
+     "name": "Инструменты и интерфейсы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModelRepository",
+   "name": "Хранилище моделей",
+   "comment": "BFO: объект — организационно-техническая система хранения версий моделей, прав доступа и истории изменений. Хранилище обеспечивает воспроизводимость, но не определяет смысл модели.",
+   "attributes": [
+    {
+     "code": "kind",
+     "name": "вид хранилища",
+     "type": "string",
+     "comment": "Репозиторий, архив, файловое хранилище."
+    },
+    {
+     "code": "accessPolicy",
+     "name": "политика доступа",
+     "type": "string",
+     "comment": "Кто и как получает доступ к моделям."
+    },
+    {
+     "code": "retention",
+     "name": "срок хранения",
+     "type": "string",
+     "comment": "Сколько хранятся версии и базовые конфигурации."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "TOOL",
+     "name": "Инструменты и интерфейсы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Model",
+   "name": "Модель",
+   "comment": "BFO/IAO: ICE, обобщённо зависимая сущность (generically dependent continuant), конкретизированная в файле или записи репозитория. Модель описывает систему на языке конкретного метода и имеет версию и статус.",
+   "attributes": [
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Текущая версия модели."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Черновик, на проверке, утверждена, архив."
+    },
+    {
+     "code": "language",
+     "name": "язык",
+     "type": "string",
+     "comment": "Язык, на котором записана модель."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModelElement",
+   "name": "Элемент модели",
+   "comment": "BFO/IAO: ICE — минимальная осмысленная единица модели: задача, деталь, состояние, компонент схемы. Элемент имеет идентификатор и конкретизирует тип метамодели.",
+   "attributes": [
+    {
+     "code": "identifier",
+     "name": "идентификатор",
+     "type": "string",
+     "comment": "Устойчивый идентификатор элемента внутри модели."
+    },
+    {
+     "code": "elementType",
+     "name": "тип элемента",
+     "type": "string",
+     "comment": "Тип метамодели, который конкретизирует элемент."
+    },
+    {
+     "code": "description",
+     "name": "описание",
+     "type": "string",
+     "comment": "Краткое содержание элемента."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModelFragment",
+   "name": "Фрагмент модели",
+   "comment": "BFO/IAO: ICE — выделенная часть модели, собранная под конкретную задачу или ответственность. Фрагмент позволяет работать с подсистемой, не открывая модель целиком.",
+   "attributes": [
+    {
+     "code": "purpose",
+     "name": "назначение",
+     "type": "string",
+     "comment": "Зачем выделен фрагмент."
+    },
+    {
+     "code": "owner",
+     "name": "владелец",
+     "type": "string",
+     "comment": "Роль или подразделение, отвечающее за фрагмент."
+    },
+    {
+     "code": "completeness",
+     "name": "полнота",
+     "type": "string",
+     "comment": "Насколько фрагмент покрывает свою область."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModelView",
+   "name": "Представление модели",
+   "comment": "BFO/IAO: ICE — отображение модели или её фрагмента для конкретной аудитории. Представление не добавляет элементов, а выбирает и оформляет уже существующие.",
+   "attributes": [
+    {
+     "code": "rendering",
+     "name": "форма отображения",
+     "type": "string",
+     "comment": "Диаграмма, таблица, 3D-сцена, схема."
+    },
+    {
+     "code": "audience",
+     "name": "аудитория",
+     "type": "string",
+     "comment": "Для кого предназначено представление."
+    },
+    {
+     "code": "generatedAt",
+     "name": "дата формирования",
+     "type": "date",
+     "comment": "Когда представление сформировано."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Viewpoint",
+   "name": "Точка зрения",
+   "comment": "BFO/IAO: ICE — рамка интересов, которая определяет, какие аспекты системы важны и какие представления нужны. Точка зрения не является представлением и не содержит элементов модели.",
+   "attributes": [
+    {
+     "code": "concern",
+     "name": "предмет интереса",
+     "type": "string",
+     "comment": "Что важно с этой точки зрения."
+    },
+    {
+     "code": "stakeholderGroup",
+     "name": "группа стейкхолдеров",
+     "type": "string",
+     "comment": "Чьи интересы выражает точка зрения."
+    },
+    {
+     "code": "questions",
+     "name": "вопросы",
+     "type": "string",
+     "comment": "На какие вопросы должна отвечать модель с этой точки зрения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SystemUnderStudy",
+   "name": "Моделируемая система",
+   "comment": "BFO: объект (independent continuant) — часть реальности, которую описывают модели. Границы системы задаются явно, иначе федерация моделей теряет предмет.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Название системы."
+    },
+    {
+     "code": "boundary",
+     "name": "границы",
+     "type": "string",
+     "comment": "Что входит в систему, а что считается окружением."
+    },
+    {
+     "code": "criticality",
+     "name": "критичность",
+     "type": "string",
+     "comment": "Насколько система критична для эксплуатации."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "PhysicalAsset",
+   "name": "Физический актив",
+   "comment": "BFO: объект (independent continuant) — материальный объект, который существует независимо от модели: насосный агрегат, двигатель, шкаф управления, деталь.",
+   "attributes": [
+    {
+     "code": "tag",
+     "name": "обозначение",
+     "type": "string",
+     "comment": "Позиционное обозначение или инвентарный номер."
+    },
+    {
+     "code": "assetType",
+     "name": "вид актива",
+     "type": "string",
+     "comment": "Оборудование, узел, деталь, средство управления."
+    },
+    {
+     "code": "location",
+     "name": "расположение",
+     "type": "string",
+     "comment": "Где физически находится актив."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Requirement",
+   "name": "Требование",
+   "comment": "BFO/IAO: ICE — документированное условие, которому должна удовлетворять система или актив. Требование существует как запись и проверяется через прослеживаемость и расчёт.",
+   "attributes": [
+    {
+     "code": "statement",
+     "name": "формулировка",
+     "type": "string",
+     "comment": "Текст требования."
+    },
+    {
+     "code": "priority",
+     "name": "приоритет",
+     "type": "string",
+     "comment": "Обязательное, важное, желательное."
+    },
+    {
+     "code": "verificationMethod",
+     "name": "способ проверки",
+     "type": "string",
+     "comment": "Анализ, расчёт, испытание, осмотр."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Constraint",
+   "name": "Ограничение",
+   "comment": "BFO/IAO: ICE — проверяемое условие на параметр или конфигурацию, которое уточняет требование. Ограничение выражается в числах, диапазонах или правилах.",
+   "attributes": [
+    {
+     "code": "expression",
+     "name": "выражение",
+     "type": "string",
+     "comment": "Формальная запись ограничения."
+    },
+    {
+     "code": "severity",
+     "name": "серьёзность",
+     "type": "string",
+     "comment": "Что произойдёт при нарушении."
+    },
+    {
+     "code": "unit",
+     "name": "единица",
+     "type": "string",
+     "comment": "Единица измерения, в которой задано ограничение."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TraceLink",
+   "name": "Связь прослеживаемости",
+   "comment": "BFO/IAO: ICE — реифицированная связь между элементами моделей, требованиями или результатами. Связь существует как отдельная запись с обоснованием, а не как линия на диаграмме.",
+   "attributes": [
+    {
+     "code": "rationale",
+     "name": "обоснование",
+     "type": "string",
+     "comment": "Почему связь установлена."
+    },
+    {
+     "code": "direction",
+     "name": "направление",
+     "type": "string",
+     "comment": "Прямая, обратная или двусторонняя прослеживаемость."
+    },
+    {
+     "code": "confidence",
+     "name": "уверенность",
+     "type": "string",
+     "comment": "Подтверждена, предполагаемая, требует проверки."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SemanticMapping",
+   "name": "Семантическое соответствие",
+   "comment": "BFO/IAO: ICE — запись о том, что элемент одного языка означает то же или связанное с элементом другого языка. Соответствие обосновывает прослеживаемость между методами и не заменяет саму связь.",
+   "attributes": [
+    {
+     "code": "mappingType",
+     "name": "вид соответствия",
+     "type": "string",
+     "comment": "Эквивалентность, уточнение, обобщение, часть-целое."
+    },
+    {
+     "code": "confidence",
+     "name": "уверенность",
+     "type": "string",
+     "comment": "Подтверждено, согласовано, предположение."
+    },
+    {
+     "code": "direction",
+     "name": "направление",
+     "type": "string",
+     "comment": "Одностороннее или двустороннее соответствие."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModelTransformation",
+   "name": "Преобразование модели",
+   "comment": "BFO: процесс (occurrent) — выполнение правил, которое читает одну модель и порождает другую. Преобразование имеет вход, выход и набор правил, поэтому его результат можно воспроизвести.",
+   "attributes": [
+    {
+     "code": "transformationType",
+     "name": "вид преобразования",
+     "type": "string",
+     "comment": "Генерация, миграция, синхронизация, расчётная подготовка."
+    },
+    {
+     "code": "ruleSet",
+     "name": "набор правил",
+     "type": "string",
+     "comment": "Какие правила применяются."
+    },
+    {
+     "code": "executedAt",
+     "name": "дата выполнения",
+     "type": "date",
+     "comment": "Когда преобразование выполнено."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LIFE",
+     "name": "Жизненный цикл и валидация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ValidationRule",
+   "name": "Правило проверки",
+   "comment": "BFO/IAO: ICE, спецификация — формальное или экспертно заданное условие, которое модель должна выполнять. Правило проверяет модель или тип элемента и порождает находки.",
+   "attributes": [
+    {
+     "code": "expression",
+     "name": "выражение",
+     "type": "string",
+     "comment": "Запись правила или ссылка на запрос."
+    },
+    {
+     "code": "severity",
+     "name": "серьёзность",
+     "type": "string",
+     "comment": "Блокирующая, критическая, предупреждение."
+    },
+    {
+     "code": "scope",
+     "name": "область проверки",
+     "type": "string",
+     "comment": "Что именно проверяется."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LIFE",
+     "name": "Жизненный цикл и валидация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ConsistencyFinding",
+   "name": "Находка проверки",
+   "comment": "BFO/IAO: ICE — зафиксированный результат нарушения правила: противоречие, пропуск, расхождение. Находка имеет место в модели, автора правила и статус устранения.",
+   "attributes": [
+    {
+     "code": "message",
+     "name": "сообщение",
+     "type": "string",
+     "comment": "Что именно обнаружено."
+    },
+    {
+     "code": "severity",
+     "name": "серьёзность",
+     "type": "string",
+     "comment": "Блокирующая, критическая, предупреждение."
+    },
+    {
+     "code": "detectedAt",
+     "name": "дата обнаружения",
+     "type": "date",
+     "comment": "Когда находка зафиксирована."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LIFE",
+     "name": "Жизненный цикл и валидация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Version",
+   "name": "Версия",
+   "comment": "BFO/IAO: ICE — зафиксированное состояние модели или набора моделей в определённый момент. Версия отличается от фазы жизненного цикла: фаза отвечает на вопрос «где мы», версия — «что именно зафиксировано».",
+   "attributes": [
+    {
+     "code": "label",
+     "name": "обозначение",
+     "type": "string",
+     "comment": "Номер или метка версии."
+    },
+    {
+     "code": "createdAt",
+     "name": "дата создания",
+     "type": "date",
+     "comment": "Когда версия зафиксирована."
+    },
+    {
+     "code": "author",
+     "name": "автор",
+     "type": "string",
+     "comment": "Кто зафиксировал версию."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LIFE",
+     "name": "Жизненный цикл и валидация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Baseline",
+   "name": "Базовая конфигурация",
+   "comment": "BFO/IAO: ICE — согласованный и замороженный набор версий моделей, который служит точкой отсчёта для изменений. Базовая конфигурация не является версией отдельной модели.",
+   "attributes": [
+    {
+     "code": "label",
+     "name": "обозначение",
+     "type": "string",
+     "comment": "Метка базовой конфигурации."
+    },
+    {
+     "code": "frozenAt",
+     "name": "дата фиксации",
+     "type": "date",
+     "comment": "Когда конфигурация заморожена."
+    },
+    {
+     "code": "approvalStatus",
+     "name": "статус утверждения",
+     "type": "string",
+     "comment": "Утверждена, на согласовании, отклонена."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LIFE",
+     "name": "Жизненный цикл и валидация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ChangeRequest",
+   "name": "Запрос на изменение",
+   "comment": "BFO/IAO: ICE — документированное предложение изменить модель, требование или конфигурацию. Запрос связывает причину изменения с находкой, версией и затронутыми моделями.",
+   "attributes": [
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Черновик, на рассмотрении, принят, отклонён, реализован."
+    },
+    {
+     "code": "rationale",
+     "name": "основание",
+     "type": "string",
+     "comment": "Почему изменение необходимо."
+    },
+    {
+     "code": "impactScope",
+     "name": "область влияния",
+     "type": "string",
+     "comment": "Какие модели и активы затронуты."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LIFE",
+     "name": "Жизненный цикл и валидация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LifecyclePhase",
+   "name": "Фаза жизненного цикла",
+   "comment": "BFO: темпоральная область (temporal region) — интервал, в котором модель или система находится в определённом состоянии: проектирование, валидация, эксплуатация. Фаза имеет условие начала и завершения.",
+   "attributes": [
+    {
+     "code": "phaseName",
+     "name": "название фазы",
+     "type": "string",
+     "comment": "Проектирование, валидация, эксплуатация, вывод из эксплуатации."
+    },
+    {
+     "code": "startCondition",
+     "name": "условие начала",
+     "type": "string",
+     "comment": "Что должно произойти для входа в фазу."
+    },
+    {
+     "code": "endCondition",
+     "name": "условие завершения",
+     "type": "string",
+     "comment": "Что должно произойти для выхода из фазы."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LIFE",
+     "name": "Жизненный цикл и валидация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Stakeholder",
+   "name": "Заинтересованная сторона",
+   "comment": "BFO: роль (role) — носитель интереса к системе и её моделям. Стейкхолдер задаёт требования и точку зрения, но не является элементом модели.",
+   "attributes": [
+    {
+     "code": "role",
+     "name": "роль",
+     "type": "string",
+     "comment": "Эксплуатация, проектирование, закупка, надзор."
+    },
+    {
+     "code": "concern",
+     "name": "интерес",
+     "type": "string",
+     "comment": "Что важно этой стороне."
+    },
+    {
+     "code": "decisionRight",
+     "name": "право решения",
+     "type": "string",
+     "comment": "Какие решения сторона утверждает."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DigitalThread",
+   "name": "Цифровая нить",
+   "comment": "BFO/IAO: ICE — реифицированная траектория связанных артефактов: требований, моделей, результатов, версий и активов. Нить отвечает на вопрос «откуда это взялось и что на это опирается».",
+   "attributes": [
+    {
+     "code": "threadId",
+     "name": "идентификатор нити",
+     "type": "string",
+     "comment": "Устойчивый идентификатор траектории."
+    },
+    {
+     "code": "scope",
+     "name": "охват",
+     "type": "string",
+     "comment": "Какие методы и активы связывает нить."
+    },
+    {
+     "code": "completeness",
+     "name": "полнота",
+     "type": "string",
+     "comment": "Все ли звенья прослеживаются."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LIFE",
+     "name": "Жизненный цикл и валидация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DigitalTwin",
+   "name": "Цифровой двойник",
+   "comment": "BFO/IAO: ICE — информационный артефакт, который синхронизируется с конкретным физическим активом и его моделями. Двойник отличается от модели тем, что привязан к экземпляру актива и обновляется по данным эксплуатации.",
+   "attributes": [
+    {
+     "code": "fidelity",
+     "name": "точность",
+     "type": "string",
+     "comment": "Насколько двойник соответствует активу."
+    },
+    {
+     "code": "syncMode",
+     "name": "режим синхронизации",
+     "type": "string",
+     "comment": "Периодический, потоковый, ручной."
+    },
+    {
+     "code": "lastSyncAt",
+     "name": "последняя синхронизация",
+     "type": "date",
+     "comment": "Когда двойник обновлён данными актива."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "LIFE",
+     "name": "Жизненный цикл и валидация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModelParameter",
+   "name": "Параметр модели",
+   "comment": "BFO/IAO: ICE — именованная величина, которая задаёт расчётную или проектную характеристику элемента. Параметр имеет значение, единицу и источник происхождения.",
+   "attributes": [
+    {
+     "code": "value",
+     "name": "значение",
+     "type": "string",
+     "comment": "Числовое или категориальное значение."
+    },
+    {
+     "code": "unit",
+     "name": "единица",
+     "type": "string",
+     "comment": "Единица измерения значения."
+    },
+    {
+     "code": "source",
+     "name": "источник",
+     "type": "string",
+     "comment": "Откуда взято значение: паспорт, расчёт, допущение."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SimulationResult",
+   "name": "Результат расчёта",
+   "comment": "BFO/IAO: ICE — зафиксированный выход расчётной модели: поля, напряжения, расходы, вибрация. Результат подтверждает или опровергает требование и не равен самой расчётной модели.",
+   "attributes": [
+    {
+     "code": "solver",
+     "name": "решатель",
+     "type": "string",
+     "comment": "Каким инструментом выполнен расчёт."
+    },
+    {
+     "code": "runDate",
+     "name": "дата прогона",
+     "type": "date",
+     "comment": "Когда выполнен расчёт."
+    },
+    {
+     "code": "convergence",
+     "name": "сходимость",
+     "type": "string",
+     "comment": "Сошёлся ли расчёт и с каким критерием."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "UnitOfMeasure",
+   "name": "Единица измерения",
+   "comment": "BFO/IAO: ICE — согласованная единица, в которой выражены параметры и ограничения. Единица нужна для сопоставимости расчётов и проверок между методами.",
+   "attributes": [
+    {
+     "code": "symbol",
+     "name": "обозначение",
+     "type": "string",
+     "comment": "Символ единицы."
+    },
+    {
+     "code": "dimension",
+     "name": "размерность",
+     "type": "string",
+     "comment": "Длина, масса, время, мощность, виброскорость."
+    },
+    {
+     "code": "system",
+     "name": "система",
+     "type": "string",
+     "comment": "СИ или внесистемная единица."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CompetencyQuestion",
+   "name": "Вопрос компетенции",
+   "comment": "BFO/IAO: ICE — вопрос, на который должна ответить модель. Вопрос компетенции задаёт границы федерации моделей и критерий её полноты.",
+   "attributes": [
+    {
+     "code": "question",
+     "name": "вопрос",
+     "type": "string",
+     "comment": "Текст вопроса."
+    },
+    {
+     "code": "priority",
+     "name": "приоритет",
+     "type": "string",
+     "comment": "Насколько вопрос важен для модели."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModelFederation",
+   "name": "Федерация моделей",
+   "comment": "BFO/IAO: ICE — агрегат информационных сущностей: согласованная совокупность моделей разных методов, которые описывают одну систему и связаны соответствиями, прослеживаемостью и общими правилами. Федерация не является ни отдельной моделью, ни средой моделирования.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Название федерации."
+    },
+    {
+     "code": "scope",
+     "name": "охват",
+     "type": "string",
+     "comment": "Какие методы, модели и активы входят в федерацию."
+    },
+    {
+     "code": "coherenceLevel",
+     "name": "согласованность",
+     "type": "string",
+     "comment": "Согласована, частично согласована, содержит блокирующие находки."
+    },
+    {
+     "code": "governance",
+     "name": "управление",
+     "type": "string",
+     "comment": "Кто принимает решения о составе и версиях федерации."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODEL",
+     "name": "Модели и прослеживаемость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModalStatement",
+   "name": "Модальное утверждение",
+   "comment": "BFO/IAO: ICE — реифицирует утверждение о необходимости, обязанности, знании, ценности или времени. Поля: режим, пропозиция, агент, контекст, срок действия и источник.",
+   "attributes": [
+    {
+     "code": "mode",
+     "name": "режим",
+     "type": "string",
+     "comment": "Алетический, деонтический, эпистемический, аксиологический или темпоральный."
+    },
+    {
+     "code": "proposition",
+     "name": "пропозиция",
+     "type": "string",
+     "comment": "Что именно утверждается."
+    },
+    {
+     "code": "agent",
+     "name": "агент",
+     "type": "string",
+     "comment": "Кто утверждает или для кого действует норма."
+    },
+    {
+     "code": "context",
+     "name": "контекст",
+     "type": "string",
+     "comment": "Где и в каких границах утверждение действует."
+    },
+    {
+     "code": "validFrom",
+     "name": "действует с",
+     "type": "date",
+     "comment": "Дата начала действия утверждения."
+    },
+    {
+     "code": "source",
+     "name": "источник",
+     "type": "string",
+     "comment": "Документ или роль — основание утверждения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальные квалификации"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModalMode",
+   "name": "Модальный режим",
+   "comment": "BFO/IAO: ICE — тип режима истинности утверждения: алетический, деонтический, эпистемический, аксиологический, темпоральный. Не является модальным утверждением и не задаёт пропозицию.",
+   "attributes": [
+    {
+     "code": "operator",
+     "name": "оператор",
+     "type": "string",
+     "comment": "□/◇, O/P/F, K/B, ценностный или темпоральный оператор."
+    },
+    {
+     "code": "question",
+     "name": "вопрос режима",
+     "type": "string",
+     "comment": "Что проверяет режим: необходимость, обязанность, знание, ценность, время."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальные квалификации"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "systemIntegratesMethod",
+   "name": "интегрирует метод",
+   "comment": "Интегрированная среда включает метод моделирования в свой контур.",
+   "fromClass": "IntegratedModelingSystem",
+   "toClass": "ModelingMethod"
+  },
+  {
+   "code": "systemHasInterface",
+   "name": "включает интерфейс",
+   "comment": "Среда включает специализированный интерфейс для обмена данными.",
+   "fromClass": "IntegratedModelingSystem",
+   "toClass": "SpecializedInterface"
+  },
+  {
+   "code": "systemUsesRepository",
+   "name": "опирается на хранилище",
+   "comment": "Среда использует хранилище для версий и базовых конфигураций.",
+   "fromClass": "IntegratedModelingSystem",
+   "toClass": "ModelRepository"
+  },
+  {
+   "code": "methodUsesLanguage",
+   "name": "использует язык",
+   "comment": "Метод моделирования записывает модели на определённом языке.",
+   "fromClass": "ModelingMethod",
+   "toClass": "ModelingLanguage"
+  },
+  {
+   "code": "methodAppliesToSystem",
+   "name": "применяется к системе",
+   "comment": "Метод применяется к моделируемой системе или её части.",
+   "fromClass": "ModelingMethod",
+   "toClass": "SystemUnderStudy"
+  },
+  {
+   "code": "languageDefinedByMetamodel",
+   "name": "определяется метамоделью",
+   "comment": "Язык моделирования задаётся метамоделью допустимых типов и связей.",
+   "fromClass": "ModelingLanguage",
+   "toClass": "Metamodel"
+  },
+  {
+   "code": "metamodelHasElementType",
+   "name": "содержит тип элемента",
+   "comment": "Метамодель содержит допустимый тип элемента.",
+   "fromClass": "Metamodel",
+   "toClass": "MetamodelElementType"
+  },
+  {
+   "code": "toolImplementsMethod",
+   "name": "реализует метод",
+   "comment": "Инструмент моделирования поддерживает метод на практике.",
+   "fromClass": "ModelingTool",
+   "toClass": "ModelingMethod"
+  },
+  {
+   "code": "toolExposesInterface",
+   "name": "предоставляет интерфейс",
+   "comment": "Инструмент предоставляет специализированный интерфейс обмена.",
+   "fromClass": "ModelingTool",
+   "toClass": "SpecializedInterface"
+  },
+  {
+   "code": "toolReadsFormat",
+   "name": "читает формат",
+   "comment": "Инструмент принимает модели в указанном формате обмена.",
+   "fromClass": "ModelingTool",
+   "toClass": "DataExchangeFormat"
+  },
+  {
+   "code": "toolWritesFormat",
+   "name": "записывает формат",
+   "comment": "Инструмент выгружает модели в указанном формате обмена.",
+   "fromClass": "ModelingTool",
+   "toClass": "DataExchangeFormat"
+  },
+  {
+   "code": "interfaceExchangesFormat",
+   "name": "передаёт формат",
+   "comment": "Специализированный интерфейс передаёт данные в определённом формате.",
+   "fromClass": "SpecializedInterface",
+   "toClass": "DataExchangeFormat"
+  },
+  {
+   "code": "interfaceConnectsTool",
+   "name": "связывает инструмент",
+   "comment": "Интерфейс соединяет инструмент с другими участниками обмена.",
+   "fromClass": "SpecializedInterface",
+   "toClass": "ModelingTool"
+  },
+  {
+   "code": "toolStoresInRepository",
+   "name": "размещает в хранилище",
+   "comment": "Инструмент сохраняет модели в хранилище.",
+   "fromClass": "ModelingTool",
+   "toClass": "ModelRepository"
+  },
+  {
+   "code": "modelConformsToMetamodel",
+   "name": "соответствует метамодели",
+   "comment": "Модель построена по правилам метамодели своего языка.",
+   "fromClass": "Model",
+   "toClass": "Metamodel"
+  },
+  {
+   "code": "modelExpressedInLanguage",
+   "name": "выражена на языке",
+   "comment": "Модель записана на конкретном языке моделирования.",
+   "fromClass": "Model",
+   "toClass": "ModelingLanguage"
+  },
+  {
+   "code": "modelHasElement",
+   "name": "содержит элемент",
+   "comment": "Модель включает элемент как осмысленную единицу.",
+   "fromClass": "Model",
+   "toClass": "ModelElement"
+  },
+  {
+   "code": "modelHasRequirement",
+   "name": "содержит требование",
+   "comment": "Модель требований включает требование как проверяемую единицу состава. Отношение отделено от «содержит элемент», поскольку требование — самостоятельный класс, а не элемент модели другого языка.",
+   "fromClass": "Model",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "modelHasFragment",
+   "name": "включает фрагмент",
+   "comment": "Модель содержит выделенный фрагмент.",
+   "fromClass": "Model",
+   "toClass": "ModelFragment"
+  },
+  {
+   "code": "modelHasView",
+   "name": "представлена видом",
+   "comment": "Модель отображается через одно или несколько представлений.",
+   "fromClass": "Model",
+   "toClass": "ModelView"
+  },
+  {
+   "code": "viewConformsToViewpoint",
+   "name": "соответствует точке зрения",
+   "comment": "Представление отвечает интересам конкретной точки зрения.",
+   "fromClass": "ModelView",
+   "toClass": "Viewpoint"
+  },
+  {
+   "code": "viewpointAddressesStakeholder",
+   "name": "учитывает интересы",
+   "comment": "Точка зрения выражает интересы заинтересованной стороны.",
+   "fromClass": "Viewpoint",
+   "toClass": "Stakeholder"
+  },
+  {
+   "code": "modelRepresentsSystem",
+   "name": "представляет систему",
+   "comment": "Модель описывает моделируемую систему или её часть.",
+   "fromClass": "Model",
+   "toClass": "SystemUnderStudy"
+  },
+  {
+   "code": "elementRepresentsAsset",
+   "name": "представляет актив",
+   "comment": "Элемент модели обозначает конкретный физический актив.",
+   "fromClass": "ModelElement",
+   "toClass": "PhysicalAsset"
+  },
+  {
+   "code": "elementInstantiatedFromType",
+   "name": "конкретизирует тип",
+   "comment": "Элемент модели является экземпляром типа метамодели.",
+   "fromClass": "ModelElement",
+   "toClass": "MetamodelElementType"
+  },
+  {
+   "code": "fragmentGroupsElement",
+   "name": "объединяет элемент",
+   "comment": "Фрагмент модели собирает элементы по задаче или ответственности.",
+   "fromClass": "ModelFragment",
+   "toClass": "ModelElement"
+  },
+  {
+   "code": "elementDefinesParameter",
+   "name": "задаёт параметр",
+   "comment": "Элемент модели задаёт расчётный или проектный параметр.",
+   "fromClass": "ModelElement",
+   "toClass": "ModelParameter"
+  },
+  {
+   "code": "parameterHasUnit",
+   "name": "измеряется в",
+   "comment": "Параметр выражен в определённой единице измерения.",
+   "fromClass": "ModelParameter",
+   "toClass": "UnitOfMeasure"
+  },
+  {
+   "code": "modelStoredInRepository",
+   "name": "хранится в",
+   "comment": "Модель размещена в хранилище моделей.",
+   "fromClass": "Model",
+   "toClass": "ModelRepository"
+  },
+  {
+   "code": "traceSource",
+   "name": "исходит из элемента",
+   "comment": "Связь прослеживаемости начинается с элемента модели.",
+   "fromClass": "TraceLink",
+   "toClass": "ModelElement"
+  },
+  {
+   "code": "traceTarget",
+   "name": "ведёт к элементу",
+   "comment": "Связь прослеживаемости указывает на другой элемент модели.",
+   "fromClass": "TraceLink",
+   "toClass": "ModelElement"
+  },
+  {
+   "code": "traceLinksRequirement",
+   "name": "прослеживает требование",
+   "comment": "Связь прослеживаемости связывает элемент с требованием.",
+   "fromClass": "TraceLink",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "traceLinksResult",
+   "name": "ведёт к результату",
+   "comment": "Связь прослеживаемости связывает элемент с результатом расчёта.",
+   "fromClass": "TraceLink",
+   "toClass": "SimulationResult"
+  },
+  {
+   "code": "requirementConstrainsAsset",
+   "name": "предъявляется к активу",
+   "comment": "Требование предъявляется к конкретному физическому активу.",
+   "fromClass": "Requirement",
+   "toClass": "PhysicalAsset"
+  },
+  {
+   "code": "requirementVerifiedByResult",
+   "name": "подтверждается результатом",
+   "comment": "Требование подтверждается или опровергается результатом расчёта.",
+   "fromClass": "Requirement",
+   "toClass": "SimulationResult"
+  },
+  {
+   "code": "constraintLimitsParameter",
+   "name": "ограничивает параметр",
+   "comment": "Ограничение задаёт допустимый диапазон параметра модели.",
+   "fromClass": "Constraint",
+   "toClass": "ModelParameter"
+  },
+  {
+   "code": "constraintRefinesRequirement",
+   "name": "уточняет требование",
+   "comment": "Ограничение конкретизирует требование в проверяемой форме.",
+   "fromClass": "Constraint",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "mappingSource",
+   "name": "сопоставляет источник",
+   "comment": "Семантическое соответствие берёт элемент одного языка как источник.",
+   "fromClass": "SemanticMapping",
+   "toClass": "ModelElement"
+  },
+  {
+   "code": "mappingTarget",
+   "name": "сопоставляет цель",
+   "comment": "Семантическое соответствие указывает элемент другого языка как цель.",
+   "fromClass": "SemanticMapping",
+   "toClass": "ModelElement"
+  },
+  {
+   "code": "mappingJustifiesTrace",
+   "name": "обосновывает связь",
+   "comment": "Семантическое соответствие обосновывает связь прослеживаемости.",
+   "fromClass": "SemanticMapping",
+   "toClass": "TraceLink"
+  },
+  {
+   "code": "transformationInputModel",
+   "name": "принимает модель",
+   "comment": "Преобразование читает исходную модель.",
+   "fromClass": "ModelTransformation",
+   "toClass": "Model"
+  },
+  {
+   "code": "transformationOutputModel",
+   "name": "порождает модель",
+   "comment": "Преобразование создаёт целевую модель.",
+   "fromClass": "ModelTransformation",
+   "toClass": "Model"
+  },
+  {
+   "code": "transformationImplementsMapping",
+   "name": "реализует соответствие",
+   "comment": "Преобразование выполняет правила семантического соответствия.",
+   "fromClass": "ModelTransformation",
+   "toClass": "SemanticMapping"
+  },
+  {
+   "code": "resultProducedByTransformation",
+   "name": "получен преобразованием",
+   "comment": "Результат расчёта получен в ходе преобразования модели.",
+   "fromClass": "SimulationResult",
+   "toClass": "ModelTransformation"
+  },
+  {
+   "code": "validationRuleChecksModel",
+   "name": "проверяет модель",
+   "comment": "Правило проверки применяется к модели целиком.",
+   "fromClass": "ValidationRule",
+   "toClass": "Model"
+  },
+  {
+   "code": "validationRuleChecksElementType",
+   "name": "проверяет тип элемента",
+   "comment": "Правило проверки применяется к элементам определённого типа.",
+   "fromClass": "ValidationRule",
+   "toClass": "MetamodelElementType"
+  },
+  {
+   "code": "validationRuleProducesFinding",
+   "name": "порождает находку",
+   "comment": "Правило проверки порождает находку при нарушении.",
+   "fromClass": "ValidationRule",
+   "toClass": "ConsistencyFinding"
+  },
+  {
+   "code": "findingViolatesRule",
+   "name": "нарушает правило",
+   "comment": "Находка фиксирует нарушение конкретного правила.",
+   "fromClass": "ConsistencyFinding",
+   "toClass": "ValidationRule"
+  },
+  {
+   "code": "findingAffectsElement",
+   "name": "затрагивает элемент",
+   "comment": "Находка относится к элементу модели, в котором обнаружено нарушение.",
+   "fromClass": "ConsistencyFinding",
+   "toClass": "ModelElement"
+  },
+  {
+   "code": "findingBlocksBaseline",
+   "name": "блокирует конфигурацию",
+   "comment": "Блокирующая находка не позволяет зафиксировать базовую конфигурацию.",
+   "fromClass": "ConsistencyFinding",
+   "toClass": "Baseline"
+  },
+  {
+   "code": "modelHasVersion",
+   "name": "имеет версию",
+   "comment": "Модель имеет зафиксированную версию.",
+   "fromClass": "Model",
+   "toClass": "Version"
+  },
+  {
+   "code": "versionInBaseline",
+   "name": "входит в базовую конфигурацию",
+   "comment": "Версия включена в замороженную базовую конфигурацию.",
+   "fromClass": "Version",
+   "toClass": "Baseline"
+  },
+  {
+   "code": "baselineFixesModel",
+   "name": "фиксирует модель",
+   "comment": "Базовая конфигурация фиксирует состояние модели.",
+   "fromClass": "Baseline",
+   "toClass": "Model"
+  },
+  {
+   "code": "changeRequestTargetsModel",
+   "name": "затрагивает модель",
+   "comment": "Запрос на изменение относится к модели, которую нужно изменить.",
+   "fromClass": "ChangeRequest",
+   "toClass": "Model"
+  },
+  {
+   "code": "changeRequestProducesVersion",
+   "name": "порождает версию",
+   "comment": "Реализованный запрос на изменение порождает новую версию модели.",
+   "fromClass": "ChangeRequest",
+   "toClass": "Version"
+  },
+  {
+   "code": "changeRequestAddressesFinding",
+   "name": "устраняет находку",
+   "comment": "Запрос на изменение направлен на устранение находки проверки.",
+   "fromClass": "ChangeRequest",
+   "toClass": "ConsistencyFinding"
+  },
+  {
+   "code": "modelInPhase",
+   "name": "находится в фазе",
+   "comment": "Модель находится в определённой фазе жизненного цикла.",
+   "fromClass": "Model",
+   "toClass": "LifecyclePhase"
+  },
+  {
+   "code": "phaseFollowsPhase",
+   "name": "следует за фазой",
+   "comment": "Фаза жизненного цикла наступает после другой фазы.",
+   "fromClass": "LifecyclePhase",
+   "toClass": "LifecyclePhase"
+  },
+  {
+   "code": "threadConnectsModel",
+   "name": "связывает модель",
+   "comment": "Цифровая нить включает модель в свою траекторию.",
+   "fromClass": "DigitalThread",
+   "toClass": "Model"
+  },
+  {
+   "code": "threadConnectsRequirement",
+   "name": "связывает требование",
+   "comment": "Цифровая нить включает требование в свою траекторию.",
+   "fromClass": "DigitalThread",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "threadConnectsAsset",
+   "name": "связывает актив",
+   "comment": "Цифровая нить связывает физический актив с его моделями.",
+   "fromClass": "DigitalThread",
+   "toClass": "PhysicalAsset"
+  },
+  {
+   "code": "threadConnectsResult",
+   "name": "связывает результат",
+   "comment": "Цифровая нить включает результат расчёта в свою траекторию.",
+   "fromClass": "DigitalThread",
+   "toClass": "SimulationResult"
+  },
+  {
+   "code": "twinRepresentsAsset",
+   "name": "представляет экземпляр актива",
+   "comment": "Цифровой двойник привязан к конкретному экземпляру физического актива.",
+   "fromClass": "DigitalTwin",
+   "toClass": "PhysicalAsset"
+  },
+  {
+   "code": "twinSynchronizedWithModel",
+   "name": "синхронизируется с моделью",
+   "comment": "Цифровой двойник обновляется данными модели.",
+   "fromClass": "DigitalTwin",
+   "toClass": "Model"
+  },
+  {
+   "code": "twinUsesResult",
+   "name": "использует результат",
+   "comment": "Цифровой двойник опирается на результаты расчётов.",
+   "fromClass": "DigitalTwin",
+   "toClass": "SimulationResult"
+  },
+  {
+   "code": "questionGuidesModel",
+   "name": "задаёт границы модели",
+   "comment": "Вопрос компетенции задаёт границы и критерий полноты модели.",
+   "fromClass": "CompetencyQuestion",
+   "toClass": "Model"
+  },
+  {
+   "code": "stakeholderOwnsRequirement",
+   "name": "владеет требованием",
+   "comment": "Заинтересованная сторона отвечает за требование и его изменение.",
+   "fromClass": "Stakeholder",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "systemHostsFederation",
+   "name": "размещает федерацию",
+   "comment": "Интегрированная среда размещает федерацию моделей и обеспечивает её работу.",
+   "fromClass": "IntegratedModelingSystem",
+   "toClass": "ModelFederation"
+  },
+  {
+   "code": "federationIncludesModel",
+   "name": "включает модель",
+   "comment": "Федерация включает модель как часть своего состава.",
+   "fromClass": "ModelFederation",
+   "toClass": "Model"
+  },
+  {
+   "code": "federationRepresentsSystem",
+   "name": "описывает систему",
+   "comment": "Федерация как целое описывает моделируемую систему.",
+   "fromClass": "ModelFederation",
+   "toClass": "SystemUnderStudy"
+  },
+  {
+   "code": "federationUsesMethod",
+   "name": "управляется методом",
+   "comment": "Федерация использует метод для описания, связывания или управления моделями.",
+   "fromClass": "ModelFederation",
+   "toClass": "ModelingMethod"
+  },
+  {
+   "code": "federationHasBaseline",
+   "name": "фиксируется конфигурацией",
+   "comment": "Федерация фиксируется базовой конфигурацией.",
+   "fromClass": "ModelFederation",
+   "toClass": "Baseline"
+  },
+  {
+   "code": "federationHasThread",
+   "name": "прослеживается нитью",
+   "comment": "Федерация прослеживается через цифровую нить.",
+   "fromClass": "ModelFederation",
+   "toClass": "DigitalThread"
+  },
+  {
+   "code": "federationHasMapping",
+   "name": "содержит соответствие",
+   "comment": "Федерация содержит семантическое соответствие между моделями разных методов.",
+   "fromClass": "ModelFederation",
+   "toClass": "SemanticMapping"
+  },
+  {
+   "code": "federationHasFinding",
+   "name": "содержит находку",
+   "comment": "Федерация содержит находку проверки, относящуюся к её моделям.",
+   "fromClass": "ModelFederation",
+   "toClass": "ConsistencyFinding"
+  },
+  {
+   "code": "federationCheckedByRule",
+   "name": "проверяется правилом",
+   "comment": "Федерация проверяется правилом целостности или согласованности.",
+   "fromClass": "ModelFederation",
+   "toClass": "ValidationRule"
+  },
+  {
+   "code": "requirementConstrainsFederation",
+   "name": "предъявляется к федерации",
+   "comment": "Требование предъявляется к федерации как к целому, а не к отдельной модели.",
+   "fromClass": "Requirement",
+   "toClass": "ModelFederation"
+  },
+  {
+   "code": "questionGuidesFederation",
+   "name": "задаёт границы федерации",
+   "comment": "Вопрос компетенции задаёт границы и критерий полноты федерации.",
+   "fromClass": "CompetencyQuestion",
+   "toClass": "ModelFederation"
+  },
+  {
+   "code": "modalStatementQualifiesRequirement",
+   "name": "квалифицирует требование",
+   "comment": "Модальное утверждение задаёт режим требования.",
+   "fromClass": "ModalStatement",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "modalStatementQualifiesMapping",
+   "name": "квалифицирует соответствие",
+   "comment": "Модальное утверждение задаёт режим семантического соответствия.",
+   "fromClass": "ModalStatement",
+   "toClass": "SemanticMapping"
+  },
+  {
+   "code": "modalStatementQualifiesFinding",
+   "name": "квалифицирует находку",
+   "comment": "Модальное утверждение задаёт режим находки проверки.",
+   "fromClass": "ModalStatement",
+   "toClass": "ConsistencyFinding"
+  },
+  {
+   "code": "modalStatementQualifiesFederation",
+   "name": "квалифицирует федерацию",
+   "comment": "Модальное утверждение задаёт режим федерации как целого.",
+   "fromClass": "ModalStatement",
+   "toClass": "ModelFederation"
+  },
+  {
+   "code": "modalStatementHasMode",
+   "name": "имеет режим",
+   "comment": "Модальное утверждение относится к одному модальному режиму.",
+   "fromClass": "ModalStatement",
+   "toClass": "ModalMode"
+  }
+ ],
+ "info": {
+  "description": "Онтология описывает контур интегрированного информационного моделирования. Метод моделирования опирается на язык, язык определяется метамоделью, а метамодель задаёт типы элементов. Инструменты реализуют методы и обмениваются данными через специализированные интерфейсы и форматы. Модели разных методов представляют одну моделируемую систему, состоят из элементов, фрагментов и представлений и хранятся в репозитории. Семантические соответствия и связи прослеживаемости соединяют элементы разных языков, преобразования порождают новые модели, а проверки находят противоречия и неполноту. Версии, базовые конфигурации и запросы на изменение фиксируют состояние модели, цифровая нить связывает требования, модели, активы и результаты расчётов, а цифровой двойник синхронизируется с активом и моделью. Модель отвечает на вопросы о связности методов, происхождении элемента, причинах находки и готовности конфигурации к следующей фазе. Федерация моделей объединяет модели разных методов в согласованное целое с общими соответствиями, находками и правилами, а модальные утверждения задают режим истинности требований, соответствий, находок и самой федерации.",
+  "scope": [
+   "Методы и языки: Enterprise Architecture, BPMN, CAD, CAE, конечные автоматы, электрические схемы, метамодели и типы элементов",
+   "Инструменты и интерфейсы: инструменты моделирования, специализированные интерфейсы, форматы обмена, хранилища моделей",
+   "Модели и представления: модель, элемент, фрагмент, представление, точка зрения, моделируемая система и физический актив",
+   "Федерация и прослеживаемость: семантические соответствия, связи прослеживаемости, преобразования моделей, требования и ограничения",
+   "Федерация как целое: состав моделей, согласованность, базовая конфигурация, находки и правила уровня федерации",
+   "Модальные квалификации: алетический, деонтический, эпистемический, аксиологический и темпоральный режимы утверждений",
+   "Валидация и версии: правила проверки, находки, версии, базовые конфигурации, запросы на изменение",
+   "Жизненный цикл: фазы, цифровая нить, цифровой двойник, параметры модели, единицы измерения и результаты расчётов"
+  ],
+  "competencyQuestions": [
+   "Какие методы объединяет интегрированная среда моделирования и на каких языках и метамоделях они основаны?",
+   "Какие специализированные интерфейсы и форматы обмена связывают инструменты разных методов?",
+   "Какие модели представляют одну и ту же моделируемую систему и как они соотнесены между собой?",
+   "Какие элементы моделей представляют физические активы и каким типам метамодели они соответствуют?",
+   "Как требование прослеживается до элемента модели, результата расчёта и физического актива?",
+   "Где расходятся семантические соответствия между методами и какие элементы остались без пары?",
+   "Какие правила проверки применяются к моделям и какие находки блокируют базовую конфигурацию?",
+   "Какие изменения затрагивают модели и какие версии они порождают?",
+   "Как цифровая нить связывает требования, модели, активы и результаты расчётов?",
+   "Чем цифровой двойник отличается от модели и с чем он синхронизируется?",
+   "В какой фазе жизненного цикла находится модель и какая фаза следует дальше?",
+   "Какие параметры и единицы измерения используются в расчётах и какие ограничения на них наложены?",
+   "Какие модели входят в федерацию, какими методами они управляются и какова её согласованность?",
+   "Какие модальные утверждения квалифицируют требование, соответствие, находку и федерацию?",
+   "Как смена модального режима утверждения влияет на трактовку требования и на состав федерации?",
+   "Какие находки и правила действуют на уровне федерации, а не отдельной модели?"
+  ]
+ },
+ "theme": [
+  {
+   "code": "METH",
+   "name": "Методы и языки моделирования",
+   "color": "#60a5fa"
+  },
+  {
+   "code": "TOOL",
+   "name": "Инструменты и интерфейсы",
+   "color": "#34d399"
+  },
+  {
+   "code": "MODEL",
+   "name": "Модели и прослеживаемость",
+   "color": "#fbbf24"
+  },
+  {
+   "code": "LIFE",
+   "name": "Жизненный цикл и валидация",
+   "color": "#f87171"
+  },
+  {
+   "code": "MODAL",
+   "name": "Модальные квалификации",
+   "color": "#6b4c9a"
+  }
+ ]
+}

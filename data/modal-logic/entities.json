@@ -1,0 +1,502 @@
+{
+ "entities": [
+  {
+   "id": "allergic-pacient",
+   "label": "¬allergic(пациент)",
+   "classCode": "ModalFormula"
+  },
+  {
+   "id": "neobhodimost",
+   "label": "□ (необходимость)",
+   "classCode": "ModalOperator"
+  },
+  {
+   "id": "peredozirovka-toksichnost",
+   "label": "□(передозировка → токсичность)",
+   "classCode": "ModalFormula"
+  },
+  {
+   "id": "vozmozhnost",
+   "label": "◇ (возможность)",
+   "classCode": "ModalOperator"
+  },
+  {
+   "id": "toksichnost-preparat-x",
+   "label": "◇ токсичность(препарат X)",
+   "classCode": "ModalFormula"
+  },
+  {
+   "id": "class-agent",
+   "label": "Агент",
+   "classCode": "Person",
+   "isClass": true
+  },
+  {
+   "id": "aleticheskoe-prochtenie",
+   "label": "Алетическое прочтение",
+   "classCode": "ModalityReading"
+  },
+  {
+   "id": "anna-farmacevt",
+   "label": "Анна (фармацевт)",
+   "classCode": "Person"
+  },
+  {
+   "id": "boris-stazher",
+   "label": "Борис (стажёр)",
+   "classCode": "Person"
+  },
+  {
+   "id": "class-vid-neobhodimosti",
+   "label": "Вид необходимости",
+   "classCode": "NecessityKind",
+   "isClass": true
+  },
+  {
+   "id": "vremennoe-prochtenie",
+   "label": "Временное прочтение",
+   "classCode": "ModalityReading"
+  },
+  {
+   "id": "class-vremennoy-interval",
+   "label": "Временной интервал",
+   "classCode": "TemporalInterval",
+   "isClass": true
+  },
+  {
+   "id": "class-deonticheskiy-status",
+   "label": "Деонтический статус",
+   "classCode": "DeonticStatus",
+   "isClass": true
+  },
+  {
+   "id": "deonticheskoe-prochtenie",
+   "label": "Деонтическое прочтение",
+   "classCode": "ModalityReading"
+  },
+  {
+   "id": "class-dispoziciya",
+   "label": "Диспозиция",
+   "classCode": "Disposition",
+   "isClass": true
+  },
+  {
+   "id": "evklidovost",
+   "label": "Евклидовость",
+   "classCode": "FrameCondition"
+  },
+  {
+   "id": "zapret-borisu-vydacha-bez-proverki",
+   "label": "Запрет Борису: выдача без проверки",
+   "classCode": "DeonticStatus"
+  },
+  {
+   "id": "znanie-anny-pacient-allergik",
+   "label": "Знание Анны: пациент аллергик",
+   "classCode": "EpistemicAttitude"
+  },
+  {
+   "id": "logicheskaya-neobhodimost",
+   "label": "Логическая необходимость",
+   "classCode": "NecessityKind"
+  },
+  {
+   "id": "class-materialnaya-suschnost",
+   "label": "Материальная сущность",
+   "classCode": "MaterialEntity",
+   "isClass": true
+  },
+  {
+   "id": "metafizicheskaya-neobhodimost",
+   "label": "Метафизическая необходимость",
+   "classCode": "NecessityKind"
+  },
+  {
+   "id": "class-mir-modeli",
+   "label": "Мир модели",
+   "classCode": "ModelWorld",
+   "isClass": true
+  },
+  {
+   "id": "mir-t1",
+   "label": "Мир t1",
+   "classCode": "ModelWorld"
+  },
+  {
+   "id": "mir-t2",
+   "label": "Мир t2",
+   "classCode": "ModelWorld"
+  },
+  {
+   "id": "mir-w1",
+   "label": "Мир w1",
+   "classCode": "ModelWorld"
+  },
+  {
+   "id": "mir-w2",
+   "label": "Мир w2",
+   "classCode": "ModelWorld"
+  },
+  {
+   "id": "class-modalnaya-formula",
+   "label": "Модальная формула",
+   "classCode": "ModalFormula",
+   "isClass": true
+  },
+  {
+   "id": "class-modalnyy-operator",
+   "label": "Модальный оператор",
+   "classCode": "ModalOperator",
+   "isClass": true
+  },
+  {
+   "id": "class-model-kripke",
+   "label": "Модель Крипке",
+   "classCode": "KripkeModel",
+   "isClass": true
+  },
+  {
+   "id": "model-m-epi",
+   "label": "Модель M_epi",
+   "classCode": "KripkeModel"
+  },
+  {
+   "id": "model-m-temp",
+   "label": "Модель M_temp",
+   "classCode": "KripkeModel"
+  },
+  {
+   "id": "moment-09-00",
+   "label": "Момент 09:00",
+   "classCode": "TemporalInstant"
+  },
+  {
+   "id": "moment-09-10",
+   "label": "Момент 09:10",
+   "classCode": "TemporalInstant"
+  },
+  {
+   "id": "class-moment-vremeni",
+   "label": "Момент времени",
+   "classCode": "TemporalInstant",
+   "isClass": true
+  },
+  {
+   "id": "nomologicheskaya-neobhodimost",
+   "label": "Номологическая необходимость",
+   "classCode": "NecessityKind"
+  },
+  {
+   "id": "class-norma",
+   "label": "Норма",
+   "classCode": "Norm",
+   "isClass": true
+  },
+  {
+   "id": "norma-proverka-allergiy-pered-vydachey",
+   "label": "Норма: проверка аллергий перед выдачей",
+   "classCode": "Norm"
+  },
+  {
+   "id": "obyazatelstvo-anny-proverit-allergii",
+   "label": "Обязательство Анны: проверить аллергии",
+   "classCode": "DeonticStatus"
+  },
+  {
+   "id": "otnoshenie-vremya",
+   "label": "Отношение < (время)",
+   "classCode": "AccessibilityRelation"
+  },
+  {
+   "id": "class-otnoshenie-dostizhimosti",
+   "label": "Отношение достижимости",
+   "classCode": "AccessibilityRelation",
+   "isClass": true
+  },
+  {
+   "id": "otnoshenie-r-anna",
+   "label": "Отношение R_Анна",
+   "classCode": "AccessibilityRelation"
+  },
+  {
+   "id": "class-ocenka",
+   "label": "Оценка",
+   "classCode": "Valuation",
+   "isClass": true
+  },
+  {
+   "id": "ocenka-v-epi",
+   "label": "Оценка V_epi",
+   "classCode": "Valuation"
+  },
+  {
+   "id": "ocenka-v-temp",
+   "label": "Оценка V_temp",
+   "classCode": "Valuation"
+  },
+  {
+   "id": "class-pravilo-vyvoda",
+   "label": "Правило вывода",
+   "classCode": "InferenceRule",
+   "isClass": true
+  },
+  {
+   "id": "pravilo-neobhodimosti",
+   "label": "Правило необходимости",
+   "classCode": "InferenceRule"
+  },
+  {
+   "id": "preparat-x",
+   "label": "Препарат X",
+   "classCode": "MaterialEntity"
+  },
+  {
+   "id": "proverka-allergiy-v-09-00",
+   "label": "Проверка аллергий в 09:00",
+   "classCode": "Process"
+  },
+  {
+   "id": "class-process",
+   "label": "Процесс",
+   "classCode": "Process",
+   "isClass": true
+  },
+  {
+   "id": "class-prochtenie-modalnosti",
+   "label": "Прочтение модальности",
+   "classCode": "ModalityReading",
+   "isClass": true
+  },
+  {
+   "id": "refleksivnost",
+   "label": "Рефлексивность",
+   "classCode": "FrameCondition"
+  },
+  {
+   "id": "seriynost",
+   "label": "Серийность",
+   "classCode": "FrameCondition"
+  },
+  {
+   "id": "class-sistema-modalnoy-logiki",
+   "label": "Система модальной логики",
+   "classCode": "ModalLogicSystem",
+   "isClass": true
+  },
+  {
+   "id": "sistema-d",
+   "label": "Система D",
+   "classCode": "ModalLogicSystem"
+  },
+  {
+   "id": "sistema-k",
+   "label": "Система K",
+   "classCode": "ModalLogicSystem"
+  },
+  {
+   "id": "sistema-kd45",
+   "label": "Система KD45",
+   "classCode": "ModalLogicSystem"
+  },
+  {
+   "id": "sistema-kt",
+   "label": "Система Kt",
+   "classCode": "ModalLogicSystem"
+  },
+  {
+   "id": "sistema-s4",
+   "label": "Система S4",
+   "classCode": "ModalLogicSystem"
+  },
+  {
+   "id": "sistema-s5",
+   "label": "Система S5",
+   "classCode": "ModalLogicSystem"
+  },
+  {
+   "id": "sistema-t",
+   "label": "Система T",
+   "classCode": "ModalLogicSystem"
+  },
+  {
+   "id": "smena-26-10-2026-08-00-20-00",
+   "label": "Смена 26.10.2026 08:00–20:00",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "shema-4",
+   "label": "Схема 4: □φ → □□φ",
+   "classCode": "AxiomSchema"
+  },
+  {
+   "id": "shema-5",
+   "label": "Схема 5: ◇φ → □◇φ",
+   "classCode": "AxiomSchema"
+  },
+  {
+   "id": "class-shema-aksiom",
+   "label": "Схема аксиом",
+   "classCode": "AxiomSchema",
+   "isClass": true
+  },
+  {
+   "id": "shema-d",
+   "label": "Схема D: □φ → ◇φ",
+   "classCode": "AxiomSchema"
+  },
+  {
+   "id": "shema-k",
+   "label": "Схема K: □(φ → ψ) → (□φ → □ψ)",
+   "classCode": "AxiomSchema"
+  },
+  {
+   "id": "shema-t",
+   "label": "Схема T: □φ → φ",
+   "classCode": "AxiomSchema"
+  },
+  {
+   "id": "toksicheskoe-deystvie-preparata-x-pri-peredozirovke",
+   "label": "Токсическое действие препарата X при передозировке",
+   "classCode": "Process"
+  },
+  {
+   "id": "toksichnost-preparata-x-pri-peredozirovke",
+   "label": "Токсичность препарата X при передозировке",
+   "classCode": "Disposition"
+  },
+  {
+   "id": "tranzitivnost",
+   "label": "Транзитивность",
+   "classCode": "FrameCondition"
+  },
+  {
+   "id": "ubezhdenie-borisa-pacient-ne-allergik",
+   "label": "Убеждение Бориса: пациент не аллергик",
+   "classCode": "EpistemicAttitude"
+  },
+  {
+   "id": "class-uslovie-na-freym",
+   "label": "Условие на фрейм",
+   "classCode": "FrameCondition",
+   "isClass": true
+  },
+  {
+   "id": "class-utverzhdenie-vypolnimosti",
+   "label": "Утверждение выполнимости",
+   "classCode": "SatisfactionStatement",
+   "isClass": true
+  },
+  {
+   "id": "class-freym-kripke",
+   "label": "Фрейм Крипке",
+   "classCode": "KripkeFrame",
+   "isClass": true
+  },
+  {
+   "id": "freym-f-epi",
+   "label": "Фрейм F_epi",
+   "classCode": "KripkeFrame"
+  },
+  {
+   "id": "freym-f-temp",
+   "label": "Фрейм F_temp",
+   "classCode": "KripkeFrame"
+  },
+  {
+   "id": "class-epistemicheskaya-ustanovka",
+   "label": "Эпистемическая установка",
+   "classCode": "EpistemicAttitude",
+   "isClass": true
+  },
+  {
+   "id": "epistemicheskoe-prochtenie-znanie",
+   "label": "Эпистемическое прочтение: знание",
+   "classCode": "ModalityReading"
+  },
+  {
+   "id": "epistemicheskoe-prochtenie-ubezhdenie",
+   "label": "Эпистемическое прочтение: убеждение",
+   "classCode": "ModalityReading"
+  },
+  {
+   "id": "allergic-pacient-2",
+   "label": "allergic(пациент)",
+   "classCode": "ModalFormula"
+  },
+  {
+   "id": "b-ubezhdenie",
+   "label": "B (убеждение)",
+   "classCode": "ModalOperator"
+  },
+  {
+   "id": "b-boris-allergic-pacient",
+   "label": "B_Борис ¬allergic(пациент)",
+   "classCode": "ModalFormula"
+  },
+  {
+   "id": "f-zaprescheno",
+   "label": "F (запрещено)",
+   "classCode": "ModalOperator"
+  },
+  {
+   "id": "g-vsegda-v-buduschem",
+   "label": "G (всегда в будущем)",
+   "classCode": "ModalOperator"
+  },
+  {
+   "id": "g-dispense-p-past-verify",
+   "label": "G(dispense → P_past verify)",
+   "classCode": "ModalFormula"
+  },
+  {
+   "id": "k-znanie",
+   "label": "K (знание)",
+   "classCode": "ModalOperator"
+  },
+  {
+   "id": "k-anna-allergic-pacient",
+   "label": "K_Анна allergic(пациент)",
+   "classCode": "ModalFormula"
+  },
+  {
+   "id": "k-anna-o-verify-allergii",
+   "label": "K_Анна O verify(аллергии)",
+   "classCode": "ModalFormula"
+  },
+  {
+   "id": "m-epi-w1-k-anna-allergic-pacient",
+   "label": "M_epi, w1 ⊨ K_Анна allergic(пациент)",
+   "classCode": "SatisfactionStatement"
+  },
+  {
+   "id": "m-temp-t1-g-dispense-p-past-verify",
+   "label": "M_temp, t1 ⊨ G(dispense → P_past verify)",
+   "classCode": "SatisfactionStatement"
+  },
+  {
+   "id": "modus-ponens",
+   "label": "Modus ponens",
+   "classCode": "InferenceRule"
+  },
+  {
+   "id": "o-obyazatelno",
+   "label": "O (обязательно)",
+   "classCode": "ModalOperator"
+  },
+  {
+   "id": "o-verify-allergii",
+   "label": "O verify(аллергии)",
+   "classCode": "ModalFormula"
+  },
+  {
+   "id": "p-razresheno",
+   "label": "P (разрешено)",
+   "classCode": "ModalOperator"
+  },
+  {
+   "id": "p-past-kogda-to-v-proshlom",
+   "label": "P_past (когда-то в прошлом)",
+   "classCode": "ModalOperator"
+  }
+ ]
+}

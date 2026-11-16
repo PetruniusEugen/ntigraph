@@ -1,0 +1,333 @@
+{
+ "entities": [
+  {
+   "id": "validaciya-e-mail-po-pravilam",
+   "label": "Валидация e-mail по правилам",
+   "classCode": "DataValidationFunction"
+  },
+  {
+   "id": "gromov-a-n",
+   "label": "Громов А.Н.",
+   "classCode": "Person"
+  },
+  {
+   "id": "dozapolnenie-e-mail-klientov",
+   "label": "Дозаполнение e-mail клиентов",
+   "classCode": "DataQualityIssueResolutionProcess"
+  },
+  {
+   "id": "ezhemesyachnyy-monitoring-polnoty-e-mail",
+   "label": "Ежемесячный мониторинг полноты e-mail",
+   "classCode": "DataQualityMonitoringProcess"
+  },
+  {
+   "id": "class-zapis-kataloga-dannyh",
+   "label": "Запись каталога данных",
+   "classCode": "DataCatalogEntry",
+   "isClass": true
+  },
+  {
+   "id": "izmerenie-polnota-e-mail-94-2-na-20-10-2026",
+   "label": "Измерение: полнота e-mail 94,2% на 20.10.2026",
+   "classCode": "DataQualityMeasurement"
+  },
+  {
+   "id": "class-instrument-kontrolya-kachestva-dannyh",
+   "label": "Инструмент контроля качества данных",
+   "classCode": "DataQualityTool",
+   "isClass": true
+  },
+  {
+   "id": "class-informacionnaya-sistema",
+   "label": "Информационная система",
+   "classCode": "InformationSystem",
+   "isClass": true
+  },
+  {
+   "id": "class-incident-kachestva-dannyh",
+   "label": "Инцидент качества данных",
+   "classCode": "DataQualityIncident",
+   "isClass": true
+  },
+  {
+   "id": "incident-polnota-e-mail-nizhe-98",
+   "label": "Инцидент: полнота e-mail ниже 98%",
+   "classCode": "DataQualityIncident"
+  },
+  {
+   "id": "kartochka-kataloga-spravochnik-klientov",
+   "label": "Карточка каталога: Справочник клиентов",
+   "classCode": "DataCatalogEntry"
+  },
+  {
+   "id": "kvartalnyy-monitoring-soblyudeniya-politiki",
+   "label": "Квартальный мониторинг соблюдения политики",
+   "classCode": "ComplianceMonitoringProcess"
+  },
+  {
+   "id": "kozlova-e-v",
+   "label": "Козлова Е.В.",
+   "classCode": "Person"
+  },
+  {
+   "id": "korporativnoe-dwh",
+   "label": "Корпоративное DWH",
+   "classCode": "InformationSystem"
+  },
+  {
+   "id": "class-metrika-kachestva-dannyh",
+   "label": "Метрика качества данных",
+   "classCode": "DataQualityMetric",
+   "isClass": true
+  },
+  {
+   "id": "metrika-dolya-zapolnennyh-e-mail",
+   "label": "Метрика: доля заполненных e-mail",
+   "classCode": "DataQualityMetric"
+  },
+  {
+   "id": "class-nabor-dannyh",
+   "label": "Набор данных",
+   "classCode": "DataSet",
+   "isClass": true
+  },
+  {
+   "id": "class-normativnoe-trebovanie",
+   "label": "Нормативное требование",
+   "classCode": "RegulatoryRequirement",
+   "isClass": true
+  },
+  {
+   "id": "class-organ-upravleniya-dannymi",
+   "label": "Орган управления данными",
+   "classCode": "DataGovernanceBody",
+   "isClass": true
+  },
+  {
+   "id": "ocenka-kachestva-spravochnika-klientov-oktyabr-2026",
+   "label": "Оценка качества справочника клиентов, октябрь 2026",
+   "classCode": "DataQualityAssessmentProcess"
+  },
+  {
+   "id": "ochistka-kontaktnyh-dannyh-klientov",
+   "label": "Очистка контактных данных клиентов",
+   "classCode": "DataCleansingProcess"
+  },
+  {
+   "id": "platforma-kontrolya-kachestva-dannyh",
+   "label": "Платформа контроля качества данных",
+   "classCode": "DataQualityTool"
+  },
+  {
+   "id": "class-politika-dannyh",
+   "label": "Политика данных",
+   "classCode": "DataPolicy",
+   "isClass": true
+  },
+  {
+   "id": "politika-kachestva-dannyh",
+   "label": "Политика качества данных",
+   "classCode": "DataPolicy"
+  },
+  {
+   "id": "class-polnota",
+   "label": "Полнота",
+   "classCode": "Completeness",
+   "isClass": true
+  },
+  {
+   "id": "polnota-spravochnika-klientov",
+   "label": "Полнота справочника клиентов",
+   "classCode": "Completeness"
+  },
+  {
+   "id": "class-pravilo-kachestva-dannyh",
+   "label": "Правило качества данных",
+   "classCode": "DataQualityRule",
+   "isClass": true
+  },
+  {
+   "id": "pravilo-e-mail-zapolnen-u-98-klientov",
+   "label": "Правило: e-mail заполнен у 98% клиентов",
+   "classCode": "DataQualityRule"
+  },
+  {
+   "id": "profilirovanie-spravochnika-klientov",
+   "label": "Профилирование справочника клиентов",
+   "classCode": "DataProfilingProcess"
+  },
+  {
+   "id": "class-process-monitoringa-kachestva-dannyh",
+   "label": "Процесс мониторинга качества данных",
+   "classCode": "DataQualityMonitoringProcess",
+   "isClass": true
+  },
+  {
+   "id": "class-process-monitoringa-sootvetstviya-politikam",
+   "label": "Процесс мониторинга соответствия политикам",
+   "classCode": "ComplianceMonitoringProcess",
+   "isClass": true
+  },
+  {
+   "id": "class-process-ocenki-kachestva-dannyh",
+   "label": "Процесс оценки качества данных",
+   "classCode": "DataQualityAssessmentProcess",
+   "isClass": true
+  },
+  {
+   "id": "class-process-ochistki-dannyh",
+   "label": "Процесс очистки данных",
+   "classCode": "DataCleansingProcess",
+   "isClass": true
+  },
+  {
+   "id": "class-process-profilirovaniya-dannyh",
+   "label": "Процесс профилирования данных",
+   "classCode": "DataProfilingProcess",
+   "isClass": true
+  },
+  {
+   "id": "class-process-razrabotki-politiki-dannyh",
+   "label": "Процесс разработки политики данных",
+   "classCode": "PolicyDevelopmentProcess",
+   "isClass": true
+  },
+  {
+   "id": "class-process-styuardinga-dannyh",
+   "label": "Процесс стюардинга данных",
+   "classCode": "DataStewardshipProcess",
+   "isClass": true
+  },
+  {
+   "id": "class-process-ustraneniya-incidenta-kachestva-dannyh",
+   "label": "Процесс устранения инцидента качества данных",
+   "classCode": "DataQualityIssueResolutionProcess",
+   "isClass": true
+  },
+  {
+   "id": "razrabotka-politiki-kachestva-dannyh-2026",
+   "label": "Разработка политики качества данных 2026",
+   "classCode": "PolicyDevelopmentProcess"
+  },
+  {
+   "id": "class-rezultat-izmereniya-kachestva-dannyh",
+   "label": "Результат измерения качества данных",
+   "classCode": "DataQualityMeasurement",
+   "isClass": true
+  },
+  {
+   "id": "class-rol-vladelca-dannyh",
+   "label": "Роль владельца данных",
+   "classCode": "DataOwnerRole",
+   "isClass": true
+  },
+  {
+   "id": "rol-vladelca-klientskih-dannyh",
+   "label": "Роль владельца клиентских данных",
+   "classCode": "DataOwnerRole"
+  },
+  {
+   "id": "class-rol-styuarda-dannyh",
+   "label": "Роль стюарда данных",
+   "classCode": "DataStewardRole",
+   "isClass": true
+  },
+  {
+   "id": "rol-styuarda-klientskih-dannyh",
+   "label": "Роль стюарда клиентских данных",
+   "classCode": "DataStewardRole"
+  },
+  {
+   "id": "class-rol-hranitelya-dannyh",
+   "label": "Роль хранителя данных",
+   "classCode": "DataCustodianRole",
+   "isClass": true
+  },
+  {
+   "id": "rol-hranitelya-dwh",
+   "label": "Роль хранителя DWH",
+   "classCode": "DataCustodianRole"
+  },
+  {
+   "id": "sidorov-p-p",
+   "label": "Сидоров П.П.",
+   "classCode": "Person"
+  },
+  {
+   "id": "sovet-po-dannym",
+   "label": "Совет по данным",
+   "classCode": "DataGovernanceBody"
+  },
+  {
+   "id": "spravochnik-klientov",
+   "label": "Справочник клиентов",
+   "classCode": "DataSet"
+  },
+  {
+   "id": "class-standart-dannyh",
+   "label": "Стандарт данных",
+   "classCode": "DataStandard",
+   "isClass": true
+  },
+  {
+   "id": "standart-formata-kontaktnyh-dannyh",
+   "label": "Стандарт формата контактных данных",
+   "classCode": "DataStandard"
+  },
+  {
+   "id": "styuarding-spravochnika-klientov",
+   "label": "Стюардинг справочника клиентов",
+   "classCode": "DataStewardshipProcess"
+  },
+  {
+   "id": "termin-kontaktnyy-e-mail",
+   "label": "Термин «Контактный e-mail»",
+   "classCode": "BusinessGlossaryTerm"
+  },
+  {
+   "id": "class-termin-biznes-glossariya",
+   "label": "Термин бизнес-глоссария",
+   "classCode": "BusinessGlossaryTerm",
+   "isClass": true
+  },
+  {
+   "id": "trebovanie-152-fz-k-personalnym-dannym",
+   "label": "Требование 152-ФЗ к персональным данным",
+   "classCode": "RegulatoryRequirement"
+  },
+  {
+   "id": "class-funkciya-validacii-dannyh",
+   "label": "Функция валидации данных",
+   "classCode": "DataValidationFunction",
+   "isClass": true
+  },
+  {
+   "id": "class-hranilische-dannyh",
+   "label": "Хранилище данных",
+   "classCode": "DataStore",
+   "isClass": true
+  },
+  {
+   "id": "class-chelovek",
+   "label": "Человек",
+   "classCode": "Person",
+   "isClass": true
+  },
+  {
+   "id": "class-element-dannyh",
+   "label": "Элемент данных",
+   "classCode": "DataElement",
+   "isClass": true
+  },
+  {
+   "id": "dwh-klienty",
+   "label": "DWH-Клиенты",
+   "classCode": "DataStore"
+  },
+  {
+   "id": "e-mail-klienta",
+   "label": "E-mail клиента",
+   "classCode": "DataElement"
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+{
+ "entities": [
+  {
+   "id": "byudzhet-500-tys-rub",
+   "label": "Бюджет 500 тыс. руб.",
+   "classCode": "Constraint"
+  },
+  {
+   "id": "class-vredonosnyy-process",
+   "label": "Вредоносный процесс",
+   "classCode": "HarmfulProcess",
+   "isClass": true
+  },
+  {
+   "id": "class-vypolnenie-plana",
+   "label": "Выполнение плана",
+   "classCode": "PlanExecution",
+   "isClass": true
+  },
+  {
+   "id": "vypolnenie-programmy-mentorstva",
+   "label": "Выполнение программы менторства",
+   "classCode": "PlanExecution"
+  },
+  {
+   "id": "vysokaya-tekuchest-razrabotchikov",
+   "label": "Высокая текучесть разработчиков",
+   "classCode": "ProblemDisposition"
+  },
+  {
+   "id": "class-dannye-nablyudeniya",
+   "label": "Данные наблюдения",
+   "classCode": "ObservationDatum",
+   "isClass": true
+  },
+  {
+   "id": "class-kriteriy",
+   "label": "Критерий",
+   "classCode": "Criterion",
+   "isClass": true
+  },
+  {
+   "id": "class-materialnyy-obekt",
+   "label": "Материальный объект",
+   "classCode": "MaterialEntity",
+   "isClass": true
+  },
+  {
+   "id": "nablyudenie-za-metrikami-komandy",
+   "label": "Наблюдение за метриками команды",
+   "classCode": "ObservationProcess"
+  },
+  {
+   "id": "nedostatok-priznaniya",
+   "label": "Недостаток признания",
+   "classCode": "CausalFactor"
+  },
+  {
+   "id": "nizkaya-propusknaya-sposobnost-komandy",
+   "label": "Низкая пропускная способность команды",
+   "classCode": "ProblemQuality"
+  },
+  {
+   "id": "class-ogranichenie",
+   "label": "Ограничение",
+   "classCode": "Constraint",
+   "isClass": true
+  },
+  {
+   "id": "class-opisanie-problemy",
+   "label": "Описание проблемы",
+   "classCode": "ProblemDescription",
+   "isClass": true
+  },
+  {
+   "id": "opisanie-problemy-tekuchesti",
+   "label": "Описание проблемы текучести",
+   "classCode": "ProblemDescription"
+  },
+  {
+   "id": "otchet-o-padenii-proizvoditelnosti",
+   "label": "Отчёт о падении производительности",
+   "classCode": "ObservationDatum"
+  },
+  {
+   "id": "pererabotki",
+   "label": "Переработки",
+   "classCode": "CausalFactor"
+  },
+  {
+   "id": "plan-programmy-mentorstva",
+   "label": "План программы менторства",
+   "classCode": "SolutionPlan"
+  },
+  {
+   "id": "class-plan-resheniya",
+   "label": "План решения",
+   "classCode": "SolutionPlan",
+   "isClass": true
+  },
+  {
+   "id": "class-prichinnyy-faktor",
+   "label": "Причинный фактор",
+   "classCode": "CausalFactor",
+   "isClass": true
+  },
+  {
+   "id": "class-problemnaya-dispoziciya",
+   "label": "Проблемная диспозиция",
+   "classCode": "ProblemDisposition",
+   "isClass": true
+  },
+  {
+   "id": "class-problemnoe-kachestvo",
+   "label": "Проблемное качество",
+   "classCode": "ProblemQuality",
+   "isClass": true
+  },
+  {
+   "id": "produktovaya-komanda",
+   "label": "Продуктовая команда",
+   "classCode": "MaterialEntity"
+  },
+  {
+   "id": "class-process-nablyudeniya",
+   "label": "Процесс наблюдения",
+   "classCode": "ObservationProcess",
+   "isClass": true
+  },
+  {
+   "id": "class-risk",
+   "label": "Риск",
+   "classCode": "RiskDisposition",
+   "isClass": true
+  },
+  {
+   "id": "risk-poteri-klyuchevyh-sotrudnikov",
+   "label": "Риск потери ключевых сотрудников",
+   "classCode": "RiskDisposition"
+  },
+  {
+   "id": "rol-vladelca-problemy",
+   "label": "Роль владельца проблемы",
+   "classCode": "StakeholderRole"
+  },
+  {
+   "id": "class-rol-storony",
+   "label": "Роль стороны",
+   "classCode": "StakeholderRole",
+   "isClass": true
+  },
+  {
+   "id": "snizit-tekuchest-do-10",
+   "label": "Снизить текучесть до 10%",
+   "classCode": "GoalSpecification"
+  },
+  {
+   "id": "class-sobytie-realizacii",
+   "label": "Событие реализации",
+   "classCode": "RealizationProcess",
+   "isClass": true
+  },
+  {
+   "id": "sryv-srokov-relizov",
+   "label": "Срыв сроков релизов",
+   "classCode": "HarmfulProcess"
+  },
+  {
+   "id": "stoimost-vnedreniya",
+   "label": "Стоимость внедрения",
+   "classCode": "Criterion"
+  },
+  {
+   "id": "uhod-sotrudnikov",
+   "label": "Уход сотрудников",
+   "classCode": "HarmfulProcess"
+  },
+  {
+   "id": "uhod-timlida",
+   "label": "Уход тимлида",
+   "classCode": "RealizationProcess"
+  },
+  {
+   "id": "class-celevaya-specifikaciya",
+   "label": "Целевая спецификация",
+   "classCode": "GoalSpecification",
+   "isClass": true
+  },
+  {
+   "id": "hr-analitik",
+   "label": "HR-аналитик",
+   "classCode": "MaterialEntity"
+  },
+  {
+   "id": "hr-direktor",
+   "label": "HR-директор",
+   "classCode": "MaterialEntity"
+  }
+ ]
+}

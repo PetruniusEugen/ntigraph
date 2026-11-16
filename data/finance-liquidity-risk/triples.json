@@ -1,0 +1,1694 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "ooo-alfa",
+   "predicate": "имеет тип",
+   "object": "class-organizaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "pokupatel-a",
+   "predicate": "имеет тип",
+   "object": "class-kontragent",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t003",
+   "subject": "pokupatel-b",
+   "predicate": "имеет тип",
+   "object": "class-kontragent",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "pokupatel-c",
+   "predicate": "имеет тип",
+   "object": "class-kontragent",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "bank-omega",
+   "predicate": "имеет тип",
+   "object": "class-kontragent",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "postavschik-x",
+   "predicate": "имеет тип",
+   "object": "class-kontragent",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "balans-na-30-06-2026",
+   "predicate": "имеет тип",
+   "object": "class-balans",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t008",
+   "subject": "balans-na-30-09-2026",
+   "predicate": "имеет тип",
+   "object": "class-balans",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "iii-kvartal-2026",
+   "predicate": "имеет тип",
+   "object": "class-otchetnyy-period",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t010",
+   "subject": "opiu-za-iii-kvartal-2026",
+   "predicate": "имеет тип",
+   "object": "class-otchet-o-pribylyah-i-ubytkah",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t011",
+   "subject": "odds-za-iii-kvartal-2026",
+   "predicate": "имеет тип",
+   "object": "class-otchet-o-dvizhenii-denezhnyh-sredstv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t012",
+   "subject": "denezhnye-sredstva-100-30-06",
+   "predicate": "имеет тип",
+   "object": "class-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t013",
+   "subject": "debitorskaya-zadolzhennost-200-30-06",
+   "predicate": "имеет тип",
+   "object": "class-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t014",
+   "subject": "zapasy-150-30-06",
+   "predicate": "имеет тип",
+   "object": "class-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "osnovnye-sredstva-400-30-06",
+   "predicate": "имеет тип",
+   "object": "class-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "kreditorskaya-zadolzhennost-120-30-06",
+   "predicate": "имеет тип",
+   "object": "class-obyazatelstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "zaemnye-sredstva-300-30-06",
+   "predicate": "имеет тип",
+   "object": "class-obyazatelstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t018",
+   "subject": "kapital-430-30-06",
+   "predicate": "имеет тип",
+   "object": "class-kapital",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t019",
+   "subject": "denezhnye-sredstva-5-30-09",
+   "predicate": "имеет тип",
+   "object": "class-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t020",
+   "subject": "debitorskaya-zadolzhennost-280-30-09",
+   "predicate": "имеет тип",
+   "object": "class-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "zapasy-200-30-09",
+   "predicate": "имеет тип",
+   "object": "class-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t022",
+   "subject": "osnovnye-sredstva-420-30-09",
+   "predicate": "имеет тип",
+   "object": "class-aktiv",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t023",
+   "subject": "kreditorskaya-zadolzhennost-140-30-09",
+   "predicate": "имеет тип",
+   "object": "class-obyazatelstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t024",
+   "subject": "zaemnye-sredstva-260-30-09",
+   "predicate": "имеет тип",
+   "object": "class-obyazatelstvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t025",
+   "subject": "kapital-505-30-09",
+   "predicate": "имеет тип",
+   "object": "class-kapital",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t026",
+   "subject": "vyruchka-500",
+   "predicate": "имеет тип",
+   "object": "class-dohod",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t027",
+   "subject": "sebestoimost-prodazh-300",
+   "predicate": "имеет тип",
+   "object": "class-rashod",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t028",
+   "subject": "operacionnye-rashody-80",
+   "predicate": "имеет тип",
+   "object": "class-rashod",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t029",
+   "subject": "amortizaciya-30-nedenezhnyy",
+   "predicate": "имеет тип",
+   "object": "class-rashod",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t030",
+   "subject": "procentnye-rashody-15",
+   "predicate": "имеет тип",
+   "object": "class-rashod",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t031",
+   "subject": "chistaya-pribyl-75",
+   "predicate": "имеет тип",
+   "object": "class-chistaya-pribyl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t032",
+   "subject": "operacionnyy-potok-5",
+   "predicate": "имеет тип",
+   "object": "class-denezhnyy-potok",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t033",
+   "subject": "investicionnyy-potok-50",
+   "predicate": "имеет тип",
+   "object": "class-denezhnyy-potok",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t034",
+   "subject": "finansovyy-potok-40",
+   "predicate": "имеет тип",
+   "object": "class-denezhnyy-potok",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t035",
+   "subject": "prodazhi-iii-kv",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t036",
+   "subject": "zakupki-i-operacionnye-platezhi-iii-kv",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t037",
+   "subject": "amortizaciya-osnovnyh-sredstv-iii-kv",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t038",
+   "subject": "kapitalnye-vlozheniya-iii-kv",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t039",
+   "subject": "pogashenie-zayma-iii-kv",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t040",
+   "subject": "obsluzhivanie-dolga-iii-kv",
+   "predicate": "имеет тип",
+   "object": "class-hozyaystvennaya-operaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t041",
+   "subject": "zapas-likvidnosti-125-dengi-5-liniya-120",
+   "predicate": "имеет тип",
+   "object": "class-zapas-likvidnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t042",
+   "subject": "kreditnaya-liniya-omega-svobodno-120",
+   "predicate": "имеет тип",
+   "object": "class-kreditnaya-liniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t043",
+   "subject": "pokrytie-likvidnosti-na-30-dney-1-25",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel-likvidnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t044",
+   "subject": "limit-ne-nizhe-1-10",
+   "predicate": "имеет тип",
+   "object": "class-limit-likvidnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t045",
+   "subject": "prognoz-denezhnyh-potokov-na-30-dney",
+   "predicate": "имеет тип",
+   "object": "class-prognoz-denezhnyh-potokov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t046",
+   "subject": "ozhidaemye-postupleniya-100-b-60-c-40",
+   "predicate": "имеет тип",
+   "object": "class-denezhnyy-potok",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t047",
+   "subject": "ozhidaemye-vyplaty-180",
+   "predicate": "имеет тип",
+   "object": "class-denezhnyy-potok",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t048",
+   "subject": "zaderzhka-platezha-pokupatelya-b",
+   "predicate": "имеет тип",
+   "object": "class-ugroza",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t049",
+   "subject": "otzyv-kreditnoy-linii-bankom",
+   "predicate": "имеет тип",
+   "object": "class-ugroza",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t050",
+   "subject": "ogranichenie-platezhey-po-sankciyam",
+   "predicate": "имеет тип",
+   "object": "class-ugroza",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t051",
+   "subject": "kiberataka-na-bank-klient",
+   "predicate": "имеет тип",
+   "object": "class-ugroza",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t052",
+   "subject": "valyutnyy-shok",
+   "predicate": "имеет тип",
+   "object": "class-ugroza",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t053",
+   "subject": "risk-likvidnosti",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t054",
+   "subject": "kreditnyy-risk",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t055",
+   "subject": "risk-koncentracii-debitorov-a-53-6",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t056",
+   "subject": "risk-refinansirovaniya",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t057",
+   "subject": "valyutnyy-risk",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t058",
+   "subject": "sankcionnyy-risk",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t059",
+   "subject": "uskorenie-vzyskaniya-debitorskoy-zadolzhennosti",
+   "predicate": "имеет тип",
+   "object": "class-mera-snizheniya-riska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t060",
+   "subject": "plan-avariynogo-privlecheniya-likvidnosti",
+   "predicate": "имеет тип",
+   "object": "class-mera-snizheniya-riska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t061",
+   "subject": "vtoraya-kreditnaya-liniya-v-drugom-banke",
+   "predicate": "имеет тип",
+   "object": "class-mera-snizheniya-riska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t062",
+   "subject": "diversifikaciya-pokupateley",
+   "predicate": "имеет тип",
+   "object": "class-mera-snizheniya-riska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t063",
+   "subject": "raschetnye-scheta-v-neskolkih-bankah",
+   "predicate": "имеет тип",
+   "object": "class-mera-snizheniya-riska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t064",
+   "subject": "hedzhirovanie-valyutnoy-pozicii",
+   "predicate": "имеет тип",
+   "object": "class-mera-snizheniya-riska",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t065",
+   "subject": "scenariy-pokupatel-b-zaderzhivaet-platezh-pokrytie-0-92",
+   "predicate": "имеет тип",
+   "object": "class-stress-scenariy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t066",
+   "subject": "scenariy-bank-otzyvaet-liniyu-pokrytie-0-58",
+   "predicate": "имеет тип",
+   "object": "class-stress-scenariy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t067",
+   "subject": "scenariy-zaderzhka-b-i-otzyv-linii-pokrytie-0-25",
+   "predicate": "имеет тип",
+   "object": "class-stress-scenariy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t068",
+   "subject": "ooo-alfa",
+   "predicate": "составляет баланс",
+   "object": "balans-na-30-06-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t069",
+   "subject": "ooo-alfa",
+   "predicate": "составляет баланс",
+   "object": "balans-na-30-09-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t070",
+   "subject": "balans-na-30-06-2026",
+   "predicate": "включает актив",
+   "object": "denezhnye-sredstva-100-30-06",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t071",
+   "subject": "balans-na-30-06-2026",
+   "predicate": "включает актив",
+   "object": "debitorskaya-zadolzhennost-200-30-06",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t072",
+   "subject": "balans-na-30-06-2026",
+   "predicate": "включает актив",
+   "object": "zapasy-150-30-06",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t073",
+   "subject": "balans-na-30-06-2026",
+   "predicate": "включает актив",
+   "object": "osnovnye-sredstva-400-30-06",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t074",
+   "subject": "balans-na-30-06-2026",
+   "predicate": "включает обязательство",
+   "object": "kreditorskaya-zadolzhennost-120-30-06",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t075",
+   "subject": "balans-na-30-06-2026",
+   "predicate": "включает обязательство",
+   "object": "zaemnye-sredstva-300-30-06",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t076",
+   "subject": "balans-na-30-06-2026",
+   "predicate": "включает капитал",
+   "object": "kapital-430-30-06",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t077",
+   "subject": "balans-na-30-09-2026",
+   "predicate": "включает актив",
+   "object": "denezhnye-sredstva-5-30-09",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t078",
+   "subject": "balans-na-30-09-2026",
+   "predicate": "включает актив",
+   "object": "debitorskaya-zadolzhennost-280-30-09",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t079",
+   "subject": "balans-na-30-09-2026",
+   "predicate": "включает актив",
+   "object": "zapasy-200-30-09",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t080",
+   "subject": "balans-na-30-09-2026",
+   "predicate": "включает актив",
+   "object": "osnovnye-sredstva-420-30-09",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t081",
+   "subject": "balans-na-30-09-2026",
+   "predicate": "включает обязательство",
+   "object": "kreditorskaya-zadolzhennost-140-30-09",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t082",
+   "subject": "balans-na-30-09-2026",
+   "predicate": "включает обязательство",
+   "object": "zaemnye-sredstva-260-30-09",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t083",
+   "subject": "balans-na-30-09-2026",
+   "predicate": "включает капитал",
+   "object": "kapital-505-30-09",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t084",
+   "subject": "debitorskaya-zadolzhennost-280-30-09",
+   "predicate": "является требованием к",
+   "object": "pokupatel-a",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t085",
+   "subject": "debitorskaya-zadolzhennost-280-30-09",
+   "predicate": "является требованием к",
+   "object": "pokupatel-b",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t086",
+   "subject": "debitorskaya-zadolzhennost-280-30-09",
+   "predicate": "является требованием к",
+   "object": "pokupatel-c",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t087",
+   "subject": "denezhnye-sredstva-5-30-09",
+   "predicate": "является требованием к",
+   "object": "bank-omega",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t088",
+   "subject": "kreditorskaya-zadolzhennost-140-30-09",
+   "predicate": "подлежит исполнению перед",
+   "object": "postavschik-x",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t089",
+   "subject": "zaemnye-sredstva-260-30-09",
+   "predicate": "подлежит исполнению перед",
+   "object": "bank-omega",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t090",
+   "subject": "opiu-za-iii-kvartal-2026",
+   "predicate": "охватывает период",
+   "object": "iii-kvartal-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t091",
+   "subject": "odds-za-iii-kvartal-2026",
+   "predicate": "денежный отчёт охватывает период",
+   "object": "iii-kvartal-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t092",
+   "subject": "opiu-za-iii-kvartal-2026",
+   "predicate": "начинается с баланса",
+   "object": "balans-na-30-06-2026",
+   "sourceId": "src-report",
+   "sourceName": "Учебная отчётность ООО «Альфа» за III квартал 2026 (баланс, ОПиУ, ОДДС)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-30"
+  },
+  {
+   "id": "t093",
+   "subject": "opiu-za-iii-kvartal-2026",
+   "predicate": "заканчивается балансом",
+   "object": "balans-na-30-09-2026",
+   "sourceId": "src-report",
+   "sourceName": "Учебная отчётность ООО «Альфа» за III квартал 2026 (баланс, ОПиУ, ОДДС)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-30"
+  },
+  {
+   "id": "t094",
+   "subject": "odds-za-iii-kvartal-2026",
+   "predicate": "движение денег от баланса",
+   "object": "balans-na-30-06-2026",
+   "sourceId": "src-report",
+   "sourceName": "Учебная отчётность ООО «Альфа» за III квартал 2026 (баланс, ОПиУ, ОДДС)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-30"
+  },
+  {
+   "id": "t095",
+   "subject": "odds-za-iii-kvartal-2026",
+   "predicate": "движение денег к балансу",
+   "object": "balans-na-30-09-2026",
+   "sourceId": "src-report",
+   "sourceName": "Учебная отчётность ООО «Альфа» за III квартал 2026 (баланс, ОПиУ, ОДДС)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-30"
+  },
+  {
+   "id": "t096",
+   "subject": "opiu-za-iii-kvartal-2026",
+   "predicate": "стыкуется с денежным отчётом",
+   "object": "odds-za-iii-kvartal-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t097",
+   "subject": "opiu-za-iii-kvartal-2026",
+   "predicate": "включает доход",
+   "object": "vyruchka-500",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t098",
+   "subject": "opiu-za-iii-kvartal-2026",
+   "predicate": "включает расход",
+   "object": "sebestoimost-prodazh-300",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t099",
+   "subject": "opiu-za-iii-kvartal-2026",
+   "predicate": "включает расход",
+   "object": "operacionnye-rashody-80",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t100",
+   "subject": "opiu-za-iii-kvartal-2026",
+   "predicate": "включает расход",
+   "object": "amortizaciya-30-nedenezhnyy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t101",
+   "subject": "opiu-za-iii-kvartal-2026",
+   "predicate": "включает расход",
+   "object": "procentnye-rashody-15",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t102",
+   "subject": "opiu-za-iii-kvartal-2026",
+   "predicate": "сообщает чистую прибыль",
+   "object": "chistaya-pribyl-75",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t103",
+   "subject": "chistaya-pribyl-75",
+   "predicate": "увеличивает капитал",
+   "object": "kapital-505-30-09",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t104",
+   "subject": "odds-za-iii-kvartal-2026",
+   "predicate": "включает денежный поток",
+   "object": "operacionnyy-potok-5",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t105",
+   "subject": "operacionnyy-potok-5",
+   "predicate": "изменяет остаток актива",
+   "object": "denezhnye-sredstva-5-30-09",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t106",
+   "subject": "odds-za-iii-kvartal-2026",
+   "predicate": "включает денежный поток",
+   "object": "investicionnyy-potok-50",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t107",
+   "subject": "investicionnyy-potok-50",
+   "predicate": "изменяет остаток актива",
+   "object": "denezhnye-sredstva-5-30-09",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t108",
+   "subject": "odds-za-iii-kvartal-2026",
+   "predicate": "включает денежный поток",
+   "object": "finansovyy-potok-40",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t109",
+   "subject": "finansovyy-potok-40",
+   "predicate": "изменяет остаток актива",
+   "object": "denezhnye-sredstva-5-30-09",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t110",
+   "subject": "prodazhi-iii-kv",
+   "predicate": "порождает денежный поток",
+   "object": "operacionnyy-potok-5",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t111",
+   "subject": "prodazhi-iii-kv",
+   "predicate": "признаёт доход",
+   "object": "vyruchka-500",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t112",
+   "subject": "prodazhi-iii-kv",
+   "predicate": "признаёт расход",
+   "object": "sebestoimost-prodazh-300",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t113",
+   "subject": "zakupki-i-operacionnye-platezhi-iii-kv",
+   "predicate": "порождает денежный поток",
+   "object": "operacionnyy-potok-5",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t114",
+   "subject": "zakupki-i-operacionnye-platezhi-iii-kv",
+   "predicate": "признаёт расход",
+   "object": "operacionnye-rashody-80",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t115",
+   "subject": "amortizaciya-osnovnyh-sredstv-iii-kv",
+   "predicate": "признаёт расход",
+   "object": "amortizaciya-30-nedenezhnyy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t116",
+   "subject": "kapitalnye-vlozheniya-iii-kv",
+   "predicate": "порождает денежный поток",
+   "object": "investicionnyy-potok-50",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t117",
+   "subject": "pogashenie-zayma-iii-kv",
+   "predicate": "порождает денежный поток",
+   "object": "finansovyy-potok-40",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t118",
+   "subject": "obsluzhivanie-dolga-iii-kv",
+   "predicate": "порождает денежный поток",
+   "object": "operacionnyy-potok-5",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t119",
+   "subject": "obsluzhivanie-dolga-iii-kv",
+   "predicate": "признаёт расход",
+   "object": "procentnye-rashody-15",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t120",
+   "subject": "ooo-alfa",
+   "predicate": "располагает запасом",
+   "object": "zapas-likvidnosti-125-dengi-5-liniya-120",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t121",
+   "subject": "zapas-likvidnosti-125-dengi-5-liniya-120",
+   "predicate": "включает денежные средства",
+   "object": "denezhnye-sredstva-5-30-09",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t122",
+   "subject": "zapas-likvidnosti-125-dengi-5-liniya-120",
+   "predicate": "включает свободную линию",
+   "object": "kreditnaya-liniya-omega-svobodno-120",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t123",
+   "subject": "kreditnaya-liniya-omega-svobodno-120",
+   "predicate": "предоставлена",
+   "object": "bank-omega",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t124",
+   "subject": "pokrytie-likvidnosti-na-30-dney-1-25",
+   "predicate": "оценивает запас",
+   "object": "zapas-likvidnosti-125-dengi-5-liniya-120",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t125",
+   "subject": "pokrytie-likvidnosti-na-30-dney-1-25",
+   "predicate": "контролируется лимитом",
+   "object": "limit-ne-nizhe-1-10",
+   "sourceId": "src-policy",
+   "sourceName": "Политика управления ликвидностью (учебный пример)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-30"
+  },
+  {
+   "id": "t126",
+   "subject": "prognoz-denezhnyh-potokov-na-30-dney",
+   "predicate": "прогнозирует поток",
+   "object": "ozhidaemye-postupleniya-100-b-60-c-40",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t127",
+   "subject": "prognoz-denezhnyh-potokov-na-30-dney",
+   "predicate": "прогнозирует поток",
+   "object": "ozhidaemye-vyplaty-180",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t128",
+   "subject": "prognoz-denezhnyh-potokov-na-30-dney",
+   "predicate": "служит входом показателя",
+   "object": "pokrytie-likvidnosti-na-30-dney-1-25",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t129",
+   "subject": "zaderzhka-platezha-pokupatelya-b",
+   "predicate": "исходит от",
+   "object": "pokupatel-b",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t130",
+   "subject": "zaderzhka-platezha-pokupatelya-b",
+   "predicate": "нарушает поток",
+   "object": "ozhidaemye-postupleniya-100-b-60-c-40",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t131",
+   "subject": "zaderzhka-platezha-pokupatelya-b",
+   "predicate": "угрожает активу",
+   "object": "debitorskaya-zadolzhennost-280-30-09",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t132",
+   "subject": "otzyv-kreditnoy-linii-bankom",
+   "predicate": "исходит от",
+   "object": "bank-omega",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t133",
+   "subject": "otzyv-kreditnoy-linii-bankom",
+   "predicate": "угрожает активу",
+   "object": "denezhnye-sredstva-5-30-09",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t134",
+   "subject": "ogranichenie-platezhey-po-sankciyam",
+   "predicate": "нарушает поток",
+   "object": "ozhidaemye-postupleniya-100-b-60-c-40",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t135",
+   "subject": "ogranichenie-platezhey-po-sankciyam",
+   "predicate": "нарушает поток",
+   "object": "ozhidaemye-vyplaty-180",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t136",
+   "subject": "kiberataka-na-bank-klient",
+   "predicate": "нарушает поток",
+   "object": "ozhidaemye-vyplaty-180",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t137",
+   "subject": "valyutnyy-shok",
+   "predicate": "нарушает поток",
+   "object": "ozhidaemye-postupleniya-100-b-60-c-40",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t138",
+   "subject": "ooo-alfa",
+   "predicate": "имеет риск",
+   "object": "risk-likvidnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t139",
+   "subject": "zaderzhka-platezha-pokupatelya-b",
+   "predicate": "запускает реализацию риска",
+   "object": "risk-likvidnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t140",
+   "subject": "otzyv-kreditnoy-linii-bankom",
+   "predicate": "запускает реализацию риска",
+   "object": "risk-likvidnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t141",
+   "subject": "ogranichenie-platezhey-po-sankciyam",
+   "predicate": "запускает реализацию риска",
+   "object": "risk-likvidnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t142",
+   "subject": "kiberataka-na-bank-klient",
+   "predicate": "запускает реализацию риска",
+   "object": "risk-likvidnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t143",
+   "subject": "ooo-alfa",
+   "predicate": "имеет риск",
+   "object": "kreditnyy-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t144",
+   "subject": "zaderzhka-platezha-pokupatelya-b",
+   "predicate": "запускает реализацию риска",
+   "object": "kreditnyy-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t145",
+   "subject": "ooo-alfa",
+   "predicate": "имеет риск",
+   "object": "risk-koncentracii-debitorov-a-53-6",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t146",
+   "subject": "zaderzhka-platezha-pokupatelya-b",
+   "predicate": "запускает реализацию риска",
+   "object": "risk-koncentracii-debitorov-a-53-6",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t147",
+   "subject": "ooo-alfa",
+   "predicate": "имеет риск",
+   "object": "risk-refinansirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t148",
+   "subject": "otzyv-kreditnoy-linii-bankom",
+   "predicate": "запускает реализацию риска",
+   "object": "risk-refinansirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t149",
+   "subject": "ooo-alfa",
+   "predicate": "имеет риск",
+   "object": "valyutnyy-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t150",
+   "subject": "valyutnyy-shok",
+   "predicate": "запускает реализацию риска",
+   "object": "valyutnyy-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t151",
+   "subject": "ooo-alfa",
+   "predicate": "имеет риск",
+   "object": "sankcionnyy-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t152",
+   "subject": "ogranichenie-platezhey-po-sankciyam",
+   "predicate": "запускает реализацию риска",
+   "object": "sankcionnyy-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t153",
+   "subject": "risk-likvidnosti",
+   "predicate": "ухудшает показатель",
+   "object": "pokrytie-likvidnosti-na-30-dney-1-25",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t154",
+   "subject": "uskorenie-vzyskaniya-debitorskoy-zadolzhennosti",
+   "predicate": "мера снижает риск",
+   "object": "risk-likvidnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t155",
+   "subject": "uskorenie-vzyskaniya-debitorskoy-zadolzhennosti",
+   "predicate": "мера снижает риск",
+   "object": "kreditnyy-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t156",
+   "subject": "plan-avariynogo-privlecheniya-likvidnosti",
+   "predicate": "мера снижает риск",
+   "object": "risk-likvidnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t157",
+   "subject": "plan-avariynogo-privlecheniya-likvidnosti",
+   "predicate": "мера снижает риск",
+   "object": "risk-refinansirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t158",
+   "subject": "vtoraya-kreditnaya-liniya-v-drugom-banke",
+   "predicate": "мера снижает риск",
+   "object": "risk-refinansirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t159",
+   "subject": "vtoraya-kreditnaya-liniya-v-drugom-banke",
+   "predicate": "мера снижает риск",
+   "object": "risk-likvidnosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t160",
+   "subject": "diversifikaciya-pokupateley",
+   "predicate": "мера снижает риск",
+   "object": "risk-koncentracii-debitorov-a-53-6",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t161",
+   "subject": "raschetnye-scheta-v-neskolkih-bankah",
+   "predicate": "мера снижает риск",
+   "object": "sankcionnyy-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t162",
+   "subject": "hedzhirovanie-valyutnoy-pozicii",
+   "predicate": "мера снижает риск",
+   "object": "valyutnyy-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t163",
+   "subject": "scenariy-pokupatel-b-zaderzhivaet-platezh-pokrytie-0-92",
+   "predicate": "моделирует угрозу",
+   "object": "zaderzhka-platezha-pokupatelya-b",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t164",
+   "subject": "scenariy-pokupatel-b-zaderzhivaet-platezh-pokrytie-0-92",
+   "predicate": "пересчитывает показатель",
+   "object": "pokrytie-likvidnosti-na-30-dney-1-25",
+   "sourceId": "src-stress",
+   "sourceName": "Результаты стресс-тестирования, 30-дневный горизонт (учебный пример)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-30"
+  },
+  {
+   "id": "t165",
+   "subject": "scenariy-bank-otzyvaet-liniyu-pokrytie-0-58",
+   "predicate": "моделирует угрозу",
+   "object": "otzyv-kreditnoy-linii-bankom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t166",
+   "subject": "scenariy-bank-otzyvaet-liniyu-pokrytie-0-58",
+   "predicate": "пересчитывает показатель",
+   "object": "pokrytie-likvidnosti-na-30-dney-1-25",
+   "sourceId": "src-stress",
+   "sourceName": "Результаты стресс-тестирования, 30-дневный горизонт (учебный пример)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-30"
+  },
+  {
+   "id": "t167",
+   "subject": "scenariy-zaderzhka-b-i-otzyv-linii-pokrytie-0-25",
+   "predicate": "моделирует угрозу",
+   "object": "zaderzhka-platezha-pokupatelya-b",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t168",
+   "subject": "scenariy-zaderzhka-b-i-otzyv-linii-pokrytie-0-25",
+   "predicate": "пересчитывает показатель",
+   "object": "pokrytie-likvidnosti-na-30-dney-1-25",
+   "sourceId": "src-stress",
+   "sourceName": "Результаты стресс-тестирования, 30-дневный горизонт (учебный пример)",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-30"
+  },
+  {
+   "id": "t169",
+   "subject": "scenariy-zaderzhka-b-i-otzyv-linii-pokrytie-0-25",
+   "predicate": "моделирует угрозу",
+   "object": "otzyv-kreditnoy-linii-bankom",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  }
+ ]
+}

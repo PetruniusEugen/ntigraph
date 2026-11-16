@@ -1,0 +1,100 @@
+{
+ "entities": [
+  {
+   "id": "alisa",
+   "label": "Алиса",
+   "classCode": "Person"
+  },
+  {
+   "id": "class-bloker",
+   "label": "Блокер",
+   "classCode": "Blocker",
+   "isClass": true
+  },
+  {
+   "id": "bloker-zhdem-refaktoring",
+   "label": "Блокер «ждём рефакторинг»",
+   "classCode": "Blocker"
+  },
+  {
+   "id": "bloker-platezhi-ne-gotovy",
+   "label": "Блокер «платежи не готовы»",
+   "classCode": "Blocker"
+  },
+  {
+   "id": "boris",
+   "label": "Борис",
+   "classCode": "Person"
+  },
+  {
+   "id": "bekend-komanda",
+   "label": "Бэкенд-команда",
+   "classCode": "Team"
+  },
+  {
+   "id": "class-zadacha",
+   "label": "Задача",
+   "classCode": "Task",
+   "isClass": true
+  },
+  {
+   "id": "integraciya-platezhey",
+   "label": "Интеграция платежей",
+   "classCode": "Task"
+  },
+  {
+   "id": "klara",
+   "label": "Клара",
+   "classCode": "Person"
+  },
+  {
+   "id": "class-komanda",
+   "label": "Команда",
+   "classCode": "Team",
+   "isClass": true
+  },
+  {
+   "id": "migraciya-api",
+   "label": "Миграция API",
+   "classCode": "Task"
+  },
+  {
+   "id": "class-produkt",
+   "label": "Продукт",
+   "classCode": "Product",
+   "isClass": true
+  },
+  {
+   "id": "refaktoring-servisa-avtorizacii",
+   "label": "Рефакторинг сервиса авторизации",
+   "classCode": "Task"
+  },
+  {
+   "id": "class-servis",
+   "label": "Сервис",
+   "classCode": "Service",
+   "isClass": true
+  },
+  {
+   "id": "servis-avtorizacii",
+   "label": "Сервис авторизации",
+   "classCode": "Service"
+  },
+  {
+   "id": "class-sotrudnik",
+   "label": "Сотрудник",
+   "classCode": "Person",
+   "isClass": true
+  },
+  {
+   "id": "api",
+   "label": "API",
+   "classCode": "Product"
+  },
+  {
+   "id": "checkout",
+   "label": "Checkout",
+   "classCode": "Task"
+  }
+ ]
+}

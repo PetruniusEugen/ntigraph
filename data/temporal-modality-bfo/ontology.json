@@ -1,0 +1,1265 @@
+{
+ "classes": [
+  {
+   "code": "Entity",
+   "name": "Сущность",
+   "comment": "BFO:0000001 — корень онтологии. Всё существующее делится на континуанты и оккурренты; темпоральная модальность надстраивается над этим делением и не вводит новых родов сущего.",
+   "attributes": [
+    {
+     "code": "iri",
+     "name": "идентификатор",
+     "type": "string",
+     "comment": "Полный IRI класса в пространстве имён онтологии."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "Верхний уровень BFO"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Continuant",
+   "name": "Континуант",
+   "comment": "BFO:0000002 — сущность, целиком присутствующая в каждый момент своего существования. Носители диспозиций, ролей и временных меток — континуанты.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "Верхний уровень BFO"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Occurrent",
+   "name": "Оккуррент",
+   "comment": "BFO:0000003 — сущность, разворачивающаяся во времени и присутствующая в каждый момент лишь частично. Процессы, их границы и временные регионы — оккурренты.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "Верхний уровень BFO"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "IndependentContinuant",
+   "name": "Независимый континуант",
+   "comment": "BFO:0000004 — континуант, не зависящий от другого носителя. Стороны договора и партия товара — независимые континуанты.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "Верхний уровень BFO"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "MaterialEntity",
+   "name": "Материальная сущность",
+   "comment": "BFO:0000040 — независимый континуант, имеющий материальные части. Партия товара и организации-стороны — материальные сущности.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "Верхний уровень BFO"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SpecificallyDependentContinuant",
+   "name": "Специфически зависимый континуант",
+   "comment": "BFO:0000020 — континуант, существующий только в носителе: качество, диспозиция, роль.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "Верхний уровень BFO"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Disposition",
+   "name": "Диспозиция",
+   "comment": "BFO:0000016 — предрасположенность носителя проявиться при триггере. Одно из оснований утверждений о будущем: «может произойти» опирается на устройство носителя, а не на непротиворечивость описания.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "Верхний уровень BFO"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Role",
+   "name": "Роль",
+   "comment": "BFO:0000023 — роль, которую носитель получает по соглашению или контексту. В этой онтологии роли не отождествляются со статусами исполнения: статусы относятся к другому словарю.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "Верхний уровень BFO"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "GenericallyDependentContinuant",
+   "name": "Генерически зависимый континуант",
+   "comment": "BFO:0000031 — континуант, который может быть скопирован и не привязан к одному носителю: тексты, записи, спецификации.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "Верхний уровень BFO"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "InformationContentEntity",
+   "name": "Информационная сущность",
+   "comment": "IAO:0000030 — информационная сущность: утверждение, условие, запись, доказательство, аксиома. Весь модальный аппарат онтологии состоит из ICE, потому что операторы и оценки — это описания, а не физические процессы.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "Верхний уровень BFO"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Process",
+   "name": "Процесс",
+   "comment": "BFO:0000015 — оккуррент, имеющий временные части. Поставка и приёмка — процессы.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "Верхний уровень BFO"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ProcessBoundary",
+   "name": "Граница процесса",
+   "comment": "BFO:0000035 — нульмерная граница процесса: его начало или конец. Точка, в которой оператор «следующий» получает определённость.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "Верхний уровень BFO"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "History",
+   "name": "История",
+   "comment": "BFO:0000182 — сумма процессов, в которых участвовал объект. Фактическая линия договора — история.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "BFO",
+     "name": "Верхний уровень BFO"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalRegion",
+   "name": "Временной регион",
+   "comment": "BFO:0000008 — область времени. Моменты и интервалы — временные регионы; они задают индексы оценки темпоральных утверждений и упорядочены отношением предшествования.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "TIME",
+     "name": "Время и временные регионы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalInstant",
+   "name": "Момент времени",
+   "comment": "BFO:0000148 — нульмерный временной регион. Момент не является процессом: у него нет длительности, но есть позиция в порядке времени.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "TIME",
+     "name": "Время и временные регионы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalInterval",
+   "name": "Интервал времени",
+   "comment": "BFO:0000038 — одномерный временной регион с началом и концом. Интервал — носитель длительности и область действия операторов G и H.",
+   "attributes": [
+    {
+     "code": "duration",
+     "name": "длительность",
+     "type": "string",
+     "comment": "Длительность в выбранной единице, например «30 календарных дней»."
+    },
+    {
+     "code": "boundaryInclusivity",
+     "name": "включение границ",
+     "type": "string",
+     "comment": "Открытый, полуоткрытый или замкнутый интервал."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "TIME",
+     "name": "Время и временные регионы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalReferenceSystem",
+   "name": "Система отсчёта времени",
+   "comment": "Календарь, часовой пояс или производственный график. Задаёт правила подписи моментов и перевода интервалов в единицы; сами временные регионы от неё не зависят.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "TIME",
+     "name": "Время и временные регионы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalUnit",
+   "name": "Единица времени",
+   "comment": "Единица измерения длительности: секунда, календарный день, рабочий день, месяц, событие. «Следующий» и «в течение» определены только относительно выбранной единицы.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "TIME",
+     "name": "Время и временные регионы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Timestamp",
+   "name": "Метка времени",
+   "comment": "Подписанный момент: временной регион плюс система отсчёта и текстовая метка. Метка — информационная сущность, а не сам момент; две метки могут обозначать один момент в разных календарях.",
+   "attributes": [
+    {
+     "code": "label",
+     "name": "метка",
+     "type": "string",
+     "comment": "Текстовая запись, например «2026-03-15T23:59Z»."
+    },
+    {
+     "code": "timezone",
+     "name": "часовой пояс",
+     "type": "string",
+     "comment": "Смещение или идентификатор зоны."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "TIME",
+     "name": "Время и временные регионы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalSituation",
+   "name": "Временная ситуация",
+   "comment": "Описание установленного положения дел на временном регионе — индекс оценки темпорального утверждения. Заменяет возможный мир: у BFO нет сущностей, которые «возможны, но не действительны», поэтому альтернативой служит другая ситуация той же фактической линии.",
+   "attributes": [
+    {
+     "code": "description",
+     "name": "описание",
+     "type": "string",
+     "comment": "Что именно установлено в этой ситуации."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SIT",
+     "name": "Ситуации, условия, события"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "InstantSituation",
+   "name": "Точечная ситуация",
+   "comment": "Ситуация, привязанная к моменту. Индекс точечных утверждений о прошлом и оператора «следующий».",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "SIT",
+     "name": "Ситуации, условия, события"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "IntervalSituation",
+   "name": "Интервальная ситуация",
+   "comment": "Ситуация, привязанная к интервалу. Индекс операторов «на протяжении всего интервала» (G, H) и утверждений о продолжительных состояниях.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "SIT",
+     "name": "Ситуации, условия, события"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Condition",
+   "name": "Условие",
+   "comment": "Проверяемое условие — то, что подставляется в темпоральный оператор. Условие истинно или ложно в ситуации; оно не является ни событием, ни интервалом.",
+   "attributes": [
+    {
+     "code": "polarity",
+     "name": "полярность",
+     "type": "string",
+     "comment": "Утвердительное или отрицательное условие."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "SIT",
+     "name": "Ситуации, условия, события"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "StateCondition",
+   "name": "Условие-состояние",
+   "comment": "Условие, которое может выполняться на интервале и сохраняться между событиями: «счёт оплачен», «товар принят».",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "SIT",
+     "name": "Ситуации, условия, события"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "OccurrenceCondition",
+   "name": "Условие-происшествие",
+   "comment": "Условие, истинное в момент свершения события и ложное до него: «поставка состоялась». Связывает оператор с конкретным процессом.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "SIT",
+     "name": "Ситуации, условия, события"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Event",
+   "name": "Событие",
+   "comment": "Ограниченный во времени процесс, используемый как реперная точка: поставка, приёмка, оплата. Событие — оккуррент, а не точка; его граница — отдельный оккуррент.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "SIT",
+     "name": "Ситуации, условия, события"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ActualTimeline",
+   "name": "Фактическая линия",
+   "comment": "Упорядоченная совокупность ситуаций и событий одного объекта, восстановленная по записям. Основание прошлого: утверждение о прошлом истинно, если оно выполняется в ситуации этой линии.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "SIT",
+     "name": "Ситуации, условия, события"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModalFamily",
+   "name": "Семейство модальности",
+   "comment": "Алетическая, деонтическая, эпистемическая или темпоральная модальность. Темпоральная модальность — не отдельный словарь, а семейство внутри общей модальной логики: тот же аппарат операторов, достижимости и оценки.",
+   "attributes": [
+    {
+     "code": "kind",
+     "name": "вид",
+     "type": "string",
+     "comment": "alethic, deontic, epistemic, temporal."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальный и темпоральный аппарат"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModalOperator",
+   "name": "Модальный оператор",
+   "comment": "Оператор как информационная сущность: символ, арность, семейство, двойственность. Общий класс для ◇, □, O, K и темпоральных G, F, H, P.",
+   "attributes": [
+    {
+     "code": "symbol",
+     "name": "символ",
+     "type": "string",
+     "comment": "Обозначение оператора в записи."
+    },
+    {
+     "code": "arity",
+     "name": "арность",
+     "type": "string",
+     "comment": "Число условий, к которым применяется оператор."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальный и темпоральный аппарат"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalOperator",
+   "name": "Темпоральный оператор",
+   "comment": "G (всегда в будущем), F (когда-нибудь в будущем), H (всегда в прошлом), P (когда-то в прошлом), X (следующий), Y (предыдущий), U (до тех пор, пока), S (с тех пор, как). Подкласс модального оператора: темпоральная модальность использует ту же схему оценки.",
+   "attributes": [
+    {
+     "code": "temporalDirection",
+     "name": "направление",
+     "type": "string",
+     "comment": "past, future, both."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальный и темпоральный аппарат"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModalStatement",
+   "name": "Модальное утверждение",
+   "comment": "Утверждение с модальным оператором: оператор, условие и индекс оценки. Общий класс; темпоральное утверждение — его подкласс.",
+   "attributes": [
+    {
+     "code": "polarity",
+     "name": "полярность",
+     "type": "string",
+     "comment": "positive или negative: применяется ли отрицание к условию."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальный и темпоральный аппарат"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalModalStatement",
+   "name": "Темпоральное утверждение",
+   "comment": "Утверждение, оператор которого темпоральный. Оценивается во временной ситуации, а не в возможном мире; истинность зависит от порядка моментов и выбранной рамки. Вложенные темпоральные операторы (G(F φ)) не выводят утверждение из этого класса.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальный и темпоральный аппарат"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CompoundModalStatement",
+   "name": "Составное модальное утверждение",
+   "comment": "Утверждение с вложенными операторами разных семейств: например, O(F(оплата)) — «обязательно, что когда-нибудь оплата будет произведена». Вложенность выражается отношением включения утверждений, а не отдельным классом на каждую комбинацию.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальный и темпоральный аппарат"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "AccessibilityRelation",
+   "name": "Отношение достижимости",
+   "comment": "Какие индексы считаются альтернативными при оценке оператора. Общее понятие модальной логики; темпоральная достижимость — его вид.",
+   "attributes": [
+    {
+     "code": "direction",
+     "name": "направление",
+     "type": "string",
+     "comment": "Куда ведёт достижимость: в прошлое, в будущее или в обе стороны."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальный и темпоральный аппарат"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalAccessibility",
+   "name": "Темпоральная достижимость",
+   "comment": "Достижимость по порядку времени: из ситуации t достижимы ситуации, лежащие позже (будущее) или раньше (прошлое). Свойства рамки задаются явно, а не подразумеваются.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальный и темпоральный аппарат"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModalSystem",
+   "name": "Модальная система",
+   "comment": "Набор аксиом и класс рамок. Kt — минимальная темпоральная, S4t — рефлексивная и транзитивная, PLTL — линейная дискретная с X и U, CTL — ветвящаяся.",
+   "attributes": [
+    {
+     "code": "notation",
+     "name": "нотация",
+     "type": "string",
+     "comment": "Способ записи формул, принятый в системе."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальный и темпоральный аппарат"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "FrameProperty",
+   "name": "Свойство рамки",
+   "comment": "Рефлексивность, транзитивность, линейность, плотность, дискретность, ветвление. Свойства не выводятся из текста утверждения — они задаются моделью.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальный и темпоральный аппарат"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalFrame",
+   "name": "Темпоральная рамка",
+   "comment": "Конкретная рамка времени: носитель набора свойств и направления достижимости. Планирование требует линейной дискретной рамки, анализ альтернатив — ветвящейся.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальный и темпоральный аппарат"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalAxiom",
+   "name": "Темпоральная аксиома",
+   "comment": "Схема, истинная в классе рамок: Gφ → φ, Gφ → GGφ, Fφ ↔ ¬G¬φ, развёртывание U. Аксиома — информационная сущность: не закон природы, а правило вывода в выбранной системе.",
+   "attributes": [
+    {
+     "code": "formula",
+     "name": "формула",
+     "type": "string",
+     "comment": "Запись схемы, например «Gφ → φ»."
+    },
+    {
+     "code": "schemaKind",
+     "name": "вид схемы",
+     "type": "string",
+     "comment": "characteristic, duality, expansion."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CHECK",
+     "name": "Аксиомы, ограничения, записи"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalInvariant",
+   "name": "Темпоральный инвариант",
+   "comment": "Условие, истинное во всех ситуациях заданной области: «на всём сроке действия договора конфиденциальность соблюдается». Темпоральный аналог необходимости: не «во всех мирах», а «во всех временах области».",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "CHECK",
+     "name": "Аксиомы, ограничения, записи"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalConstraint",
+   "name": "Темпоральное ограничение",
+   "comment": "Ограничение на порядок или длительность: «приёмка после поставки», «оплата в течение 30 дней». Проверяется по записям, а не по декларации.",
+   "attributes": [
+    {
+     "code": "statement",
+     "name": "формулировка",
+     "type": "string",
+     "comment": "Текст ограничения для человека."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CHECK",
+     "name": "Аксиомы, ограничения, записи"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "OrderingConstraint",
+   "name": "Ограничение порядка",
+   "comment": "Событие A должно предшествовать событию B. Нарушение фиксируется записью, а не мнением.",
+   "attributes": [
+    {
+     "code": "strict",
+     "name": "строгость",
+     "type": "boolean",
+     "comment": "Требуется ли строгое предшествование."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CHECK",
+     "name": "Аксиомы, ограничения, записи"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DurationConstraint",
+   "name": "Ограничение длительности",
+   "comment": "Между событиями должно пройти не больше и не меньше заданного интервала.",
+   "attributes": [
+    {
+     "code": "minDays",
+     "name": "минимум дней",
+     "type": "number",
+     "comment": "Нижняя граница в календарных днях."
+    },
+    {
+     "code": "maxDays",
+     "name": "максимум дней",
+     "type": "number",
+     "comment": "Верхняя граница в календарных днях."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CHECK",
+     "name": "Аксиомы, ограничения, записи"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "WindowConstraint",
+   "name": "Ограничение окна",
+   "comment": "Событие должно произойти внутри заданного интервала. Именно окно, а не момент, делает осмысленным оператор F с границей.",
+   "attributes": [
+    {
+     "code": "inclusive",
+     "name": "включать границы",
+     "type": "boolean",
+     "comment": "Считаются ли крайние моменты частью окна."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CHECK",
+     "name": "Аксиомы, ограничения, записи"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalRecord",
+   "name": "Темпоральная запись",
+   "comment": "Запись с меткой времени: журнал, акт, накладная. Фиксирует событие или состояние и служит основанием для проверки утверждений о прошлом.",
+   "attributes": [
+    {
+     "code": "identifier",
+     "name": "номер",
+     "type": "string",
+     "comment": "Учётный номер документа."
+    },
+    {
+     "code": "issuedAt",
+     "name": "дата выдачи",
+     "type": "date",
+     "comment": "Когда документ составлен."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CHECK",
+     "name": "Аксиомы, ограничения, записи"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalEvidence",
+   "name": "Темпоральное доказательство",
+   "comment": "Доказательство, поддерживающее или опровергающее темпоральное утверждение. Отделяется от записи: запись фиксирует, доказательство обосновывает.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "CHECK",
+     "name": "Аксиомы, ограничения, записи"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalProjection",
+   "name": "Темпоральная проекция",
+   "comment": "Описание возможного продолжения фактической линии из ситуации: «поставка в срок», «просрочка на 4 дня». Темпоральный аналог сценария; обосновывается диспозициями, графиком или нормой, а не произволом.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальный и темпоральный аппарат"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TemporalReconstruction",
+   "name": "Темпоральная реконструкция",
+   "comment": "Описание прошлого состояния, восстановленное по записям. Прошлое не «возможно»: оно либо подтверждено, либо остаётся пробелом наблюдаемости.",
+   "attributes": [],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальный и темпоральный аппарат"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "regionPrecedes",
+   "name": "предшествует во времени",
+   "comment": "Строгий порядок времени: один регион целиком раньше другого. Транзитивно и асимметрично; на нём держится достижимость будущего и прошлого.",
+   "fromClass": "TemporalRegion",
+   "toClass": "TemporalRegion"
+  },
+  {
+   "code": "regionMeets",
+   "name": "непосредственно примыкает",
+   "comment": "Смежность: конец первого совпадает с началом второго. Нужна для дискретного «следующего».",
+   "fromClass": "TemporalRegion",
+   "toClass": "TemporalRegion"
+  },
+  {
+   "code": "regionOverlaps",
+   "name": "пересекается с",
+   "comment": "Пересечение регионов. Симметрично; используется при проверке совместности окон.",
+   "fromClass": "TemporalRegion",
+   "toClass": "TemporalRegion"
+  },
+  {
+   "code": "intervalStartsAt",
+   "name": "начинается в момент",
+   "comment": "Начало интервала. Функционально: у интервала ровно одно начало.",
+   "fromClass": "TemporalInterval",
+   "toClass": "TemporalInstant"
+  },
+  {
+   "code": "intervalEndsAt",
+   "name": "заканчивается в момент",
+   "comment": "Конец интервала. Функционально: у интервала ровно один конец.",
+   "fromClass": "TemporalInterval",
+   "toClass": "TemporalInstant"
+  },
+  {
+   "code": "intervalContains",
+   "name": "содержит регион",
+   "comment": "Интервал содержит момент или подинтервал. Транзитивно внутри интервала.",
+   "fromClass": "TemporalInterval",
+   "toClass": "TemporalRegion"
+  },
+  {
+   "code": "intervalMeasuredIn",
+   "name": "измеряется в единице",
+   "comment": "Единица, в которой выражена длительность интервала.",
+   "fromClass": "TemporalInterval",
+   "toClass": "TemporalUnit"
+  },
+  {
+   "code": "timestampDenotes",
+   "name": "обозначает момент",
+   "comment": "Метка времени обозначает момент. Функционально: одна метка — один момент.",
+   "fromClass": "Timestamp",
+   "toClass": "TemporalInstant"
+  },
+  {
+   "code": "timestampInSystem",
+   "name": "задана в системе отсчёта",
+   "comment": "Система отсчёта метки: календарь, часовой пояс, график.",
+   "fromClass": "Timestamp",
+   "toClass": "TemporalReferenceSystem"
+  },
+  {
+   "code": "unitBelongsToSystem",
+   "name": "определена в системе отсчёта",
+   "comment": "Единица определена в системе отсчёта: календарный день — в календаре, рабочий день — в производственном графике.",
+   "fromClass": "TemporalUnit",
+   "toClass": "TemporalReferenceSystem"
+  },
+  {
+   "code": "situationAnchoredAt",
+   "name": "привязана к региону",
+   "comment": "Ситуация привязана к временному региону — своему индексу оценки. Функционально.",
+   "fromClass": "TemporalSituation",
+   "toClass": "TemporalRegion"
+  },
+  {
+   "code": "situationAccessibleFrom",
+   "name": "достижима из ситуации",
+   "comment": "Ситуация достижима из другой по выбранному отношению. Направление задаётся рамкой и свойством достижимости.",
+   "fromClass": "TemporalSituation",
+   "toClass": "TemporalSituation"
+  },
+  {
+   "code": "situationGovernedBy",
+   "name": "подчинена достижимости",
+   "comment": "Ситуация подчинена отношению достижимости, в направлении которого используется как индекс. У ситуации может быть несколько направлений: в одной и той же точке оцениваются и утверждения о прошлом, и утверждения о будущем.",
+   "fromClass": "TemporalSituation",
+   "toClass": "TemporalAccessibility"
+  },
+  {
+   "code": "situationPartOfTimeline",
+   "name": "входит в фактическую линию",
+   "comment": "Ситуация входит в фактическую линию объекта.",
+   "fromClass": "TemporalSituation",
+   "toClass": "ActualTimeline"
+  },
+  {
+   "code": "situationDescribesEntity",
+   "name": "описывает сущность",
+   "comment": "Ситуация описывает состояние конкретной сущности.",
+   "fromClass": "TemporalSituation",
+   "toClass": "Entity"
+  },
+  {
+   "code": "conditionAboutEntity",
+   "name": "касается сущности",
+   "comment": "Условие касается сущности: счёта, партии, договора.",
+   "fromClass": "Condition",
+   "toClass": "Entity"
+  },
+  {
+   "code": "conditionHoldsDuring",
+   "name": "выполняется на регионе",
+   "comment": "Состояние выполняется на временном регионе. Для точечных состояний регион — момент.",
+   "fromClass": "StateCondition",
+   "toClass": "TemporalRegion"
+  },
+  {
+   "code": "conditionRealizedBy",
+   "name": "реализуется событием",
+   "comment": "Условие-происшествие реализуется конкретным событием.",
+   "fromClass": "OccurrenceCondition",
+   "toClass": "Event"
+  },
+  {
+   "code": "conditionImplies",
+   "name": "влечёт условие",
+   "comment": "Одно условие влечёт другое; используется при выводе утверждений.",
+   "fromClass": "Condition",
+   "toClass": "Condition"
+  },
+  {
+   "code": "statementUsesOperator",
+   "name": "использует оператор",
+   "comment": "Утверждение использует оператор. Функционально на уровне конкретного утверждения.",
+   "fromClass": "ModalStatement",
+   "toClass": "ModalOperator"
+  },
+  {
+   "code": "statementHasCondition",
+   "name": "имеет условие",
+   "comment": "Условие, к которому применён оператор.",
+   "fromClass": "ModalStatement",
+   "toClass": "Condition"
+  },
+  {
+   "code": "statementEvaluatedAt",
+   "name": "оценивается в ситуации",
+   "comment": "Ситуация оценки: где и когда утверждение получает истинностное значение.",
+   "fromClass": "ModalStatement",
+   "toClass": "TemporalSituation"
+  },
+  {
+   "code": "statementHasScope",
+   "name": "имеет областью действия",
+   "comment": "Область действия оператора: интервал для G и H, окно для F с границей.",
+   "fromClass": "TemporalModalStatement",
+   "toClass": "TemporalRegion"
+  },
+  {
+   "code": "statementNests",
+   "name": "включает утверждение",
+   "comment": "Внутреннее утверждение подставлено в условие внешнего: O(F(φ)).",
+   "fromClass": "ModalStatement",
+   "toClass": "ModalStatement"
+  },
+  {
+   "code": "statementEntails",
+   "name": "влечёт утверждение",
+   "comment": "Из одного утверждения следует другое в данной системе.",
+   "fromClass": "ModalStatement",
+   "toClass": "ModalStatement"
+  },
+  {
+   "code": "statementContradicts",
+   "name": "противоречит утверждению",
+   "comment": "Утверждения не могут быть истинны в одной ситуации при одной рамке.",
+   "fromClass": "ModalStatement",
+   "toClass": "ModalStatement"
+  },
+  {
+   "code": "statementSupportedBy",
+   "name": "подтверждено доказательством",
+   "comment": "Утверждение подтверждено доказательством.",
+   "fromClass": "ModalStatement",
+   "toClass": "TemporalEvidence"
+  },
+  {
+   "code": "statementRefutedBy",
+   "name": "опровергнуто доказательством",
+   "comment": "Утверждение опровергнуто доказательством.",
+   "fromClass": "ModalStatement",
+   "toClass": "TemporalEvidence"
+  },
+  {
+   "code": "statementProjectedBy",
+   "name": "опирается на проекцию",
+   "comment": "Утверждение о будущем опирается на проекцию.",
+   "fromClass": "ModalStatement",
+   "toClass": "TemporalProjection"
+  },
+  {
+   "code": "statementReconstructedFrom",
+   "name": "восстановлено реконструкцией",
+   "comment": "Утверждение о прошлом опирается на реконструкцию.",
+   "fromClass": "ModalStatement",
+   "toClass": "TemporalReconstruction"
+  },
+  {
+   "code": "operatorBelongsToFamily",
+   "name": "принадлежит семейству",
+   "comment": "Оператор принадлежит семейству модальности. Функционально.",
+   "fromClass": "ModalOperator",
+   "toClass": "ModalFamily"
+  },
+  {
+   "code": "operatorDualOf",
+   "name": "двойственен оператору",
+   "comment": "Двойственный оператор: G и F, H и P, □ и ◇. Симметрично.",
+   "fromClass": "ModalOperator",
+   "toClass": "ModalOperator"
+  },
+  {
+   "code": "operatorGovernedBy",
+   "name": "подчиняется аксиоме",
+   "comment": "Поведение оператора задаётся аксиомой или схемой развёртывания.",
+   "fromClass": "TemporalOperator",
+   "toClass": "TemporalAxiom"
+  },
+  {
+   "code": "axiomValidInSystem",
+   "name": "истинна в системе",
+   "comment": "Аксиома истинна в системе, то есть во всех её рамках.",
+   "fromClass": "TemporalAxiom",
+   "toClass": "ModalSystem"
+  },
+  {
+   "code": "axiomDerivesAxiom",
+   "name": "выводится из аксиомы",
+   "comment": "Одна схема выводится из другой.",
+   "fromClass": "TemporalAxiom",
+   "toClass": "TemporalAxiom"
+  },
+  {
+   "code": "accessibilityHasProperty",
+   "name": "обладает свойством",
+   "comment": "Свойство отношения достижимости.",
+   "fromClass": "TemporalAccessibility",
+   "toClass": "FrameProperty"
+  },
+  {
+   "code": "frameSpecifiesAccessibility",
+   "name": "задаёт достижимость",
+   "comment": "Рамка задаёт отношение достижимости и его свойства.",
+   "fromClass": "TemporalFrame",
+   "toClass": "TemporalAccessibility"
+  },
+  {
+   "code": "systemCharacterizedByFrame",
+   "name": "характеризуется рамкой",
+   "comment": "Система характеризуется классом рамок.",
+   "fromClass": "ModalSystem",
+   "toClass": "TemporalFrame"
+  },
+  {
+   "code": "systemAdmitsOperator",
+   "name": "допускает оператор",
+   "comment": "Оператор допустим в системе.",
+   "fromClass": "ModalSystem",
+   "toClass": "TemporalOperator"
+  },
+  {
+   "code": "propertyImpliesProperty",
+   "name": "влечёт свойство",
+   "comment": "Свойство влечёт другое: рефлексивность и транзитивность дают S4, евклидовость добавляет S5.",
+   "fromClass": "FrameProperty",
+   "toClass": "FrameProperty"
+  },
+  {
+   "code": "invariantScope",
+   "name": "действует на регионе",
+   "comment": "Область, на которой инвариант обязан выполняться.",
+   "fromClass": "TemporalInvariant",
+   "toClass": "TemporalRegion"
+  },
+  {
+   "code": "invariantConstrainsStatement",
+   "name": "ограничивает утверждение",
+   "comment": "Инвариант ограничивает допустимые утверждения области.",
+   "fromClass": "TemporalInvariant",
+   "toClass": "ModalStatement"
+  },
+  {
+   "code": "constraintAppliesTo",
+   "name": "относится к объекту",
+   "comment": "Ограничение относится к объекту или договору.",
+   "fromClass": "TemporalConstraint",
+   "toClass": "Entity"
+  },
+  {
+   "code": "constraintPredecessor",
+   "name": "предшествующее событие",
+   "comment": "Событие, которое должно быть раньше.",
+   "fromClass": "OrderingConstraint",
+   "toClass": "Event"
+  },
+  {
+   "code": "constraintSuccessor",
+   "name": "последующее событие",
+   "comment": "Событие, которое должно быть позже.",
+   "fromClass": "OrderingConstraint",
+   "toClass": "Event"
+  },
+  {
+   "code": "constraintWindow",
+   "name": "задаёт окно",
+   "comment": "Окно, внутри которого событие обязано произойти, или интервал, задающий допустимую длительность.",
+   "fromClass": "TemporalConstraint",
+   "toClass": "TemporalRegion"
+  },
+  {
+   "code": "constraintSatisfiedBy",
+   "name": "выполнено согласно записи",
+   "comment": "Ограничение выполнено, что подтверждено записью.",
+   "fromClass": "TemporalConstraint",
+   "toClass": "TemporalRecord"
+  },
+  {
+   "code": "constraintViolatedBy",
+   "name": "нарушено согласно записи",
+   "comment": "Ограничение нарушено, что зафиксировано записью.",
+   "fromClass": "TemporalConstraint",
+   "toClass": "TemporalRecord"
+  },
+  {
+   "code": "recordAtTimestamp",
+   "name": "датирована меткой",
+   "comment": "Запись датирована меткой времени.",
+   "fromClass": "TemporalRecord",
+   "toClass": "Timestamp"
+  },
+  {
+   "code": "recordDocuments",
+   "name": "фиксирует событие",
+   "comment": "Запись фиксирует процесс или событие.",
+   "fromClass": "TemporalRecord",
+   "toClass": "Process"
+  },
+  {
+   "code": "recordSupportsEvidence",
+   "name": "обосновывает доказательство",
+   "comment": "Запись служит основанием доказательства.",
+   "fromClass": "TemporalRecord",
+   "toClass": "TemporalEvidence"
+  },
+  {
+   "code": "evidenceSupportsStatement",
+   "name": "подтверждает утверждение",
+   "comment": "Доказательство подтверждает утверждение.",
+   "fromClass": "TemporalEvidence",
+   "toClass": "ModalStatement"
+  },
+  {
+   "code": "evidenceContradictsStatement",
+   "name": "опровергает утверждение",
+   "comment": "Доказательство опровергает утверждение.",
+   "fromClass": "TemporalEvidence",
+   "toClass": "ModalStatement"
+  },
+  {
+   "code": "eventOccursDuring",
+   "name": "происходит на регионе",
+   "comment": "Событие происходит на временном регионе.",
+   "fromClass": "Event",
+   "toClass": "TemporalRegion"
+  },
+  {
+   "code": "eventImmediatelyFollows",
+   "name": "непосредственно следует за",
+   "comment": "Событие непосредственно следует за другим в выбранной единице времени — основание оператора X.",
+   "fromClass": "Event",
+   "toClass": "Event"
+  },
+  {
+   "code": "projectionFromSituation",
+   "name": "строится из ситуации",
+   "comment": "Проекция строится из ситуации.",
+   "fromClass": "TemporalProjection",
+   "toClass": "TemporalSituation"
+  },
+  {
+   "code": "projectionAssumes",
+   "name": "допускает утверждение",
+   "comment": "Проекция опирается на допущение.",
+   "fromClass": "TemporalProjection",
+   "toClass": "ModalStatement"
+  },
+  {
+   "code": "projectionGroundedIn",
+   "name": "обоснована диспозицией",
+   "comment": "Проекция обоснована диспозицией или графиком.",
+   "fromClass": "TemporalProjection",
+   "toClass": "Disposition"
+  },
+  {
+   "code": "reconstructionFromRecord",
+   "name": "восстановлена по записи",
+   "comment": "Реконструкция строится по записям.",
+   "fromClass": "TemporalReconstruction",
+   "toClass": "TemporalRecord"
+  },
+  {
+   "code": "untilTerminator",
+   "name": "завершается условием",
+   "comment": "Условие, при наступлении которого действие оператора U прекращается.",
+   "fromClass": "TemporalModalStatement",
+   "toClass": "Condition"
+  },
+  {
+   "code": "sinceTrigger",
+   "name": "отсчитывается от условия",
+   "comment": "Условие, с момента которого отсчитывает оператор S.",
+   "fromClass": "TemporalModalStatement",
+   "toClass": "Condition"
+  }
+ ],
+ "info": {
+  "description": "Онтология формализует темпоральную модальность как семейство модальной логики: операторы G, F, H, P, X, Y, U и S получают онтологическое основание во временных регионах, ситуациях оценки и отношениях достижимости. BFO — актуалистская онтология, поэтому возможный мир не вводится: утверждение о будущем опирается на проекцию, обоснованную диспозицией, а утверждение о прошлом — на реконструкцию по записям. Слой темпоральных индексов надстраивается над BFO и не дублирует словарь жизненного цикла.",
+  "scope": [
+   "Верхний уровень BFO: континуанты и оккурренты, временные регионы, процессы, границы, истории",
+   "Время: моменты и интервалы, порядок и смежность, системы отсчёта, единицы, метки времени",
+   "Индексы: временные ситуации, условия-состояния и условия-происшествия, фактическая линия",
+   "Модальный аппарат: семейства, операторы, утверждения, вложенность, достижимость, рамки, системы",
+   "Методика: аксиомы, инварианты, ограничения порядка и длительности, записи, доказательства, проекции и реконструкции"
+  ],
+  "competencyQuestions": [
+   "В какой ситуации оценки истинно утверждение и какой оператор в нём используется?",
+   "Что означает «когда-нибудь в будущем» и в каком окне это событие допустимо?",
+   "Что истинно на всём интервале, а что — только в отдельные моменты?",
+   "Какое событие наступит следующим после заданного и в какой единице времени?",
+   "Что истинно до наступления события и что — после него?",
+   "Какими аксиомами и свойствами рамки обоснован вывод оператора?",
+   "Какие утверждения о будущем опираются на проекцию, а какие — на диспозицию?",
+   "Какие утверждения о прошлом подтверждены записями, а где пробел наблюдаемости?",
+   "Какие ограничения порядка, длительности и окна нарушены?",
+   "Как вложены темпоральный и деонтический операторы в одном утверждении?",
+   "Чем темпоральная возможность отличается от алетической в этой модели?",
+   "Какие интервалы пересекаются и совместны ли окна поставки и оплаты?",
+   "Какая система — Kt, S4t, PLTL или CTL — достаточна для проверки конкретного утверждения?",
+   "Где заканчивается фактическая линия и начинается проекция?"
+  ]
+ },
+ "theme": [
+  {
+   "code": "BFO",
+   "name": "Верхний уровень BFO",
+   "color": "#60a5fa"
+  },
+  {
+   "code": "TIME",
+   "name": "Время и временные регионы",
+   "color": "#34d399"
+  },
+  {
+   "code": "SIT",
+   "name": "Ситуации, условия, события",
+   "color": "#a78bfa"
+  },
+  {
+   "code": "MODAL",
+   "name": "Модальный и темпоральный аппарат",
+   "color": "#fbbf24"
+  },
+  {
+   "code": "CHECK",
+   "name": "Аксиомы, ограничения, записи",
+   "color": "#f87171"
+  }
+ ]
+}

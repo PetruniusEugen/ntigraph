@@ -1,0 +1,1767 @@
+{
+ "classes": [
+  {
+   "code": "RoleModel",
+   "name": "Ролевая модель",
+   "comment": "BFO/IAO: ICE — информационная сущность, задающая состав ролей, назначений, правил и модальных ограничений. Не совпадает ни с одной ролью и не является организационной структурой.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Название ролевой модели."
+    },
+    {
+     "code": "scope",
+     "name": "охват",
+     "type": "string",
+     "comment": "Какие роли, этапы и правила входят в модель."
+    },
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Версия ролевой модели."
+    },
+    {
+     "code": "governance",
+     "name": "управление",
+     "type": "string",
+     "comment": "Кто утверждает изменения модели."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CORE",
+     "name": "Роли и акторы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Role",
+   "name": "Роль",
+   "comment": "BFO: роль (role) — реализуемая сущность, которую актор исполняет в ограниченном контексте. Роль не равна человеку, должности или трудовой функции.",
+   "attributes": [
+    {
+     "code": "code",
+     "name": "код",
+     "type": "string",
+     "comment": "Краткий код роли в матрице RACI."
+    },
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Название роли."
+    },
+    {
+     "code": "purpose",
+     "name": "назначение",
+     "type": "string",
+     "comment": "Зачем существует роль."
+    },
+    {
+     "code": "accountability",
+     "name": "подотчётность",
+     "type": "string",
+     "comment": "За что роль отвечает перед организацией."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CORE",
+     "name": "Роли и акторы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Position",
+   "name": "Должность",
+   "comment": "BFO: социальная сущность — устойчивое место в организационной структуре, за которым закрепляются роли и права. Должность может существовать без назначенного актора.",
+   "attributes": [
+    {
+     "code": "title",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Название должности."
+    },
+    {
+     "code": "unit",
+     "name": "подразделение",
+     "type": "string",
+     "comment": "Организационная единица."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Занята, вакантна, выведена."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CORE",
+     "name": "Роли и акторы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Actor",
+   "name": "Актор",
+   "comment": "BFO: объект (independent continuant) — человек или ИИ-агент, способный исполнять роль. Актор существует независимо от конкретного назначения.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Идентификатор актора."
+    },
+    {
+     "code": "kind",
+     "name": "вид",
+     "type": "string",
+     "comment": "Человек или ИИ-агент."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Активен, приостановлен, выведен."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CORE",
+     "name": "Роли и акторы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "HumanActor",
+   "name": "Сотрудник",
+   "comment": "BFO: объект — сотрудник организации, который может быть носителем роли и нести персональную ответственность за результат.",
+   "attributes": [
+    {
+     "code": "fullName",
+     "name": "ФИО",
+     "type": "string",
+     "comment": "Полное имя сотрудника."
+    },
+    {
+     "code": "department",
+     "name": "подразделение",
+     "type": "string",
+     "comment": "Подразделение сотрудника."
+    },
+    {
+     "code": "attestation",
+     "name": "аттестация",
+     "type": "string",
+     "comment": "Дата и результат последней аттестации."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CORE",
+     "name": "Роли и акторы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "AIAgent",
+   "name": "ИИ-агент",
+   "comment": "BFO: объект — программный агент, выполняющий ограниченные функции. Не может быть Accountable и действует под человеческим контролем.",
+   "attributes": [
+    {
+     "code": "model",
+     "name": "модель",
+     "type": "string",
+     "comment": "Модель или алгоритм агента."
+    },
+    {
+     "code": "autonomy",
+     "name": "автономность",
+     "type": "string",
+     "comment": "Допустимая степень автономности."
+    },
+    {
+     "code": "supervisor",
+     "name": "супервизор",
+     "type": "string",
+     "comment": "Роль, контролирующая агента."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CORE",
+     "name": "Роли и акторы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "RoleProfile",
+   "name": "Портрет роли",
+   "comment": "BFO/IAO: ICE — документированный портрет роли: назначение, функции, компетенции и границы полномочий.",
+   "attributes": [
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Версия портрета."
+    },
+    {
+     "code": "approvedAt",
+     "name": "утверждён",
+     "type": "date",
+     "comment": "Дата утверждения портрета."
+    },
+    {
+     "code": "summary",
+     "name": "резюме",
+     "type": "string",
+     "comment": "Краткое описание роли."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CORE",
+     "name": "Роли и акторы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LaborFunction",
+   "name": "Трудовая функция",
+   "comment": "BFO: процесс — устойчивая трудовая функция, которую роль выполняет и за результат которой отвечает.",
+   "attributes": [
+    {
+     "code": "statement",
+     "name": "формулировка",
+     "type": "string",
+     "comment": "Что именно делает роль."
+    },
+    {
+     "code": "output",
+     "name": "результат",
+     "type": "string",
+     "comment": "Результат трудовой функции."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CORE",
+     "name": "Роли и акторы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Competence",
+   "name": "Компетенция",
+   "comment": "BFO: качество (quality) — подтверждённая способность актора выполнять определённый класс задач.",
+   "attributes": [
+    {
+     "code": "area",
+     "name": "область",
+     "type": "string",
+     "comment": "Область компетенции."
+    },
+    {
+     "code": "level",
+     "name": "уровень",
+     "type": "string",
+     "comment": "Базовый, уверенный, экспертный."
+    },
+    {
+     "code": "evidence",
+     "name": "подтверждение",
+     "type": "string",
+     "comment": "Чем подтверждена компетенция."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CORE",
+     "name": "Роли и акторы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CompetenceRequirement",
+   "name": "Требование к компетенции",
+   "comment": "BFO/IAO: ICE — требование к компетенции, которое роль предъявляет к актору при назначении.",
+   "attributes": [
+    {
+     "code": "level",
+     "name": "уровень",
+     "type": "string",
+     "comment": "Минимальный уровень компетенции."
+    },
+    {
+     "code": "mandatory",
+     "name": "обязательность",
+     "type": "string",
+     "comment": "Обязательное или желательное."
+    },
+    {
+     "code": "evidence",
+     "name": "подтверждение",
+     "type": "string",
+     "comment": "Допустимое доказательство компетенции."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CORE",
+     "name": "Роли и акторы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "RoleAssignment",
+   "name": "Назначение на роль",
+   "comment": "BFO/IAO: ICE — назначение актора на роль с указанием этапа, основания и срока. Назначение не равно роли и может быть отозвано.",
+   "attributes": [
+    {
+     "code": "validFrom",
+     "name": "действует с",
+     "type": "date",
+     "comment": "Дата начала назначения."
+    },
+    {
+     "code": "validTo",
+     "name": "действует до",
+     "type": "date",
+     "comment": "Дата окончания назначения."
+    },
+    {
+     "code": "basis",
+     "name": "основание",
+     "type": "string",
+     "comment": "Приказ, регламент или решение."
+    },
+    {
+     "code": "scope",
+     "name": "охват",
+     "type": "string",
+     "comment": "Этапы и работы, на которые распространяется назначение."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RACI",
+     "name": "Ответственность и полномочия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ResponsibilityAssignment",
+   "name": "Распределение ответственности",
+   "comment": "BFO/IAO: ICE — RACI-ячейка: роль, этап или артефакт и тип ответственности. Ячейка описывает модель, а не конкретного сотрудника.",
+   "attributes": [
+    {
+     "code": "note",
+     "name": "примечание",
+     "type": "string",
+     "comment": "Уточнение границ ответственности."
+    },
+    {
+     "code": "source",
+     "name": "источник",
+     "type": "string",
+     "comment": "Откуда взята ячейка."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RACI",
+     "name": "Ответственность и полномочия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "RaciType",
+   "name": "Тип ответственности RACI",
+   "comment": "BFO/IAO: ICE — тип ответственности в матрице RACI: R, A, C или I. Тип задаёт модальный характер участия роли.",
+   "attributes": [
+    {
+     "code": "code",
+     "name": "код",
+     "type": "string",
+     "comment": "R, A, C или I."
+    },
+    {
+     "code": "meaning",
+     "name": "значение",
+     "type": "string",
+     "comment": "Расшифровка типа."
+    },
+    {
+     "code": "weight",
+     "name": "вес",
+     "type": "string",
+     "comment": "Степень участия в решении."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RACI",
+     "name": "Ответственность и полномочия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Authority",
+   "name": "Полномочие",
+   "comment": "BFO: полномочие (realizable entity) — право роли совершать действие или требовать его в заданных границах.",
+   "attributes": [
+    {
+     "code": "scope",
+     "name": "границы",
+     "type": "string",
+     "comment": "На что распространяется полномочие."
+    },
+    {
+     "code": "limit",
+     "name": "ограничение",
+     "type": "string",
+     "comment": "Чего полномочие не позволяет."
+    },
+    {
+     "code": "source",
+     "name": "источник",
+     "type": "string",
+     "comment": "Регламент или решение, которым выдано."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RACI",
+     "name": "Ответственность и полномочия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DecisionRight",
+   "name": "Право решения",
+   "comment": "BFO: полномочие — исключительное право роли принимать решение определённого класса и нести за него ответственность.",
+   "attributes": [
+    {
+     "code": "scope",
+     "name": "класс решений",
+     "type": "string",
+     "comment": "Какие решения охватывает право."
+    },
+    {
+     "code": "exclusivity",
+     "name": "исключительность",
+     "type": "string",
+     "comment": "Единоличное или коллегиальное."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RACI",
+     "name": "Ответственность и полномочия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Delegation",
+   "name": "Делегирование",
+   "comment": "BFO/IAO: ICE — передача полномочия от роли к роли с границами, сроком и запретом передавать подотчётность.",
+   "attributes": [
+    {
+     "code": "validFrom",
+     "name": "действует с",
+     "type": "date",
+     "comment": "Дата начала делегирования."
+    },
+    {
+     "code": "validTo",
+     "name": "действует до",
+     "type": "date",
+     "comment": "Дата окончания делегирования."
+    },
+    {
+     "code": "limit",
+     "name": "границы",
+     "type": "string",
+     "comment": "Что делегируется и что остаётся у исходной роли."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RACI",
+     "name": "Ответственность и полномочия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Substitution",
+   "name": "Замещение",
+   "comment": "BFO/IAO: ICE — временное исполнение роли другим актором без изменения состава ролей и правил.",
+   "attributes": [
+    {
+     "code": "validFrom",
+     "name": "действует с",
+     "type": "date",
+     "comment": "Дата начала замещения."
+    },
+    {
+     "code": "validTo",
+     "name": "действует до",
+     "type": "date",
+     "comment": "Дата окончания замещения."
+    },
+    {
+     "code": "reason",
+     "name": "причина",
+     "type": "string",
+     "comment": "Отпуск, болезнь, срочная необходимость."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RACI",
+     "name": "Ответственность и полномочия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ConflictOfInterest",
+   "name": "Конфликт интересов",
+   "comment": "BFO/IAO: ICE — ситуация, когда совмещение ролей или назначений создаёт риск необъективности и требует разделения.",
+   "attributes": [
+    {
+     "code": "severity",
+     "name": "серьёзность",
+     "type": "string",
+     "comment": "Низкая, средняя, высокая."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Открыт, снят, принят как риск."
+    },
+    {
+     "code": "description",
+     "name": "описание",
+     "type": "string",
+     "comment": "В чём состоит конфликт."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RACI",
+     "name": "Ответственность и полномочия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SeparationRule",
+   "name": "Правило разделения",
+   "comment": "BFO/IAO: ICE — правило, запрещающее совмещение ролей или назначений, при котором исполнитель проверяет сам себя.",
+   "attributes": [
+    {
+     "code": "statement",
+     "name": "формулировка",
+     "type": "string",
+     "comment": "Что именно запрещено."
+    },
+    {
+     "code": "severity",
+     "name": "серьёзность",
+     "type": "string",
+     "comment": "Блокирующее или предупреждающее."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RACI",
+     "name": "Ответственность и полномочия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "GovernanceRule",
+   "name": "Правило управления",
+   "comment": "BFO/IAO: ICE — правило управления ролевой моделью: назначения, делегирование, версии и пересмотр портретов.",
+   "attributes": [
+    {
+     "code": "statement",
+     "name": "формулировка",
+     "type": "string",
+     "comment": "Текст правила."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Действует, проект, отменено."
+    },
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Версия правила."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Управление и зрелость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Finding",
+   "name": "Находка проверки",
+   "comment": "BFO/IAO: ICE — зафиксированное нарушение правила ролевой модели с указанием затронутых ролей и назначений.",
+   "attributes": [
+    {
+     "code": "severity",
+     "name": "серьёзность",
+     "type": "string",
+     "comment": "Блокирующая, высокая, средняя."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Открыта, закрыта, принята."
+    },
+    {
+     "code": "detectedAt",
+     "name": "обнаружена",
+     "type": "date",
+     "comment": "Дата обнаружения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Управление и зрелость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModalStatement",
+   "name": "Модальное утверждение",
+   "comment": "BFO/IAO: ICE — реифицированное модальное утверждение о роли, назначении, правиле или решении: обязанность, запрет, знание, ценность или срок.",
+   "attributes": [
+    {
+     "code": "proposition",
+     "name": "пропозиция",
+     "type": "string",
+     "comment": "Что именно утверждается."
+    },
+    {
+     "code": "agent",
+     "name": "агент",
+     "type": "string",
+     "comment": "Кто утверждает или для кого действует норма."
+    },
+    {
+     "code": "context",
+     "name": "контекст",
+     "type": "string",
+     "comment": "Где и в каких границах утверждение действует."
+    },
+    {
+     "code": "validFrom",
+     "name": "действует с",
+     "type": "date",
+     "comment": "Дата начала действия."
+    },
+    {
+     "code": "source",
+     "name": "источник",
+     "type": "string",
+     "comment": "Документ или роль — основание утверждения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальные квалификации"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModalMode",
+   "name": "Модальный режим",
+   "comment": "BFO/IAO: ICE — режим истинности утверждения: алетический, деонтический (обязанность, разрешение, запрет), эпистемический, аксиологический или темпоральный.",
+   "attributes": [
+    {
+     "code": "operator",
+     "name": "оператор",
+     "type": "string",
+     "comment": "□/◇, O/P/F, K/B, ценностный или темпоральный оператор."
+    },
+    {
+     "code": "question",
+     "name": "вопрос режима",
+     "type": "string",
+     "comment": "Что проверяет режим."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальные квалификации"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Stage",
+   "name": "Этап",
+   "comment": "BFO: процесс — этап жизненного цикла ПРА, на котором действуют роли, принимаются решения и создаются артефакты.",
+   "attributes": [
+    {
+     "code": "number",
+     "name": "номер",
+     "type": "integer",
+     "comment": "Номер этапа от 1 до 20."
+    },
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Название этапа."
+    },
+    {
+     "code": "goal",
+     "name": "цель",
+     "type": "string",
+     "comment": "Результат этапа."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ORG",
+     "name": "Этапы и артефакты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Phase",
+   "name": "Стадия",
+   "comment": "BFO: процесс — стадия, объединяющая несколько этапов и задающая крупный цикл работ.",
+   "attributes": [
+    {
+     "code": "number",
+     "name": "номер",
+     "type": "integer",
+     "comment": "Номер стадии."
+    },
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Название стадии."
+    },
+    {
+     "code": "range",
+     "name": "диапазон этапов",
+     "type": "string",
+     "comment": "Какие этапы входят."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ORG",
+     "name": "Этапы и артефакты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Artifact",
+   "name": "Артефакт",
+   "comment": "BFO/IAO: ICE — документированный результат этапа, который создаётся, утверждается и передаётся следующему этапу.",
+   "attributes": [
+    {
+     "code": "code",
+     "name": "код",
+     "type": "string",
+     "comment": "Идентификатор артефакта."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Черновик, согласован, утверждён."
+    },
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Версия артефакта."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ORG",
+     "name": "Этапы и артефакты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Decision",
+   "name": "Решение",
+   "comment": "BFO: процесс — акт выбора, который закрывает этап, запускает проект или меняет назначение.",
+   "attributes": [
+    {
+     "code": "date",
+     "name": "дата",
+     "type": "date",
+     "comment": "Дата принятия решения."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Проект, принято, отменено."
+    },
+    {
+     "code": "quorum",
+     "name": "кворум",
+     "type": "string",
+     "comment": "Кто должен участвовать."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ORG",
+     "name": "Этапы и артефакты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "KPI",
+   "name": "Показатель",
+   "comment": "BFO/IAO: ICE — измеримый показатель качества ролевой модели или этапа с формулой и целевым значением.",
+   "attributes": [
+    {
+     "code": "formula",
+     "name": "формула",
+     "type": "string",
+     "comment": "Как считается показатель."
+    },
+    {
+     "code": "target",
+     "name": "цель",
+     "type": "string",
+     "comment": "Целевое значение."
+    },
+    {
+     "code": "period",
+     "name": "период",
+     "type": "string",
+     "comment": "Периодичность измерения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ORG",
+     "name": "Этапы и артефакты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Risk",
+   "name": "Риск",
+   "comment": "BFO: предрасположенность (disposition) — возможное событие или условие, угрожающее ролевой модели и требующее снижения.",
+   "attributes": [
+    {
+     "code": "likelihood",
+     "name": "вероятность",
+     "type": "string",
+     "comment": "Низкая, средняя, высокая."
+    },
+    {
+     "code": "impact",
+     "name": "влияние",
+     "type": "string",
+     "comment": "Низкое, среднее, высокое."
+    },
+    {
+     "code": "mitigation",
+     "name": "снижение",
+     "type": "string",
+     "comment": "Чем снижается риск."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ORG",
+     "name": "Этапы и артефакты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SupportArea",
+   "name": "Вид обеспечения",
+   "comment": "BFO/IAO: ICE — вид обеспечения ПРА, закреплённый за ролью и связанный с этапами и принципами.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Название вида обеспечения."
+    },
+    {
+     "code": "scope",
+     "name": "охват",
+     "type": "string",
+     "comment": "Что обеспечивает."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ORG",
+     "name": "Этапы и артефакты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Principle",
+   "name": "Принцип",
+   "comment": "BFO/IAO: ICE — принцип ПРА, который операционализируется через конкретные роли и проверяется правилами.",
+   "attributes": [
+    {
+     "code": "number",
+     "name": "номер",
+     "type": "integer",
+     "comment": "Номер принципа."
+    },
+    {
+     "code": "statement",
+     "name": "формулировка",
+     "type": "string",
+     "comment": "Текст принципа."
+    },
+    {
+     "code": "group",
+     "name": "группа",
+     "type": "string",
+     "comment": "Группа принципов."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Управление и зрелость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "MaturityLevel",
+   "name": "Уровень зрелости",
+   "comment": "BFO/IAO: ICE — уровень зрелости ролевой модели по шкале оценки, задающий требования к практике.",
+   "attributes": [
+    {
+     "code": "number",
+     "name": "номер",
+     "type": "integer",
+     "comment": "Номер уровня от 1 до 5."
+    },
+    {
+     "code": "range",
+     "name": "диапазон",
+     "type": "string",
+     "comment": "Диапазон баллов."
+    },
+    {
+     "code": "characteristic",
+     "name": "характеристика",
+     "type": "string",
+     "comment": "Что означает уровень."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Управление и зрелость"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Assessment",
+   "name": "Оценка зрелости",
+   "comment": "BFO: процесс — оценка ролевой модели с измерением показателей, присвоением уровня и находками.",
+   "attributes": [
+    {
+     "code": "date",
+     "name": "дата",
+     "type": "date",
+     "comment": "Дата оценки."
+    },
+    {
+     "code": "score",
+     "name": "балл",
+     "type": "number",
+     "comment": "Комплексный балл."
+    },
+    {
+     "code": "method",
+     "name": "метод",
+     "type": "string",
+     "comment": "Как проводилась оценка."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "GOV",
+     "name": "Управление и зрелость"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "modelIncludesRole",
+   "name": "включает роль",
+   "comment": "Ролевая модель включает роль в свой состав.",
+   "fromClass": "RoleModel",
+   "toClass": "Role"
+  },
+  {
+   "code": "modelIncludesStage",
+   "name": "включает этап",
+   "comment": "Ролевая модель охватывает этап жизненного цикла.",
+   "fromClass": "RoleModel",
+   "toClass": "Stage"
+  },
+  {
+   "code": "modelHasRule",
+   "name": "управляется правилом",
+   "comment": "Ролевая модель управляется правилом назначений и версий.",
+   "fromClass": "RoleModel",
+   "toClass": "GovernanceRule"
+  },
+  {
+   "code": "modelHasAssessment",
+   "name": "оценивается оценкой",
+   "comment": "Ролевая модель оценивается в рамках оценки зрелости.",
+   "fromClass": "RoleModel",
+   "toClass": "Assessment"
+  },
+  {
+   "code": "roleHasProfile",
+   "name": "описана портретом",
+   "comment": "Роль описана утверждённым портретом.",
+   "fromClass": "Role",
+   "toClass": "RoleProfile"
+  },
+  {
+   "code": "roleHasFunction",
+   "name": "выполняет функцию",
+   "comment": "Роль выполняет трудовую функцию.",
+   "fromClass": "Role",
+   "toClass": "LaborFunction"
+  },
+  {
+   "code": "roleRequiresCompetence",
+   "name": "требует компетенцию",
+   "comment": "Роль предъявляет требование к компетенции.",
+   "fromClass": "Role",
+   "toClass": "CompetenceRequirement"
+  },
+  {
+   "code": "roleHasAuthority",
+   "name": "обладает полномочием",
+   "comment": "Роль обладает полномочием в заданных границах.",
+   "fromClass": "Role",
+   "toClass": "Authority"
+  },
+  {
+   "code": "roleHasDecisionRight",
+   "name": "имеет право решения",
+   "comment": "Роль имеет право принимать решения определённого класса.",
+   "fromClass": "Role",
+   "toClass": "DecisionRight"
+  },
+  {
+   "code": "roleBelongsToPosition",
+   "name": "закреплена за должностью",
+   "comment": "Роль закреплена за должностью в организационной структуре.",
+   "fromClass": "Role",
+   "toClass": "Position"
+  },
+  {
+   "code": "roleReportsTo",
+   "name": "подчиняется роли",
+   "comment": "Роль подчиняется другой роли по линии управления.",
+   "fromClass": "Role",
+   "toClass": "Role"
+  },
+  {
+   "code": "roleConflictsWithRole",
+   "name": "конфликтует с ролью",
+   "comment": "Совмещение ролей создаёт конфликт интересов.",
+   "fromClass": "Role",
+   "toClass": "Role"
+  },
+  {
+   "code": "roleAccountableForArtifact",
+   "name": "отвечает за артефакт",
+   "comment": "Роль несёт ответственность за артефакт.",
+   "fromClass": "Role",
+   "toClass": "Artifact"
+  },
+  {
+   "code": "roleProducesArtifact",
+   "name": "создаёт артефакт",
+   "comment": "Роль создаёт артефакт этапа.",
+   "fromClass": "Role",
+   "toClass": "Artifact"
+  },
+  {
+   "code": "roleConsumesArtifact",
+   "name": "использует артефакт",
+   "comment": "Роль использует артефакт как вход.",
+   "fromClass": "Role",
+   "toClass": "Artifact"
+  },
+  {
+   "code": "positionHeldByActor",
+   "name": "занята сотрудником",
+   "comment": "Должность занята конкретным сотрудником.",
+   "fromClass": "Position",
+   "toClass": "HumanActor"
+  },
+  {
+   "code": "actorHasCompetence",
+   "name": "обладает компетенцией",
+   "comment": "Сотрудник обладает подтверждённой компетенцией.",
+   "fromClass": "HumanActor",
+   "toClass": "Competence"
+  },
+  {
+   "code": "aiAgentHasCompetence",
+   "name": "обладает компетенцией ИИ",
+   "comment": "ИИ-агент обладает подтверждённой компетенцией.",
+   "fromClass": "AIAgent",
+   "toClass": "Competence"
+  },
+  {
+   "code": "assignmentAssignsHuman",
+   "name": "назначает сотрудника",
+   "comment": "Назначение закрепляет сотрудника.",
+   "fromClass": "RoleAssignment",
+   "toClass": "HumanActor"
+  },
+  {
+   "code": "assignmentAssignsAI",
+   "name": "назначает ИИ-агента",
+   "comment": "Назначение закрепляет ИИ-агента.",
+   "fromClass": "RoleAssignment",
+   "toClass": "AIAgent"
+  },
+  {
+   "code": "assignmentGrantsRole",
+   "name": "назначает на роль",
+   "comment": "Назначение предоставляет роль.",
+   "fromClass": "RoleAssignment",
+   "toClass": "Role"
+  },
+  {
+   "code": "assignmentEnactsResponsibility",
+   "name": "реализует ответственность",
+   "comment": "Назначение реализует RACI-ячейку.",
+   "fromClass": "RoleAssignment",
+   "toClass": "ResponsibilityAssignment"
+  },
+  {
+   "code": "assignmentCoversStage",
+   "name": "действует на этапе",
+   "comment": "Назначение действует на указанном этапе.",
+   "fromClass": "RoleAssignment",
+   "toClass": "Stage"
+  },
+  {
+   "code": "assignmentBasedOnRule",
+   "name": "основано на правиле",
+   "comment": "Назначение опирается на правило управления.",
+   "fromClass": "RoleAssignment",
+   "toClass": "GovernanceRule"
+  },
+  {
+   "code": "assignmentDelegatedFrom",
+   "name": "делегировано от назначения",
+   "comment": "Назначение получено делегированием другого назначения.",
+   "fromClass": "RoleAssignment",
+   "toClass": "RoleAssignment"
+  },
+  {
+   "code": "assignmentReplacesAssignment",
+   "name": "замещает назначение",
+   "comment": "Назначение временно заменяет другое назначение.",
+   "fromClass": "RoleAssignment",
+   "toClass": "RoleAssignment"
+  },
+  {
+   "code": "assignmentHasFinding",
+   "name": "имеет находку",
+   "comment": "Назначение имеет связанную находку проверки.",
+   "fromClass": "RoleAssignment",
+   "toClass": "Finding"
+  },
+  {
+   "code": "raciCellForRole",
+   "name": "относится к роли",
+   "comment": "RACI-ячейка относится к роли.",
+   "fromClass": "ResponsibilityAssignment",
+   "toClass": "Role"
+  },
+  {
+   "code": "raciCellForStage",
+   "name": "относится к этапу",
+   "comment": "RACI-ячейка относится к этапу.",
+   "fromClass": "ResponsibilityAssignment",
+   "toClass": "Stage"
+  },
+  {
+   "code": "raciCellForArtifact",
+   "name": "относится к артефакту",
+   "comment": "RACI-ячейка относится к артефакту.",
+   "fromClass": "ResponsibilityAssignment",
+   "toClass": "Artifact"
+  },
+  {
+   "code": "raciCellForPrinciple",
+   "name": "относится к принципу",
+   "comment": "RACI-ячейка относится к принципу.",
+   "fromClass": "ResponsibilityAssignment",
+   "toClass": "Principle"
+  },
+  {
+   "code": "raciCellHasType",
+   "name": "имеет тип RACI",
+   "comment": "RACI-ячейка имеет тип ответственности.",
+   "fromClass": "ResponsibilityAssignment",
+   "toClass": "RaciType"
+  },
+  {
+   "code": "authorityAllowsAction",
+   "name": "разрешает действие",
+   "comment": "Полномочие разрешает принять решение.",
+   "fromClass": "Authority",
+   "toClass": "Decision"
+  },
+  {
+   "code": "authorityDelegatedBy",
+   "name": "передаётся делегированием",
+   "comment": "Полномочие передаётся через делегирование.",
+   "fromClass": "Authority",
+   "toClass": "Delegation"
+  },
+  {
+   "code": "decisionRightCoversDecision",
+   "name": "распространяется на решение",
+   "comment": "Право решения распространяется на класс решений.",
+   "fromClass": "DecisionRight",
+   "toClass": "Decision"
+  },
+  {
+   "code": "delegationFromRole",
+   "name": "делегирует роль",
+   "comment": "Роль передаёт полномочие.",
+   "fromClass": "Delegation",
+   "toClass": "Role"
+  },
+  {
+   "code": "delegationToRole",
+   "name": "принимает делегирование",
+   "comment": "Роль принимает полномочие.",
+   "fromClass": "Delegation",
+   "toClass": "Role"
+  },
+  {
+   "code": "delegationTransfersAuthority",
+   "name": "передаёт полномочие",
+   "comment": "Делегирование передаёт конкретное полномочие.",
+   "fromClass": "Delegation",
+   "toClass": "Authority"
+  },
+  {
+   "code": "delegationLimitedByRule",
+   "name": "ограничено правилом",
+   "comment": "Делегирование ограничено правилом управления.",
+   "fromClass": "Delegation",
+   "toClass": "GovernanceRule"
+  },
+  {
+   "code": "substitutionForRole",
+   "name": "замещает роль",
+   "comment": "Замещение временно закрывает роль.",
+   "fromClass": "Substitution",
+   "toClass": "Role"
+  },
+  {
+   "code": "substitutionByActor",
+   "name": "исполняется сотрудником",
+   "comment": "Замещение исполняется конкретным сотрудником.",
+   "fromClass": "Substitution",
+   "toClass": "HumanActor"
+  },
+  {
+   "code": "substitutionCoversStage",
+   "name": "замещает на этапе",
+   "comment": "Замещение действует на указанном этапе.",
+   "fromClass": "Substitution",
+   "toClass": "Stage"
+  },
+  {
+   "code": "conflictInvolvesRole",
+   "name": "затрагивает роль",
+   "comment": "Конфликт затрагивает роль.",
+   "fromClass": "ConflictOfInterest",
+   "toClass": "Role"
+  },
+  {
+   "code": "conflictArisesFromAssignment",
+   "name": "возникает из назначения",
+   "comment": "Конфликт возникает из конкретного назначения.",
+   "fromClass": "ConflictOfInterest",
+   "toClass": "RoleAssignment"
+  },
+  {
+   "code": "conflictDetectedByRule",
+   "name": "выявлен правилом",
+   "comment": "Конфликт выявлен правилом разделения.",
+   "fromClass": "ConflictOfInterest",
+   "toClass": "SeparationRule"
+  },
+  {
+   "code": "conflictBlocksAssignment",
+   "name": "блокирует назначение",
+   "comment": "Конфликт блокирует назначение.",
+   "fromClass": "ConflictOfInterest",
+   "toClass": "RoleAssignment"
+  },
+  {
+   "code": "separationRuleForbidsRole",
+   "name": "запрещает совмещение роли",
+   "comment": "Правило запрещает совмещение роли.",
+   "fromClass": "SeparationRule",
+   "toClass": "Role"
+  },
+  {
+   "code": "separationRuleChecksStage",
+   "name": "проверяет этап",
+   "comment": "Правило проверяется на этапе.",
+   "fromClass": "SeparationRule",
+   "toClass": "Stage"
+  },
+  {
+   "code": "separationRuleProducesFinding",
+   "name": "порождает находку",
+   "comment": "Правило порождает находку при нарушении.",
+   "fromClass": "SeparationRule",
+   "toClass": "Finding"
+  },
+  {
+   "code": "stagePartOfPhase",
+   "name": "входит в стадию",
+   "comment": "Этап входит в стадию жизненного цикла.",
+   "fromClass": "Stage",
+   "toClass": "Phase"
+  },
+  {
+   "code": "stageProducesArtifact",
+   "name": "производит артефакт",
+   "comment": "Этап создаёт артефакт.",
+   "fromClass": "Stage",
+   "toClass": "Artifact"
+  },
+  {
+   "code": "stageConsumesArtifact",
+   "name": "потребляет артефакт",
+   "comment": "Этап использует артефакт как вход.",
+   "fromClass": "Stage",
+   "toClass": "Artifact"
+  },
+  {
+   "code": "stageHasDecisionGate",
+   "name": "имеет шлюз решения",
+   "comment": "Этап завершается шлюзом решения.",
+   "fromClass": "Stage",
+   "toClass": "Decision"
+  },
+  {
+   "code": "stageHasKPI",
+   "name": "измеряется показателем",
+   "comment": "Этап измеряется показателем.",
+   "fromClass": "Stage",
+   "toClass": "KPI"
+  },
+  {
+   "code": "stageHasRisk",
+   "name": "подвержена риску",
+   "comment": "Этап подвержен риску.",
+   "fromClass": "Stage",
+   "toClass": "Risk"
+  },
+  {
+   "code": "artifactSignedOffBy",
+   "name": "утверждается ролью",
+   "comment": "Артефакт утверждается ролью.",
+   "fromClass": "Artifact",
+   "toClass": "Role"
+  },
+  {
+   "code": "artifactTraceableTo",
+   "name": "прослеживается к артефакту",
+   "comment": "Артефакт прослеживается к предыдущему артефакту.",
+   "fromClass": "Artifact",
+   "toClass": "Artifact"
+  },
+  {
+   "code": "artifactCreatedAtStage",
+   "name": "создан на этапе",
+   "comment": "Артефакт создан на этапе.",
+   "fromClass": "Artifact",
+   "toClass": "Stage"
+  },
+  {
+   "code": "decisionMadeByRole",
+   "name": "принимается ролью",
+   "comment": "Решение принимается ролью.",
+   "fromClass": "Decision",
+   "toClass": "Role"
+  },
+  {
+   "code": "decisionRequiresSignOff",
+   "name": "требует утверждения",
+   "comment": "Решение требует утверждения ролью.",
+   "fromClass": "Decision",
+   "toClass": "Role"
+  },
+  {
+   "code": "decisionAffectsArtifact",
+   "name": "затрагивает артефакт",
+   "comment": "Решение изменяет артефакт.",
+   "fromClass": "Decision",
+   "toClass": "Artifact"
+  },
+  {
+   "code": "decisionClosesStage",
+   "name": "закрывает этап",
+   "comment": "Решение закрывает этап.",
+   "fromClass": "Decision",
+   "toClass": "Stage"
+  },
+  {
+   "code": "modalStatementHasMode",
+   "name": "имеет режим",
+   "comment": "Модальное утверждение относится к режиму истинности.",
+   "fromClass": "ModalStatement",
+   "toClass": "ModalMode"
+  },
+  {
+   "code": "modalStatementQualifiesRole",
+   "name": "квалифицирует роль",
+   "comment": "Утверждение задаёт режим роли.",
+   "fromClass": "ModalStatement",
+   "toClass": "Role"
+  },
+  {
+   "code": "modalStatementQualifiesAssignment",
+   "name": "квалифицирует назначение",
+   "comment": "Утверждение задаёт режим назначения.",
+   "fromClass": "ModalStatement",
+   "toClass": "RoleAssignment"
+  },
+  {
+   "code": "modalStatementQualifiesRule",
+   "name": "квалифицирует правило",
+   "comment": "Утверждение задаёт режим правила.",
+   "fromClass": "ModalStatement",
+   "toClass": "GovernanceRule"
+  },
+  {
+   "code": "modalStatementQualifiesSeparationRule",
+   "name": "квалифицирует правило разделения",
+   "comment": "Утверждение задаёт режим правила разделения ролей.",
+   "fromClass": "ModalStatement",
+   "toClass": "SeparationRule"
+  },
+  {
+   "code": "modalStatementQualifiesAuthority",
+   "name": "квалифицирует полномочие",
+   "comment": "Утверждение задаёт режим полномочия.",
+   "fromClass": "ModalStatement",
+   "toClass": "Authority"
+  },
+  {
+   "code": "modalStatementQualifiesDecision",
+   "name": "квалифицирует решение",
+   "comment": "Утверждение задаёт режим решения.",
+   "fromClass": "ModalStatement",
+   "toClass": "Decision"
+  },
+  {
+   "code": "modalStatementQualifiesConflict",
+   "name": "квалифицирует конфликт",
+   "comment": "Утверждение задаёт режим конфликта.",
+   "fromClass": "ModalStatement",
+   "toClass": "ConflictOfInterest"
+  },
+  {
+   "code": "modalStatementBasedOnArtifact",
+   "name": "основано на артефакте",
+   "comment": "Утверждение опирается на документ-основание.",
+   "fromClass": "ModalStatement",
+   "toClass": "Artifact"
+  },
+  {
+   "code": "ruleConstrainsRole",
+   "name": "ограничивает роль",
+   "comment": "Правило ограничивает поведение роли.",
+   "fromClass": "GovernanceRule",
+   "toClass": "Role"
+  },
+  {
+   "code": "ruleConstrainsAssignment",
+   "name": "ограничивает назначение",
+   "comment": "Правило ограничивает назначение.",
+   "fromClass": "GovernanceRule",
+   "toClass": "RoleAssignment"
+  },
+  {
+   "code": "ruleConstrainsDelegation",
+   "name": "ограничивает делегирование",
+   "comment": "Правило ограничивает делегирование.",
+   "fromClass": "GovernanceRule",
+   "toClass": "Delegation"
+  },
+  {
+   "code": "ruleConstrainsModel",
+   "name": "ограничивает модель",
+   "comment": "Правило ограничивает ролевую модель.",
+   "fromClass": "GovernanceRule",
+   "toClass": "RoleModel"
+  },
+  {
+   "code": "ruleRequiresArtifact",
+   "name": "требует артефакт",
+   "comment": "Правило требует наличия артефакта.",
+   "fromClass": "GovernanceRule",
+   "toClass": "Artifact"
+  },
+  {
+   "code": "ruleCheckedAtStage",
+   "name": "проверяется на этапе",
+   "comment": "Правило проверяется на этапе.",
+   "fromClass": "GovernanceRule",
+   "toClass": "Stage"
+  },
+  {
+   "code": "findingViolatesRule",
+   "name": "нарушает правило",
+   "comment": "Находка фиксирует нарушение правила.",
+   "fromClass": "Finding",
+   "toClass": "GovernanceRule"
+  },
+  {
+   "code": "findingViolatesSeparationRule",
+   "name": "нарушает правило разделения",
+   "comment": "Находка фиксирует нарушение правила разделения ролей.",
+   "fromClass": "Finding",
+   "toClass": "SeparationRule"
+  },
+  {
+   "code": "findingAffectsRole",
+   "name": "касается роли",
+   "comment": "Находка затрагивает роль.",
+   "fromClass": "Finding",
+   "toClass": "Role"
+  },
+  {
+   "code": "findingAffectsAssignment",
+   "name": "затрагивает назначение",
+   "comment": "Находка затрагивает назначение.",
+   "fromClass": "Finding",
+   "toClass": "RoleAssignment"
+  },
+  {
+   "code": "findingResolvedByDecision",
+   "name": "устраняется решением",
+   "comment": "Находка устраняется решением.",
+   "fromClass": "Finding",
+   "toClass": "Decision"
+  },
+  {
+   "code": "principleOperationalizedByRole",
+   "name": "реализуется ролью",
+   "comment": "Принцип операционализируется ролью.",
+   "fromClass": "Principle",
+   "toClass": "Role"
+  },
+  {
+   "code": "principleConstrainsStage",
+   "name": "ограничивает этап",
+   "comment": "Принцип ограничивает этап.",
+   "fromClass": "Principle",
+   "toClass": "Stage"
+  },
+  {
+   "code": "principleCheckedByRule",
+   "name": "проверяется правилом",
+   "comment": "Принцип проверяется правилом.",
+   "fromClass": "Principle",
+   "toClass": "GovernanceRule"
+  },
+  {
+   "code": "supportAreaAccountableRole",
+   "name": "закреплён за ролью",
+   "comment": "Вид обеспечения закреплён за ответственной ролью.",
+   "fromClass": "SupportArea",
+   "toClass": "Role"
+  },
+  {
+   "code": "supportAreaCoversStage",
+   "name": "обеспечивает этап",
+   "comment": "Вид обеспечения поддерживает этап.",
+   "fromClass": "SupportArea",
+   "toClass": "Stage"
+  },
+  {
+   "code": "supportAreaRequiresPrinciple",
+   "name": "опирается на принцип",
+   "comment": "Вид обеспечения опирается на принцип.",
+   "fromClass": "SupportArea",
+   "toClass": "Principle"
+  },
+  {
+   "code": "assessmentHasLevel",
+   "name": "получает уровень",
+   "comment": "Оценка присваивает уровень зрелости.",
+   "fromClass": "Assessment",
+   "toClass": "MaturityLevel"
+  },
+  {
+   "code": "assessmentEvaluatesModel",
+   "name": "оценивает модель",
+   "comment": "Оценка оценивает ролевую модель.",
+   "fromClass": "Assessment",
+   "toClass": "RoleModel"
+  },
+  {
+   "code": "assessmentProducesFinding",
+   "name": "выявляет находку",
+   "comment": "Оценка порождает находку.",
+   "fromClass": "Assessment",
+   "toClass": "Finding"
+  },
+  {
+   "code": "maturityLevelRequiresPrinciple",
+   "name": "требует принцип",
+   "comment": "Уровень зрелости требует реализации принципа.",
+   "fromClass": "MaturityLevel",
+   "toClass": "Principle"
+  },
+  {
+   "code": "riskThreatensRole",
+   "name": "угрожает роли",
+   "comment": "Риск угрожает роли.",
+   "fromClass": "Risk",
+   "toClass": "Role"
+  },
+  {
+   "code": "riskMitigatedByRule",
+   "name": "снижается правилом",
+   "comment": "Риск снижается правилом управления.",
+   "fromClass": "Risk",
+   "toClass": "GovernanceRule"
+  }
+ ],
+ "info": {
+  "description": "Онтология описывает ролевую модель Прагматической аналитики (ПРА) как формальную систему: роли матрицы RACI, акторов и должности, назначения, полномочия, делегирование и замещение, правила разделения, находки проверок и уровни зрелости. Отдельный модальный слой фиксирует, что роль обязана делать, что ей разрешено, что запрещено, что считается знанием, какая ценность обосновывает норму и на какой срок она действует. Модель опирается на BFO: роли и полномочия трактуются как реализуемые сущности, акторы и должности — как независимые континуанты, назначения, правила и утверждения — как информационные сущности (ICE), этапы — как процессы. Из 62 принципов ПРА в модель включены 22 ключевых — представительная выборка по всем группам; остальные принципы перечислены в источнике и добавляются без изменения схемы.",
+  "scope": [
+   "Роли и акторы: 21 роль матрицы RACI и внешняя роль ЛПР, должности, сотрудники и ИИ-агенты, компетенции и требования к ним",
+   "Ответственность и полномочия: ячейки RACI, права решения, делегирование, замещение, конфликты интересов и правила разделения",
+   "Этапы и артефакты: 20 этапов в четырёх стадиях, 26 артефактов, шлюзы решений, показатели и риски",
+   "Модальные квалификации: алетические, деонтические (обязанность, разрешение, запрет), эпистемические, аксиологические и темпоральные утверждения",
+   "Управление и зрелость: правила версионирования и назначений, находки проверок, пять уровней зрелости и две демонстрационные оценки"
+  ],
+  "competencyQuestions": [
+   "Кто является Accountable за конкретный этап и совпадает ли это с фактическим назначением?",
+   "Какие роли исполняет конкретный актор и не создаёт ли совмещение конфликт интересов?",
+   "Какие полномочия переданы делегированием и какие границы при этом сохраняются?",
+   "Может ли ИИ-агент быть Accountable и какое правило это запрещает?",
+   "Какие модальные режимы действуют для роли PA и на каких документах они основаны?",
+   "Какие находки проверки блокируют подтверждение уровня зрелости?",
+   "Какие компетенции требует роль и подтверждены ли они у назначенного актора?",
+   "Какие артефакты создаёт, утверждает и использует конкретная роль?",
+   "Какие принципы ПРА операционализируются данной ролью?",
+   "Какие виды обеспечения поддерживают этап и за какой ролью они закреплены?",
+   "Что произойдёт с подотчётностью этапа при делегировании полномочия?",
+   "Какие риски угрожают ролевой модели и какими правилами они снижаются?",
+   "Какие решения закрывают этап и кто их утверждает?",
+   "Как соотносятся роль, должность и конкретный сотрудник в модели?"
+  ]
+ },
+ "theme": [
+  {
+   "code": "CORE",
+   "name": "Роли и акторы",
+   "color": "#60a5fa"
+  },
+  {
+   "code": "RACI",
+   "name": "Ответственность и полномочия",
+   "color": "#34d399"
+  },
+  {
+   "code": "ORG",
+   "name": "Этапы и артефакты",
+   "color": "#fbbf24"
+  },
+  {
+   "code": "MODAL",
+   "name": "Модальные квалификации",
+   "color": "#a78bfa"
+  },
+  {
+   "code": "GOV",
+   "name": "Управление и зрелость",
+   "color": "#f87171"
+  }
+ ]
+}

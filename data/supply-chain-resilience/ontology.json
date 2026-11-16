@@ -1,0 +1,1478 @@
+{
+ "classes": [
+  {
+   "code": "Company",
+   "name": "Компания",
+   "comment": "Участник цепочки поставок: производитель, поставщик, логистический оператор или холдинг. Связывает производство, поставки и корпоративно-правовое поле.",
+   "attributes": [
+    {
+     "code": "legalName",
+     "name": "юридическое наименование",
+     "type": "string",
+     "comment": "Полное наименование компании."
+    },
+    {
+     "code": "country",
+     "name": "страна регистрации",
+     "type": "string",
+     "comment": "Страна или юрисдикция регистрации компании."
+    },
+    {
+     "code": "role",
+     "name": "роль в цепочке поставок",
+     "type": "string",
+     "comment": "Роль: производитель, поставщик, логистический оператор, холдинг."
+    },
+    {
+     "code": "criticality",
+     "name": "критичность для цепочки",
+     "type": "string",
+     "comment": "Критичность участника: критичный, важный, стандартный."
+    },
+    {
+     "code": "riskLevel",
+     "name": "уровень риска",
+     "type": "string",
+     "comment": "Сводная оценка риска работы с участником."
+    },
+    {
+     "code": "sanctionStatus",
+     "name": "санкционный статус",
+     "type": "string",
+     "comment": "Наличие санкционных ограничений в отношении компании или её бенефициаров."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SUPPLY_CHAIN",
+     "name": "Цепочки поставок"
+    },
+    {
+     "code": "DOM_LEGAL",
+     "name": "Корпоративно-правовое поле"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Component",
+   "name": "Компонент",
+   "comment": "Материал, узел или покупное изделие, необходимое для производства продукта. Ключевой объект импакт-анализа дефицитов.",
+   "attributes": [
+    {
+     "code": "category",
+     "name": "категория",
+     "type": "string",
+     "comment": "Категория компонента: ячейки, электроника, металл, магниты и т.п."
+    },
+    {
+     "code": "criticality",
+     "name": "критичность",
+     "type": "string",
+     "comment": "Критичность компонента для выпуска продуктов."
+    },
+    {
+     "code": "singleSource",
+     "name": "единственный источник",
+     "type": "boolean",
+     "comment": "Признак зависимости от единственного поставщика."
+    },
+    {
+     "code": "stockDays",
+     "name": "текущий запас, дней",
+     "type": "number",
+     "comment": "Покрытие потребности складским запасом в днях."
+    },
+    {
+     "code": "annualVolume",
+     "name": "годовая потребность",
+     "type": "string",
+     "comment": "Плановая годовая потребность в компоненте."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SUPPLY_CHAIN",
+     "name": "Цепочки поставок"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Product",
+   "name": "Продукт",
+   "comment": "Готовая продукция компании. Конечная точка цепочек влияния при сбоях поставок.",
+   "attributes": [
+    {
+     "code": "model",
+     "name": "модель",
+     "type": "string",
+     "comment": "Название или индекс модели."
+    },
+    {
+     "code": "annualVolume",
+     "name": "годовой объём выпуска",
+     "type": "string",
+     "comment": "Плановый годовой объём выпуска."
+    },
+    {
+     "code": "margin",
+     "name": "маржинальность, %",
+     "type": "number",
+     "comment": "Маржинальность продукта."
+    },
+    {
+     "code": "carbonFootprint",
+     "name": "углеродный след",
+     "type": "string",
+     "comment": "Углеродный след единицы продукции."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_SUPPLY_CHAIN",
+     "name": "Цепочки поставок"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ProductionSite",
+   "name": "Производственная площадка",
+   "comment": "Завод или фабрика: собирает продукты, выпускает компоненты, потребляет энергию и зависит от климатических условий региона.",
+   "attributes": [
+    {
+     "code": "location",
+     "name": "местоположение",
+     "type": "string",
+     "comment": "Город и страна площадки."
+    },
+    {
+     "code": "capacity",
+     "name": "мощность",
+     "type": "string",
+     "comment": "Производственная мощность площадки."
+    },
+    {
+     "code": "utilization",
+     "name": "загрузка, %",
+     "type": "number",
+     "comment": "Текущая загрузка мощности."
+    },
+    {
+     "code": "commissioningYear",
+     "name": "год ввода",
+     "type": "number",
+     "comment": "Год ввода площадки в эксплуатацию."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_INFRASTRUCTURE",
+     "name": "Инфраструктура"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LogisticsRoute",
+   "name": "Логистический маршрут",
+   "comment": "Маршрут доставки компонентов и материалов: морской, железнодорожный, авиа. Объект геополитических и климатических рисков.",
+   "attributes": [
+    {
+     "code": "mode",
+     "name": "вид транспорта",
+     "type": "string",
+     "comment": "Море, железная дорога, авиа, авто."
+    },
+    {
+     "code": "leadTimeDays",
+     "name": "плановое транзитное время, дней",
+     "type": "number",
+     "comment": "Плановое время доставки по маршруту."
+    },
+    {
+     "code": "share",
+     "name": "доля объёма, %",
+     "type": "number",
+     "comment": "Доля потока поставок, идущая по маршруту."
+    },
+    {
+     "code": "reliability",
+     "name": "надёжность, %",
+     "type": "number",
+     "comment": "Историческая надёжность соблюдения сроков."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_INFRASTRUCTURE",
+     "name": "Инфраструктура"
+    },
+    {
+     "code": "DOM_SUPPLY_CHAIN",
+     "name": "Цепочки поставок"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LogisticsHub",
+   "name": "Транспортный узел",
+   "comment": "Порт, канал или транзитный узел, через который проходят логистические маршруты. Точка концентрации рисков.",
+   "attributes": [
+    {
+     "code": "hubType",
+     "name": "тип узла",
+     "type": "string",
+     "comment": "Морской порт, канал, обходной узел."
+    },
+    {
+     "code": "throughput",
+     "name": "пропускная способность",
+     "type": "string",
+     "comment": "Пропускная способность узла."
+    },
+    {
+     "code": "congestionLevel",
+     "name": "уровень загруженности",
+     "type": "string",
+     "comment": "Текущая загруженность узла."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_INFRASTRUCTURE",
+     "name": "Инфраструктура"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Warehouse",
+   "name": "Склад",
+   "comment": "Складской узел, хранящий компоненты и снабжающий производственные площадки.",
+   "attributes": [
+    {
+     "code": "capacity",
+     "name": "ёмкость",
+     "type": "string",
+     "comment": "Ёмкость склада."
+    },
+    {
+     "code": "utilization",
+     "name": "заполненность, %",
+     "type": "number",
+     "comment": "Текущая заполненность склада."
+    },
+    {
+     "code": "safetyStockDays",
+     "name": "страховой запас, дней",
+     "type": "number",
+     "comment": "Норматив страхового запаса в днях."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_INFRASTRUCTURE",
+     "name": "Инфраструктура"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "EnergySource",
+   "name": "Источник энергии",
+   "comment": "Энергосистема или генерация, питающая производство. Углеродная интенсивность энергии определяет комплаенс по CBAM.",
+   "attributes": [
+    {
+     "code": "energyType",
+     "name": "тип источника",
+     "type": "string",
+     "comment": "Уголь, газ, гидро, смешанная сеть."
+    },
+    {
+     "code": "carbonIntensity",
+     "name": "углеродная интенсивность, кг CO2e/МВт·ч",
+     "type": "number",
+     "comment": "Удельные выбросы на единицу энергии."
+    },
+    {
+     "code": "priceVolatility",
+     "name": "волатильность цены",
+     "type": "string",
+     "comment": "Оценка волатильности цен на энергию."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_INFRASTRUCTURE",
+     "name": "Инфраструктура"
+    },
+    {
+     "code": "DOM_GEO_CLIMATE",
+     "name": "Гео и климат"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalEntity",
+   "name": "Юридическое лицо",
+   "comment": "Юрлицо корпоративной структуры: дочерняя компания, холдинг. Носитель юрисдикции и регуляторных обязанностей.",
+   "attributes": [
+    {
+     "code": "legalName",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Полное наименование юрлица."
+    },
+    {
+     "code": "jurisdiction",
+     "name": "юрисдикция",
+     "type": "string",
+     "comment": "Страна регистрации юрлица."
+    },
+    {
+     "code": "registrationNumber",
+     "name": "регистрационный номер",
+     "type": "string",
+     "comment": "Номер в торговом реестре."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус юрлица: действует, ликвидируется и т.п."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_LEGAL",
+     "name": "Корпоративно-правовое поле"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Beneficiary",
+   "name": "Бенефициарный владелец",
+   "comment": "Физическое лицо, контролирующее юрлицо. Ключевой объект комплаенс-проверок и санкционного скрининга.",
+   "attributes": [
+    {
+     "code": "fullName",
+     "name": "ФИО",
+     "type": "string",
+     "comment": "Полное имя бенефициара."
+    },
+    {
+     "code": "citizenship",
+     "name": "гражданство",
+     "type": "string",
+     "comment": "Гражданство бенефициара."
+    },
+    {
+     "code": "sharePercent",
+     "name": "доля владения, %",
+     "type": "number",
+     "comment": "Доля в капитале контролируемого юрлица."
+    },
+    {
+     "code": "pepStatus",
+     "name": "статус ПДЛ",
+     "type": "string",
+     "comment": "Признак публично значимого лица (PEP)."
+    },
+    {
+     "code": "sanctionStatus",
+     "name": "санкционный статус",
+     "type": "string",
+     "comment": "Наличие санкционных ограничений."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_LEGAL",
+     "name": "Корпоративно-правовое поле"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Contract",
+   "name": "Договор",
+   "comment": "Договор поставки или фрахта между участниками цепочки. Определяет объёмы, сроки и юридические риски.",
+   "attributes": [
+    {
+     "code": "number",
+     "name": "номер",
+     "type": "string",
+     "comment": "Номер договора."
+    },
+    {
+     "code": "validUntil",
+     "name": "действует до",
+     "type": "date",
+     "comment": "Дата окончания действия договора."
+    },
+    {
+     "code": "volume",
+     "name": "объём поставки",
+     "type": "string",
+     "comment": "Договорной объём поставки."
+    },
+    {
+     "code": "penaltyRate",
+     "name": "штраф за просрочку, % в неделю",
+     "type": "number",
+     "comment": "Ставка штрафных санкций за срыв сроков."
+    },
+    {
+     "code": "incoterms",
+     "name": "условия поставки",
+     "type": "string",
+     "comment": "Базис поставки (Incoterms)."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_LEGAL",
+     "name": "Корпоративно-правовое поле"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SanctionRestriction",
+   "name": "Санкционное ограничение",
+   "comment": "Ограничительные меры в отношении компаний, бенефициаров или транзита. Источник комплаенс-рисков.",
+   "attributes": [
+    {
+     "code": "authority",
+     "name": "орган",
+     "type": "string",
+     "comment": "Орган, введший ограничение."
+    },
+    {
+     "code": "level",
+     "name": "уровень",
+     "type": "string",
+     "comment": "Уровень ограничения: секторальный, персональный, список."
+    },
+    {
+     "code": "effectiveDate",
+     "name": "дата вступления",
+     "type": "date",
+     "comment": "Дата вступления ограничения в силу."
+    },
+    {
+     "code": "scope",
+     "name": "охват",
+     "type": "string",
+     "comment": "Что именно ограничивается."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_LEGAL",
+     "name": "Корпоративно-правовое поле"
+    },
+    {
+     "code": "DOM_REGULATION",
+     "name": "Регуляторика"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Regulation",
+   "name": "Регуляторный акт",
+   "comment": "Закон или регламент, вводящий обязательные требования для участников цепочки поставок.",
+   "attributes": [
+    {
+     "code": "jurisdiction",
+     "name": "юрисдикция",
+     "type": "string",
+     "comment": "Юрисдикция действия акта."
+    },
+    {
+     "code": "effectiveDate",
+     "name": "дата вступления",
+     "type": "date",
+     "comment": "Дата вступления акта в силу."
+    },
+    {
+     "code": "scope",
+     "name": "охват",
+     "type": "string",
+     "comment": "Кого и что регулирует акт."
+    },
+    {
+     "code": "penaltyForBreach",
+     "name": "санкция за нарушение",
+     "type": "string",
+     "comment": "Ответственность за несоблюдение."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_REGULATION",
+     "name": "Регуляторика"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ComplianceRequirement",
+   "name": "Требование соответствия",
+   "comment": "Конкретное обязательство, вытекающее из регуляторного акта: отчётность, аудит, лицензия.",
+   "attributes": [
+    {
+     "code": "deadline",
+     "name": "срок исполнения",
+     "type": "string",
+     "comment": "Срок или периодичность исполнения требования."
+    },
+    {
+     "code": "auditType",
+     "name": "тип проверки",
+     "type": "string",
+     "comment": "Форма подтверждения соответствия."
+    },
+    {
+     "code": "evidence",
+     "name": "подтверждающие документы",
+     "type": "string",
+     "comment": "Документы, подтверждающие соответствие."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_REGULATION",
+     "name": "Регуляторика"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Certificate",
+   "name": "Сертификат",
+   "comment": "Сертификат или аудиторское заключение, подтверждающее соответствие требованию.",
+   "attributes": [
+    {
+     "code": "issuer",
+     "name": "эмитент",
+     "type": "string",
+     "comment": "Орган или аудитор, выдавший сертификат."
+    },
+    {
+     "code": "validUntil",
+     "name": "действует до",
+     "type": "date",
+     "comment": "Срок действия сертификата."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус сертификата: действует, приостановлен."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_REGULATION",
+     "name": "Регуляторика"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "GeoRegion",
+   "name": "Географический регион",
+   "comment": "Регион размещения производств, узлов и поставщиков. Носитель климатических и геополитических характеристик.",
+   "attributes": [
+    {
+     "code": "country",
+     "name": "страна/страны",
+     "type": "string",
+     "comment": "Страны, входящие в регион."
+    },
+    {
+     "code": "climateRiskIndex",
+     "name": "климатический индекс риска",
+     "type": "string",
+     "comment": "Сводная оценка климатических рисков региона."
+    },
+    {
+     "code": "politicalStability",
+     "name": "политическая стабильность",
+     "type": "string",
+     "comment": "Оценка политической стабильности."
+    },
+    {
+     "code": "logisticsIndex",
+     "name": "логистический индекс",
+     "type": "string",
+     "comment": "Оценка логистической инфраструктуры."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_GEO_CLIMATE",
+     "name": "Гео и климат"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ClimateHazard",
+   "name": "Климатическая угроза",
+   "comment": "Природная угроза: тайфун, землетрясение, засуха. Воздействует на регионы, площадки, узлы и источники энергии.",
+   "attributes": [
+    {
+     "code": "hazardType",
+     "name": "тип угрозы",
+     "type": "string",
+     "comment": "Класс природной угрозы."
+    },
+    {
+     "code": "probability",
+     "name": "вероятность",
+     "type": "string",
+     "comment": "Вероятность реализации угрозы."
+    },
+    {
+     "code": "severity",
+     "name": "тяжесть последствий",
+     "type": "string",
+     "comment": "Оценка тяжести последствий."
+    },
+    {
+     "code": "seasonality",
+     "name": "сезонность",
+     "type": "string",
+     "comment": "Сезон, в котором угроза наиболее вероятна."
+    },
+    {
+     "code": "trend",
+     "name": "тренд",
+     "type": "string",
+     "comment": "Динамика частоты и силы угрозы."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_GEO_CLIMATE",
+     "name": "Гео и климат"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "GeopoliticalEvent",
+   "name": "Геополитическое событие",
+   "comment": "Событие геополитической природы: конфликт, торговое ограничение. Влияет на регионы, узлы и компоненты.",
+   "attributes": [
+    {
+     "code": "eventType",
+     "name": "тип события",
+     "type": "string",
+     "comment": "Военная эскалация, торговое ограничение и т.п."
+    },
+    {
+     "code": "startDate",
+     "name": "начало",
+     "type": "date",
+     "comment": "Дата начала события."
+    },
+    {
+     "code": "intensity",
+     "name": "интенсивность",
+     "type": "string",
+     "comment": "Оценка интенсивности влияния."
+    },
+    {
+     "code": "outlook",
+     "name": "прогноз",
+     "type": "string",
+     "comment": "Ожидаемое развитие события."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_GEO_CLIMATE",
+     "name": "Гео и климат"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Risk",
+   "name": "Риск",
+   "comment": "Риск цепочки поставок: дефицит, срыв сроков, комплаенс. Центральный объект импакт-анализа.",
+   "attributes": [
+    {
+     "code": "category",
+     "name": "категория",
+     "type": "string",
+     "comment": "Категория риска: поставки, комплаенс, затраты."
+    },
+    {
+     "code": "probability",
+     "name": "вероятность",
+     "type": "string",
+     "comment": "Вероятность реализации риска."
+    },
+    {
+     "code": "impact",
+     "name": "воздействие",
+     "type": "string",
+     "comment": "Воздействие при реализации."
+    },
+    {
+     "code": "owner",
+     "name": "владелец риска",
+     "type": "string",
+     "comment": "Ответственный за управление риском."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_EVENTS_RISKS",
+     "name": "События, риски и показатели"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Incident",
+   "name": "Инцидент",
+   "comment": "Фактическое событие, реализующее риск: задержка судов, отключение энергии.",
+   "attributes": [
+    {
+     "code": "date",
+     "name": "дата",
+     "type": "date",
+     "comment": "Дата начала инцидента."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус: активен, устранён."
+    },
+    {
+     "code": "severity",
+     "name": "тяжесть",
+     "type": "string",
+     "comment": "Оценка тяжести инцидента."
+    },
+    {
+     "code": "durationDays",
+     "name": "длительность, дней",
+     "type": "number",
+     "comment": "Продолжительность инцидента."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_EVENTS_RISKS",
+     "name": "События, риски и показатели"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Metric",
+   "name": "Показатель",
+   "comment": "Метрика мониторинга цепочки поставок с текущим и целевым значением.",
+   "attributes": [
+    {
+     "code": "unit",
+     "name": "единица измерения",
+     "type": "string",
+     "comment": "Единица измерения показателя."
+    },
+    {
+     "code": "currentValue",
+     "name": "текущее значение",
+     "type": "string",
+     "comment": "Текущее значение показателя."
+    },
+    {
+     "code": "targetValue",
+     "name": "целевое значение",
+     "type": "string",
+     "comment": "Целевое или нормативное значение."
+    },
+    {
+     "code": "threshold",
+     "name": "пороговое значение",
+     "type": "string",
+     "comment": "Порог, за которым требуется эскалация."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_EVENTS_RISKS",
+     "name": "События, риски и показатели"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "MitigationMeasure",
+   "name": "Мера снижения риска",
+   "comment": "Контроль или компенсирующая мера: двойной источник, буферный запас, аудит, страхование.",
+   "attributes": [
+    {
+     "code": "measureType",
+     "name": "тип меры",
+     "type": "string",
+     "comment": "Тип меры: диверсификация, запас, комплаенс, хедж."
+    },
+    {
+     "code": "cost",
+     "name": "затраты",
+     "type": "string",
+     "comment": "Оценка затрат на внедрение и поддержание."
+    },
+    {
+     "code": "effectiveness",
+     "name": "эффективность",
+     "type": "string",
+     "comment": "Оценка эффективности меры."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус внедрения меры."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_EVENTS_RISKS",
+     "name": "События, риски и показатели"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DecisionCase",
+   "name": "Кейс принятия решения",
+   "comment": "Управленческая ситуация, требующая выбора варианта решения. Связывает риски, показатели и варианты.",
+   "attributes": [
+    {
+     "code": "decisionDeadline",
+     "name": "срок решения",
+     "type": "date",
+     "comment": "К когда нужно принять решение."
+    },
+    {
+     "code": "owner",
+     "name": "владелец решения",
+     "type": "string",
+     "comment": "Роль, принимающая решение."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Статус кейса: открыт, решён."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_EVENTS_RISKS",
+     "name": "События, риски и показатели"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DecisionOption",
+   "name": "Вариант решения",
+   "comment": "Вариант действия в кейсе: смена поставщика, маршрут, мера. Несёт эффекты по рискам.",
+   "attributes": [
+    {
+     "code": "cost",
+     "name": "затраты",
+     "type": "string",
+     "comment": "Оценка затрат на реализацию варианта."
+    },
+    {
+     "code": "timeToImplement",
+     "name": "срок внедрения",
+     "type": "string",
+     "comment": "Время до эффекта."
+    },
+    {
+     "code": "expectedEffect",
+     "name": "ожидаемый эффект",
+     "type": "string",
+     "comment": "Ожидаемый результат варианта."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_EVENTS_RISKS",
+     "name": "События, риски и показатели"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "suppliesComponent",
+   "name": "поставляет компонент",
+   "comment": "Связывает компанию-поставщика с поставляемым компонентом.",
+   "fromClass": "Company",
+   "toClass": "Component"
+  },
+  {
+   "code": "isAlternativeSupplierFor",
+   "name": "является альтернативным поставщиком для",
+   "comment": "Указывает компанию, способную заменить другого поставщика.",
+   "fromClass": "Company",
+   "toClass": "Company"
+  },
+  {
+   "code": "producesProduct",
+   "name": "производит продукт",
+   "comment": "Связывает компанию с выпускаемым продуктом.",
+   "fromClass": "Company",
+   "toClass": "Product"
+  },
+  {
+   "code": "operatesSite",
+   "name": "эксплуатирует площадку",
+   "comment": "Связывает компанию с принадлежащей ей производственной площадкой.",
+   "fromClass": "Company",
+   "toClass": "ProductionSite"
+  },
+  {
+   "code": "ownsCompany",
+   "name": "владеет компанией",
+   "comment": "Связывает материнскую компанию с дочерней.",
+   "fromClass": "Company",
+   "toClass": "Company"
+  },
+  {
+   "code": "hasSubsidiary",
+   "name": "имеет дочернее юрлицо",
+   "comment": "Связывает компанию с дочерним юридическим лицом.",
+   "fromClass": "Company",
+   "toClass": "LegalEntity"
+  },
+  {
+   "code": "companyPartyToContract",
+   "name": "является стороной договора",
+   "comment": "Связывает компанию со заключённым договором.",
+   "fromClass": "Company",
+   "toClass": "Contract"
+  },
+  {
+   "code": "implementsMeasure",
+   "name": "внедряет меру",
+   "comment": "Связывает компанию с внедряемой мерой снижения риска.",
+   "fromClass": "Company",
+   "toClass": "MitigationMeasure"
+  },
+  {
+   "code": "companyLocatedInRegion",
+   "name": "зарегистрирована в регионе",
+   "comment": "Связывает компанию с регионом регистрации.",
+   "fromClass": "Company",
+   "toClass": "GeoRegion"
+  },
+  {
+   "code": "componentIncludedInProduct",
+   "name": "входит в продукт",
+   "comment": "Связывает компонент с продуктом, в котором он применяется.",
+   "fromClass": "Component",
+   "toClass": "Product"
+  },
+  {
+   "code": "sourcedFromRegion",
+   "name": "добывается в регионе",
+   "comment": "Указывает регион производства или добычи компонента.",
+   "fromClass": "Component",
+   "toClass": "GeoRegion"
+  },
+  {
+   "code": "storedAtWarehouse",
+   "name": "хранится на складе",
+   "comment": "Связывает компонент со складом хранения.",
+   "fromClass": "Component",
+   "toClass": "Warehouse"
+  },
+  {
+   "code": "componentSubjectToRequirement",
+   "name": "подчиняется требованию соответствия",
+   "comment": "Связывает компонент с распространяющимся на него требованием.",
+   "fromClass": "Component",
+   "toClass": "ComplianceRequirement"
+  },
+  {
+   "code": "componentHasMetric",
+   "name": "измеряется показателем",
+   "comment": "Связывает компонент с показателем его состояния.",
+   "fromClass": "Component",
+   "toClass": "Metric"
+  },
+  {
+   "code": "productAssembledAtSite",
+   "name": "собирается на площадке",
+   "comment": "Связывает продукт с площадкой сборки.",
+   "fromClass": "Product",
+   "toClass": "ProductionSite"
+  },
+  {
+   "code": "productHasMetric",
+   "name": "измеряется показателем",
+   "comment": "Связывает продукт с показателем выпуска.",
+   "fromClass": "Product",
+   "toClass": "Metric"
+  },
+  {
+   "code": "productSubjectToRequirement",
+   "name": "подчиняется требованию соответствия",
+   "comment": "Связывает продукт с распространяющимся на него требованием.",
+   "fromClass": "Product",
+   "toClass": "ComplianceRequirement"
+  },
+  {
+   "code": "siteLocatedInRegion",
+   "name": "расположена в регионе",
+   "comment": "Связывает площадку с регионом размещения.",
+   "fromClass": "ProductionSite",
+   "toClass": "GeoRegion"
+  },
+  {
+   "code": "siteUsesEnergy",
+   "name": "потребляет источник энергии",
+   "comment": "Связывает площадку с источником энергоснабжения.",
+   "fromClass": "ProductionSite",
+   "toClass": "EnergySource"
+  },
+  {
+   "code": "siteProducesComponent",
+   "name": "выпускает компонент",
+   "comment": "Связывает площадку с выпускаемым компонентом.",
+   "fromClass": "ProductionSite",
+   "toClass": "Component"
+  },
+  {
+   "code": "siteHasMetric",
+   "name": "измеряется показателем",
+   "comment": "Связывает площадку с показателем эффективности.",
+   "fromClass": "ProductionSite",
+   "toClass": "Metric"
+  },
+  {
+   "code": "siteSubjectToRegulation",
+   "name": "подчиняется регуляторному акту",
+   "comment": "Связывает площадку с регуляторным актом.",
+   "fromClass": "ProductionSite",
+   "toClass": "Regulation"
+  },
+  {
+   "code": "routeCarriesComponent",
+   "name": "используется для поставки компонента",
+   "comment": "Связывает маршрут с потоком компонента.",
+   "fromClass": "LogisticsRoute",
+   "toClass": "Component"
+  },
+  {
+   "code": "passesThroughHub",
+   "name": "проходит через узел",
+   "comment": "Указывает транзитный узел маршрута.",
+   "fromClass": "LogisticsRoute",
+   "toClass": "LogisticsHub"
+  },
+  {
+   "code": "hasBackupRoute",
+   "name": "имеет резервный маршрут",
+   "comment": "Связывает маршрут с его резервным вариантом.",
+   "fromClass": "LogisticsRoute",
+   "toClass": "LogisticsRoute"
+  },
+  {
+   "code": "routeHasMetric",
+   "name": "измеряется показателем",
+   "comment": "Связывает маршрут с показателем транзита.",
+   "fromClass": "LogisticsRoute",
+   "toClass": "Metric"
+  },
+  {
+   "code": "hubLocatedInRegion",
+   "name": "расположен в регионе",
+   "comment": "Связывает транспортный узел с регионом.",
+   "fromClass": "LogisticsHub",
+   "toClass": "GeoRegion"
+  },
+  {
+   "code": "warehouseLocatedInRegion",
+   "name": "расположен в регионе",
+   "comment": "Связывает склад с регионом.",
+   "fromClass": "Warehouse",
+   "toClass": "GeoRegion"
+  },
+  {
+   "code": "warehouseServesSite",
+   "name": "снабжает площадку",
+   "comment": "Связывает склад с обслуживаемой площадкой.",
+   "fromClass": "Warehouse",
+   "toClass": "ProductionSite"
+  },
+  {
+   "code": "warehouseHasMetric",
+   "name": "измеряется показателем",
+   "comment": "Связывает склад с показателем запасов.",
+   "fromClass": "Warehouse",
+   "toClass": "Metric"
+  },
+  {
+   "code": "energyLocatedInRegion",
+   "name": "расположен в регионе",
+   "comment": "Связывает источник энергии с регионом.",
+   "fromClass": "EnergySource",
+   "toClass": "GeoRegion"
+  },
+  {
+   "code": "energyPowersCompany",
+   "name": "питает компанию",
+   "comment": "Связывает источник энергии с питаемой компанией.",
+   "fromClass": "EnergySource",
+   "toClass": "Company"
+  },
+  {
+   "code": "legalEntityLocatedInRegion",
+   "name": "зарегистрировано в регионе",
+   "comment": "Связывает юрлицо с регионом регистрации.",
+   "fromClass": "LegalEntity",
+   "toClass": "GeoRegion"
+  },
+  {
+   "code": "legalEntitySubjectToRegulation",
+   "name": "подчиняется регуляторному акту",
+   "comment": "Связывает юрлицо с действующим регуляторным актом.",
+   "fromClass": "LegalEntity",
+   "toClass": "Regulation"
+  },
+  {
+   "code": "legalEntityOwnsCompany",
+   "name": "владеет компанией",
+   "comment": "Связывает юрлицо-холдинг с операционной компанией.",
+   "fromClass": "LegalEntity",
+   "toClass": "Company"
+  },
+  {
+   "code": "beneficiaryOf",
+   "name": "является бенефициаром",
+   "comment": "Связывает бенефициара с контролируемым юрлицом.",
+   "fromClass": "Beneficiary",
+   "toClass": "LegalEntity"
+  },
+  {
+   "code": "sanctionAppliedToBeneficiary",
+   "name": "применена к бенефициару",
+   "comment": "Связывает санкционное ограничение с бенефициаром.",
+   "fromClass": "SanctionRestriction",
+   "toClass": "Beneficiary"
+  },
+  {
+   "code": "sanctionCreatesRisk",
+   "name": "создаёт риск",
+   "comment": "Связывает санкционное ограничение с порождаемым риском.",
+   "fromClass": "SanctionRestriction",
+   "toClass": "Risk"
+  },
+  {
+   "code": "contractCoversComponent",
+   "name": "покрывает поставку компонента",
+   "comment": "Связывает договор с поставляемым компонентом.",
+   "fromClass": "Contract",
+   "toClass": "Component"
+  },
+  {
+   "code": "contractCounterpartyCompany",
+   "name": "контрагент по договору",
+   "comment": "Указывает компанию-контрагента по договору.",
+   "fromClass": "Contract",
+   "toClass": "Company"
+  },
+  {
+   "code": "contractHasLegalRisk",
+   "name": "имеет юридический риск",
+   "comment": "Связывает договор с юридическим риском.",
+   "fromClass": "Contract",
+   "toClass": "Risk"
+  },
+  {
+   "code": "regulationImposesRequirement",
+   "name": "вводит требование соответствия",
+   "comment": "Связывает регуляторный акт с вводимым требованием.",
+   "fromClass": "Regulation",
+   "toClass": "ComplianceRequirement"
+  },
+  {
+   "code": "regulationCreatesRisk",
+   "name": "несёт риск несоблюдения",
+   "comment": "Связывает регуляторный акт с риском несоблюдения.",
+   "fromClass": "Regulation",
+   "toClass": "Risk"
+  },
+  {
+   "code": "requirementAppliesToComponent",
+   "name": "распространяется на компонент",
+   "comment": "Указывает компонент, охваченный требованием.",
+   "fromClass": "ComplianceRequirement",
+   "toClass": "Component"
+  },
+  {
+   "code": "requirementCreatesRisk",
+   "name": "создаёт риск несоблюдения",
+   "comment": "Связывает требование с риском несоблюдения.",
+   "fromClass": "ComplianceRequirement",
+   "toClass": "Risk"
+  },
+  {
+   "code": "requirementConfirmedByCertificate",
+   "name": "подтверждается сертификатом",
+   "comment": "Связывает требование с подтверждающим сертификатом.",
+   "fromClass": "ComplianceRequirement",
+   "toClass": "Certificate"
+  },
+  {
+   "code": "certificateIssuedTo",
+   "name": "выдан компании",
+   "comment": "Указывает компанию, которой выдан сертификат.",
+   "fromClass": "Certificate",
+   "toClass": "Company"
+  },
+  {
+   "code": "measureMitigatesRisk",
+   "name": "снижает риск",
+   "comment": "Связывает меру со снижаемым риском.",
+   "fromClass": "MitigationMeasure",
+   "toClass": "Risk"
+  },
+  {
+   "code": "measureEnsuresCompliance",
+   "name": "обеспечивает соответствие требованию",
+   "comment": "Связывает меру с требованием, которое она закрывает.",
+   "fromClass": "MitigationMeasure",
+   "toClass": "ComplianceRequirement"
+  },
+  {
+   "code": "hazardThreatensRegion",
+   "name": "угрожает региону",
+   "comment": "Связывает климатическую угрозу с регионом воздействия.",
+   "fromClass": "ClimateHazard",
+   "toClass": "GeoRegion"
+  },
+  {
+   "code": "hazardThreatensHub",
+   "name": "угрожает узлу",
+   "comment": "Связывает климатическую угрозу с транспортным узлом.",
+   "fromClass": "ClimateHazard",
+   "toClass": "LogisticsHub"
+  },
+  {
+   "code": "hazardThreatensSite",
+   "name": "угрожает площадке",
+   "comment": "Связывает климатическую угрозу с производственной площадкой.",
+   "fromClass": "ClimateHazard",
+   "toClass": "ProductionSite"
+  },
+  {
+   "code": "hazardAffectsEnergySource",
+   "name": "влияет на источник энергии",
+   "comment": "Связывает климатическую угрозу с энергоснабжением.",
+   "fromClass": "ClimateHazard",
+   "toClass": "EnergySource"
+  },
+  {
+   "code": "hazardCreatesRisk",
+   "name": "создаёт риск",
+   "comment": "Связывает климатическую угрозу с порождаемым риском.",
+   "fromClass": "ClimateHazard",
+   "toClass": "Risk"
+  },
+  {
+   "code": "eventAffectsRegion",
+   "name": "влияет на регион",
+   "comment": "Связывает геополитическое событие с регионом.",
+   "fromClass": "GeopoliticalEvent",
+   "toClass": "GeoRegion"
+  },
+  {
+   "code": "eventAffectsHub",
+   "name": "влияет на узел",
+   "comment": "Связывает геополитическое событие с транспортным узлом.",
+   "fromClass": "GeopoliticalEvent",
+   "toClass": "LogisticsHub"
+  },
+  {
+   "code": "eventRestrictsComponent",
+   "name": "ограничивает компонент",
+   "comment": "Указывает компонент, поставки которого ограничены событием.",
+   "fromClass": "GeopoliticalEvent",
+   "toClass": "Component"
+  },
+  {
+   "code": "eventCreatesRisk",
+   "name": "создаёт риск",
+   "comment": "Связывает геополитическое событие с порождаемым риском.",
+   "fromClass": "GeopoliticalEvent",
+   "toClass": "Risk"
+  },
+  {
+   "code": "riskThreatensComponent",
+   "name": "угрожает компоненту",
+   "comment": "Связывает риск с уязвимым компонентом.",
+   "fromClass": "Risk",
+   "toClass": "Component"
+  },
+  {
+   "code": "riskThreatensCompany",
+   "name": "угрожает компании",
+   "comment": "Связывает риск с подверженной компанией.",
+   "fromClass": "Risk",
+   "toClass": "Company"
+  },
+  {
+   "code": "riskThreatensRoute",
+   "name": "угрожает маршруту",
+   "comment": "Связывает риск с уязвимым маршрутом.",
+   "fromClass": "Risk",
+   "toClass": "LogisticsRoute"
+  },
+  {
+   "code": "riskThreatensSite",
+   "name": "угрожает площадке",
+   "comment": "Связывает риск с уязвимой площадкой.",
+   "fromClass": "Risk",
+   "toClass": "ProductionSite"
+  },
+  {
+   "code": "riskThreatensProduct",
+   "name": "угрожает продукту",
+   "comment": "Связывает риск с уязвимым продуктом.",
+   "fromClass": "Risk",
+   "toClass": "Product"
+  },
+  {
+   "code": "riskMonitoredByMetric",
+   "name": "отслеживается показателем",
+   "comment": "Связывает риск с показателем мониторинга.",
+   "fromClass": "Risk",
+   "toClass": "Metric"
+  },
+  {
+   "code": "incidentAffectsRoute",
+   "name": "затрагивает маршрут",
+   "comment": "Связывает инцидент с затронутым маршрутом.",
+   "fromClass": "Incident",
+   "toClass": "LogisticsRoute"
+  },
+  {
+   "code": "incidentAffectsSite",
+   "name": "затрагивает площадку",
+   "comment": "Связывает инцидент с затронутой площадкой.",
+   "fromClass": "Incident",
+   "toClass": "ProductionSite"
+  },
+  {
+   "code": "incidentAffectsCompany",
+   "name": "затрагивает компанию",
+   "comment": "Связывает инцидент с затронутой компанией.",
+   "fromClass": "Incident",
+   "toClass": "Company"
+  },
+  {
+   "code": "incidentRealizesRisk",
+   "name": "реализует риск",
+   "comment": "Связывает инцидент с реализованным риском.",
+   "fromClass": "Incident",
+   "toClass": "Risk"
+  },
+  {
+   "code": "caseAddressesRisk",
+   "name": "связан с риском",
+   "comment": "Связывает кейс с риском, требующим решения.",
+   "fromClass": "DecisionCase",
+   "toClass": "Risk"
+  },
+  {
+   "code": "caseConsidersOption",
+   "name": "рассматривает вариант",
+   "comment": "Связывает кейс с рассматриваемым вариантом решения.",
+   "fromClass": "DecisionCase",
+   "toClass": "DecisionOption"
+  },
+  {
+   "code": "caseHasMetric",
+   "name": "оценивается показателем",
+   "comment": "Связывает кейс с показателем оценки вариантов.",
+   "fromClass": "DecisionCase",
+   "toClass": "Metric"
+  },
+  {
+   "code": "optionAddressesRisk",
+   "name": "влияет на риск",
+   "comment": "Указывает риск, на который влияет вариант решения.",
+   "fromClass": "DecisionOption",
+   "toClass": "Risk"
+  },
+  {
+   "code": "optionUsesMeasure",
+   "name": "опирается на меру",
+   "comment": "Связывает вариант с опорной мерой снижения риска.",
+   "fromClass": "DecisionOption",
+   "toClass": "MitigationMeasure"
+  },
+  {
+   "code": "optionAffectsComponent",
+   "name": "влияет на компонент",
+   "comment": "Указывает компонент, потребление которого меняет вариант.",
+   "fromClass": "DecisionOption",
+   "toClass": "Component"
+  },
+  {
+   "code": "optionSelectsSupplier",
+   "name": "выбирает поставщика",
+   "comment": "Указывает поставщика, выбираемого вариантом решения.",
+   "fromClass": "DecisionOption",
+   "toClass": "Company"
+  }
+ ],
+ "info": {
+  "description": "Онтология устойчивости цепочек поставок — модель глобальной цепочки промышленной компании: поставщики и компоненты, продукты и площадки, склады, маршруты и узлы, источники энергии, корпоративно-правовое поле (юрлица, бенефициары, договоры, санкции), регуляторные требования и сертификаты, гео- и климатический контекст, риски, инциденты, метрики, меры снижения риска и кейсы решений. Онтология отвечает на вопросы «где рвётся?», «кто зависит от кого?», «что будет при санкции, инциденте или климатической угрозе?» и «какой вариант решения устойчивее?».",
+  "scope": [
+   "Поставки: компании, компоненты, продукты, площадки, склады, маршруты и узлы, энергия",
+   "Право и регуляторика: юрлица, бенефициары, договоры, санкции, регламенты, требования, сертификаты",
+   "Контекст: регионы, климатические угрозы, геополитические события",
+   "Риски: риски, инциденты, метрики, меры снижения риска",
+   "Решения: кейсы, варианты решений, альтернативные поставщики и резервные маршруты"
+  ],
+  "competencyQuestions": [
+   "Кто поставляет заданный компонент и есть ли альтернативные поставщики?",
+   "Какие компоненты являются единственным источником (single source) и в какие продукты они входят?",
+   "На каких площадках собирается продукт и в каких регионах они расположены?",
+   "По каким маршрутам и через какие узлы поставляется компонент, есть ли резервные маршруты?",
+   "Какие склады снабжают площадку и каковы запасы компонентов в днях?",
+   "Какие бенефициары стоят за юрлицами и какие санкционные ограничения их затрагивают?",
+   "Какие договоры покрывают поставку компонента и кто является контрагентом?",
+   "Каким регуляторным актам и требованиям соответствия подчиняются площадка, компонент или продукт?",
+   "Какие климатические угрозы и геополитические события затрагивают регион площадки, узла или поставщика?",
+   "Какие риски и инциденты связаны с поставщиком, маршрутом или площадкой и каковы их метрики?",
+   "Какие меры снижения риска внедрены у компании и что они покрывают?",
+   "Какой вариант решения (смена поставщика, перенос объёма, запас, резервный маршрут) устойчивее и почему?"
+  ]
+ },
+ "theme": []
+}

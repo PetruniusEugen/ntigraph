@@ -1,0 +1,281 @@
+{
+ "entities": [
+  {
+   "id": "avtonomiya-lichnosti",
+   "label": "Автономия личности",
+   "classCode": "Value"
+  },
+  {
+   "id": "class-akt-ocenivaniya",
+   "label": "Акт оценивания",
+   "classCode": "ValuationAct",
+   "isClass": true
+  },
+  {
+   "id": "class-anticennost",
+   "label": "Антиценность",
+   "classCode": "Disvalue",
+   "isClass": true
+  },
+  {
+   "id": "class-blago",
+   "label": "Благо",
+   "classCode": "Good",
+   "isClass": true
+  },
+  {
+   "id": "blagopoluchie-cheloveka",
+   "label": "Благополучие человека",
+   "classCode": "Value"
+  },
+  {
+   "id": "class-vred",
+   "label": "Вред",
+   "classCode": "Harm",
+   "isClass": true
+  },
+  {
+   "id": "glavnyy-vrach",
+   "label": "Главный врач",
+   "classCode": "Valuer"
+  },
+  {
+   "id": "dostup-k-apparatu-ivl",
+   "label": "Доступ к аппарату ИВЛ",
+   "classCode": "Good"
+  },
+  {
+   "id": "dostup-k-ivl-imeet-vysshuyu-srochnost",
+   "label": "Доступ к ИВЛ имеет высшую срочность",
+   "classCode": "EvaluativeJudgment"
+  },
+  {
+   "id": "zhizn-cheloveka",
+   "label": "Жизнь человека",
+   "classCode": "Value"
+  },
+  {
+   "id": "zapret-diskriminacii-pri-okazanii-pomoschi",
+   "label": "Запрет дискриминации при оказании помощи",
+   "classCode": "ValueNorm"
+  },
+  {
+   "id": "zatyazhnoe-ozhidanie-pomoschi",
+   "label": "Затяжное ожидание помощи",
+   "classCode": "Harm"
+  },
+  {
+   "id": "class-kategoriya-cennosti",
+   "label": "Категория ценности",
+   "classCode": "ValueCategory",
+   "isClass": true
+  },
+  {
+   "id": "kodeks-medicinskoy-etiki-bolnicy",
+   "label": "Кодекс медицинской этики больницы",
+   "classCode": "ValueSystem"
+  },
+  {
+   "id": "konflikt-effektivnosti-i-ravenstva-dostupa",
+   "label": "Конфликт эффективности и равенства доступа",
+   "classCode": "ValueConflict"
+  },
+  {
+   "id": "class-kriteriy-ocenki",
+   "label": "Критерий оценки",
+   "classCode": "ValueCriterion",
+   "isClass": true
+  },
+  {
+   "id": "moralnye-cennosti",
+   "label": "Моральные ценности",
+   "classCode": "ValueCategory"
+  },
+  {
+   "id": "nespravedlivost",
+   "label": "Несправедливость",
+   "classCode": "Disvalue"
+  },
+  {
+   "id": "class-nositel-cennosti",
+   "label": "Носитель ценности",
+   "classCode": "ValueBearer",
+   "isClass": true
+  },
+  {
+   "id": "otkaz-v-gospitalizacii-bez-osnovaniy",
+   "label": "Отказ в госпитализации без оснований",
+   "classCode": "Harm"
+  },
+  {
+   "id": "class-ocenivayuschiy-subekt",
+   "label": "Оценивающий субъект",
+   "classCode": "Valuer",
+   "isClass": true
+  },
+  {
+   "id": "ocenka-dostupa-k-apparatu-ivl",
+   "label": "Оценка доступа к аппарату ИВЛ",
+   "classCode": "ValuationAct"
+  },
+  {
+   "id": "ocenka-ocheredi-na-gospitalizaciyu",
+   "label": "Оценка очереди на госпитализацию",
+   "classCode": "ValuationAct"
+  },
+  {
+   "id": "class-ocenochnoe-suzhdenie",
+   "label": "Оценочное суждение",
+   "classCode": "EvaluativeJudgment",
+   "isClass": true
+  },
+  {
+   "id": "ochered-na-gospitalizaciyu",
+   "label": "Очередь на госпитализацию",
+   "classCode": "ValueBearer"
+  },
+  {
+   "id": "ochered-sootvetstvuet-prioritetu-zhizni-no-narushaet-ravenstvo-shansov",
+   "label": "Очередь соответствует приоритету жизни, но нарушает равенство шансов",
+   "classCode": "EvaluativeJudgment"
+  },
+  {
+   "id": "class-predpochtenie",
+   "label": "Предпочтение",
+   "classCode": "Preference",
+   "isClass": true
+  },
+  {
+   "id": "predpochtenie-zhizni-pered-effektivnostyu",
+   "label": "Предпочтение жизни перед эффективностью",
+   "classCode": "Preference"
+  },
+  {
+   "id": "princip-triazha-po-tyazhesti-sostoyaniya",
+   "label": "Принцип триажа по тяжести состояния",
+   "classCode": "ValueNorm"
+  },
+  {
+   "id": "ravenstvo-dostupa-k-medicinskoy-pomoschi",
+   "label": "Равенство доступа к медицинской помощи",
+   "classCode": "Value"
+  },
+  {
+   "id": "ravenstvo-shansov",
+   "label": "Равенство шансов",
+   "classCode": "ValueCriterion"
+  },
+  {
+   "id": "class-razreshenie-konflikta",
+   "label": "Разрешение конфликта",
+   "classCode": "ConflictResolution",
+   "isClass": true
+  },
+  {
+   "id": "raspredelenie-apparatov-ivl",
+   "label": "Распределение аппаратов ИВЛ",
+   "classCode": "ValueBearer"
+  },
+  {
+   "id": "raspredelenie-ivl-po-tyazhesti-sostoyaniya",
+   "label": "Распределение ИВЛ по тяжести состояния",
+   "classCode": "ValueRealization"
+  },
+  {
+   "id": "class-realizaciya-cennosti",
+   "label": "Реализация ценности",
+   "classCode": "ValueRealization",
+   "isClass": true
+  },
+  {
+   "id": "reshenie-komissii-o-ravnom-dostupe-pri-raspredelenii-ivl",
+   "label": "Решение комиссии о равном доступе при распределении ИВЛ",
+   "classCode": "ConflictResolution"
+  },
+  {
+   "id": "svoevremennaya-pomosch",
+   "label": "Своевременная помощь",
+   "classCode": "Good"
+  },
+  {
+   "id": "class-sistema-cennostey",
+   "label": "Система ценностей",
+   "classCode": "ValueSystem",
+   "isClass": true
+  },
+  {
+   "id": "solidarnost",
+   "label": "Солидарность",
+   "classCode": "Value"
+  },
+  {
+   "id": "soobschestvo-pacientov",
+   "label": "Сообщество пациентов",
+   "classCode": "Valuer"
+  },
+  {
+   "id": "socialnye-cennosti",
+   "label": "Социальные ценности",
+   "classCode": "ValueCategory"
+  },
+  {
+   "id": "spravedlivost",
+   "label": "Справедливость",
+   "classCode": "Value"
+  },
+  {
+   "id": "stradanie",
+   "label": "Страдание",
+   "classCode": "Disvalue"
+  },
+  {
+   "id": "tyazhest-sostoyaniya",
+   "label": "Тяжесть состояния",
+   "classCode": "ValueCriterion"
+  },
+  {
+   "id": "class-cennostnaya-norma",
+   "label": "Ценностная норма",
+   "classCode": "ValueNorm",
+   "isClass": true
+  },
+  {
+   "id": "class-cennostnyy-konflikt",
+   "label": "Ценностный конфликт",
+   "classCode": "ValueConflict",
+   "isClass": true
+  },
+  {
+   "id": "class-cennost",
+   "label": "Ценность",
+   "classCode": "Value",
+   "isClass": true
+  },
+  {
+   "id": "class-shkala-ocenki",
+   "label": "Шкала оценки",
+   "classCode": "ValueScale",
+   "isClass": true
+  },
+  {
+   "id": "shkala-srochnosti",
+   "label": "Шкала срочности",
+   "classCode": "ValueScale"
+  },
+  {
+   "id": "ekonomicheskie-cennosti",
+   "label": "Экономические ценности",
+   "classCode": "ValueCategory"
+  },
+  {
+   "id": "eticheskaya-komissiya-bolnicy",
+   "label": "Этическая комиссия больницы",
+   "classCode": "Valuer"
+  },
+  {
+   "id": "effektivnost-ispolzovaniya-resursov",
+   "label": "Эффективность использования ресурсов",
+   "classCode": "Value"
+  }
+ ]
+}

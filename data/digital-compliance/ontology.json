@@ -1,0 +1,2050 @@
+{
+ "classes": [
+  {
+   "code": "Regulation",
+   "name": "Нормативный акт",
+   "comment": "Внешний нормативный правовой акт, устанавливающий обязательные требования к деятельности, документам и объектам компании.",
+   "attributes": [
+    {
+     "code": "approvalDate",
+     "name": "дата принятия",
+     "type": "date",
+     "comment": "Дата принятия акта"
+    },
+    {
+     "code": "effectiveDate",
+     "name": "дата вступления в силу",
+     "type": "date",
+     "comment": "Дата начала действия требований"
+    },
+    {
+     "code": "scope",
+     "name": "сфера действия",
+     "type": "string",
+     "comment": "Границы применения акта"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_REQUIREMENTS",
+     "name": "Требования и нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Standard",
+   "name": "Технический стандарт",
+   "comment": "Технический нормативный документ (СП, ГОСТ, СНиП), задающий правила проектирования, строительства и оформления документации.",
+   "attributes": [
+    {
+     "code": "designation",
+     "name": "обозначение",
+     "type": "string",
+     "comment": "Номер стандарта"
+    },
+    {
+     "code": "effectiveDate",
+     "name": "дата введения",
+     "type": "date",
+     "comment": "Дата введения в действие"
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Действует, заменён, отменён"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_REQUIREMENTS",
+     "name": "Требования и нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "InternalPolicy",
+   "name": "Внутренний регламент",
+   "comment": "Внутренний нормативный документ организации: стандарт организации, регламент процесса, политика, задающие собственные требования.",
+   "attributes": [
+    {
+     "code": "approvalDate",
+     "name": "дата утверждения",
+     "type": "date",
+     "comment": "Дата утверждения документа"
+    },
+    {
+     "code": "owner",
+     "name": "владелец",
+     "type": "string",
+     "comment": "Ответственное подразделение или роль"
+    },
+    {
+     "code": "reviewDate",
+     "name": "дата пересмотра",
+     "type": "date",
+     "comment": "Плановая дата актуализации"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_REQUIREMENTS",
+     "name": "Требования и нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Requirement",
+   "name": "Требование",
+   "comment": "Проверяемое требование к деятельности, документу, объекту или организации. Центральный элемент онтологии соответствия.",
+   "attributes": [
+    {
+     "code": "reqCode",
+     "name": "код требования",
+     "type": "string",
+     "comment": "Уникальный код требования"
+    },
+    {
+     "code": "obligationType",
+     "name": "тип обязательства",
+     "type": "string",
+     "comment": "Обязанность, запрет или право"
+    },
+    {
+     "code": "criticality",
+     "name": "критичность",
+     "type": "string",
+     "comment": "Высокая, средняя, низкая"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_REQUIREMENTS",
+     "name": "Требования и нормы"
+    }
+   ],
+   "subclasses": [
+    {
+     "code": "ExternalRequirement",
+     "name": "Внешнее требование"
+    },
+    {
+     "code": "InternalRequirement",
+     "name": "Внутреннее требование"
+    },
+    {
+     "code": "ContractRequirement",
+     "name": "Договорное требование"
+    }
+   ]
+  },
+  {
+   "code": "ExternalRequirement",
+   "name": "Внешнее требование",
+   "comment": "Требование, установленное внешним нормативным актом или техническим стандартом.",
+   "attributes": [
+    {
+     "code": "sourceClause",
+     "name": "пункт источника",
+     "type": "string",
+     "comment": "Пункт акта или стандарта"
+    },
+    {
+     "code": "mandatory",
+     "name": "обязательность",
+     "type": "boolean",
+     "comment": "Является ли требование обязательным"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_REQUIREMENTS",
+     "name": "Требования и нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "InternalRequirement",
+   "name": "Внутреннее требование",
+   "comment": "Требование, установленное внутренним регламентом, стандартом организации или политикой компании.",
+   "attributes": [
+    {
+     "code": "ownerRole",
+     "name": "ответственная роль",
+     "type": "string",
+     "comment": "Роль — владелец требования"
+    },
+    {
+     "code": "approvalDate",
+     "name": "дата утверждения",
+     "type": "date",
+     "comment": "Дата утверждения требования"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_REQUIREMENTS",
+     "name": "Требования и нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ContractRequirement",
+   "name": "Договорное требование",
+   "comment": "Требование, переданное по договору заказчиком, генподрядчиком или контрагентом («flow-down» требований).",
+   "attributes": [
+    {
+     "code": "contractClause",
+     "name": "пункт договора",
+     "type": "string",
+     "comment": "Пункт договора с требованием"
+    },
+    {
+     "code": "penalty",
+     "name": "санкция",
+     "type": "string",
+     "comment": "Договорная санкция за нарушение"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_REQUIREMENTS",
+     "name": "Требования и нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Regulator",
+   "name": "Регулятор",
+   "comment": "Орган власти или надзора, издающий нормативные акты и проводящий проверки: Минстрой, Госстройнадзор, Ростехнадзор.",
+   "attributes": [
+    {
+     "code": "level",
+     "name": "уровень",
+     "type": "string",
+     "comment": "Федеральный или региональный"
+    },
+    {
+     "code": "jurisdiction",
+     "name": "подведомственность",
+     "type": "string",
+     "comment": "Подведомственные объекты"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_REQUIREMENTS",
+     "name": "Требования и нормы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ControlledDocument",
+   "name": "Контролируемый документ",
+   "comment": "Документ, подлежащий проверке на соответствие требованиям: проект, смета, исполнительная документация, разрешение, договор, сертификат.",
+   "attributes": [
+    {
+     "code": "docNumber",
+     "name": "номер документа",
+     "type": "string",
+     "comment": "Учётный номер документа"
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Черновик, выпущен, согласован, утверждён"
+    },
+    {
+     "code": "approvalDate",
+     "name": "дата утверждения",
+     "type": "date",
+     "comment": "Дата утверждения документа"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_DOCUMENTS",
+     "name": "Документы и артефакты"
+    }
+   ],
+   "subclasses": [
+    {
+     "code": "DesignDocumentation",
+     "name": "Проектная документация"
+    },
+    {
+     "code": "EstimateDocumentation",
+     "name": "Сметная документация"
+    },
+    {
+     "code": "ExecutiveDocumentation",
+     "name": "Исполнительная документация"
+    },
+    {
+     "code": "Permit",
+     "name": "Разрешение"
+    },
+    {
+     "code": "Contract",
+     "name": "Договор"
+    },
+    {
+     "code": "Certificate",
+     "name": "Сертификат соответствия"
+    },
+    {
+     "code": "Report",
+     "name": "Отчётный документ"
+    }
+   ]
+  },
+  {
+   "code": "DesignDocumentation",
+   "name": "Проектная документация",
+   "comment": "Проектная и рабочая документация по объекту капитального строительства, включая разделы, проходящие экспертизу.",
+   "attributes": [
+    {
+     "code": "designStage",
+     "name": "стадия проектирования",
+     "type": "string",
+     "comment": "П, Р или рабочая документация"
+    },
+    {
+     "code": "revision",
+     "name": "редакция",
+     "type": "string",
+     "comment": "Номер текущей редакции"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_DOCUMENTS",
+     "name": "Документы и артефакты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "EstimateDocumentation",
+   "name": "Сметная документация",
+   "comment": "Сметные расчёты стоимости строительства: сводный сметный расчёт, локальные и объектные сметы.",
+   "attributes": [
+    {
+     "code": "estimateMethod",
+     "name": "метод расчёта",
+     "type": "string",
+     "comment": "Базисно-индексный или ресурсный"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_DOCUMENTS",
+     "name": "Документы и артефакты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ExecutiveDocumentation",
+   "name": "Исполнительная документация",
+   "comment": "Документация, фиксирующая фактическое выполнение и качество работ: акты освидетельствования, журналы, исполнительные схемы.",
+   "attributes": [
+    {
+     "code": "workType",
+     "name": "вид работ",
+     "type": "string",
+     "comment": "Вид работ, к которому относится документ"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_DOCUMENTS",
+     "name": "Документы и артефакты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Permit",
+   "name": "Разрешение",
+   "comment": "Разрешительный документ: разрешение на строительство, градостроительный план, разрешение на ввод объекта в эксплуатацию.",
+   "attributes": [
+    {
+     "code": "validUntil",
+     "name": "действует до",
+     "type": "date",
+     "comment": "Срок действия разрешения"
+    },
+    {
+     "code": "issuedBy",
+     "name": "кем выдан",
+     "type": "string",
+     "comment": "Орган, выдавший разрешение"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_DOCUMENTS",
+     "name": "Документы и артефакты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Contract",
+   "name": "Договор",
+   "comment": "Договор подряда, генподряда или поставки, содержащий договорные требования и обязательства.",
+   "attributes": [
+    {
+     "code": "amount",
+     "name": "сумма",
+     "type": "number",
+     "comment": "Цена договора"
+    },
+    {
+     "code": "signedDate",
+     "name": "дата подписания",
+     "type": "date",
+     "comment": "Дата заключения договора"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_DOCUMENTS",
+     "name": "Документы и артефакты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Certificate",
+   "name": "Сертификат соответствия",
+   "comment": "Сертификат или паспорт на материалы и конструкции, подтверждающий их соответствие стандартам.",
+   "attributes": [
+    {
+     "code": "validUntil",
+     "name": "действует до",
+     "type": "date",
+     "comment": "Срок действия сертификата"
+    },
+    {
+     "code": "issuer",
+     "name": "орган выдачи",
+     "type": "string",
+     "comment": "Орган сертификации"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_DOCUMENTS",
+     "name": "Документы и артефакты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Report",
+   "name": "Отчётный документ",
+   "comment": "Заключение, акт проверки или отчёт, фиксирующий результат контроля и оценки: экспертиза, надзор, строительный контроль.",
+   "attributes": [
+    {
+     "code": "reportDate",
+     "name": "дата документа",
+     "type": "date",
+     "comment": "Дата составления"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_DOCUMENTS",
+     "name": "Документы и артефакты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DocumentSection",
+   "name": "Раздел документа",
+   "comment": "Структурная часть документа (раздел, том, лист), к которой адресно привязываются требования и проверки.",
+   "attributes": [
+    {
+     "code": "sectionCode",
+     "name": "код раздела",
+     "type": "string",
+     "comment": "Обозначение раздела"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_DOCUMENTS",
+     "name": "Документы и артефакты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DocumentVersion",
+   "name": "Версия документа",
+   "comment": "Редакция или версия документа, позволяющая отслеживать изменения и актуальность соответствия требованиям.",
+   "attributes": [
+    {
+     "code": "versionNumber",
+     "name": "номер версии",
+     "type": "string",
+     "comment": "Номер редакции"
+    },
+    {
+     "code": "versionDate",
+     "name": "дата версии",
+     "type": "date",
+     "comment": "Дата выпуска версии"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_DOCUMENTS",
+     "name": "Документы и артефакты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DocumentLifecycleProcess",
+   "name": "Процесс жизненного цикла документа",
+   "comment": "Процесс создания, проверки, согласования, экспертизы, передачи и хранения документа; определяет, где возникают несоответствия.",
+   "attributes": [
+    {
+     "code": "owner",
+     "name": "владелец процесса",
+     "type": "string",
+     "comment": "Роль — владелец процесса"
+    },
+    {
+     "code": "frequency",
+     "name": "периодичность",
+     "type": "string",
+     "comment": "Периодичность выполнения"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_CONTROLS",
+     "name": "Процессы и контроль"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Control",
+   "name": "Контроль",
+   "comment": "Проверка документа, требования или объекта: нормоконтроль, автоматическая проверка, согласование, экспертиза, надзор.",
+   "attributes": [
+    {
+     "code": "controlType",
+     "name": "вид контроля",
+     "type": "string",
+     "comment": "Ручной, автоматический, внешний"
+    },
+    {
+     "code": "frequency",
+     "name": "периодичность",
+     "type": "string",
+     "comment": "Периодичность проведения"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_CONTROLS",
+     "name": "Процессы и контроль"
+    }
+   ],
+   "subclasses": [
+    {
+     "code": "AutomatedCheck",
+     "name": "Автоматическая проверка"
+    },
+    {
+     "code": "ManualReview",
+     "name": "Нормоконтроль"
+    }
+   ]
+  },
+  {
+   "code": "AutomatedCheck",
+   "name": "Автоматическая проверка",
+   "comment": "Машинная проверка документа или данных по формализованным правилам: реквизиты, комплектность, сроки.",
+   "attributes": [
+    {
+     "code": "ruleEngine",
+     "name": "движок правил",
+     "type": "string",
+     "comment": "ИС, выполняющая проверку"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_CONTROLS",
+     "name": "Процессы и контроль"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ManualReview",
+   "name": "Нормоконтроль",
+   "comment": "Ручная проверка документа специалистом-нормоконтролёром на соответствие требованиям оформления и состава.",
+   "attributes": [
+    {
+     "code": "reviewerRole",
+     "name": "роль проверяющего",
+     "type": "string",
+     "comment": "Роль, выполняющая проверку"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_CONTROLS",
+     "name": "Процессы и контроль"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Approval",
+   "name": "Согласование",
+   "comment": "Процедура согласования документа или изменения с заказчиком и ответственными ролями.",
+   "attributes": [
+    {
+     "code": "approvalRoute",
+     "name": "маршрут согласования",
+     "type": "string",
+     "comment": "Последовательность согласующих"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_CONTROLS",
+     "name": "Процессы и контроль"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ExpertReview",
+   "name": "Экспертиза",
+   "comment": "Внешняя или государственная экспертиза документа: экспертиза проектной документации, промышленной безопасности.",
+   "attributes": [
+    {
+     "code": "reviewType",
+     "name": "вид экспертизы",
+     "type": "string",
+     "comment": "Государственная, негосударственная, ведомственная"
+    },
+    {
+     "code": "conclusion",
+     "name": "заключение",
+     "type": "string",
+     "comment": "Положительное или отрицательное"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_CONTROLS",
+     "name": "Процессы и контроль"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Inspection",
+   "name": "Надзорная проверка",
+   "comment": "Проверка деятельности, объекта и документации надзорным органом: Госстройнадзор, Ростехнадзор.",
+   "attributes": [
+    {
+     "code": "inspectionDate",
+     "name": "дата проверки",
+     "type": "date",
+     "comment": "Дата проведения проверки"
+    },
+    {
+     "code": "basis",
+     "name": "основание",
+     "type": "string",
+     "comment": "Основание проверки"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_CONTROLS",
+     "name": "Процессы и контроль"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Rule",
+   "name": "Машиночитаемое правило",
+   "comment": "Формализованное правило проверки, автоматизирующее контроль требования: обязательные реквизиты, состав разделов, сроки.",
+   "attributes": [
+    {
+     "code": "expression",
+     "name": "выражение",
+     "type": "string",
+     "comment": "Логика правила"
+    },
+    {
+     "code": "severity",
+     "name": "уровень",
+     "type": "string",
+     "comment": "Блокирующее или предупреждение"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_CONTROLS",
+     "name": "Процессы и контроль"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ComplianceAssessment",
+   "name": "Оценка соответствия",
+   "comment": "Оценка и аудит соответствия документов и объектов требованиям, включая внутренний аудит и предэкспертизную проверку.",
+   "attributes": [
+    {
+     "code": "assessmentDate",
+     "name": "дата оценки",
+     "type": "date",
+     "comment": "Дата проведения оценки"
+    },
+    {
+     "code": "method",
+     "name": "метод",
+     "type": "string",
+     "comment": "Метод оценки"
+    },
+    {
+     "code": "conclusion",
+     "name": "заключение",
+     "type": "string",
+     "comment": "Итоговый статус соответствия"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_ASSURANCE",
+     "name": "Соответствие и нарушения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Finding",
+   "name": "Выявление",
+   "comment": "Зафиксированный результат контроля: несоответствие или замечание, требующее анализа и реагирования.",
+   "attributes": [
+    {
+     "code": "severity",
+     "name": "тяжесть",
+     "type": "string",
+     "comment": "Высокая, средняя, низкая"
+    },
+    {
+     "code": "detectedAt",
+     "name": "дата выявления",
+     "type": "date",
+     "comment": "Когда выявлено"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_ASSURANCE",
+     "name": "Соответствие и нарушения"
+    }
+   ],
+   "subclasses": [
+    {
+     "code": "NonConformity",
+     "name": "Несоответствие"
+    },
+    {
+     "code": "Observation",
+     "name": "Замечание"
+    }
+   ]
+  },
+  {
+   "code": "NonConformity",
+   "name": "Несоответствие",
+   "comment": "Невыполнение обязательного требования, блокирующее приёмку, экспертизу или ввод объекта.",
+   "attributes": [
+    {
+     "code": "blocking",
+     "name": "блокирующее",
+     "type": "boolean",
+     "comment": "Блокирует ли выпуск или приёмку"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_ASSURANCE",
+     "name": "Соответствие и нарушения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Observation",
+   "name": "Замечание",
+   "comment": "Замечание, не являющееся нарушением, но требующее устранения для снижения риска.",
+   "attributes": [
+    {
+     "code": "recommendation",
+     "name": "рекомендация",
+     "type": "string",
+     "comment": "Что рекомендуется исправить"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_ASSURANCE",
+     "name": "Соответствие и нарушения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Violation",
+   "name": "Нарушение",
+   "comment": "Установленное нарушение требования, влекущее юридические или договорные последствия.",
+   "attributes": [
+    {
+     "code": "violationCode",
+     "name": "код нарушения",
+     "type": "string",
+     "comment": "Классификатор нарушения"
+    },
+    {
+     "code": "legalBasis",
+     "name": "правовое основание",
+     "type": "string",
+     "comment": "Норма, по которой квалифицировано"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_ASSURANCE",
+     "name": "Соответствие и нарушения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CorrectiveAction",
+   "name": "Корректирующее действие",
+   "comment": "Действие по устранению выявленного несоответствия или замечания, включая правку документа.",
+   "attributes": [
+    {
+     "code": "dueDate",
+     "name": "срок",
+     "type": "date",
+     "comment": "Плановый срок выполнения"
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Запланировано, в работе, выполнено"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_ASSURANCE",
+     "name": "Соответствие и нарушения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "RemediationPlan",
+   "name": "План устранения",
+   "comment": "Совокупность корректирующих действий по устранению нарушений и замечаний в установленный срок.",
+   "attributes": [
+    {
+     "code": "planDate",
+     "name": "дата плана",
+     "type": "date",
+     "comment": "Дата утверждения плана"
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Активен, закрыт"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_ASSURANCE",
+     "name": "Соответствие и нарушения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Waiver",
+   "name": "Согласованное отступление",
+   "comment": "Официально согласованное отступление от требования с обоснованием и компенсирующими мерами.",
+   "attributes": [
+    {
+     "code": "justification",
+     "name": "обоснование",
+     "type": "string",
+     "comment": "Причина отступления"
+    },
+    {
+     "code": "validUntil",
+     "name": "действует до",
+     "type": "date",
+     "comment": "Срок действия отступления"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_ASSURANCE",
+     "name": "Соответствие и нарушения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Evidence",
+   "name": "Доказательство",
+   "comment": "Подтверждающий материал, доказывающий выполнение требования: протоколы, журналы, фотофиксация, выписки.",
+   "attributes": [
+    {
+     "code": "evidenceType",
+     "name": "тип доказательства",
+     "type": "string",
+     "comment": "Протокол, журнал, фото, выписка"
+    },
+    {
+     "code": "issuedAt",
+     "name": "дата",
+     "type": "date",
+     "comment": "Дата оформления"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_ASSURANCE",
+     "name": "Соответствие и нарушения"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Organization",
+   "name": "Организация",
+   "comment": "Участник строительства: заказчик, технический заказчик, генподрядчик, подрядчик, поставщик, орган сертификации, СРО.",
+   "attributes": [
+    {
+     "code": "inn",
+     "name": "ИНН",
+     "type": "string",
+     "comment": "Идентификатор организации"
+    },
+    {
+     "code": "role",
+     "name": "роль на объекте",
+     "type": "string",
+     "comment": "Функция организации в проекте"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_PEOPLE",
+     "name": "Субъекты и ответственность"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Role",
+   "name": "Роль",
+   "comment": "Роль или должность, наделённая ответственностью, полномочиями и контролем: ГИП, нормоконтролёр, инженер технадзора.",
+   "attributes": [
+    {
+     "code": "position",
+     "name": "должность",
+     "type": "string",
+     "comment": "Наименование должности"
+    },
+    {
+     "code": "responsibility",
+     "name": "зона ответственности",
+     "type": "string",
+     "comment": "Объекты и задачи ответственности"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_PEOPLE",
+     "name": "Субъекты и ответственность"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Person",
+   "name": "Сотрудник",
+   "comment": "Физическое лицо — сотрудник организации, занимающее роль и отвечающее за документы и процессы.",
+   "attributes": [
+    {
+     "code": "position",
+     "name": "должность",
+     "type": "string",
+     "comment": "Текущая должность"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_PEOPLE",
+     "name": "Субъекты и ответственность"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Competence",
+   "name": "Компетенция",
+   "comment": "Знание или навык, необходимый роли для качественного контроля и соблюдения требований.",
+   "attributes": [
+    {
+     "code": "level",
+     "name": "уровень",
+     "type": "string",
+     "comment": "Требуемый уровень владения"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_PEOPLE",
+     "name": "Субъекты и ответственность"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ConstructionProject",
+   "name": "Строительный проект",
+   "comment": "Инвестиционно-строительный проект в целом, объединяющий объекты, этапы и участников.",
+   "attributes": [
+    {
+     "code": "budget",
+     "name": "бюджет",
+     "type": "number",
+     "comment": "Сметный бюджет проекта"
+    },
+    {
+     "code": "startDate",
+     "name": "дата начала",
+     "type": "date",
+     "comment": "Дата старта проекта"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_PROJECTS",
+     "name": "Объекты и проекты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ConstructionObject",
+   "name": "Объект капитального строительства",
+   "comment": "Объект капитального строительства или его часть (корпус, фундамент, кровля), к которому применяются требования и разрешения.",
+   "attributes": [
+    {
+     "code": "cadastralNumber",
+     "name": "кадастровый номер",
+     "type": "string",
+     "comment": "Кадастровый номер объекта"
+    },
+    {
+     "code": "area",
+     "name": "площадь",
+     "type": "number",
+     "comment": "Площадь объекта"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_PROJECTS",
+     "name": "Объекты и проекты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LifecycleStage",
+   "name": "Этап жизненного цикла",
+   "comment": "Этап жизненного цикла объекта: проектирование, строительно-монтажные работы, ввод в эксплуатацию.",
+   "attributes": [
+    {
+     "code": "stageType",
+     "name": "тип этапа",
+     "type": "string",
+     "comment": "Проектирование, СМР, ввод"
+    },
+    {
+     "code": "plannedEnd",
+     "name": "плановое окончание",
+     "type": "date",
+     "comment": "Плановая дата завершения этапа"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_PROJECTS",
+     "name": "Объекты и проекты"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Risk",
+   "name": "Риск",
+   "comment": "Риск несоответствия требованиям и связанных с ним потерь: штрафы, остановка работ, отказ во вводе, аварии.",
+   "attributes": [
+    {
+     "code": "likelihood",
+     "name": "вероятность",
+     "type": "string",
+     "comment": "Высокая, средняя, низкая"
+    },
+    {
+     "code": "impact",
+     "name": "влияние",
+     "type": "string",
+     "comment": "Оценка влияния"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_RISKS",
+     "name": "Риски и последствия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Consequence",
+   "name": "Последствие",
+   "comment": "Последствие нарушения требования: штраф, приостановка разрешения, авария или несчастный случай.",
+   "attributes": [
+    {
+     "code": "severity",
+     "name": "тяжесть",
+     "type": "string",
+     "comment": "Оценка тяжести последствия"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_RISKS",
+     "name": "Риски и последствия"
+    }
+   ],
+   "subclasses": [
+    {
+     "code": "Penalty",
+     "name": "Штраф"
+    },
+    {
+     "code": "LicenseSuspension",
+     "name": "Приостановка разрешения"
+    },
+    {
+     "code": "Accident",
+     "name": "Авария или несчастный случай"
+    }
+   ]
+  },
+  {
+   "code": "Penalty",
+   "name": "Штраф",
+   "comment": "Административный штраф за нарушение обязательного требования, предусмотренный КоАП РФ.",
+   "attributes": [
+    {
+     "code": "amount",
+     "name": "сумма",
+     "type": "number",
+     "comment": "Размер штрафа"
+    },
+    {
+     "code": "legalBasis",
+     "name": "правовое основание",
+     "type": "string",
+     "comment": "Статья КоАП РФ"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_RISKS",
+     "name": "Риски и последствия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LicenseSuspension",
+   "name": "Приостановка разрешения",
+   "comment": "Приостановка действия разрешительного документа или работ предписанием надзорного органа.",
+   "attributes": [
+    {
+     "code": "duration",
+     "name": "длительность",
+     "type": "string",
+     "comment": "Срок приостановки"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_RISKS",
+     "name": "Риски и последствия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Accident",
+   "name": "Авария или несчастный случай",
+   "comment": "Авария конструкций, оборудования или несчастный случай на объекте вследствие несоблюдения требований.",
+   "attributes": [
+    {
+     "code": "severity",
+     "name": "тяжесть",
+     "type": "string",
+     "comment": "Категория аварии или травмы"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_RISKS",
+     "name": "Риски и последствия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ImpactAssessment",
+   "name": "Оценка влияния",
+   "comment": "Сценарная оценка последствий изменения требований, отзыва сертификата, инцидента для документов, объекта и сроков.",
+   "attributes": [
+    {
+     "code": "scenario",
+     "name": "сценарий",
+     "type": "string",
+     "comment": "Описываемое изменение или событие"
+    },
+    {
+     "code": "assessedAt",
+     "name": "дата оценки",
+     "type": "date",
+     "comment": "Дата проведения оценки"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_RISKS",
+     "name": "Риски и последствия"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "RegulatoryChange",
+   "name": "Изменение нормативки",
+   "comment": "Вступление в силу, изменение или отмена требования, затрагивающее документы, процессы и правила проверки.",
+   "attributes": [
+    {
+     "code": "effectiveDate",
+     "name": "дата вступления",
+     "type": "date",
+     "comment": "Дата начала действия изменения"
+    },
+    {
+     "code": "changeType",
+     "name": "тип изменения",
+     "type": "string",
+     "comment": "Новое, изменённое, отменённое"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_CHANGES",
+     "name": "Изменения и события"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ChangeRequest",
+   "name": "Запрос на изменение",
+   "comment": "Запрос на изменение документа или проекта, вызванный изменением нормативки или выявленным фактом.",
+   "attributes": [
+    {
+     "code": "requestNumber",
+     "name": "номер запроса",
+     "type": "string",
+     "comment": "Регистрационный номер"
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "На согласовании, утверждён, отклонён"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_CHANGES",
+     "name": "Изменения и события"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Incident",
+   "name": "Инцидент",
+   "comment": "Нежелательное событие: просроченный сертификат, замечание экспертизы, утечка данных, влекущее проверку и меры.",
+   "attributes": [
+    {
+     "code": "occurredAt",
+     "name": "дата события",
+     "type": "date",
+     "comment": "Когда произошло"
+    },
+    {
+     "code": "severity",
+     "name": "тяжесть",
+     "type": "string",
+     "comment": "Оценка тяжести"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_CHANGES",
+     "name": "Изменения и события"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ComplianceDecision",
+   "name": "Решение по соответствию",
+   "comment": "Принятое управленческое решение: устранить несоответствие, согласовать отступление или принять риск.",
+   "attributes": [
+    {
+     "code": "decisionDate",
+     "name": "дата решения",
+     "type": "date",
+     "comment": "Дата принятия решения"
+    },
+    {
+     "code": "rationale",
+     "name": "обоснование",
+     "type": "string",
+     "comment": "Основание решения"
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "DOM_COMP_CHANGES",
+     "name": "Изменения и события"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "regulationIssuedByRegulator",
+   "name": "издан регулятором",
+   "comment": "Регулятор, издавший нормативный акт",
+   "fromClass": "Regulation",
+   "toClass": "Regulator"
+  },
+  {
+   "code": "regulationContainsRequirement",
+   "name": "содержит требование",
+   "comment": "Требования, установленные нормативным актом",
+   "fromClass": "Regulation",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "standardContainsRequirement",
+   "name": "содержит требование",
+   "comment": "Требования, установленные техническим стандартом",
+   "fromClass": "Standard",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "policyContainsRequirement",
+   "name": "содержит требование",
+   "comment": "Требования, установленные внутренним регламентом",
+   "fromClass": "InternalPolicy",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "contractContainsRequirement",
+   "name": "содержит требование",
+   "comment": "Требования, включённые в договор",
+   "fromClass": "Contract",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "requirementDerivedFromRegulation",
+   "name": "вытекает из акта",
+   "comment": "Нормативный акт — источник требования",
+   "fromClass": "Requirement",
+   "toClass": "Regulation"
+  },
+  {
+   "code": "requirementDerivedFromStandard",
+   "name": "вытекает из стандарта",
+   "comment": "Стандарт — источник требования",
+   "fromClass": "Requirement",
+   "toClass": "Standard"
+  },
+  {
+   "code": "requirementDerivedFromPolicy",
+   "name": "вытекает из регламента",
+   "comment": "Внутренний регламент — источник требования",
+   "fromClass": "Requirement",
+   "toClass": "InternalPolicy"
+  },
+  {
+   "code": "requirementAppliesToDocument",
+   "name": "применяется к документу",
+   "comment": "Документы, к которым применяется требование",
+   "fromClass": "Requirement",
+   "toClass": "ControlledDocument"
+  },
+  {
+   "code": "requirementAppliesToProcess",
+   "name": "применяется к процессу",
+   "comment": "Процессы, к которым применяется требование",
+   "fromClass": "Requirement",
+   "toClass": "DocumentLifecycleProcess"
+  },
+  {
+   "code": "requirementAppliesToObject",
+   "name": "применяется к объекту",
+   "comment": "Объекты, к которым применяется требование",
+   "fromClass": "Requirement",
+   "toClass": "ConstructionObject"
+  },
+  {
+   "code": "requirementAppliesToOrganization",
+   "name": "применяется к организации",
+   "comment": "Организации, на которые распространяется требование",
+   "fromClass": "Requirement",
+   "toClass": "Organization"
+  },
+  {
+   "code": "requirementRequiresEvidence",
+   "name": "требует подтверждения",
+   "comment": "Доказательства, подтверждающие выполнение требования",
+   "fromClass": "Requirement",
+   "toClass": "Evidence"
+  },
+  {
+   "code": "requirementRequiresControl",
+   "name": "требует контроля",
+   "comment": "Контроли, обеспечивающие выполнение требования",
+   "fromClass": "Requirement",
+   "toClass": "Control"
+  },
+  {
+   "code": "requirementHasRisk",
+   "name": "связано с риском",
+   "comment": "Риски, связанные с невыполнением требования",
+   "fromClass": "Requirement",
+   "toClass": "Risk"
+  },
+  {
+   "code": "documentSatisfiesRequirement",
+   "name": "удовлетворяет требование",
+   "comment": "Центральная связь соответствия: документ соответствует требованию",
+   "fromClass": "ControlledDocument",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "documentHasSection",
+   "name": "содержит раздел",
+   "comment": "Разделы, входящие в документ",
+   "fromClass": "ControlledDocument",
+   "toClass": "DocumentSection"
+  },
+  {
+   "code": "documentHasVersion",
+   "name": "имеет версию",
+   "comment": "Версии и редакции документа",
+   "fromClass": "ControlledDocument",
+   "toClass": "DocumentVersion"
+  },
+  {
+   "code": "documentGovernedByProcess",
+   "name": "создаётся в процессе",
+   "comment": "Процесс, в котором создаётся документ",
+   "fromClass": "ControlledDocument",
+   "toClass": "DocumentLifecycleProcess"
+  },
+  {
+   "code": "documentApprovedByRole",
+   "name": "утверждён ролью",
+   "comment": "Роль, утвердившая документ",
+   "fromClass": "ControlledDocument",
+   "toClass": "Role"
+  },
+  {
+   "code": "documentReferencesRegulation",
+   "name": "ссылается на акт",
+   "comment": "Нормативные акты, на которые ссылается документ",
+   "fromClass": "ControlledDocument",
+   "toClass": "Regulation"
+  },
+  {
+   "code": "documentReferencesStandard",
+   "name": "ссылается на стандарт",
+   "comment": "Стандарты, на которые ссылается документ",
+   "fromClass": "ControlledDocument",
+   "toClass": "Standard"
+  },
+  {
+   "code": "documentGovernedByPolicy",
+   "name": "регламентирован",
+   "comment": "Внутренний регламент, определяющий работу с документом",
+   "fromClass": "ControlledDocument",
+   "toClass": "InternalPolicy"
+  },
+  {
+   "code": "sectionCheckedByRequirement",
+   "name": "проверяется по требованию",
+   "comment": "Требование, по которому проверяется раздел документа",
+   "fromClass": "DocumentSection",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "permitIssuedByRegulator",
+   "name": "выдан регулятором",
+   "comment": "Регулятор, выдавший разрешительный документ",
+   "fromClass": "Permit",
+   "toClass": "Regulator"
+  },
+  {
+   "code": "certificateIssuedByOrganization",
+   "name": "выдан организацией",
+   "comment": "Орган сертификации, выдавший сертификат",
+   "fromClass": "Certificate",
+   "toClass": "Organization"
+  },
+  {
+   "code": "contractCoversObject",
+   "name": "охватывает объект",
+   "comment": "Объект, на который распространяется договор",
+   "fromClass": "Contract",
+   "toClass": "ConstructionObject"
+  },
+  {
+   "code": "contractBindsOrganization",
+   "name": "связывает организацию",
+   "comment": "Организации, связанные договором",
+   "fromClass": "Contract",
+   "toClass": "Organization"
+  },
+  {
+   "code": "documentHasRisk",
+   "name": "несёт риск",
+   "comment": "Риски, связанные с документом",
+   "fromClass": "ControlledDocument",
+   "toClass": "Risk"
+  },
+  {
+   "code": "processProducesDocument",
+   "name": "создаёт документ",
+   "comment": "Документы, создаваемые в процессе",
+   "fromClass": "DocumentLifecycleProcess",
+   "toClass": "ControlledDocument"
+  },
+  {
+   "code": "processOwnedByRole",
+   "name": "владелец процесса",
+   "comment": "Роль — владелец процесса",
+   "fromClass": "DocumentLifecycleProcess",
+   "toClass": "Role"
+  },
+  {
+   "code": "controlChecksDocument",
+   "name": "проверяет документ",
+   "comment": "Документы, проверяемые контролем",
+   "fromClass": "Control",
+   "toClass": "ControlledDocument"
+  },
+  {
+   "code": "controlChecksRequirement",
+   "name": "проверяет требование",
+   "comment": "Требования, проверяемые контролем",
+   "fromClass": "Control",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "controlResultsInFinding",
+   "name": "выявляет",
+   "comment": "Выявления, возникающие по результатам контроля",
+   "fromClass": "Control",
+   "toClass": "Finding"
+  },
+  {
+   "code": "controlUsesRule",
+   "name": "использует правило",
+   "comment": "Правила, применяемые контролем",
+   "fromClass": "Control",
+   "toClass": "Rule"
+  },
+  {
+   "code": "ruleFormalizesRequirement",
+   "name": "формализует требование",
+   "comment": "Требование, которое автоматизирует правило",
+   "fromClass": "Rule",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "approvalPerformedByRole",
+   "name": "выполняется ролью",
+   "comment": "Роль, выполняющая согласование",
+   "fromClass": "Approval",
+   "toClass": "Role"
+  },
+  {
+   "code": "expertReviewChecksDocument",
+   "name": "проверяет документ",
+   "comment": "Документы, проходящие экспертизу",
+   "fromClass": "ExpertReview",
+   "toClass": "ControlledDocument"
+  },
+  {
+   "code": "expertReviewRequiredByRegulation",
+   "name": "требуется актом",
+   "comment": "Нормативный акт, устанавливающий обязательность экспертизы",
+   "fromClass": "ExpertReview",
+   "toClass": "Regulation"
+  },
+  {
+   "code": "inspectionChecksObject",
+   "name": "проверяет объект",
+   "comment": "Объекты, проверяемые надзором",
+   "fromClass": "Inspection",
+   "toClass": "ConstructionObject"
+  },
+  {
+   "code": "inspectionConductedByRegulator",
+   "name": "проводится регулятором",
+   "comment": "Регулятор, проводящий проверку",
+   "fromClass": "Inspection",
+   "toClass": "Regulator"
+  },
+  {
+   "code": "inspectionChecksDocument",
+   "name": "проверяет документ",
+   "comment": "Документы, запрашиваемые при надзорной проверке",
+   "fromClass": "Inspection",
+   "toClass": "ControlledDocument"
+  },
+  {
+   "code": "assessmentChecksDocument",
+   "name": "оценивает документ",
+   "comment": "Документы, охваченные оценкой соответствия",
+   "fromClass": "ComplianceAssessment",
+   "toClass": "ControlledDocument"
+  },
+  {
+   "code": "assessmentChecksRequirement",
+   "name": "оценивает требование",
+   "comment": "Требования, проверяемые оценкой",
+   "fromClass": "ComplianceAssessment",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "assessmentChecksObject",
+   "name": "оценивает объект",
+   "comment": "Объекты, охваченные оценкой соответствия",
+   "fromClass": "ComplianceAssessment",
+   "toClass": "ConstructionObject"
+  },
+  {
+   "code": "assessmentResultsInFinding",
+   "name": "приводит к выявлению",
+   "comment": "Выявления по результатам оценки",
+   "fromClass": "ComplianceAssessment",
+   "toClass": "Finding"
+  },
+  {
+   "code": "findingConcernsDocument",
+   "name": "касается документа",
+   "comment": "Документ, к которому относится выявление",
+   "fromClass": "Finding",
+   "toClass": "ControlledDocument"
+  },
+  {
+   "code": "findingConcernsRequirement",
+   "name": "касается требования",
+   "comment": "Требование, к которому относится выявление",
+   "fromClass": "Finding",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "findingRequiresAction",
+   "name": "требует действия",
+   "comment": "Действия, необходимые для устранения выявления",
+   "fromClass": "Finding",
+   "toClass": "CorrectiveAction"
+  },
+  {
+   "code": "violationBasedOnFinding",
+   "name": "основано на выявлении",
+   "comment": "Выявление, на котором основано нарушение",
+   "fromClass": "Violation",
+   "toClass": "Finding"
+  },
+  {
+   "code": "violationTriggersConsequence",
+   "name": "влечёт последствие",
+   "comment": "Последствия, наступающие при нарушении",
+   "fromClass": "Violation",
+   "toClass": "Consequence"
+  },
+  {
+   "code": "violationCreatesRisk",
+   "name": "создаёт риск",
+   "comment": "Риски, создаваемые нарушением",
+   "fromClass": "Violation",
+   "toClass": "Risk"
+  },
+  {
+   "code": "correctiveActionAddressesFinding",
+   "name": "устраняет выявление",
+   "comment": "Выявление, которое устраняет действие",
+   "fromClass": "CorrectiveAction",
+   "toClass": "Finding"
+  },
+  {
+   "code": "correctiveActionModifiesDocument",
+   "name": "корректирует документ",
+   "comment": "Документ, который корректируется действием",
+   "fromClass": "CorrectiveAction",
+   "toClass": "ControlledDocument"
+  },
+  {
+   "code": "correctiveActionOwnedByRole",
+   "name": "ответственная роль",
+   "comment": "Роль, ответственная за выполнение действия",
+   "fromClass": "CorrectiveAction",
+   "toClass": "Role"
+  },
+  {
+   "code": "remediationPlanIncludesAction",
+   "name": "включает действие",
+   "comment": "Действия, входящие в план устранения",
+   "fromClass": "RemediationPlan",
+   "toClass": "CorrectiveAction"
+  },
+  {
+   "code": "remediationPlanTargetsViolation",
+   "name": "устраняет нарушение",
+   "comment": "Нарушения, устраняемые планом",
+   "fromClass": "RemediationPlan",
+   "toClass": "Violation"
+  },
+  {
+   "code": "waiverCoversRequirement",
+   "name": "отступает от требования",
+   "comment": "Требование, от которого сделано отступление",
+   "fromClass": "Waiver",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "waiverAppliesToDocument",
+   "name": "касается документа",
+   "comment": "Документ, к которому относится отступление",
+   "fromClass": "Waiver",
+   "toClass": "ControlledDocument"
+  },
+  {
+   "code": "evidenceSupportsAssessment",
+   "name": "подтверждает оценку",
+   "comment": "Оценка, которую подтверждает доказательство",
+   "fromClass": "Evidence",
+   "toClass": "ComplianceAssessment"
+  },
+  {
+   "code": "evidenceProvesRequirement",
+   "name": "доказывает выполнение",
+   "comment": "Требование, выполнение которого доказывает материал",
+   "fromClass": "Evidence",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "evidenceProducedByRole",
+   "name": "подготовлено ролью",
+   "comment": "Роль, подготовившая доказательство",
+   "fromClass": "Evidence",
+   "toClass": "Role"
+  },
+  {
+   "code": "personWorksInOrganization",
+   "name": "работает в",
+   "comment": "Организация, в которой работает сотрудник",
+   "fromClass": "Person",
+   "toClass": "Organization"
+  },
+  {
+   "code": "personHoldsRole",
+   "name": "занимает роль",
+   "comment": "Роль, которую занимает сотрудник",
+   "fromClass": "Person",
+   "toClass": "Role"
+  },
+  {
+   "code": "roleRequiresCompetence",
+   "name": "требует компетенцию",
+   "comment": "Компетенции, необходимые роли",
+   "fromClass": "Role",
+   "toClass": "Competence"
+  },
+  {
+   "code": "roleResponsibleForDocument",
+   "name": "отвечает за документ",
+   "comment": "Документы в зоне ответственности роли",
+   "fromClass": "Role",
+   "toClass": "ControlledDocument"
+  },
+  {
+   "code": "roleResponsibleForProcess",
+   "name": "отвечает за процесс",
+   "comment": "Процессы в зоне ответственности роли",
+   "fromClass": "Role",
+   "toClass": "DocumentLifecycleProcess"
+  },
+  {
+   "code": "rolePerformsControl",
+   "name": "выполняет контроль",
+   "comment": "Контроли, выполняемые ролью",
+   "fromClass": "Role",
+   "toClass": "Control"
+  },
+  {
+   "code": "organizationHasRole",
+   "name": "включает роль",
+   "comment": "Роли, входящие в организацию",
+   "fromClass": "Organization",
+   "toClass": "Role"
+  },
+  {
+   "code": "organizationParticipatesInProject",
+   "name": "участвует в проекте",
+   "comment": "Проекты, в которых участвует организация",
+   "fromClass": "Organization",
+   "toClass": "ConstructionProject"
+  },
+  {
+   "code": "projectHasStage",
+   "name": "включает этап",
+   "comment": "Этапы жизненного цикла проекта",
+   "fromClass": "ConstructionProject",
+   "toClass": "LifecycleStage"
+  },
+  {
+   "code": "projectIncludesObject",
+   "name": "включает объект",
+   "comment": "Объекты, входящие в проект",
+   "fromClass": "ConstructionProject",
+   "toClass": "ConstructionObject"
+  },
+  {
+   "code": "stageProducesDocument",
+   "name": "сопровождается документом",
+   "comment": "Документы, создаваемые на этапе",
+   "fromClass": "LifecycleStage",
+   "toClass": "ControlledDocument"
+  },
+  {
+   "code": "objectRequiresPermit",
+   "name": "требует разрешения",
+   "comment": "Разрешительные документы, необходимые объекту",
+   "fromClass": "ConstructionObject",
+   "toClass": "Permit"
+  },
+  {
+   "code": "objectRequiresExpertReview",
+   "name": "требует экспертизы",
+   "comment": "Экспертизы, необходимые объекту",
+   "fromClass": "ConstructionObject",
+   "toClass": "ExpertReview"
+  },
+  {
+   "code": "riskAssessedByImpactAssessment",
+   "name": "оценивается в",
+   "comment": "Оценка влияния, в рамках которой рассматривается риск",
+   "fromClass": "Risk",
+   "toClass": "ImpactAssessment"
+  },
+  {
+   "code": "impactAssessmentConsidersObject",
+   "name": "оценивает объект",
+   "comment": "Объекты, рассматриваемые в оценке влияния",
+   "fromClass": "ImpactAssessment",
+   "toClass": "ConstructionObject"
+  },
+  {
+   "code": "impactAssessmentConsidersDocument",
+   "name": "оценивает документ",
+   "comment": "Документы, рассматриваемые в оценке влияния",
+   "fromClass": "ImpactAssessment",
+   "toClass": "ControlledDocument"
+  },
+  {
+   "code": "consequenceAffectsProject",
+   "name": "влияет на проект",
+   "comment": "Проекты, на которые влияет последствие",
+   "fromClass": "Consequence",
+   "toClass": "ConstructionProject"
+  },
+  {
+   "code": "consequenceAffectsOrganization",
+   "name": "влияет на организацию",
+   "comment": "Организации, на которые влияет последствие",
+   "fromClass": "Consequence",
+   "toClass": "Organization"
+  },
+  {
+   "code": "regulatoryChangeAffectsRequirement",
+   "name": "затрагивает требование",
+   "comment": "Требования, изменяемые новым актом",
+   "fromClass": "RegulatoryChange",
+   "toClass": "Requirement"
+  },
+  {
+   "code": "regulatoryChangeAffectsDocument",
+   "name": "затрагивает документ",
+   "comment": "Документы, требующие пересмотра из-за изменения",
+   "fromClass": "RegulatoryChange",
+   "toClass": "ControlledDocument"
+  },
+  {
+   "code": "regulatoryChangeAffectsProcess",
+   "name": "затрагивает процесс",
+   "comment": "Процессы, изменяемые новым требованием",
+   "fromClass": "RegulatoryChange",
+   "toClass": "DocumentLifecycleProcess"
+  },
+  {
+   "code": "regulatoryChangeAffectsRule",
+   "name": "затрагивает правило",
+   "comment": "Правила проверки, требующие обновления",
+   "fromClass": "RegulatoryChange",
+   "toClass": "Rule"
+  },
+  {
+   "code": "regulatoryChangeIssuedByRegulator",
+   "name": "инициировано регулятором",
+   "comment": "Регулятор — источник изменения",
+   "fromClass": "RegulatoryChange",
+   "toClass": "Regulator"
+  },
+  {
+   "code": "changeRequestTargetsDocument",
+   "name": "изменяет документ",
+   "comment": "Документ, который меняется по запросу",
+   "fromClass": "ChangeRequest",
+   "toClass": "ControlledDocument"
+  },
+  {
+   "code": "changeRequestTriggeredByRegulatoryChange",
+   "name": "вызван изменением",
+   "comment": "Изменение нормативки — причина запроса",
+   "fromClass": "ChangeRequest",
+   "toClass": "RegulatoryChange"
+  },
+  {
+   "code": "changeRequestApprovedByRole",
+   "name": "согласуется ролью",
+   "comment": "Роль, согласующая запрос на изменение",
+   "fromClass": "ChangeRequest",
+   "toClass": "Role"
+  },
+  {
+   "code": "incidentAffectsObject",
+   "name": "затрагивает объект",
+   "comment": "Объекты, затронутые инцидентом",
+   "fromClass": "Incident",
+   "toClass": "ConstructionObject"
+  },
+  {
+   "code": "incidentAffectsDocument",
+   "name": "затрагивает документ",
+   "comment": "Документы, затронутые инцидентом",
+   "fromClass": "Incident",
+   "toClass": "ControlledDocument"
+  },
+  {
+   "code": "incidentTriggersInspection",
+   "name": "влечёт проверку",
+   "comment": "Проверки, вызванные инцидентом",
+   "fromClass": "Incident",
+   "toClass": "Inspection"
+  },
+  {
+   "code": "complianceDecisionAddressesViolation",
+   "name": "касается нарушения",
+   "comment": "Нарушение, к которому относится решение",
+   "fromClass": "ComplianceDecision",
+   "toClass": "Violation"
+  },
+  {
+   "code": "complianceDecisionSelectsAction",
+   "name": "выбирает действие",
+   "comment": "Действие, выбранное решением",
+   "fromClass": "ComplianceDecision",
+   "toClass": "CorrectiveAction"
+  },
+  {
+   "code": "complianceDecisionAcceptsRisk",
+   "name": "принимает риск",
+   "comment": "Риск, принятый решением",
+   "fromClass": "ComplianceDecision",
+   "toClass": "Risk"
+  },
+  {
+   "code": "complianceDecisionOwnedByRole",
+   "name": "принято ролью",
+   "comment": "Роль, принявшая решение",
+   "fromClass": "ComplianceDecision",
+   "toClass": "Role"
+  }
+ ],
+ "info": null,
+ "theme": []
+}

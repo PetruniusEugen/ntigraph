@@ -1,0 +1,613 @@
+{
+ "entities": [
+  {
+   "id": "class-vremennoy-interval",
+   "label": "Временной интервал",
+   "classCode": "TemporalInterval",
+   "isClass": true
+  },
+  {
+   "id": "genericheski-zavisimyy-kontinuant",
+   "label": "Генерически зависимый континуант",
+   "classCode": null
+  },
+  {
+   "id": "granica-processa",
+   "label": "Граница процесса",
+   "classCode": null
+  },
+  {
+   "id": "granica-fazy",
+   "label": "Граница фазы",
+   "classCode": null
+  },
+  {
+   "id": "class-granica-fazy",
+   "label": "Граница фазы",
+   "classCode": "PhaseBoundary",
+   "isClass": true
+  },
+  {
+   "id": "granica-fazy-vvod-zavershen-12-01-2025",
+   "label": "Граница фазы «Ввод завершён 12.01.2025»",
+   "classCode": "PhaseBoundary"
+  },
+  {
+   "id": "granica-fazy-otkaz-12-08-2026",
+   "label": "Граница фазы «Отказ 12.08.2026»",
+   "classCode": "PhaseBoundary"
+  },
+  {
+   "id": "deonticheskiy-status",
+   "label": "Деонтический статус",
+   "classCode": null
+  },
+  {
+   "id": "dispoziciya",
+   "label": "Диспозиция",
+   "classCode": null
+  },
+  {
+   "id": "dispoziciya-otkaz-diska",
+   "label": "Диспозиция «Отказ диска»",
+   "classCode": "TransitionDisposition"
+  },
+  {
+   "id": "dispoziciya-k-perehodu",
+   "label": "Диспозиция к переходу",
+   "classCode": null
+  },
+  {
+   "id": "class-dispoziciya-k-perehodu",
+   "label": "Диспозиция к переходу",
+   "classCode": "TransitionDisposition",
+   "isClass": true
+  },
+  {
+   "id": "class-dokazatelstvo",
+   "label": "Доказательство",
+   "classCode": "Evidence",
+   "isClass": true
+  },
+  {
+   "id": "dokazatelstvo-akt-ot-12-01-2025",
+   "label": "Доказательство «Акт от 12.01.2025»",
+   "classCode": "Evidence"
+  },
+  {
+   "id": "dokazatelstvo-zhurnal-incidentov-2026",
+   "label": "Доказательство «Журнал инцидентов 2026»",
+   "classCode": "Evidence"
+  },
+  {
+   "id": "dokazatelstvo-protokol-proverki-15-07-2026",
+   "label": "Доказательство «Протокол проверки 15.07.2026»",
+   "classCode": "Evidence"
+  },
+  {
+   "id": "zhiznennyy-cikl",
+   "label": "Жизненный цикл",
+   "classCode": null
+  },
+  {
+   "id": "class-zhiznennyy-cikl",
+   "label": "Жизненный цикл",
+   "classCode": "Lifecycle",
+   "isClass": true
+  },
+  {
+   "id": "zhiznennyy-cikl-servera-bd-01",
+   "label": "Жизненный цикл сервера БД-01",
+   "classCode": "Lifecycle"
+  },
+  {
+   "id": "zapis-akt-vvoda-v-ekspluataciyu",
+   "label": "Запись «Акт ввода в эксплуатацию»",
+   "classCode": "LifecycleRecord"
+  },
+  {
+   "id": "zapis-protokol-proverki-kopii-15-07-2026",
+   "label": "Запись «Протокол проверки копии 15.07.2026»",
+   "classCode": "LifecycleRecord"
+  },
+  {
+   "id": "class-zapis-o-zhiznennom-cikle",
+   "label": "Запись о жизненном цикле",
+   "classCode": "LifecycleRecord",
+   "isClass": true
+  },
+  {
+   "id": "zapreschenie",
+   "label": "Запрещение",
+   "classCode": null
+  },
+  {
+   "id": "class-zapreschenie",
+   "label": "Запрещение",
+   "classCode": "Prohibition",
+   "isClass": true
+  },
+  {
+   "id": "zapreschenie-ruchnoe-udalenie-rezervnyh-kopiy",
+   "label": "Запрещение «Ручное удаление резервных копий»",
+   "classCode": "Prohibition"
+  },
+  {
+   "id": "invariant-net-vyvoda-iz-ekspluatacii-bez-proverennoy-kopii",
+   "label": "Инвариант «Нет вывода из эксплуатации без проверенной копии»",
+   "classCode": "Invariant"
+  },
+  {
+   "id": "invariant-zhiznennogo-cikla",
+   "label": "Инвариант жизненного цикла",
+   "classCode": null
+  },
+  {
+   "id": "class-invariant-zhiznennogo-cikla",
+   "label": "Инвариант жизненного цикла",
+   "classCode": "Invariant",
+   "isClass": true
+  },
+  {
+   "id": "interval-12-01-2025-12-08-2026",
+   "label": "Интервал «12.01.2025 — 12.08.2026»",
+   "classCode": "TemporalInterval"
+  },
+  {
+   "id": "informacionnaya-suschnost",
+   "label": "Информационная сущность",
+   "classCode": null
+  },
+  {
+   "id": "istoriya",
+   "label": "История",
+   "classCode": null
+  },
+  {
+   "id": "kachestvo",
+   "label": "Качество",
+   "classCode": null
+  },
+  {
+   "id": "kontinuant",
+   "label": "Континуант",
+   "classCode": null
+  },
+  {
+   "id": "kontrolnaya-tochka",
+   "label": "Контрольная точка",
+   "classCode": null
+  },
+  {
+   "id": "class-kontrolnaya-tochka",
+   "label": "Контрольная точка",
+   "classCode": "Gate",
+   "isClass": true
+  },
+  {
+   "id": "kontrolnaya-tochka-proverka-kopii-pered-vyvodom",
+   "label": "Контрольная точка «Проверка копии перед выводом»",
+   "classCode": "Gate"
+  },
+  {
+   "id": "kontrfakticheskiy-scenariy",
+   "label": "Контрфактический сценарий",
+   "classCode": null
+  },
+  {
+   "id": "class-kontrfakticheskiy-scenariy",
+   "label": "Контрфактический сценарий",
+   "classCode": "CounterfactualScenario",
+   "isClass": true
+  },
+  {
+   "id": "kontrfakticheskiy-scenariy-s-rezervnym-serverom",
+   "label": "Контрфактический сценарий «С резервным сервером»",
+   "classCode": "CounterfactualScenario"
+  },
+  {
+   "id": "kriteriy",
+   "label": "Критерий",
+   "classCode": null
+  },
+  {
+   "id": "kriteriy-akt-priemki-podpisan",
+   "label": "Критерий «Акт приёмки подписан»",
+   "classCode": "EntryCriterion"
+  },
+  {
+   "id": "kriteriy-proverka-vosstanovleniya-iz-kopii",
+   "label": "Критерий «Проверка восстановления из копии»",
+   "classCode": "ExitCriterion"
+  },
+  {
+   "id": "kriteriy-soglasovanie-vyvoda-s-vladelcem-sistemy",
+   "label": "Критерий «Согласование вывода с владельцем системы»",
+   "classCode": "EntryCriterion"
+  },
+  {
+   "id": "kriteriy-vhoda",
+   "label": "Критерий входа",
+   "classCode": null
+  },
+  {
+   "id": "class-kriteriy-vhoda",
+   "label": "Критерий входа",
+   "classCode": "EntryCriterion",
+   "isClass": true
+  },
+  {
+   "id": "kriteriy-zaversheniya",
+   "label": "Критерий завершения",
+   "classCode": null
+  },
+  {
+   "id": "class-kriteriy-zaversheniya",
+   "label": "Критерий завершения",
+   "classCode": "ExitCriterion",
+   "isClass": true
+  },
+  {
+   "id": "materialnaya-suschnost",
+   "label": "Материальная сущность",
+   "classCode": null
+  },
+  {
+   "id": "class-materialnaya-suschnost",
+   "label": "Материальная сущность",
+   "classCode": "MaterialEntity",
+   "isClass": true
+  },
+  {
+   "id": "modalnoe-utverzhdenie",
+   "label": "Модальное утверждение",
+   "classCode": null
+  },
+  {
+   "id": "class-modalnoe-utverzhdenie",
+   "label": "Модальное утверждение",
+   "classCode": "ModalStatement",
+   "isClass": true
+  },
+  {
+   "id": "class-modalnyy-rezhim",
+   "label": "Модальный режим",
+   "classCode": "ModalMode",
+   "isClass": true
+  },
+  {
+   "id": "moment-12-08-2026-09-40",
+   "label": "Момент «12.08.2026 09:40»",
+   "classCode": "TemporalInstant"
+  },
+  {
+   "id": "moment-15-07-2026-03-10",
+   "label": "Момент «15.07.2026 03:10»",
+   "classCode": "TemporalInstant"
+  },
+  {
+   "id": "class-moment-vremeni",
+   "label": "Момент времени",
+   "classCode": "TemporalInstant",
+   "isClass": true
+  },
+  {
+   "id": "nezavisimyy-kontinuant",
+   "label": "Независимый континуант",
+   "classCode": null
+  },
+  {
+   "id": "class-norma",
+   "label": "Норма",
+   "classCode": "Norm",
+   "isClass": true
+  },
+  {
+   "id": "norma-reglament-rezervnogo-kopirovaniya",
+   "label": "Норма «Регламент резервного копирования»",
+   "classCode": "Norm"
+  },
+  {
+   "id": "norma-trebovanie-mfa-dlya-udalennogo-dostupa",
+   "label": "Норма «Требование MFA для удалённого доступа»",
+   "classCode": "Norm"
+  },
+  {
+   "id": "obyazatelstvo",
+   "label": "Обязательство",
+   "classCode": null
+  },
+  {
+   "id": "class-obyazatelstvo",
+   "label": "Обязательство",
+   "classCode": "Obligation",
+   "isClass": true
+  },
+  {
+   "id": "obyazatelstvo-vklyuchit-mfa",
+   "label": "Обязательство «Включить MFA»",
+   "classCode": "Obligation"
+  },
+  {
+   "id": "obyazatelstvo-proverit-vosstanovlenie-iz-kopii",
+   "label": "Обязательство «Проверить восстановление из копии»",
+   "classCode": "Obligation"
+  },
+  {
+   "id": "okkurrent",
+   "label": "Оккуррент",
+   "classCode": null
+  },
+  {
+   "id": "otvetstvennyy-vladelec-servera-bd-01",
+   "label": "Ответственный «Владелец сервера БД-01»",
+   "classCode": "ResponsibleRole"
+  },
+  {
+   "id": "otnoshenie-s4-refleksivno-i-tranzitivno",
+   "label": "Отношение «S4: рефлексивно и транзитивно»",
+   "classCode": "AccessibilityRelation"
+  },
+  {
+   "id": "class-otnoshenie-dostizhimosti",
+   "label": "Отношение достижимости",
+   "classCode": "AccessibilityRelation",
+   "isClass": true
+  },
+  {
+   "id": "perehod",
+   "label": "Переход",
+   "classCode": null
+  },
+  {
+   "id": "class-perehod",
+   "label": "Переход",
+   "classCode": "Transition",
+   "isClass": true
+  },
+  {
+   "id": "perehod-avariynyy-perehod-v-obsluzhivanie-12-08-2026",
+   "label": "Переход «Аварийный переход в обслуживание 12.08.2026»",
+   "classCode": "Transition"
+  },
+  {
+   "id": "perehod-vvod-v-ekspluataciyu-12-01-2025",
+   "label": "Переход «Ввод в эксплуатацию 12.01.2025»",
+   "classCode": "Transition"
+  },
+  {
+   "id": "process",
+   "label": "Процесс",
+   "classCode": null
+  },
+  {
+   "id": "razreshenie",
+   "label": "Разрешение",
+   "classCode": null
+  },
+  {
+   "id": "class-razreshenie",
+   "label": "Разрешение",
+   "classCode": "Permission",
+   "isClass": true
+  },
+  {
+   "id": "razreshenie-planovoe-obsluzhivanie-v-okno-02-00-04-00",
+   "label": "Разрешение «Плановое обслуживание в окно 02:00–04:00»",
+   "classCode": "Permission"
+  },
+  {
+   "id": "rezhim-aleticheskaya-vozmozhnost-s4",
+   "label": "Режим «алетическая возможность S4»",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "rezhim-aleticheskaya-neobhodimost-s4",
+   "label": "Режим «алетическая необходимость S4»",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "rezhim-deonticheskaya-neobhodimost-kd",
+   "label": "Режим «деонтическая необходимость KD»",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "rezhim-faktichnost",
+   "label": "Режим «фактичность»",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "rezhim-epistemicheskaya-vozmozhnost-s5",
+   "label": "Режим «эпистемическая возможность S5»",
+   "classCode": "ModalMode"
+  },
+  {
+   "id": "rol",
+   "label": "Роль",
+   "classCode": null
+  },
+  {
+   "id": "rol-otvetstvennogo",
+   "label": "Роль ответственного",
+   "classCode": null
+  },
+  {
+   "id": "class-rol-otvetstvennogo",
+   "label": "Роль ответственного",
+   "classCode": "ResponsibleRole",
+   "isClass": true
+  },
+  {
+   "id": "server-bd-01",
+   "label": "Сервер БД-01",
+   "classCode": "MaterialEntity"
+  },
+  {
+   "id": "situaciya-proverka-kopii-15-07-2026",
+   "label": "Ситуация «Проверка копии, 15.07.2026»",
+   "classCode": "EvaluationSituation"
+  },
+  {
+   "id": "situaciya-ekspluataciya-01-08-2026",
+   "label": "Ситуация «Эксплуатация, 01.08.2026»",
+   "classCode": "EvaluationSituation"
+  },
+  {
+   "id": "class-situaciya-ocenki",
+   "label": "Ситуация оценки",
+   "classCode": "EvaluationSituation",
+   "isClass": true
+  },
+  {
+   "id": "sobytie-nedostupnost-1s-2-chasa",
+   "label": "Событие «Недоступность 1С 2 часа»",
+   "classCode": "LifecycleEvent"
+  },
+  {
+   "id": "sobytie-zhiznennogo-cikla",
+   "label": "Событие жизненного цикла",
+   "classCode": null
+  },
+  {
+   "id": "class-sobytie-zhiznennogo-cikla",
+   "label": "Событие жизненного цикла",
+   "classCode": "LifecycleEvent",
+   "isClass": true
+  },
+  {
+   "id": "specificheski-zavisimyy-kontinuant",
+   "label": "Специфически зависимый континуант",
+   "classCode": null
+  },
+  {
+   "id": "status-v-ekspluatacii",
+   "label": "Статус «В эксплуатации»",
+   "classCode": "LifecycleStatus"
+  },
+  {
+   "id": "status-zhiznennogo-cikla",
+   "label": "Статус жизненного цикла",
+   "classCode": null
+  },
+  {
+   "id": "class-status-zhiznennogo-cikla",
+   "label": "Статус жизненного цикла",
+   "classCode": "LifecycleStatus",
+   "isClass": true
+  },
+  {
+   "id": "shema-zhc-serverov-bd",
+   "label": "Схема «ЖЦ серверов БД»",
+   "classCode": "LifecyclePattern"
+  },
+  {
+   "id": "shema-zhiznennogo-cikla",
+   "label": "Схема жизненного цикла",
+   "classCode": null
+  },
+  {
+   "id": "class-shema-zhiznennogo-cikla",
+   "label": "Схема жизненного цикла",
+   "classCode": "LifecyclePattern",
+   "isClass": true
+  },
+  {
+   "id": "scenariy",
+   "label": "Сценарий",
+   "classCode": null
+  },
+  {
+   "id": "class-scenariy",
+   "label": "Сценарий",
+   "classCode": "Scenario",
+   "isClass": true
+  },
+  {
+   "id": "scenariy-otkaz-bez-rezervnogo-servera",
+   "label": "Сценарий «Отказ без резервного сервера»",
+   "classCode": "Scenario"
+  },
+  {
+   "id": "utverzhdenie-vosstanovlenie-iz-kopii-vypolneno-uspeshno-vremya-vosstanovleniya-45-minut",
+   "label": "Утверждение «восстановление из копии выполнено успешно, время восстановления 45 минут»",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-vyvod-bez-proverki-kopii-nevozmozhen",
+   "label": "Утверждение «вывод без проверки копии невозможен»",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-otkaz-diska-vozmozhen",
+   "label": "Утверждение «отказ диска возможен»",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-proverka-kopii-ne-vypolnyalas",
+   "label": "Утверждение «проверка копии не выполнялась»",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "utverzhdenie-mfa-obyazatelna-dlya-udalennogo-dostupa",
+   "label": "Утверждение «MFA обязательна для удалённого доступа»",
+   "classCode": "ModalStatement"
+  },
+  {
+   "id": "faza-vvod-v-ekspluataciyu",
+   "label": "Фаза «Ввод в эксплуатацию»",
+   "classCode": "Phase"
+  },
+  {
+   "id": "faza-vyvod-iz-ekspluatacii",
+   "label": "Фаза «Вывод из эксплуатации»",
+   "classCode": "Phase"
+  },
+  {
+   "id": "faza-zakupka",
+   "label": "Фаза «Закупка»",
+   "classCode": "Phase"
+  },
+  {
+   "id": "faza-obsluzhivanie",
+   "label": "Фаза «Обслуживание»",
+   "classCode": "Phase"
+  },
+  {
+   "id": "faza-planirovanie",
+   "label": "Фаза «Планирование»",
+   "classCode": "Phase"
+  },
+  {
+   "id": "faza-ekspluataciya",
+   "label": "Фаза «Эксплуатация»",
+   "classCode": "Phase"
+  },
+  {
+   "id": "faza-zhiznennogo-cikla",
+   "label": "Фаза жизненного цикла",
+   "classCode": null
+  },
+  {
+   "id": "class-faza-zhiznennogo-cikla",
+   "label": "Фаза жизненного цикла",
+   "classCode": "Phase",
+   "isClass": true
+  },
+  {
+   "id": "fakticheskaya-traektoriya",
+   "label": "Фактическая траектория",
+   "classCode": null
+  },
+  {
+   "id": "class-fakticheskaya-traektoriya",
+   "label": "Фактическая траектория",
+   "classCode": "ActualTrajectory",
+   "isClass": true
+  },
+  {
+   "id": "fakticheskaya-traektoriya-servera-bd-01",
+   "label": "Фактическая траектория сервера БД-01",
+   "classCode": "ActualTrajectory"
+  }
+ ]
+}

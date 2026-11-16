@@ -1,0 +1,2746 @@
+{
+ "classes": [
+  {
+   "code": "Contract",
+   "name": "Контракт",
+   "comment": "Договор на выполнение НИР или НИОКР, заключаемый заказчиком с головным исполнителем.",
+   "attributes": [
+    {
+     "code": "number",
+     "name": "номер",
+     "type": "string",
+     "comment": "Регистрационный номер контракта."
+    },
+    {
+     "code": "subject",
+     "name": "предмет",
+     "type": "string",
+     "comment": "Предмет контракта."
+    },
+    {
+     "code": "price",
+     "name": "цена, млн ₽",
+     "type": "number",
+     "comment": "Цена контракта в млн ₽."
+    },
+    {
+     "code": "signedAt",
+     "name": "дата подписания",
+     "type": "date",
+     "comment": "Дата заключения контракта."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Состояние контракта: проект, действует, исполнен, расторгнут."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CONTRACT",
+     "name": "Контракт и обязательства"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "PartyRole",
+   "name": "Роль стороны",
+   "comment": "Роль, которую сторона исполняет в контракте: заказчик, головной исполнитель, соисполнитель, субподрядчик.",
+   "attributes": [
+    {
+     "code": "roleType",
+     "name": "тип роли",
+     "type": "string",
+     "comment": "Заказчик, головной исполнитель, соисполнитель, субподрядчик."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CONTRACT",
+     "name": "Контракт и обязательства"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Appendix",
+   "name": "Приложение к контракту",
+   "comment": "Неотъемлемая часть контракта: техническое задание, календарный план, смета.",
+   "attributes": [
+    {
+     "code": "appendixType",
+     "name": "вид приложения",
+     "type": "string",
+     "comment": "ТЗ, календарный план, смета, ведомость исполнения."
+    },
+    {
+     "code": "approvedAt",
+     "name": "дата утверждения",
+     "type": "date",
+     "comment": "Дата утверждения приложения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CONTRACT",
+     "name": "Контракт и обязательства"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ContractualObligation",
+   "name": "Обязательство по контракту",
+   "comment": "Обязательство, которое контракт устанавливает для конкретной стороны.",
+   "attributes": [
+    {
+     "code": "obligationType",
+     "name": "вид обязательства",
+     "type": "string",
+     "comment": "Выполнение работ, передача результата, отчётность, обеспечение."
+    },
+    {
+     "code": "dueDate",
+     "name": "срок исполнения",
+     "type": "date",
+     "comment": "Плановый срок исполнения обязательства."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Не начато, в работе, исполнено, просрочено. Атрибут добавлен по вопросу 4."
+    },
+    {
+     "code": "deonticStatus",
+     "name": "деонтический статус",
+     "type": "string",
+     "comment": "Обязательно, разрешено, запрещено."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CONTRACT",
+     "name": "Контракт и обязательства"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ContractExecution",
+   "name": "Исполнение обязательства",
+   "comment": "Процесс, в ходе которого обязательство по контракту реализуется.",
+   "attributes": [
+    {
+     "code": "periodStart",
+     "name": "начало",
+     "type": "date",
+     "comment": "Дата начала процесса исполнения."
+    },
+    {
+     "code": "periodEnd",
+     "name": "окончание",
+     "type": "date",
+     "comment": "Дата окончания процесса исполнения."
+    },
+    {
+     "code": "state",
+     "name": "состояние",
+     "type": "string",
+     "comment": "Текущее состояние процесса."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CONTRACT",
+     "name": "Контракт и обязательства"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SupplementaryAgreement",
+   "name": "Дополнительное соглашение",
+   "comment": "Соглашение, изменяющее условия действующего контракта.",
+   "attributes": [
+    {
+     "code": "number",
+     "name": "номер",
+     "type": "string",
+     "comment": "Номер дополнительного соглашения."
+    },
+    {
+     "code": "signedAt",
+     "name": "дата подписания",
+     "type": "date",
+     "comment": "Дата подписания соглашения."
+    },
+    {
+     "code": "changedClause",
+     "name": "изменённое условие",
+     "type": "string",
+     "comment": "Условие контракта, которое изменено."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CONTRACT",
+     "name": "Контракт и обязательства"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ContractTerm",
+   "name": "Срок действия контракта",
+   "comment": "Период, в течение которого контракт действует и в который должны уложиться этапы.",
+   "attributes": [
+    {
+     "code": "startDate",
+     "name": "начало",
+     "type": "date",
+     "comment": "Дата начала действия контракта."
+    },
+    {
+     "code": "endDate",
+     "name": "окончание",
+     "type": "date",
+     "comment": "Дата окончания действия контракта."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CONTRACT",
+     "name": "Контракт и обязательства"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Subcontract",
+   "name": "Субконтракт",
+   "comment": "Контракт нижестоящего уровня, заключённый во исполнение головного контракта.",
+   "attributes": [
+    {
+     "code": "level",
+     "name": "уровень",
+     "type": "string",
+     "comment": "Уровень кооперации: первый, второй."
+    },
+    {
+     "code": "price",
+     "name": "цена, млн ₽",
+     "type": "number",
+     "comment": "Цена субконтракта в млн ₽."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CONTRACT",
+     "name": "Контракт и обязательства"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CostItem",
+   "name": "Статья затрат",
+   "comment": "Элемент структуры цены контракта: прямые затраты, накладные расходы, прибыль исполнителя.",
+   "attributes": [
+    {
+     "code": "category",
+     "name": "категория",
+     "type": "string",
+     "comment": "Прямые затраты, накладные расходы, прибыль исполнителя."
+    },
+    {
+     "code": "amount",
+     "name": "сумма, млн ₽",
+     "type": "number",
+     "comment": "Сумма статьи в млн ₽."
+    },
+    {
+     "code": "share",
+     "name": "доля, %",
+     "type": "number",
+     "comment": "Доля статьи в цене контракта, %."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CONTRACT",
+     "name": "Контракт и обязательства"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ContractRequirementGroup",
+   "name": "Группа контрактных требований",
+   "comment": "Группа общих требований, не включённых в ТЗ: типовой контракт Минобрнауки, 44-ФЗ/223-ФЗ, Бюджетный кодекс РФ.",
+   "attributes": [
+    {
+     "code": "basis",
+     "name": "основание",
+     "type": "string",
+     "comment": "Типовой контракт, 44-ФЗ, 223-ФЗ, Бюджетный кодекс РФ."
+    },
+    {
+     "code": "comment",
+     "name": "пояснение",
+     "type": "string",
+     "comment": "Что именно регулирует группа требований."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CONTRACT",
+     "name": "Контракт и обязательства"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LegalRequirement",
+   "name": "Требование законодательства",
+   "comment": "Общее требование российского законодательства, которое распространяется на заказчика и исполнителя, но не прописывается в контракте.",
+   "attributes": [
+    {
+     "code": "norm",
+     "name": "норма",
+     "type": "string",
+     "comment": "Название требования."
+    },
+    {
+     "code": "reference",
+     "name": "реквизиты",
+     "type": "string",
+     "comment": "Ссылка на нормативный акт."
+    },
+    {
+     "code": "appliesTo",
+     "name": "на кого распространяется",
+     "type": "string",
+     "comment": "Заказчик, исполнитель, соисполнитель."
+    },
+    {
+     "code": "deonticStatus",
+     "name": "деонтический статус",
+     "type": "string",
+     "comment": "Обязательно, разрешено, запрещено."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CONTRACT",
+     "name": "Контракт и обязательства"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ClaimWork",
+   "name": "Претензионно-исковая работа",
+   "comment": "Работа по урегулированию нарушения условий контракта: претензия, переписка, иск.",
+   "attributes": [
+    {
+     "code": "stage",
+     "name": "стадия",
+     "type": "string",
+     "comment": "Претензия, переписка, иск, мировое соглашение."
+    },
+    {
+     "code": "initiated",
+     "name": "инициирована",
+     "type": "boolean",
+     "comment": "Начата ли работа по нарушению."
+    },
+    {
+     "code": "basis",
+     "name": "основание",
+     "type": "string",
+     "comment": "Основание претензии."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CONTRACT",
+     "name": "Контракт и обязательства"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ContractBreach",
+   "name": "Нарушение условий контракта",
+   "comment": "Зафиксированный факт нарушения условий контракта одной из сторон.",
+   "attributes": [
+    {
+     "code": "description",
+     "name": "описание",
+     "type": "string",
+     "comment": "В чём состоит нарушение."
+    },
+    {
+     "code": "detectedAt",
+     "name": "дата выявления",
+     "type": "date",
+     "comment": "Дата выявления нарушения."
+    },
+    {
+     "code": "consequence",
+     "name": "последствие",
+     "type": "string",
+     "comment": "Штраф, неустойка, расторжение."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CONTRACT",
+     "name": "Контракт и обязательства"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "RDProject",
+   "name": "Проект НИР/НИОКР",
+   "comment": "Проект выполнения научно-исследовательских или опытно-конструкторских работ с этапами, планом и бюджетом.",
+   "attributes": [
+    {
+     "code": "code",
+     "name": "шифр",
+     "type": "string",
+     "comment": "Шифр проекта."
+    },
+    {
+     "code": "title",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Наименование проекта."
+    },
+    {
+     "code": "startDate",
+     "name": "начало",
+     "type": "date",
+     "comment": "Дата начала проекта."
+    },
+    {
+     "code": "endDate",
+     "name": "окончание",
+     "type": "date",
+     "comment": "Дата окончания проекта."
+    },
+    {
+     "code": "budget",
+     "name": "бюджет",
+     "type": "number",
+     "comment": "Бюджет проекта в рублях."
+    },
+    {
+     "code": "projectType",
+     "name": "вид проекта",
+     "type": "string",
+     "comment": "НИР, ОКР или комплексный проект НИОКР."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROJ",
+     "name": "Проекты, фазы и этапы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "CombinedRDProject",
+   "name": "Комплексный проект НИОКР",
+   "comment": "Проект, объединяющий подпроекты НИР и ОКР в рамках единой программы.",
+   "attributes": [
+    {
+     "code": "programCode",
+     "name": "код программы",
+     "type": "string",
+     "comment": "Код программы в едином отраслевом тематическом плане."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROJ",
+     "name": "Проекты, фазы и этапы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Stage",
+   "name": "Этап проекта",
+   "comment": "Отдельный этап выполнения работ с собственной стоимостью и сроком.",
+   "attributes": [
+    {
+     "code": "stageNumber",
+     "name": "номер этапа",
+     "type": "string",
+     "comment": "Порядковый номер этапа."
+    },
+    {
+     "code": "stageAmount",
+     "name": "стоимость этапа, млн ₽",
+     "type": "number",
+     "comment": "Стоимость этапа в млн ₽."
+    },
+    {
+     "code": "plannedEnd",
+     "name": "плановый срок",
+     "type": "date",
+     "comment": "Плановый срок завершения этапа."
+    },
+    {
+     "code": "actualEnd",
+     "name": "фактический срок",
+     "type": "date",
+     "comment": "Фактический срок завершения. Атрибут добавлен по вопросу 35."
+    },
+    {
+     "code": "temporalStatus",
+     "name": "темпоральный статус",
+     "type": "string",
+     "comment": "Прошлое, настоящее, будущее."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROJ",
+     "name": "Проекты, фазы и этапы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LifecyclePhase",
+   "name": "Фаза жизненного цикла",
+   "comment": "Фаза жизненного цикла проекта: инициация, НИР, ОКР, испытания, внедрение.",
+   "attributes": [
+    {
+     "code": "phaseName",
+     "name": "название фазы",
+     "type": "string",
+     "comment": "Название фазы жизненного цикла."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROJ",
+     "name": "Проекты, фазы и этапы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Milestone",
+   "name": "Веха",
+   "comment": "Контрольная точка проекта, достижение которой подтверждает завершение части работ.",
+   "attributes": [
+    {
+     "code": "plannedDate",
+     "name": "плановая дата",
+     "type": "date",
+     "comment": "Плановая дата достижения вехи."
+    },
+    {
+     "code": "achieved",
+     "name": "достигнута",
+     "type": "boolean",
+     "comment": "Достигнута ли веха."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROJ",
+     "name": "Проекты, фазы и этапы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ProjectPlan",
+   "name": "План выполнения",
+   "comment": "Версия плана выполнения проекта, предписывающая пакеты работ.",
+   "attributes": [
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Версия плана."
+    },
+    {
+     "code": "approvedAt",
+     "name": "дата утверждения",
+     "type": "date",
+     "comment": "Дата утверждения версии плана."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROJ",
+     "name": "Проекты, фазы и этапы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "WorkPackage",
+   "name": "Пакет работ",
+   "comment": "Совокупность задач, выполняемая в рамках этапа по плану.",
+   "attributes": [
+    {
+     "code": "laborIntensity",
+     "name": "трудоёмкость",
+     "type": "number",
+     "comment": "Трудоёмкость в человеко-часах."
+    },
+    {
+     "code": "plannedStart",
+     "name": "плановое начало",
+     "type": "date",
+     "comment": "Плановая дата начала работ."
+    },
+    {
+     "code": "plannedEnd",
+     "name": "плановое окончание",
+     "type": "date",
+     "comment": "Плановая дата окончания работ."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROJ",
+     "name": "Проекты, фазы и этапы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Task",
+   "name": "Задача",
+   "comment": "Элементарная работа в составе пакета работ, за которую отвечает роль.",
+   "attributes": [
+    {
+     "code": "title",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Наименование задачи."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Не начата, в работе, выполнена."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROJ",
+     "name": "Проекты, фазы и этапы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "WorkSchedule",
+   "name": "Календарный план",
+   "comment": "Базовый календарный план проекта, относительно которого определяются просрочки.",
+   "attributes": [
+    {
+     "code": "baselineDate",
+     "name": "дата базовой версии",
+     "type": "date",
+     "comment": "Дата фиксации базовой версии плана."
+    },
+    {
+     "code": "version",
+     "name": "версия",
+     "type": "string",
+     "comment": "Версия календарного плана."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROJ",
+     "name": "Проекты, фазы и этапы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Funding",
+   "name": "Финансирование",
+   "comment": "Источник и объём финансирования проекта или этапа.",
+   "attributes": [
+    {
+     "code": "amount",
+     "name": "сумма, млн ₽",
+     "type": "number",
+     "comment": "Объём финансирования в млн ₽."
+    },
+    {
+     "code": "source",
+     "name": "источник",
+     "type": "string",
+     "comment": "Бюджет, субсидия, собственные средства."
+    },
+    {
+     "code": "year",
+     "name": "год",
+     "type": "string",
+     "comment": "Год финансирования."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROJ",
+     "name": "Проекты, фазы и этапы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "PaymentObligation",
+   "name": "Обязательство по оплате",
+   "comment": "Обязательство заказчика оплатить этап после его приёмки.",
+   "attributes": [
+    {
+     "code": "amount",
+     "name": "сумма, млн ₽",
+     "type": "number",
+     "comment": "Сумма оплаты в млн ₽."
+    },
+    {
+     "code": "dueDate",
+     "name": "срок оплаты",
+     "type": "date",
+     "comment": "Плановая дата оплаты."
+    },
+    {
+     "code": "paid",
+     "name": "оплачено",
+     "type": "boolean",
+     "comment": "Произведена ли оплата."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "PROJ",
+     "name": "Проекты, фазы и этапы"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Person",
+   "name": "Физическое лицо",
+   "comment": "Работник, участвующий в проекте в одной или нескольких ролях.",
+   "attributes": [
+    {
+     "code": "fullName",
+     "name": "ФИО",
+     "type": "string",
+     "comment": "Полное имя работника."
+    },
+    {
+     "code": "birthYear",
+     "name": "год рождения",
+     "type": "string",
+     "comment": "Год рождения для анализа возрастной структуры."
+    },
+    {
+     "code": "qualification",
+     "name": "квалификация",
+     "type": "string",
+     "comment": "Учёная степень, категория, допуски."
+    },
+    {
+     "code": "position",
+     "name": "должность",
+     "type": "string",
+     "comment": "Занимаемая должность."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ROLE",
+     "name": "Роли и участники"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Organization",
+   "name": "Организация",
+   "comment": "Юридическое лицо, участвующее в контракте или проекте.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Полное наименование организации."
+    },
+    {
+     "code": "inn",
+     "name": "ИНН",
+     "type": "string",
+     "comment": "Идентификационный номер налогоплательщика."
+    },
+    {
+     "code": "kind",
+     "name": "вид",
+     "type": "string",
+     "comment": "Институт, АО, ООО, вуз."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ROLE",
+     "name": "Роли и участники"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ProjectRole",
+   "name": "Роль в проекте",
+   "comment": "Роль, которую лицо или организация исполняет в проекте: руководитель проекта, научный руководитель, главный конструктор, соисполнитель, субподрядчик, член приёмочной комиссии, правообладатель; имеет период реализации.",
+   "attributes": [
+    {
+     "code": "roleName",
+     "name": "название роли",
+     "type": "string",
+     "comment": "Название роли в проекте."
+    },
+    {
+     "code": "roleType",
+     "name": "тип роли",
+     "type": "string",
+     "comment": "Руководитель проекта, научный руководитель, главный конструктор, соисполнитель, субподрядчик, член приёмочной комиссии, правообладатель."
+    },
+    {
+     "code": "periodStart",
+     "name": "начало",
+     "type": "date",
+     "comment": "Дата начала исполнения роли. Атрибут добавлен по вопросу 20."
+    },
+    {
+     "code": "periodEnd",
+     "name": "окончание",
+     "type": "date",
+     "comment": "Дата окончания исполнения роли."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ROLE",
+     "name": "Роли и участники"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "PersonnelRecord",
+   "name": "Кадровая запись",
+   "comment": "Запись о возрасте, квалификации и стаже участника для анализа кадрового состава.",
+   "attributes": [
+    {
+     "code": "age",
+     "name": "возраст",
+     "type": "number",
+     "comment": "Возраст на дату оценки."
+    },
+    {
+     "code": "qualificationLevel",
+     "name": "уровень квалификации",
+     "type": "string",
+     "comment": "Кандидат наук, доктор наук, инженер, техник."
+    },
+    {
+     "code": "hiredAt",
+     "name": "дата приёма",
+     "type": "date",
+     "comment": "Дата приёма на работу."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "ROLE",
+     "name": "Роли и участники"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SourceMaterial",
+   "name": "Исходный материал",
+   "comment": "Вещественный вход этапа: сырьё, материал, комплектующее.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Наименование материала."
+    },
+    {
+     "code": "quantity",
+     "name": "количество",
+     "type": "number",
+     "comment": "Количество материала."
+    },
+    {
+     "code": "unit",
+     "name": "единица измерения",
+     "type": "string",
+     "comment": "Килограммы, штуки, метры."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "INPUT",
+     "name": "Исходные материалы и информация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "SourceInformation",
+   "name": "Исходная информация",
+   "comment": "Информационный вход этапа: данные, документы, предшествующие расчёты.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Наименование набора данных или документа."
+    },
+    {
+     "code": "format",
+     "name": "формат",
+     "type": "string",
+     "comment": "Формат представления информации."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "INPUT",
+     "name": "Исходные материалы и информация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "PriorResult",
+   "name": "Задел",
+   "comment": "Результат предшествующей работы или документ, использованный как задел проекта.",
+   "attributes": [
+    {
+     "code": "title",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Наименование задела."
+    },
+    {
+     "code": "year",
+     "name": "год",
+     "type": "string",
+     "comment": "Год получения задела."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "INPUT",
+     "name": "Исходные материалы и информация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "NormativeDocument",
+   "name": "Нормативный документ",
+   "comment": "Стандарт, ГОСТ или иной нормативный документ, применяемый на этапе.",
+   "attributes": [
+    {
+     "code": "designation",
+     "name": "обозначение",
+     "type": "string",
+     "comment": "Обозначение документа, например ГОСТ 15.101-2022."
+    },
+    {
+     "code": "title",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Наименование документа."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "INPUT",
+     "name": "Исходные материалы и информация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Equipment",
+   "name": "Оборудование",
+   "comment": "Прибор, стенд или установка, используемые при выполнении работ или эксперимента.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Наименование оборудования."
+    },
+    {
+     "code": "inventoryNumber",
+     "name": "инвентарный номер",
+     "type": "string",
+     "comment": "Учётный номер оборудования."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "INPUT",
+     "name": "Исходные материалы и информация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "LaboratorySite",
+   "name": "Лаборатория",
+   "comment": "Площадка, на которой проводится эксперимент.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Наименование лаборатории."
+    },
+    {
+     "code": "address",
+     "name": "адрес",
+     "type": "string",
+     "comment": "Адрес площадки."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "INPUT",
+     "name": "Исходные материалы и информация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Specimen",
+   "name": "Образец",
+   "comment": "Физический образец, использованный в испытании или эксперименте.",
+   "attributes": [
+    {
+     "code": "batchNumber",
+     "name": "номер партии",
+     "type": "string",
+     "comment": "Номер партии образца."
+    },
+    {
+     "code": "quantity",
+     "name": "количество",
+     "type": "number",
+     "comment": "Количество образцов."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "INPUT",
+     "name": "Исходные материалы и информация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TestObjectRole",
+   "name": "Роль образца в испытании",
+   "comment": "Роль, которую образец выполняет в испытании: объект испытания, контрольный образец, образец сравнения.",
+   "attributes": [
+    {
+     "code": "roleType",
+     "name": "тип роли",
+     "type": "string",
+     "comment": "Объект испытания, контрольный образец, образец сравнения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "INPUT",
+     "name": "Исходные материалы и информация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "PurchasedItem",
+   "name": "Закупаемые материалы и комплектующие",
+   "comment": "Материал, комплектующее или оборудование, закупаемое для выполнения этапа НИОКТР.",
+   "attributes": [
+    {
+     "code": "category",
+     "name": "категория",
+     "type": "string",
+     "comment": "Материал, комплектующее, оборудование."
+    },
+    {
+     "code": "quantity",
+     "name": "количество",
+     "type": "number",
+     "comment": "Количество закупаемых единиц."
+    },
+    {
+     "code": "cost",
+     "name": "стоимость, тыс. ₽",
+     "type": "number",
+     "comment": "Стоимость закупки в тыс. ₽."
+    },
+    {
+     "code": "supplier",
+     "name": "поставщик",
+     "type": "string",
+     "comment": "Поставщик закупаемой позиции."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "INPUT",
+     "name": "Исходные материалы и информация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Experiment",
+   "name": "Эксперимент",
+   "comment": "Эксперимент или испытание, проводимое на площадке с использованием оборудования и образцов.",
+   "attributes": [
+    {
+     "code": "purpose",
+     "name": "цель",
+     "type": "string",
+     "comment": "Цель эксперимента."
+    },
+    {
+     "code": "date",
+     "name": "дата",
+     "type": "date",
+     "comment": "Дата проведения."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "INPUT",
+     "name": "Исходные материалы и информация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "MaterialTransformation",
+   "name": "Трансформация материалов",
+   "comment": "Процесс, в котором закупаемые материалы и комплектующие превращаются в результат этапа НИОКТР.",
+   "attributes": [
+    {
+     "code": "inputQuantity",
+     "name": "количество на входе",
+     "type": "number",
+     "comment": "Количество материала на входе процесса."
+    },
+    {
+     "code": "outputDescription",
+     "name": "описание выхода",
+     "type": "string",
+     "comment": "Что получается на выходе процесса."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "INPUT",
+     "name": "Исходные материалы и информация"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Deliverable",
+   "name": "Результат к передаче",
+   "comment": "Результат, который исполнитель обязан передать заказчику по контракту.",
+   "attributes": [
+    {
+     "code": "name",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Наименование передаваемого результата."
+    },
+    {
+     "code": "dueDate",
+     "name": "срок передачи",
+     "type": "date",
+     "comment": "Плановый срок передачи."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Не передан, передан, принят."
+    },
+    {
+     "code": "axiologicalStatus",
+     "name": "аксиологический статус",
+     "type": "string",
+     "comment": "Ценность, нейтрально, антиценность."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RESULT",
+     "name": "Результаты, отчётность и приёмка"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ResearchResult",
+   "name": "Научно-технический результат",
+   "comment": "Результат НИР или ОКР: отчёт, макет, опытный образец, программное изделие, РИД.",
+   "attributes": [
+    {
+     "code": "title",
+     "name": "наименование",
+     "type": "string",
+     "comment": "Наименование результата."
+    },
+    {
+     "code": "resultType",
+     "name": "вид результата",
+     "type": "string",
+     "comment": "Отчёт, макет, опытный образец, программное изделие, РИД. Атрибут добавлен по дополнительному вопросу 10."
+    },
+    {
+     "code": "axiologicalStatus",
+     "name": "аксиологический статус",
+     "type": "string",
+     "comment": "Ценность, нейтрально, антиценность."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RESULT",
+     "name": "Результаты, отчётность и приёмка"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Report",
+   "name": "Отчёт",
+   "comment": "Отчётный документ по этапу или проекту.",
+   "attributes": [
+    {
+     "code": "reportType",
+     "name": "вид отчёта",
+     "type": "string",
+     "comment": "Промежуточный, итоговый, протокол испытаний."
+    },
+    {
+     "code": "period",
+     "name": "отчётный период",
+     "type": "string",
+     "comment": "Период, за который составлен отчёт."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RESULT",
+     "name": "Результаты, отчётность и приёмка"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Acceptance",
+   "name": "Приёмка",
+   "comment": "Процесс приёмки отчёта или результата этапа.",
+   "attributes": [
+    {
+     "code": "date",
+     "name": "дата",
+     "type": "date",
+     "comment": "Дата приёмки."
+    },
+    {
+     "code": "decision",
+     "name": "решение",
+     "type": "string",
+     "comment": "Принято, принято с замечаниями, не принято."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RESULT",
+     "name": "Результаты, отчётность и приёмка"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ActOfAcceptance",
+   "name": "Акт приёмки",
+   "comment": "Документ, фиксирующий результат приёмки.",
+   "attributes": [
+    {
+     "code": "number",
+     "name": "номер",
+     "type": "string",
+     "comment": "Номер акта."
+    },
+    {
+     "code": "signedAt",
+     "name": "дата подписания",
+     "type": "date",
+     "comment": "Дата подписания акта."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RESULT",
+     "name": "Результаты, отчётность и приёмка"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ExpertReview",
+   "name": "Экспертиза",
+   "comment": "Экспертиза материалов этапа или результатов работ.",
+   "attributes": [
+    {
+     "code": "date",
+     "name": "дата",
+     "type": "date",
+     "comment": "Дата проведения экспертизы."
+    },
+    {
+     "code": "commission",
+     "name": "комиссия",
+     "type": "string",
+     "comment": "Состав или наименование экспертной комиссии."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RESULT",
+     "name": "Результаты, отчётность и приёмка"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ExpertOpinion",
+   "name": "Замечание экспертизы",
+   "comment": "Замечание, выявленное экспертизой, и статус его устранения.",
+   "attributes": [
+    {
+     "code": "text",
+     "name": "текст замечания",
+     "type": "string",
+     "comment": "Содержание замечания."
+    },
+    {
+     "code": "resolved",
+     "name": "устранено",
+     "type": "boolean",
+     "comment": "Устранено ли замечание."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RESULT",
+     "name": "Результаты, отчётность и приёмка"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "TechnologyReadinessLevel",
+   "name": "Уровень готовности технологии",
+   "comment": "УГТ по шкале 1–9, присвоенный результату на дату оценки.",
+   "attributes": [
+    {
+     "code": "level",
+     "name": "уровень",
+     "type": "number",
+     "comment": "Уровень готовности технологии от 1 до 9."
+    },
+    {
+     "code": "assessedAt",
+     "name": "дата оценки",
+     "type": "date",
+     "comment": "Дата присвоения уровня."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RESULT",
+     "name": "Результаты, отчётность и приёмка"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Patent",
+   "name": "Патент",
+   "comment": "Патент, охраняющий результат интеллектуальной деятельности.",
+   "attributes": [
+    {
+     "code": "number",
+     "name": "номер",
+     "type": "string",
+     "comment": "Номер патента."
+    },
+    {
+     "code": "validUntil",
+     "name": "действует до",
+     "type": "date",
+     "comment": "Дата окончания действия патента."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RESULT",
+     "name": "Результаты, отчётность и приёмка"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "PatentResearch",
+   "name": "Патентное исследование",
+   "comment": "Патентное исследование этапа НИОКР: обзор уровня техники, экспертиза патентоспособности, патентный ландшафт.",
+   "attributes": [
+    {
+     "code": "kind",
+     "name": "вид исследования",
+     "type": "string",
+     "comment": "Обзор, экспертиза патентоспособности, патентный ландшафт. Атрибут добавлен по дополнительному вопросу 9."
+    },
+    {
+     "code": "date",
+     "name": "дата",
+     "type": "date",
+     "comment": "Дата выполнения исследования."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RESULT",
+     "name": "Результаты, отчётность и приёмка"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "IntellectualPropertyRight",
+   "name": "Право на результат",
+   "comment": "Исключительное или иное право на результат интеллектуальной деятельности.",
+   "attributes": [
+    {
+     "code": "kind",
+     "name": "вид права",
+     "type": "string",
+     "comment": "Патент, полезная модель, ноу-хау, программное изделие."
+    },
+    {
+     "code": "registeredAt",
+     "name": "дата регистрации",
+     "type": "date",
+     "comment": "Дата государственной регистрации."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RESULT",
+     "name": "Результаты, отчётность и приёмка"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ConfidentialityObligation",
+   "name": "Обязательство конфиденциальности",
+   "comment": "Обязательство ограничить доступ к документу или результату.",
+   "attributes": [
+    {
+     "code": "level",
+     "name": "уровень",
+     "type": "string",
+     "comment": "ДСП, коммерческая тайна, конфиденциально."
+    },
+    {
+     "code": "basis",
+     "name": "основание",
+     "type": "string",
+     "comment": "Основание установления режима."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RESULT",
+     "name": "Результаты, отчётность и приёмка"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "DeliveryObligation",
+   "name": "Обязательство по передаче",
+   "comment": "Обязательство исполнителя передать заказчику конкретный результат.",
+   "attributes": [
+    {
+     "code": "dueDate",
+     "name": "срок передачи",
+     "type": "date",
+     "comment": "Плановый срок передачи результата."
+    },
+    {
+     "code": "status",
+     "name": "статус",
+     "type": "string",
+     "comment": "Не передано, передано, принято."
+    },
+    {
+     "code": "deonticStatus",
+     "name": "деонтический статус",
+     "type": "string",
+     "comment": "Обязательно, разрешено, запрещено."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "RESULT",
+     "name": "Результаты, отчётность и приёмка"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Deviation",
+   "name": "Отклонение",
+   "comment": "Зафиксированное отклонение от плана по сроку, стоимости или составу работ.",
+   "attributes": [
+    {
+     "code": "kind",
+     "name": "вид",
+     "type": "string",
+     "comment": "Срок, стоимость, состав работ."
+    },
+    {
+     "code": "days",
+     "name": "длительность, дней",
+     "type": "number",
+     "comment": "Величина отклонения в днях."
+    },
+    {
+     "code": "detectedAt",
+     "name": "дата выявления",
+     "type": "date",
+     "comment": "Дата выявления отклонения."
+    },
+    {
+     "code": "axiologicalStatus",
+     "name": "аксиологический статус",
+     "type": "string",
+     "comment": "Ценность, нейтрально, антиценность."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CONTROL",
+     "name": "Контроль и аналитика"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Risk",
+   "name": "Риск",
+   "comment": "Возможное неблагоприятное событие, угрожающее срокам, стоимости или результату проекта.",
+   "attributes": [
+    {
+     "code": "severity",
+     "name": "серьёзность",
+     "type": "string",
+     "comment": "Низкая, средняя, высокая."
+    },
+    {
+     "code": "likelihood",
+     "name": "вероятность",
+     "type": "string",
+     "comment": "Низкая, средняя, высокая."
+    },
+    {
+     "code": "alethicStatus",
+     "name": "алетический статус",
+     "type": "string",
+     "comment": "Необходимо, возможно, невозможно, случайно."
+    },
+    {
+     "code": "epistemicStatus",
+     "name": "эпистемический статус",
+     "type": "string",
+     "comment": "Знание, убеждение, предположение, неизвестно."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CONTROL",
+     "name": "Контроль и аналитика"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Control",
+   "name": "Мера реагирования",
+   "comment": "Организационная или техническая мера, снижающая риск проекта.",
+   "attributes": [
+    {
+     "code": "type",
+     "name": "тип меры",
+     "type": "string",
+     "comment": "Организационная или техническая."
+    },
+    {
+     "code": "axiologicalStatus",
+     "name": "аксиологический статус",
+     "type": "string",
+     "comment": "Ценность, нейтрально, антиценность."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "CONTROL",
+     "name": "Контроль и аналитика"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "FinancialStatement",
+   "name": "Финансовый отчёт",
+   "comment": "Фрагмент финансовой модели проекта: бюджет доходов и расходов (БДР), отчёт о движении денежных средств (ДДС) или баланс.",
+   "attributes": [
+    {
+     "code": "reportType",
+     "name": "вид отчёта",
+     "type": "string",
+     "comment": "БДР, ДДС, баланс."
+    },
+    {
+     "code": "period",
+     "name": "период",
+     "type": "string",
+     "comment": "Отчётный период или отчётная дата."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "FIN",
+     "name": "Финансовая модель и учёт НИОКР"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "FinancialLine",
+   "name": "Строка отчёта",
+   "comment": "Строка БДР, ДДС или баланса с суммой за период.",
+   "attributes": [
+    {
+     "code": "lineName",
+     "name": "наименование строки",
+     "type": "string",
+     "comment": "Название строки отчёта."
+    },
+    {
+     "code": "amount",
+     "name": "сумма, млн ₽",
+     "type": "number",
+     "comment": "Сумма строки в млн ₽."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "FIN",
+     "name": "Финансовая модель и учёт НИОКР"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "Account",
+   "name": "Счёт бухгалтерского учёта",
+   "comment": "Счёт, на котором отражаются затраты, выручка, деньги и расчёты по НИР и ОКР.",
+   "attributes": [
+    {
+     "code": "number",
+     "name": "номер счёта",
+     "type": "string",
+     "comment": "Номер счёта, например 20 или 08.08."
+    },
+    {
+     "code": "kind",
+     "name": "вид счёта",
+     "type": "string",
+     "comment": "Активный, пассивный, активно-пассивный."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "FIN",
+     "name": "Финансовая модель и учёт НИОКР"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "AccountingEntry",
+   "name": "Бухгалтерская запись",
+   "comment": "Запись по дебету и кредиту счетов, отражающая операцию по НИР или ОКР.",
+   "attributes": [
+    {
+     "code": "date",
+     "name": "дата",
+     "type": "date",
+     "comment": "Дата записи."
+    },
+    {
+     "code": "description",
+     "name": "содержание",
+     "type": "string",
+     "comment": "Содержание хозяйственной операции."
+    },
+    {
+     "code": "amount",
+     "name": "сумма, млн ₽",
+     "type": "number",
+     "comment": "Сумма записи в млн ₽."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "FIN",
+     "name": "Финансовая модель и учёт НИОКР"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "BusinessTransaction",
+   "name": "Хозяйственная операция",
+   "comment": "Операция проекта, которая отражается бухгалтерскими записями и попадает в отчётность.",
+   "attributes": [
+    {
+     "code": "date",
+     "name": "дата",
+     "type": "date",
+     "comment": "Дата операции."
+    },
+    {
+     "code": "description",
+     "name": "описание",
+     "type": "string",
+     "comment": "Что произошло."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "FIN",
+     "name": "Финансовая модель и учёт НИОКР"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "ModalStatement",
+   "name": "Модальное утверждение",
+   "comment": "Утверждение о проекте, оценённое в одной из пяти модальных логик: алетической, деонтической, эпистемической, темпоральной или аксиологической.",
+   "attributes": [
+    {
+     "code": "modalType",
+     "name": "тип модальности",
+     "type": "string",
+     "comment": "Алетическая, деонтическая, эпистемическая, темпоральная, аксиологическая."
+    },
+    {
+     "code": "operator",
+     "name": "модальный оператор",
+     "type": "string",
+     "comment": "□, ◇, O, P, F, K, B, G, H, N, V+, V−."
+    },
+    {
+     "code": "content",
+     "name": "содержание утверждения",
+     "type": "string",
+     "comment": "Текст модального утверждения."
+    },
+    {
+     "code": "alethicStatus",
+     "name": "алетический статус",
+     "type": "string",
+     "comment": "Необходимо, возможно, невозможно, случайно."
+    },
+    {
+     "code": "deonticStatus",
+     "name": "деонтический статус",
+     "type": "string",
+     "comment": "Обязательно, разрешено, запрещено, факультативно, конфликт."
+    },
+    {
+     "code": "epistemicStatus",
+     "name": "эпистемический статус",
+     "type": "string",
+     "comment": "Знание, убеждение, предположение, неизвестно."
+    },
+    {
+     "code": "temporalStatus",
+     "name": "темпоральный статус",
+     "type": "string",
+     "comment": "Прошлое, настоящее, будущее, всегда, иногда."
+    },
+    {
+     "code": "axiologicalStatus",
+     "name": "аксиологический статус",
+     "type": "string",
+     "comment": "Ценность, нейтрально, антиценность."
+    },
+    {
+     "code": "confidence",
+     "name": "уверенность, %",
+     "type": "number",
+     "comment": "Уверенность в истинности утверждения, %."
+    },
+    {
+     "code": "justification",
+     "name": "обоснование",
+     "type": "string",
+     "comment": "Основание или источник модальной оценки."
+    },
+    {
+     "code": "evaluatedAt",
+     "name": "дата оценки",
+     "type": "date",
+     "comment": "Дата, на которую оценён модальный статус."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальная логика"
+    }
+   ],
+   "subclasses": []
+  },
+  {
+   "code": "PossibleWorld",
+   "name": "Возможный мир",
+   "comment": "Состояние проекта, относительно которого оценивается истинность модальных утверждений; фактический мир и его альтернативы.",
+   "attributes": [
+    {
+     "code": "worldId",
+     "name": "идентификатор мира",
+     "type": "string",
+     "comment": "W0, W1, W2, W3."
+    },
+    {
+     "code": "worldDescription",
+     "name": "описание мира",
+     "type": "string",
+     "comment": "Что характеризует это состояние проекта."
+    },
+    {
+     "code": "isActual",
+     "name": "фактический мир",
+     "type": "boolean",
+     "comment": "Является ли мир фактическим."
+    }
+   ],
+   "subjectAreas": [
+    {
+     "code": "MODAL",
+     "name": "Модальная логика"
+    }
+   ],
+   "subclasses": []
+  }
+ ],
+ "relations": [
+  {
+   "code": "hasParty",
+   "name": "имеет сторону",
+   "comment": "Контракт имеет роль стороны.",
+   "fromClass": "Contract",
+   "toClass": "PartyRole"
+  },
+  {
+   "code": "partyRoleOf",
+   "name": "роль принадлежит стороне",
+   "comment": "Роль стороны принадлежит организации.",
+   "fromClass": "PartyRole",
+   "toClass": "Organization"
+  },
+  {
+   "code": "hasAppendix",
+   "name": "имеет приложение",
+   "comment": "В состав контракта входит приложение.",
+   "fromClass": "Contract",
+   "toClass": "Appendix"
+  },
+  {
+   "code": "specifiesObligation",
+   "name": "устанавливает обязательство",
+   "comment": "Контракт устанавливает обязательство.",
+   "fromClass": "Contract",
+   "toClass": "ContractualObligation"
+  },
+  {
+   "code": "obligationSide",
+   "name": "сторона обязательства",
+   "comment": "Сторона, на которую возложено обязательство.",
+   "fromClass": "ContractualObligation",
+   "toClass": "PartyRole"
+  },
+  {
+   "code": "realizes",
+   "name": "реализует обязательство",
+   "comment": "Процесс исполнения реализует обязательство.",
+   "fromClass": "ContractExecution",
+   "toClass": "ContractualObligation"
+  },
+  {
+   "code": "amends",
+   "name": "изменяет контракт",
+   "comment": "Дополнительное соглашение изменяет контракт.",
+   "fromClass": "SupplementaryAgreement",
+   "toClass": "Contract"
+  },
+  {
+   "code": "hasContractTerm",
+   "name": "имеет срок действия",
+   "comment": "Контракт действует в течение срока.",
+   "fromClass": "Contract",
+   "toClass": "ContractTerm"
+  },
+  {
+   "code": "subcontractOf",
+   "name": "является субконтрактом",
+   "comment": "Субконтракт заключён во исполнение головного контракта.",
+   "fromClass": "Subcontract",
+   "toClass": "Contract"
+  },
+  {
+   "code": "governs",
+   "name": "регулирует проект",
+   "comment": "Контракт регулирует выполнение проекта.",
+   "fromClass": "Contract",
+   "toClass": "RDProject"
+  },
+  {
+   "code": "hasCostItem",
+   "name": "имеет статью затрат",
+   "comment": "Структура цены контракта включает статью затрат.",
+   "fromClass": "Contract",
+   "toClass": "CostItem"
+  },
+  {
+   "code": "costItemOfStage",
+   "name": "затраты по этапу",
+   "comment": "Статья затрат относится к этапу.",
+   "fromClass": "CostItem",
+   "toClass": "Stage"
+  },
+  {
+   "code": "regulatedByRequirementGroup",
+   "name": "регулируется группой требований",
+   "comment": "На контракт распространяется группа общих требований.",
+   "fromClass": "Contract",
+   "toClass": "ContractRequirementGroup"
+  },
+  {
+   "code": "legalRequirementOnContract",
+   "name": "требование распространяется на контракт",
+   "comment": "Требование законодательства действует в отношении контракта.",
+   "fromClass": "LegalRequirement",
+   "toClass": "Contract"
+  },
+  {
+   "code": "claimOnContract",
+   "name": "претензия по контракту",
+   "comment": "Претензионная работа ведётся по контракту.",
+   "fromClass": "ClaimWork",
+   "toClass": "Contract"
+  },
+  {
+   "code": "claimBasis",
+   "name": "основание претензии",
+   "comment": "Претензия основана на нарушении условий контракта.",
+   "fromClass": "ClaimWork",
+   "toClass": "ContractBreach"
+  },
+  {
+   "code": "breachOfContract",
+   "name": "нарушение по контракту",
+   "comment": "Нарушение относится к контракту.",
+   "fromClass": "ContractBreach",
+   "toClass": "Contract"
+  },
+  {
+   "code": "hasStage",
+   "name": "имеет этап",
+   "comment": "Проект состоит из этапов.",
+   "fromClass": "RDProject",
+   "toClass": "Stage"
+  },
+  {
+   "code": "stagePrecedes",
+   "name": "предшествует",
+   "comment": "Этап предшествует другому этапу.",
+   "fromClass": "Stage",
+   "toClass": "Stage"
+  },
+  {
+   "code": "hasLifecyclePhase",
+   "name": "находится в фазе",
+   "comment": "Проект находится в фазе жизненного цикла.",
+   "fromClass": "RDProject",
+   "toClass": "LifecyclePhase"
+  },
+  {
+   "code": "hasOccurrentPart",
+   "name": "включает подпроект",
+   "comment": "Комплексный проект включает подпроект НИР или ОКР.",
+   "fromClass": "CombinedRDProject",
+   "toClass": "RDProject"
+  },
+  {
+   "code": "hasMilestone",
+   "name": "имеет веху",
+   "comment": "У проекта есть веха.",
+   "fromClass": "RDProject",
+   "toClass": "Milestone"
+  },
+  {
+   "code": "milestoneOfStage",
+   "name": "веха этапа",
+   "comment": "Веха относится к этапу.",
+   "fromClass": "Milestone",
+   "toClass": "Stage"
+  },
+  {
+   "code": "followsPlan",
+   "name": "следует плану",
+   "comment": "Проект выполняется по версии плана.",
+   "fromClass": "RDProject",
+   "toClass": "ProjectPlan"
+  },
+  {
+   "code": "planPrescribesWorkPackage",
+   "name": "план предписывает пакет работ",
+   "comment": "План предписывает выполнение пакета работ.",
+   "fromClass": "ProjectPlan",
+   "toClass": "WorkPackage"
+  },
+  {
+   "code": "hasWorkPackage",
+   "name": "имеет пакет работ",
+   "comment": "Этап включает пакет работ.",
+   "fromClass": "Stage",
+   "toClass": "WorkPackage"
+  },
+  {
+   "code": "hasTask",
+   "name": "имеет задачу",
+   "comment": "Пакет работ включает задачу.",
+   "fromClass": "WorkPackage",
+   "toClass": "Task"
+  },
+  {
+   "code": "taskResponsibleRole",
+   "name": "ответственная роль",
+   "comment": "За задачу отвечает роль в проекте.",
+   "fromClass": "Task",
+   "toClass": "ProjectRole"
+  },
+  {
+   "code": "hasWorkSchedule",
+   "name": "имеет календарный план",
+   "comment": "У проекта есть календарный план.",
+   "fromClass": "RDProject",
+   "toClass": "WorkSchedule"
+  },
+  {
+   "code": "scheduleCoversStage",
+   "name": "план охватывает этап",
+   "comment": "Календарный план охватывает этап.",
+   "fromClass": "WorkSchedule",
+   "toClass": "Stage"
+  },
+  {
+   "code": "fundedBy",
+   "name": "финансируется из",
+   "comment": "Проект финансируется из источника.",
+   "fromClass": "RDProject",
+   "toClass": "Funding"
+  },
+  {
+   "code": "paymentForStage",
+   "name": "оплата этапа",
+   "comment": "Обязательство по оплате относится к этапу.",
+   "fromClass": "PaymentObligation",
+   "toClass": "Stage"
+  },
+  {
+   "code": "hasRole",
+   "name": "исполняет роль",
+   "comment": "Лицо исполняет роль в проекте.",
+   "fromClass": "Person",
+   "toClass": "ProjectRole"
+  },
+  {
+   "code": "organizationPlaysRole",
+   "name": "исполняет роль организации",
+   "comment": "Организация исполняет роль в проекте.",
+   "fromClass": "Organization",
+   "toClass": "ProjectRole"
+  },
+  {
+   "code": "roleRealizedIn",
+   "name": "реализуется в проекте",
+   "comment": "Роль реализуется в конкретном проекте.",
+   "fromClass": "ProjectRole",
+   "toClass": "RDProject"
+  },
+  {
+   "code": "roleInOrganization",
+   "name": "роль в организации",
+   "comment": "Роль исполняется в организации.",
+   "fromClass": "ProjectRole",
+   "toClass": "Organization"
+  },
+  {
+   "code": "personnelRecordOf",
+   "name": "кадровая запись",
+   "comment": "Кадровая запись относится к лицу.",
+   "fromClass": "PersonnelRecord",
+   "toClass": "Person"
+  },
+  {
+   "code": "usesMaterial",
+   "name": "использует материал",
+   "comment": "Этап использует исходный материал.",
+   "fromClass": "Stage",
+   "toClass": "SourceMaterial"
+  },
+  {
+   "code": "usesInformation",
+   "name": "использует информацию",
+   "comment": "Этап использует исходную информацию.",
+   "fromClass": "Stage",
+   "toClass": "SourceInformation"
+  },
+  {
+   "code": "priorResultFor",
+   "name": "задел для проекта",
+   "comment": "Предшествующий результат служит заделом проекта.",
+   "fromClass": "PriorResult",
+   "toClass": "RDProject"
+  },
+  {
+   "code": "appliesNorm",
+   "name": "применяет нормативный документ",
+   "comment": "Этап применяет нормативный документ.",
+   "fromClass": "Stage",
+   "toClass": "NormativeDocument"
+  },
+  {
+   "code": "usesEquipment",
+   "name": "использует оборудование",
+   "comment": "Этап использует оборудование.",
+   "fromClass": "Stage",
+   "toClass": "Equipment"
+  },
+  {
+   "code": "experimentAt",
+   "name": "проводится в лаборатории",
+   "comment": "Эксперимент проводится на площадке.",
+   "fromClass": "Experiment",
+   "toClass": "LaboratorySite"
+  },
+  {
+   "code": "experimentUsesEquipment",
+   "name": "использует оборудование эксперимента",
+   "comment": "Эксперимент использует оборудование.",
+   "fromClass": "Experiment",
+   "toClass": "Equipment"
+  },
+  {
+   "code": "experimentUsesSpecimen",
+   "name": "использует образец",
+   "comment": "Эксперимент использует образец.",
+   "fromClass": "Experiment",
+   "toClass": "Specimen"
+  },
+  {
+   "code": "specimenHasRole",
+   "name": "роль образца",
+   "comment": "Образец выполняет роль в испытании.",
+   "fromClass": "Specimen",
+   "toClass": "TestObjectRole"
+  },
+  {
+   "code": "experimentOnStage",
+   "name": "эксперимент на этапе",
+   "comment": "Эксперимент выполняется в рамках этапа.",
+   "fromClass": "Experiment",
+   "toClass": "Stage"
+  },
+  {
+   "code": "hasPurchasedItem",
+   "name": "имеет закупку",
+   "comment": "Для этапа закупается материал или комплектующее.",
+   "fromClass": "Stage",
+   "toClass": "PurchasedItem"
+  },
+  {
+   "code": "transformationInput",
+   "name": "потребляет",
+   "comment": "Трансформация потребляет закупаемую позицию.",
+   "fromClass": "MaterialTransformation",
+   "toClass": "PurchasedItem"
+  },
+  {
+   "code": "transformationOutput",
+   "name": "производит результат",
+   "comment": "Трансформация производит научно-технический результат.",
+   "fromClass": "MaterialTransformation",
+   "toClass": "ResearchResult"
+  },
+  {
+   "code": "transformationAtStage",
+   "name": "выполняется на этапе",
+   "comment": "Трансформация выполняется в рамках этапа.",
+   "fromClass": "MaterialTransformation",
+   "toClass": "Stage"
+  },
+  {
+   "code": "producesDeliverable",
+   "name": "производит результат к передаче",
+   "comment": "Этап производит передаваемый результат.",
+   "fromClass": "Stage",
+   "toClass": "Deliverable"
+  },
+  {
+   "code": "deliverableIsResult",
+   "name": "передаваемый результат",
+   "comment": "Передаваемый результат является научно-техническим результатом.",
+   "fromClass": "Deliverable",
+   "toClass": "ResearchResult"
+  },
+  {
+   "code": "deliveryObligationFor",
+   "name": "обязательство по передаче",
+   "comment": "Обязательство по передаче относится к результату.",
+   "fromClass": "DeliveryObligation",
+   "toClass": "Deliverable"
+  },
+  {
+   "code": "deliveryUnderContract",
+   "name": "передача по контракту",
+   "comment": "Обязательство по передаче действует по контракту.",
+   "fromClass": "DeliveryObligation",
+   "toClass": "Contract"
+  },
+  {
+   "code": "resultDerivedFrom",
+   "name": "получен из",
+   "comment": "Результат получен из исходной информации.",
+   "fromClass": "ResearchResult",
+   "toClass": "SourceInformation"
+  },
+  {
+   "code": "reportsOn",
+   "name": "отчёт по этапу",
+   "comment": "Отчёт составлен по этапу.",
+   "fromClass": "Report",
+   "toClass": "Stage"
+  },
+  {
+   "code": "reportOfProject",
+   "name": "отчёт по проекту",
+   "comment": "Отчёт составлен по проекту.",
+   "fromClass": "Report",
+   "toClass": "RDProject"
+  },
+  {
+   "code": "acceptanceOfReport",
+   "name": "приёмка отчёта",
+   "comment": "Приёмка относится к отчёту.",
+   "fromClass": "Acceptance",
+   "toClass": "Report"
+  },
+  {
+   "code": "acceptanceAct",
+   "name": "акт приёмки",
+   "comment": "Приёмка оформлена актом.",
+   "fromClass": "Acceptance",
+   "toClass": "ActOfAcceptance"
+  },
+  {
+   "code": "reviewOnStage",
+   "name": "экспертиза этапа",
+   "comment": "Экспертиза проведена по этапу.",
+   "fromClass": "ExpertReview",
+   "toClass": "Stage"
+  },
+  {
+   "code": "reviewHasOpinion",
+   "name": "замечание экспертизы",
+   "comment": "Экспертиза содержит замечание.",
+   "fromClass": "ExpertReview",
+   "toClass": "ExpertOpinion"
+  },
+  {
+   "code": "resultHasTRL",
+   "name": "имеет уровень готовности",
+   "comment": "Результату присвоен уровень готовности технологии.",
+   "fromClass": "ResearchResult",
+   "toClass": "TechnologyReadinessLevel"
+  },
+  {
+   "code": "patentProtects",
+   "name": "охраняет результат",
+   "comment": "Патент охраняет научно-технический результат.",
+   "fromClass": "Patent",
+   "toClass": "ResearchResult"
+  },
+  {
+   "code": "patentResearchOnStage",
+   "name": "патентное исследование этапа",
+   "comment": "Патентное исследование выполнено для этапа.",
+   "fromClass": "PatentResearch",
+   "toClass": "Stage"
+  },
+  {
+   "code": "iprOnResult",
+   "name": "право на результат",
+   "comment": "Право закреплено за результатом.",
+   "fromClass": "IntellectualPropertyRight",
+   "toClass": "ResearchResult"
+  },
+  {
+   "code": "iprHeldByRole",
+   "name": "правообладатель",
+   "comment": "Право принадлежит роли правообладателя.",
+   "fromClass": "IntellectualPropertyRight",
+   "toClass": "ProjectRole"
+  },
+  {
+   "code": "reportConfidentiality",
+   "name": "гриф конфиденциальности",
+   "comment": "На отчёт распространяется обязательство конфиденциальности.",
+   "fromClass": "Report",
+   "toClass": "ConfidentialityObligation"
+  },
+  {
+   "code": "deviationOnStage",
+   "name": "отклонение на этапе",
+   "comment": "Отклонение выявлено на этапе.",
+   "fromClass": "Deviation",
+   "toClass": "Stage"
+  },
+  {
+   "code": "projectHasRisk",
+   "name": "проект имеет риск",
+   "comment": "На проект распространяется риск.",
+   "fromClass": "RDProject",
+   "toClass": "Risk"
+  },
+  {
+   "code": "controlMitigatesRisk",
+   "name": "мера снижает риск",
+   "comment": "Мера реагирования снижает риск.",
+   "fromClass": "Control",
+   "toClass": "Risk"
+  },
+  {
+   "code": "deviationRealizesRisk",
+   "name": "отклонение реализует риск",
+   "comment": "Отклонение является реализацией риска.",
+   "fromClass": "Deviation",
+   "toClass": "Risk"
+  },
+  {
+   "code": "statementOfEntity",
+   "name": "отчёт организации",
+   "comment": "Финансовый отчёт составлен по организации.",
+   "fromClass": "FinancialStatement",
+   "toClass": "Organization"
+  },
+  {
+   "code": "statementOnContract",
+   "name": "отчёт по контракту",
+   "comment": "Финансовый отчёт относится к контракту.",
+   "fromClass": "FinancialStatement",
+   "toClass": "Contract"
+  },
+  {
+   "code": "statementHasLine",
+   "name": "содержит строку",
+   "comment": "Отчёт содержит строку отчётности.",
+   "fromClass": "FinancialStatement",
+   "toClass": "FinancialLine"
+  },
+  {
+   "code": "lineOfAccount",
+   "name": "строка по счёту",
+   "comment": "Строка отчёта соответствует бухгалтерскому счёту.",
+   "fromClass": "FinancialLine",
+   "toClass": "Account"
+  },
+  {
+   "code": "entryDebit",
+   "name": "дебет записи",
+   "comment": "Счёт дебета бухгалтерской записи.",
+   "fromClass": "AccountingEntry",
+   "toClass": "Account"
+  },
+  {
+   "code": "entryCredit",
+   "name": "кредит записи",
+   "comment": "Счёт кредита бухгалтерской записи.",
+   "fromClass": "AccountingEntry",
+   "toClass": "Account"
+  },
+  {
+   "code": "entryTransaction",
+   "name": "запись отражает операцию",
+   "comment": "Запись отражает хозяйственную операцию.",
+   "fromClass": "AccountingEntry",
+   "toClass": "BusinessTransaction"
+  },
+  {
+   "code": "entryOfEntity",
+   "name": "запись организации",
+   "comment": "Запись сделана в учёте организации.",
+   "fromClass": "AccountingEntry",
+   "toClass": "Organization"
+  },
+  {
+   "code": "transactionOnStage",
+   "name": "операция на этапе",
+   "comment": "Хозяйственная операция относится к этапу.",
+   "fromClass": "BusinessTransaction",
+   "toClass": "Stage"
+  },
+  {
+   "code": "transactionUnderContract",
+   "name": "операция по контракту",
+   "comment": "Хозяйственная операция выполняется по контракту.",
+   "fromClass": "BusinessTransaction",
+   "toClass": "Contract"
+  },
+  {
+   "code": "modalAboutContract",
+   "name": "касается контракта",
+   "comment": "Модальное утверждение относится к контракту.",
+   "fromClass": "ModalStatement",
+   "toClass": "Contract"
+  },
+  {
+   "code": "modalAboutObligation",
+   "name": "касается обязательства",
+   "comment": "Модальное утверждение относится к обязательству по контракту.",
+   "fromClass": "ModalStatement",
+   "toClass": "ContractualObligation"
+  },
+  {
+   "code": "modalAboutDelivery",
+   "name": "касается обязательства по передаче",
+   "comment": "Модальное утверждение относится к обязательству по передаче результата.",
+   "fromClass": "ModalStatement",
+   "toClass": "DeliveryObligation"
+  },
+  {
+   "code": "modalAboutPayment",
+   "name": "касается обязательства по оплате",
+   "comment": "Модальное утверждение относится к обязательству по оплате.",
+   "fromClass": "ModalStatement",
+   "toClass": "PaymentObligation"
+  },
+  {
+   "code": "modalAboutConfidentiality",
+   "name": "касается конфиденциальности",
+   "comment": "Модальное утверждение относится к обязательству конфиденциальности.",
+   "fromClass": "ModalStatement",
+   "toClass": "ConfidentialityObligation"
+  },
+  {
+   "code": "modalAboutLegalRequirement",
+   "name": "касается требования законодательства",
+   "comment": "Модальное утверждение относится к требованию законодательства.",
+   "fromClass": "ModalStatement",
+   "toClass": "LegalRequirement"
+  },
+  {
+   "code": "modalAboutRisk",
+   "name": "касается риска",
+   "comment": "Модальное утверждение относится к риску.",
+   "fromClass": "ModalStatement",
+   "toClass": "Risk"
+  },
+  {
+   "code": "modalAboutDeviation",
+   "name": "касается отклонения",
+   "comment": "Модальное утверждение относится к отклонению.",
+   "fromClass": "ModalStatement",
+   "toClass": "Deviation"
+  },
+  {
+   "code": "modalAboutStage",
+   "name": "касается этапа",
+   "comment": "Модальное утверждение относится к этапу проекта.",
+   "fromClass": "ModalStatement",
+   "toClass": "Stage"
+  },
+  {
+   "code": "modalAboutResult",
+   "name": "касается результата",
+   "comment": "Модальное утверждение относится к научно-техническому результату.",
+   "fromClass": "ModalStatement",
+   "toClass": "ResearchResult"
+  },
+  {
+   "code": "modalAboutDeliverable",
+   "name": "касается результата к передаче",
+   "comment": "Модальное утверждение относится к результату, передаваемому заказчику.",
+   "fromClass": "ModalStatement",
+   "toClass": "Deliverable"
+  },
+  {
+   "code": "modalAboutControl",
+   "name": "касается меры реагирования",
+   "comment": "Модальное утверждение относится к мере реагирования.",
+   "fromClass": "ModalStatement",
+   "toClass": "Control"
+  },
+  {
+   "code": "modalAboutPatent",
+   "name": "касается патента",
+   "comment": "Модальное утверждение относится к патенту.",
+   "fromClass": "ModalStatement",
+   "toClass": "Patent"
+  },
+  {
+   "code": "modalAboutPatentResearch",
+   "name": "касается патентного исследования",
+   "comment": "Модальное утверждение относится к патентному исследованию.",
+   "fromClass": "ModalStatement",
+   "toClass": "PatentResearch"
+  },
+  {
+   "code": "modalAboutExpertOpinion",
+   "name": "касается замечания экспертизы",
+   "comment": "Модальное утверждение относится к замечанию экспертизы.",
+   "fromClass": "ModalStatement",
+   "toClass": "ExpertOpinion"
+  },
+  {
+   "code": "modalAboutAcceptance",
+   "name": "касается приёмки",
+   "comment": "Модальное утверждение относится к приёмке.",
+   "fromClass": "ModalStatement",
+   "toClass": "Acceptance"
+  },
+  {
+   "code": "modalAboutEquipment",
+   "name": "касается оборудования",
+   "comment": "Модальное утверждение относится к оборудованию.",
+   "fromClass": "ModalStatement",
+   "toClass": "Equipment"
+  },
+  {
+   "code": "modalAboutRole",
+   "name": "касается роли",
+   "comment": "Модальное утверждение относится к роли в проекте.",
+   "fromClass": "ModalStatement",
+   "toClass": "ProjectRole"
+  },
+  {
+   "code": "modalAboutFinancialStatement",
+   "name": "касается финансового отчёта",
+   "comment": "Модальное утверждение относится к финансовому отчёту.",
+   "fromClass": "ModalStatement",
+   "toClass": "FinancialStatement"
+  },
+  {
+   "code": "modalHoldsIn",
+   "name": "действует в мире",
+   "comment": "Модальное утверждение истинно в возможном мире.",
+   "fromClass": "ModalStatement",
+   "toClass": "PossibleWorld"
+  },
+  {
+   "code": "modalConflictsWith",
+   "name": "конфликтует с утверждением",
+   "comment": "Модальное утверждение находится в конфликте с другим модальным утверждением.",
+   "fromClass": "ModalStatement",
+   "toClass": "ModalStatement"
+  },
+  {
+   "code": "modalDerivedFrom",
+   "name": "обосновано нормативным документом",
+   "comment": "Модальное утверждение опирается на нормативный документ.",
+   "fromClass": "ModalStatement",
+   "toClass": "NormativeDocument"
+  },
+  {
+   "code": "worldAccessibleFrom",
+   "name": "мир достижим из мира",
+   "comment": "Возможный мир достижим из другого мира по отношению доступности.",
+   "fromClass": "PossibleWorld",
+   "toClass": "PossibleWorld"
+  }
+ ],
+ "info": {
+  "description": "Онтология описывает полный контур управления НИР и НИОКР: контракт и его приложения, стороны и обязательства, исполнение и дополнительные соглашения, субконтракты, структуру цены и группы контрактных требований, этапы, фазы, вехи, планы и календарные графики, роли лиц и организаций, исходные материалы, информацию, задел, нормативные документы, оборудование, лаборатории и образцы, результаты, отчётность, приёмку, экспертизу, права и конфиденциальность, а также отклонения, риски и меры реагирования. Отдельно поддержаны дополнительные вопросы: структура затрат, распределение работ между исполнителями, кадровый состав, закупки и трансформация материалов, требования законодательства (44-ФЗ/223-ФЗ, Бюджетный кодекс, ЕГИСУ НИОКТР), претензионно-исковая работа, патентные исследования и виды результатов. Набор покрывает 40 компетентностных вопросов pdf (6 модулей, ядро 1–15), 10 дополнительных вопросов и 10 модальных вопросов. Вопросы 4, 20 и 35 выявили пробелы модели: нужны статус обязательства, период реализации роли и разделение планового и фактического срока — соответствующие атрибуты добавлены; агрегация сумм и пересечений интервалов (вопросы 36 и 38) выполняется запросами SPARQL. Финансовый фрагмент показывает отражение НИР и ОКР на счетах бухгалтерского учёта: хозяйственные операции, записи по дебету и кредиту, бюджет доходов и расходов (БДР), отчёт о движении денежных средств (ДДС) и баланс исполнителя за 2026–2027 годы. Модальный слой формализует утверждения о проекте в пяти логиках: алетической (необходимо/возможно/невозможно), деонтической (обязательно/разрешено/запрещено), эпистемической (знание/убеждение/неизвестно), темпоральной (прошлое/настоящее/будущее/всегда/иногда) и аксиологической (ценность/нейтрально/антиценность); истинность утверждений оценивается относительно фактического и альтернативных возможных миров.",
+  "scope": [
+   "Контракт: стороны и роли, приложения (ТЗ, календарный план, смета), обязательства и их исполнение, дополнительные соглашения, срок действия, субконтракты",
+   "Экономика и соответствие: структура затрат (прямые, накладные, прибыль), группы контрактных требований (типовой контракт, 44-ФЗ/223-ФЗ, Бюджетный кодекс), требования законодательства, претензионно-исковая работа",
+   "Проекты: комплексные проекты НИОКР и подпроекты НИР/ОКР, этапы и их порядок, фазы жизненного цикла, вехи, планы, пакеты работ, задачи, календарные планы, финансирование и оплата этапов",
+   "Участники: физические лица и организации, роли руководителя, научного руководителя, главного конструктора, соисполнителя, субподрядчика, члена приёмочной комиссии, правообладателя; кадровые записи",
+   "Входы: исходные материалы и информация, задел, нормативные документы, оборудование, лаборатории, образцы и их роли, закупаемые материалы и трансформация материалов в результаты",
+   "Результаты и контроль: научно-технические результаты и их виды, отчёты, приёмка и акты, экспертиза и замечания, уровень готовности технологии, патенты и патентные исследования, права, конфиденциальность, отклонения, риски и меры",
+   "Финансовая модель: счета бухгалтерского учёта, хозяйственные операции и бухгалтерские записи по НИР/ОКР, бюджет доходов и расходов (БДР), отчёт о движении денежных средств (ДДС) и баланс исполнителя за 2026–2027 годы",
+   "Модальная логика: модальные утверждения с алетическим, деонтическим, эпистемическим, темпоральным и аксиологическим статусом, возможные миры и отношение достижимости, деонтические конфликты и их разрешение"
+  ],
+  "competencyQuestions": [
+   "Какие стороны участвуют в контракте и какую роль выполняет каждая?",
+   "Какие приложения (ТЗ, календарный план, смета) входят в контракт?",
+   "Какие обязательства устанавливает контракт и у какой стороны каждое?",
+   "В каком процессе исполнения реализуется данное обязательство и в каком он состоянии?",
+   "Какие дополнительные соглашения изменили контракт и что именно они изменили?",
+   "Какой срок действия у контракта и какие этапы в него укладываются?",
+   "Является ли контракт субконтрактом, и к какому головному контракту он относится?",
+   "Какие контракты регулируют данный проект?",
+   "Из каких этапов состоит проект и в каком порядке они идут?",
+   "В какой фазе жизненного цикла находится проект на заданную дату?",
+   "Какие подпроекты НИР и ОКР входят в комплексный проект НИОКР?",
+   "Какие вехи есть у проекта и какие из них достигнуты?",
+   "Какой план выполнения у проекта и какие работы он предписывает?",
+   "Какие работы и задачи входят в этап и кто за них отвечает?",
+   "Какой стоимостью и каким сроком ограничен этап?",
+   "Кто руководит проектом и кто научный руководитель или главный конструктор?",
+   "Какие роли исполняет данное лицо и в каких проектах?",
+   "Какие организации участвуют в проекте как соисполнители и субподрядчики?",
+   "Кто входит в приёмочную комиссию этапа?",
+   "Утрачивает ли человек роль после завершения проекта и остаётся ли запись о ней?",
+   "Кто является правообладателем конкретного результата?",
+   "Какие исходные материалы и данные используются на этапе?",
+   "Какой документ или предшествующая работа послужили заделом для проекта?",
+   "Какие нормативные документы и стандарты применяются на этапе?",
+   "Из какого исходного набора данных получен данный результат?",
+   "На каком оборудовании и в какой лаборатории проходит эксперимент?",
+   "Какие образцы использованы в испытании и какую роль они выполняют?",
+   "Какие результаты должен передать исполнитель по контракту?",
+   "Какой процесс произвёл данный результат?",
+   "О каком этапе или проекте составлен отчёт?",
+   "Принят ли отчёт, кем и на основании какого акта?",
+   "Какие замечания экспертизы были по этапу и как они устранены?",
+   "Какой уровень готовности технологии у опытного образца и как он менялся?",
+   "Какие результаты охраняются патентом или иным правом?",
+   "Какие этапы просрочены относительно календарного плана?",
+   "Какая часть цены контракта уже оплачена и какие этапы ещё не оплачены?",
+   "Какие результаты проекта ещё не переданы заказчику?",
+   "Какие проекты используют одно и то же оборудование в пересекающиеся сроки?",
+   "Какие результаты предшествующих проектов можно повторно использовать в новом проекте?",
+   "Какие документы имеют гриф конфиденциальности и кому они доступны?",
+   "Какова структура затрат проекта: прямые затраты, накладные расходы и прибыль исполнителя?",
+   "Как распределены работы между головным исполнителем и соисполнителями?",
+   "Какова структура кадрового состава исполнителей по возрасту и квалификации и как она меняется по проектам?",
+   "Какие материалы, комплектующие и оборудование закупаются для выполнения этапов НИОКТР?",
+   "Как закупаемые материалы и комплектующие трансформируются в результаты этапов НИОКТР?",
+   "Какие требования российского законодательства распространяются на выполнение НИОКТР помимо условий контракта?",
+   "К каким группам относятся общие контрактные требования: типовой контракт Минобрнауки, 44-ФЗ/223-ФЗ, Бюджетный кодекс РФ?",
+   "Есть ли прецедент нарушения условий контракта, инициирована ли претензионно-исковая работа и на какой она стадии?",
+   "Какие виды патентных исследований выполняются на этапе НИОКР исходя из жизненного цикла проекта?",
+   "Какой вид результата получен на этапе: отчёт, образец, программное изделие, РИД?",
+   "Какие утверждения о проекте алетически необходимы, какие возможны, а какие невозможны?",
+   "Какие обязательства деонтически обязательны, какие разрешены, а какие запрещены?",
+   "Где возникает деонтический конфликт между обязанностью публикации и запретом разглашения?",
+   "Что участники достоверно знают, что предполагают, а что остаётся неизвестным?",
+   "Какие утверждения относятся к прошлому, настоящему и будущему состоянию проекта?",
+   "Какие утверждения действуют всегда, а какие — только иногда?",
+   "Какие объекты и результаты являются ценностью, нейтральны или представляют антиценность?",
+   "В каком возможном мире истинно модальное утверждение и достижим ли этот мир из фактического?",
+   "Какие модальные утверждения обоснованы нормативными документами, а какие — экспертным мнением?",
+   "Как связаны алетический статус риска, мера реагирования и аксиологическая оценка последствий?"
+  ]
+ },
+ "theme": [
+  {
+   "code": "CONTRACT",
+   "name": "Контракт и обязательства",
+   "color": "#60a5fa"
+  },
+  {
+   "code": "PROJ",
+   "name": "Проекты, фазы и этапы",
+   "color": "#34d399"
+  },
+  {
+   "code": "ROLE",
+   "name": "Роли и участники",
+   "color": "#a78bfa"
+  },
+  {
+   "code": "INPUT",
+   "name": "Исходные материалы и информация",
+   "color": "#fbbf24"
+  },
+  {
+   "code": "RESULT",
+   "name": "Результаты, отчётность и приёмка",
+   "color": "#f472b6"
+  },
+  {
+   "code": "CONTROL",
+   "name": "Контроль и аналитика",
+   "color": "#f87171"
+  },
+  {
+   "code": "FIN",
+   "name": "Финансовая модель и учёт НИОКР",
+   "color": "#38bdf8"
+  },
+  {
+   "code": "MODAL",
+   "name": "Модальная логика",
+   "color": "#e879f9"
+  }
+ ]
+}

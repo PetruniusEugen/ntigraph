@@ -1,0 +1,474 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "vysokaya-tekuchest-razrabotchikov",
+   "predicate": "имеет тип",
+   "object": "class-problemnaya-dispoziciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "vysokaya-tekuchest-razrabotchikov",
+   "predicate": "проблемная диспозиция присуща объекту",
+   "object": "produktovaya-komanda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t003",
+   "subject": "produktovaya-komanda",
+   "predicate": "имеет тип",
+   "object": "class-materialnyy-obekt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "vysokaya-tekuchest-razrabotchikov",
+   "predicate": "проблема реализуется в процессе",
+   "object": "uhod-sotrudnikov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "uhod-sotrudnikov",
+   "predicate": "имеет тип",
+   "object": "class-vredonosnyy-process",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "uhod-sotrudnikov",
+   "predicate": "вредоносный процесс имеет участника",
+   "object": "produktovaya-komanda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "uhod-sotrudnikov",
+   "predicate": "процесс порождает процесс",
+   "object": "sryv-srokov-relizov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t008",
+   "subject": "sryv-srokov-relizov",
+   "predicate": "имеет тип",
+   "object": "class-vredonosnyy-process",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "sryv-srokov-relizov",
+   "predicate": "вредоносный процесс имеет участника",
+   "object": "produktovaya-komanda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t010",
+   "subject": "nizkaya-propusknaya-sposobnost-komandy",
+   "predicate": "имеет тип",
+   "object": "class-problemnoe-kachestvo",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t011",
+   "subject": "nizkaya-propusknaya-sposobnost-komandy",
+   "predicate": "качество присуще объекту",
+   "object": "produktovaya-komanda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t012",
+   "subject": "nablyudenie-za-metrikami-komandy",
+   "predicate": "имеет тип",
+   "object": "class-process-nablyudeniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t013",
+   "subject": "nablyudenie-za-metrikami-komandy",
+   "predicate": "процесс наблюдения имеет участника",
+   "object": "hr-analitik",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t014",
+   "subject": "nablyudenie-za-metrikami-komandy",
+   "predicate": "наблюдение выявляет качество",
+   "object": "nizkaya-propusknaya-sposobnost-komandy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "hr-analitik",
+   "predicate": "имеет тип",
+   "object": "class-materialnyy-obekt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "otchet-o-padenii-proizvoditelnosti",
+   "predicate": "имеет тип",
+   "object": "class-dannye-nablyudeniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "otchet-o-padenii-proizvoditelnosti",
+   "predicate": "данные наблюдения о качестве",
+   "object": "nizkaya-propusknaya-sposobnost-komandy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t018",
+   "subject": "pererabotki",
+   "predicate": "имеет тип",
+   "object": "class-prichinnyy-faktor",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t019",
+   "subject": "pererabotki",
+   "predicate": "причинный фактор присущ объекту",
+   "object": "produktovaya-komanda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t020",
+   "subject": "pererabotki",
+   "predicate": "причина вносит вклад в проблему",
+   "object": "vysokaya-tekuchest-razrabotchikov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "nedostatok-priznaniya",
+   "predicate": "имеет тип",
+   "object": "class-prichinnyy-faktor",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t022",
+   "subject": "nedostatok-priznaniya",
+   "predicate": "причинный фактор присущ объекту",
+   "object": "produktovaya-komanda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t023",
+   "subject": "nedostatok-priznaniya",
+   "predicate": "причина вносит вклад в проблему",
+   "object": "vysokaya-tekuchest-razrabotchikov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t024",
+   "subject": "hr-direktor",
+   "predicate": "имеет тип",
+   "object": "class-materialnyy-obekt",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t025",
+   "subject": "rol-vladelca-problemy",
+   "predicate": "имеет тип",
+   "object": "class-rol-storony",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t026",
+   "subject": "rol-vladelca-problemy",
+   "predicate": "роль присуща объекту",
+   "object": "hr-direktor",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t027",
+   "subject": "opisanie-problemy-tekuchesti",
+   "predicate": "имеет тип",
+   "object": "class-opisanie-problemy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t028",
+   "subject": "opisanie-problemy-tekuchesti",
+   "predicate": "описание проблемы о проблеме",
+   "object": "vysokaya-tekuchest-razrabotchikov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t029",
+   "subject": "snizit-tekuchest-do-10",
+   "predicate": "имеет тип",
+   "object": "class-celevaya-specifikaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t030",
+   "subject": "snizit-tekuchest-do-10",
+   "predicate": "цель направлена на проблему",
+   "object": "vysokaya-tekuchest-razrabotchikov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t031",
+   "subject": "plan-programmy-mentorstva",
+   "predicate": "имеет тип",
+   "object": "class-plan-resheniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t032",
+   "subject": "plan-programmy-mentorstva",
+   "predicate": "план адресует проблему",
+   "object": "vysokaya-tekuchest-razrabotchikov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t033",
+   "subject": "plan-programmy-mentorstva",
+   "predicate": "план адресует причинный фактор",
+   "object": "nedostatok-priznaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t034",
+   "subject": "plan-programmy-mentorstva",
+   "predicate": "план обеспечивает достижение цели",
+   "object": "snizit-tekuchest-do-10",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t035",
+   "subject": "plan-programmy-mentorstva",
+   "predicate": "план предписывает выполнение",
+   "object": "vypolnenie-programmy-mentorstva",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t036",
+   "subject": "vypolnenie-programmy-mentorstva",
+   "predicate": "имеет тип",
+   "object": "class-vypolnenie-plana",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t037",
+   "subject": "vypolnenie-programmy-mentorstva",
+   "predicate": "выполнение реализует план",
+   "object": "plan-programmy-mentorstva",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t038",
+   "subject": "vypolnenie-programmy-mentorstva",
+   "predicate": "выполнение плана имеет участника",
+   "object": "hr-direktor",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t039",
+   "subject": "vypolnenie-programmy-mentorstva",
+   "predicate": "выполнение предотвращает процесс",
+   "object": "uhod-sotrudnikov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t040",
+   "subject": "byudzhet-500-tys-rub",
+   "predicate": "имеет тип",
+   "object": "class-ogranichenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t041",
+   "subject": "byudzhet-500-tys-rub",
+   "predicate": "ограничение ограничивает план",
+   "object": "plan-programmy-mentorstva",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t042",
+   "subject": "stoimost-vnedreniya",
+   "predicate": "имеет тип",
+   "object": "class-kriteriy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t043",
+   "subject": "stoimost-vnedreniya",
+   "predicate": "критерий используется при оценке плана",
+   "object": "plan-programmy-mentorstva",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t044",
+   "subject": "risk-poteri-klyuchevyh-sotrudnikov",
+   "predicate": "имеет тип",
+   "object": "class-risk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t045",
+   "subject": "risk-poteri-klyuchevyh-sotrudnikov",
+   "predicate": "риск присущ объекту",
+   "object": "produktovaya-komanda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t046",
+   "subject": "risk-poteri-klyuchevyh-sotrudnikov",
+   "predicate": "риск реализуется в процессе",
+   "object": "uhod-timlida",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t047",
+   "subject": "uhod-timlida",
+   "predicate": "имеет тип",
+   "object": "class-sobytie-realizacii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  }
+ ]
+}

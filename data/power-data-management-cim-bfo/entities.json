@@ -1,0 +1,240 @@
+{
+ "entities": [
+  {
+   "id": "aktualnost",
+   "label": "Актуальность",
+   "classCode": "dq:DataQualityDimension"
+  },
+  {
+   "id": "analogovoe-izmerenie",
+   "label": "аналоговое измерение",
+   "classCode": null
+  },
+  {
+   "id": "class-analogovoe-izmerenie",
+   "label": "аналоговое измерение",
+   "classCode": "cim:Analog",
+   "isClass": true
+  },
+  {
+   "id": "vyklyuchatel",
+   "label": "выключатель",
+   "classCode": null
+  },
+  {
+   "id": "class-vyklyuchatel",
+   "label": "выключатель",
+   "classCode": "cim:Breaker",
+   "isClass": true
+  },
+  {
+   "id": "vyklyuchatel-q-1-ps-110-10-severnaya",
+   "label": "Выключатель Q-1 ПС 110/10 «Северная»",
+   "classCode": "cim:Breaker"
+  },
+  {
+   "id": "diskretnoe-izmerenie",
+   "label": "дискретное измерение",
+   "classCode": null
+  },
+  {
+   "id": "class-diskretnoe-izmerenie",
+   "label": "дискретное измерение",
+   "classCode": "cim:Discrete",
+   "isClass": true
+  },
+  {
+   "id": "znachenie-izmereniya",
+   "label": "значение измерения",
+   "classCode": null
+  },
+  {
+   "id": "class-znachenie-izmereniya",
+   "label": "значение измерения",
+   "classCode": "cim:MeasurementValue",
+   "isClass": true
+  },
+  {
+   "id": "znachenie-polozheniya-q-1-vklyucheno",
+   "label": "Значение положения Q-1 = «Включено»",
+   "classCode": "cim:MeasurementValue"
+  },
+  {
+   "id": "znachenie-u-110-2-kv",
+   "label": "Значение U=110.2 кВ",
+   "classCode": "cim:MeasurementValue"
+  },
+  {
+   "id": "izmerenie",
+   "label": "измерение",
+   "classCode": null
+  },
+  {
+   "id": "izmerenie-kachestva-dannyh",
+   "label": "измерение качества данных",
+   "classCode": null
+  },
+  {
+   "id": "class-izmerenie-kachestva-dannyh",
+   "label": "измерение качества данных",
+   "classCode": "dq:DataQualityDimension",
+   "isClass": true
+  },
+  {
+   "id": "izmerenie-napryazheniya-110-kv-t-1",
+   "label": "Измерение напряжения 110 кВ Т-1",
+   "classCode": "cim:Analog"
+  },
+  {
+   "id": "izmerenie-polozheniya-q-1",
+   "label": "Измерение положения Q-1",
+   "classCode": "cim:Discrete"
+  },
+  {
+   "id": "kachestvo-znacheniya-q-1",
+   "label": "Качество значения Q-1",
+   "classCode": "cim:Quality61850"
+  },
+  {
+   "id": "kachestvo-znacheniya-u-t-1",
+   "label": "Качество значения U Т-1",
+   "classCode": "cim:Quality61850"
+  },
+  {
+   "id": "kachestvo-izmereniya-cim",
+   "label": "качество измерения (CIM)",
+   "classCode": null
+  },
+  {
+   "id": "class-kachestvo-izmereniya-cim",
+   "label": "качество измерения (CIM)",
+   "classCode": "cim:Quality61850",
+   "isClass": true
+  },
+  {
+   "id": "oborudovanie",
+   "label": "оборудование",
+   "classCode": null
+  },
+  {
+   "id": "ocenka-kachestva-dannyh",
+   "label": "оценка качества данных",
+   "classCode": null
+  },
+  {
+   "id": "class-ocenka-kachestva-dannyh",
+   "label": "оценка качества данных",
+   "classCode": "dq:DataQualityMeasurement",
+   "isClass": true
+  },
+  {
+   "id": "ocenka-polnoty-u-t-1-100",
+   "label": "Оценка полноты U Т-1 (100%)",
+   "classCode": "dq:DataQualityMeasurement"
+  },
+  {
+   "id": "ocenka-tochnosti-u-t-1-99-2",
+   "label": "Оценка точности U Т-1 (99.2%)",
+   "classCode": "dq:DataQualityMeasurement"
+  },
+  {
+   "id": "petrov-p-p",
+   "label": "Петров П.П.",
+   "classCode": null
+  },
+  {
+   "id": "politika-upravleniya-dannymi",
+   "label": "политика управления данными",
+   "classCode": null
+  },
+  {
+   "id": "class-politika-upravleniya-dannymi",
+   "label": "политика управления данными",
+   "classCode": "dg:DataGovernancePolicy",
+   "isClass": true
+  },
+  {
+   "id": "politika-upravleniya-dannymi-aktivov-ps",
+   "label": "Политика управления данными активов ПС",
+   "classCode": "dg:DataGovernancePolicy"
+  },
+  {
+   "id": "politika-upravleniya-dannymi-izmereniy",
+   "label": "Политика управления данными измерений",
+   "classCode": "dg:DataGovernancePolicy"
+  },
+  {
+   "id": "polnota",
+   "label": "Полнота",
+   "classCode": "dq:DataQualityDimension"
+  },
+  {
+   "id": "pravilo-kachestva-dannyh",
+   "label": "правило качества данных",
+   "classCode": null
+  },
+  {
+   "id": "class-pravilo-kachestva-dannyh",
+   "label": "правило качества данных",
+   "classCode": "dg:DataQualityRule",
+   "isClass": true
+  },
+  {
+   "id": "pravilo-polnoty-izmereniy-napryazheniya",
+   "label": "Правило полноты измерений напряжения",
+   "classCode": "dg:DataQualityRule"
+  },
+  {
+   "id": "pravilo-tochnosti-izmereniy-napryazheniya",
+   "label": "Правило точности измерений напряжения",
+   "classCode": "dg:DataQualityRule"
+  },
+  {
+   "id": "rol-data-owner",
+   "label": "роль Data Owner",
+   "classCode": null
+  },
+  {
+   "id": "rol-data-steward",
+   "label": "роль Data Steward",
+   "classCode": null
+  },
+  {
+   "id": "class-rol-data-steward",
+   "label": "роль Data Steward",
+   "classCode": "dg:DataStewardRole",
+   "isClass": true
+  },
+  {
+   "id": "silovoy-transformator",
+   "label": "силовой трансформатор",
+   "classCode": null
+  },
+  {
+   "id": "class-silovoy-transformator",
+   "label": "силовой трансформатор",
+   "classCode": "cim:PowerTransformer",
+   "isClass": true
+  },
+  {
+   "id": "tochnost",
+   "label": "Точность",
+   "classCode": "dq:DataQualityDimension"
+  },
+  {
+   "id": "transformator-t-1-ps-110-10-severnaya",
+   "label": "Трансформатор Т-1 ПС 110/10 «Северная»",
+   "classCode": "cim:PowerTransformer"
+  },
+  {
+   "id": "uchastok-linii-elektroperedachi",
+   "label": "участок линии электропередачи",
+   "classCode": null
+  },
+  {
+   "id": "data-steward-ps-severnaya",
+   "label": "Data Steward ПС «Северная»",
+   "classCode": "dg:DataStewardRole"
+  }
+ ]
+}

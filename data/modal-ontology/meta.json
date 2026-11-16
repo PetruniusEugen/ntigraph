@@ -1,0 +1,21 @@
+{
+ "graph": {
+  "id": "modal-ontology",
+  "name": "Модальная онтология: алетика, эпистемика, деонтика, время",
+  "description": "Онтология, выровненная по BFO 2020, описывающая алетические статусы пропозиций, эпистемические состояния агентов, деонтические нормы и их действие во времени. v1.6: добавлены явные инстансы незнания и знания, факт ознакомления с датой — argumentum ex silentio устранён.",
+  "domain": "Формальная онтология модальностей",
+  "version": "1.6",
+  "status": "draft",
+  "updatedAt": "2026-10-25",
+  "builtIn": false,
+  "counts": {
+   "classes": 33,
+   "relations": 40,
+   "entities": 64,
+   "triples": 117,
+   "taxonomicRelations": 0,
+   "nonTaxonomicRelations": 40,
+   "relationshipRichness": 1
+  }
+ }
+}

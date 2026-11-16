@@ -1,0 +1,734 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "spravochnik-klientov",
+   "predicate": "имеет тип",
+   "object": "class-nabor-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "spravochnik-klientov",
+   "predicate": "хранится в",
+   "object": "dwh-klienty",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t003",
+   "subject": "e-mail-klienta",
+   "predicate": "имеет тип",
+   "object": "class-element-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "e-mail-klienta",
+   "predicate": "входит в набор данных",
+   "object": "spravochnik-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "termin-kontaktnyy-e-mail",
+   "predicate": "имеет тип",
+   "object": "class-termin-biznes-glossariya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "termin-kontaktnyy-e-mail",
+   "predicate": "определяет",
+   "object": "e-mail-klienta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "kartochka-kataloga-spravochnik-klientov",
+   "predicate": "имеет тип",
+   "object": "class-zapis-kataloga-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t008",
+   "subject": "kartochka-kataloga-spravochnik-klientov",
+   "predicate": "описывает набор данных",
+   "object": "spravochnik-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "dwh-klienty",
+   "predicate": "имеет тип",
+   "object": "class-hranilische-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t010",
+   "subject": "dwh-klienty",
+   "predicate": "входит в состав системы",
+   "object": "korporativnoe-dwh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t011",
+   "subject": "korporativnoe-dwh",
+   "predicate": "имеет тип",
+   "object": "class-informacionnaya-sistema",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t012",
+   "subject": "sidorov-p-p",
+   "predicate": "имеет тип",
+   "object": "class-chelovek",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t013",
+   "subject": "sidorov-p-p",
+   "predicate": "имеет роль",
+   "object": "rol-vladelca-klientskih-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t014",
+   "subject": "rol-vladelca-klientskih-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-rol-vladelca-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "rol-vladelca-klientskih-dannyh",
+   "predicate": "несёт ответственность за",
+   "object": "spravochnik-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "kozlova-e-v",
+   "predicate": "имеет тип",
+   "object": "class-chelovek",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "kozlova-e-v",
+   "predicate": "имеет роль",
+   "object": "rol-styuarda-klientskih-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t018",
+   "subject": "rol-styuarda-klientskih-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-rol-styuarda-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t019",
+   "subject": "rol-styuarda-klientskih-dannyh",
+   "predicate": "курирует",
+   "object": "spravochnik-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t020",
+   "subject": "rol-styuarda-klientskih-dannyh",
+   "predicate": "реализуется в",
+   "object": "dozapolnenie-e-mail-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "kozlova-e-v",
+   "predicate": "участвует в",
+   "object": "dozapolnenie-e-mail-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t022",
+   "subject": "gromov-a-n",
+   "predicate": "имеет тип",
+   "object": "class-chelovek",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t023",
+   "subject": "gromov-a-n",
+   "predicate": "имеет роль",
+   "object": "rol-hranitelya-dwh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t024",
+   "subject": "rol-hranitelya-dwh",
+   "predicate": "имеет тип",
+   "object": "class-rol-hranitelya-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t025",
+   "subject": "rol-hranitelya-dwh",
+   "predicate": "обеспечивает хранение в",
+   "object": "dwh-klienty",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t026",
+   "subject": "sovet-po-dannym",
+   "predicate": "имеет тип",
+   "object": "class-organ-upravleniya-dannymi",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t027",
+   "subject": "sidorov-p-p",
+   "predicate": "является членом",
+   "object": "sovet-po-dannym",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t028",
+   "subject": "sovet-po-dannym",
+   "predicate": "утверждает",
+   "object": "politika-kachestva-dannyh",
+   "sourceId": "src-dmbok",
+   "sourceName": "DAMA-DMBOK2: Data Management Body of Knowledge",
+   "sourceType": "standard",
+   "updatedAt": "2017"
+  },
+  {
+   "id": "t029",
+   "subject": "razrabotka-politiki-kachestva-dannyh-2026",
+   "predicate": "имеет тип",
+   "object": "class-process-razrabotki-politiki-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t030",
+   "subject": "razrabotka-politiki-kachestva-dannyh-2026",
+   "predicate": "порождает политику",
+   "object": "politika-kachestva-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t031",
+   "subject": "politika-kachestva-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-politika-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t032",
+   "subject": "politika-kachestva-dannyh",
+   "predicate": "регулирует",
+   "object": "spravochnik-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t033",
+   "subject": "trebovanie-152-fz-k-personalnym-dannym",
+   "predicate": "имеет тип",
+   "object": "class-normativnoe-trebovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t034",
+   "subject": "trebovanie-152-fz-k-personalnym-dannym",
+   "predicate": "обосновывает политику",
+   "object": "politika-kachestva-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t035",
+   "subject": "standart-formata-kontaktnyh-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-standart-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t036",
+   "subject": "standart-formata-kontaktnyh-dannyh",
+   "predicate": "конкретизирует политику",
+   "object": "politika-kachestva-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t037",
+   "subject": "kvartalnyy-monitoring-soblyudeniya-politiki",
+   "predicate": "имеет тип",
+   "object": "class-process-monitoringa-sootvetstviya-politikam",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t038",
+   "subject": "kvartalnyy-monitoring-soblyudeniya-politiki",
+   "predicate": "контролирует соблюдение",
+   "object": "politika-kachestva-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t039",
+   "subject": "styuarding-spravochnika-klientov",
+   "predicate": "имеет тип",
+   "object": "class-process-styuardinga-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t040",
+   "subject": "styuarding-spravochnika-klientov",
+   "predicate": "поддерживает данные",
+   "object": "spravochnik-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t041",
+   "subject": "polnota-spravochnika-klientov",
+   "predicate": "имеет тип",
+   "object": "class-polnota",
+   "sourceId": "src-iso25012",
+   "sourceName": "ISO/IEC 25012: Модель качества данных",
+   "sourceType": "standard",
+   "updatedAt": "2008"
+  },
+  {
+   "id": "t042",
+   "subject": "polnota-spravochnika-klientov",
+   "predicate": "присуще хранилищу",
+   "object": "dwh-klienty",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t043",
+   "subject": "pravilo-e-mail-zapolnen-u-98-klientov",
+   "predicate": "имеет тип",
+   "object": "class-pravilo-kachestva-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t044",
+   "subject": "pravilo-e-mail-zapolnen-u-98-klientov",
+   "predicate": "выводится из политики",
+   "object": "politika-kachestva-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t045",
+   "subject": "pravilo-e-mail-zapolnen-u-98-klientov",
+   "predicate": "применяется к",
+   "object": "e-mail-klienta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t046",
+   "subject": "pravilo-e-mail-zapolnen-u-98-klientov",
+   "predicate": "контролирует измерение качества",
+   "object": "polnota-spravochnika-klientov",
+   "sourceId": "src-iso25012",
+   "sourceName": "ISO/IEC 25012: Модель качества данных",
+   "sourceType": "standard",
+   "updatedAt": "2008"
+  },
+  {
+   "id": "t047",
+   "subject": "metrika-dolya-zapolnennyh-e-mail",
+   "predicate": "имеет тип",
+   "object": "class-metrika-kachestva-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t048",
+   "subject": "metrika-dolya-zapolnennyh-e-mail",
+   "predicate": "измеряет",
+   "object": "polnota-spravochnika-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t049",
+   "subject": "izmerenie-polnota-e-mail-94-2-na-20-10-2026",
+   "predicate": "имеет тип",
+   "object": "class-rezultat-izmereniya-kachestva-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t050",
+   "subject": "izmerenie-polnota-e-mail-94-2-na-20-10-2026",
+   "predicate": "описывает качество",
+   "object": "polnota-spravochnika-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t051",
+   "subject": "izmerenie-polnota-e-mail-94-2-na-20-10-2026",
+   "predicate": "относится к набору данных",
+   "object": "spravochnik-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t052",
+   "subject": "izmerenie-polnota-e-mail-94-2-na-20-10-2026",
+   "predicate": "получен по метрике",
+   "object": "metrika-dolya-zapolnennyh-e-mail",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t053",
+   "subject": "profilirovanie-spravochnika-klientov",
+   "predicate": "имеет тип",
+   "object": "class-process-profilirovaniya-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t054",
+   "subject": "profilirovanie-spravochnika-klientov",
+   "predicate": "профилирует",
+   "object": "spravochnik-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t055",
+   "subject": "ocenka-kachestva-spravochnika-klientov-oktyabr-2026",
+   "predicate": "имеет тип",
+   "object": "class-process-ocenki-kachestva-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t056",
+   "subject": "ocenka-kachestva-spravochnika-klientov-oktyabr-2026",
+   "predicate": "оценивает",
+   "object": "spravochnik-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t057",
+   "subject": "ocenka-kachestva-spravochnika-klientov-oktyabr-2026",
+   "predicate": "проверяет правило",
+   "object": "pravilo-e-mail-zapolnen-u-98-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t058",
+   "subject": "ocenka-kachestva-spravochnika-klientov-oktyabr-2026",
+   "predicate": "порождает результат",
+   "object": "izmerenie-polnota-e-mail-94-2-na-20-10-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t059",
+   "subject": "ezhemesyachnyy-monitoring-polnoty-e-mail",
+   "predicate": "имеет тип",
+   "object": "class-process-monitoringa-kachestva-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t060",
+   "subject": "ezhemesyachnyy-monitoring-polnoty-e-mail",
+   "predicate": "отслеживает метрику",
+   "object": "metrika-dolya-zapolnennyh-e-mail",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t061",
+   "subject": "ochistka-kontaktnyh-dannyh-klientov",
+   "predicate": "имеет тип",
+   "object": "class-process-ochistki-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t062",
+   "subject": "ochistka-kontaktnyh-dannyh-klientov",
+   "predicate": "очищает",
+   "object": "spravochnik-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t063",
+   "subject": "platforma-kontrolya-kachestva-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-instrument-kontrolya-kachestva-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t064",
+   "subject": "platforma-kontrolya-kachestva-dannyh",
+   "predicate": "обладает функцией",
+   "object": "validaciya-e-mail-po-pravilam",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t065",
+   "subject": "validaciya-e-mail-po-pravilam",
+   "predicate": "имеет тип",
+   "object": "class-funkciya-validacii-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t066",
+   "subject": "validaciya-e-mail-po-pravilam",
+   "predicate": "реализуется при оценке",
+   "object": "ocenka-kachestva-spravochnika-klientov-oktyabr-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t067",
+   "subject": "incident-polnota-e-mail-nizhe-98",
+   "predicate": "имеет тип",
+   "object": "class-incident-kachestva-dannyh",
+   "sourceId": "src-demo",
+   "sourceName": "Демонстрационный сценарий: справочник клиентов",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-26"
+  },
+  {
+   "id": "t068",
+   "subject": "incident-polnota-e-mail-nizhe-98",
+   "predicate": "нарушает правило",
+   "object": "pravilo-e-mail-zapolnen-u-98-klientov",
+   "sourceId": "src-demo",
+   "sourceName": "Демонстрационный сценарий: справочник клиентов",
+   "sourceType": "internal",
+   "updatedAt": "2026-10-26"
+  },
+  {
+   "id": "t069",
+   "subject": "incident-polnota-e-mail-nizhe-98",
+   "predicate": "затрагивает набор данных",
+   "object": "spravochnik-klientov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t070",
+   "subject": "incident-polnota-e-mail-nizhe-98",
+   "predicate": "затрагивает хранилище",
+   "object": "dwh-klienty",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t071",
+   "subject": "incident-polnota-e-mail-nizhe-98",
+   "predicate": "выявлен при",
+   "object": "ocenka-kachestva-spravochnika-klientov-oktyabr-2026",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t072",
+   "subject": "dozapolnenie-e-mail-klientov",
+   "predicate": "имеет тип",
+   "object": "class-process-ustraneniya-incidenta-kachestva-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t073",
+   "subject": "dozapolnenie-e-mail-klientov",
+   "predicate": "устраняет инцидент",
+   "object": "incident-polnota-e-mail-nizhe-98",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  }
+ ]
+}

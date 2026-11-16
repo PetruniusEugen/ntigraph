@@ -1,0 +1,2364 @@
+{
+ "triples": [
+  {
+   "id": "t001",
+   "subject": "organizaciya-vektor",
+   "predicate": "имеет тип",
+   "object": "class-organizaciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t002",
+   "subject": "anna-petrova",
+   "predicate": "имеет тип",
+   "object": "class-rabotnik",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t003",
+   "subject": "trudovoy-dogovor-anny-petrovoy",
+   "predicate": "имеет тип",
+   "object": "class-trudovoy-dogovor",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t004",
+   "subject": "professionalnyy-standart-analitik-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-professionalnyy-standart",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t005",
+   "subject": "professiya-analitik-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-professiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t006",
+   "subject": "dolzhnost-analitik-dannyh-greyd-2",
+   "predicate": "имеет тип",
+   "object": "class-dolzhnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t007",
+   "subject": "trudovaya-funkciya-podgotovka-analiticheskih-otchetov",
+   "predicate": "имеет тип",
+   "object": "class-trudovaya-funkciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t008",
+   "subject": "kompetenciya-analiz-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-kompetenciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t009",
+   "subject": "znanie-statistika",
+   "predicate": "имеет тип",
+   "object": "class-znanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t010",
+   "subject": "navyk-sql",
+   "predicate": "имеет тип",
+   "object": "class-navyk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t011",
+   "subject": "sposobnost-kriticheskoe-myshlenie",
+   "predicate": "имеет тип",
+   "object": "class-sposobnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t012",
+   "subject": "potrebnost-uskorit-podgotovku-otchetov",
+   "predicate": "имеет тип",
+   "object": "class-potrebnost-rabotodatelya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t013",
+   "subject": "trebovanie-sql-urovnya-3",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-k-kompetencii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t014",
+   "subject": "razryv-sql-uroven-2-vmesto-3",
+   "predicate": "имеет тип",
+   "object": "class-razryv-kompetenciy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t015",
+   "subject": "adaptaciya-plan-adaptacii-anny-petrovoy",
+   "predicate": "имеет тип",
+   "object": "class-adaptaciya-rabotnika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t016",
+   "subject": "mera-kurs-sql-dlya-analitiki",
+   "predicate": "имеет тип",
+   "object": "class-mera-razvitiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t017",
+   "subject": "zhiznennyy-cikl-sql-podderzhanie-i-obnovlenie",
+   "predicate": "имеет тип",
+   "object": "class-zhiznennyy-cikl-zns",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t018",
+   "subject": "zhiznennyy-cikl-statistika-primenenie",
+   "predicate": "имеет тип",
+   "object": "class-zhiznennyy-cikl-zns",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t019",
+   "subject": "modalnoe-utverzhdenie-sql-obyazatelen",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t020",
+   "subject": "modalnoe-utverzhdenie-statistika-neobhodima",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t021",
+   "subject": "modalnoe-utverzhdenie-sertifikat-podtverzhdaet-navyk",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t022",
+   "subject": "modalnoe-utverzhdenie-adaptaciya-cenna",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t023",
+   "subject": "modalnoe-utverzhdenie-trebovanie-deystvuet-do-peresmotra",
+   "predicate": "имеет тип",
+   "object": "class-modalnoe-utverzhdenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t024",
+   "subject": "deonticheskiy-rezhim",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t025",
+   "subject": "aleticheskiy-rezhim",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t026",
+   "subject": "epistemicheskiy-rezhim",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t027",
+   "subject": "aksiologicheskiy-rezhim",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t028",
+   "subject": "temporalnyy-rezhim",
+   "predicate": "имеет тип",
+   "object": "class-modalnyy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t029",
+   "subject": "dokazatelstvo-sertifikat-sql-intermediate",
+   "predicate": "имеет тип",
+   "object": "class-dokazatelstvo-kompetencii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t030",
+   "subject": "pasport-pasport-kompetencii-anny-petrovoy",
+   "predicate": "имеет тип",
+   "object": "class-pasport-kompetencii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t031",
+   "subject": "vopros-kakie-zns-trebuyutsya-dlya-funkcii",
+   "predicate": "имеет тип",
+   "object": "class-vopros-kompetencii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t032",
+   "subject": "signal-rost-doli-vakansiy-s-trebovaniem-sql",
+   "predicate": "имеет тип",
+   "object": "class-signal-rynka-truda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t033",
+   "subject": "anna-petrova",
+   "predicate": "работает в",
+   "object": "organizaciya-vektor",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t034",
+   "subject": "anna-petrova",
+   "predicate": "имеет трудовой договор",
+   "object": "trudovoy-dogovor-anny-petrovoy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t035",
+   "subject": "trudovoy-dogovor-anny-petrovoy",
+   "predicate": "заключён с",
+   "object": "organizaciya-vektor",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t036",
+   "subject": "trudovoy-dogovor-anny-petrovoy",
+   "predicate": "определяет должность",
+   "object": "dolzhnost-analitik-dannyh-greyd-2",
+   "sourceId": "src-contract",
+   "sourceName": "Пример трудового договора Анны Петровой",
+   "sourceType": "example",
+   "updatedAt": "2026-09-15"
+  },
+  {
+   "id": "t037",
+   "subject": "trudovoy-dogovor-anny-petrovoy",
+   "predicate": "определяет функцию",
+   "object": "trudovaya-funkciya-podgotovka-analiticheskih-otchetov",
+   "sourceId": "src-contract",
+   "sourceName": "Пример трудового договора Анны Петровой",
+   "sourceType": "example",
+   "updatedAt": "2026-09-15"
+  },
+  {
+   "id": "t038",
+   "subject": "anna-petrova",
+   "predicate": "занимает должность",
+   "object": "dolzhnost-analitik-dannyh-greyd-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t039",
+   "subject": "dolzhnost-analitik-dannyh-greyd-2",
+   "predicate": "основана на профессии",
+   "object": "professiya-analitik-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t040",
+   "subject": "professionalnyy-standart-analitik-dannyh",
+   "predicate": "стандарт определяет профессию",
+   "object": "professiya-analitik-dannyh",
+   "sourceId": "src-standard",
+   "sourceName": "Пример профессионального стандарта «Аналитик данных»",
+   "sourceType": "example",
+   "updatedAt": "2026-02-01"
+  },
+  {
+   "id": "t041",
+   "subject": "professionalnyy-standart-analitik-dannyh",
+   "predicate": "стандарт служит основой требования",
+   "object": "trebovanie-sql-urovnya-3",
+   "sourceId": "src-standard",
+   "sourceName": "Пример профессионального стандарта «Аналитик данных»",
+   "sourceType": "example",
+   "updatedAt": "2026-02-01"
+  },
+  {
+   "id": "t042",
+   "subject": "professiya-analitik-dannyh",
+   "predicate": "профессия требует компетенцию",
+   "object": "kompetenciya-analiz-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t043",
+   "subject": "kompetenciya-analiz-dannyh",
+   "predicate": "включает знание",
+   "object": "znanie-statistika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t044",
+   "subject": "kompetenciya-analiz-dannyh",
+   "predicate": "включает навык",
+   "object": "navyk-sql",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t045",
+   "subject": "kompetenciya-analiz-dannyh",
+   "predicate": "включает способность",
+   "object": "sposobnost-kriticheskoe-myshlenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t046",
+   "subject": "anna-petrova",
+   "predicate": "обладает знанием",
+   "object": "znanie-statistika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t047",
+   "subject": "anna-petrova",
+   "predicate": "обладает навыком",
+   "object": "navyk-sql",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t048",
+   "subject": "anna-petrova",
+   "predicate": "обладает способностью",
+   "object": "sposobnost-kriticheskoe-myshlenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t049",
+   "subject": "anna-petrova",
+   "predicate": "выполняет функцию",
+   "object": "trudovaya-funkciya-podgotovka-analiticheskih-otchetov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t050",
+   "subject": "trudovaya-funkciya-podgotovka-analiticheskih-otchetov",
+   "predicate": "функция требует компетенцию",
+   "object": "kompetenciya-analiz-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t051",
+   "subject": "organizaciya-vektor",
+   "predicate": "имеет потребность",
+   "object": "potrebnost-uskorit-podgotovku-otchetov",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t052",
+   "subject": "potrebnost-uskorit-podgotovku-otchetov",
+   "predicate": "выражена требованием",
+   "object": "trebovanie-sql-urovnya-3",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t053",
+   "subject": "trebovanie-sql-urovnya-3",
+   "predicate": "направлено на компетенцию",
+   "object": "kompetenciya-analiz-dannyh",
+   "sourceId": "src-profile",
+   "sourceName": "Пример профиля должности «Аналитик данных, грейд 2»",
+   "sourceType": "example",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t054",
+   "subject": "razryv-sql-uroven-2-vmesto-3",
+   "predicate": "у работника",
+   "object": "anna-petrova",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t055",
+   "subject": "razryv-sql-uroven-2-vmesto-3",
+   "predicate": "относительно требования",
+   "object": "trebovanie-sql-urovnya-3",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t056",
+   "subject": "adaptaciya-plan-adaptacii-anny-petrovoy",
+   "predicate": "закрывает разрыв",
+   "object": "razryv-sql-uroven-2-vmesto-3",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t057",
+   "subject": "adaptaciya-plan-adaptacii-anny-petrovoy",
+   "predicate": "включает меру",
+   "object": "mera-kurs-sql-dlya-analitiki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t058",
+   "subject": "mera-kurs-sql-dlya-analitiki",
+   "predicate": "развивает компетенцию",
+   "object": "kompetenciya-analiz-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t059",
+   "subject": "navyk-sql",
+   "predicate": "навык имеет жизненный цикл",
+   "object": "zhiznennyy-cikl-sql-podderzhanie-i-obnovlenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t060",
+   "subject": "znanie-statistika",
+   "predicate": "знание имеет жизненный цикл",
+   "object": "zhiznennyy-cikl-statistika-primenenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t061",
+   "subject": "potrebnost-uskorit-podgotovku-otchetov",
+   "predicate": "ускоряет жизненный цикл",
+   "object": "zhiznennyy-cikl-sql-podderzhanie-i-obnovlenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t062",
+   "subject": "signal-rost-doli-vakansiy-s-trebovaniem-sql",
+   "predicate": "сокращает жизненный цикл",
+   "object": "zhiznennyy-cikl-sql-podderzhanie-i-obnovlenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t063",
+   "subject": "modalnoe-utverzhdenie-sql-obyazatelen",
+   "predicate": "квалифицирует требование",
+   "object": "trebovanie-sql-urovnya-3",
+   "sourceId": "src-profile",
+   "sourceName": "Пример профиля должности «Аналитик данных, грейд 2»",
+   "sourceType": "example",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t064",
+   "subject": "modalnoe-utverzhdenie-sql-obyazatelen",
+   "predicate": "имеет режим",
+   "object": "deonticheskiy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t065",
+   "subject": "modalnoe-utverzhdenie-statistika-neobhodima",
+   "predicate": "имеет режим",
+   "object": "aleticheskiy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t066",
+   "subject": "modalnoe-utverzhdenie-sertifikat-podtverzhdaet-navyk",
+   "predicate": "имеет режим",
+   "object": "epistemicheskiy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t067",
+   "subject": "modalnoe-utverzhdenie-adaptaciya-cenna",
+   "predicate": "имеет режим",
+   "object": "aksiologicheskiy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t068",
+   "subject": "modalnoe-utverzhdenie-trebovanie-deystvuet-do-peresmotra",
+   "predicate": "имеет режим",
+   "object": "temporalnyy-rezhim",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t069",
+   "subject": "modalnoe-utverzhdenie-statistika-neobhodima",
+   "predicate": "квалифицирует компетенцию",
+   "object": "kompetenciya-analiz-dannyh",
+   "sourceId": "src-method",
+   "sourceName": "Пример методики оценки компетенций",
+   "sourceType": "example",
+   "updatedAt": "2026-01-15"
+  },
+  {
+   "id": "t070",
+   "subject": "modalnoe-utverzhdenie-sertifikat-podtverzhdaet-navyk",
+   "predicate": "квалифицирует компетенцию",
+   "object": "kompetenciya-analiz-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t071",
+   "subject": "modalnoe-utverzhdenie-adaptaciya-cenna",
+   "predicate": "квалифицирует компетенцию",
+   "object": "kompetenciya-analiz-dannyh",
+   "sourceId": "src-hr",
+   "sourceName": "Пример программы адаптации работника",
+   "sourceType": "example",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "t072",
+   "subject": "modalnoe-utverzhdenie-trebovanie-deystvuet-do-peresmotra",
+   "predicate": "квалифицирует требование",
+   "object": "trebovanie-sql-urovnya-3",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t073",
+   "subject": "dokazatelstvo-sertifikat-sql-intermediate",
+   "predicate": "подтверждает компетенцию",
+   "object": "kompetenciya-analiz-dannyh",
+   "sourceId": "src-certificate",
+   "sourceName": "Пример сертификата SQL Intermediate",
+   "sourceType": "example",
+   "updatedAt": "2026-10-01"
+  },
+  {
+   "id": "t074",
+   "subject": "dokazatelstvo-sertifikat-sql-intermediate",
+   "predicate": "принадлежит работнику",
+   "object": "anna-petrova",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t075",
+   "subject": "pasport-pasport-kompetencii-anny-petrovoy",
+   "predicate": "описывает работника",
+   "object": "anna-petrova",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t076",
+   "subject": "pasport-pasport-kompetencii-anny-petrovoy",
+   "predicate": "включает разрыв",
+   "object": "razryv-sql-uroven-2-vmesto-3",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t077",
+   "subject": "vopros-kakie-zns-trebuyutsya-dlya-funkcii",
+   "predicate": "задаёт границы паспорта",
+   "object": "pasport-pasport-kompetencii-anny-petrovoy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t078",
+   "subject": "signal-rost-doli-vakansiy-s-trebovaniem-sql",
+   "predicate": "меняет потребность",
+   "object": "potrebnost-uskorit-podgotovku-otchetov",
+   "sourceId": "src-market",
+   "sourceName": "Пример обзора рынка труда по аналитическим компетенциям",
+   "sourceType": "example",
+   "updatedAt": "2026-08-15"
+  },
+  {
+   "id": "t079",
+   "subject": "signal-rost-doli-vakansiy-s-trebovaniem-sql",
+   "predicate": "указывает на компетенцию",
+   "object": "kompetenciya-analiz-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t080",
+   "subject": "modalnoe-utverzhdenie-sql-obyazatelen",
+   "predicate": "квалифицирует требование",
+   "object": "trebovanie-sql-urovnya-3",
+   "sourceId": "src-profile",
+   "sourceName": "Пример профиля должности «Аналитик данных, грейд 2»",
+   "sourceType": "example",
+   "updatedAt": "2026-09-01"
+  },
+  {
+   "id": "t081",
+   "subject": "srez-rynka-truda-analitika-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-srez-rynka-truda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t082",
+   "subject": "vakansiya-analitik-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-vakansiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t083",
+   "subject": "vakansiya-starshiy-analitik-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-vakansiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t084",
+   "subject": "vakansiya-bi-analitik",
+   "predicate": "имеет тип",
+   "object": "class-vakansiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t085",
+   "subject": "vakansiya-produktovyy-analitik",
+   "predicate": "имеет тип",
+   "object": "class-vakansiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t086",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-sql",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel-vostrebovannosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t087",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-sql-urovnya-3",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel-vostrebovannosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t088",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-statistiki",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel-vostrebovannosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t089",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-kriticheskogo-myshleniya",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel-vostrebovannosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t090",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-vizualizacii-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel-vostrebovannosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t091",
+   "subject": "navyk-vizualizaciya-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-navyk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t092",
+   "subject": "trebovanie-sql-urovnya-2",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-k-kompetencii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t093",
+   "subject": "trebovanie-statistika-bazovyy-uroven",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-k-kompetencii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t094",
+   "subject": "trebovanie-kriticheskoe-myshlenie-bazovyy-uroven",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-k-kompetencii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t095",
+   "subject": "trebovanie-vizualizaciya-dannyh-bazovyy-uroven",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-k-kompetencii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t096",
+   "subject": "srez-rynka-truda-analitika-dannyh",
+   "predicate": "включает вакансию",
+   "object": "vakansiya-analitik-dannyh",
+   "sourceId": "src-market-sample",
+   "sourceName": "Демонстрационная выборка вакансий «Аналитика данных»",
+   "sourceType": "example",
+   "updatedAt": "2026-11-01"
+  },
+  {
+   "id": "t097",
+   "subject": "srez-rynka-truda-analitika-dannyh",
+   "predicate": "включает вакансию",
+   "object": "vakansiya-starshiy-analitik-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t098",
+   "subject": "srez-rynka-truda-analitika-dannyh",
+   "predicate": "включает вакансию",
+   "object": "vakansiya-bi-analitik",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t099",
+   "subject": "srez-rynka-truda-analitika-dannyh",
+   "predicate": "включает вакансию",
+   "object": "vakansiya-produktovyy-analitik",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t100",
+   "subject": "srez-rynka-truda-analitika-dannyh",
+   "predicate": "содержит показатель",
+   "object": "pokazatel-dolya-vakansiy-s-trebovaniem-sql",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t101",
+   "subject": "srez-rynka-truda-analitika-dannyh",
+   "predicate": "содержит показатель",
+   "object": "pokazatel-dolya-vakansiy-s-trebovaniem-sql-urovnya-3",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t102",
+   "subject": "srez-rynka-truda-analitika-dannyh",
+   "predicate": "содержит показатель",
+   "object": "pokazatel-dolya-vakansiy-s-trebovaniem-statistiki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t103",
+   "subject": "srez-rynka-truda-analitika-dannyh",
+   "predicate": "содержит показатель",
+   "object": "pokazatel-dolya-vakansiy-s-trebovaniem-kriticheskogo-myshleniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t104",
+   "subject": "srez-rynka-truda-analitika-dannyh",
+   "predicate": "содержит показатель",
+   "object": "pokazatel-dolya-vakansiy-s-trebovaniem-vizualizacii-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t105",
+   "subject": "vakansiya-analitik-dannyh",
+   "predicate": "вакансия по профессии",
+   "object": "professiya-analitik-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t106",
+   "subject": "vakansiya-starshiy-analitik-dannyh",
+   "predicate": "вакансия по профессии",
+   "object": "professiya-analitik-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t107",
+   "subject": "vakansiya-bi-analitik",
+   "predicate": "вакансия по профессии",
+   "object": "professiya-analitik-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t108",
+   "subject": "vakansiya-produktovyy-analitik",
+   "predicate": "вакансия по профессии",
+   "object": "professiya-analitik-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t109",
+   "subject": "vakansiya-analitik-dannyh",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-sql-urovnya-3",
+   "sourceId": "src-market-sample",
+   "sourceName": "Демонстрационная выборка вакансий «Аналитика данных»",
+   "sourceType": "example",
+   "updatedAt": "2026-11-01"
+  },
+  {
+   "id": "t110",
+   "subject": "vakansiya-analitik-dannyh",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-statistika-bazovyy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t111",
+   "subject": "vakansiya-analitik-dannyh",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-kriticheskoe-myshlenie-bazovyy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t112",
+   "subject": "vakansiya-analitik-dannyh",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-vizualizaciya-dannyh-bazovyy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t113",
+   "subject": "vakansiya-starshiy-analitik-dannyh",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-sql-urovnya-3",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t114",
+   "subject": "vakansiya-starshiy-analitik-dannyh",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-statistika-bazovyy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t115",
+   "subject": "vakansiya-starshiy-analitik-dannyh",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-kriticheskoe-myshlenie-bazovyy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t116",
+   "subject": "vakansiya-bi-analitik",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-sql-urovnya-2",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t117",
+   "subject": "vakansiya-bi-analitik",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-statistika-bazovyy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t118",
+   "subject": "vakansiya-bi-analitik",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-vizualizaciya-dannyh-bazovyy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t119",
+   "subject": "vakansiya-produktovyy-analitik",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-kriticheskoe-myshlenie-bazovyy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t120",
+   "subject": "trebovanie-sql-urovnya-3",
+   "predicate": "требование к навыку",
+   "object": "navyk-sql",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t121",
+   "subject": "trebovanie-sql-urovnya-2",
+   "predicate": "требование к навыку",
+   "object": "navyk-sql",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t122",
+   "subject": "trebovanie-vizualizaciya-dannyh-bazovyy-uroven",
+   "predicate": "требование к навыку",
+   "object": "navyk-vizualizaciya-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t123",
+   "subject": "trebovanie-statistika-bazovyy-uroven",
+   "predicate": "требование к знанию",
+   "object": "znanie-statistika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t124",
+   "subject": "trebovanie-kriticheskoe-myshlenie-bazovyy-uroven",
+   "predicate": "требование к способности",
+   "object": "sposobnost-kriticheskoe-myshlenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t125",
+   "subject": "trebovanie-sql-urovnya-2",
+   "predicate": "направлено на компетенцию",
+   "object": "kompetenciya-analiz-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t126",
+   "subject": "trebovanie-statistika-bazovyy-uroven",
+   "predicate": "направлено на компетенцию",
+   "object": "kompetenciya-analiz-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t127",
+   "subject": "trebovanie-kriticheskoe-myshlenie-bazovyy-uroven",
+   "predicate": "направлено на компетенцию",
+   "object": "kompetenciya-analiz-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t128",
+   "subject": "trebovanie-vizualizaciya-dannyh-bazovyy-uroven",
+   "predicate": "направлено на компетенцию",
+   "object": "kompetenciya-analiz-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t129",
+   "subject": "kompetenciya-analiz-dannyh",
+   "predicate": "включает навык",
+   "object": "navyk-vizualizaciya-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t130",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-sql",
+   "predicate": "показатель измеряет навык",
+   "object": "navyk-sql",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t131",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-sql-urovnya-3",
+   "predicate": "показатель измеряет навык",
+   "object": "navyk-sql",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t132",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-statistiki",
+   "predicate": "показатель измеряет знание",
+   "object": "znanie-statistika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t133",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-kriticheskogo-myshleniya",
+   "predicate": "показатель измеряет способность",
+   "object": "sposobnost-kriticheskoe-myshlenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t134",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-vizualizacii-dannyh",
+   "predicate": "показатель измеряет навык",
+   "object": "navyk-vizualizaciya-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t135",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-sql",
+   "predicate": "показатель обосновывает сигнал",
+   "object": "signal-rost-doli-vakansiy-s-trebovaniem-sql",
+   "sourceId": "src-market-sample",
+   "sourceName": "Демонстрационная выборка вакансий «Аналитика данных»",
+   "sourceType": "example",
+   "updatedAt": "2026-11-01"
+  },
+  {
+   "id": "t136",
+   "subject": "signal-rost-doli-vakansiy-s-trebovaniem-sql",
+   "predicate": "сигнал опирается на срез",
+   "object": "srez-rynka-truda-analitika-dannyh",
+   "sourceId": "src-market-sample",
+   "sourceName": "Демонстрационная выборка вакансий «Аналитика данных»",
+   "sourceType": "example",
+   "updatedAt": "2026-11-01"
+  },
+  {
+   "id": "t137",
+   "subject": "professiya-inzhener-ontolog",
+   "predicate": "имеет тип",
+   "object": "class-professiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t138",
+   "subject": "professiya-kontekstnyy-inzhener",
+   "predicate": "имеет тип",
+   "object": "class-professiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t139",
+   "subject": "dolzhnost-inzhener-ontolog-greyd-2",
+   "predicate": "имеет тип",
+   "object": "class-dolzhnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t140",
+   "subject": "dolzhnost-kontekstnyy-inzhener-greyd-1",
+   "predicate": "имеет тип",
+   "object": "class-dolzhnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t141",
+   "subject": "trudovaya-funkciya-proektirovanie-ontologii-predmetnoy-oblasti",
+   "predicate": "имеет тип",
+   "object": "class-trudovaya-funkciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t142",
+   "subject": "trudovaya-funkciya-modelirovanie-konteksta-ispolzovaniya-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-trudovaya-funkciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t143",
+   "subject": "potrebnost-soglasovat-modeli-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-potrebnost-rabotodatelya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t144",
+   "subject": "potrebnost-uchest-kontekst-ispolzovaniya-dannyh",
+   "predicate": "имеет тип",
+   "object": "class-potrebnost-rabotodatelya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t145",
+   "subject": "kompetenciya-ontologicheskoe-modelirovanie",
+   "predicate": "имеет тип",
+   "object": "class-kompetenciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t146",
+   "subject": "kompetenciya-modelirovanie-konteksta",
+   "predicate": "имеет тип",
+   "object": "class-kompetenciya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t147",
+   "subject": "znanie-formalnaya-logika",
+   "predicate": "имеет тип",
+   "object": "class-znanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t148",
+   "subject": "znanie-semanticheskie-tehnologii",
+   "predicate": "имеет тип",
+   "object": "class-znanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t149",
+   "subject": "navyk-owl-i-shacl",
+   "predicate": "имеет тип",
+   "object": "class-navyk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t150",
+   "subject": "navyk-sparql",
+   "predicate": "имеет тип",
+   "object": "class-navyk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t151",
+   "subject": "navyk-kontekstnoe-modelirovanie",
+   "predicate": "имеет тип",
+   "object": "class-navyk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t152",
+   "subject": "navyk-soglasovanie-ontologiy",
+   "predicate": "имеет тип",
+   "object": "class-navyk",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t153",
+   "subject": "sposobnost-sistemnoe-myshlenie",
+   "predicate": "имеет тип",
+   "object": "class-sposobnost",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t154",
+   "subject": "trebovanie-ontologicheskoe-modelirovanie-uverennyy-uroven",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-k-kompetencii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t155",
+   "subject": "trebovanie-owl-i-shacl-prakticheskiy-uroven",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-k-kompetencii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t156",
+   "subject": "trebovanie-sparql-prakticheskiy-uroven",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-k-kompetencii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t157",
+   "subject": "trebovanie-formalnaya-logika-bazovyy-uroven",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-k-kompetencii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t158",
+   "subject": "trebovanie-modelirovanie-konteksta-prakticheskiy-uroven",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-k-kompetencii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t159",
+   "subject": "trebovanie-soglasovanie-ontologiy-bazovyy-uroven",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-k-kompetencii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t160",
+   "subject": "trebovanie-sistemnoe-myshlenie-bazovyy-uroven",
+   "predicate": "имеет тип",
+   "object": "class-trebovanie-k-kompetencii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t161",
+   "subject": "srez-rynka-truda-inzheneriya-znaniy",
+   "predicate": "имеет тип",
+   "object": "class-srez-rynka-truda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t162",
+   "subject": "vakansiya-inzhener-ontolog",
+   "predicate": "имеет тип",
+   "object": "class-vakansiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t163",
+   "subject": "vakansiya-veduschiy-inzhener-ontolog",
+   "predicate": "имеет тип",
+   "object": "class-vakansiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t164",
+   "subject": "vakansiya-kontekstnyy-inzhener",
+   "predicate": "имеет тип",
+   "object": "class-vakansiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t165",
+   "subject": "vakansiya-inzhener-znaniy",
+   "predicate": "имеет тип",
+   "object": "class-vakansiya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t166",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-ontologicheskogo-modelirovaniya",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel-vostrebovannosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t167",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-owl-i-shacl",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel-vostrebovannosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t168",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-sparql",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel-vostrebovannosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t169",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-modelirovaniya-konteksta",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel-vostrebovannosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t170",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-formalnoy-logiki",
+   "predicate": "имеет тип",
+   "object": "class-pokazatel-vostrebovannosti",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t171",
+   "subject": "signal-rost-doli-vakansiy-s-trebovaniem-owl-i-shacl",
+   "predicate": "имеет тип",
+   "object": "class-signal-rynka-truda",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t172",
+   "subject": "organizaciya-vektor",
+   "predicate": "имеет потребность",
+   "object": "potrebnost-soglasovat-modeli-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t173",
+   "subject": "organizaciya-vektor",
+   "predicate": "имеет потребность",
+   "object": "potrebnost-uchest-kontekst-ispolzovaniya-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t174",
+   "subject": "potrebnost-soglasovat-modeli-dannyh",
+   "predicate": "выражена требованием",
+   "object": "trebovanie-ontologicheskoe-modelirovanie-uverennyy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t175",
+   "subject": "potrebnost-uchest-kontekst-ispolzovaniya-dannyh",
+   "predicate": "выражена требованием",
+   "object": "trebovanie-modelirovanie-konteksta-prakticheskiy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t176",
+   "subject": "professiya-inzhener-ontolog",
+   "predicate": "профессия требует компетенцию",
+   "object": "kompetenciya-ontologicheskoe-modelirovanie",
+   "sourceId": "src-engineering-profile",
+   "sourceName": "Пример профиля инженерных ролей и компетенций",
+   "sourceType": "example",
+   "updatedAt": "2026-11-01"
+  },
+  {
+   "id": "t177",
+   "subject": "professiya-kontekstnyy-inzhener",
+   "predicate": "профессия требует компетенцию",
+   "object": "kompetenciya-modelirovanie-konteksta",
+   "sourceId": "src-engineering-profile",
+   "sourceName": "Пример профиля инженерных ролей и компетенций",
+   "sourceType": "example",
+   "updatedAt": "2026-11-01"
+  },
+  {
+   "id": "t178",
+   "subject": "professiya-kontekstnyy-inzhener",
+   "predicate": "профессия требует компетенцию",
+   "object": "kompetenciya-ontologicheskoe-modelirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t179",
+   "subject": "dolzhnost-inzhener-ontolog-greyd-2",
+   "predicate": "основана на профессии",
+   "object": "professiya-inzhener-ontolog",
+   "sourceId": "src-engineering-profile",
+   "sourceName": "Пример профиля инженерных ролей и компетенций",
+   "sourceType": "example",
+   "updatedAt": "2026-11-01"
+  },
+  {
+   "id": "t180",
+   "subject": "dolzhnost-kontekstnyy-inzhener-greyd-1",
+   "predicate": "основана на профессии",
+   "object": "professiya-kontekstnyy-inzhener",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t181",
+   "subject": "trudovaya-funkciya-proektirovanie-ontologii-predmetnoy-oblasti",
+   "predicate": "функция требует компетенцию",
+   "object": "kompetenciya-ontologicheskoe-modelirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t182",
+   "subject": "trudovaya-funkciya-modelirovanie-konteksta-ispolzovaniya-dannyh",
+   "predicate": "функция требует компетенцию",
+   "object": "kompetenciya-modelirovanie-konteksta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t183",
+   "subject": "kompetenciya-ontologicheskoe-modelirovanie",
+   "predicate": "включает знание",
+   "object": "znanie-formalnaya-logika",
+   "sourceId": "src-engineering-profile",
+   "sourceName": "Пример профиля инженерных ролей и компетенций",
+   "sourceType": "example",
+   "updatedAt": "2026-11-01"
+  },
+  {
+   "id": "t184",
+   "subject": "kompetenciya-ontologicheskoe-modelirovanie",
+   "predicate": "включает знание",
+   "object": "znanie-semanticheskie-tehnologii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t185",
+   "subject": "kompetenciya-ontologicheskoe-modelirovanie",
+   "predicate": "включает навык",
+   "object": "navyk-owl-i-shacl",
+   "sourceId": "src-engineering-profile",
+   "sourceName": "Пример профиля инженерных ролей и компетенций",
+   "sourceType": "example",
+   "updatedAt": "2026-11-01"
+  },
+  {
+   "id": "t186",
+   "subject": "kompetenciya-ontologicheskoe-modelirovanie",
+   "predicate": "включает навык",
+   "object": "navyk-sparql",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t187",
+   "subject": "kompetenciya-ontologicheskoe-modelirovanie",
+   "predicate": "включает навык",
+   "object": "navyk-soglasovanie-ontologiy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t188",
+   "subject": "kompetenciya-ontologicheskoe-modelirovanie",
+   "predicate": "включает способность",
+   "object": "sposobnost-sistemnoe-myshlenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t189",
+   "subject": "kompetenciya-modelirovanie-konteksta",
+   "predicate": "включает знание",
+   "object": "znanie-semanticheskie-tehnologii",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t190",
+   "subject": "kompetenciya-modelirovanie-konteksta",
+   "predicate": "включает навык",
+   "object": "navyk-kontekstnoe-modelirovanie",
+   "sourceId": "src-engineering-profile",
+   "sourceName": "Пример профиля инженерных ролей и компетенций",
+   "sourceType": "example",
+   "updatedAt": "2026-11-01"
+  },
+  {
+   "id": "t191",
+   "subject": "kompetenciya-modelirovanie-konteksta",
+   "predicate": "включает навык",
+   "object": "navyk-sparql",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t192",
+   "subject": "kompetenciya-modelirovanie-konteksta",
+   "predicate": "включает способность",
+   "object": "sposobnost-sistemnoe-myshlenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t193",
+   "subject": "trebovanie-ontologicheskoe-modelirovanie-uverennyy-uroven",
+   "predicate": "направлено на компетенцию",
+   "object": "kompetenciya-ontologicheskoe-modelirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t194",
+   "subject": "trebovanie-owl-i-shacl-prakticheskiy-uroven",
+   "predicate": "требование к навыку",
+   "object": "navyk-owl-i-shacl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t195",
+   "subject": "trebovanie-sparql-prakticheskiy-uroven",
+   "predicate": "требование к навыку",
+   "object": "navyk-sparql",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t196",
+   "subject": "trebovanie-formalnaya-logika-bazovyy-uroven",
+   "predicate": "требование к знанию",
+   "object": "znanie-formalnaya-logika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t197",
+   "subject": "trebovanie-modelirovanie-konteksta-prakticheskiy-uroven",
+   "predicate": "требование к навыку",
+   "object": "navyk-kontekstnoe-modelirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t198",
+   "subject": "trebovanie-soglasovanie-ontologiy-bazovyy-uroven",
+   "predicate": "требование к навыку",
+   "object": "navyk-soglasovanie-ontologiy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t199",
+   "subject": "trebovanie-sistemnoe-myshlenie-bazovyy-uroven",
+   "predicate": "требование к способности",
+   "object": "sposobnost-sistemnoe-myshlenie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t200",
+   "subject": "srez-rynka-truda-inzheneriya-znaniy",
+   "predicate": "включает вакансию",
+   "object": "vakansiya-inzhener-ontolog",
+   "sourceId": "src-market-engineering",
+   "sourceName": "Демонстрационная выборка вакансий «Инженерия знаний»",
+   "sourceType": "example",
+   "updatedAt": "2026-11-01"
+  },
+  {
+   "id": "t201",
+   "subject": "srez-rynka-truda-inzheneriya-znaniy",
+   "predicate": "включает вакансию",
+   "object": "vakansiya-veduschiy-inzhener-ontolog",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t202",
+   "subject": "srez-rynka-truda-inzheneriya-znaniy",
+   "predicate": "включает вакансию",
+   "object": "vakansiya-kontekstnyy-inzhener",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t203",
+   "subject": "srez-rynka-truda-inzheneriya-znaniy",
+   "predicate": "включает вакансию",
+   "object": "vakansiya-inzhener-znaniy",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t204",
+   "subject": "srez-rynka-truda-inzheneriya-znaniy",
+   "predicate": "содержит показатель",
+   "object": "pokazatel-dolya-vakansiy-s-trebovaniem-ontologicheskogo-modelirovaniya",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t205",
+   "subject": "srez-rynka-truda-inzheneriya-znaniy",
+   "predicate": "содержит показатель",
+   "object": "pokazatel-dolya-vakansiy-s-trebovaniem-owl-i-shacl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t206",
+   "subject": "srez-rynka-truda-inzheneriya-znaniy",
+   "predicate": "содержит показатель",
+   "object": "pokazatel-dolya-vakansiy-s-trebovaniem-sparql",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t207",
+   "subject": "srez-rynka-truda-inzheneriya-znaniy",
+   "predicate": "содержит показатель",
+   "object": "pokazatel-dolya-vakansiy-s-trebovaniem-modelirovaniya-konteksta",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t208",
+   "subject": "srez-rynka-truda-inzheneriya-znaniy",
+   "predicate": "содержит показатель",
+   "object": "pokazatel-dolya-vakansiy-s-trebovaniem-formalnoy-logiki",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t209",
+   "subject": "vakansiya-inzhener-ontolog",
+   "predicate": "вакансия по профессии",
+   "object": "professiya-inzhener-ontolog",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t210",
+   "subject": "vakansiya-veduschiy-inzhener-ontolog",
+   "predicate": "вакансия по профессии",
+   "object": "professiya-inzhener-ontolog",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t211",
+   "subject": "vakansiya-kontekstnyy-inzhener",
+   "predicate": "вакансия по профессии",
+   "object": "professiya-kontekstnyy-inzhener",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t212",
+   "subject": "vakansiya-inzhener-znaniy",
+   "predicate": "вакансия по профессии",
+   "object": "professiya-inzhener-ontolog",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t213",
+   "subject": "vakansiya-inzhener-ontolog",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-ontologicheskoe-modelirovanie-uverennyy-uroven",
+   "sourceId": "src-market-engineering",
+   "sourceName": "Демонстрационная выборка вакансий «Инженерия знаний»",
+   "sourceType": "example",
+   "updatedAt": "2026-11-01"
+  },
+  {
+   "id": "t214",
+   "subject": "vakansiya-inzhener-ontolog",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-owl-i-shacl-prakticheskiy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t215",
+   "subject": "vakansiya-inzhener-ontolog",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-sparql-prakticheskiy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t216",
+   "subject": "vakansiya-inzhener-ontolog",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-formalnaya-logika-bazovyy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t217",
+   "subject": "vakansiya-veduschiy-inzhener-ontolog",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-ontologicheskoe-modelirovanie-uverennyy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t218",
+   "subject": "vakansiya-veduschiy-inzhener-ontolog",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-owl-i-shacl-prakticheskiy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t219",
+   "subject": "vakansiya-veduschiy-inzhener-ontolog",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-soglasovanie-ontologiy-bazovyy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t220",
+   "subject": "vakansiya-veduschiy-inzhener-ontolog",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-sparql-prakticheskiy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t221",
+   "subject": "vakansiya-kontekstnyy-inzhener",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-modelirovanie-konteksta-prakticheskiy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t222",
+   "subject": "vakansiya-kontekstnyy-inzhener",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-ontologicheskoe-modelirovanie-uverennyy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t223",
+   "subject": "vakansiya-kontekstnyy-inzhener",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-sparql-prakticheskiy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t224",
+   "subject": "vakansiya-inzhener-znaniy",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-ontologicheskoe-modelirovanie-uverennyy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t225",
+   "subject": "vakansiya-inzhener-znaniy",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-owl-i-shacl-prakticheskiy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t226",
+   "subject": "vakansiya-inzhener-znaniy",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-modelirovanie-konteksta-prakticheskiy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t227",
+   "subject": "vakansiya-inzhener-znaniy",
+   "predicate": "вакансия содержит требование",
+   "object": "trebovanie-sistemnoe-myshlenie-bazovyy-uroven",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t228",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-ontologicheskogo-modelirovaniya",
+   "predicate": "показатель измеряет компетенцию",
+   "object": "kompetenciya-ontologicheskoe-modelirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t229",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-owl-i-shacl",
+   "predicate": "показатель измеряет навык",
+   "object": "navyk-owl-i-shacl",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t230",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-sparql",
+   "predicate": "показатель измеряет навык",
+   "object": "navyk-sparql",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t231",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-modelirovaniya-konteksta",
+   "predicate": "показатель измеряет навык",
+   "object": "navyk-kontekstnoe-modelirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t232",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-formalnoy-logiki",
+   "predicate": "показатель измеряет знание",
+   "object": "znanie-formalnaya-logika",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t233",
+   "subject": "pokazatel-dolya-vakansiy-s-trebovaniem-owl-i-shacl",
+   "predicate": "показатель обосновывает сигнал",
+   "object": "signal-rost-doli-vakansiy-s-trebovaniem-owl-i-shacl",
+   "sourceId": "src-market-engineering",
+   "sourceName": "Демонстрационная выборка вакансий «Инженерия знаний»",
+   "sourceType": "example",
+   "updatedAt": "2026-11-01"
+  },
+  {
+   "id": "t234",
+   "subject": "signal-rost-doli-vakansiy-s-trebovaniem-owl-i-shacl",
+   "predicate": "сигнал опирается на срез",
+   "object": "srez-rynka-truda-inzheneriya-znaniy",
+   "sourceId": "src-market-engineering",
+   "sourceName": "Демонстрационная выборка вакансий «Инженерия знаний»",
+   "sourceType": "example",
+   "updatedAt": "2026-11-01"
+  },
+  {
+   "id": "t235",
+   "subject": "signal-rost-doli-vakansiy-s-trebovaniem-owl-i-shacl",
+   "predicate": "меняет потребность",
+   "object": "potrebnost-soglasovat-modeli-dannyh",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  },
+  {
+   "id": "t236",
+   "subject": "signal-rost-doli-vakansiy-s-trebovaniem-owl-i-shacl",
+   "predicate": "указывает на компетенцию",
+   "object": "kompetenciya-ontologicheskoe-modelirovanie",
+   "sourceId": "",
+   "sourceName": "",
+   "sourceType": "",
+   "updatedAt": ""
+  }
+ ]
+}

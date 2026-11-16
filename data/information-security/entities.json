@@ -1,0 +1,982 @@
+{
+ "entities": [
+  {
+   "id": "administrirovanie-is",
+   "label": "Администрирование ИС",
+   "classCode": "Competence"
+  },
+  {
+   "id": "analiz-incidentov",
+   "label": "Анализ инцидентов",
+   "classCode": "Competence"
+  },
+  {
+   "id": "anna-kovaleva-ciso",
+   "label": "Анна Ковалёва, CISO",
+   "classCode": "SecurityRole"
+  },
+  {
+   "id": "antifishingovyy-trening",
+   "label": "Антифишинговый тренинг",
+   "classCode": "Training"
+  },
+  {
+   "id": "arm-operatora-asu-tp",
+   "label": "АРМ оператора АСУ ТП",
+   "classCode": "Endpoint"
+  },
+  {
+   "id": "asu-tp-tehnolayn",
+   "label": "АСУ ТП «ТехноЛайн»",
+   "classCode": "IndustrialControlSystem"
+  },
+  {
+   "id": "class-asu-tp-ot-aktiv",
+   "label": "АСУ ТП / ОТ-актив",
+   "classCode": "IndustrialControlSystem",
+   "isClass": true
+  },
+  {
+   "id": "ataka-na-cepochku-postavok-po",
+   "label": "Атака на цепочку поставок ПО",
+   "classCode": "Threat"
+  },
+  {
+   "id": "attestaciya-is-klientsoft",
+   "label": "Аттестация ИС «КлиентСофт»",
+   "classCode": "ComplianceAssessment"
+  },
+  {
+   "id": "attestaciya-is-po-trebovaniyam-bezopasnosti",
+   "label": "Аттестация ИС по требованиям безопасности",
+   "classCode": "Requirement"
+  },
+  {
+   "id": "audit-sootvetstviya-152-fz",
+   "label": "Аудит соответствия 152-ФЗ",
+   "classCode": "ComplianceAssessment"
+  },
+  {
+   "id": "autsors-soc-sekyurmonitor",
+   "label": "Аутсорс SOC «СекьюрМонитор»",
+   "classCode": "Vendor"
+  },
+  {
+   "id": "baza-personalnyh-dannyh-klientov",
+   "label": "База персональных данных клиентов",
+   "classCode": "DataAsset"
+  },
+  {
+   "id": "class-biznes-process",
+   "label": "Бизнес-процесс",
+   "classCode": "BusinessProcess",
+   "isClass": true
+  },
+  {
+   "id": "bokovoe-peremeschenie-t1021",
+   "label": "Боковое перемещение (T1021)",
+   "classCode": "AttackTechnique"
+  },
+  {
+   "id": "vosstanovit-dannye-iz-rezervnoy-kopii",
+   "label": "Восстановить данные из резервной копии",
+   "classCode": "ResponseAction"
+  },
+  {
+   "id": "vosstanovlenie",
+   "label": "Восстановление",
+   "classCode": "ControlCategory"
+  },
+  {
+   "id": "vysokiy",
+   "label": "Высокий",
+   "classCode": "Severity"
+  },
+  {
+   "id": "gost-r-56545-2015",
+   "label": "ГОСТ Р 56545-2015",
+   "classCode": "Standard"
+  },
+  {
+   "id": "gost-r-57580-1-2017",
+   "label": "ГОСТ Р 57580.1-2017",
+   "classCode": "Standard"
+  },
+  {
+   "id": "gost-r-iso-mek-27001-2022",
+   "label": "ГОСТ Р ИСО/МЭК 27001-2022",
+   "classCode": "Standard"
+  },
+  {
+   "id": "class-deystvie-po-reagirovaniyu",
+   "label": "Действие по реагированию",
+   "classCode": "ResponseAction",
+   "isClass": true
+  },
+  {
+   "id": "dmitriy-orlov-ib-analitik-soc",
+   "label": "Дмитрий Орлов, ИБ-аналитик SOC",
+   "classCode": "SecurityRole"
+  },
+  {
+   "id": "class-dogovor",
+   "label": "Договор",
+   "classCode": "Contract",
+   "isClass": true
+  },
+  {
+   "id": "dogovor-s-klientsoft",
+   "label": "Договор с «КлиентСофт»",
+   "classCode": "Contract"
+  },
+  {
+   "id": "dogovor-s-oblakosoft",
+   "label": "Договор с «ОблакоСофт»",
+   "classCode": "Contract"
+  },
+  {
+   "id": "dogovor-s-servispro",
+   "label": "Договор с «СервисПро»",
+   "classCode": "Contract"
+  },
+  {
+   "id": "dolya-obuchennyh-sotrudnikov",
+   "label": "Доля обученных сотрудников",
+   "classCode": "SecurityMetric"
+  },
+  {
+   "id": "ezhegodnoe-obuchenie-po-ib",
+   "label": "Ежегодное обучение по ИБ",
+   "classCode": "Training"
+  },
+  {
+   "id": "zakreplenie-cherez-servisnye-uchetnye-zapisi-t1078",
+   "label": "Закрепление через сервисные учётные записи (T1078)",
+   "classCode": "AttackTechnique"
+  },
+  {
+   "id": "zaschita-asu-tp",
+   "label": "Защита АСУ ТП",
+   "classCode": "Requirement"
+  },
+  {
+   "id": "zaschita-dannyh",
+   "label": "Защита данных",
+   "classCode": "ControlCategory"
+  },
+  {
+   "id": "izbytochnye-prava-servisnoy-uchetki",
+   "label": "Избыточные права сервисной учётки",
+   "classCode": "Vulnerability"
+  },
+  {
+   "id": "izolirovat-zarazhennyy-uzel",
+   "label": "Изолировать заражённый узел",
+   "classCode": "ResponseAction"
+  },
+  {
+   "id": "insayder",
+   "label": "Инсайдер",
+   "classCode": "ThreatActor"
+  },
+  {
+   "id": "insayderskaya-utechka",
+   "label": "Инсайдерская утечка",
+   "classCode": "Threat"
+  },
+  {
+   "id": "class-informacionnaya-sistema",
+   "label": "Информационная система",
+   "classCode": "InformationSystem",
+   "isClass": true
+  },
+  {
+   "id": "class-informacionnyy-resurs-dannye",
+   "label": "Информационный ресурс (данные)",
+   "classCode": "DataAsset",
+   "isClass": true
+  },
+  {
+   "id": "incident-komprometaciya-uz-administratora",
+   "label": "Инцидент «Компрометация УЗ администратора»",
+   "classCode": "Incident"
+  },
+  {
+   "id": "incident-utechka-pdn-iz-crm",
+   "label": "Инцидент «Утечка ПДн из CRM»",
+   "classCode": "Incident"
+  },
+  {
+   "id": "incident-ddos-na-vneshniy-portal",
+   "label": "Инцидент «DDoS на внешний портал»",
+   "classCode": "Incident"
+  },
+  {
+   "id": "incident-ransomware-na-fs-01",
+   "label": "Инцидент «Ransomware на FS-01»",
+   "classCode": "Incident"
+  },
+  {
+   "id": "class-incident-ib",
+   "label": "Инцидент ИБ",
+   "classCode": "Incident",
+   "isClass": true
+  },
+  {
+   "id": "class-istochnik-ugrozy",
+   "label": "Источник угрозы",
+   "classCode": "ThreatActor",
+   "isClass": true
+  },
+  {
+   "id": "kategorirovanie-obektov-kii",
+   "label": "Категорирование объектов КИИ",
+   "classCode": "Requirement"
+  },
+  {
+   "id": "class-kategoriya-informacii",
+   "label": "Категория информации",
+   "classCode": "DataCategory",
+   "isClass": true
+  },
+  {
+   "id": "class-kategoriya-mery",
+   "label": "Категория меры",
+   "classCode": "ControlCategory",
+   "isClass": true
+  },
+  {
+   "id": "class-kategoriya-riska",
+   "label": "Категория риска",
+   "classCode": "RiskCategory",
+   "isClass": true
+  },
+  {
+   "id": "kommercheskaya-tayna",
+   "label": "Коммерческая тайна",
+   "classCode": "DataCategory"
+  },
+  {
+   "id": "class-kompetenciya",
+   "label": "Компетенция",
+   "classCode": "Competence",
+   "isClass": true
+  },
+  {
+   "id": "komprometaciya-uchetnyh-dannyh",
+   "label": "Компрометация учётных данных",
+   "classCode": "Threat"
+  },
+  {
+   "id": "komprometaciya-cepochki-postavok-po",
+   "label": "Компрометация цепочки поставок ПО",
+   "classCode": "Risk"
+  },
+  {
+   "id": "class-konechnoe-ustroystvo",
+   "label": "Конечное устройство",
+   "classCode": "Endpoint",
+   "isClass": true
+  },
+  {
+   "id": "kontrol-privilegirovannogo-dostupa-pam",
+   "label": "Контроль привилегированного доступа (PAM)",
+   "classCode": "TechnicalControl"
+  },
+  {
+   "id": "kriticheskiy",
+   "label": "Критический",
+   "classCode": "Severity"
+  },
+  {
+   "id": "kurs-po-zaschite-personalnyh-dannyh",
+   "label": "Курс по защите персональных данных",
+   "classCode": "Training"
+  },
+  {
+   "id": "mariya-lebedeva-vladelec-aktiva",
+   "label": "Мария Лебедева, владелец актива",
+   "classCode": "SecurityRole"
+  },
+  {
+   "id": "mnogofaktornaya-autentifikaciya-mfa",
+   "label": "Многофакторная аутентификация (MFA)",
+   "classCode": "TechnicalControl"
+  },
+  {
+   "id": "monitoring-i-obnaruzhenie",
+   "label": "Мониторинг и обнаружение",
+   "classCode": "ControlCategory"
+  },
+  {
+   "id": "monitoring-soc",
+   "label": "Мониторинг SOC",
+   "classCode": "Service"
+  },
+  {
+   "id": "narushenie-dostupnosti",
+   "label": "Нарушение доступности",
+   "classCode": "RiskCategory"
+  },
+  {
+   "id": "narushenie-celostnosti",
+   "label": "Нарушение целостности",
+   "classCode": "RiskCategory"
+  },
+  {
+   "id": "nedobrosovestnyy-podryadchik",
+   "label": "Недобросовестный подрядчик",
+   "classCode": "ThreatActor"
+  },
+  {
+   "id": "nepropatchennaya-os-na-fs-01",
+   "label": "Непропатченная ОС на FS-01",
+   "classCode": "Vulnerability"
+  },
+  {
+   "id": "nesankcionirovannyy-dostup-k-asu-tp",
+   "label": "Несанкционированный доступ к АСУ ТП",
+   "classCode": "Risk"
+  },
+  {
+   "id": "nesootvetstvie-trebovaniyam",
+   "label": "Несоответствие требованиям",
+   "classCode": "RiskCategory"
+  },
+  {
+   "id": "nizkiy",
+   "label": "Низкий",
+   "classCode": "Severity"
+  },
+  {
+   "id": "class-normativnyy-akt",
+   "label": "Нормативный акт",
+   "classCode": "Regulation",
+   "isClass": true
+  },
+  {
+   "id": "noutbuk-petra-zaharova",
+   "label": "Ноутбук Петра Захарова",
+   "classCode": "Endpoint"
+  },
+  {
+   "id": "obespechenie-konfidencialnosti-pdn",
+   "label": "Обеспечение конфиденциальности ПДн",
+   "classCode": "Requirement"
+  },
+  {
+   "id": "obespechenie-nepreryvnosti-bcp-drp",
+   "label": "Обеспечение непрерывности (BCP/DRP)",
+   "classCode": "SecurityProcess"
+  },
+  {
+   "id": "oblako-oblakosoft",
+   "label": "Облако «ОблакоСофт»",
+   "classCode": "CloudService"
+  },
+  {
+   "id": "oblachnyy-provayder-oblakosoft",
+   "label": "Облачный провайдер «ОблакоСофт»",
+   "classCode": "Vendor"
+  },
+  {
+   "id": "class-oblachnyy-servis",
+   "label": "Облачный сервис",
+   "classCode": "CloudService",
+   "isClass": true
+  },
+  {
+   "id": "oblachnyy-servis-crm",
+   "label": "Облачный сервис CRM",
+   "classCode": "Service"
+  },
+  {
+   "id": "obrabotka-zayavok-klientov",
+   "label": "Обработка заявок клиентов",
+   "classCode": "BusinessProcess"
+  },
+  {
+   "id": "obuchenie-i-osvedomlennost",
+   "label": "Обучение и осведомлённость",
+   "classCode": "ControlCategory"
+  },
+  {
+   "id": "class-obuchenie-po-ib",
+   "label": "Обучение по ИБ",
+   "classCode": "Training",
+   "isClass": true
+  },
+  {
+   "id": "obuchenie-sotrudnikov",
+   "label": "Обучение сотрудников",
+   "classCode": "OrganizationalControl"
+  },
+  {
+   "id": "class-organizacionnaya-mera",
+   "label": "Организационная мера",
+   "classCode": "OrganizationalControl",
+   "isClass": true
+  },
+  {
+   "id": "osvedomlennost-o-fishinge",
+   "label": "Осведомлённость о фишинге",
+   "classCode": "Competence"
+  },
+  {
+   "id": "otklyuchit-skomprometirovannuyu-uchetnuyu-zapis",
+   "label": "Отключить скомпрометированную учётную запись",
+   "classCode": "ResponseAction"
+  },
+  {
+   "id": "otsutstvie-mfa-na-vpn",
+   "label": "Отсутствие MFA на VPN",
+   "classCode": "Vulnerability"
+  },
+  {
+   "id": "class-ocenka-sootvetstviya",
+   "label": "Оценка соответствия",
+   "classCode": "ComplianceAssessment",
+   "isClass": true
+  },
+  {
+   "id": "ocenka-sootvetstviya-gost-r-57580",
+   "label": "Оценка соответствия ГОСТ Р 57580",
+   "classCode": "ComplianceAssessment"
+  },
+  {
+   "id": "personalnye-dannye",
+   "label": "Персональные данные",
+   "classCode": "DataCategory"
+  },
+  {
+   "id": "petr-zaharov-polzovatel",
+   "label": "Пётр Захаров, пользователь",
+   "classCode": "SecurityRole"
+  },
+  {
+   "id": "class-plan-reagirovaniya",
+   "label": "План реагирования",
+   "classCode": "ResponsePlaybook",
+   "isClass": true
+  },
+  {
+   "id": "plan-reagirovaniya-na-komprometaciyu-uchetnoy-zapisi",
+   "label": "План реагирования на компрометацию учётной записи",
+   "classCode": "ResponsePlaybook"
+  },
+  {
+   "id": "plan-reagirovaniya-na-utechku-pdn",
+   "label": "План реагирования на утечку ПДн",
+   "classCode": "ResponsePlaybook"
+  },
+  {
+   "id": "plan-reagirovaniya-na-ransomware",
+   "label": "План реагирования на ransomware",
+   "classCode": "ResponsePlaybook"
+  },
+  {
+   "id": "podryadchik-servispro",
+   "label": "Подрядчик «СервисПро»",
+   "classCode": "Vendor"
+  },
+  {
+   "id": "class-pokazatel-ib",
+   "label": "Показатель ИБ",
+   "classCode": "SecurityMetric",
+   "isClass": true
+  },
+  {
+   "id": "pokrytie-edr",
+   "label": "Покрытие EDR",
+   "classCode": "SecurityMetric"
+  },
+  {
+   "id": "class-politika-ib",
+   "label": "Политика ИБ",
+   "classCode": "SecurityPolicy",
+   "isClass": true
+  },
+  {
+   "id": "politika-informacionnoy-bezopasnosti",
+   "label": "Политика информационной безопасности",
+   "classCode": "SecurityPolicy"
+  },
+  {
+   "id": "politika-reagirovaniya-na-incidenty",
+   "label": "Политика реагирования на инциденты",
+   "classCode": "SecurityPolicy"
+  },
+  {
+   "id": "politika-rezervnogo-kopirovaniya",
+   "label": "Политика резервного копирования",
+   "classCode": "SecurityPolicy"
+  },
+  {
+   "id": "politika-upravleniya-dostupom",
+   "label": "Политика управления доступом",
+   "classCode": "SecurityPolicy"
+  },
+  {
+   "id": "class-posledstvie",
+   "label": "Последствие",
+   "classCode": "Consequence",
+   "isClass": true
+  },
+  {
+   "id": "class-postavschik",
+   "label": "Поставщик",
+   "classCode": "Vendor",
+   "isClass": true
+  },
+  {
+   "id": "postavschik-po-klientsoft",
+   "label": "Поставщик ПО «КлиентСофт»",
+   "classCode": "Vendor"
+  },
+  {
+   "id": "prikaz-fstek-rossii-17",
+   "label": "Приказ ФСТЭК России №17",
+   "classCode": "Regulation"
+  },
+  {
+   "id": "prikaz-fstek-rossii-21",
+   "label": "Приказ ФСТЭК России №21",
+   "classCode": "Regulation"
+  },
+  {
+   "id": "prikaz-fstek-rossii-239",
+   "label": "Приказ ФСТЭК России №239",
+   "classCode": "Regulation"
+  },
+  {
+   "id": "provesti-rassledovanie-incidenta",
+   "label": "Провести расследование инцидента",
+   "classCode": "ResponseAction"
+  },
+  {
+   "id": "programma-upravleniya-riskami",
+   "label": "Программа управления рисками",
+   "classCode": "OrganizationalControl"
+  },
+  {
+   "id": "promyshlennaya-tayna",
+   "label": "Промышленная тайна",
+   "classCode": "DataCategory"
+  },
+  {
+   "id": "prostoy-biznes-processa",
+   "label": "Простой бизнес-процесса",
+   "classCode": "Consequence"
+  },
+  {
+   "id": "prostoy-erp-iz-za-ransomware",
+   "label": "Простой ERP из-за ransomware",
+   "classCode": "Risk"
+  },
+  {
+   "id": "class-process-ib",
+   "label": "Процесс ИБ",
+   "classCode": "SecurityProcess",
+   "isClass": true
+  },
+  {
+   "id": "raschet-zarabotnoy-platy",
+   "label": "Расчёт заработной платы",
+   "classCode": "BusinessProcess"
+  },
+  {
+   "id": "reagirovanie-na-incidenty",
+   "label": "Реагирование на инциденты",
+   "classCode": "Competence"
+  },
+  {
+   "id": "regulyarnoe-skanirovanie-uyazvimostey",
+   "label": "Регулярное сканирование уязвимостей",
+   "classCode": "TechnicalControl"
+  },
+  {
+   "id": "class-regulyator",
+   "label": "Регулятор",
+   "classCode": "Regulator",
+   "isClass": true
+  },
+  {
+   "id": "regulyatornyy-shtraf",
+   "label": "Регуляторный штраф",
+   "classCode": "Consequence"
+  },
+  {
+   "id": "rezervnoe-kopirovanie",
+   "label": "Резервное копирование",
+   "classCode": "TechnicalControl"
+  },
+  {
+   "id": "reputacionnyy-uscherb",
+   "label": "Репутационный ущерб",
+   "classCode": "Consequence"
+  },
+  {
+   "id": "risk-zavisimosti-ot-oblachnogo-provaydera",
+   "label": "Риск зависимости от облачного провайдера",
+   "classCode": "SupplyChainRisk"
+  },
+  {
+   "id": "class-risk-ib",
+   "label": "Риск ИБ",
+   "classCode": "Risk",
+   "isClass": true
+  },
+  {
+   "id": "risk-komprometacii-obnovleniy-po",
+   "label": "Риск компрометации обновлений ПО",
+   "classCode": "SupplyChainRisk"
+  },
+  {
+   "id": "risk-tretey-storony",
+   "label": "Риск третьей стороны",
+   "classCode": "RiskCategory"
+  },
+  {
+   "id": "risk-utechki-cherez-podryadchika",
+   "label": "Риск утечки через подрядчика",
+   "classCode": "SupplyChainRisk"
+  },
+  {
+   "id": "class-risk-cepochki-postavok",
+   "label": "Риск цепочки поставок",
+   "classCode": "SupplyChainRisk",
+   "isClass": true
+  },
+  {
+   "id": "class-rol-v-ib",
+   "label": "Роль в ИБ",
+   "classCode": "SecurityRole",
+   "isClass": true
+  },
+  {
+   "id": "roskomnadzor",
+   "label": "Роскомнадзор",
+   "classCode": "Regulator"
+  },
+  {
+   "id": "segment-ofisnoy-seti",
+   "label": "Сегмент офисной сети",
+   "classCode": "NetworkSegment"
+  },
+  {
+   "id": "class-segment-seti",
+   "label": "Сегмент сети",
+   "classCode": "NetworkSegment",
+   "isClass": true
+  },
+  {
+   "id": "segment-seti-asu-tp",
+   "label": "Сегмент сети АСУ ТП",
+   "classCode": "NetworkSegment"
+  },
+  {
+   "id": "segmentaciya-seti",
+   "label": "Сегментация сети",
+   "classCode": "TechnicalControl"
+  },
+  {
+   "id": "sergey-volkov-administrator-is",
+   "label": "Сергей Волков, администратор ИС",
+   "classCode": "SecurityRole"
+  },
+  {
+   "id": "setevaya-zaschita",
+   "label": "Сетевая защита",
+   "classCode": "ControlCategory"
+  },
+  {
+   "id": "slabaya-segmentaciya-seti",
+   "label": "Слабая сегментация сети",
+   "classCode": "Vulnerability"
+  },
+  {
+   "id": "sredniy",
+   "label": "Средний",
+   "classCode": "Severity"
+  },
+  {
+   "id": "sryv-sla-oblachnogo-provaydera",
+   "label": "Срыв SLA облачного провайдера",
+   "classCode": "Risk"
+  },
+  {
+   "id": "class-standart",
+   "label": "Стандарт",
+   "classCode": "Standard",
+   "isClass": true
+  },
+  {
+   "id": "class-tehnika-ataki",
+   "label": "Техника атаки",
+   "classCode": "AttackTechnique",
+   "isClass": true
+  },
+  {
+   "id": "class-tehnicheskaya-mera",
+   "label": "Техническая мера",
+   "classCode": "TechnicalControl",
+   "isClass": true
+  },
+  {
+   "id": "tehnicheskaya-podderzhka-klientov",
+   "label": "Техническая поддержка клиентов",
+   "classCode": "BusinessProcess"
+  },
+  {
+   "id": "tehnicheskaya-podderzhka-erp",
+   "label": "Техническая поддержка ERP",
+   "classCode": "Service"
+  },
+  {
+   "id": "class-trebovanie",
+   "label": "Требование",
+   "classCode": "Requirement",
+   "isClass": true
+  },
+  {
+   "id": "uvedomit-roskomnadzor",
+   "label": "Уведомить Роскомнадзор",
+   "classCode": "ResponseAction"
+  },
+  {
+   "id": "uvedomlenie-roskomnadzora-ob-utechke",
+   "label": "Уведомление Роскомнадзора об утечке",
+   "classCode": "Requirement"
+  },
+  {
+   "id": "class-ugroza",
+   "label": "Угроза",
+   "classCode": "Threat",
+   "isClass": true
+  },
+  {
+   "id": "uz-admin-volkov",
+   "label": "УЗ admin_volkov",
+   "classCode": "Account"
+  },
+  {
+   "id": "uz-petr-zakharov",
+   "label": "УЗ petr.zakharov",
+   "classCode": "Account"
+  },
+  {
+   "id": "uz-service-erp",
+   "label": "УЗ service_erp",
+   "classCode": "Account"
+  },
+  {
+   "id": "uz-svc-backup",
+   "label": "УЗ svc_backup",
+   "classCode": "Account"
+  },
+  {
+   "id": "upravlenie-dostupami-iam",
+   "label": "Управление доступами (IAM)",
+   "classCode": "SecurityProcess"
+  },
+  {
+   "id": "upravlenie-dostupom",
+   "label": "Управление доступом",
+   "classCode": "ControlCategory"
+  },
+  {
+   "id": "upravlenie-dostupom-k-is",
+   "label": "Управление доступом к ИС",
+   "classCode": "Requirement"
+  },
+  {
+   "id": "upravlenie-incidentami",
+   "label": "Управление инцидентами",
+   "classCode": "SecurityProcess"
+  },
+  {
+   "id": "upravlenie-riskami-ib",
+   "label": "Управление рисками ИБ",
+   "classCode": "SecurityProcess"
+  },
+  {
+   "id": "upravlenie-tehnologicheskim-processom",
+   "label": "Управление технологическим процессом",
+   "classCode": "BusinessProcess"
+  },
+  {
+   "id": "upravlenie-uyazvimostyami",
+   "label": "Управление уязвимостями",
+   "classCode": "SecurityProcess"
+  },
+  {
+   "id": "upravlenie-uyazvimostyami-i-patchami",
+   "label": "Управление уязвимостями и патчами",
+   "classCode": "ControlCategory"
+  },
+  {
+   "id": "class-uroven-kritichnosti",
+   "label": "Уровень критичности",
+   "classCode": "Severity",
+   "isClass": true
+  },
+  {
+   "id": "usilit-monitoring",
+   "label": "Усилить мониторинг",
+   "classCode": "ResponseAction"
+  },
+  {
+   "id": "class-usluga",
+   "label": "Услуга",
+   "classCode": "Service",
+   "isClass": true
+  },
+  {
+   "id": "ustarevshie-biblioteki-v-crm",
+   "label": "Устаревшие библиотеки в CRM",
+   "classCode": "Vulnerability"
+  },
+  {
+   "id": "utechka-dannyh",
+   "label": "Утечка данных",
+   "classCode": "RiskCategory"
+  },
+  {
+   "id": "utechka-personalnyh-dannyh-klientov",
+   "label": "Утечка персональных данных клиентов",
+   "classCode": "Risk"
+  },
+  {
+   "id": "utrata-dannyh",
+   "label": "Утрата данных",
+   "classCode": "Consequence"
+  },
+  {
+   "id": "class-uchetnaya-zapis",
+   "label": "Учётная запись",
+   "classCode": "Account",
+   "isClass": true
+  },
+  {
+   "id": "class-uyazvimost",
+   "label": "Уязвимость",
+   "classCode": "Vulnerability",
+   "isClass": true
+  },
+  {
+   "id": "faylovyy-server-fs-01",
+   "label": "Файловый сервер FS-01",
+   "classCode": "InformationSystem"
+  },
+  {
+   "id": "federalnyy-zakon-152-fz",
+   "label": "Федеральный закон №152-ФЗ",
+   "classCode": "Regulation"
+  },
+  {
+   "id": "federalnyy-zakon-187-fz-kii",
+   "label": "Федеральный закон №187-ФЗ (КИИ)",
+   "classCode": "Regulation"
+  },
+  {
+   "id": "finansovye-poteri",
+   "label": "Финансовые потери",
+   "classCode": "Consequence"
+  },
+  {
+   "id": "fishing-t1566",
+   "label": "Фишинг (T1566)",
+   "classCode": "AttackTechnique"
+  },
+  {
+   "id": "fishingovaya-rassylka",
+   "label": "Фишинговая рассылка",
+   "classCode": "Threat"
+  },
+  {
+   "id": "fsb-rossii",
+   "label": "ФСБ России",
+   "classCode": "Regulator"
+  },
+  {
+   "id": "fstek-rossii",
+   "label": "ФСТЭК России",
+   "classCode": "Regulator"
+  },
+  {
+   "id": "haktivist",
+   "label": "Хактивист",
+   "classCode": "ThreatActor"
+  },
+  {
+   "id": "hischenie-dannyh",
+   "label": "Хищение данных",
+   "classCode": "Threat"
+  },
+  {
+   "id": "chislo-utechek-pdn",
+   "label": "Число утечек ПДн",
+   "classCode": "SecurityMetric"
+  },
+  {
+   "id": "shtraf-za-narushenie-152-fz",
+   "label": "Штраф за нарушение 152-ФЗ",
+   "classCode": "Risk"
+  },
+  {
+   "id": "ekspluataciya-publichnogo-prilozheniya-t1190",
+   "label": "Эксплуатация публичного приложения (T1190)",
+   "classCode": "AttackTechnique"
+  },
+  {
+   "id": "eksfiltraciya-dannyh-t1041",
+   "label": "Эксфильтрация данных (T1041)",
+   "classCode": "AttackTechnique"
+  },
+  {
+   "id": "apt-gruppirovka-temnyy-shturm",
+   "label": "APT-группировка «Тёмный штурм»",
+   "classCode": "ThreatActor"
+  },
+  {
+   "id": "crm-klientsoft",
+   "label": "CRM «КлиентСофт»",
+   "classCode": "InformationSystem"
+  },
+  {
+   "id": "ddos-ataka",
+   "label": "DDoS-атака",
+   "classCode": "Threat"
+  },
+  {
+   "id": "dlp-sistema",
+   "label": "DLP-система",
+   "classCode": "TechnicalControl"
+  },
+  {
+   "id": "edr-na-konechnyh-ustroystvah",
+   "label": "EDR на конечных устройствах",
+   "classCode": "TechnicalControl"
+  },
+  {
+   "id": "erp-globalerp",
+   "label": "ERP «ГлобалERP»",
+   "classCode": "InformationSystem"
+  },
+  {
+   "id": "mttr-incidentov",
+   "label": "MTTR инцидентов",
+   "classCode": "SecurityMetric"
+  },
+  {
+   "id": "ransomware-ataka",
+   "label": "Ransomware-атака",
+   "classCode": "Threat"
+  },
+  {
+   "id": "siem-monitoring",
+   "label": "SIEM-мониторинг",
+   "classCode": "TechnicalControl"
+  }
+ ]
+}
